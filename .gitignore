@@ -1,0 +1,7 @@
+robohand_ws/build/
+robohand_ws/install/
+robohand_ws/log/
+*.pyc
+__pycache__/
+.vscode/
+.idea/

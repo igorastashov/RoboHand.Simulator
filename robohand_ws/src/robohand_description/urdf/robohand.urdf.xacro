@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="robohand_eb300_approx">
+
+  <!-- Override at launch: xacro:arg name="config_file" default="..." -->
+  <xacro:arg name="config_file" default="$(find robohand_description)/config/kine_eb300_approx.yaml"/>
+
+  <!-- Defaults match kine_eb300_approx.yaml; xacro properties for launch-time override -->
+  <xacro:property name="base_height" value="0.08"/>
+  <xacro:property name="L1" value="0.095"/>
+  <xacro:property name="L2" value="0.165"/>
+  <xacro:property name="L3" value="0.145"/>
+  <xacro:property name="L4" value="0.055"/>
+  <xacro:property name="L5" value="0.050"/>
+  <xacro:property name="L6" value="0.040"/>
+  <xacro:property name="link_radius" value="0.035"/>
+  <xacro:property name="grip_stroke" value="0.025"/>
+  <xacro:property name="finger_len" value="0.045"/>
+
+  <xacro:macro name="cylinder_link" params="name length mass">
+    <link name="${name}">
+      <visual>
+        <origin xyz="0 0 ${length/2}" rpy="0 0 0"/>
+        <geometry><cylinder radius="${link_radius}" length="${length}"/></geometry>
+        <material name="grey"><color rgba="0.6 0.6 0.65 1"/></material>
+      </visual>
+      <collision>
+        <origin xyz="0 0 ${length/2}" rpy="0 0 0"/>
+        <geometry><cylinder radius="${link_radius}" length="${length}"/></geometry>
+      </collision>
+      <inertial>
+        <origin xyz="0 0 ${length/2}" rpy="0 0 0"/>
+        <mass value="${mass}"/>
+        <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      </inertial>
+    </link>
+  </xacro:macro>
+
+  <xacro:macro name="revolute_joint" params="name parent child xyz rpy axis lower upper">
+    <joint name="${name}" type="revolute">
+      <parent link="${parent}"/>
+      <child link="${child}"/>
+      <origin xyz="${xyz}" rpy="${rpy}"/>
+      <axis xyz="${axis}"/>
+      <limit lower="${lower}" upper="${upper}" effort="10" velocity="1.5"/>
+      <dynamics damping="0.1" friction="0.05"/>
+    </joint>
+  </xacro:macro>
+
+  <!-- World / base -->
+  <link name="base_link">
+    <visual>
+      <origin xyz="0 0 ${base_height/2}" rpy="0 0 0"/>
+      <geometry><cylinder radius="0.08" length="${base_height}"/></geometry>
+      <material name="dark"><color rgba="0.15 0.15 0.18 1"/></material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 ${base_height/2}" rpy="0 0 0"/>
+      <geometry><cylinder radius="0.08" length="${base_height}"/></geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 ${base_height/2}" rpy="0 0 0"/>
+      <mass value="1.2"/>
+      <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.01" iyz="0" izz="0.01"/>
+    </inertial>
+  </link>
+
+  <xacro:cylinder_link name="link1" length="${L1}" mass="0.8"/>
+  <xacro:revolute_joint name="J1" parent="base_link" child="link1"
+    xyz="0 0 ${base_height}" rpy="0 0 0" axis="0 0 1"
+    lower="-3.14159" upper="3.14159"/>
+
+  <xacro:cylinder_link name="link2" length="${L2}" mass="0.6"/>
+  <xacro:revolute_joint name="J2" parent="link1" child="link2"
+    xyz="0 0 ${L1}" rpy="0 0 0" axis="0 1 0"
+    lower="-1.5708" upper="1.5708"/>
+
+  <xacro:cylinder_link name="link3" length="${L3}" mass="0.45"/>
+  <xacro:revolute_joint name="J3" parent="link2" child="link3"
+    xyz="0 0 ${L2}" rpy="0 0 0" axis="0 1 0"
+    lower="-2.0944" upper="2.0944"/>
+
+  <xacro:cylinder_link name="link4" length="${L4}" mass="0.15"/>
+  <xacro:revolute_joint name="J4" parent="link3" child="link4"
+    xyz="0 0 ${L3}" rpy="0 0 0" axis="0 0 1"
+    lower="-3.14159" upper="3.14159"/>
+
+  <xacro:cylinder_link name="link5" length="${L5}" mass="0.12"/>
+  <xacro:revolute_joint name="J5" parent="link4" child="link5"
+    xyz="0 0 ${L4}" rpy="0 0 0" axis="0 1 0"
+    lower="-1.5708" upper="1.5708"/>
+
+  <xacro:cylinder_link name="link6" length="${L6}" mass="0.10"/>
+  <xacro:revolute_joint name="J6" parent="link5" child="link6"
+    xyz="0 0 ${L5}" rpy="0 0 0" axis="0 0 1"
+    lower="-3.14159" upper="3.14159"/>
+
+  <!-- Tool flange + virtual gripper -->
+  <link name="tool_link">
+    <visual>
+      <geometry><sphere radius="0.02"/></geometry>
+      <material name="orange"><color rgba="1 0.4 0 1"/></material>
+    </visual>
+    <collision><geometry><sphere radius="0.02"/></geometry></collision>
+    <inertial>
+      <mass value="0.05"/>
+      <inertia ixx="0.0001" ixy="0" ixz="0" iyy="0.0001" iyz="0" izz="0.0001"/>
+    </inertial>
+  </link>
+  <joint name="tool_fixed" type="fixed">
+    <parent link="link6"/>
+    <child link="tool_link"/>
+    <origin xyz="0 0 ${L6}" rpy="0 0 0"/>
+  </joint>
+
+  <link name="gripper_left">
+    <visual>
+      <origin xyz="0 0 ${finger_len/2}" rpy="0 0 0"/>
+      <geometry><box size="0.012 0.008 ${finger_len}"/></geometry>
+      <material name="black"><color rgba="0.1 0.1 0.1 1"/></material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 ${finger_len/2}" rpy="0 0 0"/>
+      <geometry><box size="0.012 0.008 ${finger_len}"/></geometry>
+    </collision>
+    <inertial>
+      <mass value="0.02"/>
+      <inertia ixx="0.00001" ixy="0" ixz="0" iyy="0.00001" iyz="0" izz="0.00001"/>
+    </inertial>
+  </link>
+
+  <link name="gripper_right">
+    <visual>
+      <origin xyz="0 0 ${finger_len/2}" rpy="0 0 0"/>
+      <geometry><box size="0.012 0.008 ${finger_len}"/></geometry>
+      <material name="black"><color rgba="0.1 0.1 0.1 1"/></material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 ${finger_len/2}" rpy="0 0 0"/>
+      <geometry><box size="0.012 0.008 ${finger_len}"/></geometry>
+    </collision>
+    <inertial>
+      <mass value="0.02"/>
+      <inertia ixx="0.00001" ixy="0" ixz="0" iyy="0.00001" iyz="0" izz="0.00001"/>
+    </inertial>
+  </link>
+
+  <joint name="gripper_joint" type="prismatic">
+    <parent link="tool_link"/>
+    <child link="gripper_left"/>
+    <origin xyz="0 0.015 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="0" upper="${grip_stroke}" effort="20" velocity="0.05"/>
+  </joint>
+
+  <joint name="gripper_joint_mimic" type="prismatic">
+    <parent link="tool_link"/>
+    <child link="gripper_right"/>
+    <origin xyz="0 -0.015 0" rpy="0 0 0"/>
+    <axis xyz="0 -1 0"/>
+    <limit lower="0" upper="${grip_stroke}" effort="20" velocity="0.05"/>
+    <mimic joint="gripper_joint" multiplier="1" offset="0"/>
+  </joint>
+
+</robot>

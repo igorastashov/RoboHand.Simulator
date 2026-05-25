@@ -1,0 +1,47 @@
+# Approximate EB300 kinematics — edit and rebuild.
+# Units: meters, radians.
+# Measure from assembly/STL and replace these defaults.
+
+robot_name: robohand_eb300_approx
+
+# Vertical offset from world to J1 axis
+base_height: 0.08
+
+# Link lengths along joint chain (parent joint -> child link extent)
+link_lengths:
+  L1: 0.095   # base column / shoulder offset
+  L2: 0.165   # upper arm
+  L3: 0.145   # forearm
+  L4: 0.055   # wrist 1
+  L5: 0.050   # wrist 2
+  L6: 0.040   # wrist 3 -> tool flange
+
+# Link cross-section (visual/collision primitive radius)
+link_radius: 0.035
+
+# Joint limits [rad] — software limits; endstops are firmware-only for now
+joint_limits:
+  J1: { min: -3.14159, max: 3.14159 }
+  J2: { min: -1.5708, max: 1.5708 }
+  J3: { min: -2.0944, max: 2.0944 }
+  J4: { min: -3.14159, max: 3.14159 }
+  J5: { min: -1.5708, max: 1.5708 }
+  J6: { min: -3.14159, max: 3.14159 }
+
+# Virtual parallel gripper (single actuated joint + mimic)
+gripper:
+  finger_length: 0.045
+  finger_width: 0.012
+  stroke: 0.025          # max opening per finger (prismatic)
+  max_effort: 20.0
+
+# Rough masses for Gazebo phase (kg)
+link_mass:
+  base: 1.2
+  L1: 0.8
+  L2: 0.6
+  L3: 0.45
+  L4: 0.15
+  L5: 0.12
+  L6: 0.10
+  gripper: 0.08
