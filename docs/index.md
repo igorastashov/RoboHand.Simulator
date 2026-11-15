@@ -8,7 +8,7 @@ updated: 2026-11-15
 
 | Документ | Назначение |
 |---|---|
-| [Локальная разработка и дополнительный GPU-сервер](<../../../../../_ПЛАНЫ_/embedded-robotics-market-research/research/projects/robohand/remote-gpu-workspace-2026-11-15.md>) | Частный план ресурсов и переключения стенда; работа остаётся на этом ПК, SSH-доступ ещё не восстановлен |
+| [Локальная разработка и дополнительный GPU-сервер](<../../../../../_ПЛАНЫ_/embedded-robotics-market-research/research/projects/robohand/remote-gpu-workspace-2026-11-15.md>) | Частный план ресурсов/переключения стенда; работа остаётся на этом ПК, сервер осмотрен, требуется решение по NVML mismatch |
 | [Docker на E: и CUDA smoke](research/2026-11-15-runtime-gpu-smoke.md) | Docker/CUDA/Newton и два PPO teacher updates прошли; RTX vision получил Vulkan error в WSL2, нужен совместимый host |
 | [URDF и MuJoCo простыми словами](urdf-mujoco-explained.md) | Как из CAD получены звенья/суставы, что содержит текущая сцена и как начать ручной осмотр |
 | [Отдельная рабочая сборка LATEST](cad-reviews/2026-11-15-latest-package/cad-agent-report.md) | Один корневой A3D, 23 внутренние зависимости, повторное открытие и сохранность исходников |
