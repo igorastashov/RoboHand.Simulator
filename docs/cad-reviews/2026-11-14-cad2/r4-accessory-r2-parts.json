@@ -1,0 +1,264 @@
+{
+  "scope": "revert unsaved own accessory attempt to savedR3; build3 corrected mount nativeparts",
+  "parts": [
+    {
+      "key": "Phone-low-arm-NOMINAL-R2",
+      "inspection": {
+        "document_id": "083102ae2f5c4e498d8ae31219fd2848",
+        "name": "Phone_low_arm_NOMINAL_Z8_12",
+        "bounds_raw": [
+          true,
+          20.0,
+          -10.0,
+          8.0,
+          124.0,
+          10.0,
+          12.0
+        ],
+        "bounds_units": "mm",
+        "measurements": {
+          "volume_mm3": 8319.999999999998,
+          "area_mm2": 5152.0,
+          "mass_kg": 0.06536191999999999,
+          "center_mm": [
+            72.0,
+            0.0,
+            10.0
+          ],
+          "body_count": 1
+        },
+        "document": {
+          "handle": "b89a0a3367bf4429bcd15a2eb77ad43b",
+          "interface": "ksDocument3D"
+        },
+        "part": {
+          "handle": "999d12d0f1a1487c9ee59d924a00d729",
+          "interface": "ksPart"
+        },
+        "session_entities": [
+          {
+            "entity_id": "3b38c073f9a3498694495d2f8e6b626d",
+            "name": "NOMINAL_arm_behind_gripper",
+            "object": {
+              "handle": "a59b66a377df442981874f89b9b17df5",
+              "interface": "ksEntity"
+            }
+          },
+          {
+            "entity_id": "b751dde3feb04497b83d92520d39f91d",
+            "name": "NOMINAL_arm_behind_gripper",
+            "object": {
+              "handle": "520009d2810b4163a4d9152ef616a004",
+              "interface": "ksEntity"
+            }
+          }
+        ]
+      },
+      "export": {
+        "path": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\Phone-low-arm-NOMINAL-R2.stl",
+        "bytes": 684
+      },
+      "save": {
+        "path": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Phone-low-arm-NOMINAL-R2.m3d",
+        "bytes": 34760
+      }
+    },
+    {
+      "key": "Phone-backing-post-NOMINAL-R2",
+      "inspection": {
+        "document_id": "2319cca1a6e94b71b87c2ddd0c89d7f5",
+        "name": "Phone_backing_and_post_NOMINAL_tilted_to_TCP",
+        "bounds_raw": [
+          true,
+          -42.0,
+          -80.0,
+          -30.0,
+          42.0,
+          80.0,
+          0.0
+        ],
+        "bounds_units": "mm",
+        "measurements": {
+          "volume_mm3": 57920.000000000015,
+          "area_mm2": 30288.0,
+          "mass_kg": 0.4550195200000001,
+          "center_mm": [
+            0.0,
+            0.0,
+            -3.0773480662983457
+          ],
+          "body_count": 1
+        },
+        "document": {
+          "handle": "1061ad1d4bd542d6bb7ea3a1a57349ef",
+          "interface": "ksDocument3D"
+        },
+        "part": {
+          "handle": "d416ee58d58a40b1945bd1b033adb065",
+          "interface": "ksPart"
+        },
+        "session_entities": [
+          {
+            "entity_id": "c01552d808e647eaba16aa64f9bafcdc",
+            "name": "NOMINAL_backing_plate",
+            "object": {
+              "handle": "403dc245d5364cea8c0f7b729aa9a455",
+              "interface": "ksEntity"
+            }
+          },
+          {
+            "entity_id": "e55a38ee309c4d8c9f590ff8dde1c880",
+            "name": "NOMINAL_backing_plate",
+            "object": {
+              "handle": "c4ec0a6a4d0f4479a876e6f83a028c57",
+              "interface": "ksEntity"
+            }
+          },
+          {
+            "entity_id": "86ce124848bf4c53bef089964168bab0",
+            "name": "NOMINAL_sloping_post",
+            "object": {
+              "handle": "b06166179dd944e8ac434565464618ff",
+              "interface": "ksEntity"
+            }
+          },
+          {
+            "entity_id": "d2ef1dfea5954dbd8d876ebc38030ac8",
+            "name": "NOMINAL_sloping_post",
+            "object": {
+              "handle": "9420f217ea2a416f9d9465e724c7d663",
+              "interface": "ksEntity"
+            }
+          }
+        ]
+      },
+      "export": {
+        "path": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\Phone-backing-post-NOMINAL-R2.stl",
+        "bytes": 1484
+      },
+      "save": {
+        "path": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Phone-backing-post-NOMINAL-R2.m3d",
+        "bytes": 37039
+      }
+    },
+    {
+      "key": "Typing-holder-NOMINAL-R2",
+      "inspection": {
+        "document_id": "b85eb7c7758d473b9190547db6f85041",
+        "name": "Typing_holder_NOMINAL_Yminus55",
+        "bounds_raw": [
+          true,
+          -10.0,
+          -63.0,
+          8.0,
+          10.0,
+          -15.0,
+          120.0
+        ],
+        "bounds_units": "mm",
+        "measurements": {
+          "volume_mm3": 19547.168441033944,
+          "area_mm2": 8345.162051253137,
+          "mass_kg": 0.15356255527276266,
+          "center_mm": [
+            0.0,
+            -51.856833756493174,
+            55.348196941024916
+          ],
+          "body_count": 1
+        },
+        "document": {
+          "handle": "ea5131d9a3214a7e8407c14d87ec702b",
+          "interface": "ksDocument3D"
+        },
+        "part": {
+          "handle": "d925ac93b64142e8bb4c48e7e27e837f",
+          "interface": "ksPart"
+        },
+        "session_entities": [
+          {
+            "entity_id": "48cfce2875ed4c5a9d190551953d62f8",
+            "name": "NOMINAL_connecting_arm",
+            "object": {
+              "handle": "1f49526620474ac0a1be7b43c996971d",
+              "interface": "ksEntity"
+            }
+          },
+          {
+            "entity_id": "866d342f854146fd8a874497752470dc",
+            "name": "NOMINAL_connecting_arm",
+            "object": {
+              "handle": "81ec76fa54a9435e9327e1bf3e000544",
+              "interface": "ksEntity"
+            }
+          },
+          {
+            "entity_id": "aa6a7cf2a3aa4e92a59e09cb965f42fb",
+            "name": "NOMINAL_standoff",
+            "object": {
+              "handle": "630835e5639e4b9f880b3ce93903cc86",
+              "interface": "ksEntity"
+            }
+          },
+          {
+            "entity_id": "bca3100a150a4b84976694b9c899104d",
+            "name": "NOMINAL_standoff",
+            "object": {
+              "handle": "c04cd9fa3994433a98b65431e1e77369",
+              "interface": "ksEntity"
+            }
+          },
+          {
+            "entity_id": "cbaf7a031a9241f6bdd19ecabb3cdb9c",
+            "name": "NOMINAL_collar_outer",
+            "object": {
+              "handle": "2762989a5a1d49438c93c339b7fe76d0",
+              "interface": "ksEntity"
+            }
+          },
+          {
+            "entity_id": "aa5327fa05b14d0c8cb3093b57e22c55",
+            "name": "NOMINAL_collar_outer",
+            "object": {
+              "handle": "0e987d49c89e4eccbf876d141275dcac",
+              "interface": "ksEntity"
+            }
+          },
+          {
+            "entity_id": "3b1c99c5a4f3407aa78af9a06e580669",
+            "name": "NOMINAL_collar_bore",
+            "object": {
+              "handle": "aec24542012249b380e1d0824857f18a",
+              "interface": "ksEntity"
+            }
+          },
+          {
+            "entity_id": "ea1feb3f93cc4fc5bf183c42e3ce2302",
+            "name": "NOMINAL_collar_bore",
+            "object": {
+              "handle": "b2a5526e11d44f8cb4e914bf5252537f",
+              "interface": "ksEntity"
+            }
+          }
+        ]
+      },
+      "export": {
+        "path": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\Typing-holder-NOMINAL-R2.stl",
+        "bytes": 9084
+      },
+      "save": {
+        "path": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Typing-holder-NOMINAL-R2.m3d",
+        "bytes": 60084
+      }
+    }
+  ],
+  "reverted_count": 16,
+  "changed_before_discard": true,
+  "status": "own R3 restored, corrected mount parts ready",
+  "_public_summary": {
+    "omitted": "calls: full SDK/tool response logs retained in local pre-publication archive",
+    "original_sha256": "c84e6a584961d3cfafc2704a5050957db6fdf1a7bc89dfcb11ab652045d1c637",
+    "archive": "RoboHand-Simulator-prepublish-2026-11-15.zip",
+    "archive_member": "RoboHand.Simulator/docs/cad-reviews/2026-11-14-cad2/r4-accessory-r2-parts.json"
+  }
+}

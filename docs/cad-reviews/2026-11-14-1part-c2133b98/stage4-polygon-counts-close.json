@@ -1,0 +1,171 @@
+{
+  "scope": "bounded top-level polygon-object counts, feature access flags, then own unchanged readonly close",
+  "geometry": [
+    {
+      "path": "root",
+      "name": "Сборка",
+      "file": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\1part.a3d",
+      "mesh_object_count": 0,
+      "feature_flags": {
+        "Excluded": false,
+        "ObjectError": 0,
+        "State": 256,
+        "IsRollBacked": false
+      }
+    },
+    {
+      "path": "root/0",
+      "name": "1_update",
+      "file": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\1_update.m3d",
+      "mesh_object_count": 1,
+      "feature_flags": {
+        "Excluded": false,
+        "ObjectError": 0,
+        "State": 8192,
+        "IsRollBacked": false
+      }
+    },
+    {
+      "path": "root/1",
+      "name": "3_update",
+      "file": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\3_update.m3d",
+      "mesh_object_count": 1,
+      "feature_flags": {
+        "Excluded": false,
+        "ObjectError": 0,
+        "State": 256,
+        "IsRollBacked": false
+      }
+    },
+    {
+      "path": "root/2",
+      "name": "14_update",
+      "file": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\14_update.m3d",
+      "mesh_object_count": 1,
+      "feature_flags": {
+        "Excluded": false,
+        "ObjectError": 0,
+        "State": 256,
+        "IsRollBacked": false
+      }
+    },
+    {
+      "path": "root/3",
+      "name": "18_update",
+      "file": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\18_update.m3d",
+      "mesh_object_count": 1,
+      "feature_flags": {
+        "Excluded": false,
+        "ObjectError": 0,
+        "State": 256,
+        "IsRollBacked": false
+      }
+    },
+    {
+      "path": "root/4",
+      "name": "23_update",
+      "file": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\23_update.m3d",
+      "mesh_object_count": 1,
+      "feature_flags": {
+        "Excluded": false,
+        "ObjectError": 0,
+        "State": 256,
+        "IsRollBacked": false
+      }
+    },
+    {
+      "path": "root/5",
+      "name": "27_update",
+      "file": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\27_update.m3d",
+      "mesh_object_count": 1,
+      "mesh_objects": [
+        {
+          "Name": "Полигональный объект:1",
+          "ModelObjectType": 613,
+          "Valid": true
+        }
+      ],
+      "feature_flags": {
+        "Excluded": false,
+        "ObjectError": 0,
+        "State": 256,
+        "IsRollBacked": false
+      }
+    },
+    {
+      "path": "root/6",
+      "name": "7_update",
+      "file": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\7_update.m3d",
+      "mesh_object_count": 1,
+      "feature_flags": {
+        "Excluded": false,
+        "ObjectError": 0,
+        "State": 256,
+        "IsRollBacked": false
+      }
+    },
+    {
+      "path": "root/7",
+      "name": "Сборка",
+      "file": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\gripper20.a3d",
+      "mesh_object_count": 0,
+      "feature_flags": {
+        "Excluded": false,
+        "ObjectError": 0,
+        "State": 256,
+        "IsRollBacked": false
+      }
+    },
+    {
+      "path": "root/8",
+      "name": "Деталь",
+      "file": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\tube1.m3d",
+      "mesh_object_count": 0,
+      "feature_flags": {
+        "Excluded": false,
+        "ObjectError": 0,
+        "State": 256,
+        "IsRollBacked": false
+      }
+    },
+    {
+      "path": "root/9",
+      "name": "Деталь",
+      "file": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\tube2.m3d",
+      "mesh_object_count": 0,
+      "feature_flags": {
+        "Excluded": false,
+        "ObjectError": 0,
+        "State": 256,
+        "IsRollBacked": false
+      }
+    }
+  ],
+  "errors": [],
+  "mesh_constants": {
+    "ksObjectAuxMeshObject": 13182,
+    "ksObjectMeshObject3D": 13158,
+    "ksCMDisplayMeshObjectsGrid": 40345,
+    "o3d_MeshObject3D": 613
+  },
+  "metadata_before_close": {
+    "path": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\1part.a3d",
+    "read_only": true,
+    "changed": false,
+    "active": true
+  },
+  "close_own_snapshot": {
+    "closed": true
+  },
+  "remaining_documents": {
+    "documents": []
+  },
+  "status": "top-level polygon counts and scoped close completed",
+  "stdio_shutdown": "completed",
+  "_public_summary": {
+    "omitted": "calls: full SDK/tool response logs retained in local pre-publication archive",
+    "original_sha256": "1e7b60f7274df9d282d092df312110db3321330af93479fbd37259dfffff73ba",
+    "archive": "RoboHand-Simulator-prepublish-2026-11-15.zip",
+    "archive_member": "RoboHand.Simulator/docs/cad-reviews/2026-11-14-1part-c2133b98/stage4-polygon-counts-close.json"
+  }
+}

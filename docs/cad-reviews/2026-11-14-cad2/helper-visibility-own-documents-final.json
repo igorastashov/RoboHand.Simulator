@@ -1,0 +1,441 @@
+{
+  "scope": "own work leaf display metadata only; backups, explicit save and owncontext read-only reopen for11helperparts",
+  "updated": "2026-11-15",
+  "files": [
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\002.m3d",
+      "backup": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\helper-visibility-backups\\before-visibility-002.m3d",
+      "sha_before": "40f47aee8c34a636ccf91d7dbc4bb27792dbf735d3425969148f0d0543ddc4fd",
+      "bounds_before": [
+        true,
+        -25.0,
+        -25.0,
+        -25.0,
+        146.51174812316896,
+        135.67999267578125,
+        52.95000744774844
+      ],
+      "body_count": 5,
+      "sha_after": "28e87ef3caa028fa2a53d4c193d6854b8aecdf7a7f51d2950683cf8270e7a501",
+      "reopened_hidden": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "bounds_after": [
+        true,
+        -25.0,
+        -25.0,
+        -25.0,
+        146.51174812316896,
+        135.67999267578125,
+        52.95000744774844
+      ],
+      "meshes": [
+        {
+          "hidden": false,
+          "valid": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\003.m3d",
+      "backup": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\helper-visibility-backups\\before-visibility-003.m3d",
+      "sha_before": "4c41b250f2da26fec47afe84ea56c98a6959dea4c4a2fdffbae2da9fdb27d085",
+      "bounds_before": [
+        true,
+        -25.0,
+        -25.0,
+        -25.0,
+        146.75,
+        129.64606018066405,
+        25.0
+      ],
+      "body_count": 8,
+      "sha_after": "9667f180d44c347506024f0da51be181be5154e10220eb281e259f7e6334f216",
+      "reopened_hidden": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "bounds_after": [
+        true,
+        -25.0,
+        -25.0,
+        -25.0,
+        146.75,
+        129.64606018066405,
+        25.0
+      ],
+      "meshes": [
+        {
+          "hidden": false,
+          "valid": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\007.m3d",
+      "backup": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\helper-visibility-backups\\before-visibility-007.m3d",
+      "sha_before": "baae228f4d1dc7cf130b83c018bd729c1f14039a6b306d33daccdad62859ba40",
+      "bounds_before": [
+        true,
+        -25.0,
+        -25.0,
+        -25.0,
+        108.92399749755859,
+        116.225,
+        25.0
+      ],
+      "body_count": 4,
+      "sha_after": "85ede53dc9428e2221f613ad16032fae4e5f9bcbff06e672a4b8e4ab3f5382d8",
+      "reopened_hidden": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "bounds_after": [
+        true,
+        -25.0,
+        -25.0,
+        -25.0,
+        108.92399749755859,
+        116.225,
+        25.0
+      ],
+      "meshes": [
+        {
+          "hidden": false,
+          "valid": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\013.m3d",
+      "backup": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\helper-visibility-backups\\before-visibility-013.m3d",
+      "sha_before": "8ac4e39e4406a409ee5a11f5c7125a8c5480e8499f464a96e9ba79e53d33a88a",
+      "bounds_before": [
+        true,
+        -25.0,
+        -25.0,
+        -25.0,
+        108.35,
+        111.55,
+        40.95
+      ],
+      "body_count": 4,
+      "sha_after": "23922a0a5cbdd84df86a4b89a3871f1e9310384985a5ca522a45429859509cb8",
+      "reopened_hidden": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "bounds_after": [
+        true,
+        -25.0,
+        -25.0,
+        -25.0,
+        108.35,
+        111.55,
+        40.95
+      ],
+      "meshes": [
+        {
+          "hidden": false,
+          "valid": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\014.m3d",
+      "backup": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\helper-visibility-backups\\before-visibility-014.m3d",
+      "sha_before": "9af198579dc33156ca1d0aac1a5cd0a2d106470aa567c6551aee063328580084",
+      "bounds_before": [
+        true,
+        -25.0,
+        -25.0,
+        -25.0,
+        109.5,
+        120.9,
+        25.0
+      ],
+      "body_count": 4,
+      "sha_after": "f578b668e52066133d02760873836738307dba1bb3e3fbab5af536d0d1b159e8",
+      "reopened_hidden": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "bounds_after": [
+        true,
+        -25.0,
+        -25.0,
+        -25.0,
+        109.5,
+        120.9,
+        25.0
+      ],
+      "meshes": [
+        {
+          "hidden": false,
+          "valid": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\14_update.m3d",
+      "backup": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\helper-visibility-backups\\before-visibility-14_update.m3d",
+      "sha_before": "86a9da3f4e743087d60543cb78075223bbcde8239df85eef890bee552dc7b20f",
+      "bounds_before": [
+        true,
+        -189.6241642299729,
+        -25.0,
+        -25.0,
+        25.0,
+        456.4,
+        103.56820090975764
+      ],
+      "body_count": 5,
+      "sha_after": "29318fe8515d5967f7767418473675ba39902dbdf600f132b2c0af5e06f7895b",
+      "reopened_hidden": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "bounds_after": [
+        true,
+        -189.6241642299729,
+        -25.0,
+        -25.0,
+        25.0,
+        456.4,
+        103.56820090975764
+      ],
+      "meshes": [
+        {
+          "hidden": false,
+          "valid": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\18_update.m3d",
+      "backup": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\helper-visibility-backups\\before-visibility-18_update.m3d",
+      "sha_before": "64c3ee51f3363f537b8b319544e2b0d837ffd2e7d4ad859e56e0ed959ef74975",
+      "bounds_before": [
+        true,
+        -64.91000065803527,
+        -25.0,
+        -25.0,
+        25.0,
+        456.4,
+        103.49809875488282
+      ],
+      "body_count": 4,
+      "sha_after": "009abb22380fc3a52db34a0a038455ebbf8f6965f6aa639e0c0ed9809d77fe5d",
+      "reopened_hidden": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "bounds_after": [
+        true,
+        -64.91000065803527,
+        -25.0,
+        -25.0,
+        25.0,
+        456.4,
+        103.49809875488282
+      ],
+      "meshes": [
+        {
+          "hidden": false,
+          "valid": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\23_update.m3d",
+      "backup": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\helper-visibility-backups\\before-visibility-23_update.m3d",
+      "sha_before": "2afcb65be2bcb3470efde8e3b3e2c44d63c49d07eb68b565244f1a223b7395c5",
+      "bounds_before": [
+        true,
+        -85.44711734909146,
+        -25.0,
+        -25.0,
+        27.918117455058006,
+        756.8,
+        85.9445918064685
+      ],
+      "body_count": 5,
+      "sha_after": "2d7addbca323938e91e1528fbdec11d32e2a5ad633f3e939cd111ed365506c65",
+      "reopened_hidden": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "bounds_after": [
+        true,
+        -85.44711734909146,
+        -25.0,
+        -25.0,
+        27.918117455058006,
+        756.8,
+        85.9445918064685
+      ],
+      "meshes": [
+        {
+          "hidden": false,
+          "valid": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\27_update.m3d",
+      "backup": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\helper-visibility-backups\\before-visibility-27_update.m3d",
+      "sha_before": "74f788a6bb04e20660177621f6b2d28d01775ded016196adef8b2bf9cec1d90c",
+      "bounds_before": [
+        true,
+        -163.8,
+        -25.0,
+        -25.0,
+        25.0,
+        777.4471042041563,
+        85.95064824203058
+      ],
+      "body_count": 5,
+      "sha_after": "387f03a9c137700cc2cffd54838e12a90affabf1899ae47a0cf97f1e8e9aa57a",
+      "reopened_hidden": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "bounds_after": [
+        true,
+        -163.8,
+        -25.0,
+        -25.0,
+        25.0,
+        777.4471042041563,
+        85.95064824203058
+      ],
+      "meshes": [
+        {
+          "hidden": false,
+          "valid": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\3_update.m3d",
+      "backup": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\helper-visibility-backups\\before-visibility-3_update.m3d",
+      "sha_before": "970e707e351b841e22cd8ff2cf0b559c32a7493cda0c5587cdec8e404a8c06fa",
+      "bounds_before": [
+        true,
+        -64.5,
+        -25.0,
+        -25.0,
+        59.4,
+        108.4,
+        103.5220509376826
+      ],
+      "body_count": 5,
+      "sha_after": "fffceb6857e187dfb47e6510354f90ae3427e59aa4cc83f197ffb4671d75ffb2",
+      "reopened_hidden": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "bounds_after": [
+        true,
+        -64.5,
+        -25.0,
+        -25.0,
+        59.4,
+        108.4,
+        103.5220509376826
+      ],
+      "meshes": [
+        {
+          "hidden": false,
+          "valid": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\7_update.m3d",
+      "backup": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\helper-visibility-backups\\before-visibility-7_update.m3d",
+      "sha_before": "90a8358dd4fff96086c2c90e74a4598df413de2b50a8c7b3714b4f6d67cf5121",
+      "bounds_before": [
+        true,
+        -64.5,
+        -25.0,
+        -25.0,
+        59.4,
+        116.62417820483886,
+        103.56820139077381
+      ],
+      "body_count": 5,
+      "sha_after": "47320b0e314b861db3034a153a0b88d7f5f080eb684b317be155eb14f82d0285",
+      "reopened_hidden": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "bounds_after": [
+        true,
+        -64.5,
+        -25.0,
+        -25.0,
+        59.4,
+        116.62417820483886,
+        103.56820139077381
+      ],
+      "meshes": [
+        {
+          "hidden": false,
+          "valid": true
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "status": "all11 remaining own workfiles helper visibility persisted; source original/audit unchanged by design",
+  "_public_summary": {
+    "omitted": "calls: full SDK/tool response logs retained in local pre-publication archive",
+    "original_sha256": "1f77dada2715d67eb6ca527ea0fb7236ddabaa73cf6a4f693b8adf9641944580",
+    "archive": "RoboHand-Simulator-prepublish-2026-11-15.zip",
+    "archive_member": "RoboHand.Simulator/docs/cad-reviews/2026-11-14-cad2/helper-visibility-own-documents-final.json"
+  }
+}

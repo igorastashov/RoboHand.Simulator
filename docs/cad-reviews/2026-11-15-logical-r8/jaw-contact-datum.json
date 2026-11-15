@@ -1,0 +1,56 @@
+{
+  "profile": "ordinary-jaw-corner",
+  "source_native_filename": "013.m3d",
+  "source_mesh_filename": "gripper_013_visual.stl",
+  "source_mesh_sha256": "39ff9740f55fa8b69dd2f27ccca055fba63b3f7c3c4e6a4fd409b8cc6de01460",
+  "source_occurrence_in_gripper": 3,
+  "old_root_occurrence": "root/7/3",
+  "source_vertex_index_in_prepared_mesh": 3,
+  "source_vertex_mm": [
+    101.5,
+    92.5,
+    40.0
+  ],
+  "point_in_output_frame_mm": [
+    -7.703917786870335,
+    -15.929691036839387,
+    135.99999999999937
+  ],
+  "contact_world_in_description_mm": [
+    91.81982534416386,
+    -189.99999799675803,
+    856.296036067866
+  ],
+  "contact_frame_world_mm": [
+    [
+      2.0404249049167962e-07,
+      -0.9999999999999793,
+      -3.001682059662487e-14,
+      91.81982534416386
+    ],
+    [
+      -1.3334876691469368e-07,
+      2.808006095098642e-15,
+      -0.9999999999999911,
+      -189.99999799675803
+    ],
+    [
+      0.9999999999999705,
+      2.0404249049467688e-07,
+      -1.333487669146903e-07,
+      856.296036067866
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "normal_output": [
+    0,
+    0,
+    1
+  ],
+  "scope": "Actual source mesh front corner, minY among the4front vertices of013occurrence3. Chosen for first jaw typing profile, not a specialised tool/limit switch. Frame follows wrist3/gripper in URDF; changing finger opening requires its correct kinematics rather than assuming this fixed transform stays valid."
+}

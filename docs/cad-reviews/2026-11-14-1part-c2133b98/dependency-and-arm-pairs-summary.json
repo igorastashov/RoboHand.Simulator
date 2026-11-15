@@ -1,0 +1,211 @@
+{
+  "external_occurrences": 18,
+  "unique_external_cad_files": 15,
+  "all_dependency_files_exist": true,
+  "all_dependency_files_in_snapshot": true,
+  "root_hidden_mates": 0,
+  "root_pairs": [
+    {
+      "parts": [
+        "1_update.m3d",
+        "3_update.m3d"
+      ],
+      "mates": [
+        {
+          "name": "Соосность (3_update  -  1_update)",
+          "type": 4,
+          "value": 0.0,
+          "valid": true,
+          "hidden": false
+        },
+        {
+          "name": "На расстоянии (3_update  -  1_update)",
+          "type": 5,
+          "value": -1.0,
+          "valid": true,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "parts": [
+        "3_update.m3d",
+        "7_update.m3d"
+      ],
+      "mates": [
+        {
+          "name": "Соосность (3_update  -  7_update)",
+          "type": 4,
+          "value": 0.0,
+          "valid": true,
+          "hidden": false
+        },
+        {
+          "name": "На расстоянии (3_update  -  7_update)",
+          "type": 5,
+          "value": -1.0,
+          "valid": true,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "parts": [
+        "14_update.m3d",
+        "7_update.m3d"
+      ],
+      "mates": [
+        {
+          "name": "Соосность (14_update  -  7_update)",
+          "type": 4,
+          "value": 0.0,
+          "valid": true,
+          "hidden": false
+        },
+        {
+          "name": "На расстоянии (14_update  -  7_update)",
+          "type": 5,
+          "value": -220.0,
+          "valid": true,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "parts": [
+        "14_update.m3d",
+        "18_update.m3d"
+      ],
+      "mates": [
+        {
+          "name": "Соосность (14_update  -  18_update)",
+          "type": 4,
+          "value": 0.0,
+          "valid": true,
+          "hidden": false
+        },
+        {
+          "name": "На расстоянии (18_update  -  14_update)",
+          "type": 5,
+          "value": -1.0,
+          "valid": true,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "parts": [
+        "18_update.m3d",
+        "23_update.m3d"
+      ],
+      "mates": [
+        {
+          "name": "Соосность (23_update  -  18_update)",
+          "type": 4,
+          "value": 0.0,
+          "valid": true,
+          "hidden": false
+        },
+        {
+          "name": "На расстоянии (23_update  -  18_update)",
+          "type": 5,
+          "value": -220.0,
+          "valid": true,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "parts": [
+        "23_update.m3d",
+        "27_update.m3d"
+      ],
+      "mates": [
+        {
+          "name": "Соосность (23_update  -  27_update)",
+          "type": 4,
+          "value": 0.0,
+          "valid": true,
+          "hidden": false
+        },
+        {
+          "name": "На расстоянии (23_update  -  27_update)",
+          "type": 5,
+          "value": -1.0,
+          "valid": true,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "parts": [
+        "002.m3d",
+        "27_update.m3d"
+      ],
+      "mates": [
+        {
+          "name": "Соосность (Сборка  -  27_update)",
+          "type": 4,
+          "value": 0.0,
+          "valid": true,
+          "hidden": false
+        },
+        {
+          "name": "На расстоянии (Сборка  -  27_update)",
+          "type": 5,
+          "value": 1.0,
+          "valid": true,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "parts": [
+        "7_update.m3d",
+        "tube1.m3d"
+      ],
+      "mates": [
+        {
+          "name": "Соосность (Деталь  -  7_update)",
+          "type": 4,
+          "value": 0.0,
+          "valid": true,
+          "hidden": false
+        },
+        {
+          "name": "Совпадение (7_update  -  Деталь)",
+          "type": 0,
+          "value": 0.0,
+          "valid": true,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "parts": [
+        "18_update.m3d",
+        "tube2.m3d"
+      ],
+      "mates": [
+        {
+          "name": "Соосность (Деталь  -  18_update)",
+          "type": 4,
+          "value": 0.0,
+          "valid": true,
+          "hidden": false
+        },
+        {
+          "name": "Совпадение (18_update  -  Деталь)",
+          "type": 0,
+          "value": 0.0,
+          "valid": true,
+          "hidden": false
+        }
+      ]
+    }
+  ],
+  "gripper_mate_feature_interface": {
+    "handle": "7a98a8379b114638b801a418aff285d8",
+    "interface": "IFeature7"
+  }
+}

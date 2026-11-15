@@ -1,0 +1,130 @@
+{
+  "checked_physical_links": 12,
+  "links": [
+    {
+      "link": "base_link",
+      "mass_kg": 1.0,
+      "inertia_eigenvalues": [
+        0.0019890832856496172,
+        0.001989083333333333,
+        0.003749999952316284
+      ],
+      "positive_and_triangle_valid": true
+    },
+    {
+      "link": "shoulder_link",
+      "mass_kg": 1.2,
+      "inertia_eigenvalues": [
+        0.0024660004757270843,
+        0.002558800422229571,
+        0.0026920007516415367
+      ],
+      "positive_and_triangle_valid": true
+    },
+    {
+      "link": "upper_arm_link",
+      "mass_kg": 3.0,
+      "inertia_eigenvalues": [
+        0.00616500549962511,
+        0.0549000058421947,
+        0.05523300662224846
+      ],
+      "positive_and_triangle_valid": true
+    },
+    {
+      "link": "forearm_link",
+      "mass_kg": 2.0,
+      "inertia_eigenvalues": [
+        0.0034481670194454403,
+        0.030070167335884388,
+        0.030510000247774477
+      ],
+      "positive_and_triangle_valid": true
+    },
+    {
+      "link": "wrist1_link",
+      "mass_kg": 0.65,
+      "inertia_eigenvalues": [
+        0.0006860210446016319,
+        0.000801720929930391,
+        0.0008620084818895501
+      ],
+      "positive_and_triangle_valid": true
+    },
+    {
+      "link": "wrist2_link",
+      "mass_kg": 0.65,
+      "inertia_eigenvalues": [
+        0.0006860210029393682,
+        0.0008017209896765639,
+        0.0008620085551986294
+      ],
+      "positive_and_triangle_valid": true
+    },
+    {
+      "link": "wrist3_link",
+      "mass_kg": 0.52,
+      "inertia_eigenvalues": [
+        0.0006229297141468578,
+        0.0010948991101991546,
+        0.0011310174104727873
+      ],
+      "positive_and_triangle_valid": true
+    },
+    {
+      "link": "phone_link",
+      "mass_kg": 0.188,
+      "inertia_eigenvalues": [
+        9.047544877398091e-05,
+        0.0003849981352062645,
+        0.00047270497087162323
+      ],
+      "positive_and_triangle_valid": true
+    },
+    {
+      "link": "phone_arm_link",
+      "mass_kg": 0.04,
+      "inertia_eigenvalues": [
+        1.3866666666666668e-06,
+        3.610666666666667e-05,
+        3.7386666666666666e-05
+      ],
+      "positive_and_triangle_valid": true
+    },
+    {
+      "link": "phone_backing_link",
+      "mass_kg": 0.1,
+      "inertia_eigenvalues": [
+        6.630000000000001e-05,
+        0.00022083333333333335,
+        0.00027213333333333335
+      ],
+      "positive_and_triangle_valid": true
+    },
+    {
+      "link": "typing_holder_link",
+      "mass_kg": 0.1,
+      "inertia_eigenvalues": [
+        2.2533333333333337e-05,
+        0.00010786666666666664,
+        0.00012373333333333332
+      ],
+      "positive_and_triangle_valid": true
+    },
+    {
+      "link": "typing_stylus_link",
+      "mass_kg": 0.02,
+      "inertia_eigenvalues": [
+        2.0805167088323898e-07,
+        6.101385004216572e-06,
+        6.106666666666667e-06
+      ],
+      "positive_and_triangle_valid": true
+    }
+  ],
+  "all_positive_and_triangle_valid": true,
+  "all_meshes_resolve": true,
+  "total_nominal_mass_kg": 9.468,
+  "phone_mass_source": "Xiaomi official188g; other aggregate masses unmeasured estimates; COM/inertias are uniform box-envelope surrogates. No calibrated motor, gearbox, cable or contact model.",
+  "urdf_sha256": "f72471ebfc04be5dc3dc6d7461775a30be16ddc1c877083f8909f0d2d07013c1"
+}

@@ -1,0 +1,192 @@
+{
+  "scope": "R3 native tubes and own readonly session cleanup",
+  "tube1_close_changed": true,
+  "tube2_inspection": {
+    "document_id": "31da203bb74f41f8969093e34c523c9a",
+    "name": "Деталь",
+    "bounds_raw": [
+      true,
+      -5.538465149143905e-15,
+      -30.150000000000002,
+      -30.15000000000004,
+      220.0,
+      30.150000000000002,
+      30.150000000000002
+    ],
+    "bounds_units": "mm",
+    "measurements": {
+      "volume_mm3": 161053.5903066452,
+      "area_mm2": 79080.31164783142,
+      "mass_kg": 1.2652370054490047,
+      "center_mm": [
+        110.00000000000003,
+        0.0,
+        0.0
+      ],
+      "body_count": 1
+    },
+    "document": {
+      "handle": "4d5605a2b7024cd9af5d5fd25042ae8c",
+      "interface": "ksDocument3D"
+    },
+    "part": {
+      "handle": "413e12069fc74b1dbf8d24a03280672a",
+      "interface": "ksPart"
+    },
+    "session_entities": []
+  },
+  "tube2_faces": {
+    "document_id": "31da203bb74f41f8969093e34c523c9a",
+    "total": 4,
+    "offset": 0,
+    "entities": [
+      {
+        "entity_id": "1871877bd71547bc87235946dd56579f",
+        "name": "",
+        "type": 6,
+        "excluded": false,
+        "hidden": false,
+        "object": {
+          "handle": "98faa6ee705e4380aad1181a165ffec5",
+          "interface": "ksEntity"
+        },
+        "definition": {
+          "handle": "29522444aa804007985686b23857f2a8",
+          "interface": "ksFaceDefinition"
+        },
+        "geometry": {
+          "area_mm2": 41676.36814252219,
+          "planar": false,
+          "cylindrical": true,
+          "cylinder_raw": [
+            true,
+            220.0,
+            30.15
+          ],
+          "bounds_raw": [
+            true,
+            0.0,
+            -30.15,
+            -30.150000000000038,
+            220.0,
+            30.15,
+            30.15
+          ]
+        }
+      },
+      {
+        "entity_id": "cec76cc7e2ba4b10b12ab09f555348f2",
+        "name": "",
+        "type": 6,
+        "excluded": false,
+        "hidden": false,
+        "object": {
+          "handle": "3ce9596dc8a14f9483dcf4586fdd1e9b",
+          "interface": "ksEntity"
+        },
+        "definition": {
+          "handle": "1f416a0fd431478e9e42fccdc4bd1691",
+          "interface": "ksFaceDefinition"
+        },
+        "geometry": {
+          "area_mm2": 732.0617741211272,
+          "planar": true,
+          "cylindrical": false,
+          "bounds_raw": [
+            true,
+            220.0,
+            -30.15,
+            -30.150000000000038,
+            220.0,
+            30.15,
+            30.14999999999996
+          ]
+        }
+      },
+      {
+        "entity_id": "84ac42dc13d945a39a9cb47ff77d4e2e",
+        "name": "",
+        "type": 6,
+        "excluded": false,
+        "hidden": false,
+        "object": {
+          "handle": "fb3d7de33aff48a89090b582c5343491",
+          "interface": "ksEntity"
+        },
+        "definition": {
+          "handle": "6fbcb8034bec4182a68a3e1e018d88c5",
+          "interface": "ksFaceDefinition"
+        },
+        "geometry": {
+          "area_mm2": 732.0617741211272,
+          "planar": true,
+          "cylindrical": false,
+          "bounds_raw": [
+            true,
+            0.0,
+            -30.15,
+            -30.15,
+            0.0,
+            30.15,
+            30.15
+          ]
+        }
+      },
+      {
+        "entity_id": "3e9266d24c54411aab51f5b514342976",
+        "name": "",
+        "type": 6,
+        "excluded": false,
+        "hidden": false,
+        "object": {
+          "handle": "8ca0f63bd7c742c3ba3cdf7c4599f50a",
+          "interface": "ksEntity"
+        },
+        "definition": {
+          "handle": "b8cae507f48e43df9f51d3d4264a31bc",
+          "interface": "ksFaceDefinition"
+        },
+        "geometry": {
+          "area_mm2": 35939.81995706724,
+          "planar": false,
+          "cylindrical": true,
+          "cylinder_raw": [
+            true,
+            220.0,
+            26.0
+          ],
+          "bounds_raw": [
+            true,
+            0.0,
+            -26.0,
+            -26.00000000000004,
+            220.0,
+            26.0,
+            26.0
+          ]
+        }
+      }
+    ]
+  },
+  "tube2_export": {
+    "path": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\tube2-R3.stl",
+    "bytes": 15084
+  },
+  "tube2_close_changed": true,
+  "gripper_gabarit": [
+    true,
+    87.03426098091558,
+    635.9779290601076,
+    -429.1285048008643,
+    240.72893592454636,
+    793.1339337194923,
+    -281.9408550952612
+  ],
+  "status": "tubes measured and own read-only sessions closed without native save",
+  "_public_summary": {
+    "omitted": "calls: full SDK/tool response logs retained in local pre-publication archive",
+    "original_sha256": "db75a67f30425d09c20702e36e61827d1e7bbc5ccf0f239bd16cce5a4c2afaa2",
+    "archive": "RoboHand-Simulator-prepublish-2026-11-15.zip",
+    "archive_member": "RoboHand.Simulator/docs/cad-reviews/2026-11-14-cad2/r3-native-tubes-finished.json"
+  }
+}

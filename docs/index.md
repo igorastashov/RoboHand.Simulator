@@ -1,0 +1,36 @@
+---
+tags: [robohand, simulator, index]
+type: index
+updated: 2026-11-15
+---
+
+# Документация Simulator
+
+| Документ | Назначение |
+|---|---|
+| [Начать здесь: EB300 на этом ПК](start-here-r8.md) | Простое объяснение готовности R8, команда просмотра, ближайшие шаги и участие владельца |
+| [Что публикуется в Git](publication-scope.md) | Локальная геометрия, полные журналы, лицензии и восстановление assets |
+| [Актуальные файлы: R8](latest-artifacts.md) | Открывать эту сборку; URDF/MJCF без стержня, архивыE/D, восстановление и hashes |
+| [R8: логические узлы и обычная губка](cad-reviews/2026-11-15-logical-r8/root-review.md) | 7узлов,3native подсборки,49состояний crosscheck, jaw-contact, известная окклюзия камеры |
+| [CAD-2: результат ревью и физический asset](cad-reviews/2026-11-14-cad2/root-review.md) | Полное запястье, шесть joints, native motion, независимые25 поз, nominal physics и границы готовности |
+| [Открыть EB300 на текущем ПК](cad-reviews/2026-11-14-cad2/viewing-and-next-step.md) | Готовые native/URDF/MuJoCo файлы, штатный viewer, что измерить и какой следующий gate |
+| [CAD-2: выполненное поручение и приёмка](cad-reviews/2026-11-14-cad2/task.md) | Независимая workcopy, rigid links/запястье/J1–J6/tool/Redmi, проверки и standard robot-description handoff |
+| [Первая сборка EB300: 1part.a3d, 14.11](cad-reviews/2026-11-14-1part-c2133b98/root-review.md) | Переданный CAD, snapshot/хеши, реальное дерево/сопряжения, ограничения аудита и следующий проход |
+| [Ближайшие действия с 14.11](<../../../../../_ПЛАНЫ_/embedded-robotics-market-research/research/projects/robohand/plans/2026-11-14-next-steps.md>) | Что требуется владельцу сейчас, даты 14–29.11, текущие ограничения ПК и этапы до обучения |
+| [Задание отдельному CAD-агенту](cad-agent-task.md) | Входы, ожидаемые выходы, MCP/read-only этап, приёмка и prompt для нового окна |
+| [Настройка MCP 09.11](research/2026-11-09-kompas-mcp-setup.md) | Installed pinned server, SDK/protocol/COM smoke, project-scoped Codex config и границы проверки |
+| [Тест CAD-агента: цанга по чертежу](../cad-experiments/collet-2026-11-09/review-notes.md) | Принята R7: M3D/STEP/STL/preview, проверки, допущения, длительность27:20/36:34 |
+| [Что хранится в каком репозитории](<../../../../../_ПЛАНЫ_/embedded-robotics-market-research/research/projects/robohand/agent-harness-plan.md>) | Simulator — CAD/среды/configs, Control — исполнение skills/policy, общие recipes и глобальные планы отдельно |
+| [Typing reference и EB300 gaps](<../../../../../_ПЛАНЫ_/embedded-robotics-market-research/research/projects/robohand/keyboard-typing-reuse.md>) | Project-pinned PPO recipe, kit-less runtime, missing weights, 5→6 actions |
+| [КОМПАС/MCP/URDF](<../../../../../_ПЛАНЫ_/embedded-robotics-market-research/research/projects/robohand/kompas-mcp-and-urdf.md>) | Existing MCP candidates, actual local state, стандартный CAD handoff |
+| [CAD-комплект для импорта](cad-handoff.md) | STL-first; пошаговое сопряжение двух STL-компонентов в v25, оси/опоры, joints/masses, захват/Redmi |
+| [Стол, EB300, Redmi 8A и предметы](workcell-scene.md) | Состав виртуального рабочего места, camera/IMU profiles, physical assets |
+| [Simulation-first EB300, 08.11](simulation-first.md) | Действующий план: CAD, физическая среда, камеры, данные и обучение до готовности железа |
+| [Исследование 07.11.2026](research/2026-11-07-state.md) | Что собирается, что моделируется, что ещё не реализовано |
+| [WSL и ROS 2](wsl-ros2-setup.md) | Ранние инструкции установки; пути требуют адаптации |
+| [Геометрический YAML](../robohand_ws/src/robohand_description/config/kine_eb300_approx.yaml) | Приблизительные параметры; пока не загружается из xacro |
+| [R8 URDF](../robohand_ws/src/robohand_description/urdf/eb300_jaw_typing_r8.urdf) | Актуальный default:6суставов, штатная губка, телефон и frames |
+| [Исторический Xacro](../robohand_ws/src/robohand_description/urdf/robohand.urdf.xacro) | Ранняя приблизительная модель; не геометрия принятойR8 |
+| [Launch](../robohand_ws/src/robohand_description/launch/display.launch.py) | robot_state_publisher, GUI суставов, RViz |
+
+Наверх: [README](../README.md). Сборка description и физическая симуляция учитываются как разные результаты.

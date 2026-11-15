@@ -1,0 +1,20 @@
+{
+  "scope": "Actual unchanged EB300 base+J1+3 subset only; not full arm or Isaac runtime.",
+  "native_parser": "MuJoCo-core4.0.1 URDF loader, stock VFS mesh assets",
+  "nq": 1,
+  "nv": 1,
+  "nbody": 3,
+  "ngeom": 4,
+  "nmesh": 4,
+  "steps": 1000,
+  "finite": true,
+  "initial_qpos": [
+    0.0
+  ],
+  "final_qpos": [
+    0.0
+  ],
+  "previous_attempt": "Post-render JSON serialization of numpy.bool_ failed; explicit builtin bool used in this record.",
+  "render_stddev": 26.67341138672406,
+  "passed": true
+}

@@ -1,0 +1,17 @@
+robot name is: robohand_eb300_jaw_typing_r8_nominal
+---------- Successfully Parsed XML ---------------
+root Link: base_footprint has 1 child(ren)
+    child(1):  base_link
+        child(1):  shoulder_link
+            child(1):  upper_arm_link
+                child(1):  forearm_link
+                    child(1):  wrist1_link
+                        child(1):  wrist2_link
+                            child(1):  wrist3_link
+                                child(1):  jaw_contact_frame
+                                child(2):  phone_arm_link
+                                child(3):  phone_backing_link
+                                child(4):  phone_link
+                                    child(1):  camera_optical_frame
+
+exit=0

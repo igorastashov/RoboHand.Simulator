@@ -1,0 +1,20 @@
+{
+  "updated": "2026-11-15",
+  "phase": "after final R7 native save/reopen and part metadata changes",
+  "manifest_sha256": "cd18ea5cd5ae337c22812a4cd4f9c5285ed12e52ec8bab5e83aab10577992658",
+  "checks": [
+    {
+      "root": "E:\\RoboHand\\data\\cad",
+      "checked": 255,
+      "mismatches": [],
+      "unchanged": true
+    },
+    {
+      "root": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input",
+      "checked": 255,
+      "mismatches": [],
+      "unchanged": true
+    }
+  ],
+  "source_and_snapshot_unchanged": true
+}

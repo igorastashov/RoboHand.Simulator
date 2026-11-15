@@ -1,0 +1,10 @@
+{
+  "updated": "2026-11-15",
+  "documents_checked": 12,
+  "local_links_checked": 199,
+  "missing_targets": [],
+  "trailing_whitespace": [],
+  "simulator_git_diff_check": "passed",
+  "global_git_diff_check_note": "Reports five existing Markdown hard-break lines in decisions/log.md; new CAD-2 entry has no trailing whitespace. Existing template formatting preserved.",
+  "global_head_already_contains_trailing_markdown_lines": true
+}

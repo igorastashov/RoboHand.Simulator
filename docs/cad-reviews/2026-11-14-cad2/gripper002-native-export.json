@@ -1,0 +1,91 @@
+{
+  "scope": "standalone own work002 read-only nativeSTL export source parity test",
+  "native": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\002.m3d",
+  "source": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\002.stl",
+  "native_sha_before": "c99978e3f18d35795b0d7f391d8f9ccce24393a02c90e0fc9ca00ee6261a5c3e",
+  "inspection": {
+    "document_id": "691bc715addb4e1394fe4b868541903e",
+    "name": "002",
+    "bounds_raw": [
+      true,
+      53.743249130249026,
+      64.87449645996094,
+      -2.875,
+      146.51174812316896,
+      135.67999267578125,
+      52.95000744774844
+    ],
+    "bounds_units": "mm",
+    "measurements": {
+      "volume_mm3": 0.0,
+      "area_mm2": 0.0,
+      "mass_kg": 0.0,
+      "center_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "body_count": 5
+    },
+    "document": {
+      "handle": "3b1ee4c552dc4d8784483b669c6037e6",
+      "interface": "ksDocument3D"
+    },
+    "part": {
+      "handle": "0cad5a2855c7421e85d6aa603ed17f47",
+      "interface": "ksPart"
+    },
+    "session_entities": []
+  },
+  "export": {
+    "path": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\gripper002-native-reference-R5.stl",
+    "bytes": 910084
+  },
+  "read_only": true,
+  "native_sha_after": "c99978e3f18d35795b0d7f391d8f9ccce24393a02c90e0fc9ca00ee6261a5c3e",
+  "source_info": {
+    "triangles": 18116,
+    "vertices_raw": 54348,
+    "bounds": [
+      [
+        57.5,
+        142.5
+      ],
+      [
+        67.5,
+        132.5
+      ],
+      [
+        0.0,
+        52.0
+      ]
+    ],
+    "bytes": 3372269
+  },
+  "native_export_info": {
+    "triangles": 18200,
+    "vertices_raw": 54600,
+    "bounds": [
+      [
+        53.743247985839844,
+        146.51174926757812
+      ],
+      [
+        64.87449645996094,
+        135.67999267578125
+      ],
+      [
+        -2.875,
+        52.950008392333984
+      ]
+    ],
+    "bytes": 910084
+  },
+  "status": "standalone native export and bounds measured; native input hash unchanged",
+  "_public_summary": {
+    "omitted": "calls: full SDK/tool response logs retained in local pre-publication archive",
+    "original_sha256": "aa0424e2884c2b30d59d3130ca2d555a436ea1d149aa94adb2f495abb8e3b79c",
+    "archive": "RoboHand-Simulator-prepublish-2026-11-15.zip",
+    "archive_member": "RoboHand.Simulator/docs/cad-reviews/2026-11-14-cad2/gripper002-native-export.json"
+  }
+}

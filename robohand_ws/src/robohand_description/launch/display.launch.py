@@ -8,14 +8,18 @@ from launch_ros.substitutions import FindPackageShare
 
 def generate_launch_description():
     pkg = FindPackageShare("robohand_description")
-    xacro_file = PathJoinSubstitution([pkg, "urdf", "robohand.urdf.xacro"])
+    default_model = PathJoinSubstitution([pkg, "urdf", "eb300_jaw_typing_r8.urdf"])
 
     robot_description = ParameterValue(
-        Command(["xacro ", xacro_file]),
+        Command(["xacro ", LaunchConfiguration("model")]),
         value_type=str,
     )
 
     return LaunchDescription([
+        DeclareLaunchArgument(
+            "model", default_value=default_model,
+            description="Absolute URDF/Xacro path; default is reviewed EB300 R8 with ordinary jaw contact",
+        ),
         DeclareLaunchArgument("use_sim_time", default_value="false"),
         Node(
             package="robot_state_publisher",

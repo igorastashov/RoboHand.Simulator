@@ -1,0 +1,221 @@
+{
+  "gripper_bounds_output_mm": [
+    [
+      -43.56993347671154,
+      -41.18146478750542,
+      13.000000000010012
+    ],
+    [
+      43.633274862428664,
+      41.10402569532611,
+      136.00000000001017
+    ]
+  ],
+  "accessory_checks": [
+    {
+      "part": "typing_holder_link",
+      "bounds_output_mm": [
+        [
+          -9.999957336932157,
+          -62.99977300459743,
+          7.999943936991749
+        ],
+        [
+          10.000058764120483,
+          -14.999765846196858,
+          119.99994651989022
+        ]
+      ],
+      "separation_axis_gaps_mm": [
+        -53.56999224083202,
+        -26.18169894130856,
+        -106.99994651988021
+      ],
+      "strict_AABB_separated": false
+    },
+    {
+      "part": "typing_stylus_link",
+      "bounds_output_mm": [
+        [
+          -4.000003550049331,
+          -58.89971160888676,
+          110.00000150065756
+        ],
+        [
+          3.999997341515268,
+          -51.100288391113295,
+          170.00000158981402
+        ]
+      ],
+      "separation_axis_gaps_mm": [
+        -47.56993081822681,
+        9.918823603607876,
+        -25.999998499352614
+      ],
+      "strict_AABB_separated": true
+    },
+    {
+      "part": "phone_link",
+      "bounds_output_mm": [
+        [
+          63.732184069484944,
+          -78.5141147133733,
+          0.7493274010120139
+        ],
+        [
+          133.69038785718212,
+          78.17762263212042,
+          55.377795491805486
+        ]
+      ],
+      "separation_axis_gaps_mm": [
+        20.09890920705628,
+        -119.35908741962584,
+        -42.377795491795474
+      ],
+      "strict_AABB_separated": true
+    },
+    {
+      "part": "phone_arm_link",
+      "bounds_output_mm": [
+        [
+          20.0,
+          -10.0,
+          8.0
+        ],
+        [
+          124.0,
+          10.0,
+          12.0
+        ]
+      ],
+      "separation_axis_gaps_mm": [
+        -23.633274862428664,
+        -51.10402569532611,
+        1.0000000000100115
+      ],
+      "strict_AABB_separated": true
+    },
+    {
+      "part": "phone_backing_link",
+      "bounds_output_mm": [
+        [
+          65.54048945295972,
+          -80.3934703420253,
+          -5.028773817497296
+        ],
+        [
+          139.52947841911416,
+          79.65448373732988,
+          50.15974632986843
+        ]
+      ],
+      "separation_axis_gaps_mm": [
+        21.907214590531055,
+        -120.8359485248353,
+        -37.15974632985842
+      ],
+      "strict_AABB_separated": true
+    }
+  ],
+  "scope": "AABB separation proves only listed fixed tool/phone vs captured gripper geometry; mounts intentionally intersect their attachment parts. Native auxiliary surfaces investigated separately.",
+  "dynamics": [
+    {
+      "mode": "zero_gravity_passive",
+      "steps": 1000,
+      "time_s": 2.0000000000000013,
+      "finite": true,
+      "max_abs_q_rad": 0.004164288181811929,
+      "max_contacts": 0,
+      "actuators": 0,
+      "scope": "Passive numerical integration only; no holding controller or learned policy. Soft joint limits may be exceeded briefly."
+    },
+    {
+      "mode": "earth_gravity_passive",
+      "steps": 1000,
+      "time_s": 2.0000000000000013,
+      "finite": true,
+      "max_abs_q_rad": 0.10313041701943437,
+      "max_contacts": 0,
+      "actuators": 0,
+      "scope": "Passive numerical integration only; no holding controller or learned policy. Soft joint limits may be exceeded briefly."
+    }
+  ],
+  "typing_holder_decomposed_checks": [
+    {
+      "part": "arm",
+      "bounds_output_mm": [
+        [
+          -9.999957336932157,
+          -62.99977300459743,
+          7.999943936991749
+        ],
+        [
+          10.000058764120483,
+          -14.999765846196858,
+          11.99995109246066
+        ]
+      ],
+      "separation_axis_gaps_mm": [
+        -53.56999224083202,
+        -26.18169894130856,
+        1.0000489075493508
+      ],
+      "strict_AABB_separated": true
+    },
+    {
+      "part": "post",
+      "bounds_output_mm": [
+        [
+          -5.999950808389169,
+          -60.99978579743414,
+          11.999944374461242
+        ],
+        [
+          6.0000579245870655,
+          -48.99976769624359,
+          119.99994647130904
+        ]
+      ],
+      "separation_axis_gaps_mm": [
+        -49.56999140129861,
+        7.818302908738168,
+        -106.99994647129904
+      ],
+      "strict_AABB_separated": true
+    },
+    {
+      "part": "collar_outer",
+      "bounds_output_mm": [
+        [
+          -7.999948817755998,
+          -62.99978380680099,
+          99.99994432188399
+        ],
+        [
+          8.00005206218955,
+          -46.999781192001024,
+          119.99994652388546
+        ]
+      ],
+      "separation_axis_gaps_mm": [
+        -51.56998553890109,
+        5.818316404495604,
+        -36.00005567812619
+      ],
+      "strict_AABB_separated": true
+    }
+  ],
+  "typing_holder_whole_AABB_interpretation": "Whole L-shaped envelope overlaps gripper envelope; that bound is inconclusive. All three constructive pieces are separately AABB-separated.",
+  "listed_fixed_accessories_separated_from_captured_gripper": true,
+  "mujoco": "4.0.1",
+  "integration_timestep_s": 0.002,
+  "initial_qvel_rad_s": [
+    0.005,
+    0.005,
+    0.005,
+    0.005,
+    0.005,
+    0.005
+  ]
+}

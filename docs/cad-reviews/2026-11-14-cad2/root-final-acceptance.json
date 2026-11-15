@@ -1,0 +1,56 @@
+{
+  "final_native": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\EB300-R7-prepared.a3d",
+  "final_native_sha256": "b168ef3cf87969168d0f20ec70986f0ecae15319d609c6688986fcdb089e7254",
+  "components_checked": 17,
+  "component_matrix_max_delta_vs_validated_URDF_source": 0.0,
+  "gripper_occurrences_checked": 8,
+  "gripper_relative_matrix_max_delta": 2.2737367544323206e-13,
+  "axes": [
+    {
+      "name": "J1",
+      "axis_angular_delta_deg": 0.0,
+      "origin_distance_to_native_axis_mm": 2.465190328815662e-32
+    },
+    {
+      "name": "J2",
+      "axis_angular_delta_deg": 0.0,
+      "origin_distance_to_native_axis_mm": 8.881718022552248e-16
+    },
+    {
+      "name": "J3",
+      "axis_angular_delta_deg": 0.0,
+      "origin_distance_to_native_axis_mm": 3.964786335258165e-06
+    },
+    {
+      "name": "J4",
+      "axis_angular_delta_deg": 0.0,
+      "origin_distance_to_native_axis_mm": 1.4632392838450467e-14
+    },
+    {
+      "name": "J5",
+      "axis_angular_delta_deg": 4.353408482428142e-06,
+      "origin_distance_to_native_axis_mm": 4.1711986975227225e-06
+    },
+    {
+      "name": "J6",
+      "axis_angular_delta_deg": 0.0,
+      "origin_distance_to_native_axis_mm": 3.474716245971305e-14
+    }
+  ],
+  "camera_lens_delta_m": 1.3877787807814457e-17,
+  "tcp_delta_m": 2.7755575615628914e-17,
+  "root_mates_valid": true,
+  "root_mates_count": 28,
+  "gripper_own_context_mates_valid": true,
+  "gripper_mates_count": 25,
+  "hidden_helpers": 68,
+  "helper_count": 68,
+  "visible_meshes": 16,
+  "native_document": {
+    "path": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\EB300-R7-prepared.a3d",
+    "read_only": false,
+    "changed": false,
+    "active": true
+  },
+  "scope": "Independent root review of persisted R7 native readback, reference physical-mesh transforms and prepared standard URDF contract. No hardware calibration or global collision certificate."
+}

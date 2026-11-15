@@ -1,0 +1,2689 @@
+{
+  "validator": "Stock MuJoCo4.0.1 native URDF loader; compiled canonical mesh vertices -> geom pose compared with independent native CAD transforms and original part-local prepared mesh vertices.",
+  "pose_count": 25,
+  "visuals_per_pose": 23,
+  "tolerance_m": 1e-06,
+  "max_error_m": 6.525021711834e-08,
+  "passed": true,
+  "rows": [
+    {
+      "pose": "reference",
+      "q_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "visual_checks": [
+        {
+          "visual": "1_update",
+          "error_m": 3.2639902447506586e-09
+        },
+        {
+          "visual": "3_update",
+          "error_m": 1.7319932710258001e-09
+        },
+        {
+          "visual": "7_update",
+          "error_m": 3.6142011050621647e-09
+        },
+        {
+          "visual": "tube1",
+          "error_m": 1.1534517438405167e-09
+        },
+        {
+          "visual": "14_update",
+          "error_m": 1.8061363932231345e-09
+        },
+        {
+          "visual": "18_update",
+          "error_m": 1.6996394777701873e-09
+        },
+        {
+          "visual": "tube2",
+          "error_m": 6.312328507118714e-10
+        },
+        {
+          "visual": "23_update",
+          "error_m": 1.4977772008761825e-09
+        },
+        {
+          "visual": "27_update",
+          "error_m": 1.6822382167824834e-09
+        },
+        {
+          "visual": "31_update",
+          "error_m": 1.5811264519882684e-09
+        },
+        {
+          "visual": "gripper_002_0",
+          "error_m": 7.966207138387915e-10
+        },
+        {
+          "visual": "gripper_003_1",
+          "error_m": 1.7148805223077268e-09
+        },
+        {
+          "visual": "gripper_007_2",
+          "error_m": 3.0000631145998824e-10
+        },
+        {
+          "visual": "gripper_013_3",
+          "error_m": 8.32345747880936e-10
+        },
+        {
+          "visual": "gripper_014_4",
+          "error_m": 7.206351904098796e-10
+        },
+        {
+          "visual": "gripper_013_5",
+          "error_m": 3.593737807339181e-10
+        },
+        {
+          "visual": "gripper_007_6",
+          "error_m": 4.089995009337599e-10
+        },
+        {
+          "visual": "gripper_014_7",
+          "error_m": 7.206353291877576e-10
+        },
+        {
+          "visual": "phone_link",
+          "error_m": 1.8506023657938186e-09
+        },
+        {
+          "visual": "phone_arm_link",
+          "error_m": 1.0728850030616854e-09
+        },
+        {
+          "visual": "phone_backing_link",
+          "error_m": 1.7894539682504484e-09
+        },
+        {
+          "visual": "typing_holder_link",
+          "error_m": 1.9808400475440635e-09
+        },
+        {
+          "visual": "typing_stylus_link",
+          "error_m": 1.0482308632209225e-09
+        }
+      ],
+      "max_aabb_error_m": 3.6142011050621647e-09,
+      "non_adjacent_collision_contacts": 0
+    },
+    {
+      "pose": "J1_85",
+      "q_rad": [
+        0.08726646259971628,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "visual_checks": [
+        {
+          "visual": "1_update",
+          "error_m": 3.2639902447506586e-09
+        },
+        {
+          "visual": "3_update",
+          "error_m": 2.161776431475193e-09
+        },
+        {
+          "visual": "7_update",
+          "error_m": 1.0000767769469121e-08
+        },
+        {
+          "visual": "tube1",
+          "error_m": 1.800570330334761e-08
+        },
+        {
+          "visual": "14_update",
+          "error_m": 2.046736471972288e-08
+        },
+        {
+          "visual": "18_update",
+          "error_m": 2.340411124623909e-08
+        },
+        {
+          "visual": "tube2",
+          "error_m": 3.950442959387013e-08
+        },
+        {
+          "visual": "23_update",
+          "error_m": 4.203483720821577e-08
+        },
+        {
+          "visual": "27_update",
+          "error_m": 4.624999937197227e-08
+        },
+        {
+          "visual": "31_update",
+          "error_m": 5.356311133519753e-08
+        },
+        {
+          "visual": "gripper_002_0",
+          "error_m": 5.022011563549089e-08
+        },
+        {
+          "visual": "gripper_003_1",
+          "error_m": 4.762017648263228e-08
+        },
+        {
+          "visual": "gripper_007_2",
+          "error_m": 4.5774724344305184e-08
+        },
+        {
+          "visual": "gripper_013_3",
+          "error_m": 5.135311231807549e-08
+        },
+        {
+          "visual": "gripper_014_4",
+          "error_m": 5.1565935410557984e-08
+        },
+        {
+          "visual": "gripper_013_5",
+          "error_m": 5.06612035655607e-08
+        },
+        {
+          "visual": "gripper_007_6",
+          "error_m": 4.791328443720655e-08
+        },
+        {
+          "visual": "gripper_014_7",
+          "error_m": 5.1950663104705086e-08
+        },
+        {
+          "visual": "phone_link",
+          "error_m": 6.012707240432569e-08
+        },
+        {
+          "visual": "phone_arm_link",
+          "error_m": 5.936781734272589e-08
+        },
+        {
+          "visual": "phone_backing_link",
+          "error_m": 5.747803794031725e-08
+        },
+        {
+          "visual": "typing_holder_link",
+          "error_m": 4.934292027747311e-08
+        },
+        {
+          "visual": "typing_stylus_link",
+          "error_m": 6.173527755670705e-08
+        }
+      ],
+      "max_aabb_error_m": 6.173527755670705e-08,
+      "non_adjacent_collision_contacts": 0
+    },
+    {
+      "pose": "J1_90",
+      "q_rad": [
+        7.888609044106085e-31,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "visual_checks": [
+        {
+          "visual": "1_update",
+          "error_m": 3.2639902447506586e-09
+        },
+        {
+          "visual": "3_update",
+          "error_m": 1.7319932710258001e-09
+        },
+        {
+          "visual": "7_update",
+          "error_m": 1.0602095895650976e-08
+        },
+        {
+          "visual": "tube1",
+          "error_m": 1.9697893649528453e-08
+        },
+        {
+          "visual": "14_update",
+          "error_m": 2.7600406640737596e-08
+        },
+        {
+          "visual": "18_update",
+          "error_m": 2.365456009539857e-08
+        },
+        {
+          "visual": "tube2",
+          "error_m": 4.06728988223623e-08
+        },
+        {
+          "visual": "23_update",
+          "error_m": 4.7713761872070215e-08
+        },
+        {
+          "visual": "27_update",
+          "error_m": 4.827333380252874e-08
+        },
+        {
+          "visual": "31_update",
+          "error_m": 4.9988195818806425e-08
+        },
+        {
+          "visual": "gripper_002_0",
+          "error_m": 4.7861975903396026e-08
+        },
+        {
+          "visual": "gripper_003_1",
+          "error_m": 4.521805245516486e-08
+        },
+        {
+          "visual": "gripper_007_2",
+          "error_m": 4.3896435486523444e-08
+        },
+        {
+          "visual": "gripper_013_3",
+          "error_m": 4.916228402152001e-08
+        },
+        {
+          "visual": "gripper_014_4",
+          "error_m": 4.936666020416425e-08
+        },
+        {
+          "visual": "gripper_013_5",
+          "error_m": 4.8782914596756655e-08
+        },
+        {
+          "visual": "gripper_007_6",
+          "error_m": 4.632730143949715e-08
+        },
+        {
+          "visual": "gripper_014_7",
+          "error_m": 4.975138778728905e-08
+        },
+        {
+          "visual": "phone_link",
+          "error_m": 5.676293854395276e-08
+        },
+        {
+          "visual": "phone_arm_link",
+          "error_m": 5.556198492961961e-08
+        },
+        {
+          "visual": "phone_backing_link",
+          "error_m": 5.455165916863278e-08
+        },
+        {
+          "visual": "typing_holder_link",
+          "error_m": 4.7904513023055983e-08
+        },
+        {
+          "visual": "typing_stylus_link",
+          "error_m": 5.97387305178998e-08
+        }
+      ],
+      "max_aabb_error_m": 5.97387305178998e-08,
+      "non_adjacent_collision_contacts": 0
+    },
+    {
+      "pose": "J1_95",
+      "q_rad": [
+        -0.08726646259971653,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "visual_checks": [
+        {
+          "visual": "1_update",
+          "error_m": 3.2639902447506586e-09
+        },
+        {
+          "visual": "3_update",
+          "error_m": 2.0932912347948474e-09
+        },
+        {
+          "visual": "7_update",
+          "error_m": 1.122480666748693e-08
+        },
+        {
+          "visual": "tube1",
+          "error_m": 2.0871933126276332e-08
+        },
+        {
+          "visual": "14_update",
+          "error_m": 2.4883537376452214e-08
+        },
+        {
+          "visual": "18_update",
+          "error_m": 2.280085535655285e-08
+        },
+        {
+          "visual": "tube2",
+          "error_m": 4.145810987479098e-08
+        },
+        {
+          "visual": "23_update",
+          "error_m": 4.738015747102198e-08
+        },
+        {
+          "visual": "27_update",
+          "error_m": 4.8349415027182374e-08
+        },
+        {
+          "visual": "31_update",
+          "error_m": 5.161233565531553e-08
+        },
+        {
+          "visual": "gripper_002_0",
+          "error_m": 4.578559417017791e-08
+        },
+        {
+          "visual": "gripper_003_1",
+          "error_m": 4.4556931255712584e-08
+        },
+        {
+          "visual": "gripper_007_2",
+          "error_m": 4.3080477130086337e-08
+        },
+        {
+          "visual": "gripper_013_3",
+          "error_m": 4.781285445343286e-08
+        },
+        {
+          "visual": "gripper_014_4",
+          "error_m": 4.8013357734078e-08
+        },
+        {
+          "visual": "gripper_013_5",
+          "error_m": 4.7576785844327674e-08
+        },
+        {
+          "visual": "gripper_007_6",
+          "error_m": 4.460815486440062e-08
+        },
+        {
+          "visual": "gripper_014_7",
+          "error_m": 4.852645685282653e-08
+        },
+        {
+          "visual": "phone_link",
+          "error_m": 5.1337267104045736e-08
+        },
+        {
+          "visual": "phone_arm_link",
+          "error_m": 5.1780454743410864e-08
+        },
+        {
+          "visual": "phone_backing_link",
+          "error_m": 5.3254845099742765e-08
+        },
+        {
+          "visual": "typing_holder_link",
+          "error_m": 4.675092191153141e-08
+        },
+        {
+          "visual": "typing_stylus_link",
+          "error_m": 5.847837969419345e-08
+        }
+      ],
+      "max_aabb_error_m": 5.847837969419345e-08,
+      "non_adjacent_collision_contacts": 0
+    },
+    {
+      "pose": "J1_90",
+      "q_rad": [
+        -1.1832913575883968e-29,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "visual_checks": [
+        {
+          "visual": "1_update",
+          "error_m": 3.2639902447506586e-09
+        },
+        {
+          "visual": "3_update",
+          "error_m": 1.7319932710258001e-09
+        },
+        {
+          "visual": "7_update",
+          "error_m": 1.0502228892095289e-08
+        },
+        {
+          "visual": "tube1",
+          "error_m": 1.9697893760550755e-08
+        },
+        {
+          "visual": "14_update",
+          "error_m": 2.7600406848904413e-08
+        },
+        {
+          "visual": "18_update",
+          "error_m": 2.365456013529721e-08
+        },
+        {
+          "visual": "tube2",
+          "error_m": 4.0672898868332474e-08
+        },
+        {
+          "visual": "23_update",
+          "error_m": 4.771376195533694e-08
+        },
+        {
+          "visual": "27_update",
+          "error_m": 4.82733338441621e-08
+        },
+        {
+          "visual": "31_update",
+          "error_m": 4.9988195943706515e-08
+        },
+        {
+          "visual": "gripper_002_0",
+          "error_m": 4.786197621564625e-08
+        },
+        {
+          "visual": "gripper_003_1",
+          "error_m": 4.521805279517066e-08
+        },
+        {
+          "visual": "gripper_007_2",
+          "error_m": 4.408647635845142e-08
+        },
+        {
+          "visual": "gripper_013_3",
+          "error_m": 4.9399201396127523e-08
+        },
+        {
+          "visual": "gripper_014_4",
+          "error_m": 4.9604844565287465e-08
+        },
+        {
+          "visual": "gripper_013_5",
+          "error_m": 4.897295535766233e-08
+        },
+        {
+          "visual": "gripper_007_6",
+          "error_m": 4.632730167541954e-08
+        },
+        {
+          "visual": "gripper_014_7",
+          "error_m": 4.9989572148412265e-08
+        },
+        {
+          "visual": "phone_link",
+          "error_m": 5.676293884926409e-08
+        },
+        {
+          "visual": "phone_arm_link",
+          "error_m": 5.5561985221053156e-08
+        },
+        {
+          "visual": "phone_backing_link",
+          "error_m": 5.455165942450449e-08
+        },
+        {
+          "visual": "typing_holder_link",
+          "error_m": 4.79045131202005e-08
+        },
+        {
+          "visual": "typing_stylus_link",
+          "error_m": 5.99465088679807e-08
+        }
+      ],
+      "max_aabb_error_m": 5.99465088679807e-08,
+      "non_adjacent_collision_contacts": 0
+    },
+    {
+      "pose": "J2_85",
+      "q_rad": [
+        0.0,
+        0.08726642040872819,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "visual_checks": [
+        {
+          "visual": "1_update",
+          "error_m": 3.2639902447506586e-09
+        },
+        {
+          "visual": "3_update",
+          "error_m": 1.7319932710258001e-09
+        },
+        {
+          "visual": "7_update",
+          "error_m": 2.196197390613719e-09
+        },
+        {
+          "visual": "tube1",
+          "error_m": 6.310554745425634e-09
+        },
+        {
+          "visual": "14_update",
+          "error_m": 9.924040603181972e-09
+        },
+        {
+          "visual": "18_update",
+          "error_m": 9.647169257887e-09
+        },
+        {
+          "visual": "tube2",
+          "error_m": 1.6764419366599448e-08
+        },
+        {
+          "visual": "23_update",
+          "error_m": 1.7790199292877507e-08
+        },
+        {
+          "visual": "27_update",
+          "error_m": 2.7906414536843505e-08
+        },
+        {
+          "visual": "31_update",
+          "error_m": 1.9890383326504057e-08
+        },
+        {
+          "visual": "gripper_002_0",
+          "error_m": 3.410070159581835e-08
+        },
+        {
+          "visual": "gripper_003_1",
+          "error_m": 3.909035695137675e-08
+        },
+        {
+          "visual": "gripper_007_2",
+          "error_m": 4.393239672051408e-08
+        },
+        {
+          "visual": "gripper_013_3",
+          "error_m": 4.6161378497444616e-08
+        },
+        {
+          "visual": "gripper_014_4",
+          "error_m": 5.635268329751142e-08
+        },
+        {
+          "visual": "gripper_013_5",
+          "error_m": 5.589628238045208e-08
+        },
+        {
+          "visual": "gripper_007_6",
+          "error_m": 4.4841909407900005e-08
+        },
+        {
+          "visual": "gripper_014_7",
+          "error_m": 5.566260607992035e-08
+        },
+        {
+          "visual": "phone_link",
+          "error_m": 4.4420910061404584e-08
+        },
+        {
+          "visual": "phone_arm_link",
+          "error_m": 4.596200159356911e-08
+        },
+        {
+          "visual": "phone_backing_link",
+          "error_m": 4.741628226168082e-08
+        },
+        {
+          "visual": "typing_holder_link",
+          "error_m": 5.2107048675864576e-08
+        },
+        {
+          "visual": "typing_stylus_link",
+          "error_m": 6.525021711834e-08
+        }
+      ],
+      "max_aabb_error_m": 6.525021711834e-08,
+      "non_adjacent_collision_contacts": 0
+    },
+    {
+      "pose": "J2_90",
+      "q_rad": [
+        0.0,
+        -1.437484212409371e-08,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "visual_checks": [
+        {
+          "visual": "1_update",
+          "error_m": 3.2639902447506586e-09
+        },
+        {
+          "visual": "3_update",
+          "error_m": 1.7319932710258001e-09
+        },
+        {
+          "visual": "7_update",
+          "error_m": 3.5046968660523703e-09
+        },
+        {
+          "visual": "tube1",
+          "error_m": 6.008662775669471e-09
+        },
+        {
+          "visual": "14_update",
+          "error_m": 8.501142449712784e-09
+        },
+        {
+          "visual": "18_update",
+          "error_m": 1.1040163873377029e-08
+        },
+        {
+          "visual": "tube2",
+          "error_m": 1.623713834913998e-08
+        },
+        {
+          "visual": "23_update",
+          "error_m": 1.8401546710011818e-08
+        },
+        {
+          "visual": "27_update",
+          "error_m": 2.5663186097035773e-08
+        },
+        {
+          "visual": "31_update",
+          "error_m": 3.262721578328742e-08
+        },
+        {
+          "visual": "gripper_002_0",
+          "error_m": 3.337439054285074e-08
+        },
+        {
+          "visual": "gripper_003_1",
+          "error_m": 3.3787286357611634e-08
+        },
+        {
+          "visual": "gripper_007_2",
+          "error_m": 2.882610075638503e-08
+        },
+        {
+          "visual": "gripper_013_3",
+          "error_m": 2.7993990209251862e-08
+        },
+        {
+          "visual": "gripper_014_4",
+          "error_m": 2.9749904151277207e-08
+        },
+        {
+          "visual": "gripper_013_5",
+          "error_m": 3.073053658764202e-08
+        },
+        {
+          "visual": "gripper_007_6",
+          "error_m": 3.223250288897361e-08
+        },
+        {
+          "visual": "gripper_014_7",
+          "error_m": 2.9141940860455406e-08
+        },
+        {
+          "visual": "phone_link",
+          "error_m": 4.4026744971947807e-08
+        },
+        {
+          "visual": "phone_arm_link",
+          "error_m": 4.312662224559283e-08
+        },
+        {
+          "visual": "phone_backing_link",
+          "error_m": 4.4835610293891826e-08
+        },
+        {
+          "visual": "typing_holder_link",
+          "error_m": 2.7906729954674248e-08
+        },
+        {
+          "visual": "typing_stylus_link",
+          "error_m": 2.907469839885657e-08
+        }
+      ],
+      "max_aabb_error_m": 4.4835610293891826e-08,
+      "non_adjacent_collision_contacts": 0
+    },
+    {
+      "pose": "J2_95",
+      "q_rad": [
+        0.0,
+        -0.08726650479073259,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "visual_checks": [
+        {
+          "visual": "1_update",
+          "error_m": 3.2639902447506586e-09
+        },
+        {
+          "visual": "3_update",
+          "error_m": 1.7319932710258001e-09
+        },
+        {
+          "visual": "7_update",
+          "error_m": 1.949406400192366e-09
+        },
+        {
+          "visual": "tube1",
+          "error_m": 8.287629693626286e-09
+        },
+        {
+          "visual": "14_update",
+          "error_m": 1.0428768584813675e-08
+        },
+        {
+          "visual": "18_update",
+          "error_m": 1.0929019050864852e-08
+        },
+        {
+          "visual": "tube2",
+          "error_m": 1.6876437067270267e-08
+        },
+        {
+          "visual": "23_update",
+          "error_m": 1.9142984503117688e-08
+        },
+        {
+          "visual": "27_update",
+          "error_m": 2.860014587657833e-08
+        },
+        {
+          "visual": "31_update",
+          "error_m": 1.372476077232676e-08
+        },
+        {
+          "visual": "gripper_002_0",
+          "error_m": 3.252075542192756e-08
+        },
+        {
+          "visual": "gripper_003_1",
+          "error_m": 3.886411270581647e-08
+        },
+        {
+          "visual": "gripper_007_2",
+          "error_m": 4.316514545799066e-08
+        },
+        {
+          "visual": "gripper_013_3",
+          "error_m": 5.399672209360773e-08
+        },
+        {
+          "visual": "gripper_014_4",
+          "error_m": 5.413960302291798e-08
+        },
+        {
+          "visual": "gripper_013_5",
+          "error_m": 4.441524237286387e-08
+        },
+        {
+          "visual": "gripper_007_6",
+          "error_m": 4.253159813227825e-08
+        },
+        {
+          "visual": "gripper_014_7",
+          "error_m": 5.4296428353417525e-08
+        },
+        {
+          "visual": "phone_link",
+          "error_m": 5.0242073220546635e-08
+        },
+        {
+          "visual": "phone_arm_link",
+          "error_m": 4.886925207212012e-08
+        },
+        {
+          "visual": "phone_backing_link",
+          "error_m": 5.282875253573294e-08
+        },
+        {
+          "visual": "typing_holder_link",
+          "error_m": 4.922864327294718e-08
+        },
+        {
+          "visual": "typing_stylus_link",
+          "error_m": 6.289293141836794e-08
+        }
+      ],
+      "max_aabb_error_m": 6.289293141836794e-08,
+      "non_adjacent_collision_contacts": 0
+    },
+    {
+      "pose": "J2_90",
+      "q_rad": [
+        0.0,
+        -1.4374773720477598e-08,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "visual_checks": [
+        {
+          "visual": "1_update",
+          "error_m": 3.2639902447506586e-09
+        },
+        {
+          "visual": "3_update",
+          "error_m": 1.7319932710258001e-09
+        },
+        {
+          "visual": "7_update",
+          "error_m": 3.5046963386964336e-09
+        },
+        {
+          "visual": "tube1",
+          "error_m": 6.0086778400081364e-09
+        },
+        {
+          "visual": "14_update",
+          "error_m": 8.501138008820686e-09
+        },
+        {
+          "visual": "18_update",
+          "error_m": 1.1040163783171408e-08
+        },
+        {
+          "visual": "tube2",
+          "error_m": 1.6237153285109107e-08
+        },
+        {
+          "visual": "23_update",
+          "error_m": 1.8401543538937304e-08
+        },
+        {
+          "visual": "27_update",
+          "error_m": 2.5663238138740052e-08
+        },
+        {
+          "visual": "31_update",
+          "error_m": 3.262735050885146e-08
+        },
+        {
+          "visual": "gripper_002_0",
+          "error_m": 3.3374531235863536e-08
+        },
+        {
+          "visual": "gripper_003_1",
+          "error_m": 3.3787427022868854e-08
+        },
+        {
+          "visual": "gripper_007_2",
+          "error_m": 2.8826196957210115e-08
+        },
+        {
+          "visual": "gripper_013_3",
+          "error_m": 2.799408416187532e-08
+        },
+        {
+          "visual": "gripper_014_4",
+          "error_m": 2.9750013036400347e-08
+        },
+        {
+          "visual": "gripper_013_5",
+          "error_m": 3.0730650080190713e-08
+        },
+        {
+          "visual": "gripper_007_6",
+          "error_m": 3.22326286772423e-08
+        },
+        {
+          "visual": "gripper_014_7",
+          "error_m": 2.914203744985855e-08
+        },
+        {
+          "visual": "phone_link",
+          "error_m": 4.402696618388546e-08
+        },
+        {
+          "visual": "phone_arm_link",
+          "error_m": 4.3126841667295857e-08
+        },
+        {
+          "visual": "phone_backing_link",
+          "error_m": 4.4835840290469164e-08
+        },
+        {
+          "visual": "typing_holder_link",
+          "error_m": 2.790683439890529e-08
+        },
+        {
+          "visual": "typing_stylus_link",
+          "error_m": 2.9074791657590637e-08
+        }
+      ],
+      "max_aabb_error_m": 4.4835840290469164e-08,
+      "non_adjacent_collision_contacts": 0
+    },
+    {
+      "pose": "J3_85",
+      "q_rad": [
+        0.0,
+        0.0,
+        0.08726645023304996,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "visual_checks": [
+        {
+          "visual": "1_update",
+          "error_m": 3.2639902447506586e-09
+        },
+        {
+          "visual": "3_update",
+          "error_m": 1.7319932710258001e-09
+        },
+        {
+          "visual": "7_update",
+          "error_m": 3.6142011050621647e-09
+        },
+        {
+          "visual": "tube1",
+          "error_m": 1.1534517438405167e-09
+        },
+        {
+          "visual": "14_update",
+          "error_m": 1.8061363932231345e-09
+        },
+        {
+          "visual": "18_update",
+          "error_m": 1.4448141572032114e-09
+        },
+        {
+          "visual": "tube2",
+          "error_m": 3.698903551507815e-09
+        },
+        {
+          "visual": "23_update",
+          "error_m": 4.6369390167833036e-09
+        },
+        {
+          "visual": "27_update",
+          "error_m": 1.059506285483458e-08
+        },
+        {
+          "visual": "31_update",
+          "error_m": 1.7345436933990932e-08
+        },
+        {
+          "visual": "gripper_002_0",
+          "error_m": 1.5564873223627984e-08
+        },
+        {
+          "visual": "gripper_003_1",
+          "error_m": 1.5990090002082624e-08
+        },
+        {
+          "visual": "gripper_007_2",
+          "error_m": 1.5011453746716086e-08
+        },
+        {
+          "visual": "gripper_013_3",
+          "error_m": 1.5469575176396688e-08
+        },
+        {
+          "visual": "gripper_014_4",
+          "error_m": 1.821382356048673e-08
+        },
+        {
+          "visual": "gripper_013_5",
+          "error_m": 1.8405496793327814e-08
+        },
+        {
+          "visual": "gripper_007_6",
+          "error_m": 1.5123316599030545e-08
+        },
+        {
+          "visual": "gripper_014_7",
+          "error_m": 1.8547061664264675e-08
+        },
+        {
+          "visual": "phone_link",
+          "error_m": 2.46981946838698e-08
+        },
+        {
+          "visual": "phone_arm_link",
+          "error_m": 2.385619193856492e-08
+        },
+        {
+          "visual": "phone_backing_link",
+          "error_m": 2.5284574933781556e-08
+        },
+        {
+          "visual": "typing_holder_link",
+          "error_m": 1.6743252118089913e-08
+        },
+        {
+          "visual": "typing_stylus_link",
+          "error_m": 2.1015880924402097e-08
+        }
+      ],
+      "max_aabb_error_m": 2.5284574933781556e-08,
+      "non_adjacent_collision_contacts": 0
+    },
+    {
+      "pose": "J3_90",
+      "q_rad": [
+        0.0,
+        0.0,
+        -1.2464952500734921e-08,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "visual_checks": [
+        {
+          "visual": "1_update",
+          "error_m": 3.2639902447506586e-09
+        },
+        {
+          "visual": "3_update",
+          "error_m": 1.7319932710258001e-09
+        },
+        {
+          "visual": "7_update",
+          "error_m": 3.6142011050621647e-09
+        },
+        {
+          "visual": "tube1",
+          "error_m": 1.1534517438405167e-09
+        },
+        {
+          "visual": "14_update",
+          "error_m": 1.8061363932231345e-09
+        },
+        {
+          "visual": "18_update",
+          "error_m": 1.6999390367589129e-09
+        },
+        {
+          "visual": "tube2",
+          "error_m": 3.335276946986321e-09
+        },
+        {
+          "visual": "23_update",
+          "error_m": 4.993564638178238e-09
+        },
+        {
+          "visual": "27_update",
+          "error_m": 1.0528137597831666e-08
+        },
+        {
+          "visual": "31_update",
+          "error_m": 1.5644960285610132e-08
+        },
+        {
+          "visual": "gripper_002_0",
+          "error_m": 1.62707944062479e-08
+        },
+        {
+          "visual": "gripper_003_1",
+          "error_m": 1.668019217193617e-08
+        },
+        {
+          "visual": "gripper_007_2",
+          "error_m": 1.3933294185086709e-08
+        },
+        {
+          "visual": "gripper_013_3",
+          "error_m": 1.4609668586018643e-08
+        },
+        {
+          "visual": "gripper_014_4",
+          "error_m": 1.7244105365854523e-08
+        },
+        {
+          "visual": "gripper_013_5",
+          "error_m": 1.6837351735077277e-08
+        },
+        {
+          "visual": "gripper_007_6",
+          "error_m": 1.5458098107101748e-08
+        },
+        {
+          "visual": "gripper_014_7",
+          "error_m": 1.7299554122551797e-08
+        },
+        {
+          "visual": "phone_link",
+          "error_m": 2.5115093810201827e-08
+        },
+        {
+          "visual": "phone_arm_link",
+          "error_m": 2.4251103430961152e-08
+        },
+        {
+          "visual": "phone_backing_link",
+          "error_m": 2.5729003538810247e-08
+        },
+        {
+          "visual": "typing_holder_link",
+          "error_m": 1.162227972195673e-08
+        },
+        {
+          "visual": "typing_stylus_link",
+          "error_m": 1.9764352154894027e-08
+        }
+      ],
+      "max_aabb_error_m": 2.5729003538810247e-08,
+      "non_adjacent_collision_contacts": 0
+    },
+    {
+      "pose": "J3_95",
+      "q_rad": [
+        0.0,
+        0.0,
+        -0.08726647506474218,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "visual_checks": [
+        {
+          "visual": "1_update",
+          "error_m": 3.2639902447506586e-09
+        },
+        {
+          "visual": "3_update",
+          "error_m": 1.7319932710258001e-09
+        },
+        {
+          "visual": "7_update",
+          "error_m": 3.6142011050621647e-09
+        },
+        {
+          "visual": "tube1",
+          "error_m": 1.1534517438405167e-09
+        },
+        {
+          "visual": "14_update",
+          "error_m": 1.8061363932231345e-09
+        },
+        {
+          "visual": "18_update",
+          "error_m": 1.4959138996961663e-09
+        },
+        {
+          "visual": "tube2",
+          "error_m": 3.4848038968360306e-09
+        },
+        {
+          "visual": "23_update",
+          "error_m": 5.028387794689393e-09
+        },
+        {
+          "visual": "27_update",
+          "error_m": 9.16291363617372e-09
+        },
+        {
+          "visual": "31_update",
+          "error_m": 1.1299255555513588e-08
+        },
+        {
+          "visual": "gripper_002_0",
+          "error_m": 1.5347731127657305e-08
+        },
+        {
+          "visual": "gripper_003_1",
+          "error_m": 1.7512628888716186e-08
+        },
+        {
+          "visual": "gripper_007_2",
+          "error_m": 1.3629565892570028e-08
+        },
+        {
+          "visual": "gripper_013_3",
+          "error_m": 1.570616825485871e-08
+        },
+        {
+          "visual": "gripper_014_4",
+          "error_m": 1.546955219478008e-08
+        },
+        {
+          "visual": "gripper_013_5",
+          "error_m": 1.6135476024747852e-08
+        },
+        {
+          "visual": "gripper_007_6",
+          "error_m": 1.6319021509114684e-08
+        },
+        {
+          "visual": "gripper_014_7",
+          "error_m": 1.567059448870367e-08
+        },
+        {
+          "visual": "phone_link",
+          "error_m": 2.5383325961969572e-08
+        },
+        {
+          "visual": "phone_arm_link",
+          "error_m": 2.4654888313227485e-08
+        },
+        {
+          "visual": "phone_backing_link",
+          "error_m": 2.6021128723963116e-08
+        },
+        {
+          "visual": "typing_holder_link",
+          "error_m": 1.5078251536237985e-08
+        },
+        {
+          "visual": "typing_stylus_link",
+          "error_m": 1.8825315084569638e-08
+        }
+      ],
+      "max_aabb_error_m": 2.6021128723963116e-08,
+      "non_adjacent_collision_contacts": 0
+    },
+    {
+      "pose": "J3_90",
+      "q_rad": [
+        0.0,
+        0.0,
+        -1.2464953361157763e-08,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "visual_checks": [
+        {
+          "visual": "1_update",
+          "error_m": 3.2639902447506586e-09
+        },
+        {
+          "visual": "3_update",
+          "error_m": 1.7319932710258001e-09
+        },
+        {
+          "visual": "7_update",
+          "error_m": 3.6142011050621647e-09
+        },
+        {
+          "visual": "tube1",
+          "error_m": 1.1534517438405167e-09
+        },
+        {
+          "visual": "14_update",
+          "error_m": 1.8061363932231345e-09
+        },
+        {
+          "visual": "18_update",
+          "error_m": 1.6996394569535056e-09
+        },
+        {
+          "visual": "tube2",
+          "error_m": 3.3349772110558007e-09
+        },
+        {
+          "visual": "23_update",
+          "error_m": 4.993265231845179e-09
+        },
+        {
+          "visual": "27_update",
+          "error_m": 1.052784338873014e-08
+        },
+        {
+          "visual": "31_update",
+          "error_m": 1.5644674479509124e-08
+        },
+        {
+          "visual": "gripper_002_0",
+          "error_m": 1.6270509425875268e-08
+        },
+        {
+          "visual": "gripper_003_1",
+          "error_m": 1.6679907122174598e-08
+        },
+        {
+          "visual": "gripper_007_2",
+          "error_m": 1.3933308729008331e-08
+        },
+        {
+          "visual": "gripper_013_3",
+          "error_m": 1.4609683907096382e-08
+        },
+        {
+          "visual": "gripper_014_4",
+          "error_m": 1.7244123906579034e-08
+        },
+        {
+          "visual": "gripper_013_5",
+          "error_m": 1.6837370053757184e-08
+        },
+        {
+          "visual": "gripper_007_6",
+          "error_m": 1.5457811530783516e-08
+        },
+        {
+          "visual": "gripper_014_7",
+          "error_m": 1.7299572552254006e-08
+        },
+        {
+          "visual": "phone_link",
+          "error_m": 2.511481671241267e-08
+        },
+        {
+          "visual": "phone_arm_link",
+          "error_m": 2.4250826263783054e-08
+        },
+        {
+          "visual": "phone_backing_link",
+          "error_m": 2.572872738471066e-08
+        },
+        {
+          "visual": "typing_holder_link",
+          "error_m": 1.1621990814170147e-08
+        },
+        {
+          "visual": "typing_stylus_link",
+          "error_m": 1.9764372916064588e-08
+        }
+      ],
+      "max_aabb_error_m": 2.572872738471066e-08,
+      "non_adjacent_collision_contacts": 0
+    },
+    {
+      "pose": "J4_85",
+      "q_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.08726645567179589,
+        0.0,
+        0.0
+      ],
+      "visual_checks": [
+        {
+          "visual": "1_update",
+          "error_m": 3.2639902447506586e-09
+        },
+        {
+          "visual": "3_update",
+          "error_m": 1.7319932710258001e-09
+        },
+        {
+          "visual": "7_update",
+          "error_m": 3.6142011050621647e-09
+        },
+        {
+          "visual": "tube1",
+          "error_m": 1.1534517438405167e-09
+        },
+        {
+          "visual": "14_update",
+          "error_m": 1.8061363932231345e-09
+        },
+        {
+          "visual": "18_update",
+          "error_m": 1.6996394777701873e-09
+        },
+        {
+          "visual": "tube2",
+          "error_m": 6.312328507118714e-10
+        },
+        {
+          "visual": "23_update",
+          "error_m": 1.4977772008761825e-09
+        },
+        {
+          "visual": "27_update",
+          "error_m": 3.2250886683460323e-09
+        },
+        {
+          "visual": "31_update",
+          "error_m": 4.749691612238038e-09
+        },
+        {
+          "visual": "gripper_002_0",
+          "error_m": 9.478933860052052e-09
+        },
+        {
+          "visual": "gripper_003_1",
+          "error_m": 1.0751991297297536e-08
+        },
+        {
+          "visual": "gripper_007_2",
+          "error_m": 1.2008720018386043e-08
+        },
+        {
+          "visual": "gripper_013_3",
+          "error_m": 1.504660307460881e-08
+        },
+        {
+          "visual": "gripper_014_4",
+          "error_m": 1.4724178099001506e-08
+        },
+        {
+          "visual": "gripper_013_5",
+          "error_m": 1.2212471811601233e-08
+        },
+        {
+          "visual": "gripper_007_6",
+          "error_m": 1.1558797918809205e-08
+        },
+        {
+          "visual": "gripper_014_7",
+          "error_m": 1.4981068274799725e-08
+        },
+        {
+          "visual": "phone_link",
+          "error_m": 1.5447857201755788e-08
+        },
+        {
+          "visual": "phone_arm_link",
+          "error_m": 1.624930708737926e-08
+        },
+        {
+          "visual": "phone_backing_link",
+          "error_m": 1.5947574205643633e-08
+        },
+        {
+          "visual": "typing_holder_link",
+          "error_m": 1.489403300691805e-08
+        },
+        {
+          "visual": "typing_stylus_link",
+          "error_m": 1.8069840179713026e-08
+        }
+      ],
+      "max_aabb_error_m": 1.8069840179713026e-08,
+      "non_adjacent_collision_contacts": 0
+    },
+    {
+      "pose": "J4_90",
+      "q_rad": [
+        0.0,
+        0.0,
+        0.0,
+        4.970246053571187e-15,
+        0.0,
+        0.0
+      ],
+      "visual_checks": [
+        {
+          "visual": "1_update",
+          "error_m": 3.2639902447506586e-09
+        },
+        {
+          "visual": "3_update",
+          "error_m": 1.7319932710258001e-09
+        },
+        {
+          "visual": "7_update",
+          "error_m": 3.6142011050621647e-09
+        },
+        {
+          "visual": "tube1",
+          "error_m": 1.1534517438405167e-09
+        },
+        {
+          "visual": "14_update",
+          "error_m": 1.8061363932231345e-09
+        },
+        {
+          "visual": "18_update",
+          "error_m": 1.6996394777701873e-09
+        },
+        {
+          "visual": "tube2",
+          "error_m": 6.312328507118714e-10
+        },
+        {
+          "visual": "23_update",
+          "error_m": 1.4977772008761825e-09
+        },
+        {
+          "visual": "27_update",
+          "error_m": 5.853485612883347e-09
+        },
+        {
+          "visual": "31_update",
+          "error_m": 9.92995346366099e-09
+        },
+        {
+          "visual": "gripper_002_0",
+          "error_m": 1.0491159607717293e-08
+        },
+        {
+          "visual": "gripper_003_1",
+          "error_m": 1.1988067094570454e-08
+        },
+        {
+          "visual": "gripper_007_2",
+          "error_m": 1.2063564813757921e-08
+        },
+        {
+          "visual": "gripper_013_3",
+          "error_m": 1.2658917691865668e-08
+        },
+        {
+          "visual": "gripper_014_4",
+          "error_m": 1.4900711664544986e-08
+        },
+        {
+          "visual": "gripper_013_5",
+          "error_m": 1.4506422729709811e-08
+        },
+        {
+          "visual": "gripper_007_6",
+          "error_m": 1.19180884050607e-08
+        },
+        {
+          "visual": "gripper_014_7",
+          "error_m": 1.4956160310219957e-08
+        },
+        {
+          "visual": "phone_link",
+          "error_m": 1.830094722987674e-08
+        },
+        {
+          "visual": "phone_arm_link",
+          "error_m": 1.7457426448874713e-08
+        },
+        {
+          "visual": "phone_backing_link",
+          "error_m": 1.8804412055262176e-08
+        },
+        {
+          "visual": "typing_holder_link",
+          "error_m": 6.28375498856748e-09
+        },
+        {
+          "visual": "typing_stylus_link",
+          "error_m": 1.703454644008673e-08
+        }
+      ],
+      "max_aabb_error_m": 1.8804412055262176e-08,
+      "non_adjacent_collision_contacts": 0
+    },
+    {
+      "pose": "J4_95",
+      "q_rad": [
+        0.0,
+        0.0,
+        0.0,
+        -0.08726645410011018,
+        0.0,
+        0.0
+      ],
+      "visual_checks": [
+        {
+          "visual": "1_update",
+          "error_m": 3.2639902447506586e-09
+        },
+        {
+          "visual": "3_update",
+          "error_m": 1.7319932710258001e-09
+        },
+        {
+          "visual": "7_update",
+          "error_m": 3.6142011050621647e-09
+        },
+        {
+          "visual": "tube1",
+          "error_m": 1.1534517438405167e-09
+        },
+        {
+          "visual": "14_update",
+          "error_m": 1.8061363932231345e-09
+        },
+        {
+          "visual": "18_update",
+          "error_m": 1.6996394777701873e-09
+        },
+        {
+          "visual": "tube2",
+          "error_m": 6.312328507118714e-10
+        },
+        {
+          "visual": "23_update",
+          "error_m": 1.4977772008761825e-09
+        },
+        {
+          "visual": "27_update",
+          "error_m": 7.76664836610319e-09
+        },
+        {
+          "visual": "31_update",
+          "error_m": 1.348238236331678e-08
+        },
+        {
+          "visual": "gripper_002_0",
+          "error_m": 1.1554445344952313e-08
+        },
+        {
+          "visual": "gripper_003_1",
+          "error_m": 1.2189497855530362e-08
+        },
+        {
+          "visual": "gripper_007_2",
+          "error_m": 1.1758316320609197e-08
+        },
+        {
+          "visual": "gripper_013_3",
+          "error_m": 1.2080187405949516e-08
+        },
+        {
+          "visual": "gripper_014_4",
+          "error_m": 1.4509261458961475e-08
+        },
+        {
+          "visual": "gripper_013_5",
+          "error_m": 1.4726600050529726e-08
+        },
+        {
+          "visual": "gripper_007_6",
+          "error_m": 1.1911526986985166e-08
+        },
+        {
+          "visual": "gripper_014_7",
+          "error_m": 1.4800493719491215e-08
+        },
+        {
+          "visual": "phone_link",
+          "error_m": 2.1136928374243524e-08
+        },
+        {
+          "visual": "phone_arm_link",
+          "error_m": 1.876041860748856e-08
+        },
+        {
+          "visual": "phone_backing_link",
+          "error_m": 2.164161114204255e-08
+        },
+        {
+          "visual": "typing_holder_link",
+          "error_m": 1.2857278020028673e-08
+        },
+        {
+          "visual": "typing_stylus_link",
+          "error_m": 1.6555984472255147e-08
+        }
+      ],
+      "max_aabb_error_m": 2.164161114204255e-08,
+      "non_adjacent_collision_contacts": 0
+    },
+    {
+      "pose": "J4_90",
+      "q_rad": [
+        0.0,
+        0.0,
+        0.0,
+        9.276690281803084e-13,
+        0.0,
+        0.0
+      ],
+      "visual_checks": [
+        {
+          "visual": "1_update",
+          "error_m": 3.2639902447506586e-09
+        },
+        {
+          "visual": "3_update",
+          "error_m": 1.7319932710258001e-09
+        },
+        {
+          "visual": "7_update",
+          "error_m": 3.6142011050621647e-09
+        },
+        {
+          "visual": "tube1",
+          "error_m": 1.1534517438405167e-09
+        },
+        {
+          "visual": "14_update",
+          "error_m": 1.8061363932231345e-09
+        },
+        {
+          "visual": "18_update",
+          "error_m": 1.6996394777701873e-09
+        },
+        {
+          "visual": "tube2",
+          "error_m": 6.312328507118714e-10
+        },
+        {
+          "visual": "23_update",
+          "error_m": 1.4977772008761825e-09
+        },
+        {
+          "visual": "27_update",
+          "error_m": 5.853485605944453e-09
+        },
+        {
+          "visual": "31_update",
+          "error_m": 9.929952922427265e-09
+        },
+        {
+          "visual": "gripper_002_0",
+          "error_m": 1.0491160204462169e-08
+        },
+        {
+          "visual": "gripper_003_1",
+          "error_m": 1.1988054215983368e-08
+        },
+        {
+          "visual": "gripper_007_2",
+          "error_m": 1.2063563703534896e-08
+        },
+        {
+          "visual": "gripper_013_3",
+          "error_m": 1.2658916692664945e-08
+        },
+        {
+          "visual": "gripper_014_4",
+          "error_m": 1.4900710554321961e-08
+        },
+        {
+          "visual": "gripper_013_5",
+          "error_m": 1.450642173050909e-08
+        },
+        {
+          "visual": "gripper_007_6",
+          "error_m": 1.1918087183815373e-08
+        },
+        {
+          "visual": "gripper_014_7",
+          "error_m": 1.495615908897463e-08
+        },
+        {
+          "visual": "phone_link",
+          "error_m": 1.8300947410287982e-08
+        },
+        {
+          "visual": "phone_arm_link",
+          "error_m": 1.7457426573774804e-08
+        },
+        {
+          "visual": "phone_backing_link",
+          "error_m": 1.880441227730678e-08
+        },
+        {
+          "visual": "typing_holder_link",
+          "error_m": 6.28375632083511e-09
+        },
+        {
+          "visual": "typing_stylus_link",
+          "error_m": 1.703454555190831e-08
+        }
+      ],
+      "max_aabb_error_m": 1.880441227730678e-08,
+      "non_adjacent_collision_contacts": 0
+    },
+    {
+      "pose": "J5_85",
+      "q_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0872664625997134,
+        0.0
+      ],
+      "visual_checks": [
+        {
+          "visual": "1_update",
+          "error_m": 3.2639902447506586e-09
+        },
+        {
+          "visual": "3_update",
+          "error_m": 1.7319932710258001e-09
+        },
+        {
+          "visual": "7_update",
+          "error_m": 3.6142011050621647e-09
+        },
+        {
+          "visual": "tube1",
+          "error_m": 1.1534517438405167e-09
+        },
+        {
+          "visual": "14_update",
+          "error_m": 1.8061363932231345e-09
+        },
+        {
+          "visual": "18_update",
+          "error_m": 1.6996394777701873e-09
+        },
+        {
+          "visual": "tube2",
+          "error_m": 6.312328507118714e-10
+        },
+        {
+          "visual": "23_update",
+          "error_m": 1.4977772008761825e-09
+        },
+        {
+          "visual": "27_update",
+          "error_m": 1.854040497517584e-09
+        },
+        {
+          "visual": "31_update",
+          "error_m": 1.1090820484227493e-09
+        },
+        {
+          "visual": "gripper_002_0",
+          "error_m": 6.778234779014625e-10
+        },
+        {
+          "visual": "gripper_003_1",
+          "error_m": 1.7784925754327219e-09
+        },
+        {
+          "visual": "gripper_007_2",
+          "error_m": 8.356602215764397e-10
+        },
+        {
+          "visual": "gripper_013_3",
+          "error_m": 1.1701005719899626e-09
+        },
+        {
+          "visual": "gripper_014_4",
+          "error_m": 6.995560797307121e-10
+        },
+        {
+          "visual": "gripper_013_5",
+          "error_m": 7.720967754032415e-10
+        },
+        {
+          "visual": "gripper_007_6",
+          "error_m": 9.126585043262025e-10
+        },
+        {
+          "visual": "gripper_014_7",
+          "error_m": 8.165494946865692e-10
+        },
+        {
+          "visual": "phone_link",
+          "error_m": 2.9537792012659936e-09
+        },
+        {
+          "visual": "phone_arm_link",
+          "error_m": 1.744162092531809e-09
+        },
+        {
+          "visual": "phone_backing_link",
+          "error_m": 3.417312016695817e-09
+        },
+        {
+          "visual": "typing_holder_link",
+          "error_m": 3.357386674229801e-09
+        },
+        {
+          "visual": "typing_stylus_link",
+          "error_m": 1.1554762702203902e-09
+        }
+      ],
+      "max_aabb_error_m": 3.6142011050621647e-09,
+      "non_adjacent_collision_contacts": 0
+    },
+    {
+      "pose": "J5_90",
+      "q_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -3.354954266895893e-15,
+        0.0
+      ],
+      "visual_checks": [
+        {
+          "visual": "1_update",
+          "error_m": 3.2639902447506586e-09
+        },
+        {
+          "visual": "3_update",
+          "error_m": 1.7319932710258001e-09
+        },
+        {
+          "visual": "7_update",
+          "error_m": 3.6142011050621647e-09
+        },
+        {
+          "visual": "tube1",
+          "error_m": 1.1534517438405167e-09
+        },
+        {
+          "visual": "14_update",
+          "error_m": 1.8061363932231345e-09
+        },
+        {
+          "visual": "18_update",
+          "error_m": 1.6996394777701873e-09
+        },
+        {
+          "visual": "tube2",
+          "error_m": 6.312328507118714e-10
+        },
+        {
+          "visual": "23_update",
+          "error_m": 1.4977772008761825e-09
+        },
+        {
+          "visual": "27_update",
+          "error_m": 1.6901463284479945e-09
+        },
+        {
+          "visual": "31_update",
+          "error_m": 1.5811265630105709e-09
+        },
+        {
+          "visual": "gripper_002_0",
+          "error_m": 7.966205056719744e-10
+        },
+        {
+          "visual": "gripper_003_1",
+          "error_m": 1.7148808414968464e-09
+        },
+        {
+          "visual": "gripper_007_2",
+          "error_m": 3.0000667228247124e-10
+        },
+        {
+          "visual": "gripper_013_3",
+          "error_m": 8.439794974002268e-10
+        },
+        {
+          "visual": "gripper_014_4",
+          "error_m": 7.033306159698327e-10
+        },
+        {
+          "visual": "gripper_013_5",
+          "error_m": 3.749612564885041e-10
+        },
+        {
+          "visual": "gripper_007_6",
+          "error_m": 4.309606005392652e-10
+        },
+        {
+          "visual": "gripper_014_7",
+          "error_m": 7.34199728791296e-10
+        },
+        {
+          "visual": "phone_link",
+          "error_m": 1.8506025878384236e-09
+        },
+        {
+          "visual": "phone_arm_link",
+          "error_m": 1.0826131102703584e-09
+        },
+        {
+          "visual": "phone_backing_link",
+          "error_m": 1.7894542423367577e-09
+        },
+        {
+          "visual": "typing_holder_link",
+          "error_m": 1.964371942886345e-09
+        },
+        {
+          "visual": "typing_stylus_link",
+          "error_m": 1.032468971429168e-09
+        }
+      ],
+      "max_aabb_error_m": 3.6142011050621647e-09,
+      "non_adjacent_collision_contacts": 0
+    },
+    {
+      "pose": "J5_95",
+      "q_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.08726646259972004,
+        0.0
+      ],
+      "visual_checks": [
+        {
+          "visual": "1_update",
+          "error_m": 3.2639902447506586e-09
+        },
+        {
+          "visual": "3_update",
+          "error_m": 1.7319932710258001e-09
+        },
+        {
+          "visual": "7_update",
+          "error_m": 3.6142011050621647e-09
+        },
+        {
+          "visual": "tube1",
+          "error_m": 1.1534517438405167e-09
+        },
+        {
+          "visual": "14_update",
+          "error_m": 1.8061363932231345e-09
+        },
+        {
+          "visual": "18_update",
+          "error_m": 1.6996394777701873e-09
+        },
+        {
+          "visual": "tube2",
+          "error_m": 6.312328507118714e-10
+        },
+        {
+          "visual": "23_update",
+          "error_m": 1.4977772008761825e-09
+        },
+        {
+          "visual": "27_update",
+          "error_m": 1.6822382167824834e-09
+        },
+        {
+          "visual": "31_update",
+          "error_m": 2.0995403748891306e-09
+        },
+        {
+          "visual": "gripper_002_0",
+          "error_m": 1.1530148710803267e-09
+        },
+        {
+          "visual": "gripper_003_1",
+          "error_m": 1.2717433772735376e-09
+        },
+        {
+          "visual": "gripper_007_2",
+          "error_m": 4.12803680127638e-10
+        },
+        {
+          "visual": "gripper_013_3",
+          "error_m": 6.09952338637143e-10
+        },
+        {
+          "visual": "gripper_014_4",
+          "error_m": 8.241907989425812e-10
+        },
+        {
+          "visual": "gripper_013_5",
+          "error_m": 8.852680533077972e-10
+        },
+        {
+          "visual": "gripper_007_6",
+          "error_m": 9.978059073434409e-10
+        },
+        {
+          "visual": "gripper_014_7",
+          "error_m": 7.762290810120476e-10
+        },
+        {
+          "visual": "phone_link",
+          "error_m": 2.9347884955566172e-09
+        },
+        {
+          "visual": "phone_arm_link",
+          "error_m": 1.315390033007624e-09
+        },
+        {
+          "visual": "phone_backing_link",
+          "error_m": 3.4326742021778545e-09
+        },
+        {
+          "visual": "typing_holder_link",
+          "error_m": 3.53359966287492e-09
+        },
+        {
+          "visual": "typing_stylus_link",
+          "error_m": 9.587327876037222e-10
+        }
+      ],
+      "max_aabb_error_m": 3.6142011050621647e-09,
+      "non_adjacent_collision_contacts": 0
+    },
+    {
+      "pose": "J5_90",
+      "q_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -3.0459427292873346e-15,
+        0.0
+      ],
+      "visual_checks": [
+        {
+          "visual": "1_update",
+          "error_m": 3.2639902447506586e-09
+        },
+        {
+          "visual": "3_update",
+          "error_m": 1.7319932710258001e-09
+        },
+        {
+          "visual": "7_update",
+          "error_m": 3.6142011050621647e-09
+        },
+        {
+          "visual": "tube1",
+          "error_m": 1.1534517438405167e-09
+        },
+        {
+          "visual": "14_update",
+          "error_m": 1.8061363932231345e-09
+        },
+        {
+          "visual": "18_update",
+          "error_m": 1.6996394777701873e-09
+        },
+        {
+          "visual": "tube2",
+          "error_m": 6.312328507118714e-10
+        },
+        {
+          "visual": "23_update",
+          "error_m": 1.4977772008761825e-09
+        },
+        {
+          "visual": "27_update",
+          "error_m": 1.6822382167824834e-09
+        },
+        {
+          "visual": "31_update",
+          "error_m": 1.5811265352549952e-09
+        },
+        {
+          "visual": "gripper_002_0",
+          "error_m": 7.966205473053378e-10
+        },
+        {
+          "visual": "gripper_003_1",
+          "error_m": 1.7148807721079073e-09
+        },
+        {
+          "visual": "gripper_007_2",
+          "error_m": 3.000066028935322e-10
+        },
+        {
+          "visual": "gripper_013_3",
+          "error_m": 8.323729761006149e-10
+        },
+        {
+          "visual": "gripper_014_4",
+          "error_m": 7.205947505362076e-10
+        },
+        {
+          "visual": "gripper_013_5",
+          "error_m": 3.5941025156027706e-10
+        },
+        {
+          "visual": "gripper_007_6",
+          "error_m": 4.0905279163894193e-10
+        },
+        {
+          "visual": "gripper_014_7",
+          "error_m": 7.206670538106863e-10
+        },
+        {
+          "visual": "phone_link",
+          "error_m": 1.8506028098830285e-09
+        },
+        {
+          "visual": "phone_arm_link",
+          "error_m": 1.0729099830797395e-09
+        },
+        {
+          "visual": "phone_backing_link",
+          "error_m": 1.789454370272614e-09
+        },
+        {
+          "visual": "typing_holder_link",
+          "error_m": 1.980801300760504e-09
+        },
+        {
+          "visual": "typing_stylus_link",
+          "error_m": 1.0481940870832318e-09
+        }
+      ],
+      "max_aabb_error_m": 3.6142011050621647e-09,
+      "non_adjacent_collision_contacts": 0
+    },
+    {
+      "pose": "J6_85",
+      "q_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.08726646259972023
+      ],
+      "visual_checks": [
+        {
+          "visual": "1_update",
+          "error_m": 3.2639902447506586e-09
+        },
+        {
+          "visual": "3_update",
+          "error_m": 1.7319932710258001e-09
+        },
+        {
+          "visual": "7_update",
+          "error_m": 3.6142011050621647e-09
+        },
+        {
+          "visual": "tube1",
+          "error_m": 1.1534517438405167e-09
+        },
+        {
+          "visual": "14_update",
+          "error_m": 1.8061363932231345e-09
+        },
+        {
+          "visual": "18_update",
+          "error_m": 1.6996394777701873e-09
+        },
+        {
+          "visual": "tube2",
+          "error_m": 6.312328507118714e-10
+        },
+        {
+          "visual": "23_update",
+          "error_m": 1.4977772008761825e-09
+        },
+        {
+          "visual": "27_update",
+          "error_m": 1.6822382167824834e-09
+        },
+        {
+          "visual": "31_update",
+          "error_m": 1.5811264519882684e-09
+        },
+        {
+          "visual": "gripper_002_0",
+          "error_m": 1.6061719732007873e-09
+        },
+        {
+          "visual": "gripper_003_1",
+          "error_m": 1.1462311100274292e-09
+        },
+        {
+          "visual": "gripper_007_2",
+          "error_m": 2.525571002331972e-10
+        },
+        {
+          "visual": "gripper_013_3",
+          "error_m": 8.130854600718607e-10
+        },
+        {
+          "visual": "gripper_014_4",
+          "error_m": 7.206326646524985e-10
+        },
+        {
+          "visual": "gripper_013_5",
+          "error_m": 3.538587756146683e-10
+        },
+        {
+          "visual": "gripper_007_6",
+          "error_m": 3.9436709453610774e-10
+        },
+        {
+          "visual": "gripper_014_7",
+          "error_m": 7.206374386115044e-10
+        },
+        {
+          "visual": "phone_link",
+          "error_m": 1.7509582395103251e-09
+        },
+        {
+          "visual": "phone_arm_link",
+          "error_m": 1.0493242941223002e-09
+        },
+        {
+          "visual": "phone_backing_link",
+          "error_m": 1.8240021359625103e-09
+        },
+        {
+          "visual": "typing_holder_link",
+          "error_m": 1.871397037334077e-09
+        },
+        {
+          "visual": "typing_stylus_link",
+          "error_m": 1.0556657770166566e-09
+        }
+      ],
+      "max_aabb_error_m": 3.6142011050621647e-09,
+      "non_adjacent_collision_contacts": 0
+    },
+    {
+      "pose": "J6_90",
+      "q_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0197270834719061e-17
+      ],
+      "visual_checks": [
+        {
+          "visual": "1_update",
+          "error_m": 3.2639902447506586e-09
+        },
+        {
+          "visual": "3_update",
+          "error_m": 1.7319932710258001e-09
+        },
+        {
+          "visual": "7_update",
+          "error_m": 3.6142011050621647e-09
+        },
+        {
+          "visual": "tube1",
+          "error_m": 1.1534517438405167e-09
+        },
+        {
+          "visual": "14_update",
+          "error_m": 1.8061363932231345e-09
+        },
+        {
+          "visual": "18_update",
+          "error_m": 1.6996394777701873e-09
+        },
+        {
+          "visual": "tube2",
+          "error_m": 6.312328507118714e-10
+        },
+        {
+          "visual": "23_update",
+          "error_m": 1.4977772008761825e-09
+        },
+        {
+          "visual": "27_update",
+          "error_m": 1.6822382167824834e-09
+        },
+        {
+          "visual": "31_update",
+          "error_m": 1.5811264519882684e-09
+        },
+        {
+          "visual": "gripper_002_0",
+          "error_m": 7.966208526166696e-10
+        },
+        {
+          "visual": "gripper_003_1",
+          "error_m": 1.7148803488353792e-09
+        },
+        {
+          "visual": "gripper_007_2",
+          "error_m": 3.000062004376858e-10
+        },
+        {
+          "visual": "gripper_013_3",
+          "error_m": 8.32345886658814e-10
+        },
+        {
+          "visual": "gripper_014_4",
+          "error_m": 7.206351348987283e-10
+        },
+        {
+          "visual": "gripper_013_5",
+          "error_m": 3.593738917562206e-10
+        },
+        {
+          "visual": "gripper_007_6",
+          "error_m": 4.0900005604527223e-10
+        },
+        {
+          "visual": "gripper_014_7",
+          "error_m": 7.206354124544845e-10
+        },
+        {
+          "visual": "phone_link",
+          "error_m": 1.850602920905331e-09
+        },
+        {
+          "visual": "phone_arm_link",
+          "error_m": 1.0728853361285928e-09
+        },
+        {
+          "visual": "phone_backing_link",
+          "error_m": 1.7894543663694862e-09
+        },
+        {
+          "visual": "typing_holder_link",
+          "error_m": 1.980839797743883e-09
+        },
+        {
+          "visual": "typing_stylus_link",
+          "error_m": 1.0482308077097713e-09
+        }
+      ],
+      "max_aabb_error_m": 3.6142011050621647e-09,
+      "non_adjacent_collision_contacts": 0
+    },
+    {
+      "pose": "J6_95",
+      "q_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.08726646259971964
+      ],
+      "visual_checks": [
+        {
+          "visual": "1_update",
+          "error_m": 3.2639902447506586e-09
+        },
+        {
+          "visual": "3_update",
+          "error_m": 1.7319932710258001e-09
+        },
+        {
+          "visual": "7_update",
+          "error_m": 3.6142011050621647e-09
+        },
+        {
+          "visual": "tube1",
+          "error_m": 1.1534517438405167e-09
+        },
+        {
+          "visual": "14_update",
+          "error_m": 1.8061363932231345e-09
+        },
+        {
+          "visual": "18_update",
+          "error_m": 1.6996394777701873e-09
+        },
+        {
+          "visual": "tube2",
+          "error_m": 6.312328507118714e-10
+        },
+        {
+          "visual": "23_update",
+          "error_m": 1.4977772008761825e-09
+        },
+        {
+          "visual": "27_update",
+          "error_m": 1.6822382167824834e-09
+        },
+        {
+          "visual": "31_update",
+          "error_m": 1.5811264519882684e-09
+        },
+        {
+          "visual": "gripper_002_0",
+          "error_m": 7.3824740765005e-10
+        },
+        {
+          "visual": "gripper_003_1",
+          "error_m": 1.4251553687172347e-09
+        },
+        {
+          "visual": "gripper_007_2",
+          "error_m": 3.608114917952321e-10
+        },
+        {
+          "visual": "gripper_013_3",
+          "error_m": 8.489354497154267e-10
+        },
+        {
+          "visual": "gripper_014_4",
+          "error_m": 7.206346352983672e-10
+        },
+        {
+          "visual": "gripper_013_5",
+          "error_m": 3.973322781902766e-10
+        },
+        {
+          "visual": "gripper_007_6",
+          "error_m": 4.205231718401592e-10
+        },
+        {
+          "visual": "gripper_014_7",
+          "error_m": 7.206358010325431e-10
+        },
+        {
+          "visual": "phone_link",
+          "error_m": 1.7491247790435427e-09
+        },
+        {
+          "visual": "phone_arm_link",
+          "error_m": 1.0493217406093436e-09
+        },
+        {
+          "visual": "phone_backing_link",
+          "error_m": 1.825120249376866e-09
+        },
+        {
+          "visual": "typing_holder_link",
+          "error_m": 2.089001527316725e-09
+        },
+        {
+          "visual": "typing_stylus_link",
+          "error_m": 1.0556709673092968e-09
+        }
+      ],
+      "max_aabb_error_m": 3.6142011050621647e-09,
+      "non_adjacent_collision_contacts": 0
+    },
+    {
+      "pose": "J6_90",
+      "q_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -2.1294029246715326e-15
+      ],
+      "visual_checks": [
+        {
+          "visual": "1_update",
+          "error_m": 3.2639902447506586e-09
+        },
+        {
+          "visual": "3_update",
+          "error_m": 1.7319932710258001e-09
+        },
+        {
+          "visual": "7_update",
+          "error_m": 3.6142011050621647e-09
+        },
+        {
+          "visual": "tube1",
+          "error_m": 1.1534517438405167e-09
+        },
+        {
+          "visual": "14_update",
+          "error_m": 1.8061363932231345e-09
+        },
+        {
+          "visual": "18_update",
+          "error_m": 1.6996394777701873e-09
+        },
+        {
+          "visual": "tube2",
+          "error_m": 6.312328507118714e-10
+        },
+        {
+          "visual": "23_update",
+          "error_m": 1.4977772008761825e-09
+        },
+        {
+          "visual": "27_update",
+          "error_m": 1.6822382167824834e-09
+        },
+        {
+          "visual": "31_update",
+          "error_m": 1.5811264519882684e-09
+        },
+        {
+          "visual": "gripper_002_0",
+          "error_m": 7.966206722054281e-10
+        },
+        {
+          "visual": "gripper_003_1",
+          "error_m": 1.7148804876132573e-09
+        },
+        {
+          "visual": "gripper_007_2",
+          "error_m": 3.0000635309335166e-10
+        },
+        {
+          "visual": "gripper_013_3",
+          "error_m": 8.32345747880936e-10
+        },
+        {
+          "visual": "gripper_014_4",
+          "error_m": 7.206351904098796e-10
+        },
+        {
+          "visual": "gripper_013_5",
+          "error_m": 3.593737807339181e-10
+        },
+        {
+          "visual": "gripper_007_6",
+          "error_m": 4.089995009337599e-10
+        },
+        {
+          "visual": "gripper_014_7",
+          "error_m": 7.206353291877576e-10
+        },
+        {
+          "visual": "phone_link",
+          "error_m": 1.8506026711051504e-09
+        },
+        {
+          "visual": "phone_arm_link",
+          "error_m": 1.0728850030616854e-09
+        },
+        {
+          "visual": "phone_backing_link",
+          "error_m": 1.7894541070283265e-09
+        },
+        {
+          "visual": "typing_holder_link",
+          "error_m": 1.980840019788488e-09
+        },
+        {
+          "visual": "typing_stylus_link",
+          "error_m": 1.0482308909764981e-09
+        }
+      ],
+      "max_aabb_error_m": 3.6142011050621647e-09,
+      "non_adjacent_collision_contacts": 0
+    }
+  ],
+  "collision_scope": "Default welded-body and parent filtering excludes connected interfaces and tool/gripper fixed siblings; zero contacts is NOT their clearance proof.",
+  "unique_commanded_configurations": 13,
+  "pose_count_interpretation": "25 saved native states, including reference restorations; 13 distinct commanded q configurations.",
+  "command_configuration_tolerance_deg": 0.001
+}

@@ -1,0 +1,321 @@
+{
+  "source_sha256": "01f8288424ceedbb228f0259e6538d777c20b0a3aabb234becd7495b2288e905",
+  "upstream_commit": "adef44fdc41401af3b239a5c9b1a4e108e1a237a",
+  "part_name": "Collet_2026-11-09_nominal_R1",
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "datum": "CAD X=axis; x0=front flange; x90=rear thread entrance",
+  "assumptions": [
+    "front lip transition angle60deg",
+    "slot nominal width1.7 in permitted1.6..1.8",
+    "flats phase relative to slots not specified",
+    "density7.85g/cm3 estimated",
+    "cosmetic M20x1.5-6H L50; no physical helical cut;6H retained in feature name"
+  ],
+  "profile_spec": {
+    "name": "Axial profile - nominal dimensions and native R0.3 R5",
+    "plane": "XY",
+    "curves": [
+      {
+        "kind": "arc",
+        "center": [
+          0.3,
+          25.95
+        ],
+        "radius": 0.3,
+        "start_angle": 180,
+        "end_angle": 90,
+        "counterclockwise": false
+      },
+      {
+        "kind": "polyline",
+        "points": [
+          [
+            0.3,
+            26.25
+          ],
+          [
+            1.0267949192431123,
+            26.25
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "kind": "arc",
+        "center": [
+          1.0267949192431123,
+          25.95
+        ],
+        "radius": 0.3,
+        "start_angle": 90,
+        "end_angle": 30,
+        "counterclockwise": false
+      },
+      {
+        "kind": "polyline",
+        "points": [
+          [
+            1.286602540378444,
+            26.1
+          ],
+          [
+            1.9216878364870325,
+            25
+          ],
+          [
+            14.5,
+            25
+          ],
+          [
+            15.5,
+            23.267949192431125
+          ],
+          [
+            15.5,
+            18.5
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "kind": "arc",
+        "center": [
+          20.5,
+          18.5
+        ],
+        "radius": 5,
+        "start_angle": 180,
+        "end_angle": 270,
+        "counterclockwise": true
+      },
+      {
+        "kind": "polyline",
+        "points": [
+          [
+            20.5,
+            13.5
+          ],
+          [
+            90,
+            13.5
+          ],
+          [
+            90,
+            10.75
+          ],
+          [
+            88.5,
+            9.25
+          ],
+          [
+            9.141629219552133,
+            9.25
+          ],
+          [
+            5,
+            6.35
+          ],
+          [
+            0,
+            6.35
+          ],
+          [
+            0,
+            25.95
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "kind": "polyline",
+        "points": [
+          [
+            -2,
+            0
+          ],
+          [
+            92,
+            0
+          ]
+        ],
+        "closed": false,
+        "construction": true
+      }
+    ]
+  },
+  "revolve_spec": {
+    "name": "Turned collet envelope and axial bore",
+    "operation": "add",
+    "angle": 360,
+    "reverse": false
+  },
+  "slots_spec": {
+    "name": "Three radial slots 1.7 x 45 at 120deg",
+    "plane": "YZ",
+    "curves": [
+      {
+        "kind": "polyline",
+        "points": [
+          [
+            0.8500000000000003,
+            5.0
+          ],
+          [
+            0.8500000000000019,
+            30.0
+          ],
+          [
+            -0.8499999999999981,
+            30.0
+          ],
+          [
+            -0.8499999999999996,
+            5.0
+          ]
+        ],
+        "closed": true
+      },
+      {
+        "kind": "polyline",
+        "points": [
+          [
+            -4.755127018922193,
+            -1.7638784067832276
+          ],
+          [
+            -26.405762113533157,
+            -14.263878406783231
+          ],
+          [
+            -25.555762113533156,
+            -15.736121593216776
+          ],
+          [
+            -3.9051270189221925,
+            -3.2361215932167733
+          ]
+        ],
+        "closed": true
+      },
+      {
+        "kind": "polyline",
+        "points": [
+          [
+            3.9051270189221916,
+            -3.236121593216775
+          ],
+          [
+            25.555762113533152,
+            -15.736121593216787
+          ],
+          [
+            26.405762113533154,
+            -14.263878406783242
+          ],
+          [
+            4.755127018922193,
+            -1.7638784067832296
+          ]
+        ],
+        "closed": true
+      }
+    ]
+  },
+  "slot_cut_spec": {
+    "name": "Three front slots - depth45",
+    "operation": "cut",
+    "depth": 45,
+    "reverse": false
+  },
+  "flats_spec": {
+    "name": "Opposite flats AF24 - last10",
+    "plane": "XY",
+    "offset": -20,
+    "curves": [
+      {
+        "kind": "polyline",
+        "points": [
+          [
+            80,
+            12
+          ],
+          [
+            91,
+            12
+          ],
+          [
+            91,
+            30
+          ],
+          [
+            80,
+            30
+          ]
+        ],
+        "closed": true
+      },
+      {
+        "kind": "polyline",
+        "points": [
+          [
+            80,
+            -12
+          ],
+          [
+            80,
+            -30
+          ],
+          [
+            91,
+            -30
+          ],
+          [
+            91,
+            -12
+          ]
+        ],
+        "closed": true
+      }
+    ]
+  },
+  "flat_cut_spec": {
+    "name": "Two rear flats AF24 L10",
+    "operation": "cut",
+    "depth": 40,
+    "reverse": false
+  },
+  "expected": {
+    "revolved_volume_mm3": 50520.98393442725,
+    "slots_removed_mm3_approx": 2023.291656351994,
+    "flats_removed_mm3": 250.27277478986093,
+    "final_volume_mm3_approx": 48247.41950328539,
+    "estimated_mass_kg": 0.3787422431007903,
+    "revolved_bounds_mm": [
+      0,
+      -26.25,
+      -26.25,
+      90,
+      26.25,
+      26.25
+    ],
+    "body_count": 1
+  },
+  "thread": {
+    "entity_type": "o3d_thread",
+    "name": "M20x1.5-6H L50 - native cosmetic",
+    "properties": {
+      "autoDefinDr": false,
+      "dr": 20,
+      "p": 1.5,
+      "allLength": false,
+      "length": 50
+    },
+    "base_face_radius": 9.25,
+    "begin_face_x": 90,
+    "outside_expected": false,
+    "representation": "native cosmetic;6H designation in name; no physical helix"
+  }
+}

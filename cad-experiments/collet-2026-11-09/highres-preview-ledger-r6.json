@@ -1,0 +1,28 @@
+{
+  "scope": "own doc raster params only; no global CAD/UI settings",
+  "image": {
+    "path": "preview-r6-300dpi.png",
+    "size_px": [
+      1073,
+      1093
+    ],
+    "bytes": 171630
+  },
+  "thread_begin_edge_bounds": [
+    true,
+    90.0,
+    12.0,
+    -6.184658438426491,
+    90.0,
+    12.0,
+    6.184658438426491
+  ],
+  "thread_begin_x90_verified": true,
+  "stdio_shutdown": "completed",
+  "_public_summary": {
+    "omitted": "calls: full SDK/tool response logs retained in local pre-publication archive",
+    "original_sha256": "af350b4f6707f4141d544f7b35042fa3139c2a8b0c905a16f17ef186d3c46b35",
+    "archive": "RoboHand-Simulator-prepublish-2026-11-15.zip",
+    "archive_member": "RoboHand.Simulator/cad-experiments/collet-2026-11-09/highres-preview-ledger-r6.json"
+  }
+}

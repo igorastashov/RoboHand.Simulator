@@ -1,0 +1,19 @@
+robot name is: robohand_eb300_cad2_nominal
+---------- Successfully Parsed XML ---------------
+root Link: base_footprint has 1 child(ren)
+    child(1):  base_link
+        child(1):  shoulder_link
+            child(1):  upper_arm_link
+                child(1):  forearm_link
+                    child(1):  wrist1_link
+                        child(1):  wrist2_link
+                            child(1):  wrist3_link
+                                child(1):  phone_arm_link
+                                child(2):  phone_backing_link
+                                child(3):  phone_link
+                                    child(1):  camera_optical_frame
+                                child(4):  typing_holder_link
+                                child(5):  typing_stylus_link
+                                    child(1):  typing_tcp
+
+exit=0

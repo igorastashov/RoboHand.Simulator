@@ -1,0 +1,294 @@
+{
+  "updated": "2026-11-15",
+  "tool": "trimesh",
+  "version": "5.2.1",
+  "scope": "isolated native solid STL export scale and finite geometry checks, not a collision or dynamic mass certificate",
+  "linear_units": "mm confirmed against native construction dimensions",
+  "urdf_mesh_scale": [
+    0.001,
+    0.001,
+    0.001
+  ],
+  "files": [
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\tube1-R3.stl",
+      "bytes": 18284,
+      "sha256": "9cd72b97f28afbdacc196afaef3e6e201a7585ac388a60b1cbbb7119db7cbd8e",
+      "faces": 364,
+      "vertices": 182,
+      "bounds_mm": [
+        [
+          -8.165332389994517e-15,
+          -44.42517852783203,
+          -44.45000076293945
+        ],
+        [
+          220.0,
+          44.42517852783203,
+          44.350738525390625
+        ]
+      ],
+      "native_nominal_bounds_mm": [
+        [
+          0,
+          -44.45,
+          -44.45
+        ],
+        [
+          220,
+          44.45,
+          44.45
+        ]
+      ],
+      "max_bounds_delta_mm": 0.09926147460937784,
+      "watertight_after_stock_processing": true,
+      "winding_consistent": true,
+      "mesh_volume_mm3_approx": 332562.121533537
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\tube2-R3.stl",
+      "bytes": 15084,
+      "sha256": "bfbabc622fdbc6dcd78cc974832c58e7c52595a1dafa81d3d3733b3de5cf0e79",
+      "faces": 300,
+      "vertices": 150,
+      "bounds_mm": [
+        [
+          -5.538465109575013e-15,
+          -30.125547409057617,
+          -30.149999618530273
+        ],
+        [
+          220.0,
+          30.125547409057617,
+          30.05223274230957
+        ]
+      ],
+      "native_nominal_bounds_mm": [
+        [
+          0,
+          -30.15,
+          -30.15
+        ],
+        [
+          220,
+          30.15,
+          30.15
+        ]
+      ],
+      "max_bounds_delta_mm": 0.09776725769042827,
+      "watertight_after_stock_processing": true,
+      "winding_consistent": true,
+      "mesh_volume_mm3_approx": 160707.67393647382
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\Wrist3-output-NOMINAL-D57-L12-R1.stl",
+      "bytes": 7284,
+      "sha256": "95b9c8aaebea7b544c6d15026643f1044c75c30eb07741316da17e03f3275cdf",
+      "faces": 144,
+      "vertices": 74,
+      "bounds_mm": [
+        [
+          -28.397329330444336,
+          -28.474321365356445,
+          0.0
+        ],
+        [
+          28.5,
+          28.474321365356445,
+          12.0
+        ]
+      ],
+      "native_nominal_bounds_mm": [
+        [
+          -28.5,
+          -28.5,
+          0
+        ],
+        [
+          28.5,
+          28.5,
+          12
+        ]
+      ],
+      "max_bounds_delta_mm": 0.10267066955566406,
+      "watertight_after_stock_processing": true,
+      "winding_consistent": true,
+      "mesh_volume_mm3_approx": 30474.143845570467
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\Redmi8A-envelope-R1.stl",
+      "bytes": 684,
+      "sha256": "40a1a24444881e47abdcf888f056a6967e9b83614523fab48e0e64afa7a5bd62",
+      "faces": 12,
+      "vertices": 8,
+      "bounds_mm": [
+        [
+          -37.70500183105469,
+          -78.23999786376953,
+          0.0
+        ],
+        [
+          37.70500183105469,
+          78.23999786376953,
+          9.399999618530273
+        ]
+      ],
+      "native_nominal_bounds_mm": [
+        [
+          -37.705,
+          -78.24,
+          0
+        ],
+        [
+          37.705,
+          78.24,
+          9.4
+        ]
+      ],
+      "max_bounds_delta_mm": 2.1362304636340923e-06,
+      "watertight_after_stock_processing": true,
+      "winding_consistent": true,
+      "mesh_volume_mm3_approx": 110921.47177668677
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\Phone-low-arm-NOMINAL-R2.stl",
+      "bytes": 684,
+      "sha256": "6fb0732eb6c872ac2041a46e36537e45db850b6398b154e090aaa02cf4abab44",
+      "faces": 12,
+      "vertices": 8,
+      "bounds_mm": [
+        [
+          20.0,
+          -10.0,
+          8.0
+        ],
+        [
+          124.0,
+          10.0,
+          12.0
+        ]
+      ],
+      "native_nominal_bounds_mm": [
+        [
+          20,
+          -10,
+          8
+        ],
+        [
+          124,
+          10,
+          12
+        ]
+      ],
+      "max_bounds_delta_mm": 0.0,
+      "watertight_after_stock_processing": true,
+      "winding_consistent": true,
+      "mesh_volume_mm3_approx": 8320.0
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\Phone-backing-post-NOMINAL-R2.stl",
+      "bytes": 1484,
+      "sha256": "f16fa44dcb4be63efc56c62281cb57147208ba6810f940b4715ce808f1260b16",
+      "faces": 28,
+      "vertices": 16,
+      "bounds_mm": [
+        [
+          -42.0,
+          -80.0,
+          -30.0
+        ],
+        [
+          42.0,
+          80.0,
+          0.0
+        ]
+      ],
+      "native_nominal_bounds_mm": [
+        [
+          -42,
+          -80,
+          -30
+        ],
+        [
+          42,
+          80,
+          0
+        ]
+      ],
+      "max_bounds_delta_mm": 0.0,
+      "watertight_after_stock_processing": true,
+      "winding_consistent": true,
+      "mesh_volume_mm3_approx": 57920.0
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\Typing-holder-NOMINAL-R2.stl",
+      "bytes": 9084,
+      "sha256": "ffa623eedbda42509b06adf928fd96086ee2aabc0071963b5b3b4ef4c6650949",
+      "faces": 180,
+      "vertices": 92,
+      "bounds_mm": [
+        [
+          -10.0,
+          -63.0,
+          8.0
+        ],
+        [
+          10.0,
+          -15.0,
+          120.0
+        ]
+      ],
+      "native_nominal_bounds_mm": [
+        [
+          -10,
+          -63,
+          8
+        ],
+        [
+          10,
+          -15,
+          120
+        ]
+      ],
+      "max_bounds_delta_mm": 0.0,
+      "watertight_after_stock_processing": true,
+      "winding_consistent": true,
+      "mesh_volume_mm3_approx": 19529.249460483163
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\Typing-stylus-NOMINAL-R1.stl",
+      "bytes": 4984,
+      "sha256": "d8a9a018270e9290151d98d315cbc3431540c6b1f7c09389ff6485e4036c300f",
+      "faces": 98,
+      "vertices": 51,
+      "bounds_mm": [
+        [
+          0.0,
+          -4.0,
+          -3.8997116088867188
+        ],
+        [
+          60.0,
+          4.0,
+          3.8997116088867188
+        ]
+      ],
+      "native_nominal_bounds_mm": [
+        [
+          0,
+          -4,
+          -4
+        ],
+        [
+          60,
+          4,
+          4
+        ]
+      ],
+      "max_bounds_delta_mm": 0.10028839111328125,
+      "watertight_after_stock_processing": true,
+      "winding_consistent": true,
+      "mesh_volume_mm3_approx": 2759.849257407364
+    }
+  ]
+}

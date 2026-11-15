@@ -1,0 +1,17 @@
+Starting >>> robohand_description
+Finished <<< robohand_description [0.52s]
+
+Summary: 1 package finished [0.80s]
+Arguments (pass arguments as '<name>:=<value>'):
+
+    'model':
+        Absolute URDF/Xacro path; default is the reviewed EB300 CAD-2 asset
+        (default: PathJoinSubstitution('FindPackageShare(pkg='robohand_description'), 'urdf', 'eb300_cad2.urdf''))
+
+    'use_sim_time':
+        no description given
+        (default: 'false')
+Installed path: /tmp/robohand-cad2-install/robohand_description/share/robohand_description
+URDF/MJCF mesh paths, numeric contract and both upstream license notices: PASS
+
+exit=0

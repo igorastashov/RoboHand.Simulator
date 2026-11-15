@@ -1,0 +1,22 @@
+{
+  "source-drawing.png": {
+    "bytes": 205588,
+    "sha256": "01f8288424ceedbb228f0259e6538d777c20b0a3aabb234becd7495b2288e905"
+  },
+  "collet-r7.m3d": {
+    "bytes": 228397,
+    "sha256": "55a233cb5b3b4997f75a126deed9c4950e6217c4dbec39d5ffbe8f1083e754cb"
+  },
+  "collet-r7.step": {
+    "bytes": 186002,
+    "sha256": "985fafc9bc25db9a13c5b0ada29fca8cf0d7de4ee0901795f3ea2df0ac716f45"
+  },
+  "collet-r7.stl": {
+    "bytes": 86484,
+    "sha256": "f9229d0542fd04064739570133b2142fb880b4c145a4cc24fd4851df307b2bab"
+  },
+  "preview-r7-300dpi.png": {
+    "bytes": 146033,
+    "sha256": "e7d1d48aef2d8bd4b4253dfdb78e2b700ed12d5eec4036ea272fedfa95318524"
+  }
+}

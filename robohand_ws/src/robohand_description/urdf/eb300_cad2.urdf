@@ -1,0 +1,529 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="robohand_eb300_cad2_nominal">
+  <!--CAD-2 geometry/reference pose; six +/-5deg demo joints, fixed gripper typing profile. Mass/COM/inertia/drive values are nominal except official phone mass. See config/eb300_cad2_contract.json and docs/cad-reviews/2026-11-14-cad2/root-review.md. Native angle90deg is not homing zero.-->
+  <mujoco>
+    <compiler discardvisual="false" fusestatic="false" strippath="true" />
+  </mujoco>
+  <material name="printed">
+    <color rgba=".68 .70 .73 1" />
+  </material>
+  <material name="metal">
+    <color rgba=".35 .40 .45 1" />
+  </material>
+  <material name="gripper">
+    <color rgba=".25 .29 .34 1" />
+  </material>
+  <material name="phone">
+    <color rgba=".08 .10 .16 1" />
+  </material>
+  <material name="tool">
+    <color rgba=".90 .53 .12 1" />
+  </material>
+  <link name="base_footprint" />
+  <joint name="ground_to_base" type="fixed">
+    <parent link="base_footprint" />
+    <child link="base_link" />
+  </joint>
+  <link name="base_link">
+    <visual name="base_link_1_update_visual">
+      <origin xyz="0 0.044098079110409 0.046" rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh filename="package://robohand_description/meshes/eb300_cad2/visual/1_update_visual.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="printed" />
+    </visual>
+    <collision name="base_link_1_update_collision">
+      <origin xyz="0 0.044098079110409 0.046" rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh filename="package://robohand_description/meshes/eb300_cad2/collision/1_update_convex.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 -2.0598148499362e-08 0.0185" rpy="0 0 0" />
+      <mass value="1" />
+      <inertia ixx="0.0019890832856496172" iyy="0.001989083333333333" izz="0.003749999952316284" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+  </link>
+  <link name="shoulder_link">
+    <visual name="shoulder_link_3_update_visual">
+      <origin xyz="1.8615068040589e-09 0.044098074292518 0.009" rpy="1.5707962852494 1.6084947596084e-07 1.1102230246252e-16" />
+      <geometry>
+        <mesh filename="package://robohand_description/meshes/eb300_cad2/visual/3_update_visual.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="printed" />
+    </visual>
+    <collision name="shoulder_link_3_update_collision">
+      <origin xyz="1.8615068040589e-09 0.044098074292518 0.009" rpy="1.5707962852494 1.6084947596084e-07 1.1102230246252e-16" />
+      <geometry>
+        <mesh filename="package://robohand_description/meshes/eb300_cad2/collision/3_update_convex.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="-0.0049999915471465 -2.3101266604514e-08 0.058000001689667" rpy="0 0 0" />
+      <mass value="1.2" />
+      <inertia ixx="0.0024660004757270843" iyy="0.0026920007516415367" izz="0.002558800422229571" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+  </link>
+  <link name="upper_arm_link">
+    <visual name="upper_arm_link_7_update_visual">
+      <origin xyz="-0.0089999999999997 -0.044098068645366 3.8611273396327e-09" rpy="1.4921606214947 1.5707961654468 3.0629569482896" />
+      <geometry>
+        <mesh filename="package://robohand_description/meshes/eb300_cad2/visual/7_update_visual.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="printed" />
+    </visual>
+    <visual name="upper_arm_link_tube1_visual">
+      <origin xyz="-0.05799999002827 9.6538666056745e-09 0.064000012301681" rpy="-0.038580227612852 -1.5707961654468 -0.07863567580817" />
+      <geometry>
+        <mesh filename="package://robohand_description/meshes/eb300_cad2/visual/tube1-R3_visual.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="abs_pipe" />
+    </visual>
+    <visual name="upper_arm_link_14_update_visual">
+      <origin xyz="0.063999991227653 0.044098090196508 -0.049000006763032" rpy="1.5707963394695 1.6084946485861e-07 8.6597395920762e-15" />
+      <geometry>
+        <mesh filename="package://robohand_description/meshes/eb300_cad2/visual/14_update_visual.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="printed" />
+    </visual>
+    <collision name="upper_arm_link_7_update_collision">
+      <origin xyz="-0.0089999999999997 -0.044098068645366 3.8611273396327e-09" rpy="1.4921606214947 1.5707961654468 3.0629569482896" />
+      <geometry>
+        <mesh filename="package://robohand_description/meshes/eb300_cad2/collision/7_update_convex.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <collision name="upper_arm_link_tube1_collision">
+      <origin xyz="-0.057999972334827 8.259655868063e-09 0.17400001230168" rpy="-6.2233013881086e-09 1.6122801227425e-07 -0.11721590342102" />
+      <geometry>
+        <cylinder radius="0.04445" length="0.22" />
+      </geometry>
+    </collision>
+    <collision name="upper_arm_link_14_update_collision">
+      <origin xyz="0.063999991227653 0.044098090196508 -0.049000006763032" rpy="1.5707963394695 1.6084946485861e-07 8.6597395920762e-15" />
+      <geometry>
+        <mesh filename="package://robohand_description/meshes/eb300_cad2/collision/14_update_convex.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="-0.057999963771682 8.2596534195511e-09 0.17400001077012" rpy="0 0 0" />
+      <mass value="3" />
+      <inertia ixx="0.0549000058421947" iyy="0.05523300662224846" izz="0.00616500549962511" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+  </link>
+  <link name="forearm_link">
+    <visual name="forearm_link_18_update_visual">
+      <origin xyz="0.064999936142762 0.044098082213529 -0.39700001091874" rpy="1.5707963383977 1.6084946463657e-07 8.7707618945387e-15" />
+      <geometry>
+        <mesh filename="package://robohand_description/meshes/eb300_cad2/visual/18_update_visual.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="printed" />
+    </visual>
+    <visual name="forearm_link_tube2_visual">
+      <origin xyz="0.041890009195447 -3.7662281684447e-09 0.056999992286839" rpy="1.2954786609698 -1.5707961655275 -0.072009490848418" />
+      <geometry>
+        <mesh filename="package://robohand_description/meshes/eb300_cad2/visual/tube2-R3_visual.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="abs_pipe" />
+    </visual>
+    <visual name="forearm_link_23_update_visual">
+      <origin xyz="0.018889935709917 -0.044098067539767 -0.39300000452528" rpy="1.5707963151922 -1.6084945575479e-07 3.1415926535898" />
+      <geometry>
+        <mesh filename="package://robohand_description/meshes/eb300_cad2/visual/23_update_visual.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="printed" />
+    </visual>
+    <collision name="forearm_link_18_update_collision">
+      <origin xyz="0.064999936142762 0.044098082213529 -0.39700001091874" rpy="1.5707963383977 1.6084946463657e-07 8.7707618945387e-15" />
+      <geometry>
+        <mesh filename="package://robohand_description/meshes/eb300_cad2/collision/18_update_convex.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <collision name="forearm_link_tube2_collision">
+      <origin xyz="0.041890026888887 -5.0425305841428e-09 0.16699999228684" rpy="1.5519388119056e-07 4.3840967967057e-08 1.2234691701214" />
+      <geometry>
+        <cylinder radius="0.03015" length="0.22" />
+      </geometry>
+    </collision>
+    <collision name="forearm_link_23_update_collision">
+      <origin xyz="0.018889935709917 -0.044098067539767 -0.39300000452528" rpy="1.5707963151922 -1.6084945575479e-07 3.1415926535898" />
+      <geometry>
+        <mesh filename="package://robohand_description/meshes/eb300_cad2/collision/23_update_convex.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0.047390050717278 -2.1624485351673e-08 0.15299999586485" rpy="0 0 0" />
+      <mass value="2" />
+      <inertia ixx="0.030510000247774477" iyy="0.030070167335884388" izz="0.0034481670194454403" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+  </link>
+  <link name="wrist1_link">
+    <visual name="wrist1_link_27_update_visual">
+      <origin xyz="-0.076000115007363 -0.044097983722175 -0.71500000739903" rpy="1.5707962010282 -1.6084945575479e-07 3.1415926535898" />
+      <geometry>
+        <mesh filename="package://robohand_description/meshes/eb300_cad2/visual/27_update_visual.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="printed" />
+    </visual>
+    <collision name="wrist1_link_27_update_collision">
+      <origin xyz="-0.076000115007363 -0.044097983722175 -0.71500000739903" rpy="1.5707962010282 -1.6084945575479e-07 3.1415926535898" />
+      <geometry>
+        <mesh filename="package://robohand_description/meshes/eb300_cad2/collision/27_update_convex.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0.042500001206369 2.4711683501571e-08 0.0054999854587903" rpy="0 0 0" />
+      <mass value="0.65" />
+      <inertia ixx="0.000801720929930391" iyy="0.0008620084818895501" izz="0.0006860210446016319" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+  </link>
+  <link name="wrist2_link">
+    <visual name="wrist2_link_31_update_visual">
+      <origin xyz="-0.044027556710606 0.12200010658763 -0.76802927968278" rpy="1.5707965308374 -1.3334913551155e-07 1.5707963267949" />
+      <geometry>
+        <mesh filename="package://robohand_description/meshes/eb300_cad2/visual/31_update_visual.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="printed" />
+    </visual>
+    <collision name="wrist2_link_31_update_collision">
+      <origin xyz="-0.044027556710606 0.12200010658763 -0.76802927968278" rpy="1.5707965308374 -1.3334913551155e-07 1.5707963267949" />
+      <geometry>
+        <mesh filename="package://robohand_description/meshes/eb300_cad2/collision/31_update_convex.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="3.3812708223613e-09 -0.0055000019624749 0.042499989216412" rpy="0 0 0" />
+      <mass value="0.65" />
+      <inertia ixx="0.0008620085551986294" iyy="0.0006860210029393682" izz="0.0008017209896765639" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+  </link>
+  <link name="wrist3_link">
+    <visual name="wrist3_link_output_nominal_D57_L12_visual">
+      <origin xyz="6.0149608575636e-16 -0.0070000232793933 -9.3341258765009e-10" rpy="2.1496521087393 -1.5707960830425 -0.5788557819444" />
+      <geometry>
+        <cylinder radius="0.0285" length="0.012" />
+      </geometry>
+      <material name="metal" />
+    </visual>
+    <visual name="wrist3_link_gripper_002_0_visual">
+      <origin xyz="-0.014506257912708 -0.066000004520508 -0.14067543498899" rpy="1.5707961154139 -0.88815369243678 -3.1415924895776" />
+      <geometry>
+        <mesh filename="package://robohand_description/meshes/eb300_cad2/visual/gripper_002_visual.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="gripper" />
+    </visual>
+    <visual name="wrist3_link_gripper_003_1_visual">
+      <origin xyz="0.14075300121304 -0.066000021353422 -0.014443216176272" rpy="-1.5707965381759 -0.88815369243678 -3.1415924895776" />
+      <geometry>
+        <mesh filename="package://robohand_description/meshes/eb300_cad2/visual/gripper_003_visual.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="gripper" />
+    </visual>
+    <visual name="wrist3_link_gripper_007_2_visual">
+      <origin xyz="-0.13291636517394 -0.087000023042844 -0.0017739648098539" rpy="1.5707965381759 0.88815369243677 1.6401222613371e-07" />
+      <geometry>
+        <mesh filename="package://robohand_description/meshes/eb300_cad2/visual/gripper_007_visual.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="gripper" />
+    </visual>
+    <visual name="wrist3_link_gripper_013_3_visual">
+      <origin xyz="0.15173204564384 -0.097000019531586 -0.028105405885838" rpy="-1.5707965381759 -0.88815369243677 -3.1415924895776" />
+      <geometry>
+        <mesh filename="package://robohand_description/meshes/eb300_cad2/visual/gripper_013_visual.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="gripper" />
+    </visual>
+    <visual name="wrist3_link_gripper_014_4_visual">
+      <origin xyz="-0.082960823952464 -0.018000015747895 -0.056479761921461" rpy="-3.1415924817283 -0.6826426343581 -1.0841810271778e-07" />
+      <geometry>
+        <mesh filename="package://robohand_description/meshes/eb300_cad2/visual/gripper_014_visual.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="gripper" />
+    </visual>
+    <visual name="wrist3_link_gripper_013_5_visual">
+      <origin xyz="-0.15077673309234 -0.097000026870532 0.02693037361467" rpy="1.5707965381759 0.88815369243677 1.640122255786e-07" />
+      <geometry>
+        <mesh filename="package://robohand_description/meshes/eb300_cad2/visual/gripper_013_visual.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="gripper" />
+    </visual>
+    <visual name="wrist3_link_gripper_007_6_visual">
+      <origin xyz="0.13387167772544 -0.087000023359274 0.00059893520566118" rpy="-1.5707965381759 -0.88815369243677 -3.1415924895776" />
+      <geometry>
+        <mesh filename="package://robohand_description/meshes/eb300_cad2/visual/gripper_007_visual.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="gripper" />
+    </visual>
+    <visual name="wrist3_link_gripper_014_7_visual">
+      <origin xyz="-0.071265530604287 -0.21800001382972 -0.070864409233833" rpy="1.7186149450372e-07 -0.6826426343581 -1.0841810277403e-07" />
+      <geometry>
+        <mesh filename="package://robohand_description/meshes/eb300_cad2/visual/gripper_014_visual.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="gripper" />
+    </visual>
+    <collision name="wrist3_link_output_nominal_D57_L12_collision">
+      <origin xyz="6.0149608575636e-16 -0.0070000232793933 -9.3341258765009e-10" rpy="2.1496521087393 -1.5707960830425 -0.5788557819444" />
+      <geometry>
+        <cylinder radius="0.0285" length="0.012" />
+      </geometry>
+    </collision>
+    <collision name="wrist3_link_gripper_002_0_collision">
+      <origin xyz="-0.014506257912708 -0.066000004520508 -0.14067543498899" rpy="1.5707961154139 -0.88815369243678 -3.1415924895776" />
+      <geometry>
+        <mesh filename="package://robohand_description/meshes/eb300_cad2/collision/gripper_002_convex.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <collision name="wrist3_link_gripper_003_1_collision">
+      <origin xyz="0.14075300121304 -0.066000021353422 -0.014443216176272" rpy="-1.5707965381759 -0.88815369243678 -3.1415924895776" />
+      <geometry>
+        <mesh filename="package://robohand_description/meshes/eb300_cad2/collision/gripper_003_convex.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <collision name="wrist3_link_gripper_007_2_collision">
+      <origin xyz="-0.13291636517394 -0.087000023042844 -0.0017739648098539" rpy="1.5707965381759 0.88815369243677 1.6401222613371e-07" />
+      <geometry>
+        <mesh filename="package://robohand_description/meshes/eb300_cad2/collision/gripper_007_convex.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <collision name="wrist3_link_gripper_013_3_collision">
+      <origin xyz="0.15173204564384 -0.097000019531586 -0.028105405885838" rpy="-1.5707965381759 -0.88815369243677 -3.1415924895776" />
+      <geometry>
+        <mesh filename="package://robohand_description/meshes/eb300_cad2/collision/gripper_013_convex.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <collision name="wrist3_link_gripper_014_4_collision">
+      <origin xyz="-0.082960823952464 -0.018000015747895 -0.056479761921461" rpy="-3.1415924817283 -0.6826426343581 -1.0841810271778e-07" />
+      <geometry>
+        <mesh filename="package://robohand_description/meshes/eb300_cad2/collision/gripper_014_convex.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <collision name="wrist3_link_gripper_013_5_collision">
+      <origin xyz="-0.15077673309234 -0.097000026870532 0.02693037361467" rpy="1.5707965381759 0.88815369243677 1.640122255786e-07" />
+      <geometry>
+        <mesh filename="package://robohand_description/meshes/eb300_cad2/collision/gripper_013_convex.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <collision name="wrist3_link_gripper_007_6_collision">
+      <origin xyz="0.13387167772544 -0.087000023359274 0.00059893520566118" rpy="-1.5707965381759 -0.88815369243677 -3.1415924895776" />
+      <geometry>
+        <mesh filename="package://robohand_description/meshes/eb300_cad2/collision/gripper_007_convex.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <collision name="wrist3_link_gripper_014_7_collision">
+      <origin xyz="-0.071265530604287 -0.21800001382972 -0.070864409233833" rpy="1.7186149450372e-07 -0.6826426343581 -1.0841810277403e-07" />
+      <geometry>
+        <mesh filename="package://robohand_description/meshes/eb300_cad2/collision/gripper_014_convex.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="3.8719552556472e-05 -0.069000022445407 3.1661883976266e-05" rpy="0 0 0" />
+      <mass value="0.52" />
+      <inertia ixx="0.0011310174104727873" iyy="0.0006229297141468578" izz="0.0010948991101991546" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+  </link>
+  <link name="phone_link">
+    <visual name="phone_link_phone_link_visual">
+      <origin xyz="0 -7.105427357601e-18 -1.1368683772162e-16" rpy="-2.2633026535468e-18 0 1.0240289488252e-18" />
+      <geometry>
+        <mesh filename="package://robohand_description/meshes/eb300_cad2/visual/Redmi8A-envelope-R1_visual.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="phone" />
+    </visual>
+    <collision name="phone_link_phone_link_collision">
+      <origin xyz="0 -7.105427357601e-18 -1.1368683772162e-16" rpy="-2.2633026535468e-18 0 1.0240289488252e-18" />
+      <geometry>
+        <mesh filename="package://robohand_description/meshes/eb300_cad2/collision/Redmi8A-envelope-R1_convex.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0.0046999998092651" rpy="0 0 0" />
+      <mass value="0.188" />
+      <inertia ixx="0.0003849981352062645" iyy="9.047544877398091e-05" izz="0.00047270497087162323" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+  </link>
+  <link name="phone_arm_link">
+    <visual name="phone_arm_link_phone_arm_link_visual">
+      <origin xyz="1.1368683772162e-16 0 0" rpy="2.0026738533835e-30 0 2.0745010885735e-23" />
+      <geometry>
+        <mesh filename="package://robohand_description/meshes/eb300_cad2/visual/Phone-low-arm-NOMINAL-R2_visual.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="tool" />
+    </visual>
+    <collision name="phone_arm_link_phone_arm_link_collision">
+      <origin xyz="1.1368683772162e-16 0 0" rpy="2.0026738533835e-30 0 2.0745010885735e-23" />
+      <geometry>
+        <mesh filename="package://robohand_description/meshes/eb300_cad2/collision/Phone-low-arm-NOMINAL-R2_convex.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0.072 0 0.01" rpy="0 0 0" />
+      <mass value="0.04" />
+      <inertia ixx="1.3866666666666668e-06" iyy="3.610666666666667e-05" izz="3.7386666666666666e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+  </link>
+  <link name="phone_backing_link">
+    <visual name="phone_backing_link_phone_backing_link_visual">
+      <origin xyz="0 -7.105427357601e-18 0" rpy="-2.2633026535468e-18 0 1.0240289488252e-18" />
+      <geometry>
+        <mesh filename="package://robohand_description/meshes/eb300_cad2/visual/Phone-backing-post-NOMINAL-R2_visual.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="tool" />
+    </visual>
+    <collision name="phone_backing_link_plate_collision">
+      <origin xyz="0 0 -0.002" rpy="0 0 0" />
+      <geometry>
+        <box size="0.084 0.16 0.004" />
+      </geometry>
+    </collision>
+    <collision name="phone_backing_link_post_collision">
+      <origin xyz="0 0 -0.017" rpy="0 0 0" />
+      <geometry>
+        <box size="0.008 0.02 0.026" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 -0.015" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="0.00022083333333333335" iyy="6.630000000000001e-05" izz="0.00027213333333333335" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+  </link>
+  <link name="typing_holder_link">
+    <visual name="typing_holder_link_typing_holder_link_visual">
+      <origin xyz="0 -1.4210854715202e-17 0" rpy="1.7533630240133e-23 0 -2.1271268594417e-23" />
+      <geometry>
+        <mesh filename="package://robohand_description/meshes/eb300_cad2/visual/Typing-holder-NOMINAL-R2_visual.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="tool" />
+    </visual>
+    <collision name="typing_holder_link_arm_collision">
+      <origin xyz="0 -0.039 0.01" rpy="0 0 0" />
+      <geometry>
+        <box size="0.02 0.048 0.004" />
+      </geometry>
+    </collision>
+    <collision name="typing_holder_link_post_collision">
+      <origin xyz="0 -0.055 0.066" rpy="0 0 0" />
+      <geometry>
+        <box size="0.012 0.012 0.108" />
+      </geometry>
+    </collision>
+    <collision name="typing_holder_link_collar_outer_nominal_collision">
+      <origin xyz="0 -0.055 0.11" rpy="0 0 0" />
+      <geometry>
+        <cylinder radius="0.008" length="0.02" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 -0.039 0.064" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="0.00012373333333333332" iyy="0.00010786666666666664" izz="2.2533333333333337e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+  </link>
+  <link name="typing_stylus_link">
+    <visual name="typing_stylus_link_typing_stylus_link_visual">
+      <origin xyz="2.8421709430404e-17 0 -2.8421709430404e-17" rpy="4.7214790425929e-23 0 2.490658218838e-23" />
+      <geometry>
+        <mesh filename="package://robohand_description/meshes/eb300_cad2/visual/Typing-stylus-NOMINAL-R1_visual.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="tool" />
+    </visual>
+    <collision name="typing_stylus_link_typing_stylus_link_collision">
+      <origin xyz="2.8421709430404e-17 0 -2.8421709430404e-17" rpy="4.7214790425929e-23 0 2.490658218838e-23" />
+      <geometry>
+        <mesh filename="package://robohand_description/meshes/eb300_cad2/collision/Typing-stylus-NOMINAL-R1_convex.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0.03 0 0" rpy="0 0 0" />
+      <mass value="0.02" />
+      <inertia ixx="2.0805167088323898e-07" iyy="6.101385004216572e-06" izz="6.106666666666667e-06" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+  </link>
+  <link name="camera_optical_frame" />
+  <link name="typing_tcp" />
+  <joint name="J1" type="revolute">
+    <parent link="base_link" />
+    <child link="shoulder_link" />
+    <origin xyz="7.7918686719559e-19 0 0.037" rpy="0 0 0" />
+    <axis xyz="6.1232339957368e-17 0 1" />
+    <limit lower="-0.08726646259971647" upper="0.08726646259971647" effort="5" velocity="0.08726646259971647" />
+    <dynamics damping="0.1" friction="0.01" />
+  </joint>
+  <joint name="J2" type="revolute">
+    <parent link="shoulder_link" />
+    <child link="upper_arm_link" />
+    <origin xyz="-0.063999990256868 -2.7821634986935e-09 0.058000012449077" rpy="0 0 0" />
+    <axis xyz="0.99999999999999 0 -1.6084947596084e-07" />
+    <limit lower="-0.08726646259971647" upper="0.08726646259971647" effort="5" velocity="0.08726646259971647" />
+    <dynamics damping="0.1" friction="0.01" />
+  </joint>
+  <joint name="J3" type="revolute">
+    <parent link="upper_arm_link" />
+    <child link="forearm_link" />
+    <origin xyz="-0.00099994491510916 6.5117066370135e-09 0.34799999987737" rpy="0 0 0" />
+    <axis xyz="0.99999999999999 1.0016268695177e-08 -1.4465978550928e-07" />
+    <limit lower="-0.08726646259971647" upper="0.08726646259971647" effort="5" velocity="0.08726646259971647" />
+    <dynamics damping="0.1" friction="0.01" />
+  </joint>
+  <joint name="J4" type="revolute">
+    <parent link="forearm_link" />
+    <child link="wrist1_link" />
+    <origin xyz="0.09489005071728 9.7251965556211e-09 0.32199999652636" rpy="0 0 0" />
+    <axis xyz="-1 -8.3789609497751e-08 -4.8164392019617e-08" />
+    <limit lower="-0.08726646259971647" upper="0.08726646259971647" effort="2" velocity="0.08726646259971647" />
+    <dynamics damping="0.1" friction="0.01" />
+  </joint>
+  <joint name="J5" type="revolute">
+    <parent link="wrist1_link" />
+    <child link="wrist2_link" />
+    <origin xyz="0.046000010948005 -1.0516358884161e-08 0.052999978523386" rpy="0 0 0" />
+    <axis xyz="2.0404248869602e-07 -2.1205825659969e-07 0.99999999999996" />
+    <limit lower="-0.08726646259971647" upper="0.08726646259971647" effort="2" velocity="0.08726646259971647" />
+    <dynamics damping="0.1" friction="0.01" />
+  </joint>
+  <joint name="J6" type="revolute">
+    <parent link="wrist2_link" />
+    <child link="wrist3_link" />
+    <origin xyz="9.3859520688966e-09 -0.052999978683046 0.045999987997636" rpy="0 0 0" />
+    <axis xyz="-3.1023274883777e-14 -0.99999999999999 -1.3334913571837e-07" />
+    <limit lower="-0.08726646259971647" upper="0.08726646259971647" effort="2" velocity="0.08726646259971647" />
+    <dynamics damping="0.1" friction="0.01" />
+  </joint>
+  <joint name="fixed_phone_link" type="fixed">
+    <parent link="wrist3_link" />
+    <child link="phone_link" />
+    <origin xyz="0.00030944017976742 -0.025206739577703 0.10139357809924" rpy="3.1115508721695 -0.9631229029816 -1.5707960334034" />
+  </joint>
+  <joint name="fixed_phone_arm_link" type="fixed">
+    <parent link="wrist3_link" />
+    <child link="phone_arm_link" />
+    <origin xyz="7.6738615462091e-16 -0.0010000232793934 -1.3331998616195e-10" rpy="2.1496521087393 -1.5707960830425 -0.5788557819444" />
+  </joint>
+  <joint name="fixed_phone_backing_link" type="fixed">
+    <parent link="wrist3_link" />
+    <child link="phone_backing_link" />
+    <origin xyz="0.00030944017976748 -0.025206739577703 0.10139357809924" rpy="3.1115508721695 -0.9631229029816 -1.5707960334034" />
+  </joint>
+  <joint name="fixed_typing_holder_link" type="fixed">
+    <parent link="wrist3_link" />
+    <child link="typing_holder_link" />
+    <origin xyz="-2.3188199229196e-07 -0.00099997589298613 3.80811860623e-08" rpy="-2.5174192147214 -1.5707961082394 -2.1949696349233" />
+  </joint>
+  <joint name="fixed_typing_stylus_link" type="fixed">
+    <parent link="wrist3_link" />
+    <child link="typing_stylus_link" />
+    <origin xyz="0.054999999999996 -0.11100002484489 -2.8682506354016e-08" rpy="1.5707961227524 1.4955903226976e-07 -1.5707963267949" />
+  </joint>
+  <joint name="fixed_camera_optical_frame" type="fixed">
+    <parent link="phone_link" />
+    <child link="camera_optical_frame" />
+    <origin xyz="0 -0.06 0.0093999999999999" rpy="-2.2633026535468e-18 0 1.0240289488252e-18" />
+  </joint>
+  <joint name="fixed_typing_tcp" type="fixed">
+    <parent link="typing_stylus_link" />
+    <child link="typing_tcp" />
+    <origin xyz="0.06 0 0" rpy="1.5707963267949 2.2204460492503e-16 1.5707963430052" />
+  </joint>
+  <material name="abs_pipe">
+    <color rgba=".20 .23 .25 1" />
+  </material>
+</robot>

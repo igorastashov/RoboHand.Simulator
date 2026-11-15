@@ -1,0 +1,13 @@
+{
+  "attempt": 7,
+  "scope": "own default planes/axes hidden only; no excluded/suppression/global settings",
+  "verification": {},
+  "status": "stopped-after-default-visibility-updates-before-save",
+  "client_error": "JSONDecodeError while reading error from attempted document.RebuildModelEx; correct pinned state() path uses own part.RebuildModelEx",
+  "_public_summary": {
+    "omitted": "calls: full SDK/tool response logs retained in local pre-publication archive",
+    "original_sha256": "0c9c513f1d0abbbf4f74e397a97f56af7e7846c3c4737dc29717982efd00cc0d",
+    "archive": "RoboHand-Simulator-prepublish-2026-11-15.zip",
+    "archive_member": "RoboHand.Simulator/cad-experiments/collet-2026-11-09/tool-ledger-r7.json"
+  }
+}

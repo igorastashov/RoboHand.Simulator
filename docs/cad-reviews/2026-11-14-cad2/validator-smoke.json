@@ -1,0 +1,22 @@
+{
+  "scope": "Standard library/native engine smoke only; not EB300, Isaac Lab, Newton or GPU readiness.",
+  "versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "trimesh": "5.2.1",
+    "mujoco-core": "4.0.1",
+    "glfw": "2.11.0",
+    "pyopengl": "3.1.10"
+  },
+  "box": {
+    "watertight": true,
+    "volume_m3": 0.006000000000000001
+  },
+  "sphere": {
+    "steps": 1000,
+    "time_s": 2.0000000000000013,
+    "height_m": 0.09963281815747682,
+    "contacts": 1,
+    "finite": true
+  }
+}

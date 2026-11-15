@@ -1,0 +1,25 @@
+{
+  "source_sha256": "01f8288424ceedbb228f0259e6538d777c20b0a3aabb234becd7495b2288e905",
+  "upstream_commit": "adef44fdc41401af3b239a5c9b1a4e108e1a237a",
+  "attempt": 4,
+  "verification": {
+    "recovery_deleted_cut": {
+      "entity_id": "4709e4b2573c4610977cb17d4acbff3c",
+      "name": "Three front slots - depth45",
+      "type": 26,
+      "directionType": 1,
+      "volume_before_mm3": 50520.98393442727
+    }
+  },
+  "client_result_parsing": "upstream validate_advanced.py unwrap value.get(result,value)",
+  "scope": "exact own collet only; no attach/close/activation",
+  "own_document_id": "153f96494d4a4e81ab06495f69078638",
+  "status": "stopped-on-error",
+  "error": "",
+  "_public_summary": {
+    "omitted": "calls: full SDK/tool response logs retained in local pre-publication archive",
+    "original_sha256": "64aa7d3d4c51566246526a8d3a6f99033969a3ebb3a7fb996e2a9bfc9f781d9d",
+    "archive": "RoboHand-Simulator-prepublish-2026-11-15.zip",
+    "archive_member": "RoboHand.Simulator/cad-experiments/collet-2026-11-09/tool-ledger-r4.json"
+  }
+}

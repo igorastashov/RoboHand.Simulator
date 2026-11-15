@@ -1,0 +1,95 @@
+{
+  "scope": "R2 recover named sketch then full wrist assembly",
+  "proxy_inspection": {
+    "document_id": "0f654924317847d893ffb7ddef7075d5",
+    "name": "EB300_Wrist3_output_NOMINAL_D57_L12",
+    "bounds_raw": [
+      true,
+      -28.5,
+      -28.5,
+      0.0,
+      28.5,
+      28.5,
+      12.0
+    ],
+    "bounds_units": "mm",
+    "measurements": {
+      "volume_mm3": 30621.103594539556,
+      "area_mm2": 7252.366640812017,
+      "mass_kg": 0.2405593898387028,
+      "center_mm": [
+        0.0,
+        0.0,
+        6.0
+      ],
+      "body_count": 1
+    },
+    "document": {
+      "handle": "2ccab2dc3af94770a18c6edee1c13001",
+      "interface": "ksDocument3D"
+    },
+    "part": {
+      "handle": "371fa324e994478d9ca48d9eef7a4a4e",
+      "interface": "ksPart"
+    },
+    "session_entities": [
+      {
+        "entity_id": "ac7b6d875e0f44b1ad5f43f909afd6db",
+        "name": "NOMINAL_flange_D57",
+        "object": {
+          "handle": "c4e81bd2a9054f619c8b912f8cbe12dd",
+          "interface": "ksEntity"
+        }
+      },
+      {
+        "entity_id": "7c598129e6ea4db5b91288174ca7bd9d",
+        "name": "NOMINAL_output_flange_L12",
+        "object": {
+          "handle": "ae440397dc4d448db29a900354146b68",
+          "interface": "ksEntity"
+        }
+      }
+    ]
+  },
+  "old_gripper_mates": [
+    {
+      "handle": "bcb53d9454f54dc8a89637c17bd9e976",
+      "ref": 1073743421,
+      "name": "Соосность (Сборка  -  27_update)",
+      "type": 4,
+      "parent_object": "010454e911274e8482470421e2d09991"
+    },
+    {
+      "handle": "7501b8e84541489b9ecf301eb4972ae0",
+      "ref": 1073743422,
+      "name": "На расстоянии (Сборка  -  27_update)",
+      "type": 5,
+      "parent_object": "c4ecfec74aa44b90a0913435241ce482"
+    }
+  ],
+  "wrist2_target_matrix": [
+    -0.9781138371321781,
+    0.10468827061188332,
+    0.1798157045613068,
+    0.0,
+    -0.028979191875957325,
+    0.7872415301267073,
+    -0.6159634564501318,
+    0.0,
+    -0.2060425394155335,
+    -0.6076932937264292,
+    -0.766978052300812,
+    0.0,
+    -45.4491695384971,
+    121.58408860219653,
+    222.30648525517077,
+    1.0
+  ],
+  "error": "unhandled errors in a TaskGroup (1 sub-exception)",
+  "_public_summary": {
+    "omitted": "calls: full SDK/tool response logs retained in local pre-publication archive",
+    "original_sha256": "01180669cb7e570e85208c58c013e1a0ebcd5113e8ba7c83ce737a004d1d6953",
+    "archive": "RoboHand-Simulator-prepublish-2026-11-15.zip",
+    "archive_member": "RoboHand.Simulator/docs/cad-reviews/2026-11-14-cad2/r2-full-wrist-recovery.json"
+  }
+}

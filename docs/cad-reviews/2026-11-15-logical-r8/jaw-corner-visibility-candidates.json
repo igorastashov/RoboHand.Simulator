@@ -1,0 +1,261 @@
+{
+  "scope": "Exact-corner visual ray tests in native URDF import, not real camera calibration. Positive earlier-distance indicates occlusion along this ray.",
+  "candidates": [
+    {
+      "name": "gripper_013_3",
+      "index": 0,
+      "source_vertex_mm": [
+        106.5,
+        92.5,
+        40.0
+      ],
+      "output_mm": [
+        -3.8243767527660673,
+        -12.775461913156335,
+        136.00000000000904
+      ],
+      "first_hit": "wrist3_link_gripper_013_3_visual",
+      "earlier_than_target_mm": 3.1116207083112526
+    },
+    {
+      "name": "gripper_013_3",
+      "index": 1,
+      "source_vertex_mm": [
+        106.5,
+        107.5,
+        40.0
+      ],
+      "output_mm": [
+        -13.287064123800876,
+        -1.1368388108277827,
+        136.00000000000912
+      ],
+      "first_hit": "wrist3_link_gripper_014_7_visual",
+      "earlier_than_target_mm": 8.28493379619863
+    },
+    {
+      "name": "gripper_013_3",
+      "index": 2,
+      "source_vertex_mm": [
+        101.5,
+        107.5,
+        40.0
+      ],
+      "output_mm": [
+        -17.166605157910425,
+        -4.291067934506032,
+        136.0000000000091
+      ],
+      "first_hit": "wrist3_link_gripper_014_7_visual",
+      "earlier_than_target_mm": 24.146182873897914
+    },
+    {
+      "name": "gripper_013_3",
+      "index": 3,
+      "source_vertex_mm": [
+        101.5,
+        92.5,
+        40.0
+      ],
+      "output_mm": [
+        -7.703917786875618,
+        -15.929691036834583,
+        136.000000000009
+      ],
+      "first_hit": "wrist3_link_gripper_013_3_visual",
+      "earlier_than_target_mm": 4.598088482570234
+    },
+    {
+      "name": "gripper_014_4",
+      "index": 0,
+      "source_vertex_mm": [
+        92.5,
+        119.0,
+        0.0
+      ],
+      "output_mm": [
+        1.8734623393033303,
+        11.189303297165083,
+        136.00000000000844
+      ],
+      "first_hit": "wrist3_link_gripper_013_5_visual",
+      "earlier_than_target_mm": 24.600019598746748
+    },
+    {
+      "name": "gripper_014_4",
+      "index": 1,
+      "source_vertex_mm": [
+        92.5,
+        119.0,
+        2.5
+      ],
+      "output_mm": [
+        -0.06630817775145914,
+        9.612188735325972,
+        136.00000000000844
+      ],
+      "first_hit": "wrist3_link_gripper_013_5_visual",
+      "earlier_than_target_mm": 24.672389011090534
+    },
+    {
+      "name": "gripper_014_4",
+      "index": 2,
+      "source_vertex_mm": [
+        107.5,
+        119.0,
+        2.5
+      ],
+      "output_mm": [
+        9.39637919328328,
+        -2.0264343670026648,
+        136.00000000000833
+      ],
+      "first_hit": "wrist3_link_gripper_014_4_visual",
+      "earlier_than_target_mm": 2.942996141077736
+    },
+    {
+      "name": "gripper_014_4",
+      "index": 3,
+      "source_vertex_mm": [
+        107.5,
+        119.0,
+        0.0
+      ],
+      "output_mm": [
+        11.336149710338063,
+        -0.4493198051635545,
+        136.00000000000833
+      ],
+      "first_hit": "wrist3_link_gripper_013_5_visual",
+      "earlier_than_target_mm": 4.377147179384533
+    },
+    {
+      "name": "gripper_013_5",
+      "index": 0,
+      "source_vertex_mm": [
+        106.5,
+        92.5,
+        40.0
+      ],
+      "output_mm": [
+        2.6493705461258976,
+        11.820149121900954,
+        136.00000000000927
+      ],
+      "first_hit": "wrist3_link_gripper_013_5_visual",
+      "earlier_than_target_mm": 24.572788318813515
+    },
+    {
+      "name": "gripper_013_5",
+      "index": 1,
+      "source_vertex_mm": [
+        106.5,
+        107.5,
+        40.0
+      ],
+      "output_mm": [
+        12.112057917160712,
+        0.1815260195723738,
+        136.00000000000915
+      ],
+      "first_hit": "wrist3_link_gripper_013_5_visual",
+      "earlier_than_target_mm": 4.3939830819747785
+    },
+    {
+      "name": "gripper_013_5",
+      "index": 2,
+      "source_vertex_mm": [
+        101.5,
+        107.5,
+        40.0
+      ],
+      "output_mm": [
+        15.991598951270277,
+        3.3357551432506227,
+        136.00000000000918
+      ],
+      "first_hit": "wrist3_link_gripper_013_5_visual",
+      "earlier_than_target_mm": 4.069465274131822
+    },
+    {
+      "name": "gripper_013_5",
+      "index": 3,
+      "source_vertex_mm": [
+        101.5,
+        92.5,
+        40.0
+      ],
+      "output_mm": [
+        6.528911580235462,
+        14.974378245579203,
+        136.00000000000927
+      ],
+      "first_hit": "wrist3_link_gripper_013_5_visual",
+      "earlier_than_target_mm": 7.253023000822062
+    },
+    {
+      "name": "gripper_014_7",
+      "index": 4,
+      "source_vertex_mm": [
+        107.5,
+        81.0,
+        0.0
+      ],
+      "output_mm": [
+        -3.0484685459438623,
+        -12.144616088419767,
+        136.00000000001006
+      ],
+      "first_hit": "wrist3_link_gripper_014_7_visual",
+      "earlier_than_target_mm": 3.026075342516088
+    },
+    {
+      "name": "gripper_014_7",
+      "index": 5,
+      "source_vertex_mm": [
+        107.5,
+        81.0,
+        2.5
+      ],
+      "output_mm": [
+        -1.10869802888908,
+        -10.567501526580656,
+        136.00000000001006
+      ],
+      "first_hit": "wrist3_link_gripper_014_7_visual",
+      "earlier_than_target_mm": 2.4987324602346597
+    },
+    {
+      "name": "gripper_014_7",
+      "index": 6,
+      "source_vertex_mm": [
+        92.5,
+        81.0,
+        2.5
+      ],
+      "output_mm": [
+        -10.571385399923798,
+        1.0711215757479806,
+        136.00000000001017
+      ],
+      "first_hit": "wrist3_link_gripper_014_7_visual",
+      "earlier_than_target_mm": 3.673413877551379
+    },
+    {
+      "name": "gripper_014_7",
+      "index": 7,
+      "source_vertex_mm": [
+        92.5,
+        81.0,
+        0.0
+      ],
+      "output_mm": [
+        -12.511155916978588,
+        -0.5059929860911296,
+        136.00000000001017
+      ],
+      "first_hit": "wrist3_link_gripper_014_7_visual",
+      "earlier_than_target_mm": 8.269976691898052
+    }
+  ]
+}

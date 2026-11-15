@@ -1,0 +1,10 @@
+{
+  "updated": "2026-11-15",
+  "documents_checked": 16,
+  "local_links_checked": 241,
+  "missing_links": [],
+  "trailing_whitespace": [],
+  "native_files_checked": 24,
+  "native_hash_mismatches": [],
+  "launch_ast": "passed"
+}

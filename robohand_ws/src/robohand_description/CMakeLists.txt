@@ -3,7 +3,7 @@ project(robohand_description)
 
 find_package(ament_cmake REQUIRED)
 
-install(DIRECTORY config launch urdf rviz
+install(DIRECTORY config launch urdf rviz meshes
   DESTINATION share/${PROJECT_NAME}
 )
 

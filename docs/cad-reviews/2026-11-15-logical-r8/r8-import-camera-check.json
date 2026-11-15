@@ -1,0 +1,29 @@
+{
+  "source": "Standard native URDF import + MjSpec serializer; relative paths read back from saved MJCF",
+  "links": 13,
+  "revolute": 6,
+  "nq": 6,
+  "nv": 6,
+  "geoms_including_visual_floor": 46,
+  "actuators": 0,
+  "stylus_or_holder_in_URDF": false,
+  "camera_nominal_fovy_deg": 60.0,
+  "jaw_contact_world_m": [
+    0.09181986438595001,
+    -0.18999999706165,
+    0.85629606
+  ],
+  "lens_to_contact_m": 0.1517140074592197,
+  "contact_pixel_normalized_xy": [
+    0.38401547218591475,
+    0.7388948061731215
+  ],
+  "contact_in_nominal_camera_frustum": true,
+  "ray_first_visual_hit": "wrist3_link_gripper_013_3_visual",
+  "ray_first_distance_m": 0.1471061535197357,
+  "ray_target_distance_m": 0.1517040074592197,
+  "ray_scope": "Single ray to an exact mesh corner is numerically fragile; camera-frustum result and RGB render are separate evidence, not real-phone calibration.",
+  "cad_native_r8_final_review": "passed root-acceptance.json (49savedstates)",
+  "contact_corner_directly_visible": false,
+  "known_occlusion": "Exact front corner is in nominal FOV but a side surface of the same jaw intersects its camera ray about4.6mm earlier. This is meaningful partial occlusion, not merely corner numerical noise. Visibility/performance must be evaluated in the keyboard scene; camera mount is not retargeted here."
+}

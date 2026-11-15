@@ -1,0 +1,103 @@
+{
+  "scope": "Independent numerical check of returned 3x3 rotation blocks; no claims about joint frames, FK, translation layout or DOF.",
+  "count": 19,
+  "max_orthogonality_error": 4.374278717023117e-14,
+  "max_abs_det_minus_one": 4.8627768478581856e-14,
+  "results": [
+    {
+      "occurrence": "root",
+      "determinant": 1.0,
+      "orthogonality_max_error": 0.0
+    },
+    {
+      "occurrence": "root/0",
+      "determinant": 1.0,
+      "orthogonality_max_error": 0.0
+    },
+    {
+      "occurrence": "root/1",
+      "determinant": 0.9999999999999999,
+      "orthogonality_max_error": 1.1102230246251565e-16
+    },
+    {
+      "occurrence": "root/2",
+      "determinant": 1.0000000000000093,
+      "orthogonality_max_error": 1.021405182655144e-14
+    },
+    {
+      "occurrence": "root/3",
+      "determinant": 1.0000000000000486,
+      "orthogonality_max_error": 3.9968028886505635e-14
+    },
+    {
+      "occurrence": "root/4",
+      "determinant": 1.0000000000000286,
+      "orthogonality_max_error": 2.1094237467877974e-14
+    },
+    {
+      "occurrence": "root/5",
+      "determinant": 1.0000000000000302,
+      "orthogonality_max_error": 2.4868995751603507e-14
+    },
+    {
+      "occurrence": "root/6",
+      "determinant": 1.0000000000000444,
+      "orthogonality_max_error": 4.374278717023117e-14
+    },
+    {
+      "occurrence": "root/7",
+      "determinant": 1.0000000000000138,
+      "orthogonality_max_error": 1.5987211554602254e-14
+    },
+    {
+      "occurrence": "root/7/0",
+      "determinant": 1.0000000000000002,
+      "orthogonality_max_error": 2.220446049250313e-16
+    },
+    {
+      "occurrence": "root/7/1",
+      "determinant": 1.0000000000000002,
+      "orthogonality_max_error": 2.220446049250313e-16
+    },
+    {
+      "occurrence": "root/7/2",
+      "determinant": 1.0,
+      "orthogonality_max_error": 1.0755285551056204e-16
+    },
+    {
+      "occurrence": "root/7/3",
+      "determinant": 0.9999999999999999,
+      "orthogonality_max_error": 2.220446049250313e-16
+    },
+    {
+      "occurrence": "root/7/4",
+      "determinant": 1.0,
+      "orthogonality_max_error": 1.3877787807814457e-16
+    },
+    {
+      "occurrence": "root/7/5",
+      "determinant": 1.0,
+      "orthogonality_max_error": 8.326672684688674e-17
+    },
+    {
+      "occurrence": "root/7/6",
+      "determinant": 1.0000000000000002,
+      "orthogonality_max_error": 2.220446049250313e-16
+    },
+    {
+      "occurrence": "root/7/7",
+      "determinant": 1.0,
+      "orthogonality_max_error": 8.326672684688674e-17
+    },
+    {
+      "occurrence": "root/8",
+      "determinant": 1.000000000000015,
+      "orthogonality_max_error": 1.554312234475219e-14
+    },
+    {
+      "occurrence": "root/9",
+      "determinant": 0.9999999999999999,
+      "orthogonality_max_error": 2.220446049250313e-16
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "attempt": 8,
+  "output_revision": "R7",
+  "scope": "complete own auxiliary visibility update via pinned state() part.RebuildModelEx path; no geometry change",
+  "measurements": {
+    "volume_mm3": 48247.789214051445,
+    "area_mm2": 19183.262040831796,
+    "mass_kg": 0.3787451453303038,
+    "center_mm": [
+      27.98561702488027,
+      0.0,
+      0.0
+    ],
+    "body_count": 1
+  },
+  "geometry_unchanged": true,
+  "preview": {
+    "size_px": [
+      968,
+      1001
+    ],
+    "bytes": 146033
+  },
+  "stdio_shutdown": "completed",
+  "status": "final-R7-native-exports-preview-saved",
+  "_public_summary": {
+    "omitted": "calls: full SDK/tool response logs retained in local pre-publication archive",
+    "original_sha256": "fb3dfe0ad70cce2798694d0134834427d51d05710a8899b75771b8cea14c88c1",
+    "archive": "RoboHand-Simulator-prepublish-2026-11-15.zip",
+    "archive_member": "RoboHand.Simulator/cad-experiments/collet-2026-11-09/tool-ledger-r8.json"
+  }
+}

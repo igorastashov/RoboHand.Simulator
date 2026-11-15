@@ -1,0 +1,56 @@
+{
+  "attempt": 6,
+  "scope": "own collet visibility only; hidden sketches/offset plane, no excluded/suppression",
+  "verification": {
+    "thread_reference_readback": {
+      "base_cylinder": [
+        true,
+        79.35837078044787,
+        9.25
+      ],
+      "begin_planar": true
+    },
+    "hidden_auxiliaries": [
+      {
+        "kind": "o3d_sketch",
+        "name": "Axial profile - nominal dimensions and native R0.3 R5",
+        "entity_id": "ea8497ffe3cb4f85b7f9baa93bb6af0a"
+      },
+      {
+        "kind": "o3d_sketch",
+        "name": "Three radial slots 1.7 x 45 at 120deg",
+        "entity_id": "3324aaa3c8b34b83a19d2a89c7019c98"
+      },
+      {
+        "kind": "o3d_sketch",
+        "name": "Opposite flats AF24 - last10",
+        "entity_id": "e7dfb48cd67049008c28a060119b74ac"
+      },
+      {
+        "kind": "o3d_planeOffset",
+        "name": "Вспомогательная плоскость:1",
+        "entity_id": "4c5c5a0c5ffb4d5d8f38aede07a1564e"
+      }
+    ],
+    "measurements_unchanged": true,
+    "measurements": {
+      "volume_mm3": 48247.789214051445,
+      "area_mm2": 19183.262040831796,
+      "mass_kg": 0.3787451453303038,
+      "center_mm": [
+        27.98561702488027,
+        0.0,
+        0.0
+      ],
+      "body_count": 1
+    }
+  },
+  "status": "clean-visibility-native-and-exports-saved",
+  "stdio_shutdown": "completed",
+  "_public_summary": {
+    "omitted": "calls: full SDK/tool response logs retained in local pre-publication archive",
+    "original_sha256": "3e46360593e68f93e694d85c4e9c44734f1580079c25270ec551ae0ede0e6d56",
+    "archive": "RoboHand-Simulator-prepublish-2026-11-15.zip",
+    "archive_member": "RoboHand.Simulator/cad-experiments/collet-2026-11-09/tool-ledger-r6.json"
+  }
+}

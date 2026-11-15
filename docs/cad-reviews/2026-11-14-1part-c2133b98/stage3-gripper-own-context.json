@@ -1,0 +1,1047 @@
+{
+  "scope": "standalone exact snapshot gripper, read-only; nested-context stage2 mate rows are not authoritative",
+  "mates": [
+    {
+      "index": 0,
+      "handle": "4a6f11d6e696461ab5d6e4c44ac424e7",
+      "Name": "Соосность (003  -  002)",
+      "Reference": 1073743235,
+      "Valid": true,
+      "Hidden": false,
+      "ConstraintType": 4,
+      "Alignment": -1,
+      "Fixed": 0,
+      "ParamValue": 0.0,
+      "BaseObject1": {
+        "object": {
+          "handle": "e9df8b55f2b44687918b35ce4d695805",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "003",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\003.m3d"
+        }
+      },
+      "BaseObject2": {
+        "object": {
+          "handle": "58b30e42a63244348cf99e14439f2a12",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "002",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\002.m3d"
+        }
+      }
+    },
+    {
+      "index": 1,
+      "handle": "9fa231d4f7d24500906ca12f637df84d",
+      "Name": "Параллельность (002  -  003)",
+      "Reference": 1073743236,
+      "Valid": true,
+      "Hidden": false,
+      "ConstraintType": 1,
+      "Alignment": -1,
+      "Fixed": 0,
+      "ParamValue": 0.0,
+      "BaseObject1": {
+        "object": {
+          "handle": "46773659e2714847a3fc137808f49328",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "002",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\002.m3d"
+        }
+      },
+      "BaseObject2": {
+        "object": {
+          "handle": "3c00bcfb4d0e45509d4b8ee5dccd8d51",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "003",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\003.m3d"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "handle": "a7b96e60c33149c9aa5d8b53e89510c8",
+      "Name": "Совпадение (003  -  002)",
+      "Reference": 1073743237,
+      "Valid": true,
+      "Hidden": false,
+      "ConstraintType": 0,
+      "Alignment": 0,
+      "Fixed": 0,
+      "ParamValue": 0.0,
+      "BaseObject1": {
+        "object": {
+          "handle": "1b7d33bf05114d7691c15e9a6293efa9",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "003",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\003.m3d"
+        }
+      },
+      "BaseObject2": {
+        "object": {
+          "handle": "e6539a9499fe484f8c2e5b40b8e62536",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "002",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\002.m3d"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "handle": "682c28070505403fbbfc870e0b4d9889",
+      "Name": "На расстоянии (003  -  002)",
+      "Reference": 1073743238,
+      "Valid": true,
+      "Hidden": false,
+      "ConstraintType": 5,
+      "Alignment": 1,
+      "Fixed": 0,
+      "ParamValue": 12.0,
+      "BaseObject1": {
+        "object": {
+          "handle": "81d30af7d91b40afaa7c7141dffa68cf",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "003",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\003.m3d"
+        }
+      },
+      "BaseObject2": {
+        "object": {
+          "handle": "fec480038072413a9e25abd94f083fa1",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "002",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\002.m3d"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "handle": "7779033edd9d4463b5c4180099193951",
+      "Name": "На расстоянии (003  -  002)",
+      "Reference": 1073743239,
+      "Valid": true,
+      "Hidden": false,
+      "ConstraintType": 5,
+      "Alignment": -1,
+      "Fixed": 0,
+      "ParamValue": 11.2,
+      "BaseObject1": {
+        "object": {
+          "handle": "699dca8fa05a4c4fbed894091a98fda5",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "003",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\003.m3d"
+        }
+      },
+      "BaseObject2": {
+        "object": {
+          "handle": "dc108b3c85ba44e893a5bdb5350d8e5b",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "002",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\002.m3d"
+        }
+      }
+    },
+    {
+      "index": 5,
+      "handle": "a26f9437b9e6452da12064fcf4921551",
+      "Name": "Совпадение (013 (1)  -  007 (1))",
+      "Reference": 1073743240,
+      "Valid": true,
+      "Hidden": false,
+      "ConstraintType": 0,
+      "Alignment": 1,
+      "Fixed": 0,
+      "ParamValue": 0.0,
+      "BaseObject1": {
+        "object": {
+          "handle": "fcd772bda26144c4839119b4665025de",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "013",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\013.m3d"
+        }
+      },
+      "BaseObject2": {
+        "object": {
+          "handle": "b0cafeca9954461bb54bfcfb462b56cc",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "007",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\007.m3d"
+        }
+      }
+    },
+    {
+      "index": 6,
+      "handle": "6205731be0b34d62b288ea4d83b77171",
+      "Name": "На расстоянии (013 (1)  -  007 (1))",
+      "Reference": 1073743241,
+      "Valid": true,
+      "Hidden": false,
+      "ConstraintType": 5,
+      "Alignment": -1,
+      "Fixed": 0,
+      "ParamValue": 0.0,
+      "BaseObject1": {
+        "object": {
+          "handle": "21421221e1ad4bb692240a7bbc2a8266",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "013",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\013.m3d"
+        }
+      },
+      "BaseObject2": {
+        "object": {
+          "handle": "1feb76dadc3d4919a3b918dcb810696f",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "007",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\007.m3d"
+        }
+      }
+    },
+    {
+      "index": 7,
+      "handle": "0e34c4317b994b6e81167888ef755daa",
+      "Name": "На расстоянии (013 (1)  -  007 (1))",
+      "Reference": 1073743242,
+      "Valid": true,
+      "Hidden": false,
+      "ConstraintType": 5,
+      "Alignment": -1,
+      "Fixed": 0,
+      "ParamValue": -21.0,
+      "BaseObject1": {
+        "object": {
+          "handle": "eda7511e329a46d5bbee255cc0f151c0",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "013",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\013.m3d"
+        }
+      },
+      "BaseObject2": {
+        "object": {
+          "handle": "d497bf93b4db4ffc8bf2a785c2f3029f",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "007",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\007.m3d"
+        }
+      }
+    },
+    {
+      "index": 8,
+      "handle": "181e5cf4ea7443249d1d0ef80fd66b2f",
+      "Name": "Параллельность (013 (1)  -  003)",
+      "Reference": 1073743243,
+      "Valid": true,
+      "Hidden": false,
+      "ConstraintType": 1,
+      "Alignment": 1,
+      "Fixed": 0,
+      "ParamValue": 0.0,
+      "BaseObject1": {
+        "object": {
+          "handle": "96b7a298924b447eb369426dc10aa494",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "013",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\013.m3d"
+        }
+      },
+      "BaseObject2": {
+        "object": {
+          "handle": "5c7396046e3a4322958b06d13c49b27a",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "003",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\003.m3d"
+        }
+      }
+    },
+    {
+      "index": 9,
+      "handle": "dea4cb39f56d46c9b1b2921501688306",
+      "Name": "Параллельность (007 (1)  -  003)",
+      "Reference": 1073743244,
+      "Valid": true,
+      "Hidden": false,
+      "ConstraintType": 1,
+      "Alignment": 1,
+      "Fixed": 0,
+      "ParamValue": 0.0,
+      "BaseObject1": {
+        "object": {
+          "handle": "bd5b057496164590beccee09cea3edf2",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "007",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\007.m3d"
+        }
+      },
+      "BaseObject2": {
+        "object": {
+          "handle": "c3aea67679ed475282d0f262eb0465d6",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "003",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\003.m3d"
+        }
+      }
+    },
+    {
+      "index": 10,
+      "handle": "8fb65584fd724e14b1f6bde6f86ad5a2",
+      "Name": "На расстоянии (013 (1)  -  003)",
+      "Reference": 1073743245,
+      "Valid": true,
+      "Hidden": false,
+      "ConstraintType": 5,
+      "Alignment": 1,
+      "Fixed": 0,
+      "ParamValue": 10.5,
+      "BaseObject1": {
+        "object": {
+          "handle": "685b4b60981540eaa1acb0924ed44aba",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "013",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\013.m3d"
+        }
+      },
+      "BaseObject2": {
+        "object": {
+          "handle": "c45ce47a39644ad89837dea8f843de74",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "003",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\003.m3d"
+        }
+      }
+    },
+    {
+      "index": 11,
+      "handle": "f2c872948aa9437ea3cc8497c2b95fe8",
+      "Name": "На расстоянии (003  -  007 (1))",
+      "Reference": 1073743246,
+      "Valid": true,
+      "Hidden": false,
+      "ConstraintType": 5,
+      "Alignment": 1,
+      "Fixed": 0,
+      "ParamValue": 5.0,
+      "BaseObject1": {
+        "object": {
+          "handle": "d30b92493f7c4f938b32777f41c9d567",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "003",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\003.m3d"
+        }
+      },
+      "BaseObject2": {
+        "object": {
+          "handle": "eba44a6cb602411f99ae04da62b1ff92",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "007",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\007.m3d"
+        }
+      }
+    },
+    {
+      "index": 12,
+      "handle": "fe250c2f2fef48b2b94af73c471d3a7c",
+      "Name": "Совпадение (013 (2)  -  007 (2))",
+      "Reference": 1073743247,
+      "Valid": true,
+      "Hidden": false,
+      "ConstraintType": 0,
+      "Alignment": 1,
+      "Fixed": 0,
+      "ParamValue": 0.0,
+      "BaseObject1": {
+        "object": {
+          "handle": "55c50ffd4f7e4f0d9b8917a374a1a278",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "013",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\013.m3d"
+        }
+      },
+      "BaseObject2": {
+        "object": {
+          "handle": "a7f8ab9ced404b54968c243a134f27e3",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "007",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\007.m3d"
+        }
+      }
+    },
+    {
+      "index": 13,
+      "handle": "0c972f39f4ac45609d2a931abb75d695",
+      "Name": "На расстоянии (013 (2)  -  007 (2))",
+      "Reference": 1073743248,
+      "Valid": true,
+      "Hidden": false,
+      "ConstraintType": 5,
+      "Alignment": -1,
+      "Fixed": 0,
+      "ParamValue": 0.0,
+      "BaseObject1": {
+        "object": {
+          "handle": "eb0366cadcc645bfa85ccabe00b5cac6",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "013",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\013.m3d"
+        }
+      },
+      "BaseObject2": {
+        "object": {
+          "handle": "a0f059722161449eb55ecee73e5d404f",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "007",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\007.m3d"
+        }
+      }
+    },
+    {
+      "index": 14,
+      "handle": "6c8298df1f684c7f8ffe17453ae049ca",
+      "Name": "На расстоянии (013 (2)  -  007 (2))",
+      "Reference": 1073743249,
+      "Valid": true,
+      "Hidden": false,
+      "ConstraintType": 5,
+      "Alignment": -1,
+      "Fixed": 0,
+      "ParamValue": -21.0,
+      "BaseObject1": {
+        "object": {
+          "handle": "c0a7f0e5248a4793b2e36823e82891c0",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "013",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\013.m3d"
+        }
+      },
+      "BaseObject2": {
+        "object": {
+          "handle": "61d1a043e6f04960bb5162ef39809ec9",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "007",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\007.m3d"
+        }
+      }
+    },
+    {
+      "index": 15,
+      "handle": "44d02d60bc634f9dba6610ca20cb99c1",
+      "Name": "Параллельность (013 (2)  -  013 (1))",
+      "Reference": 1073743250,
+      "Valid": true,
+      "Hidden": false,
+      "ConstraintType": 1,
+      "Alignment": -1,
+      "Fixed": 0,
+      "ParamValue": 0.0,
+      "BaseObject1": {
+        "object": {
+          "handle": "e1d26ce8fda0418aad8a24c655b5633b",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "013",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\013.m3d"
+        }
+      },
+      "BaseObject2": {
+        "object": {
+          "handle": "01b5e145fe4b49aa841dfccb385600ac",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "013",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\013.m3d"
+        }
+      }
+    },
+    {
+      "index": 16,
+      "handle": "d2703cc2edbb4262a95069b9fae422f3",
+      "Name": "Параллельность (013 (2)  -  013 (1))",
+      "Reference": 1073743251,
+      "Valid": true,
+      "Hidden": false,
+      "ConstraintType": 1,
+      "Alignment": -1,
+      "Fixed": 0,
+      "ParamValue": 0.0,
+      "BaseObject1": {
+        "object": {
+          "handle": "30bbee2a1ce54bffad578a2ee3c85d3c",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "013",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\013.m3d"
+        }
+      },
+      "BaseObject2": {
+        "object": {
+          "handle": "11a5f7a5be7048de824349906acd6f4c",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "013",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\013.m3d"
+        }
+      }
+    },
+    {
+      "index": 17,
+      "handle": "ecf60f8f8b4f4ad6830c56d077222a6b",
+      "Name": "Совпадение (007 (2)  -  007 (1))",
+      "Reference": 1073743252,
+      "Valid": true,
+      "Hidden": false,
+      "ConstraintType": 0,
+      "Alignment": 1,
+      "Fixed": 0,
+      "ParamValue": 0.0,
+      "BaseObject1": {
+        "object": {
+          "handle": "6734471c6f574dddbe3338b8494c0805",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "007",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\007.m3d"
+        }
+      },
+      "BaseObject2": {
+        "object": {
+          "handle": "0e5600a8c7b147b786a3f22bd3ab8f7f",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "007",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\007.m3d"
+        }
+      }
+    },
+    {
+      "index": 18,
+      "handle": "37a78e587f174519b7ca088a62bc22ae",
+      "Name": "На расстоянии (013 (2)  -  013 (1))",
+      "Reference": 1073743253,
+      "Valid": true,
+      "Hidden": false,
+      "ConstraintType": 5,
+      "Alignment": -1,
+      "Fixed": 0,
+      "ParamValue": -21.0,
+      "BaseObject1": {
+        "object": {
+          "handle": "a484589cc132415888addcdd5dcaa0a4",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "013",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\013.m3d"
+        }
+      },
+      "BaseObject2": {
+        "object": {
+          "handle": "1884ba70e9c24101a0eaa71e6744a3e1",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "013",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\013.m3d"
+        }
+      }
+    },
+    {
+      "index": 19,
+      "handle": "f738891b6b1d4fb8a3d1c8c014ebbeba",
+      "Name": "Совпадение (014 (1)  -  013 (2))",
+      "Reference": 1073743254,
+      "Valid": true,
+      "Hidden": false,
+      "ConstraintType": 0,
+      "Alignment": 1,
+      "Fixed": 0,
+      "ParamValue": 0.0,
+      "BaseObject1": {
+        "object": {
+          "handle": "503b4202fa9c404dbeb98edae2b80499",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "014",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\014.m3d"
+        }
+      },
+      "BaseObject2": {
+        "object": {
+          "handle": "23095baf41cd42478d8375a28c813c2b",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "013",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\013.m3d"
+        }
+      }
+    },
+    {
+      "index": 20,
+      "handle": "06114f420de444a795447eb29a9f8aec",
+      "Name": "Совпадение (014 (1)  -  013 (2))",
+      "Reference": 1073743255,
+      "Valid": true,
+      "Hidden": false,
+      "ConstraintType": 0,
+      "Alignment": 1,
+      "Fixed": 0,
+      "ParamValue": 0.0,
+      "BaseObject1": {
+        "object": {
+          "handle": "e965f522339e481ebb70504cd325f793",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "014",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\014.m3d"
+        }
+      },
+      "BaseObject2": {
+        "object": {
+          "handle": "2f16dd259a0e4bdd939f1fc72f11f65f",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "013",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\013.m3d"
+        }
+      }
+    },
+    {
+      "index": 21,
+      "handle": "605cf3a974ef425e9542dc1093844cf0",
+      "Name": "На расстоянии (014 (1)  -  013 (2))",
+      "Reference": 1073743256,
+      "Valid": true,
+      "Hidden": false,
+      "ConstraintType": 5,
+      "Alignment": 1,
+      "Fixed": 0,
+      "ParamValue": 1.0,
+      "BaseObject1": {
+        "object": {
+          "handle": "f4589a45ce0e430eb70f59342cdf9987",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "014",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\014.m3d"
+        }
+      },
+      "BaseObject2": {
+        "object": {
+          "handle": "0dd01007117649828dbc21416b02c712",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "013",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\013.m3d"
+        }
+      }
+    },
+    {
+      "index": 22,
+      "handle": "b6309d87648f451584daff63ff3b7842",
+      "Name": "Совпадение (014 (2)  -  013 (1))",
+      "Reference": 1073743257,
+      "Valid": true,
+      "Hidden": false,
+      "ConstraintType": 0,
+      "Alignment": 1,
+      "Fixed": 0,
+      "ParamValue": 0.0,
+      "BaseObject1": {
+        "object": {
+          "handle": "3afdfde2e9ea427bbf48e11605e7e861",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "014",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\014.m3d"
+        }
+      },
+      "BaseObject2": {
+        "object": {
+          "handle": "f54811552db243ef9ef8b30cf790f179",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "013",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\013.m3d"
+        }
+      }
+    },
+    {
+      "index": 23,
+      "handle": "ac5640df29474a3289d75f06d8abf8bd",
+      "Name": "Совпадение (014 (2)  -  014 (1))",
+      "Reference": 1073743258,
+      "Valid": true,
+      "Hidden": false,
+      "ConstraintType": 0,
+      "Alignment": 1,
+      "Fixed": 0,
+      "ParamValue": 0.0,
+      "BaseObject1": {
+        "object": {
+          "handle": "53fd792c7c1548368f5d08e6516c23c1",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "014",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\014.m3d"
+        }
+      },
+      "BaseObject2": {
+        "object": {
+          "handle": "2f7e0b7111f8474588391dd423bbfd47",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "014",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\014.m3d"
+        }
+      }
+    },
+    {
+      "index": 24,
+      "handle": "f69ea7a73acf4c28b735242d22420bef",
+      "Name": "Совпадение (014 (2)  -  014 (1))",
+      "Reference": 1073743259,
+      "Valid": true,
+      "Hidden": false,
+      "ConstraintType": 0,
+      "Alignment": 0,
+      "Fixed": 0,
+      "ParamValue": 0.0,
+      "BaseObject1": {
+        "object": {
+          "handle": "621765e3bbc24a6fbb6fae185c55997e",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "014",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\014.m3d"
+        }
+      },
+      "BaseObject2": {
+        "object": {
+          "handle": "aeae04ea7c7c4a0aa506d4e1a9f30a69",
+          "interface": "IModelObject"
+        },
+        "Name": "",
+        "ModelObjectType": 6,
+        "Valid": true,
+        "part": {
+          "Name": "014",
+          "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\014.m3d"
+        }
+      }
+    }
+  ],
+  "errors": [],
+  "opened_metadata": {
+    "path": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\gripper20.a3d",
+    "read_only": true,
+    "changed": false,
+    "active": true
+  },
+  "mate_count": 25,
+  "mate_feature_interface": {
+    "handle": "7a98a8379b114638b801a418aff285d8",
+    "interface": "IFeature7"
+  },
+  "aggregate_inspect": {
+    "document_id": "cedc341ca3c84d7596f32e13a2696314",
+    "name": "Сборка",
+    "bounds_raw": [
+      true,
+      319.57754374725334,
+      139.3535112618281,
+      -111.92944799378853,
+      458.2663976895826,
+      236.76998192728746,
+      9.29680584141245
+    ],
+    "bounds_units": "mm",
+    "measurements": {
+      "volume_mm3": 0.0,
+      "area_mm2": 0.0,
+      "mass_kg": 0.0,
+      "center_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "body_count": 0
+    },
+    "document": {
+      "handle": "f1a172f79b4448458b331306dfd59739",
+      "interface": "ksDocument3D"
+    },
+    "part": {
+      "handle": "bd089ecf7bbf437c85b196711bdd0dd2",
+      "interface": "ksPart"
+    },
+    "session_entities": []
+  },
+  "preview": {
+    "path": "gripper-saved-view.png",
+    "bytes": 132403
+  },
+  "metadata_before_close": {
+    "path": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\gripper20.a3d",
+    "read_only": true,
+    "changed": false,
+    "active": true
+  },
+  "close_own_snapshot": {
+    "closed": true
+  },
+  "remaining_documents": {
+    "documents": [
+      {
+        "document": {
+          "handle": "727e4426de3a4fdf88a445d53540b03a",
+          "interface": "IKompasDocument"
+        },
+        "kind": "assembly",
+        "name": "1part.a3d",
+        "path": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\1part.a3d",
+        "changed": false,
+        "read_only": true,
+        "active": true,
+        "model": {
+          "handle": "5cf82d811f4045158149d1378f3fd2d7",
+          "interface": "IKompasDocument3D"
+        },
+        "top_part": {
+          "handle": "4ec907b4bdef4da0b9ba97d666f494a1",
+          "interface": "IPart7"
+        },
+        "document_id": "5c2ce553c60b49fdb2ea44d3b04a17e1"
+      }
+    ]
+  },
+  "status": "standalone gripper own-context mate readback completed and unchanged read-only gripper closed",
+  "stdio_shutdown": "completed",
+  "_public_summary": {
+    "omitted": "calls: full SDK/tool response logs retained in local pre-publication archive",
+    "original_sha256": "67744c56581c7524fcd9465bb46e74b8b07665ee0dab4196dc4af55a7274f612",
+    "archive": "RoboHand-Simulator-prepublish-2026-11-15.zip",
+    "archive_member": "RoboHand.Simulator/docs/cad-reviews/2026-11-14-1part-c2133b98/stage3-gripper-own-context.json"
+  }
+}

@@ -1,0 +1,485 @@
+{
+  "units": "mm",
+  "parts": [
+    {
+      "key": "Redmi8A-envelope",
+      "name": "Redmi8A_OFFICIAL_156.48x75.41x9.4_mass188g",
+      "features": [
+        {
+          "name": "OFFICIAL_envelope",
+          "plane": "XY",
+          "offset": 0,
+          "curves": [
+            {
+              "kind": "polyline",
+              "closed": true,
+              "points": [
+                [
+                  -37.705,
+                  -78.24
+                ],
+                [
+                  37.705,
+                  -78.24
+                ],
+                [
+                  37.705,
+                  78.24
+                ],
+                [
+                  -37.705,
+                  78.24
+                ]
+              ]
+            }
+          ],
+          "depth": 9.4,
+          "operation": "add"
+        }
+      ],
+      "relative_matrix": [
+        0.8209786942119189,
+        -0.0,
+        0.5709588283318617,
+        0,
+        0.017149836422150438,
+        0.9995487903562295,
+        -0.02465965952911315,
+        0,
+        -0.5707012062023226,
+        0.030036905589595923,
+        0.8206082607077606,
+        0,
+        101.39358152363086,
+        -0.3094194911684335,
+        24.20670277760026,
+        1
+      ],
+      "lcs": [
+        {
+          "name": "camera_optical_NOMINAL_lens_center",
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            -60,
+            9.4,
+            1
+          ]
+        }
+      ],
+      "mass_kg": 0.188,
+      "provenance": "Xiaomi official dimensions/mass; rectangular envelope, lens-center design assumption; optical+Z equals phone rear-plane normal; optical+Y follows phone portrait down; phone+backingplate physically tilted together, camera rear normal points to nominal TCP",
+      "reuse_native": "Redmi8A-envelope-R1.m3d"
+    },
+    {
+      "key": "Phone-low-arm-NOMINAL-R2",
+      "name": "Phone_low_arm_NOMINAL_Z8_12",
+      "relative_matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "features": [
+        {
+          "name": "NOMINAL_arm_behind_gripper",
+          "plane": "XY",
+          "offset": 8,
+          "curves": [
+            {
+              "kind": "polyline",
+              "closed": true,
+              "points": [
+                [
+                  20,
+                  -10
+                ],
+                [
+                  124,
+                  -10
+                ],
+                [
+                  124,
+                  10
+                ],
+                [
+                  20,
+                  10
+                ]
+              ]
+            }
+          ],
+          "depth": 4,
+          "operation": "add"
+        }
+      ],
+      "provenance": "design assumption; low arm behind gripperZ13; intersects sloping phonepost atX~110"
+    },
+    {
+      "key": "Phone-backing-post-NOMINAL-R2",
+      "name": "Phone_backing_and_post_NOMINAL_tilted_to_TCP",
+      "relative_matrix": [
+        0.8209786942119189,
+        -0.0,
+        0.5709588283318617,
+        0,
+        0.017149836422150438,
+        0.9995487903562295,
+        -0.02465965952911315,
+        0,
+        -0.5707012062023226,
+        0.030036905589595923,
+        0.8206082607077606,
+        0,
+        101.39358152363086,
+        -0.3094194911684335,
+        24.20670277760026,
+        1
+      ],
+      "features": [
+        {
+          "name": "NOMINAL_backing_plate",
+          "plane": "XY",
+          "offset": -4,
+          "curves": [
+            {
+              "kind": "polyline",
+              "closed": true,
+              "points": [
+                [
+                  -42,
+                  -80
+                ],
+                [
+                  42,
+                  -80
+                ],
+                [
+                  42,
+                  80
+                ],
+                [
+                  -42,
+                  80
+                ]
+              ]
+            }
+          ],
+          "depth": 4,
+          "operation": "add"
+        },
+        {
+          "name": "NOMINAL_sloping_post",
+          "plane": "XY",
+          "offset": -30,
+          "curves": [
+            {
+              "kind": "polyline",
+              "closed": true,
+              "points": [
+                [
+                  -4,
+                  -10
+                ],
+                [
+                  4,
+                  -10
+                ],
+                [
+                  4,
+                  10
+                ],
+                [
+                  -4,
+                  10
+                ]
+              ]
+            }
+          ],
+          "depth": 26,
+          "operation": "add"
+        }
+      ],
+      "provenance": "design assumption; this whole backing+post part has same rotation as phone, post connects to lowarm outside gripper bbox"
+    },
+    {
+      "key": "Typing-holder-NOMINAL-R2",
+      "name": "Typing_holder_NOMINAL_Yminus55",
+      "features": [
+        {
+          "name": "NOMINAL_connecting_arm",
+          "plane": "XY",
+          "offset": 8,
+          "curves": [
+            {
+              "kind": "polyline",
+              "closed": true,
+              "points": [
+                [
+                  -10,
+                  -63
+                ],
+                [
+                  10,
+                  -63
+                ],
+                [
+                  10,
+                  -15
+                ],
+                [
+                  -10,
+                  -15
+                ]
+              ]
+            }
+          ],
+          "depth": 4,
+          "operation": "add"
+        },
+        {
+          "name": "NOMINAL_standoff",
+          "plane": "XY",
+          "offset": 12,
+          "curves": [
+            {
+              "kind": "polyline",
+              "closed": true,
+              "points": [
+                [
+                  -6,
+                  -61
+                ],
+                [
+                  6,
+                  -61
+                ],
+                [
+                  6,
+                  -49
+                ],
+                [
+                  -6,
+                  -49
+                ]
+              ]
+            }
+          ],
+          "depth": 108,
+          "operation": "add"
+        },
+        {
+          "name": "NOMINAL_collar_outer",
+          "plane": "XY",
+          "offset": 100,
+          "curves": [
+            {
+              "kind": "circle",
+              "center": [
+                0,
+                -55
+              ],
+              "radius": 8
+            }
+          ],
+          "depth": 20,
+          "operation": "add"
+        },
+        {
+          "name": "NOMINAL_collar_bore",
+          "plane": "XY",
+          "offset": 100,
+          "curves": [
+            {
+              "kind": "circle",
+              "center": [
+                0,
+                -55
+              ],
+              "radius": 4
+            }
+          ],
+          "depth": 20,
+          "operation": "cut"
+        }
+      ],
+      "relative_matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "provenance": "design assumption, collar holds shaft Z110..120; detachable clamp hardware and compliance not reconstructed"
+    },
+    {
+      "key": "Typing-stylus-NOMINAL",
+      "name": "Typing_stylus_NOMINAL_R4_tipR1.5",
+      "revolution": {
+        "name": "NOMINAL_stylus_profile",
+        "plane": "XY",
+        "curves": [
+          {
+            "kind": "polyline",
+            "closed": true,
+            "points": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                55,
+                4
+              ],
+              [
+                58,
+                1.5
+              ],
+              [
+                60,
+                1.5
+              ],
+              [
+                60,
+                0
+              ]
+            ]
+          },
+          {
+            "kind": "polyline",
+            "closed": false,
+            "construction": true,
+            "points": [
+              [
+                0,
+                0
+              ],
+              [
+                60,
+                0
+              ]
+            ]
+          }
+        ]
+      },
+      "relative_matrix": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        -55,
+        110,
+        1
+      ],
+      "lcs": [
+        {
+          "name": "typing_TCP_NOMINAL_contact_center",
+          "matrix": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            60,
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "provenance": "design assumption, shaftL60/local+X, flat contact radius1.5, final outputTCP(0,-55,170); no calibrated spring/force model",
+      "reuse_native": "Typing-stylus-NOMINAL-R1.m3d"
+    }
+  ],
+  "camera_lens_output": [
+    95,
+    -60,
+    33.4
+  ],
+  "tcp_output": [
+    0,
+    -55,
+    170
+  ],
+  "camera_optical_z_output": [
+    -0.5707012062023226,
+    0.030036905589595923,
+    0.8206082607077606
+  ],
+  "phone_relative_matrix": [
+    0.8209786942119189,
+    -0.0,
+    0.5709588283318617,
+    0,
+    0.017149836422150438,
+    0.9995487903562295,
+    -0.02465965952911315,
+    0,
+    -0.5707012062023226,
+    0.030036905589595923,
+    0.8206082607077606,
+    0,
+    101.39358152363086,
+    -0.3094194911684335,
+    24.20670277760026,
+    1
+  ],
+  "camera_nominal_offaxis_to_TCP_deg": 0,
+  "camera_tilt_from_output_Z_deg": 34.854270587714836,
+  "constraints": "all rigid fixed to output; three mount parts nominal, no calibrated fasteners/compliance; mechanical strength not validated",
+  "clearance_design": "crossbars outputZ8..12, gripper startsZ13; risers outside gripperX/Y bounds"
+}

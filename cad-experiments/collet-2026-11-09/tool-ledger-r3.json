@@ -1,0 +1,15 @@
+{
+  "source_sha256": "01f8288424ceedbb228f0259e6538d777c20b0a3aabb234becd7495b2288e905",
+  "upstream_commit": "adef44fdc41401af3b239a5c9b1a4e108e1a237a",
+  "attempt": 3,
+  "verification": {},
+  "scope": "exact own top_part.Name + unique features + volume guard; no attach/close/activation",
+  "status": "stopped-on-error",
+  "error": "{'exact_own_top_part_matches': 0}",
+  "_public_summary": {
+    "omitted": "calls: full SDK/tool response logs retained in local pre-publication archive",
+    "original_sha256": "c86b07366e120eaa65cd8d6e2608e03606a9d292f18f7b0a22900d46d4b4309f",
+    "archive": "RoboHand-Simulator-prepublish-2026-11-15.zip",
+    "archive_member": "RoboHand.Simulator/cad-experiments/collet-2026-11-09/tool-ledger-r3.json"
+  }
+}

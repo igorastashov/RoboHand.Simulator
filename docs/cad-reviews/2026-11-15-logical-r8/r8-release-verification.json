@@ -1,0 +1,16 @@
+{
+  "release_id": "EB300-R8-jaw-2026-11-15",
+  "archive": "E:\\RoboHand\\releases\\EB300-R8-jaw-2026-11-15\\EB300-R8-jaw-2026-11-15.zip",
+  "mirror": "D:\\RoboHand-Backups\\EB300-R8-jaw-2026-11-15.zip",
+  "archive_bytes": 7513758,
+  "archive_sha256": "418ccf2f5fca89f67a255cd41d892876f51d079010ec17a58173e52fce8cfb1d",
+  "payload_files_verified": 306,
+  "zip_crc_test": "passed",
+  "all_member_hashes_passed": true,
+  "mirror_sha256_passed": true,
+  "native_unique_files": 24,
+  "native_accepted_sha256": "c6b0003ee6e4a8774d6d51577289e323eeb2001b7d75c71a586b48703deba774",
+  "native_file_still_matches_accepted_hash": true,
+  "read_only_zip_flags": true,
+  "scope": "Verified recovery release, native reference paths retain original restore-root layout. Physical calibration and controller remain separate."
+}

@@ -1,0 +1,16 @@
+Starting >>> robohand_description
+Finished <<< robohand_description [3.81s]
+
+Summary: 1 package finished [4.04s]
+Arguments (pass arguments as '<name>:=<value>'):
+
+    'model':
+        Absolute URDF/Xacro path; default is reviewed EB300 R8 with ordinary jaw contact
+        (default: PathJoinSubstitution('FindPackageShare(pkg='robohand_description'), 'urdf', 'eb300_jaw_typing_r8.urdf''))
+
+    'use_sim_time':
+        no description given
+        (default: 'false')
+R8 installed assets/default model/no-stylus checks: PASS /tmp/robohand-r8-install/robohand_description/share/robohand_description
+
+exit=0

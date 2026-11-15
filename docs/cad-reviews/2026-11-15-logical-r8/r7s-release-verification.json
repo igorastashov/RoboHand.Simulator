@@ -1,0 +1,14 @@
+{
+  "release_id": "EB300-R7S-2026-11-15",
+  "archive": "E:\\RoboHand\\releases\\EB300-R7S-2026-11-15\\EB300-R7S-2026-11-15.zip",
+  "mirror": "D:\\RoboHand-Backups\\EB300-R7S-2026-11-15.zip",
+  "archive_sha256": "ec203a73462a03d5e036cb7ea8393d0c691518245780787ed3148a2d3a06f238",
+  "files_verified": 204,
+  "zip_crc_test": "passed",
+  "all_manifest_hashes_passed": true,
+  "mirror_byte_hash_passed": true,
+  "read_only_archive_flags": true,
+  "semantic_verification": "passed R7S read-only native audit; 28+25 mates valid; saved reference geometry within0.001mm of prior accepted R7",
+  "native_readback_evidence": "docs/cad-reviews/2026-11-15-logical-r8/current-r7s-readonly-audit.json",
+  "native_saved_revision_sha256": "5d23a54572186d7eba37a44ecb15b9edc62c220ddd9bcc09c1e4718ccbdd9a1c"
+}

@@ -1,0 +1,6 @@
+# Standard asset validation tools; isolated on E, separate from pinned KOMPAS MCP.
+trimesh==5.2.1
+scipy
+networkx
+pillow
+mujoco-core[rendering]==4.0.1

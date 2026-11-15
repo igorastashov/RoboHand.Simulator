@@ -1,0 +1,438 @@
+{
+  "scope": "R4 build four nominal native accessory parts with stock typed tools",
+  "parts": [
+    {
+      "key": "Redmi8A-envelope",
+      "name": "Redmi8A_OFFICIAL_156.48x75.41x9.4_mass188g",
+      "features": [
+        {
+          "feature_id": "ecdc84cc1b7f40cda301ae81d107e10a",
+          "name": "OFFICIAL_envelope",
+          "volume_mm3": 110921.47391999999
+        }
+      ],
+      "frames": [
+        {
+          "name": "camera_optical_NOMINAL_lens_center",
+          "xyz": [
+            0.0,
+            -60.0,
+            9.4
+          ],
+          "basis": [
+            [
+              true,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              true,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              true,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "valid": true
+        }
+      ],
+      "inspection": {
+        "document_id": "ccbf651f664946d297c54c31ab9d4997",
+        "name": "Redmi8A_OFFICIAL_156.48x75.41x9.4_mass188g",
+        "bounds_raw": [
+          true,
+          -37.705,
+          -78.24,
+          0.0,
+          37.705,
+          78.24,
+          9.4
+        ],
+        "bounds_units": "mm",
+        "measurements": {
+          "volume_mm3": 110921.47391999999,
+          "area_mm2": 27959.8456,
+          "mass_kg": 0.8713990991155199,
+          "center_mm": [
+            0.0,
+            0.0,
+            4.7
+          ],
+          "body_count": 1
+        },
+        "document": {
+          "handle": "757de84e801149b1a6a902785acb22c1",
+          "interface": "ksDocument3D"
+        },
+        "part": {
+          "handle": "6584d5949bc94762b31d1be098be7690",
+          "interface": "ksPart"
+        },
+        "session_entities": [
+          {
+            "entity_id": "71122c51643949b48d63aaf0191ae737",
+            "name": "OFFICIAL_envelope",
+            "object": {
+              "handle": "2649523266cf42b0b89f2c8495b17622",
+              "interface": "ksEntity"
+            }
+          },
+          {
+            "entity_id": "ecdc84cc1b7f40cda301ae81d107e10a",
+            "name": "OFFICIAL_envelope",
+            "object": {
+              "handle": "0967b4a9ede44b1ba4672df6ebf78dee",
+              "interface": "ksEntity"
+            }
+          }
+        ]
+      },
+      "export": {
+        "path": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\Redmi8A-envelope-R1.stl",
+        "bytes": 684
+      },
+      "save": {
+        "path": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Redmi8A-envelope-R1.m3d",
+        "bytes": 30453
+      }
+    },
+    {
+      "key": "Phone-mount-NOMINAL",
+      "name": "Phone_mount_NOMINAL_offsetX95",
+      "features": [
+        {
+          "feature_id": "d686303e4ff343939f722c2e27114a42",
+          "name": "NOMINAL_connecting_arm",
+          "volume_mm3": 12000.0
+        },
+        {
+          "feature_id": "da511763d4d34c3cbd1037fb45dfcb09",
+          "name": "NOMINAL_backing_plate",
+          "volume_mm3": 65760.0
+        }
+      ],
+      "inspection": {
+        "document_id": "4f66b9b8a9ae4c6280cb71c3eb5c23b9",
+        "name": "Phone_mount_NOMINAL_offsetX95",
+        "bounds_raw": [
+          true,
+          20.0,
+          -80.0,
+          12.0,
+          137.0,
+          80.0,
+          24.0
+        ],
+        "bounds_units": "mm",
+        "measurements": {
+          "volume_mm3": 65760.0,
+          "area_mm2": 31672.0,
+          "mass_kg": 0.5166105599999999,
+          "center_mm": [
+            88.15693430656934,
+            0.0,
+            20.905109489051096
+          ],
+          "body_count": 1
+        },
+        "document": {
+          "handle": "472bbc62758940c68fa74ab5db04066d",
+          "interface": "ksDocument3D"
+        },
+        "part": {
+          "handle": "702b8d7edbb2483da1a760874c1deb46",
+          "interface": "ksPart"
+        },
+        "session_entities": [
+          {
+            "entity_id": "8c25ac6ca8f04c84ab285d2ed1ee72af",
+            "name": "NOMINAL_connecting_arm",
+            "object": {
+              "handle": "45d51b76c88848c8953318b5ef3331fb",
+              "interface": "ksEntity"
+            }
+          },
+          {
+            "entity_id": "d686303e4ff343939f722c2e27114a42",
+            "name": "NOMINAL_connecting_arm",
+            "object": {
+              "handle": "f0185415bd844dd98c854d8309e39042",
+              "interface": "ksEntity"
+            }
+          },
+          {
+            "entity_id": "6e5479a3bea54825a5580e1cda3f3672",
+            "name": "NOMINAL_backing_plate",
+            "object": {
+              "handle": "83fd392c8153447e865390cd472e9abd",
+              "interface": "ksEntity"
+            }
+          },
+          {
+            "entity_id": "da511763d4d34c3cbd1037fb45dfcb09",
+            "name": "NOMINAL_backing_plate",
+            "object": {
+              "handle": "45de4b56a5da41bca494e7c5f384bc7a",
+              "interface": "ksEntity"
+            }
+          }
+        ]
+      },
+      "export": {
+        "path": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\Phone-mount-NOMINAL-R1.stl",
+        "bytes": 1684
+      },
+      "save": {
+        "path": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Phone-mount-NOMINAL-R1.m3d",
+        "bytes": 37610
+      }
+    },
+    {
+      "key": "Typing-holder-NOMINAL",
+      "name": "Typing_holder_NOMINAL_Yminus55",
+      "features": [
+        {
+          "feature_id": "861ec74f216447c290d59e0a3a57dc7d",
+          "name": "NOMINAL_connecting_arm",
+          "volume_mm3": 7680.0
+        },
+        {
+          "feature_id": "60cf6504cfcd490fb5255f1a6622963d",
+          "name": "NOMINAL_standoff",
+          "volume_mm3": 22080.0
+        },
+        {
+          "feature_id": "488ec4f5633d46e8a5f6b71df11a4392",
+          "name": "NOMINAL_collar_outer",
+          "volume_mm3": 23240.47809018268
+        },
+        {
+          "feature_id": "659f68124b2044cb910f1d8afcd0c85e",
+          "name": "NOMINAL_collar_bore",
+          "volume_mm3": 22235.168441033944
+        }
+      ],
+      "inspection": {
+        "document_id": "c9e3050c3926486d989092d154ec69b6",
+        "name": "Typing_holder_NOMINAL_Yminus55",
+        "bounds_raw": [
+          true,
+          -10.0,
+          -63.0,
+          12.0,
+          10.0,
+          -15.0,
+          120.00000000000001
+        ],
+        "bounds_units": "mm",
+        "measurements": {
+          "volume_mm3": 22235.168441033944,
+          "area_mm2": 8505.162051253137,
+          "mass_kg": 0.17467948327276267,
+          "center_mm": [
+            0.0,
+            -49.47361955786983,
+            51.62760658000008
+          ],
+          "body_count": 1
+        },
+        "document": {
+          "handle": "5ce87fd911fa4c7f9e1f3d8e9b7ff657",
+          "interface": "ksDocument3D"
+        },
+        "part": {
+          "handle": "9173018b6be241caa87c42d373d3ecff",
+          "interface": "ksPart"
+        },
+        "session_entities": [
+          {
+            "entity_id": "bf541613de4045df8689311b2394c842",
+            "name": "NOMINAL_connecting_arm",
+            "object": {
+              "handle": "995f4c581ec141b6a0b17c5a762f26bc",
+              "interface": "ksEntity"
+            }
+          },
+          {
+            "entity_id": "861ec74f216447c290d59e0a3a57dc7d",
+            "name": "NOMINAL_connecting_arm",
+            "object": {
+              "handle": "a380735d8ade4a78a1ddf9cd6dcb10d4",
+              "interface": "ksEntity"
+            }
+          },
+          {
+            "entity_id": "2ceafeda3e29444da7bf09e803c0ddee",
+            "name": "NOMINAL_standoff",
+            "object": {
+              "handle": "22539b51e392436a8878092caddce62e",
+              "interface": "ksEntity"
+            }
+          },
+          {
+            "entity_id": "60cf6504cfcd490fb5255f1a6622963d",
+            "name": "NOMINAL_standoff",
+            "object": {
+              "handle": "8e1ff185e1c7459884893fef76cd1121",
+              "interface": "ksEntity"
+            }
+          },
+          {
+            "entity_id": "d260cf25c7314f4e929377a7cf7d3ebb",
+            "name": "NOMINAL_collar_outer",
+            "object": {
+              "handle": "f69cea62feea4c529f123e52180058f1",
+              "interface": "ksEntity"
+            }
+          },
+          {
+            "entity_id": "488ec4f5633d46e8a5f6b71df11a4392",
+            "name": "NOMINAL_collar_outer",
+            "object": {
+              "handle": "776869b9decd477fbf5852ba6f92bbee",
+              "interface": "ksEntity"
+            }
+          },
+          {
+            "entity_id": "ce0d114d14f8459ab47875e738916ba1",
+            "name": "NOMINAL_collar_bore",
+            "object": {
+              "handle": "24addbb7b64b447aa814e2333bc40fcc",
+              "interface": "ksEntity"
+            }
+          },
+          {
+            "entity_id": "659f68124b2044cb910f1d8afcd0c85e",
+            "name": "NOMINAL_collar_bore",
+            "object": {
+              "handle": "3f135059a2da4c2a87df6786ea2b799c",
+              "interface": "ksEntity"
+            }
+          }
+        ]
+      },
+      "export": {
+        "path": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\Typing-holder-NOMINAL-R1.stl",
+        "bytes": 9084
+      },
+      "save": {
+        "path": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Typing-holder-NOMINAL-R1.m3d",
+        "bytes": 60024
+      }
+    },
+    {
+      "key": "Typing-stylus-NOMINAL",
+      "name": "Typing_stylus_NOMINAL_R4_tipR1.5",
+      "features": [
+        {
+          "feature_id": "451770af6bed4473b55df862fc610265",
+          "name": "NOMINAL_shaft_and_contact_tip",
+          "volume_mm3": 2854.9223239497196
+        }
+      ],
+      "frames": [
+        {
+          "name": "typing_TCP_NOMINAL_contact_center",
+          "xyz": [
+            60.0,
+            0.0,
+            0.0
+          ],
+          "basis": [
+            [
+              true,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              true,
+              0.0,
+              0.0,
+              1.0
+            ],
+            [
+              true,
+              1.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "valid": true
+        }
+      ],
+      "inspection": {
+        "document_id": "9cfbe93d8a324e45b5a244f428e77271",
+        "name": "Typing_stylus_NOMINAL_R4_tipR1.5",
+        "bounds_raw": [
+          true,
+          0.0,
+          -4.0,
+          -4.0,
+          60.0,
+          4.0,
+          4.0
+        ],
+        "bounds_units": "mm",
+        "measurements": {
+          "volume_mm3": 2854.9223239497196,
+          "area_mm2": 1525.9601026915166,
+          "mass_kg": 0.022428269776949,
+          "center_mm": [
+            28.41850068775791,
+            0.0,
+            0.0
+          ],
+          "body_count": 1
+        },
+        "document": {
+          "handle": "6cd9a74eb13d4821a7eb0ab5930f5912",
+          "interface": "ksDocument3D"
+        },
+        "part": {
+          "handle": "2da08c1943664fcfb2972b4631d93f4d",
+          "interface": "ksPart"
+        },
+        "session_entities": [
+          {
+            "entity_id": "1e61470830364fa19453052fe65b5366",
+            "name": "NOMINAL_stylus_profile",
+            "object": {
+              "handle": "7349f3e6aadd4ce58ab23df4ac70ad9f",
+              "interface": "ksEntity"
+            }
+          },
+          {
+            "entity_id": "451770af6bed4473b55df862fc610265",
+            "name": "NOMINAL_shaft_and_contact_tip",
+            "object": {
+              "handle": "f44a724a650e417da519d3739f023d1f",
+              "interface": "ksEntity"
+            }
+          }
+        ]
+      },
+      "export": {
+        "path": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\Typing-stylus-NOMINAL-R1.stl",
+        "bytes": 4984
+      },
+      "save": {
+        "path": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Typing-stylus-NOMINAL-R1.m3d",
+        "bytes": 48044
+      }
+    }
+  ],
+  "status": "four native accessory parts and stock STL exports completed",
+  "_public_summary": {
+    "omitted": "calls: full SDK/tool response logs retained in local pre-publication archive",
+    "original_sha256": "34a2c68bf139fd965a8c59c91e169636799dc36ea4d5a7588d344e0443434816",
+    "archive": "RoboHand-Simulator-prepublish-2026-11-15.zip",
+    "archive_member": "RoboHand.Simulator/docs/cad-reviews/2026-11-14-cad2/r4-native-accessory-parts.json"
+  }
+}

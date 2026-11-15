@@ -1,0 +1,16 @@
+{
+  "snapshot_path": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\1part.a3d",
+  "snapshot_bytes": 62508,
+  "snapshot_sha256": "c2133b98a331749d9bc693e12e561800be17ae545d0c379defbd53a1004f203d",
+  "method": "pythoncom.GetActiveObject; no Dispatch/property assignment/document open",
+  "active_object_found": true,
+  "visible": true,
+  "version": [
+    1,
+    25,
+    0,
+    0,
+    0
+  ],
+  "eligible_for_standard_connect": true
+}

@@ -1,0 +1,31 @@
+{
+  "scope": "R2 full wrist native assembly workcopy only",
+  "assumptions": [
+    "Wrist3 flange nominal D57 L12; not measured actuator geometry",
+    "Wrist2 input gap 1 mm, preserved source orientation; offsets Y -0.0293 Z +0.0707 mm",
+    "J6 flange stop gap 1 mm; gripper original attachment orientation transferred to new output"
+  ],
+  "old_gripper_mates": [
+    {
+      "handle": "5d3575bda52847888ac188f255d3bc25",
+      "reference": 1073743421,
+      "name": "Соосность (Сборка  -  27_update)",
+      "type": 4,
+      "parent_object": "b87bc2144e1b4f3c8766e23ac5b8332f"
+    },
+    {
+      "handle": "76f8abb1030943068640b5dee44a1893",
+      "reference": 1073743422,
+      "name": "На расстоянии (Сборка  -  27_update)",
+      "type": 5,
+      "parent_object": "2a39f4d89fed468d8b0d8c7f4a6ff11e"
+    }
+  ],
+  "error": "unhandled errors in a TaskGroup (1 sub-exception)",
+  "_public_summary": {
+    "omitted": "calls: full SDK/tool response logs retained in local pre-publication archive",
+    "original_sha256": "0148a454ea69d8305ee930abe5edb97f514b37f47156241541a198cf10155a3e",
+    "archive": "RoboHand-Simulator-prepublish-2026-11-15.zip",
+    "archive_member": "RoboHand.Simulator/docs/cad-reviews/2026-11-14-cad2/r2-full-wrist-build.json"
+  }
+}

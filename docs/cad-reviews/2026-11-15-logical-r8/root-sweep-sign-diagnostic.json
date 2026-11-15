@@ -1,0 +1,128 @@
+[
+  {
+    "joint": 1,
+    "native_angle_deg": 95,
+    "recorded_measurement_deg": -5.0,
+    "direct_q_deg": -5.0,
+    "legacy_sign": -1,
+    "errors": {
+      "recorded_measurement": [
+        3.707358100651925e-07,
+        "phone_backing_link"
+      ],
+      "legacy_parameter_sign": [
+        3.707358100651925e-07,
+        "phone_backing_link"
+      ],
+      "direct_pose_rotation": [
+        3.707358100651925e-07,
+        "phone_backing_link"
+      ]
+    }
+  },
+  {
+    "joint": 2,
+    "native_angle_deg": 95,
+    "recorded_measurement_deg": 5.00000469632615,
+    "direct_q_deg": -5.000004696326164,
+    "legacy_sign": -1,
+    "errors": {
+      "recorded_measurement": [
+        0.15749110877982095,
+        "phone_backing_link"
+      ],
+      "legacy_parameter_sign": [
+        1.4240616359045832e-07,
+        "phone_backing_link"
+      ],
+      "direct_pose_rotation": [
+        6.788705119928351e-08,
+        "phone_backing_link"
+      ]
+    }
+  },
+  {
+    "joint": 3,
+    "native_angle_deg": 95,
+    "recorded_measurement_deg": -4.999999683747129,
+    "direct_q_deg": -4.999999683747127,
+    "legacy_sign": -1,
+    "errors": {
+      "recorded_measurement": [
+        6.145835960286172e-08,
+        "phone_backing_link"
+      ],
+      "legacy_parameter_sign": [
+        5.8353736821781244e-08,
+        "phone_backing_link"
+      ],
+      "direct_pose_rotation": [
+        6.14583596306173e-08,
+        "phone_backing_link"
+      ]
+    }
+  },
+  {
+    "joint": 4,
+    "native_angle_deg": 95,
+    "recorded_measurement_deg": -5.000002595459014,
+    "direct_q_deg": -5.000002595458888,
+    "legacy_sign": -1,
+    "errors": {
+      "recorded_measurement": [
+        5.8564583807485526e-08,
+        "phone_arm_link"
+      ],
+      "legacy_parameter_sign": [
+        4.876185488722484e-08,
+        "phone_arm_link"
+      ],
+      "direct_pose_rotation": [
+        5.856458332176295e-08,
+        "phone_arm_link"
+      ]
+    }
+  },
+  {
+    "joint": 5,
+    "native_angle_deg": 95,
+    "recorded_measurement_deg": -4.999999999999827,
+    "direct_q_deg": -4.999999999999563,
+    "legacy_sign": -1,
+    "errors": {
+      "recorded_measurement": [
+        4.7914440304275274e-08,
+        "phone_backing_link"
+      ],
+      "legacy_parameter_sign": [
+        4.791444054019767e-08,
+        "phone_backing_link"
+      ],
+      "direct_pose_rotation": [
+        4.791443999896394e-08,
+        "phone_backing_link"
+      ]
+    }
+  },
+  {
+    "joint": 6,
+    "native_angle_deg": 95,
+    "recorded_measurement_deg": 4.999999999999878,
+    "direct_q_deg": 4.999999999999732,
+    "legacy_sign": 1,
+    "errors": {
+      "recorded_measurement": [
+        4.9196620999225615e-08,
+        "phone_backing_link"
+      ],
+      "legacy_parameter_sign": [
+        4.9196620999225615e-08,
+        "phone_backing_link"
+      ],
+      "direct_pose_rotation": [
+        4.9196620999225615e-08,
+        "phone_backing_link"
+      ]
+    }
+  }
+]

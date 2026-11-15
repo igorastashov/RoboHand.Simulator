@@ -1,0 +1,117 @@
+{
+  "scope": "stock v25 ICollision static diagnostics; positive control native solid mount overlap; mesh clearance not certified",
+  "checks": [
+    {
+      "label": "positive_control_solid_mount_overlap",
+      "group1": [
+        "Phone-low-arm-NOMINAL-R2.m3d"
+      ],
+      "group2": [
+        "Wrist3-output-NOMINAL-D57-L12-R1.m3d"
+      ],
+      "result": {
+        "handle": "3952131061534aec9485914beff1a988",
+        "interface": "ICalculateCollisionsResult"
+      },
+      "collision_definition_ref": 1073744147,
+      "count": 1,
+      "items": [
+        {
+          "type": 0,
+          "value_raw": 632.3119751442852,
+          "errors": null
+        }
+      ],
+      "delete": false
+    },
+    {
+      "label": "phone_vs_gripper",
+      "group1": [
+        "Redmi8A-envelope-R1.m3d"
+      ],
+      "group2": [
+        "gripper20.a3d"
+      ],
+      "result": {
+        "handle": "8c5b2335dfa947d3b052b29258401587",
+        "interface": "ICalculateCollisionsResult"
+      },
+      "collision_definition_ref": 1073744148,
+      "count": 0,
+      "items": [],
+      "delete": false
+    },
+    {
+      "label": "typing_module_vs_gripper",
+      "group1": [
+        "Typing-holder-NOMINAL-R2.m3d",
+        "Typing-stylus-NOMINAL-R1.m3d"
+      ],
+      "group2": [
+        "gripper20.a3d"
+      ],
+      "result": {
+        "handle": "a368c8bbe69f4cb1a1f9058c1c60dbde",
+        "interface": "ICalculateCollisionsResult"
+      },
+      "collision_definition_ref": 1073744149,
+      "count": 5,
+      "items": [
+        {
+          "type": 0,
+          "value_raw": 19547.168441034002,
+          "errors": null
+        },
+        {
+          "type": 0,
+          "value_raw": 19547.168441034002,
+          "errors": null
+        },
+        {
+          "type": 0,
+          "value_raw": 0.0,
+          "errors": null
+        },
+        {
+          "type": 0,
+          "value_raw": 0.05004665027464027,
+          "errors": null
+        },
+        {
+          "type": 0,
+          "value_raw": 19547.168441034002,
+          "errors": null
+        }
+      ],
+      "delete": false
+    },
+    {
+      "label": "phone_vs_wrist_housings",
+      "group1": [
+        "Redmi8A-envelope-R1.m3d"
+      ],
+      "group2": [
+        "27_update.m3d",
+        "Wrist2-31-R1-frames.m3d"
+      ],
+      "result": {
+        "handle": "905668cafdd64ac398a62677142b491a",
+        "interface": "ICalculateCollisionsResult"
+      },
+      "collision_definition_ref": 1073744150,
+      "count": 0,
+      "items": [],
+      "delete": false
+    }
+  ],
+  "collection_before": 0,
+  "collection_after": 0,
+  "positive_control_recognized": true,
+  "status": "native diagnostic queried; polygon-mesh collision completeness remains unvalidated",
+  "_public_summary": {
+    "omitted": "calls: full SDK/tool response logs retained in local pre-publication archive",
+    "original_sha256": "53ca3ab39cb55070c0a94836b036a05dc8bc677aa5e3baeffa5edd30c44836e0",
+    "archive": "RoboHand-Simulator-prepublish-2026-11-15.zip",
+    "archive_member": "RoboHand.Simulator/docs/cad-reviews/2026-11-14-cad2/native-static-collision-checks.json"
+  }
+}

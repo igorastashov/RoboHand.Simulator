@@ -1,0 +1,33 @@
+{
+  "source_faces": 18116,
+  "native_export_faces": 18200,
+  "source_bounds_mm": [
+    [
+      57.5,
+      67.5,
+      0.0
+    ],
+    [
+      142.5,
+      132.5,
+      52.0
+    ]
+  ],
+  "native_bounds_mm": [
+    [
+      53.743247985839844,
+      64.87449645996094,
+      -2.875
+    ],
+    [
+      146.51174926757812,
+      135.67999267578125,
+      52.950008392333984
+    ]
+  ],
+  "source_vertices_nearest_native_max_mm": 8.443886835509364e-06,
+  "native_vertices_nearest_source_max_mm": 18.008658361453417,
+  "native_vertices_not_source_within_1e-3mm": 92,
+  "source_vertices_missing_within_1e-3mm": 0,
+  "interpretation": "Native export contains additional geometry; source mesh coordinate/scale matches if source-to-native error is within float32 tolerance. Additional bodies must not be treated as physical STL geometry."
+}

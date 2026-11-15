@@ -1,0 +1,15 @@
+{
+  "source_sha256": "01f8288424ceedbb228f0259e6538d777c20b0a3aabb234becd7495b2288e905",
+  "upstream_commit": "adef44fdc41401af3b239a5c9b1a4e108e1a237a",
+  "attempt": 2,
+  "verification": {},
+  "scope": "exact own collet; no attach/close/activation of other documents",
+  "status": "stopped-on-error",
+  "error": "{'exact_own_matches': 0, 'total_documents': 1}",
+  "_public_summary": {
+    "omitted": "calls: full SDK/tool response logs retained in local pre-publication archive",
+    "original_sha256": "a5bdbcf70274abefdb56d855ca61f27a407f3b4d750d89a59ec5932eee05c79f",
+    "archive": "RoboHand-Simulator-prepublish-2026-11-15.zip",
+    "archive_member": "RoboHand.Simulator/cad-experiments/collet-2026-11-09/tool-ledger-r2.json"
+  }
+}

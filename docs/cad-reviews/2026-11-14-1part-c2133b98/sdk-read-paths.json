@@ -1,0 +1,72 @@
+{
+  "iplacement3d_getmatrix3d.html": {
+    "text": " Предыдущий --> Вверх --> Следующий --> Интерфейс... Синтаксис Automation : VARIANT GetMatrix3D(); Синтаксис COM : HRESULT GetMatrix3D( VARIANT * Result ); Возвращаемое значение : - массив координат SAFEARRAY double (VT_ARRAY | VT_R8). Подразделы: (отсутствуют) © ООО «АСКОН-Системы проектирования», 2026. Все права защищены. | Единая телефонная линия: 8-800-700-00-78 Содержание Содержане Указатель Поиск",
+    "links": [
+      "applicate.html",
+      "bc1473974.html",
+      "bc1711351.html",
+      "bc1712124.html",
+      "https://ascon.ru/iplacement3d_getmatrix3d.html",
+      "iplacement3d.html",
+      "iplacement3d_geteulerangles.html",
+      "iplacement3d_methods.html"
+    ]
+  },
+  "iplacement3d_getorigin.html": {
+    "text": " Предыдущий --> Вверх --> Следующий --> Интерфейс... Синтаксис Automation : BOOL GetOrigin( double * X, double * Y, double * Z ); Синтаксис COM : HRESULT GetOrigin( double * X, double * Y, double * Z, BOOL * Result ); Возвращаемое значение : TRUE - в случае удачного завершения, FALSE - в случае неудачи. Выходные параметры X - координата точки по X, Y - координата точки по Y, Z - координата точки по Z. Подразделы: (отсутствуют) © ООО «АСКОН-Системы проектирования», 2026. Все права защищены. | Единая телефонная линия: 8-800-700-00-78 Содержание Содержане Указатель Поиск",
+    "links": [
+      "applicate.html",
+      "bc1473974.html",
+      "bc1711351.html",
+      "bc1712124.html",
+      "https://ascon.ru/iplacement3d_getorigin.html",
+      "iplacement3d.html",
+      "iplacement3d_getvector.html",
+      "iplacement3d_methods.html",
+      "iplacement3d_seteulerangles.html"
+    ]
+  },
+  "imateconstraints3d_methods.html": {
+    "text": " Предыдущий --> Вверх --> Следующий --> Подразделы: Add - Создает новый элемент и добавляет его в коллекцию AddUserMate - Создает новый пользовательский элемент и добавляет его в коллекцию DeleteTemporaryMateConstraints - Удалить временные сопряжения © ООО «АСКОН-Системы проектирования», 2026. Все права защищены. | Единая телефонная линия: 8-800-700-00-78 Содержание Содержане Указатель Поиск",
+    "links": [
+      "applicate.html",
+      "bc1473974.html",
+      "bc2609111.html",
+      "https://ascon.ru/imateconstraints3d_methods.html",
+      "imateconstraints3d.html",
+      "imateconstraints3d_add.html",
+      "imateconstraints3d_addusermate.html",
+      "imateconstraints3d_deletetemporarymateconstraints.html",
+      "imateconstraints3d_objectconstraints.html"
+    ]
+  },
+  "ipart7_getgabarit.html": {
+    "text": " Предыдущий --> Вверх --> Следующий --> Интерфейс... Синтаксис Automation: BOOL GetGabarit( BOOL Full, BOOL Customizable, double * X1, double * Y1, double * Z1, double * X2, double * Y2, double * Z2 ); Синтаксис COM: HRESULT GetGabarit( BOOL Full, BOOL Customizable, double * X1, double * Y1, double * Z1, double * X2, double * Y2, double * Z2, BOOL * Result ); Возвращаемое значение : TRUE - в случае успешного завершения, FALSE - в случае неудачи. Входные параметры: Full -TRUE - полный, - FALSE - только тела, Customizable - TRUE - с учетом настроек видимости, - FALSE - без учета настроек видимости; при full == FALSE игнорируется . Выходные параметры : x1, y1, z1 - координаты первой точки габаритного параллелепипеда, x2, y2, z2 - координаты второй точки габаритного параллелепипеда. Версия Компас v23 Подразделы: (отсутствуют) © ООО «АСКОН-Системы проектирования», 2026. Все права защищены. | Единая телефонная линия: 8-800-700-00-78 Содержание Содержане Указатель Поиск",
+    "links": [
+      "applicate.html",
+      "bc1473974.html",
+      "bc2609111.html",
+      "https://ascon.ru/ipart7_getgabarit.html",
+      "ipart7.html",
+      "ipart7_getbodybyid.html",
+      "ipart7_getmaxsag.html",
+      "ipart7_methods.html"
+    ]
+  },
+  "imassinertiaparam7_lengthunits.html": {
+    "text": " Предыдущий --> Вверх --> Следующий --> Интерфейс... Тип данных: из перечисления ksLengthUnitEnum Синтаксис Automation : LengthUnits = iObject.LengthUnits Получить свойство ( * ) iObject.LengthUnits = LengthUnits Установить свойство ( * ) LengthUnits = iObject.GetLengthUnits( ) Получить свойство ( ** ) iObject.SetLengthUnits( LengthUnits ) Установить свойство ( ** ) Синтаксис COM : iObject->get_LengthUnits( &LengthUnits ) Получить свойство iObject->put_LengthUnits( LengthUnits ) Установить свойство Примечание : Свойство позволяет установить и получить единицы измерения длины. Подразделы: (отсутствуют) © ООО «АСКОН-Системы проектирования», 2026. Все права защищены. | Единая телефонная линия: 8-800-700-00-78 Содержание Содержане Указатель Поиск",
+    "links": [
+      "1.html",
+      "2.html",
+      "applicate.html",
+      "bc1473974.html",
+      "bc2609111.html",
+      "https://ascon.ru/imassinertiaparam7_lengthunits.html",
+      "imassinertiaparam7.html",
+      "imassinertiaparam7_jz0.html",
+      "imassinertiaparam7_lx.html",
+      "imassinertiaparam7_props.html",
+      "kslengthunitenum.html"
+    ]
+  }
+}

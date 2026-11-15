@@ -1,0 +1,8 @@
+{
+  "api_constants": [
+    "{}"
+  ],
+  "api_describe_interface": [
+    "{\n  \"interface\": \"ICollision\",\n  \"methods\": {\n    \"CalculateCollisions\": {\n      \"parameters\": [],\n      \"help\": \"Выполнить проверку коллизий.\"\n    },\n    \"Update\": {\n      \"parameters\": [],\n      \"help\": \"Изменить свойства объекта.\"\n    }\n  },\n  \"readable\": [\n    \"Application\",\n    \"AssemblyAsOneObject\",\n    \"CheckGaps\",\n    \"CheckTangent\",\n    \"CheckThreads\",\n    \"ExcludeHiddenObjects\",\n    \"ExcludeLayoutGeometry\",\n    \"GapValue\",\n    \"Hidden\",\n    \"ModelObjectType\",\n    \"Name\",\n    \"Objects1\",\n    \"Objects2\",\n    \"Owner\",\n    \"Parent\",\n    \"Part\",\n    \"Reference\",\n    \"Regime\",\n    \"Simplify\",\n    \"Type\",\n    \"Valid\"\n  ],\n  \"writable\": [\n    \"AssemblyAsOneObject\",\n    \"CheckGaps\",\n    \"CheckTangent\",\n    \"CheckThreads\",\n    \"ExcludeHiddenObjects\",\n    \"ExcludeLayoutGeometry\",\n    \"GapValue\",\n    \"Hidden\",\n    \"Name\",\n    \"Objects1\",\n    \"Objects2\",\n    \"Regime\",\n    \"Simplify\"\n  ]\n}"
+  ]
+}

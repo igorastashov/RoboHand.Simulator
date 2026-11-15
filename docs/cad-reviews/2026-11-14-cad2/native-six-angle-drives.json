@@ -1,0 +1,442 @@
+{
+  "scope": "six stock planar angular pose dimensions; reference90degrees, physical arm remains six revolute interfaces",
+  "drives": [
+    {
+      "label": "J1_pose",
+      "parent": "1_update.m3d",
+      "child": "3_update.m3d",
+      "parent_plane": 1,
+      "child_plane": 3,
+      "axis_default_type": 72,
+      "angle_before_deg_candidate": 86.908940501963,
+      "create_update": true,
+      "valid": true,
+      "reference": 1073744036,
+      "native_value_deg": 90.0,
+      "plane1": [
+        3,
+        [
+          1.8615068342589641e-06,
+          -4.085620730620576e-14,
+          4.817890754793552e-06,
+          -0.9999999999999872,
+          1.6084947596084383e-07,
+          6.123233995736761e-17,
+          0.0,
+          0.0
+        ]
+      ],
+      "plane2": [
+        3,
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "name_readback": "Под углом (3_update  -  1_update  -  1_update)"
+    },
+    {
+      "label": "J2_pose",
+      "parent": "3_update.m3d",
+      "child": "7_update.m3d",
+      "parent_plane": 1,
+      "child_plane": 3,
+      "axis_default_type": 71,
+      "angle_before_deg_candidate": 71.0624023231816,
+      "create_update": true,
+      "valid": true,
+      "reference": 1073744040,
+      "native_value_deg": 90.0,
+      "plane1": [
+        3,
+        [
+          -72.99999025686702,
+          49.00001797238603,
+          88.1961509626811,
+          9.747385349556967e-08,
+          0.9999999999999949,
+          -4.1545453027983727e-08,
+          0.0,
+          0.0
+        ]
+      ],
+      "plane2": [
+        3,
+        [
+          1.8615068342589641e-06,
+          -4.085620730620576e-14,
+          4.817890754793552e-06,
+          6.682564375293423e-15,
+          4.154545319700077e-08,
+          0.9999999999999991,
+          0.0,
+          0.0
+        ]
+      ],
+      "name_readback": "Под углом (7_update  -  3_update  -  3_update)"
+    },
+    {
+      "label": "J3_pose",
+      "parent": "14_update.m3d",
+      "child": "18_update.m3d",
+      "parent_plane": 1,
+      "child_plane": 2,
+      "axis_default_type": 71,
+      "angle_before_deg_candidate": 72.8614886817076,
+      "create_update": true,
+      "valid": true,
+      "reference": 1073744044,
+      "native_value_deg": 90.0,
+      "plane1": [
+        3,
+        [
+          8.187388951808039e-07,
+          4.989086500706286e-06,
+          -7.753939618382333e-06,
+          8.128416326379773e-08,
+          0.9999999999999962,
+          -4.1545456236188115e-08,
+          0.0,
+          0.0
+        ]
+      ],
+      "plane2": [
+        3,
+        [
+          8.187390534430961e-07,
+          7.192642250686276e-06,
+          -7.918602619838566e-06,
+          3.6934180443901985e-08,
+          4.154545324430714e-08,
+          0.9999999999999984,
+          0.0,
+          0.0
+        ]
+      ],
+      "name_readback": "Под углом (18_update  -  14_update  -  14_update)"
+    },
+    {
+      "label": "J4_pose",
+      "parent": "23_update.m3d",
+      "child": "27_update.m3d",
+      "parent_plane": 1,
+      "child_plane": 2,
+      "axis_default_type": 71,
+      "angle_before_deg_candidate": 127.58862278092148,
+      "create_update": true,
+      "valid": true,
+      "reference": 1073744048,
+      "native_value_deg": 90.0,
+      "plane1": [
+        3,
+        [
+          -46.109995791518045,
+          4.000009280740414,
+          88.19613276072533,
+          -1.2772969261644126e-07,
+          0.9999999999999911,
+          -4.154545634680972e-08,
+          0.0,
+          0.0
+        ]
+      ],
+      "plane2": [
+        3,
+        [
+          -46.10999579151925,
+          4.000012401253528,
+          88.19614395164753,
+          -4.6950422392323297e-08,
+          -4.154546234813594e-08,
+          -0.9999999999999982,
+          0.0,
+          0.0
+        ]
+      ],
+      "name_readback": "Под углом (27_update  -  23_update  -  23_update)"
+    },
+    {
+      "label": "J5_pose",
+      "parent": "27_update.m3d",
+      "child": "Wrist2-31-R1-frames.m3d",
+      "parent_plane": 1,
+      "child_plane": 1,
+      "axis_default_type": 72,
+      "angle_before_deg_candidate": 127.64432465884897,
+      "create_update": true,
+      "valid": true,
+      "reference": 1073744052,
+      "native_value_deg": 90.0,
+      "plane1": [
+        3,
+        [
+          31.862584962732434,
+          3.9707123395342023,
+          -77.90195139048112,
+          0.9999999999999836,
+          1.277296871847853e-07,
+          -1.307400492867039e-07,
+          0.0,
+          0.0
+        ]
+      ],
+      "plane2": [
+        3,
+        [
+          -46.109995791518045,
+          4.000009280740414,
+          88.19613276072533,
+          -1.3074004391165618e-07,
+          -4.154547293892273e-08,
+          -0.9999999999999906,
+          0.0,
+          0.0
+        ]
+      ],
+      "name_readback": "Под углом (31_update  -  27_update  -  27_update)"
+    },
+    {
+      "label": "J6_pose",
+      "parent": "Wrist2-31-R1-frames.m3d",
+      "child": "Wrist3-output-NOMINAL-D57-L12-R1.m3d",
+      "parent_plane": 1,
+      "child_plane": 3,
+      "axis_default_type": 71,
+      "angle_before_deg_candidate": 111.64070138272945,
+      "create_update": true,
+      "valid": true,
+      "reference": 1073744055,
+      "native_value_deg": 90.0,
+      "plane1": [
+        3,
+        [
+          75.88990399726706,
+          818.0000252751389,
+          98.09800903415407,
+          1.2772968261164038e-07,
+          -0.9999999999999909,
+          4.154545660014877e-08,
+          0.0,
+          0.0
+        ]
+      ],
+      "plane2": [
+        3,
+        [
+          31.862584962732434,
+          3.9707123395342023,
+          -77.90195139048112,
+          0.9999999999999836,
+          1.277296871847853e-07,
+          -1.307400492867039e-07,
+          0.0,
+          0.0
+        ]
+      ],
+      "name_readback": "Под углом (Деталь  -  31_update  -  31_update)"
+    }
+  ],
+  "all_mates": [
+    {
+      "name": "Соосность (3_update  -  1_update)",
+      "type": 4,
+      "valid": true,
+      "reference": 1073743998
+    },
+    {
+      "name": "На расстоянии (3_update  -  1_update)",
+      "type": 5,
+      "valid": true,
+      "reference": 1073743999
+    },
+    {
+      "name": "Соосность (3_update  -  7_update)",
+      "type": 4,
+      "valid": true,
+      "reference": 1073744000
+    },
+    {
+      "name": "На расстоянии (3_update  -  7_update)",
+      "type": 5,
+      "valid": true,
+      "reference": 1073744001
+    },
+    {
+      "name": "Соосность (14_update  -  18_update)",
+      "type": 4,
+      "valid": true,
+      "reference": 1073744002
+    },
+    {
+      "name": "На расстоянии (18_update  -  14_update)",
+      "type": 5,
+      "valid": true,
+      "reference": 1073744003
+    },
+    {
+      "name": "Соосность (23_update  -  27_update)",
+      "type": 4,
+      "valid": true,
+      "reference": 1073744004
+    },
+    {
+      "name": "На расстоянии (23_update  -  27_update)",
+      "type": 5,
+      "valid": true,
+      "reference": 1073744005
+    },
+    {
+      "name": "Зависимое положение (Деталь  -  7_update)",
+      "type": 14,
+      "valid": true,
+      "reference": 1073744006
+    },
+    {
+      "name": "Зависимое положение (Деталь  -  18_update)",
+      "type": 14,
+      "valid": true,
+      "reference": 1073744007
+    },
+    {
+      "name": "Соосность (31_update  -  27_update)",
+      "type": 4,
+      "valid": true,
+      "reference": 1073744008
+    },
+    {
+      "name": "На расстоянии (31_update  -  27_update)",
+      "type": 5,
+      "valid": true,
+      "reference": 1073744009
+    },
+    {
+      "name": "Соосность (Деталь  -  31_update)",
+      "type": 4,
+      "valid": true,
+      "reference": 1073744010
+    },
+    {
+      "name": "На расстоянии (Деталь  -  31_update)",
+      "type": 5,
+      "valid": true,
+      "reference": 1073744011
+    },
+    {
+      "name": "Зависимое положение (14_update  -  7_update)",
+      "type": 14,
+      "valid": true,
+      "reference": 1073744012
+    },
+    {
+      "name": "Зависимое положение (23_update  -  18_update)",
+      "type": 14,
+      "valid": true,
+      "reference": 1073744013
+    },
+    {
+      "name": "Зависимое положение (Сборка  -  Деталь)",
+      "type": 14,
+      "valid": true,
+      "reference": 1073744014
+    },
+    {
+      "name": "Зависимое положение (Деталь  -  Деталь)",
+      "type": 14,
+      "valid": true,
+      "reference": 1073744019
+    },
+    {
+      "name": "Зависимое положение (Деталь  -  Деталь)",
+      "type": 14,
+      "valid": true,
+      "reference": 1073744022
+    },
+    {
+      "name": "Зависимое положение (Деталь  -  Деталь)",
+      "type": 14,
+      "valid": true,
+      "reference": 1073744025
+    },
+    {
+      "name": "Зависимое положение (Деталь  -  Деталь)",
+      "type": 14,
+      "valid": true,
+      "reference": 1073744028
+    },
+    {
+      "name": "Зависимое положение (Деталь  -  Деталь)",
+      "type": 14,
+      "valid": true,
+      "reference": 1073744031
+    },
+    {
+      "name": "Под углом (3_update  -  1_update  -  1_update)",
+      "type": 6,
+      "valid": true,
+      "reference": 1073744036
+    },
+    {
+      "name": "Под углом (7_update  -  3_update  -  3_update)",
+      "type": 6,
+      "valid": true,
+      "reference": 1073744040
+    },
+    {
+      "name": "Под углом (18_update  -  14_update  -  14_update)",
+      "type": 6,
+      "valid": true,
+      "reference": 1073744044
+    },
+    {
+      "name": "Под углом (27_update  -  23_update  -  23_update)",
+      "type": 6,
+      "valid": true,
+      "reference": 1073744048
+    },
+    {
+      "name": "Под углом (31_update  -  27_update  -  27_update)",
+      "type": 6,
+      "valid": true,
+      "reference": 1073744052
+    },
+    {
+      "name": "Под углом (Деталь  -  31_update  -  31_update)",
+      "type": 6,
+      "valid": true,
+      "reference": 1073744055
+    }
+  ],
+  "fixed_flags": {
+    "1_update.m3d": true,
+    "3_update.m3d": false,
+    "14_update.m3d": false,
+    "18_update.m3d": false,
+    "23_update.m3d": false,
+    "27_update.m3d": false,
+    "7_update.m3d": false,
+    "gripper20.a3d": false,
+    "tube1.m3d": false,
+    "tube2.m3d": false,
+    "Wrist2-31-R1-frames.m3d": false,
+    "Wrist3-output-NOMINAL-D57-L12-R1.m3d": false,
+    "Redmi8A-envelope-R1.m3d": false,
+    "Phone-low-arm-NOMINAL-R2.m3d": false,
+    "Phone-backing-post-NOMINAL-R2.m3d": false,
+    "Typing-holder-NOMINAL-R2.m3d": false,
+    "Typing-stylus-NOMINAL-R1.m3d": false
+  },
+  "checkpoint": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\EB300-R4A-driven-reference.a3d",
+  "status": "six native planar pose dimensions created at90deg; accessory reposition next",
+  "_public_summary": {
+    "omitted": "calls: full SDK/tool response logs retained in local pre-publication archive",
+    "original_sha256": "7072975a2eece132f396eba662e200426e77a4982430299cb2ee77a635c38979",
+    "archive": "RoboHand-Simulator-prepublish-2026-11-15.zip",
+    "archive_member": "RoboHand.Simulator/docs/cad-reviews/2026-11-14-cad2/native-six-angle-drives.json"
+  }
+}

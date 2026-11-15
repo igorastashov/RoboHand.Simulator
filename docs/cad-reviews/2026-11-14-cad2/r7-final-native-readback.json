@@ -1,0 +1,2683 @@
+{
+  "scope": "final R7 own native assembly, fresh transforms/mates/visibility and native flange STL",
+  "updated": "2026-11-15",
+  "after_visibility_reload_delta": 0.0,
+  "components": {
+    "1_update.m3d": {
+      "occurrence": "root/0",
+      "index": 0,
+      "handle": "2f647d1525a34dcaab02a6b2be27b6f6",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\1_update.m3d",
+      "sum": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "fixed": true
+    },
+    "3_update.m3d": {
+      "occurrence": "root/1",
+      "index": 1,
+      "handle": "cbf3b6db7096418d90ffd5ae065038b1",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\3_update.m3d",
+      "sum": [
+        0.9999999999999872,
+        -1.608494759608437e-07,
+        0.0,
+        0.0,
+        1.6084947596084357e-07,
+        0.9999999999999863,
+        -4.154545319700127e-08,
+        0.0,
+        6.6825643752934116e-15,
+        4.154545319700073e-08,
+        0.9999999999999991,
+        0.0,
+        1.8615068048380565e-06,
+        5.062616992290714e-14,
+        4.8178908862439584e-06,
+        1.0
+      ],
+      "fixed": false
+    },
+    "14_update.m3d": {
+      "occurrence": "root/2",
+      "index": 2,
+      "handle": "05959fe8295e4e94ba561d205ede4f56",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\14_update.m3d",
+      "sum": [
+        0.9999999999999872,
+        -1.6084946480905898e-07,
+        -8.81946846058669e-15,
+        0.0,
+        1.60849464809059e-07,
+        0.9999999999999871,
+        1.2674643791009184e-08,
+        0.0,
+        6.780758763687507e-15,
+        -1.2674643791010448e-08,
+        0.9999999999999999,
+        0.0,
+        9.707850665563456e-07,
+        5.686045149388974e-06,
+        -8.303936226639053e-06,
+        1.0
+      ],
+      "fixed": false
+    },
+    "18_update.m3d": {
+      "occurrence": "root/3",
+      "index": 3,
+      "handle": "08dd314793e64bae82873bb91cbaede1",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\18_update.m3d",
+      "sum": [
+        0.9999999999999873,
+        -1.608494648090081e-07,
+        -8.776705120758668e-15,
+        0.0,
+        1.608494648090082e-07,
+        0.9999999999999875,
+        1.16027543961561e-08,
+        0.0,
+        6.91040828597992e-15,
+        -1.1602754382278313e-08,
+        1.0000000000000002,
+        0.0,
+        9.707846969631007e-07,
+        1.4077034641291064e-06,
+        -6.832663495041913e-06,
+        1.0
+      ],
+      "fixed": false
+    },
+    "23_update.m3d": {
+      "occurrence": "root/4",
+      "index": 4,
+      "handle": "ba8926e447604e209c2fd3d550daa15c",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\23_update.m3d",
+      "sum": [
+        -0.9999999999999872,
+        1.6084945582910692e-07,
+        -9.541975838592972e-15,
+        0.0,
+        1.6084945582910681e-07,
+        0.9999999999999873,
+        1.1602744709460211e-08,
+        0.0,
+        1.1408271010703051e-14,
+        1.1602744702521317e-08,
+        -1.0,
+        0.0,
+        -46.10999946205947,
+        4.00000780115866,
+        88.19614292063288,
+        1.0
+      ],
+      "fixed": false
+    },
+    "27_update.m3d": {
+      "occurrence": "root/5",
+      "index": 5,
+      "handle": "6668f727b13949928c2a99547208da51",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\27_update.m3d",
+      "sum": [
+        -0.9999999999999872,
+        1.608494558291605e-07,
+        -9.546460175429893e-15,
+        0.0,
+        1.60849455829158e-07,
+        0.9999999999999792,
+        1.2576674035232034e-07,
+        0.0,
+        2.977597191155599e-14,
+        1.2576674035231716e-07,
+        -0.999999999999992,
+        0.0,
+        -46.10999946206012,
+        4.000001453773052,
+        88.19604937784368,
+        1.0
+      ],
+      "fixed": false
+    },
+    "7_update.m3d": {
+      "occurrence": "root/6",
+      "index": 6,
+      "handle": "e64d10b8e22d4fc5a82db7100bd1bc6c",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\7_update.m3d",
+      "sum": [
+        -1.6084947596084364e-07,
+        -0.9999999999999873,
+        -1.2674647524135527e-08,
+        0.0,
+        -0.9999999999999873,
+        1.6084947596084372e-07,
+        -2.0681866921393237e-17,
+        0.0,
+        2.0593923056367765e-15,
+        1.2674647524135368e-08,
+        -0.9999999999999999,
+        0.0,
+        -72.99999025686738,
+        49.00001631020433,
+        88.19615053793858,
+        1.0
+      ],
+      "fixed": false
+    },
+    "gripper20.a3d": {
+      "occurrence": "root/7",
+      "index": 7,
+      "handle": "3fa614616e6d491295a77adc48d05cae",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\gripper20.a3d",
+      "sum": [
+        0.17056069850613614,
+        -0.09370473501954689,
+        -0.9808814764078356,
+        0.0,
+        0.5333493663919264,
+        0.8458107849408055,
+        0.01194024485297682,
+        0.0,
+        0.8285212740143911,
+        -0.5251890504501545,
+        0.19423943933412582,
+        0.0,
+        -52.54255402086778,
+        671.073939220085,
+        557.8836232118131,
+        1.0
+      ],
+      "fixed": false
+    },
+    "tube1.m3d": {
+      "occurrence": "root/8",
+      "index": 8,
+      "handle": "8709455b01ca4d7d961b6593099db9a1",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\tube1.m3d",
+      "sum": [
+        1.6084947877525363e-07,
+        0.9999999999999872,
+        1.2674643069194862e-08,
+        0.0,
+        0.11694767177711406,
+        -6.22330139166263e-09,
+        -0.9931380780465083,
+        0.0,
+        -0.9931380780464955,
+        1.6122801220318635e-07,
+        -0.1169476717771135,
+        0.0,
+        -121.99998028513744,
+        113.00002475075816,
+        44.098072238705534,
+        1.0
+      ],
+      "fixed": false
+    },
+    "tube2.m3d": {
+      "occurrence": "root/9",
+      "index": 9,
+      "handle": "f86240b9285a4f07b85db14d66afb52c",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\tube2.m3d",
+      "sum": [
+        1.6084945585487483e-07,
+        0.9999999999999872,
+        1.1602749233619036e-08,
+        0.0,
+        -0.9402858683921432,
+        1.551938812287268e-07,
+        -0.3403857895124435,
+        0.0,
+        -0.340385789512441,
+        4.3840967897668115e-08,
+        0.9402858683921557,
+        0.0,
+        -23.109925976529887,
+        454.0000046132826,
+        44.09807914709367,
+        1.0
+      ],
+      "fixed": false
+    },
+    "Wrist2-31-R1-frames.m3d": {
+      "occurrence": "root/10",
+      "index": 10,
+      "handle": "48a4b4481dc045bfb983ace108c3ba92",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Wrist2-31-R1-frames.m3d",
+      "sum": [
+        3.102327488377696e-14,
+        1.333491357183655e-07,
+        -0.9999999999999911,
+        0.0,
+        2.0404248862541847e-07,
+        0.9999999999999705,
+        1.3334913571836906e-07,
+        0.0,
+        0.9999999999999793,
+        -2.0404248862542077e-07,
+        3.903121256442475e-15,
+        0.0,
+        31.862569782701627,
+        3.970707693407462,
+        -77.90203041559948,
+        1.0
+      ],
+      "fixed": false
+    },
+    "Wrist3-output-NOMINAL-D57-L12-R1.m3d": {
+      "occurrence": "root/11",
+      "index": 11,
+      "handle": "7a7ca34e190c4944bdab5eda36a4de31",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Wrist3-output-NOMINAL-D57-L12-R1.m3d",
+      "sum": [
+        2.0404249049167962e-07,
+        0.9999999999999705,
+        1.3334876691469368e-07,
+        0.0,
+        -0.9999999999999793,
+        2.0404249049467688e-07,
+        -2.808006095098642e-15,
+        0.0,
+        -3.001682059662487e-14,
+        -1.333487669146903e-07,
+        0.9999999999999911,
+        0.0,
+        75.89013587926026,
+        817.9999752405076,
+        98.09807813446679,
+        1.0
+      ],
+      "fixed": false
+    },
+    "Redmi8A-envelope-R1.m3d": {
+      "occurrence": "root/12",
+      "index": 12,
+      "handle": "3642ec2986e4460fbf2f2e5360f044f4",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Redmi8A-envelope-R1.m3d",
+      "sum": [
+        1.6751451999645134e-07,
+        0.8209786180752378,
+        0.5709589378083554,
+        0.0,
+        -0.999548786856913,
+        0.017150043660909553,
+        -0.024659657242206368,
+        0.0,
+        -0.030037022036915436,
+        -0.5707013095006023,
+        0.8206081846054497,
+        0.0,
+        76.1995760590269,
+        919.3935534730676,
+        122.30479443277653,
+        1.0
+      ],
+      "fixed": false
+    },
+    "Phone-low-arm-NOMINAL-R2.m3d": {
+      "occurrence": "root/13",
+      "index": 13,
+      "handle": "b92c954ab64740e69f142946cfcff4b7",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Phone-low-arm-NOMINAL-R2.m3d",
+      "sum": [
+        2.0404249049167962e-07,
+        0.9999999999999705,
+        1.3334876691469368e-07,
+        0.0,
+        -0.9999999999999793,
+        2.0404249049467688e-07,
+        -2.808006095098642e-15,
+        0.0,
+        -3.001682059662487e-14,
+        -1.333487669146903e-07,
+        0.9999999999999911,
+        0.0,
+        75.89013587926024,
+        817.9999752405076,
+        98.09807813446676,
+        1.0
+      ],
+      "fixed": false
+    },
+    "Phone-backing-post-NOMINAL-R2.m3d": {
+      "occurrence": "root/14",
+      "index": 14,
+      "handle": "ffabc4fcc83240d2955869551118802e",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Phone-backing-post-NOMINAL-R2.m3d",
+      "sum": [
+        1.6751451999645134e-07,
+        0.8209786180752378,
+        0.5709589378083554,
+        0.0,
+        -0.999548786856913,
+        0.017150043660909553,
+        -0.024659657242206368,
+        0.0,
+        -0.030037022036915436,
+        -0.5707013095006023,
+        0.8206081846054497,
+        0.0,
+        76.19957605902695,
+        919.3935534730681,
+        122.30479443277673,
+        1.0
+      ],
+      "fixed": false
+    },
+    "Typing-holder-NOMINAL-R2.m3d": {
+      "occurrence": "root/15",
+      "index": 15,
+      "handle": "aad58ffaef744a5896e3c4fb39c034e1",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Typing-holder-NOMINAL-R2.m3d",
+      "sum": [
+        -1.2772968022465002e-07,
+        0.9999999999999764,
+        1.7734613239914576e-07,
+        0.0,
+        -0.9999999999999837,
+        -1.2772970340638846e-07,
+        1.3073998711123292e-07,
+        0.0,
+        1.3074000976359864e-07,
+        -1.7734611569976608e-07,
+        0.9999999999999759,
+        0.0,
+        75.88990399726718,
+        818.0000134550137,
+        98.09803074805951,
+        1.0
+      ],
+      "fixed": false
+    },
+    "Typing-stylus-NOMINAL-R1.m3d": {
+      "occurrence": "root/16",
+      "index": 16,
+      "handle": "e17f72b3bdd9406283dad68afd812143",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Typing-stylus-NOMINAL-R1.m3d",
+      "sum": [
+        -3.286098410377542e-14,
+        -1.49559032350214e-07,
+        0.9999999999999889,
+        0.0,
+        2.0404249049576248e-07,
+        0.9999999999999682,
+        1.495590323502176e-07,
+        0.0,
+        -0.9999999999999793,
+        2.0404249049467688e-07,
+        -2.344586671085853e-15,
+        0.0,
+        130.8901358792553,
+        817.9999466913213,
+        208.09807969996422,
+        1.0
+      ],
+      "fixed": false
+    }
+  },
+  "gripper_children": [
+    {
+      "occurrence": "root/7/0",
+      "handle": "6d06e74cc7e54fb5b2561be22a980369",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\002.m3d",
+      "sum": [
+        -0.6308456664173939,
+        0.775908335541244,
+        1.0346640291758469e-07,
+        0.0,
+        0.7759083355412508,
+        0.6308456664173882,
+        8.412251067263508e-08,
+        0.0,
+        2.5337201114427532e-14,
+        1.3334876577820636e-07,
+        -0.9999999999999913,
+        0.0,
+        61.383877966551836,
+        677.3245403848417,
+        163.09805937558122,
+        1.0
+      ],
+      "relative_to_gripper": [
+        -0.18030386398334766,
+        0.31981050308685816,
+        -0.9301675971286063,
+        0.0,
+        0.07322615916256595,
+        0.9474062884325806,
+        0.31154334249458915,
+        0.0,
+        0.9808814639124206,
+        -0.011940132065138942,
+        -0.19423950936741483,
+        0.0,
+        406.08350761241263,
+        61.33557989667284,
+        14.424798706913133,
+        1.0
+      ]
+    },
+    {
+      "occurrence": "root/7/1",
+      "handle": "c02d3995534646e9817382cf793a2593",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\003.m3d",
+      "sum": [
+        -0.630845666417394,
+        0.7759083355412439,
+        1.0346640294534026e-07,
+        0.0,
+        -0.7759083355412507,
+        -0.6308456664173884,
+        -8.412251067957398e-08,
+        0.0,
+        -2.532507554662001e-14,
+        -1.333487658041195e-07,
+        0.9999999999999912,
+        0.0,
+        216.64313709229833,
+        803.5567591975553,
+        163.09807620849568,
+        1.0
+      ],
+      "relative_to_gripper": [
+        -0.18030386398334772,
+        0.3198105030868579,
+        -0.9301675971286064,
+        0.0,
+        -0.07322615916256589,
+        -0.9474062884325807,
+        -0.31154334249458887,
+        0.0,
+        -0.9808814639124206,
+        0.011940132065138942,
+        0.19423950936741483,
+        0.0,
+        420.73606217257634,
+        250.9115796576595,
+        76.7646220154578,
+        1.0
+      ]
+    },
+    {
+      "occurrence": "root/7/2",
+      "handle": "905364aaaeb14f9595539f06e3347e29",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\007.m3d",
+      "sum": [
+        0.6308456664173954,
+        -0.7759083355412428,
+        -1.0346640433311904e-07,
+        0.0,
+        0.7759083355412495,
+        0.6308456664173897,
+        8.412250877137816e-08,
+        0.0,
+        -2.2969016041738267e-14,
+        -1.3334876567713156e-07,
+        0.9999999999999911,
+        0.0,
+        -57.026229294683915,
+        816.2260105639738,
+        184.09807789791802,
+        1.0
+      ],
+      "relative_to_gripper": [
+        0.1803038639833492,
+        -0.31981050308685627,
+        0.9301675971286066,
+        0.0,
+        0.07322615916256744,
+        0.9474062884325811,
+        0.3115433424945869,
+        0.0,
+        -0.9808814639124203,
+        0.011940132065140299,
+        0.19423950936741669,
+        0.0,
+        352.2731423780071,
+        115.91673109921007,
+        -152.55099362307044,
+        1.0
+      ]
+    },
+    {
+      "occurrence": "root/7/3",
+      "handle": "347018618251453fa66c356a6dfba72e",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\013.m3d",
+      "sum": [
+        -0.6308456664173955,
+        0.7759083355412426,
+        1.0346640413882999e-07,
+        0.0,
+        -0.7759083355412495,
+        -0.6308456664173899,
+        -8.412250872974482e-08,
+        0.0,
+        -2.3059278757803662e-14,
+        -1.3334876550011687e-07,
+        0.9999999999999911,
+        0.0,
+        227.62218152309526,
+        789.8945694879894,
+        194.09807438665945,
+        1.0
+      ],
+      "relative_to_gripper": [
+        -0.18030386398334902,
+        0.3198105030868562,
+        -0.9301675971286067,
+        0.0,
+        -0.07322615916256747,
+        -0.9474062884325812,
+        -0.3115433424945868,
+        0.0,
+        -0.9808814639124203,
+        0.011940132065140384,
+        0.19423950936741655,
+        0.0,
+        393.48154354450713,
+        245.58176621484495,
+        99.05764860084449,
+        1.0
+      ]
+    },
+    {
+      "occurrence": "root/7/4",
+      "handle": "8e3e072d06f84959af5ffa1e6357cba2",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\014.m3d",
+      "sum": [
+        0.7759083355412495,
+        0.6308456664173899,
+        8.412250813993881e-08,
+        0.0,
+        -2.259303855112193e-14,
+        -1.3334876509951685e-07,
+        0.9999999999999911,
+        0.0,
+        0.6308456664173956,
+        -0.7759083355412426,
+        -1.0346640412212672e-07,
+        0.0,
+        -7.070688073204991,
+        761.5202134523666,
+        115.09807060296816,
+        1.0
+      ],
+      "relative_to_gripper": [
+        0.07322615916256801,
+        0.9474062884325812,
+        0.3115433424945865,
+        0.0,
+        -0.9808814639124203,
+        0.011940132065140975,
+        0.19423950936741669,
+        0.0,
+        0.180303863983349,
+        -0.319810503086856,
+        0.9301675971286067,
+        0.0,
+        433.6006156329927,
+        95.46585717971183,
+        -95.8334020580302,
+        1.0
+      ]
+    },
+    {
+      "occurrence": "root/7/5",
+      "handle": "e554c8b540db42fc89d33d120e421a16",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\013.m3d",
+      "sum": [
+        0.6308456664173957,
+        -0.7759083355412426,
+        -1.0346640405556329e-07,
+        0.0,
+        0.7759083355412494,
+        0.63084566641739,
+        8.412250813993882e-08,
+        0.0,
+        -2.2654171790896365e-14,
+        -1.3334876506343298e-07,
+        0.9999999999999913,
+        0.0,
+        -74.88659721307684,
+        844.9303489884978,
+        194.09808172560588,
+        1.0
+      ],
+      "relative_to_gripper": [
+        0.18030386398334894,
+        -0.319810503086856,
+        0.9301675971286067,
+        0.0,
+        0.07322615916256801,
+        0.9474062884325812,
+        0.3115433424945865,
+        0.0,
+        -0.9808814639124203,
+        0.011940132065140984,
+        0.19423950936741666,
+        0.0,
+        336.7283146057015,
+        130.788756694695,
+        -180.48149750932953,
+        1.0
+      ]
+    },
+    {
+      "occurrence": "root/7/6",
+      "handle": "b47a118b87b14138a8c0afad712d43fd",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\007.m3d",
+      "sum": [
+        -0.6308456664173954,
+        0.7759083355412426,
+        1.0346640391678538e-07,
+        0.0,
+        -0.7759083355412496,
+        -0.6308456664173898,
+        -8.412250798728317e-08,
+        0.0,
+        -2.2623272452497002e-14,
+        -1.333487648594519e-07,
+        0.9999999999999911,
+        0.0,
+        209.76181360470292,
+        818.5989105794888,
+        184.09807821434754,
+        1.0
+      ],
+      "relative_to_gripper": [
+        -0.1803038639833488,
+        0.31981050308685627,
+        -0.9301675971286067,
+        0.0,
+        -0.07322615916256821,
+        -0.9474062884325811,
+        -0.3115433424945867,
+        0.0,
+        -0.9808814639124201,
+        0.011940132065141173,
+        0.19423950936741655,
+        0.0,
+        397.55434505045,
+        260.21498916902715,
+        67.24235452723708,
+        1.0
+      ]
+    },
+    {
+      "occurrence": "root/7/7",
+      "handle": "722e7c32ae9842059f651582d0ef2a09",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\014.m3d",
+      "sum": [
+        0.7759083355412495,
+        0.6308456664173899,
+        8.412250813993881e-08,
+        0.0,
+        2.25652829755063e-14,
+        1.333487651411502e-07,
+        -0.9999999999999912,
+        0.0,
+        -0.6308456664173956,
+        0.7759083355412427,
+        1.0346640417193987e-07,
+        0.0,
+        4.624605274972524,
+        747.1355661399945,
+        315.0980686847953,
+        1.0
+      ],
+      "relative_to_gripper": [
+        0.07322615916256801,
+        0.9474062884325812,
+        0.3115433424945865,
+        0.0,
+        0.9808814639124204,
+        -0.011940132065140954,
+        -0.19423950936741674,
+        0.0,
+        -0.18030386398334905,
+        0.319810503086856,
+        -0.9301675971286069,
+        0.0,
+        240.76698920038064,
+        91.92489359004774,
+        -39.74105595594066,
+        1.0
+      ]
+    }
+  ],
+  "reopen_maxdelta": 0.0,
+  "visibility": [
+    {
+      "occurrence": "root/0",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\1_update.m3d",
+      "bodies": [
+        {
+          "id": 2,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 3,
+          "solid": false,
+          "hidden": true
+        }
+      ],
+      "meshes": [
+        {
+          "hidden": false,
+          "valid": true
+        }
+      ]
+    },
+    {
+      "occurrence": "root/1",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\3_update.m3d",
+      "bodies": [
+        {
+          "id": 2,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 3,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 4,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 5,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 6,
+          "solid": false,
+          "hidden": true
+        }
+      ],
+      "meshes": [
+        {
+          "hidden": false,
+          "valid": true
+        }
+      ]
+    },
+    {
+      "occurrence": "root/2",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\14_update.m3d",
+      "bodies": [
+        {
+          "id": 2,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 3,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 4,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 5,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 6,
+          "solid": false,
+          "hidden": true
+        }
+      ],
+      "meshes": [
+        {
+          "hidden": false,
+          "valid": true
+        }
+      ]
+    },
+    {
+      "occurrence": "root/3",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\18_update.m3d",
+      "bodies": [
+        {
+          "id": 2,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 3,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 4,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 5,
+          "solid": false,
+          "hidden": true
+        }
+      ],
+      "meshes": [
+        {
+          "hidden": false,
+          "valid": true
+        }
+      ]
+    },
+    {
+      "occurrence": "root/4",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\23_update.m3d",
+      "bodies": [
+        {
+          "id": 2,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 3,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 4,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 5,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 6,
+          "solid": false,
+          "hidden": true
+        }
+      ],
+      "meshes": [
+        {
+          "hidden": false,
+          "valid": true
+        }
+      ]
+    },
+    {
+      "occurrence": "root/5",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\27_update.m3d",
+      "bodies": [
+        {
+          "id": 2,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 3,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 4,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 5,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 6,
+          "solid": false,
+          "hidden": true
+        }
+      ],
+      "meshes": [
+        {
+          "hidden": false,
+          "valid": true
+        }
+      ]
+    },
+    {
+      "occurrence": "root/6",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\7_update.m3d",
+      "bodies": [
+        {
+          "id": 2,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 3,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 5,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 6,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 7,
+          "solid": false,
+          "hidden": true
+        }
+      ],
+      "meshes": [
+        {
+          "hidden": false,
+          "valid": true
+        }
+      ]
+    },
+    {
+      "occurrence": "root/7/0",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\002.m3d",
+      "bodies": [
+        {
+          "id": 2,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 3,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 4,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 5,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 6,
+          "solid": false,
+          "hidden": true
+        }
+      ],
+      "meshes": [
+        {
+          "hidden": false,
+          "valid": true
+        }
+      ]
+    },
+    {
+      "occurrence": "root/7/1",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\003.m3d",
+      "bodies": [
+        {
+          "id": 2,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 3,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 4,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 5,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 6,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 7,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 8,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 9,
+          "solid": false,
+          "hidden": true
+        }
+      ],
+      "meshes": [
+        {
+          "hidden": false,
+          "valid": true
+        }
+      ]
+    },
+    {
+      "occurrence": "root/7/2",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\007.m3d",
+      "bodies": [
+        {
+          "id": 2,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 3,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 4,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 5,
+          "solid": false,
+          "hidden": true
+        }
+      ],
+      "meshes": [
+        {
+          "hidden": false,
+          "valid": true
+        }
+      ]
+    },
+    {
+      "occurrence": "root/7/3",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\013.m3d",
+      "bodies": [
+        {
+          "id": 2,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 3,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 4,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 5,
+          "solid": false,
+          "hidden": true
+        }
+      ],
+      "meshes": [
+        {
+          "hidden": false,
+          "valid": true
+        }
+      ]
+    },
+    {
+      "occurrence": "root/7/4",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\014.m3d",
+      "bodies": [
+        {
+          "id": 2,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 3,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 4,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 5,
+          "solid": false,
+          "hidden": true
+        }
+      ],
+      "meshes": [
+        {
+          "hidden": false,
+          "valid": true
+        }
+      ]
+    },
+    {
+      "occurrence": "root/7/5",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\013.m3d",
+      "bodies": [
+        {
+          "id": 2,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 3,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 4,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 5,
+          "solid": false,
+          "hidden": true
+        }
+      ],
+      "meshes": [
+        {
+          "hidden": false,
+          "valid": true
+        }
+      ]
+    },
+    {
+      "occurrence": "root/7/6",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\007.m3d",
+      "bodies": [
+        {
+          "id": 2,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 3,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 4,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 5,
+          "solid": false,
+          "hidden": true
+        }
+      ],
+      "meshes": [
+        {
+          "hidden": false,
+          "valid": true
+        }
+      ]
+    },
+    {
+      "occurrence": "root/7/7",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\014.m3d",
+      "bodies": [
+        {
+          "id": 2,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 3,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 4,
+          "solid": false,
+          "hidden": true
+        },
+        {
+          "id": 5,
+          "solid": false,
+          "hidden": true
+        }
+      ],
+      "meshes": [
+        {
+          "hidden": false,
+          "valid": true
+        }
+      ]
+    },
+    {
+      "occurrence": "root/8",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\tube1.m3d",
+      "bodies": [
+        {
+          "id": 1,
+          "solid": true,
+          "hidden": false
+        }
+      ],
+      "meshes": []
+    },
+    {
+      "occurrence": "root/9",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\tube2.m3d",
+      "bodies": [
+        {
+          "id": 1,
+          "solid": true,
+          "hidden": false
+        }
+      ],
+      "meshes": []
+    },
+    {
+      "occurrence": "root/10",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Wrist2-31-R1-frames.m3d",
+      "bodies": [],
+      "meshes": [
+        {
+          "hidden": false,
+          "valid": true
+        }
+      ]
+    },
+    {
+      "occurrence": "root/11",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Wrist3-output-NOMINAL-D57-L12-R1.m3d",
+      "bodies": [
+        {
+          "id": 1,
+          "solid": true,
+          "hidden": false
+        }
+      ],
+      "meshes": []
+    },
+    {
+      "occurrence": "root/12",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Redmi8A-envelope-R1.m3d",
+      "bodies": [
+        {
+          "id": 1,
+          "solid": true,
+          "hidden": false
+        }
+      ],
+      "meshes": []
+    },
+    {
+      "occurrence": "root/13",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Phone-low-arm-NOMINAL-R2.m3d",
+      "bodies": [
+        {
+          "id": 1,
+          "solid": true,
+          "hidden": false
+        }
+      ],
+      "meshes": []
+    },
+    {
+      "occurrence": "root/14",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Phone-backing-post-NOMINAL-R2.m3d",
+      "bodies": [
+        {
+          "id": 2,
+          "solid": true,
+          "hidden": false
+        }
+      ],
+      "meshes": []
+    },
+    {
+      "occurrence": "root/15",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Typing-holder-NOMINAL-R2.m3d",
+      "bodies": [
+        {
+          "id": 3,
+          "solid": true,
+          "hidden": false
+        }
+      ],
+      "meshes": []
+    },
+    {
+      "occurrence": "root/16",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Typing-stylus-NOMINAL-R1.m3d",
+      "bodies": [
+        {
+          "id": 1,
+          "solid": true,
+          "hidden": false
+        }
+      ],
+      "meshes": []
+    }
+  ],
+  "hidden_open_bodies": 68,
+  "all_open_bodies": 68,
+  "visible_meshes": 16,
+  "mates": [
+    {
+      "native_name": "Соосность (3_update  -  1_update)",
+      "type": 4,
+      "reference": 1073745516,
+      "value": 0.0,
+      "valid": true,
+      "objects": [
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\3_update.m3d",
+          "reference": 1073745545
+        },
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\1_update.m3d",
+          "reference": 1073745546
+        }
+      ],
+      "params1": [
+        4,
+        [
+          -1.3724587287985176e-14,
+          23.69693157605192,
+          44.09807911040866,
+          6.123210409872165e-17,
+          1.0000000000000002,
+          9.26442286059391e-23,
+          50.00000040925388,
+          50.00000040925388
+        ]
+      ],
+      "params2": [
+        4,
+        [
+          6.261060173021694e-16,
+          -11.5,
+          44.09807911040864,
+          6.123233995736766e-17,
+          1.0,
+          0.0,
+          43.25000018782788,
+          43.25000018782788
+        ]
+      ]
+    },
+    {
+      "native_name": "На расстоянии (3_update  -  1_update)",
+      "type": 5,
+      "reference": 1073745517,
+      "value": -1.0,
+      "valid": true,
+      "objects": [
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\3_update.m3d",
+          "reference": 1073745547
+        },
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\1_update.m3d",
+          "reference": 1073745548
+        }
+      ],
+      "params1": [
+        3,
+        [
+          5.74710997151308e-07,
+          -7.99999999999984,
+          5.150254511819969e-06,
+          1.6084947596084357e-07,
+          0.9999999999999863,
+          -4.154545319700127e-08,
+          0.0,
+          0.0
+        ]
+      ],
+      "params2": [
+        3,
+        [
+          -5.551115123125783e-16,
+          -8.999999999999998,
+          1.798323214270436e-33,
+          6.123233995736766e-17,
+          1.0,
+          6.123233995736766e-17,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "native_name": "Соосность (3_update  -  7_update)",
+      "type": 4,
+      "reference": 1073745518,
+      "value": 0.0,
+      "valid": true,
+      "objects": [
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\3_update.m3d",
+          "reference": 1073745549
+        },
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\7_update.m3d",
+          "reference": 1073745550
+        }
+      ],
+      "params1": [
+        4,
+        [
+          -61.49999025686774,
+          49.0000120469533,
+          44.09808189257214,
+          0.9999999999999872,
+          -1.608494759608437e-07,
+          0.0,
+          43.25000018726285,
+          43.25000018726285
+        ]
+      ],
+      "params2": [
+        8,
+        [
+          -53.67051584364802,
+          49.00001029138928,
+          44.09808218174739,
+          -0.9999999999999745,
+          2.2422509889541033e-07,
+          -3.693416415978118e-08,
+          49.99999950772114,
+          0.0
+        ]
+      ]
+    },
+    {
+      "native_name": "На расстоянии (3_update  -  7_update)",
+      "type": 5,
+      "reference": 1073745519,
+      "value": -1.0,
+      "valid": true,
+      "objects": [
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\3_update.m3d",
+          "reference": 1073745551
+        },
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\7_update.m3d",
+          "reference": 1073745552
+        }
+      ],
+      "params1": [
+        3,
+        [
+          -63.99999813849238,
+          1.0294366512120167e-05,
+          4.8178908862439584e-06,
+          0.9999999999999872,
+          -1.608494759608437e-07,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "params2": [
+        3,
+        [
+          -64.99999025686748,
+          49.00001502340852,
+          88.19615053793858,
+          -0.9999999999999873,
+          1.6084947596084372e-07,
+          -2.0681866921393237e-17,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "native_name": "Соосность (14_update  -  18_update)",
+      "type": 4,
+      "reference": 1073745520,
+      "value": 0.0,
+      "valid": true,
+      "objects": [
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\14_update.m3d",
+          "reference": 1073745553
+        },
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\18_update.m3d",
+          "reference": 1073745554
+        }
+      ],
+      "params1": [
+        4,
+        [
+          -125.23500330010374,
+          397.00002104003505,
+          44.098072019409805,
+          0.9999999999999897,
+          -1.4465978562339623e-07,
+          -1.0016268879627466e-08,
+          49.99999788396598,
+          49.99999788396598
+        ]
+      ],
+      "params2": [
+        4,
+        [
+          -61.49993517197669,
+          397.00001078828143,
+          44.09807164609233,
+          0.9999999999999873,
+          -1.608494648090081e-07,
+          -8.776705120758668e-15,
+          43.25000346065235,
+          43.25000346065235
+        ]
+      ]
+    },
+    {
+      "native_name": "На расстоянии (18_update  -  14_update)",
+      "type": 5,
+      "reference": 1073745521,
+      "value": -1.0,
+      "valid": true,
+      "objects": [
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\18_update.m3d",
+          "reference": 1073745555
+        },
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\14_update.m3d",
+          "reference": 1073745556
+        }
+      ],
+      "params1": [
+        3,
+        [
+          -63.99999902921449,
+          1.1702069211905625e-05,
+          -6.832662933332786e-06,
+          0.9999999999999873,
+          -1.608494648090081e-07,
+          -8.776705120758668e-15,
+          0.0,
+          0.0
+        ]
+      ],
+      "params2": [
+        3,
+        [
+          -64.99999902921411,
+          1.6141260361977807e-05,
+          -8.303935653373603e-06,
+          0.9999999999999872,
+          -1.6084946480905898e-07,
+          -8.81946846058669e-15,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "native_name": "Соосность (23_update  -  27_update)",
+      "type": 4,
+      "reference": 1073745522,
+      "value": 0.0,
+      "valid": true,
+      "objects": [
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\23_update.m3d",
+          "reference": 1073745557
+        },
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\27_update.m3d",
+          "reference": 1073745558
+        }
+      ],
+      "params1": [
+        4,
+        [
+          -37.46207902144132,
+          719.0000056088279,
+          44.09807129908303,
+          -0.9999999999999957,
+          -4.8164392019617e-08,
+          8.37896094977514e-08,
+          34.999998704437466,
+          34.999998704437466
+        ]
+      ],
+      "params2": [
+        4,
+        [
+          32.3901155453011,
+          718.9999943731461,
+          44.098071299083635,
+          -0.9999999999999872,
+          1.608494558291605e-07,
+          -9.546460175429893e-15,
+          29.250002780788076,
+          29.250002780788076
+        ]
+      ]
+    },
+    {
+      "native_name": "На расстоянии (23_update  -  27_update)",
+      "type": 5,
+      "reference": 1073745523,
+      "value": -1.0,
+      "valid": true,
+      "objects": [
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\23_update.m3d",
+          "reference": 1073745559
+        },
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\27_update.m3d",
+          "reference": 1073745560
+        }
+      ],
+      "params1": [
+        3,
+        [
+          29.890000537939564,
+          3.9999955766000173,
+          88.1961429206336,
+          -0.9999999999999872,
+          1.6084945582910692e-07,
+          -9.541975838592972e-15,
+          0.0,
+          0.0
+        ]
+      ],
+      "params2": [
+        3,
+        [
+          30.890000537938903,
+          3.9999890683649535,
+          88.19604937784442,
+          -0.9999999999999872,
+          1.608494558291605e-07,
+          -9.546460175429893e-15,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "native_name": "Зависимое положение (Деталь  -  7_update)",
+      "type": 14,
+      "reference": 1073745524,
+      "value": 0.0,
+      "valid": true,
+      "objects": [
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\tube1.m3d",
+          "reference": 1073745215
+        },
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\7_update.m3d",
+          "reference": 1073745213
+        }
+      ]
+    },
+    {
+      "native_name": "Зависимое положение (Деталь  -  18_update)",
+      "type": 14,
+      "reference": 1073745525,
+      "value": 0.0,
+      "valid": true,
+      "objects": [
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\tube2.m3d",
+          "reference": 1073745216
+        },
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\18_update.m3d",
+          "reference": 1073745210
+        }
+      ]
+    },
+    {
+      "native_name": "Соосность (31_update  -  27_update)",
+      "type": 4,
+      "reference": 1073745526,
+      "value": 0.0,
+      "valid": true,
+      "objects": [
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Wrist2-31-R1-frames.m3d",
+          "reference": 1073745449
+        },
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\27_update.m3d",
+          "reference": 1073745561
+        }
+      ],
+      "params1": [
+        2,
+        [
+          75.89012669734913,
+          772.99998244133,
+          44.0980721337921,
+          2.0404248862541847e-07,
+          0.9999999999999705,
+          1.3334913571836906e-07,
+          0.0,
+          0.0
+        ]
+      ],
+      "params2": [
+        4,
+        [
+          75.89011663818731,
+          723.7006343872133,
+          44.09806555980195,
+          2.0404248869602634e-07,
+          0.9999999999999704,
+          1.3335638641889124e-07,
+          35.00000248040033,
+          35.00000248040033
+        ]
+      ]
+    },
+    {
+      "native_name": "На расстоянии (31_update  -  27_update)",
+      "type": 5,
+      "reference": 1073745527,
+      "value": -1.0,
+      "valid": true,
+      "objects": [
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Wrist2-31-R1-frames.m3d",
+          "reference": 1073745444
+        },
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\27_update.m3d",
+          "reference": 1073745562
+        }
+      ],
+      "params1": [
+        3,
+        [
+          31.862726697353825,
+          773.0000076933848,
+          -77.90192786620699,
+          2.0404248862541847e-07,
+          0.9999999999999705,
+          1.3334913571836906e-07,
+          0.0,
+          0.0
+        ]
+      ],
+      "params2": [
+        3,
+        [
+          -46.10987592967804,
+          772.0000014537571,
+          88.19614596670027,
+          1.60849455829158e-07,
+          0.9999999999999792,
+          1.2576674035232034e-07,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "native_name": "Соосность (Деталь  -  31_update)",
+      "type": 4,
+      "reference": 1073745528,
+      "value": 0.0,
+      "valid": true,
+      "objects": [
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Wrist3-output-NOMINAL-D57-L12-R1.m3d",
+          "reference": 1073745462
+        },
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Wrist2-31-R1-frames.m3d",
+          "reference": 1073745455
+        }
+      ],
+      "params1": [
+        2,
+        [
+          75.89013587926026,
+          817.9999752405076,
+          98.09807813446679,
+          -3.001682059662487e-14,
+          -1.333487669146903e-07,
+          0.9999999999999911,
+          0.0,
+          0.0
+        ]
+      ],
+      "params2": [
+        2,
+        [
+          75.89013587925947,
+          817.9999753738246,
+          97.09807813450271,
+          -3.102327488377696e-14,
+          -1.333491357183655e-07,
+          0.9999999999999911,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "native_name": "На расстоянии (Деталь  -  31_update)",
+      "type": 5,
+      "reference": 1073745529,
+      "value": -1.0,
+      "valid": true,
+      "objects": [
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Wrist3-output-NOMINAL-D57-L12-R1.m3d",
+          "reference": 1073745457
+        },
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Wrist2-31-R1-frames.m3d",
+          "reference": 1073745450
+        }
+      ],
+      "params1": [
+        3,
+        [
+          75.89013587926026,
+          817.9999752405076,
+          98.09807813446679,
+          -3.001682059662487e-14,
+          -1.333487669146903e-07,
+          0.9999999999999911,
+          0.0,
+          0.0
+        ]
+      ],
+      "params2": [
+        3,
+        [
+          31.862569782696198,
+          3.9706843573087114,
+          97.09796958439895,
+          -3.102327488377696e-14,
+          -1.333491357183655e-07,
+          0.9999999999999911,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "native_name": "Зависимое положение (14_update  -  7_update)",
+      "type": 14,
+      "reference": 1073745530,
+      "value": 0.0,
+      "valid": true,
+      "objects": [
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\14_update.m3d",
+          "reference": 1073745209
+        },
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\7_update.m3d",
+          "reference": 1073745213
+        }
+      ]
+    },
+    {
+      "native_name": "Зависимое положение (23_update  -  18_update)",
+      "type": 14,
+      "reference": 1073745531,
+      "value": 0.0,
+      "valid": true,
+      "objects": [
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\23_update.m3d",
+          "reference": 1073745211
+        },
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\18_update.m3d",
+          "reference": 1073745210
+        }
+      ]
+    },
+    {
+      "native_name": "Зависимое положение (Сборка  -  Деталь)",
+      "type": 14,
+      "reference": 1073745532,
+      "value": 0.0,
+      "valid": true,
+      "objects": [
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\gripper20.a3d",
+          "reference": 1073745214
+        },
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Wrist3-output-NOMINAL-D57-L12-R1.m3d",
+          "reference": 1073745218
+        }
+      ]
+    },
+    {
+      "native_name": "Под углом (3_update  -  1_update  -  1_update)",
+      "type": 6,
+      "reference": 1073745533,
+      "value": 90.0,
+      "valid": true,
+      "objects": [
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\3_update.m3d",
+          "reference": 1073745249
+        },
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\1_update.m3d",
+          "reference": 1073745234
+        }
+      ],
+      "params1": [
+        3,
+        [
+          1.8615068048380565e-06,
+          5.062616992290714e-14,
+          4.8178908862439584e-06,
+          -0.9999999999999872,
+          1.608494759608437e-07,
+          6.123233995736761e-17,
+          0.0,
+          0.0
+        ]
+      ],
+      "params2": [
+        3,
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "native_name": "Под углом (7_update  -  3_update  -  3_update)",
+      "type": 6,
+      "reference": 1073745534,
+      "value": 90.0,
+      "valid": true,
+      "objects": [
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\7_update.m3d",
+          "reference": 1073745313
+        },
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\3_update.m3d",
+          "reference": 1073745247
+        }
+      ],
+      "params1": [
+        3,
+        [
+          -72.99999025686738,
+          49.00001631020433,
+          88.19615053793858,
+          1.6084947596084364e-07,
+          0.9999999999999873,
+          1.2674647462903187e-08,
+          0.0,
+          0.0
+        ]
+      ],
+      "params2": [
+        3,
+        [
+          1.8615068048380565e-06,
+          5.062616992290714e-14,
+          4.8178908862439584e-06,
+          6.6825643752934116e-15,
+          4.154545319700073e-08,
+          0.9999999999999991,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "native_name": "Под углом (18_update  -  14_update  -  14_update)",
+      "type": 6,
+      "reference": 1073745535,
+      "value": 90.0,
+      "valid": true,
+      "objects": [
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\18_update.m3d",
+          "reference": 1073745273
+        },
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\14_update.m3d",
+          "reference": 1073745260
+        }
+      ],
+      "params1": [
+        3,
+        [
+          9.707846969631007e-07,
+          1.4077034641291064e-06,
+          -6.832663495041913e-06,
+          1.608494648090082e-07,
+          0.9999999999999875,
+          1.160275445738844e-08,
+          0.0,
+          0.0
+        ]
+      ],
+      "params2": [
+        3,
+        [
+          9.707850665563456e-07,
+          5.686045149388974e-06,
+          -8.303936226639053e-06,
+          6.780758763687507e-15,
+          -1.2674643791010448e-08,
+          0.9999999999999999,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "native_name": "Под углом (27_update  -  23_update  -  23_update)",
+      "type": 6,
+      "reference": 1073745536,
+      "value": 90.0,
+      "valid": true,
+      "objects": [
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\27_update.m3d",
+          "reference": 1073745299
+        },
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\23_update.m3d",
+          "reference": 1073745285
+        }
+      ],
+      "params1": [
+        3,
+        [
+          -46.10999946206012,
+          4.000001453773052,
+          88.19604937784368,
+          1.60849455829158e-07,
+          0.9999999999999792,
+          1.25766740291088e-07,
+          0.0,
+          0.0
+        ]
+      ],
+      "params2": [
+        3,
+        [
+          -46.10999946205947,
+          4.00000780115866,
+          88.19614292063288,
+          1.1408271010703051e-14,
+          1.1602744702521317e-08,
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "native_name": "Под углом (31_update  -  27_update  -  27_update)",
+      "type": 6,
+      "reference": 1073745537,
+      "value": 90.0,
+      "valid": true,
+      "objects": [
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Wrist2-31-R1-frames.m3d",
+          "reference": 1073745436
+        },
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\27_update.m3d",
+          "reference": 1073745298
+        }
+      ],
+      "params1": [
+        3,
+        [
+          31.862569782701627,
+          3.970707693407462,
+          -77.90203041559948,
+          0.9999999999999793,
+          -2.0404248862542077e-07,
+          3.903121256442475e-15,
+          0.0,
+          0.0
+        ]
+      ],
+      "params2": [
+        3,
+        [
+          -46.10999946206012,
+          4.000001453773052,
+          88.19604937784368,
+          2.977597191155599e-14,
+          1.2576674035231716e-07,
+          -0.999999999999992,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "native_name": "Под углом (Деталь  -  31_update  -  31_update)",
+      "type": 6,
+      "reference": 1073745538,
+      "value": 90.0,
+      "valid": true,
+      "objects": [
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Wrist3-output-NOMINAL-D57-L12-R1.m3d",
+          "reference": 1073745459
+        },
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Wrist2-31-R1-frames.m3d",
+          "reference": 1073745436
+        }
+      ],
+      "params1": [
+        3,
+        [
+          75.89013587926026,
+          817.9999752405076,
+          98.09807813446679,
+          -2.0404249049167962e-07,
+          -0.9999999999999705,
+          -1.3334876685346135e-07,
+          0.0,
+          0.0
+        ]
+      ],
+      "params2": [
+        3,
+        [
+          31.862569782701627,
+          3.970707693407462,
+          -77.90203041559948,
+          0.9999999999999793,
+          -2.0404248862542077e-07,
+          3.903121256442475e-15,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "native_name": "Зависимое положение (Деталь  -  Деталь)",
+      "type": 14,
+      "reference": 1073745539,
+      "value": 0.0,
+      "valid": true,
+      "objects": [
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Redmi8A-envelope-R1.m3d",
+          "reference": 1073745219
+        },
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Wrist3-output-NOMINAL-D57-L12-R1.m3d",
+          "reference": 1073745218
+        }
+      ]
+    },
+    {
+      "native_name": "Зависимое положение (Деталь  -  Деталь)",
+      "type": 14,
+      "reference": 1073745540,
+      "value": 0.0,
+      "valid": true,
+      "objects": [
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Phone-low-arm-NOMINAL-R2.m3d",
+          "reference": 1073745220
+        },
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Wrist3-output-NOMINAL-D57-L12-R1.m3d",
+          "reference": 1073745218
+        }
+      ]
+    },
+    {
+      "native_name": "Зависимое положение (Деталь  -  Деталь)",
+      "type": 14,
+      "reference": 1073745541,
+      "value": 0.0,
+      "valid": true,
+      "objects": [
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Phone-backing-post-NOMINAL-R2.m3d",
+          "reference": 1073745221
+        },
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Wrist3-output-NOMINAL-D57-L12-R1.m3d",
+          "reference": 1073745218
+        }
+      ]
+    },
+    {
+      "native_name": "Зависимое положение (Деталь  -  Деталь)",
+      "type": 14,
+      "reference": 1073745542,
+      "value": 0.0,
+      "valid": true,
+      "objects": [
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Typing-holder-NOMINAL-R2.m3d",
+          "reference": 1073745222
+        },
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Wrist3-output-NOMINAL-D57-L12-R1.m3d",
+          "reference": 1073745218
+        }
+      ]
+    },
+    {
+      "native_name": "Зависимое положение (Деталь  -  Деталь)",
+      "type": 14,
+      "reference": 1073745543,
+      "value": 0.0,
+      "valid": true,
+      "objects": [
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Typing-stylus-NOMINAL-R1.m3d",
+          "reference": 1073745223
+        },
+        {
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Wrist3-output-NOMINAL-D57-L12-R1.m3d",
+          "reference": 1073745218
+        }
+      ]
+    }
+  ],
+  "camera_basis_world": [
+    [
+      true,
+      135.89015526329467,
+      912.9999585441074,
+      131.49809080260013
+    ],
+    [
+      true,
+      135.8901554308092,
+      913.8209371621826,
+      132.0690497404085
+    ],
+    [
+      true,
+      134.89060647643777,
+      913.0171085877683,
+      131.47343114535795
+    ],
+    [
+      true,
+      135.86011824125774,
+      912.4292572346068,
+      132.31869898720558
+    ]
+  ],
+  "camera_basis_output": [
+    [
+      true,
+      95.00000000000074,
+      -60.00000000000004,
+      33.40000000000063
+    ],
+    [
+      true,
+      95.82097869421266,
+      -60.00000000000004,
+      33.9709588283325
+    ],
+    [
+      true,
+      95.01714983642289,
+      -59.00045120964381,
+      33.37534034047152
+    ],
+    [
+      true,
+      94.42929879379841,
+      -59.969963094410446,
+      34.22060826070839
+    ]
+  ],
+  "tcp_world": [
+    true,
+    130.89013587925334,
+    817.9999377177793,
+    268.09807969996353
+  ],
+  "tcp_output": [
+    true,
+    -3.6311007717282766e-06,
+    -55.00000000000007,
+    170.0000015654986
+  ],
+  "basis_checks": {
+    "7_update.m3d": [
+      [
+        true,
+        -72.99999025686738,
+        49.00001631020433,
+        88.19615053793858
+      ],
+      [
+        true,
+        -72.99999041771686,
+        48.000016310204344,
+        88.19615052526393
+      ],
+      [
+        true,
+        -73.99999025686736,
+        49.000016471053804,
+        88.19615053793858
+      ],
+      [
+        true,
+        -72.99999025686738,
+        49.00001632287898,
+        87.19615053793858
+      ]
+    ],
+    "Wrist2-31-R1-frames.m3d": [
+      [
+        true,
+        31.862569782701627,
+        3.970707693407462,
+        -77.90203041559948
+      ],
+      [
+        true,
+        31.86256978270166,
+        3.970707826756598,
+        -78.90203041559947
+      ],
+      [
+        true,
+        31.862569986744116,
+        4.970707693407433,
+        -77.90203028225035
+      ],
+      [
+        true,
+        32.862569782701605,
+        3.9707074893649734,
+        -77.90203041559948
+      ]
+    ],
+    "Wrist3-output-NOMINAL-D57-L12-R1.m3d": [
+      [
+        true,
+        75.89013587926026,
+        817.9999752405076,
+        98.09807813446679
+      ],
+      [
+        true,
+        75.89013608330275,
+        818.9999752405076,
+        98.09807826781555
+      ],
+      [
+        true,
+        74.89013587926027,
+        817.9999754445502,
+        98.09807813446679
+      ],
+      [
+        true,
+        75.89013587926023,
+        817.9999751071589,
+        99.09807813446677
+      ]
+    ],
+    "Redmi8A-envelope-R1.m3d": [
+      [
+        true,
+        76.1995760590269,
+        919.3935534730676,
+        122.30479443277653
+      ],
+      [
+        true,
+        76.19957622654141,
+        920.2145320911429,
+        122.87575337058489
+      ],
+      [
+        true,
+        75.20002727216998,
+        919.4107035167285,
+        122.28013477553432
+      ],
+      [
+        true,
+        76.16953903698997,
+        918.8228521635671,
+        123.12540261738198
+      ]
+    ],
+    "Typing-stylus-NOMINAL-R1.m3d": [
+      [
+        true,
+        130.8901358792553,
+        817.9999466913213,
+        208.09807969996422
+      ],
+      [
+        true,
+        130.89013587925527,
+        817.9999465417623,
+        209.09807969996422
+      ],
+      [
+        true,
+        130.8901360832978,
+        818.9999466913213,
+        208.09807984952326
+      ],
+      [
+        true,
+        129.89013587925533,
+        817.9999468953638,
+        208.09807969996422
+      ]
+    ]
+  },
+  "flange_export": {
+    "path": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\Wrist3-output-NOMINAL-D57-L12-R1.stl",
+    "bytes": 7284
+  },
+  "gripper_own_context_mates": [
+    {
+      "name": "Соосность (003  -  002)",
+      "type": 4,
+      "valid": true
+    },
+    {
+      "name": "Параллельность (002  -  003)",
+      "type": 1,
+      "valid": true
+    },
+    {
+      "name": "Совпадение (003  -  002)",
+      "type": 0,
+      "valid": true
+    },
+    {
+      "name": "На расстоянии (003  -  002)",
+      "type": 5,
+      "valid": true
+    },
+    {
+      "name": "На расстоянии (003  -  002)",
+      "type": 5,
+      "valid": true
+    },
+    {
+      "name": "Совпадение (013 (1)  -  007 (1))",
+      "type": 0,
+      "valid": true
+    },
+    {
+      "name": "На расстоянии (013 (1)  -  007 (1))",
+      "type": 5,
+      "valid": true
+    },
+    {
+      "name": "На расстоянии (013 (1)  -  007 (1))",
+      "type": 5,
+      "valid": true
+    },
+    {
+      "name": "Параллельность (013 (1)  -  003)",
+      "type": 1,
+      "valid": true
+    },
+    {
+      "name": "Параллельность (007 (1)  -  003)",
+      "type": 1,
+      "valid": true
+    },
+    {
+      "name": "На расстоянии (013 (1)  -  003)",
+      "type": 5,
+      "valid": true
+    },
+    {
+      "name": "На расстоянии (003  -  007 (1))",
+      "type": 5,
+      "valid": true
+    },
+    {
+      "name": "Совпадение (013 (2)  -  007 (2))",
+      "type": 0,
+      "valid": true
+    },
+    {
+      "name": "На расстоянии (013 (2)  -  007 (2))",
+      "type": 5,
+      "valid": true
+    },
+    {
+      "name": "На расстоянии (013 (2)  -  007 (2))",
+      "type": 5,
+      "valid": true
+    },
+    {
+      "name": "Параллельность (013 (2)  -  013 (1))",
+      "type": 1,
+      "valid": true
+    },
+    {
+      "name": "Параллельность (013 (2)  -  013 (1))",
+      "type": 1,
+      "valid": true
+    },
+    {
+      "name": "Совпадение (007 (2)  -  007 (1))",
+      "type": 0,
+      "valid": true
+    },
+    {
+      "name": "На расстоянии (013 (2)  -  013 (1))",
+      "type": 5,
+      "valid": true
+    },
+    {
+      "name": "Совпадение (014 (1)  -  013 (2))",
+      "type": 0,
+      "valid": true
+    },
+    {
+      "name": "Совпадение (014 (1)  -  013 (2))",
+      "type": 0,
+      "valid": true
+    },
+    {
+      "name": "На расстоянии (014 (1)  -  013 (2))",
+      "type": 5,
+      "valid": true
+    },
+    {
+      "name": "Совпадение (014 (2)  -  013 (1))",
+      "type": 0,
+      "valid": true
+    },
+    {
+      "name": "Совпадение (014 (2)  -  014 (1))",
+      "type": 0,
+      "valid": true
+    },
+    {
+      "name": "Совпадение (014 (2)  -  014 (1))",
+      "type": 0,
+      "valid": true
+    }
+  ],
+  "preview": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\EB300-R7-clean-native.png",
+  "final_document": {
+    "path": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\EB300-R7-prepared.a3d",
+    "read_only": false,
+    "changed": false,
+    "active": true
+  },
+  "checkpoint": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\EB300-R7-prepared.a3d",
+  "status": "R7 final editable assembly reopened;68helpers hidden/16meshes visible,28+25mates valid",
+  "_public_summary": {
+    "omitted": "calls: full SDK/tool response logs retained in local pre-publication archive",
+    "original_sha256": "a6cdec9d7451249266512277351f3ee2d16c7f2e9c682933514698c53001db61",
+    "archive": "RoboHand-Simulator-prepublish-2026-11-15.zip",
+    "archive_member": "RoboHand.Simulator/docs/cad-reviews/2026-11-14-cad2/r7-final-native-readback.json"
+  }
+}

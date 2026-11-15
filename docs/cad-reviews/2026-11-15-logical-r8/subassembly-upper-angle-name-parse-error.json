@@ -1,0 +1,546 @@
+{
+  "scope": "upper subassembly persisted poses/own mates/J1J2 driving smoke",
+  "frozen_before": [
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\002.m3d",
+      "bytes": 368034,
+      "sha256": "28e87ef3caa028fa2a53d4c193d6854b8aecdf7a7f51d2950683cf8270e7a501"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\003.m3d",
+      "bytes": 132394,
+      "sha256": "9667f180d44c347506024f0da51be181be5154e10220eb281e259f7e6334f216"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\007.m3d",
+      "bytes": 59740,
+      "sha256": "85ede53dc9428e2221f613ad16032fae4e5f9bcbff06e672a4b8e4ab3f5382d8"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\013.m3d",
+      "bytes": 215150,
+      "sha256": "23922a0a5cbdd84df86a4b89a3871f1e9310384985a5ca522a45429859509cb8"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\014.m3d",
+      "bytes": 113967,
+      "sha256": "f578b668e52066133d02760873836738307dba1bb3e3fbab5af536d0d1b159e8"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\gripper20.a3d",
+      "bytes": 47888,
+      "sha256": "c6bf120aff2f1f87da3bdbed2245e2ddf6825112ad7411c93d2d068b9e21e9ec"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\14_update.m3d",
+      "bytes": 184526,
+      "sha256": "29318fe8515d5967f7767418473675ba39902dbdf600f132b2c0af5e06f7895b"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\18_update.m3d",
+      "bytes": 288908,
+      "sha256": "009abb22380fc3a52db34a0a038455ebbf8f6965f6aa639e0c0ed9809d77fe5d"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\1_update.m3d",
+      "bytes": 196139,
+      "sha256": "e55c80e519943e938a772b8bcf524be5ec96d3497bbd327e6d44d4b3914d11bc"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\23_update.m3d",
+      "bytes": 167127,
+      "sha256": "2d7addbca323938e91e1528fbdec11d32e2a5ad633f3e939cd111ed365506c65"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\27_update.m3d",
+      "bytes": 167585,
+      "sha256": "387f03a9c137700cc2cffd54838e12a90affabf1899ae47a0cf97f1e8e9aa57a"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\3_update.m3d",
+      "bytes": 206181,
+      "sha256": "fffceb6857e187dfb47e6510354f90ae3427e59aa4cc83f197ffb4671d75ffb2"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\7_update.m3d",
+      "bytes": 209311,
+      "sha256": "47320b0e314b861db3034a153a0b88d7f5f080eb684b317be155eb14f82d0285"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\tube1.m3d",
+      "bytes": 62364,
+      "sha256": "1396c91f30fe77d4628d1f2cac666aaefdb4be438a65eed36a656944a3f9bed8"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\tube2.m3d",
+      "bytes": 59151,
+      "sha256": "ebb7a0036f468326f30c23a21dfa4b6aab9862fa47451f1a21711b3ab6f8f259"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\EB300-R7-prepared.a3d",
+      "bytes": 70387,
+      "sha256": "5d23a54572186d7eba37a44ecb15b9edc62c220ddd9bcc09c1e4718ccbdd9a1c"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Phone-backing-post-NOMINAL-R2.m3d",
+      "bytes": 37039,
+      "sha256": "ee2d6b03a2f88e83c2443b20ffd2229fb97ea537866b60e629d187194374a947"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Phone-low-arm-NOMINAL-R2.m3d",
+      "bytes": 34760,
+      "sha256": "c9d66f14d5a03bdaa0f8a91e8f201531061ab9acd2c36845703159cc53d47f48"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Redmi8A-envelope-R1.m3d",
+      "bytes": 30453,
+      "sha256": "0380ab0f361e6a21ae31e5ff95435ac5aa02316684df4609f25ae892979d444c"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Typing-holder-NOMINAL-R2.m3d",
+      "bytes": 60084,
+      "sha256": "6235030286c4405ed96438c05bac34d02217ef6c509a8e6351c1c88a2f8cd5ca"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Typing-stylus-NOMINAL-R1.m3d",
+      "bytes": 48044,
+      "sha256": "971217c8f4bca3cacca6b9a37246d89998740cb995734c00c3d243b163a06064"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Wrist2-31-R1-frames.m3d",
+      "bytes": 159864,
+      "sha256": "29b88c645399f74f86bb80aae37e396cb00ae5eb0fd33b0afa32d5c643322c39"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Wrist3-output-NOMINAL-D57-L12-R1.m3d",
+      "bytes": 52075,
+      "sha256": "3d4b6f7a90938fc43b704fe4e6f2eb3bd9a9273ac58161feae661c4a61b78fe1"
+    }
+  ],
+  "initial_rebuild": true,
+  "before_smoke": [
+    {
+      "handle": "2c4ff027fa084014baba5ec92ab76b7b",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\1_update.m3d",
+      "sum": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "fixed": true
+    },
+    {
+      "handle": "928f49f01eab431e8aba1156a01fcf16",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\3_update.m3d",
+      "sum": [
+        1.0000000000000004,
+        1.2932246082065026e-23,
+        -2.9700160938054658e-21,
+        0.0,
+        1.2932369881918651e-23,
+        1.0000000000000002,
+        6.123232939436859e-17,
+        0.0,
+        2.9700160945943267e-21,
+        -6.123234262925839e-17,
+        1.0,
+        0.0,
+        5.6731458472660996e-06,
+        7.638334409421077e-14,
+        3.833391136964792e-06,
+        1.0
+      ],
+      "fixed": false
+    },
+    {
+      "handle": "0fce3412cf664818801ae36c56b4317c",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\18_update.m3d",
+      "sum": [
+        1.0000000000000002,
+        1.1151784400373171e-14,
+        -8.840153451198347e-15,
+        0.0,
+        -1.1151784531665964e-14,
+        1.0000000000000007,
+        -3.4403586534391116e-09,
+        0.0,
+        8.840153430544725e-15,
+        3.4403586534391083e-09,
+        1.0000000000000002,
+        0.0,
+        4.7824232233262265e-06,
+        -1.0877428078814866e-06,
+        -5.0440239933116205e-06,
+        1.0
+      ],
+      "fixed": false
+    },
+    {
+      "handle": "8eb31531d3784e2fbdef5cce76236759",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\23_update.m3d",
+      "sum": [
+        -1.0000000000000002,
+        -2.013168583436212e-14,
+        -9.478527371573952e-15,
+        0.0,
+        -2.0131685901843162e-14,
+        1.0000000000000007,
+        -3.4403683331931595e-09,
+        0.0,
+        9.478527423121852e-15,
+        -3.4403683331931546e-09,
+        -1.0000000000000002,
+        0.0,
+        -46.10999629381913,
+        3.999999215688062,
+        88.19614464909935,
+        1.0
+      ],
+      "fixed": false
+    },
+    {
+      "handle": "59ae05c59a194940850d2f61ad7f6441",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\27_update.m3d",
+      "sum": [
+        -1.0000000000000002,
+        -2.013168718887598e-14,
+        -9.47852737867138e-15,
+        0.0,
+        -2.01316860784986e-14,
+        0.9999999999999929,
+        -1.2081729934547188e-07,
+        0.0,
+        9.478528305113666e-15,
+        -1.2081729934547183e-07,
+        -0.9999999999999927,
+        0.0,
+        -46.109996293819115,
+        4.0000030788039,
+        88.19621665807281,
+        1.0
+      ],
+      "fixed": false
+    },
+    {
+      "handle": "af53f795ebe34982af7ce72952441a74",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\gripper20.a3d",
+      "sum": [
+        0.17056071357855468,
+        -0.09370494944723677,
+        -0.9808814533024186,
+        0.0,
+        0.5333492303436956,
+        0.8458108736739192,
+        0.01194003629595083,
+        0.0,
+        0.8285213584907521,
+        -0.5251888692880419,
+        0.1942395688334031,
+        0.0,
+        -52.54265815115534,
+        671.0740556239806,
+        557.8836260018245,
+        1.0
+      ],
+      "fixed": false
+    },
+    {
+      "handle": "e63029a8750743b08025dacfc9067a14",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\tube2.m3d",
+      "sum": [
+        -2.0101584997875704e-14,
+        1.0000000000000007,
+        -3.4403638140663633e-09,
+        0.0,
+        -0.9402858683921559,
+        -1.1710698542972464e-09,
+        -0.3403857895124436,
+        0.0,
+        -0.34038578951244364,
+        3.2349186342004866e-09,
+        0.9402858683921559,
+        0.0,
+        -23.10999519055355,
+        453.99999906397954,
+        44.0980741061595,
+        1.0
+      ],
+      "fixed": false
+    },
+    {
+      "handle": "dc2d331cafdc4417aba52400933cb039",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Wrist2-31-R1-frames.m3d",
+      "sum": [
+        7.28507665177294e-14,
+        -1.1322770439069504e-07,
+        -0.9999999999999938,
+        0.0,
+        4.3193012740903834e-08,
+        0.9999999999999928,
+        -1.132277043906918e-07,
+        0.0,
+        0.9999999999999991,
+        -4.3193012740895324e-08,
+        7.768589861033647e-14,
+        0.0,
+        31.86257295565828,
+        3.970680904033088,
+        -77.90186313333876,
+        1.0
+      ],
+      "fixed": false
+    },
+    {
+      "handle": "35ed41aeb1164a5db7331fa8f3a91fa8",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Wrist3-output-NOMINAL-D57-L12-R1.m3d",
+      "sum": [
+        4.3193012756460355e-08,
+        0.9999999999999926,
+        -1.1322770439069177e-07,
+        0.0,
+        -0.999999999999999,
+        4.319301275645182e-08,
+        -7.774141219785591e-14,
+        0.0,
+        -7.28507665177294e-14,
+        1.1322770439069506e-07,
+        0.9999999999999936,
+        0.0,
+        75.89000811602334,
+        817.9999989304273,
+        98.09804469599462,
+        1.0
+      ],
+      "fixed": false
+    },
+    {
+      "handle": "75f0a40d5d2e4e8cb80d769cf9cde258",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Redmi8A-envelope-R1.m3d",
+      "sum": [
+        3.546050134596993e-08,
+        0.820978758860269,
+        0.5709587353743273,
+        0.0,
+        -0.9995487896154739,
+        0.017149876803517195,
+        -0.024659661471027477,
+        0.0,
+        -0.03003693023996022,
+        -0.5707011119893464,
+        0.8206083253269391,
+        0.0,
+        76.19943198668429,
+        919.3935831815619,
+        122.30473599303244,
+        1.0
+      ],
+      "fixed": false
+    },
+    {
+      "handle": "30ca6c642d2f4681af03365e95b18f04",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Phone-low-arm-NOMINAL-R2.m3d",
+      "sum": [
+        4.3193012756460355e-08,
+        0.9999999999999926,
+        -1.1322770439069177e-07,
+        0.0,
+        -0.999999999999999,
+        4.319301275645182e-08,
+        -7.774141219785591e-14,
+        0.0,
+        -7.28507665177294e-14,
+        1.1322770439069506e-07,
+        0.9999999999999936,
+        0.0,
+        75.89000811602332,
+        817.9999989304273,
+        98.09804469599467,
+        1.0
+      ],
+      "fixed": false
+    },
+    {
+      "handle": "56c25ba2861843469238ac39da73c9c8",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Phone-backing-post-NOMINAL-R2.m3d",
+      "sum": [
+        3.546050134596993e-08,
+        0.820978758860269,
+        0.5709587353743273,
+        0.0,
+        -0.9995487896154739,
+        0.017149876803517195,
+        -0.024659661471027477,
+        0.0,
+        -0.03003693023996022,
+        -0.5707011119893464,
+        0.8206083253269391,
+        0.0,
+        76.19943198668432,
+        919.3935831815622,
+        122.3047359930327,
+        1.0
+      ],
+      "fixed": false
+    },
+    {
+      "handle": "a852e315f2bb4fc18655e59ef8b5d5cd",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Typing-holder-NOMINAL-R2.m3d",
+      "sum": [
+        -2.8857915795986866e-07,
+        0.9999999999999559,
+        -6.923033890625061e-08,
+        0.0,
+        -0.9999999999999497,
+        -2.885791489086928e-07,
+        1.3073999398503962e-07,
+        0.0,
+        1.3073997400660157e-07,
+        6.92303766350845e-08,
+        0.999999999999989,
+        0.0,
+        75.88977623402398,
+        818.0000371448848,
+        98.09799730957798,
+        1.0
+      ],
+      "fixed": false
+    },
+    {
+      "handle": "84c86cb228e642dab07d3782ab6830c9",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Typing-stylus-NOMINAL-R1.m3d",
+      "sum": [
+        -7.308751729964931e-14,
+        9.701743895517097e-08,
+        0.9999999999999953,
+        0.0,
+        4.319301275945431e-08,
+        0.9999999999999946,
+        -9.701743895516782e-08,
+        0.0,
+        -0.9999999999999992,
+        4.319301275944699e-08,
+        -7.727799277832422e-14,
+        0.0,
+        130.89000811601503,
+        818.0000063513753,
+        208.098046261496,
+        1.0
+      ],
+      "fixed": false
+    },
+    {
+      "handle": "3bb39e7367154121aef0901f4e5905f9",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\EB300-R8-upper-rigid-smoke.a3d",
+      "sum": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "fixed": false
+    },
+    {
+      "handle": "7265a68d751b496f90c9d95dda811826",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\14_update.m3d",
+      "sum": [
+        0.9999999999999999,
+        1.1151784496155501e-14,
+        -8.840153469030669e-15,
+        0.0,
+        -1.1151784532139952e-14,
+        1.0,
+        -3.4403587637053826e-09,
+        0.0,
+        8.840154556019304e-15,
+        3.440358763705396e-09,
+        1.0000000000000002,
+        0.0,
+        4.782423218330223e-06,
+        3.1433285698767577e-06,
+        -6.463073589202395e-06,
+        1.0
+      ],
+      "fixed": false
+    },
+    {
+      "handle": "121b036b730145ea9cd38df849135616",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\7_update.m3d",
+      "sum": [
+        -2.6218751225734964e-25,
+        -1.0,
+        3.4403550305790395e-09,
+        0.0,
+        -0.9999999999999999,
+        -3.3328876483507875e-25,
+        2.9618115451718538e-21,
+        0.0,
+        -4.087166321356365e-21,
+        -3.4403550305790544e-09,
+        -1.0000000000000002,
+        0.0,
+        -72.99999432685416,
+        49.00000344675846,
+        88.19615158916591,
+        1.0
+      ],
+      "fixed": false
+    },
+    {
+      "handle": "4cddd7b9a4de4ba6a4df825565809c41",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\tube1.m3d",
+      "sum": [
+        2.814410063143127e-15,
+        1.0,
+        -3.4403594855197105e-09,
+        0.0,
+        0.1169476717771135,
+        -3.4167523363768396e-09,
+        -0.9931380780465088,
+        0.0,
+        -0.9931380780465086,
+        -4.0233923681001395e-10,
+        -0.1169476717771135,
+        0.0,
+        -121.99999464949121,
+        113.00000329504721,
+        44.098072258572955,
+        1.0
+      ],
+      "fixed": false
+    }
+  ],
+  "smoke": [],
+  "error": "ExceptionGroup('unhandled errors in a TaskGroup', [ExceptionGroup('unhandled errors in a TaskGroup', [KeyError('J1')])])",
+  "trace": "  + Exception Group Traceback (most recent call last):\n  |   File \"<stdin>\", line 45, in <module>\n  |   File \"C:\\Users\\igora\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\runners.py\", line 195, in run\n  |     return runner.run(main)\n  |            ^^^^^^^^^^^^^^^^\n  |   File \"C:\\Users\\igora\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\runners.py\", line 118, in run\n  |     return self._loop.run_until_complete(task)\n  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  |   File \"C:\\Users\\igora\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\base_events.py\", line 691, in run_until_complete\n  |     return future.result()\n  |            ^^^^^^^^^^^^^^^\n  |   File \"<stdin>\", line 11, in main\n  |   File \"C:\\Users\\igora\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\contextlib.py\", line 231, in __aexit__\n  |     await self.gen.athrow(value)\n  |   File \"C:\\Users\\igora\\AppData\\Local\\RoboHand\\tools\\kompas-mcp\\hymaxo-adef44fdc41401af3b239a5c9b1a4e108e1a237a\\.venv\\Lib\\site-packages\\mcp\\client\\stdio\\__init__.py\", line 183, in stdio_client\n  |     anyio.create_task_group() as tg,\n  |     ^^^^^^^^^^^^^^^^^^^^^^^^^\n  |   File \"C:\\Users\\igora\\AppData\\Local\\RoboHand\\tools\\kompas-mcp\\hymaxo-adef44fdc41401af3b239a5c9b1a4e108e1a237a\\.venv\\Lib\\site-packages\\anyio\\_backends\\_asyncio.py\", line 847, in __aexit__\n  |     raise BaseExceptionGroup(\n  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)\n  +-+---------------- 1 ----------------\n    | Exception Group Traceback (most recent call last):\n    |   File \"C:\\Users\\igora\\AppData\\Local\\RoboHand\\tools\\kompas-mcp\\hymaxo-adef44fdc41401af3b239a5c9b1a4e108e1a237a\\.venv\\Lib\\site-packages\\mcp\\client\\stdio\\__init__.py\", line 189, in stdio_client\n    |     yield read_stream, write_stream\n    |   File \"<stdin>\", line 11, in main\n    |   File \"C:\\Users\\igora\\AppData\\Local\\RoboHand\\tools\\kompas-mcp\\hymaxo-adef44fdc41401af3b239a5c9b1a4e108e1a237a\\.venv\\Lib\\site-packages\\mcp\\shared\\session.py\", line 238, in __aexit__\n    |     return await self._task_group.__aexit__(exc_type, exc_val, exc_tb)\n    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    |   File \"C:\\Users\\igora\\AppData\\Local\\RoboHand\\tools\\kompas-mcp\\hymaxo-adef44fdc41401af3b239a5c9b1a4e108e1a237a\\.venv\\Lib\\site-packages\\anyio\\_backends\\_asyncio.py\", line 847, in __aexit__\n    |     raise BaseExceptionGroup(\n    | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)\n    +-+---------------- 1 ----------------\n      | Traceback (most recent call last):\n      |   File \"<stdin>\", line 39, in main\n      | KeyError: 'J1'\n      +------------------------------------\n",
+  "_public_summary": {
+    "omitted": "calls: full SDK/tool response logs retained in local pre-publication archive",
+    "original_sha256": "4dc35a68776efc59c6634e0a497427bd55b6af0b5e9128484514f39b3b44f66e",
+    "archive": "RoboHand-Simulator-prepublish-2026-11-15.zip",
+    "archive_member": "RoboHand.Simulator/docs/cad-reviews/2026-11-15-logical-r8/subassembly-upper-angle-name-parse-error.json"
+  }
+}

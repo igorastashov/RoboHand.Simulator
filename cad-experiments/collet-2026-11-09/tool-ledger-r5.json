@@ -1,0 +1,287 @@
+{
+  "source_sha256": "01f8288424ceedbb228f0259e6538d777c20b0a3aabb234becd7495b2288e905",
+  "upstream_commit": "adef44fdc41401af3b239a5c9b1a4e108e1a237a",
+  "attempt": 5,
+  "verification": {
+    "slots": {
+      "radial_edges_at_x45": [
+        {
+          "entity_id": "ce062c809b3a4ae9b9a1b9d0054e0bdc",
+          "inner": [
+            45.0,
+            5.341553169084557,
+            7.551841480185001
+          ],
+          "outer": [
+            45.0,
+            7.47272867690512,
+            11.243145739576617
+          ],
+          "direction": [
+            0.5000000000000002,
+            0.8660254037844385
+          ],
+          "angle_deg": 59.999999999999986,
+          "offset": -0.8499999999999988
+        },
+        {
+          "entity_id": "5af4d16efb4b4703a490ff5942decacc",
+          "inner": [
+            45.0,
+            -9.210863151735564,
+            -0.8500000000000033
+          ],
+          "outer": [
+            45.0,
+            -13.473214167376693,
+            -0.8500000000000036
+          ],
+          "direction": [
+            -1.0,
+            -7.814159513501451e-17
+          ],
+          "angle_deg": 180.0,
+          "offset": 0.8500000000000026
+        },
+        {
+          "entity_id": "05fab22d0fa94dddbf1179d2a6c465c5",
+          "inner": [
+            45.0,
+            3.8693099826510116,
+            8.401841480184997
+          ],
+          "outer": [
+            45.0,
+            6.0004854904715765,
+            12.093145739576617
+          ],
+          "direction": [
+            0.5000000000000002,
+            0.8660254037844386
+          ],
+          "angle_deg": 59.99999999999999,
+          "offset": 0.8499999999999988
+        },
+        {
+          "entity_id": "5c6c32aee9134bf58130d2dde36fa199",
+          "inner": [
+            45.0,
+            5.341553169084557,
+            -7.551841480184996
+          ],
+          "outer": [
+            45.0,
+            7.472728676905122,
+            -11.243145739576615
+          ],
+          "direction": [
+            0.5000000000000003,
+            -0.8660254037844386
+          ],
+          "angle_deg": 300.0,
+          "offset": 0.8500000000000001
+        },
+        {
+          "entity_id": "8c0bbe30f0f742f895f79caf89517616",
+          "inner": [
+            45.0,
+            3.8693099826510124,
+            -8.401841480184999
+          ],
+          "outer": [
+            45.0,
+            6.000485490471579,
+            -12.093145739576618
+          ],
+          "direction": [
+            0.5000000000000006,
+            -0.8660254037844384
+          ],
+          "angle_deg": 300.0,
+          "offset": -0.8500000000000023
+        },
+        {
+          "entity_id": "4aadd4c6d9fc4f1ea83577f6334b29be",
+          "inner": [
+            45.0,
+            -9.210863151735566,
+            0.8499999999999966
+          ],
+          "outer": [
+            45.0,
+            -13.473214167376693,
+            0.8499999999999963
+          ],
+          "direction": [
+            -1.0,
+            -7.814159513501455e-17
+          ],
+          "angle_deg": 180.0,
+          "offset": -0.8499999999999973
+        }
+      ],
+      "widths_mm": [
+        1.6999999999999975,
+        1.7,
+        1.7000000000000024
+      ],
+      "angles_deg": [
+        59.999999999999986,
+        180.0,
+        300.0
+      ],
+      "angular_gaps_deg": [
+        120.00000000000001,
+        120.0,
+        120.0
+      ],
+      "start_x": 0,
+      "end_x": 45
+    },
+    "volume_error_mm3": 0.3697107660555048,
+    "flats": [
+      {
+        "area_mm2": 123.6931687685297,
+        "planar": true,
+        "cylindrical": false,
+        "bounds_raw": [
+          true,
+          80.0,
+          12.0,
+          -6.184658438426501,
+          90.0,
+          12.0,
+          6.184658438426499
+        ]
+      },
+      {
+        "area_mm2": 123.69316876852963,
+        "planar": true,
+        "cylindrical": false,
+        "bounds_raw": [
+          true,
+          80.0,
+          -12.0,
+          -6.184658438426491,
+          90.0,
+          -12.0,
+          6.184658438426491
+        ]
+      }
+    ],
+    "thread_topology_selection": {
+      "own_bore": {
+        "entity_id": "111c1b4aa5674513895dbdecb2f89959",
+        "name": "",
+        "type": 6,
+        "excluded": false,
+        "hidden": false,
+        "object": {
+          "handle": "755860bae7c247f18087337fdc93771b",
+          "interface": "ksEntity"
+        },
+        "definition": {
+          "handle": "d0873ab305674f90aef6fa6d8ac48ad7",
+          "interface": "ksFaceDefinition"
+        },
+        "geometry": {
+          "area_mm2": 4429.130044193594,
+          "planar": false,
+          "cylindrical": true,
+          "cylinder_raw": [
+            true,
+            79.35837078044787,
+            9.25
+          ],
+          "bounds_raw": [
+            true,
+            9.14162921955213,
+            -9.250000000000002,
+            -9.250000000000002,
+            88.5,
+            9.25,
+            9.25
+          ]
+        }
+      },
+      "own_rear": {
+        "entity_id": "fffd90f39600427a8db0f4f83c2a377e",
+        "name": "",
+        "type": 6,
+        "excluded": false,
+        "hidden": false,
+        "object": {
+          "handle": "92d95cd7c5f444fb8a4f436dc327b9a9",
+          "interface": "ksEntity"
+        },
+        "definition": {
+          "handle": "fa6bee446c5f418880686682fd91f9f8",
+          "interface": "ksFaceDefinition"
+        },
+        "geometry": {
+          "area_mm2": 184.47768260728333,
+          "planar": true,
+          "cylindrical": false,
+          "bounds_raw": [
+            true,
+            90.0,
+            -12.000000000000004,
+            -13.499999999999996,
+            90.0,
+            12.000000000000002,
+            13.499999999999996
+          ]
+        }
+      }
+    },
+    "thread_readback": {
+      "dr": 20.0,
+      "p": 1.5,
+      "length": 50.0,
+      "outside": false,
+      "allLength": false,
+      "autoDefinDr": false,
+      "faceValue": true
+    },
+    "thread_refs": {
+      "GetBaseObject": {
+        "handle": "9e47b030beee47e2a2343cc4ca579e16",
+        "interface": "ksEntity"
+      },
+      "GetFaceBegin": {
+        "handle": "c32c533c7fd343e39a306a23c2070c72",
+        "interface": "ksEntity"
+      }
+    },
+    "final_measurements": {
+      "volume_mm3": 48247.789214051445,
+      "area_mm2": 19183.262040831796,
+      "mass_kg": 0.3787451453303038,
+      "center_mm": [
+        27.98561702488027,
+        0.0,
+        0.0
+      ],
+      "body_count": 1
+    },
+    "final_bounds": [
+      true,
+      -1.6653345369377348e-16,
+      -26.23623448591662,
+      -26.25,
+      90.0,
+      26.25,
+      26.25
+    ]
+  },
+  "scope": "exact own collet only; no attach/close/activation",
+  "own_document_id": "56638d7e56c34375a009fee24fa38633",
+  "status": "solid-and-native-cosmetic-thread-created",
+  "stdio_shutdown": "completed",
+  "_public_summary": {
+    "omitted": "calls: full SDK/tool response logs retained in local pre-publication archive",
+    "original_sha256": "a01695edf19252bbc2a29847db68b3797cb3ad9148b37d3baaea2abb78a3f510",
+    "archive": "RoboHand-Simulator-prepublish-2026-11-15.zip",
+    "archive_member": "RoboHand.Simulator/cad-experiments/collet-2026-11-09/tool-ledger-r5.json"
+  }
+}

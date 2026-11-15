@@ -1,0 +1,1484 @@
+{
+  "scope": "read-only native auxiliary body inventory and collision object detail in own assembly context",
+  "components": [
+    {
+      "occurrence": "root/0",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\1_update.m3d",
+      "bodies": [
+        {
+          "name": "Поверхность 1",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 2,
+          "bounds_raw": [
+            true,
+            -61.78748421669006,
+            -9.000000000000007,
+            -18.17278485298157,
+            61.24168496131897,
+            -8.999999999999993,
+            106.36888604164125
+          ]
+        },
+        {
+          "name": "Поверхность 2",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 3,
+          "bounds_raw": [
+            true,
+            -43.25000018782788,
+            -14.500000000000005,
+            0.8480789225807612,
+            43.25000018782788,
+            -8.499999999999995,
+            87.34807929823651
+          ]
+        }
+      ]
+    },
+    {
+      "occurrence": "root/1",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\3_update.m3d",
+      "bodies": [
+        {
+          "name": "Поверхность 1",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 2,
+          "bounds_raw": [
+            true,
+            -59.4,
+            -8.0,
+            -15.30190029144287,
+            59.4,
+            -8.0,
+            102.91360321044922
+          ]
+        },
+        {
+          "name": "Поверхность 2",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 3,
+          "bounds_raw": [
+            true,
+            -64.0,
+            -10.399999999999999,
+            -14.26429977416992,
+            -64.0,
+            108.4,
+            102.91360321044922
+          ]
+        },
+        {
+          "name": "Поверхность 3",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 4,
+          "bounds_raw": [
+            true,
+            -58.757043874488765,
+            86.11788913276845,
+            -15.32585247424285,
+            58.75705936342082,
+            106.8387950838478,
+            103.5220509376826
+          ]
+        },
+        {
+          "name": "Поверхность 4",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 5,
+          "bounds_raw": [
+            true,
+            -50.00001916546304,
+            -18.275857486393203,
+            -5.901926876014471,
+            50.0000014874069,
+            105.03424961192836,
+            94.09807906546683
+          ]
+        },
+        {
+          "name": "Поверхность 5",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 6,
+          "bounds_raw": [
+            true,
+            -64.5,
+            5.750000135373618,
+            0.848078923145664,
+            -58.5,
+            92.25000050989931,
+            87.34807929767136
+          ]
+        }
+      ]
+    },
+    {
+      "occurrence": "root/2",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\14_update.m3d",
+      "bodies": [
+        {
+          "name": "Поверхность 1",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 2,
+          "bounds_raw": [
+            true,
+            -179.9040228932872,
+            337.8730192262331,
+            -15.37200244621502,
+            -159.00681622522475,
+            456.38699794291836,
+            103.56820090975764
+          ]
+        },
+        {
+          "name": "Поверхность 2",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 3,
+          "bounds_raw": [
+            true,
+            -65.0,
+            337.6,
+            -15.041900062561034,
+            -65.0,
+            456.4,
+            103.43299713134766
+          ]
+        },
+        {
+          "name": "Поверхность 3",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 4,
+          "bounds_raw": [
+            true,
+            -181.4,
+            333.0,
+            -15.236899757385252,
+            -62.6,
+            333.0,
+            103.23809661865235
+          ]
+        },
+        {
+          "name": "Поверхность 4",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 5,
+          "bounds_raw": [
+            true,
+            -165.24999949366355,
+            332.5,
+            0.8480790486534886,
+            -78.74999937015396,
+            338.5,
+            87.34807917216307
+          ]
+        },
+        {
+          "name": "Поверхность 5",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 6,
+          "bounds_raw": [
+            true,
+            -189.6241642299729,
+            346.99999684252396,
+            -5.901923309263637,
+            -53.6705286208882,
+            446.9999948115016,
+            94.09807382041534
+          ]
+        }
+      ]
+    },
+    {
+      "occurrence": "root/3",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\18_update.m3d",
+      "bodies": [
+        {
+          "name": "Поверхность 1",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 2,
+          "bounds_raw": [
+            true,
+            -64.5,
+            353.74999653934765,
+            0.8480704118094309,
+            -58.5,
+            440.25000346065235,
+            87.34807733311413
+          ]
+        },
+        {
+          "name": "Поверхность 2",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 3,
+          "bounds_raw": [
+            true,
+            -52.36001235550208,
+            450.7,
+            14.84806832957375,
+            6.140012409566705,
+            454.3,
+            73.34809309464254
+          ]
+        },
+        {
+          "name": "Поверхность 3",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 4,
+          "bounds_raw": [
+            true,
+            -64.91000065803527,
+            454.0,
+            2.29810013771057,
+            18.69000039100647,
+            454.0,
+            85.71510014533996
+          ]
+        },
+        {
+          "name": "Поверхность 4",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 5,
+          "bounds_raw": [
+            true,
+            -64.0,
+            337.6,
+            -15.30190029144287,
+            -64.0,
+            456.4,
+            103.49809875488282
+          ]
+        }
+      ]
+    },
+    {
+      "occurrence": "root/4",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\23_update.m3d",
+      "bodies": [
+        {
+          "name": "Поверхность 1",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 2,
+          "bounds_raw": [
+            true,
+            4.931217238673543,
+            673.4508307142752,
+            2.251607132947946,
+            19.625808980831117,
+            756.7880656350875,
+            85.9445918064685
+          ]
+        },
+        {
+          "name": "Поверхность 2",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 3,
+          "bounds_raw": [
+            true,
+            -76.0,
+            673.2,
+            2.5369998931884794,
+            -76.0,
+            756.8,
+            85.83829956054687
+          ]
+        },
+        {
+          "name": "Поверхность 3",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 4,
+          "bounds_raw": [
+            true,
+            -64.8,
+            670.0,
+            2.3578998565673857,
+            18.799999999999997,
+            670.0,
+            85.83829956054687
+          ]
+        },
+        {
+          "name": "Поверхность 4",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 5,
+          "bounds_raw": [
+            true,
+            -52.25000446914289,
+            669.7,
+            14.848065628909737,
+            6.250002262589767,
+            673.3000000000001,
+            73.34807236064239
+          ]
+        },
+        {
+          "name": "Поверхность 5",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 6,
+          "bounds_raw": [
+            true,
+            -85.44711734909146,
+            679.9999923397952,
+            9.098078149230858,
+            27.918117455058006,
+            750.0000134435692,
+            79.09808505693435
+          ]
+        }
+      ]
+    },
+    {
+      "occurrence": "root/5",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\27_update.m3d",
+      "bodies": [
+        {
+          "name": "Поверхность 1",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 2,
+          "bounds_raw": [
+            true,
+            -77.0,
+            673.2,
+            2.29810018539429,
+            -77.0,
+            756.8,
+            85.89809875488281
+          ]
+        },
+        {
+          "name": "Поверхность 2",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 3,
+          "bounds_raw": [
+            true,
+            -163.7342242402339,
+            672.3415577722235,
+            2.2455506982466886,
+            -80.2657701398765,
+            687.0592919631805,
+            85.95064824203058
+          ]
+        },
+        {
+          "name": "Поверхность 3",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 4,
+          "bounds_raw": [
+            true,
+            -163.8,
+            768.0,
+            2.3578998565673857,
+            -80.2,
+            768.0,
+            85.89809875488281
+          ]
+        },
+        {
+          "name": "Поверхность 4",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 5,
+          "bounds_raw": [
+            true,
+            -157.00000531143513,
+            664.0818875178384,
+            9.098071413772157,
+            -86.99999545404708,
+            777.4471042041563,
+            79.09807723497468
+          ]
+        },
+        {
+          "name": "Поверхность 5",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 6,
+          "bounds_raw": [
+            true,
+            -80.3,
+            685.7499972192119,
+            14.848065221192424,
+            -76.7,
+            744.2500027807881,
+            73.34807078276857
+          ]
+        }
+      ]
+    },
+    {
+      "occurrence": "root/6",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\7_update.m3d",
+      "bodies": [
+        {
+          "name": "Поверхность 1",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 2,
+          "bounds_raw": [
+            true,
+            -59.4,
+            -7.999999999999999,
+            -15.30190029144287,
+            59.4,
+            -7.999999999999999,
+            103.23809661865235
+          ]
+        },
+        {
+          "name": "Поверхность 2",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 3,
+          "bounds_raw": [
+            true,
+            -59.12699230368117,
+            86.00681533790173,
+            -15.372002927365955,
+            59.386996929887204,
+            106.90402516992769,
+            103.56820139077381
+          ]
+        },
+        {
+          "name": "Поверхность 4",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 5,
+          "bounds_raw": [
+            true,
+            -50.00000465526147,
+            -19.3294780808494,
+            -5.901931151529945,
+            50.00000297632773,
+            116.62417820483886,
+            94.09807288524675
+          ]
+        },
+        {
+          "name": "Поверхность 5",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 6,
+          "bounds_raw": [
+            true,
+            -64.5,
+            5.750000135373618,
+            0.848078923145664,
+            -58.5,
+            92.25000050989931,
+            87.34807929767136
+          ]
+        },
+        {
+          "name": "Поверхность 6",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 7,
+          "bounds_raw": [
+            true,
+            -64.0,
+            -10.399999999999999,
+            -15.041900062561034,
+            -64.0,
+            108.4,
+            103.49809875488282
+          ]
+        }
+      ]
+    },
+    {
+      "occurrence": "root/7/0",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\002.m3d",
+      "bodies": [
+        {
+          "name": "Поверхность 1",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 2,
+          "bounds_raw": [
+            true,
+            71.40000198666361,
+            71.39994919046177,
+            41.54999255225997,
+            128.60007845960715,
+            128.60002579913416,
+            52.95000744774844
+          ]
+        },
+        {
+          "name": "Поверхность 2",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 3,
+          "bounds_raw": [
+            true,
+            64.25,
+            64.87449645996094,
+            52.0,
+            135.75,
+            135.67999267578125,
+            52.0
+          ]
+        },
+        {
+          "name": "Поверхность 3",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 4,
+          "bounds_raw": [
+            true,
+            53.743249130249026,
+            70.28325004577637,
+            0.0,
+            146.51174812316896,
+            129.71674995422364,
+            0.0
+          ]
+        },
+        {
+          "name": "Поверхность 4",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 5,
+          "bounds_raw": [
+            true,
+            81.5,
+            89.0,
+            -1.0,
+            81.5,
+            111.0,
+            6.5
+          ]
+        },
+        {
+          "name": "Поверхность 5",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 6,
+          "bounds_raw": [
+            true,
+            78.625,
+            110.0,
+            -2.875,
+            141.875,
+            110.0,
+            8.375
+          ]
+        }
+      ]
+    },
+    {
+      "occurrence": "root/7/1",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\003.m3d",
+      "bodies": [
+        {
+          "name": "Поверхность 1",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 2,
+          "bounds_raw": [
+            true,
+            69.5,
+            89.0,
+            -1.0,
+            69.5,
+            111.0,
+            7.5
+          ]
+        },
+        {
+          "name": "Поверхность 2",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 3,
+          "bounds_raw": [
+            true,
+            67.475,
+            90.0,
+            -2.0250000000000004,
+            112.025,
+            90.0,
+            8.525
+          ]
+        },
+        {
+          "name": "Поверхность 3",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 4,
+          "bounds_raw": [
+            true,
+            110.0,
+            89.0,
+            -1.0,
+            110.0,
+            111.0,
+            7.5
+          ]
+        },
+        {
+          "name": "Поверхность 4",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 5,
+          "bounds_raw": [
+            true,
+            54.61874084472656,
+            70.35393981933593,
+            0.0,
+            145.83206481933593,
+            129.64606018066405,
+            0.0
+          ]
+        },
+        {
+          "name": "Поверхность 5",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 6,
+          "bounds_raw": [
+            true,
+            53.25,
+            89.55000305175781,
+            16.0,
+            146.75,
+            110.44999694824219,
+            16.0
+          ]
+        },
+        {
+          "name": "Поверхность 6",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 7,
+          "bounds_raw": [
+            true,
+            57.13079986572266,
+            121.0999984741211,
+            3.702809906005859,
+            142.86920013427735,
+            121.0999984741211,
+            19.89720001220703
+          ]
+        },
+        {
+          "name": "Поверхность 7",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 8,
+          "bounds_raw": [
+            true,
+            57.13079986572266,
+            78.9000015258789,
+            3.702809906005859,
+            142.86920013427735,
+            78.9000015258789,
+            19.89720001220703
+          ]
+        },
+        {
+          "name": "Поверхность 8",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 9,
+          "bounds_raw": [
+            true,
+            91.24997043251348,
+            91.24997659215134,
+            5.549968655229194,
+            108.7500198186513,
+            108.75000741564037,
+            16.95003134478668
+          ]
+        }
+      ]
+    },
+    {
+      "occurrence": "root/7/2",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\007.m3d",
+      "bodies": [
+        {
+          "name": "Поверхность 1",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 2,
+          "bounds_raw": [
+            true,
+            91.4269012451172,
+            83.775,
+            10.0,
+            108.92399749755859,
+            116.225,
+            10.0
+          ]
+        },
+        {
+          "name": "Поверхность 2",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 3,
+          "bounds_raw": [
+            true,
+            92.5,
+            86.975,
+            -1.2750000000000004,
+            92.5,
+            115.025,
+            11.275
+          ]
+        },
+        {
+          "name": "Поверхность 3",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 4,
+          "bounds_raw": [
+            true,
+            92.95,
+            114.75,
+            -0.5499999999999998,
+            105.05,
+            114.75,
+            10.55
+          ]
+        },
+        {
+          "name": "Поверхность 4",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 5,
+          "bounds_raw": [
+            true,
+            91.90370025634766,
+            83.775,
+            0.0,
+            108.51500091552734,
+            116.225,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "occurrence": "root/7/3",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\013.m3d",
+      "bodies": [
+        {
+          "name": "Поверхность 1",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 2,
+          "bounds_raw": [
+            true,
+            91.73109741210938,
+            88.45,
+            0.0,
+            107.55,
+            111.55,
+            0.0
+          ]
+        },
+        {
+          "name": "Поверхность 2",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 3,
+          "bounds_raw": [
+            true,
+            93.65,
+            110.5,
+            -1.8499999999999996,
+            108.35,
+            110.5,
+            38.85
+          ]
+        },
+        {
+          "name": "Поверхность 3",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 4,
+          "bounds_raw": [
+            true,
+            107.5,
+            88.55,
+            -1.9499999999999993,
+            107.5,
+            111.45,
+            40.95
+          ]
+        },
+        {
+          "name": "Поверхность 4",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 5,
+          "bounds_raw": [
+            true,
+            100.75,
+            91.75,
+            40.0,
+            107.25,
+            108.25,
+            40.0
+          ]
+        }
+      ]
+    },
+    {
+      "occurrence": "root/7/4",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\014.m3d",
+      "bodies": [
+        {
+          "name": "Поверхность 1",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 2,
+          "bounds_raw": [
+            true,
+            109.5,
+            81.3,
+            -1.7000000000000002,
+            109.5,
+            118.7,
+            4.2
+          ]
+        },
+        {
+          "name": "Поверхность 2",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 3,
+          "bounds_raw": [
+            true,
+            90.6,
+            79.1,
+            0.0,
+            109.4,
+            120.9,
+            0.0
+          ]
+        },
+        {
+          "name": "Поверхность 3",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 4,
+          "bounds_raw": [
+            true,
+            91.75,
+            119.0,
+            -0.75,
+            108.25,
+            119.0,
+            3.25
+          ]
+        },
+        {
+          "name": "Поверхность 4",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 5,
+          "bounds_raw": [
+            true,
+            91.75,
+            81.0,
+            -0.75,
+            108.25,
+            81.0,
+            3.25
+          ]
+        }
+      ]
+    },
+    {
+      "occurrence": "root/7/5",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\013.m3d",
+      "bodies": [
+        {
+          "name": "Поверхность 1",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 2,
+          "bounds_raw": [
+            true,
+            91.73109741210938,
+            88.45,
+            0.0,
+            107.55,
+            111.55,
+            0.0
+          ]
+        },
+        {
+          "name": "Поверхность 2",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 3,
+          "bounds_raw": [
+            true,
+            93.65,
+            110.5,
+            -1.8499999999999996,
+            108.35,
+            110.5,
+            38.85
+          ]
+        },
+        {
+          "name": "Поверхность 3",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 4,
+          "bounds_raw": [
+            true,
+            107.5,
+            88.55,
+            -1.9499999999999993,
+            107.5,
+            111.45,
+            40.95
+          ]
+        },
+        {
+          "name": "Поверхность 4",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 5,
+          "bounds_raw": [
+            true,
+            100.75,
+            91.75,
+            40.0,
+            107.25,
+            108.25,
+            40.0
+          ]
+        }
+      ]
+    },
+    {
+      "occurrence": "root/7/6",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\007.m3d",
+      "bodies": [
+        {
+          "name": "Поверхность 1",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 2,
+          "bounds_raw": [
+            true,
+            91.4269012451172,
+            83.775,
+            10.0,
+            108.92399749755859,
+            116.225,
+            10.0
+          ]
+        },
+        {
+          "name": "Поверхность 2",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 3,
+          "bounds_raw": [
+            true,
+            92.5,
+            86.975,
+            -1.2750000000000004,
+            92.5,
+            115.025,
+            11.275
+          ]
+        },
+        {
+          "name": "Поверхность 3",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 4,
+          "bounds_raw": [
+            true,
+            92.95,
+            114.75,
+            -0.5499999999999998,
+            105.05,
+            114.75,
+            10.55
+          ]
+        },
+        {
+          "name": "Поверхность 4",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 5,
+          "bounds_raw": [
+            true,
+            91.90370025634766,
+            83.775,
+            0.0,
+            108.51500091552734,
+            116.225,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "occurrence": "root/7/7",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\014.m3d",
+      "bodies": [
+        {
+          "name": "Поверхность 1",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 2,
+          "bounds_raw": [
+            true,
+            109.5,
+            81.3,
+            -1.7000000000000002,
+            109.5,
+            118.7,
+            4.2
+          ]
+        },
+        {
+          "name": "Поверхность 2",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 3,
+          "bounds_raw": [
+            true,
+            90.6,
+            79.1,
+            0.0,
+            109.4,
+            120.9,
+            0.0
+          ]
+        },
+        {
+          "name": "Поверхность 3",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 4,
+          "bounds_raw": [
+            true,
+            91.75,
+            119.0,
+            -0.75,
+            108.25,
+            119.0,
+            3.25
+          ]
+        },
+        {
+          "name": "Поверхность 4",
+          "solid": false,
+          "hidden": false,
+          "bodyid": 5,
+          "bounds_raw": [
+            true,
+            91.75,
+            81.0,
+            -0.75,
+            108.25,
+            81.0,
+            3.25
+          ]
+        }
+      ]
+    }
+  ],
+  "collisions": [
+    {
+      "type": 0,
+      "value": 0.0,
+      "objects": [
+        {
+          "description": {
+            "interface": "IModelObject",
+            "methods": {
+              "Update": {
+                "parameters": [],
+                "help": "Изменить свойства объекта."
+              }
+            },
+            "readable": [
+              "Application",
+              "Hidden",
+              "ModelObjectType",
+              "Name",
+              "Owner",
+              "Parent",
+              "Part",
+              "Reference",
+              "Type",
+              "Valid"
+            ],
+            "writable": [
+              "Hidden",
+              "Name"
+            ]
+          },
+          "Name": "Сборка",
+          "ModelObjectType": 115,
+          "Reference": 1073744236,
+          "Valid": false,
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\EB300-R5-motion-checked.a3d",
+          "owner_name": "Сборка"
+        },
+        {
+          "description": {
+            "interface": "IModelObject",
+            "methods": {
+              "Update": {
+                "parameters": [],
+                "help": "Изменить свойства объекта."
+              }
+            },
+            "readable": [
+              "Application",
+              "Hidden",
+              "ModelObjectType",
+              "Name",
+              "Owner",
+              "Parent",
+              "Part",
+              "Reference",
+              "Type",
+              "Valid"
+            ],
+            "writable": [
+              "Hidden",
+              "Name"
+            ]
+          },
+          "Name": "Сборка",
+          "ModelObjectType": 115,
+          "Reference": 1073744236,
+          "Valid": false,
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\EB300-R5-motion-checked.a3d",
+          "owner_name": "Сборка"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "value": 0.05004665027464027,
+      "objects": [
+        {
+          "description": {
+            "interface": "IModelObject",
+            "methods": {
+              "Update": {
+                "parameters": [],
+                "help": "Изменить свойства объекта."
+              }
+            },
+            "readable": [
+              "Application",
+              "Hidden",
+              "ModelObjectType",
+              "Name",
+              "Owner",
+              "Parent",
+              "Part",
+              "Reference",
+              "Type",
+              "Valid"
+            ],
+            "writable": [
+              "Hidden",
+              "Name"
+            ]
+          },
+          "Name": "Сборка",
+          "ModelObjectType": 115,
+          "Reference": 1073744236,
+          "Valid": false,
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\EB300-R5-motion-checked.a3d",
+          "owner_name": "Сборка"
+        },
+        {
+          "description": {
+            "interface": "IModelObject",
+            "methods": {
+              "Update": {
+                "parameters": [],
+                "help": "Изменить свойства объекта."
+              }
+            },
+            "readable": [
+              "Application",
+              "Hidden",
+              "ModelObjectType",
+              "Name",
+              "Owner",
+              "Parent",
+              "Part",
+              "Reference",
+              "Type",
+              "Valid"
+            ],
+            "writable": [
+              "Hidden",
+              "Name"
+            ]
+          },
+          "Name": "Сборка",
+          "ModelObjectType": 115,
+          "Reference": 1073744237,
+          "Valid": false,
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\EB300-R5-motion-checked.a3d",
+          "owner_name": "Сборка"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "value": 19547.168441034002,
+      "objects": [
+        {
+          "description": {
+            "interface": "IModelObject",
+            "methods": {
+              "Update": {
+                "parameters": [],
+                "help": "Изменить свойства объекта."
+              }
+            },
+            "readable": [
+              "Application",
+              "Hidden",
+              "ModelObjectType",
+              "Name",
+              "Owner",
+              "Parent",
+              "Part",
+              "Reference",
+              "Type",
+              "Valid"
+            ],
+            "writable": [
+              "Hidden",
+              "Name"
+            ]
+          },
+          "Name": "Сборка",
+          "ModelObjectType": 115,
+          "Reference": 1073744236,
+          "Valid": false,
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\EB300-R5-motion-checked.a3d",
+          "owner_name": "Сборка"
+        },
+        {
+          "description": {
+            "interface": "IModelObject",
+            "methods": {
+              "Update": {
+                "parameters": [],
+                "help": "Изменить свойства объекта."
+              }
+            },
+            "readable": [
+              "Application",
+              "Hidden",
+              "ModelObjectType",
+              "Name",
+              "Owner",
+              "Parent",
+              "Part",
+              "Reference",
+              "Type",
+              "Valid"
+            ],
+            "writable": [
+              "Hidden",
+              "Name"
+            ]
+          },
+          "Name": "Сборка",
+          "ModelObjectType": 115,
+          "Reference": 1073744238,
+          "Valid": false,
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\EB300-R5-motion-checked.a3d",
+          "owner_name": "Сборка"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "value": 19547.168441034002,
+      "objects": [
+        {
+          "description": {
+            "interface": "IModelObject",
+            "methods": {
+              "Update": {
+                "parameters": [],
+                "help": "Изменить свойства объекта."
+              }
+            },
+            "readable": [
+              "Application",
+              "Hidden",
+              "ModelObjectType",
+              "Name",
+              "Owner",
+              "Parent",
+              "Part",
+              "Reference",
+              "Type",
+              "Valid"
+            ],
+            "writable": [
+              "Hidden",
+              "Name"
+            ]
+          },
+          "Name": "Сборка",
+          "ModelObjectType": 115,
+          "Reference": 1073744239,
+          "Valid": false,
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\EB300-R5-motion-checked.a3d",
+          "owner_name": "Сборка"
+        },
+        {
+          "description": {
+            "interface": "IModelObject",
+            "methods": {
+              "Update": {
+                "parameters": [],
+                "help": "Изменить свойства объекта."
+              }
+            },
+            "readable": [
+              "Application",
+              "Hidden",
+              "ModelObjectType",
+              "Name",
+              "Owner",
+              "Parent",
+              "Part",
+              "Reference",
+              "Type",
+              "Valid"
+            ],
+            "writable": [
+              "Hidden",
+              "Name"
+            ]
+          },
+          "Name": "Сборка",
+          "ModelObjectType": 115,
+          "Reference": 1073744236,
+          "Valid": false,
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\EB300-R5-motion-checked.a3d",
+          "owner_name": "Сборка"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "value": 19547.168441034002,
+      "objects": [
+        {
+          "description": {
+            "interface": "IModelObject",
+            "methods": {
+              "Update": {
+                "parameters": [],
+                "help": "Изменить свойства объекта."
+              }
+            },
+            "readable": [
+              "Application",
+              "Hidden",
+              "ModelObjectType",
+              "Name",
+              "Owner",
+              "Parent",
+              "Part",
+              "Reference",
+              "Type",
+              "Valid"
+            ],
+            "writable": [
+              "Hidden",
+              "Name"
+            ]
+          },
+          "Name": "Сборка",
+          "ModelObjectType": 115,
+          "Reference": 1073744236,
+          "Valid": false,
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\EB300-R5-motion-checked.a3d",
+          "owner_name": "Сборка"
+        },
+        {
+          "description": {
+            "interface": "IModelObject",
+            "methods": {
+              "Update": {
+                "parameters": [],
+                "help": "Изменить свойства объекта."
+              }
+            },
+            "readable": [
+              "Application",
+              "Hidden",
+              "ModelObjectType",
+              "Name",
+              "Owner",
+              "Parent",
+              "Part",
+              "Reference",
+              "Type",
+              "Valid"
+            ],
+            "writable": [
+              "Hidden",
+              "Name"
+            ]
+          },
+          "Name": "Сборка",
+          "ModelObjectType": 115,
+          "Reference": 1073744236,
+          "Valid": false,
+          "owner_file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\EB300-R5-motion-checked.a3d",
+          "owner_name": "Сборка"
+        }
+      ]
+    }
+  ],
+  "status": "native helper bodies and actual collision objects read",
+  "_public_summary": {
+    "omitted": "calls: full SDK/tool response logs retained in local pre-publication archive",
+    "original_sha256": "00e5f85aac1fd9dff615ccb5ffebe4f408816ba7930b8c33a0efa7e57d0110b0",
+    "archive": "RoboHand-Simulator-prepublish-2026-11-15.zip",
+    "archive_member": "RoboHand.Simulator/docs/cad-reviews/2026-11-14-cad2/helper-body-inventory-and-collision-pairs.json"
+  }
+}

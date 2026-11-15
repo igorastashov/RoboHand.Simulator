@@ -1,0 +1,217 @@
+{
+  "mujoco": "4.0.1",
+  "nq": 6,
+  "nv": 6,
+  "ngeom": 45,
+  "visual_mesh_occurrences": 21,
+  "states_checked": 25,
+  "distinct_command_configurations": 13,
+  "max_geometry_error_m": 6.012707240432569e-08,
+  "checks": [
+    {
+      "pose": "reference",
+      "max_aabb_error_m": 3.6142011050621647e-09,
+      "nonadjacent_contacts": 0
+    },
+    {
+      "pose": "J1_85",
+      "max_aabb_error_m": 6.012707240432569e-08,
+      "nonadjacent_contacts": 0
+    },
+    {
+      "pose": "J1_90",
+      "max_aabb_error_m": 5.676293854395276e-08,
+      "nonadjacent_contacts": 0
+    },
+    {
+      "pose": "J1_95",
+      "max_aabb_error_m": 5.3254845099742765e-08,
+      "nonadjacent_contacts": 0
+    },
+    {
+      "pose": "J1_90",
+      "max_aabb_error_m": 5.676293884926409e-08,
+      "nonadjacent_contacts": 0
+    },
+    {
+      "pose": "J2_85",
+      "max_aabb_error_m": 5.635268329751142e-08,
+      "nonadjacent_contacts": 0
+    },
+    {
+      "pose": "J2_90",
+      "max_aabb_error_m": 4.4835610293891826e-08,
+      "nonadjacent_contacts": 0
+    },
+    {
+      "pose": "J2_95",
+      "max_aabb_error_m": 5.4296428353417525e-08,
+      "nonadjacent_contacts": 0
+    },
+    {
+      "pose": "J2_90",
+      "max_aabb_error_m": 4.4835840290469164e-08,
+      "nonadjacent_contacts": 0
+    },
+    {
+      "pose": "J3_85",
+      "max_aabb_error_m": 2.5284574933781556e-08,
+      "nonadjacent_contacts": 0
+    },
+    {
+      "pose": "J3_90",
+      "max_aabb_error_m": 2.5729003538810247e-08,
+      "nonadjacent_contacts": 0
+    },
+    {
+      "pose": "J3_95",
+      "max_aabb_error_m": 2.6021128723963116e-08,
+      "nonadjacent_contacts": 0
+    },
+    {
+      "pose": "J3_90",
+      "max_aabb_error_m": 2.572872738471066e-08,
+      "nonadjacent_contacts": 0
+    },
+    {
+      "pose": "J4_85",
+      "max_aabb_error_m": 1.624930708737926e-08,
+      "nonadjacent_contacts": 0
+    },
+    {
+      "pose": "J4_90",
+      "max_aabb_error_m": 1.8804412055262176e-08,
+      "nonadjacent_contacts": 0
+    },
+    {
+      "pose": "J4_95",
+      "max_aabb_error_m": 2.164161114204255e-08,
+      "nonadjacent_contacts": 0
+    },
+    {
+      "pose": "J4_90",
+      "max_aabb_error_m": 1.880441227730678e-08,
+      "nonadjacent_contacts": 0
+    },
+    {
+      "pose": "J5_85",
+      "max_aabb_error_m": 3.6142011050621647e-09,
+      "nonadjacent_contacts": 0
+    },
+    {
+      "pose": "J5_90",
+      "max_aabb_error_m": 3.6142011050621647e-09,
+      "nonadjacent_contacts": 0
+    },
+    {
+      "pose": "J5_95",
+      "max_aabb_error_m": 3.6142011050621647e-09,
+      "nonadjacent_contacts": 0
+    },
+    {
+      "pose": "J5_90",
+      "max_aabb_error_m": 3.6142011050621647e-09,
+      "nonadjacent_contacts": 0
+    },
+    {
+      "pose": "J6_85",
+      "max_aabb_error_m": 3.6142011050621647e-09,
+      "nonadjacent_contacts": 0
+    },
+    {
+      "pose": "J6_90",
+      "max_aabb_error_m": 3.6142011050621647e-09,
+      "nonadjacent_contacts": 0
+    },
+    {
+      "pose": "J6_95",
+      "max_aabb_error_m": 3.6142011050621647e-09,
+      "nonadjacent_contacts": 0
+    },
+    {
+      "pose": "J6_90",
+      "max_aabb_error_m": 3.6142011050621647e-09,
+      "nonadjacent_contacts": 0
+    }
+  ],
+  "physical_links": [
+    {
+      "link": "base_link",
+      "mass_kg": 1,
+      "positive_inertia_and_triangle_valid": true
+    },
+    {
+      "link": "shoulder_link",
+      "mass_kg": 1.2,
+      "positive_inertia_and_triangle_valid": true
+    },
+    {
+      "link": "upper_arm_link",
+      "mass_kg": 3,
+      "positive_inertia_and_triangle_valid": true
+    },
+    {
+      "link": "forearm_link",
+      "mass_kg": 2,
+      "positive_inertia_and_triangle_valid": true
+    },
+    {
+      "link": "wrist1_link",
+      "mass_kg": 0.65,
+      "positive_inertia_and_triangle_valid": true
+    },
+    {
+      "link": "wrist2_link",
+      "mass_kg": 0.65,
+      "positive_inertia_and_triangle_valid": true
+    },
+    {
+      "link": "wrist3_link",
+      "mass_kg": 0.52,
+      "positive_inertia_and_triangle_valid": true
+    },
+    {
+      "link": "phone_link",
+      "mass_kg": 0.188,
+      "positive_inertia_and_triangle_valid": true
+    },
+    {
+      "link": "phone_arm_link",
+      "mass_kg": 0.04,
+      "positive_inertia_and_triangle_valid": true
+    },
+    {
+      "link": "phone_backing_link",
+      "mass_kg": 0.1,
+      "positive_inertia_and_triangle_valid": true
+    }
+  ],
+  "total_nominal_mass_kg": 9.348,
+  "dynamics": [
+    {
+      "gravity": [
+        0,
+        0,
+        0
+      ],
+      "steps": 1000,
+      "time_s": 2.0000000000000013,
+      "finite": true,
+      "actuators": 0,
+      "passive_only": true
+    },
+    {
+      "gravity": [
+        0,
+        0,
+        -9.81
+      ],
+      "steps": 1000,
+      "time_s": 2.0000000000000013,
+      "finite": true,
+      "actuators": 0,
+      "passive_only": true
+    }
+  ],
+  "scope": "Retained geometry checked against the previously attested native reference. Final new R8 hierarchy/pose comparison is a separate gate. Connected/welded interfaces are not certified by default collision filtering."
+}

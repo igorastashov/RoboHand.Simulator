@@ -1,0 +1,27 @@
+{
+  "scope": "Independent comparison against native TransformPoint of origin and unit basis points.",
+  "standard_column_vector_component_to_CAD": "numpy.array(GetMatrix3D).reshape(4,4).T",
+  "units": "CAD translations mm; convert only translation to m for URDF",
+  "records": [
+    {
+      "component": "27",
+      "row_vector_matrix_transpose_error_mm": 0.0,
+      "incorrect_no_transpose_error_mm": 222.7285211181713
+    },
+    {
+      "component": "31",
+      "row_vector_matrix_transpose_error_mm": 0.0,
+      "incorrect_no_transpose_error_mm": 222.69236302911565
+    },
+    {
+      "component": "output",
+      "row_vector_matrix_transpose_error_mm": 0.0,
+      "incorrect_no_transpose_error_mm": 717.822683512169
+    },
+    {
+      "component": "gripper",
+      "row_vector_matrix_transpose_error_mm": 0.0,
+      "incorrect_no_transpose_error_mm": 631.5367398335526
+    }
+  ]
+}

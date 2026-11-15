@@ -1,0 +1,577 @@
+{
+  "scope": "Stock trimesh5.2.1 checks on referenced source STL; process=True only merges in memory, source bytes unchanged. Unit-density inertia is geometric data, not physical link inertia. No infill/motors/cables inferred.",
+  "files": [
+    {
+      "file": "Robot Arm EB300 - 6283770 - part 1 of 3\\files\\1_update.stl",
+      "faces": 10000,
+      "vertices_after_in_memory_merge": 5123,
+      "watertight": false,
+      "winding_consistent": false,
+      "is_volume": false,
+      "volume_mm3": 353120.6643377668,
+      "center_mass_mm": [
+        0.04672926628413084,
+        -28.783428272056153,
+        43.9892764955817
+      ],
+      "bounds_mm": [
+        [
+          -75.0,
+          -46.0,
+          -30.9019
+        ],
+        [
+          75.0,
+          -9.0,
+          119.0981
+        ]
+      ],
+      "inertia_unit_density_mm5": [
+        [
+          559414798.2323445,
+          -223485.3856115893,
+          -882632.7584824056
+        ],
+        [
+          -223485.3856115893,
+          1043045067.2124087,
+          517543.22712498903
+        ],
+        [
+          -882632.7584824056,
+          517543.22712498903,
+          561137295.540808
+        ]
+      ],
+      "finite": true
+    },
+    {
+      "file": "Robot Arm EB300 - 6283770 - part 1 of 3\\files\\3_update.stl",
+      "faces": 11668,
+      "vertices_after_in_memory_merge": 5813,
+      "watertight": false,
+      "winding_consistent": false,
+      "is_volume": false,
+      "volume_mm3": 223758.9906101382,
+      "center_mass_mm": [
+        -21.805351049346598,
+        46.02050464423076,
+        44.0974327599875
+      ],
+      "bounds_mm": [
+        [
+          -64.0,
+          -8.0,
+          -9.9019
+        ],
+        [
+          54.0,
+          106.0,
+          98.0981
+        ]
+      ],
+      "inertia_unit_density_mm5": [
+        [
+          489425411.639186,
+          24701899.840786338,
+          -4560.996933996677
+        ],
+        [
+          24701899.840786338,
+          631768938.484546,
+          -596.4427745342255
+        ],
+        [
+          -4560.996933996677,
+          -596.4427745342255,
+          552207010.8142016
+        ]
+      ],
+      "finite": true
+    },
+    {
+      "file": "Robot Arm EB300 - 6283770 - part 1 of 3\\files\\7_update.stl",
+      "faces": 11668,
+      "vertices_after_in_memory_merge": 5813,
+      "watertight": false,
+      "winding_consistent": false,
+      "is_volume": false,
+      "volume_mm3": 223758.9906101382,
+      "center_mass_mm": [
+        -21.805351049346598,
+        46.02050464423076,
+        44.0974327599875
+      ],
+      "bounds_mm": [
+        [
+          -64.0,
+          -8.0,
+          -9.9019
+        ],
+        [
+          54.0,
+          106.0,
+          98.0981
+        ]
+      ],
+      "inertia_unit_density_mm5": [
+        [
+          489425411.639186,
+          24701899.840786338,
+          -4560.996933996677
+        ],
+        [
+          24701899.840786338,
+          631768938.484546,
+          -596.4427745342255
+        ],
+        [
+          -4560.996933996677,
+          -596.4427745342255,
+          552207010.8142016
+        ]
+      ],
+      "finite": true
+    },
+    {
+      "file": "Robot Arm EB300 - 6283770 - part 1 of 3\\files\\14_update.stl",
+      "faces": 11668,
+      "vertices_after_in_memory_merge": 5813,
+      "watertight": false,
+      "winding_consistent": false,
+      "is_volume": false,
+      "volume_mm3": 223759.0368338211,
+      "center_mass_mm": [
+        -119.02047904233588,
+        375.1940545334855,
+        44.0974236504303
+      ],
+      "bounds_mm": [
+        [
+          -179.0,
+          333.0,
+          -9.9019
+        ],
+        [
+          -65.0,
+          451.0,
+          98.0981
+        ]
+      ],
+      "inertia_unit_density_mm5": [
+        [
+          631831715.5455704,
+          -24685886.672410965,
+          581.7201156616211
+        ],
+        [
+          -24685886.672410965,
+          489426106.1685395,
+          -14040.70656824112
+        ],
+        [
+          581.7201156616211,
+          -14040.70656824112,
+          552270302.632988
+        ]
+      ],
+      "finite": true
+    },
+    {
+      "file": "Robot Arm EB300 - 6283770 - part 1 of 3\\files\\18_update.stl",
+      "faces": 17262,
+      "vertices_after_in_memory_merge": 8960,
+      "watertight": false,
+      "winding_consistent": false,
+      "is_volume": false,
+      "volume_mm3": 158960.85966755197,
+      "center_mass_mm": [
+        -34.31173062972658,
+        402.21783049295937,
+        44.09599184276901
+      ],
+      "bounds_mm": [
+        [
+          -64.0,
+          343.0,
+          -9.9019
+        ],
+        [
+          15.0,
+          454.0,
+          98.0981
+        ]
+      ],
+      "inertia_unit_density_mm5": [
+        [
+          326840131.4163704,
+          -18425969.090968132,
+          13787.585861861706
+        ],
+        [
+          -18425969.090968132,
+          245206348.25118995,
+          60321.381553173065
+        ],
+        [
+          13787.585861861706,
+          60321.381553173065,
+          273110446.9679184
+        ]
+      ],
+      "finite": true
+    },
+    {
+      "file": "Robot Arm EB300 - 6283770 - part 1 of 3\\files\\23_update.stl",
+      "faces": 10766,
+      "vertices_after_in_memory_merge": 5650,
+      "watertight": false,
+      "winding_consistent": false,
+      "is_volume": false,
+      "volume_mm3": 84934.28722879001,
+      "center_mass_mm": [
+        -29.239377113677524,
+        704.977420144059,
+        44.09702174580067
+      ],
+      "bounds_mm": [
+        [
+          -76.0,
+          670.0,
+          6.0981
+        ],
+        [
+          19.0,
+          753.0,
+          82.0981
+        ]
+      ],
+      "inertia_unit_density_mm5": [
+        [
+          124787917.64860535,
+          7761379.581680775,
+          -54.638800621032715
+        ],
+        [
+          7761379.581680775,
+          110737539.02210411,
+          -261.53488206863403
+        ],
+        [
+          -54.638800621032715,
+          -261.53488206863403,
+          122874164.22654724
+        ]
+      ],
+      "finite": true
+    },
+    {
+      "file": "Robot Arm EB300 - 6283770 - part 1 of 3\\files\\27_update.stl",
+      "faces": 10766,
+      "vertices_after_in_memory_merge": 5650,
+      "watertight": false,
+      "winding_consistent": false,
+      "is_volume": false,
+      "volume_mm3": 84934.32816928923,
+      "center_mass_mm": [
+        -111.97870877642912,
+        721.2403585179715,
+        44.09915405159473
+      ],
+      "bounds_mm": [
+        [
+          -160.0,
+          673.0,
+          6.0981
+        ],
+        [
+          -77.0,
+          768.0,
+          82.0981
+        ]
+      ],
+      "inertia_unit_density_mm5": [
+        [
+          110659787.22718048,
+          7748786.4553871155,
+          -1152.0023268461227
+        ],
+        [
+          7748786.4553871155,
+          124687773.30283856,
+          2930.3126406669617
+        ],
+        [
+          -1152.0023268461227,
+          2930.3126406669617,
+          122696334.96494293
+        ]
+      ],
+      "finite": true
+    },
+    {
+      "file": "Robot Arm EB300 - 6283770 - part 3 of 3\\files\\31_update.stl",
+      "faces": 10766,
+      "vertices_after_in_memory_merge": 5655,
+      "watertight": false,
+      "winding_consistent": false,
+      "is_volume": false,
+      "volume_mm3": 84934.43478721421,
+      "center_mass_mm": [
+        -128.23937404364054,
+        804.0125039020842,
+        44.02627506630457
+      ],
+      "bounds_mm": [
+        [
+          -175.0,
+          769.0293,
+          6.0274
+        ],
+        [
+          -80.0,
+          852.0293,
+          82.0274
+        ]
+      ],
+      "inertia_unit_density_mm5": [
+        [
+          124272712.50003815,
+          7709123.160396576,
+          -26.364371120929718
+        ],
+        [
+          7709123.160396576,
+          110737924.17393804,
+          -4062.531138420105
+        ],
+        [
+          -26.364371120929718,
+          -4062.531138420105,
+          122358932.28430939
+        ]
+      ],
+      "finite": true
+    },
+    {
+      "file": "Adaptive Robot Gripper EBG-20 - 6460227\\files\\002.stl",
+      "faces": 18116,
+      "vertices_after_in_memory_merge": 9130,
+      "watertight": false,
+      "winding_consistent": false,
+      "is_volume": false,
+      "volume_mm3": 48167.76097394192,
+      "center_mass_mm": [
+        99.09907892411228,
+        99.98007984510532,
+        18.863041060650815
+      ],
+      "bounds_mm": [
+        [
+          57.5,
+          67.5,
+          0.0
+        ],
+        [
+          142.5,
+          132.5,
+          52.0
+        ]
+      ],
+      "inertia_unit_density_mm5": [
+        [
+          31841668.104482412,
+          -22830.75739246607,
+          -829467.374370575
+        ],
+        [
+          -22830.75739246607,
+          47837146.173279166,
+          -2549.1938119083643
+        ],
+        [
+          -829467.374370575,
+          -2549.1938119083643,
+          52548201.74706936
+        ]
+      ],
+      "finite": true
+    },
+    {
+      "file": "Adaptive Robot Gripper EBG-20 - 6460227\\files\\003.stl",
+      "faces": 6316,
+      "vertices_after_in_memory_merge": 3335,
+      "watertight": false,
+      "winding_consistent": false,
+      "is_volume": false,
+      "volume_mm3": 40169.85513296008,
+      "center_mass_mm": [
+        101.34347317284941,
+        100.1244587023354,
+        7.654001369187802
+      ],
+      "bounds_mm": [
+        [
+          57.5,
+          74.5,
+          0.0
+        ],
+        [
+          142.5,
+          125.5,
+          20.5
+        ]
+      ],
+      "inertia_unit_density_mm5": [
+        [
+          12034164.093130589,
+          69630.96390980482,
+          237667.14599443227
+        ],
+        [
+          69630.96390980482,
+          25950961.80711049,
+          -11523.030748736113
+        ],
+        [
+          237667.14599443227,
+          -11523.030748736113,
+          35494735.41615546
+        ]
+      ],
+      "finite": true
+    },
+    {
+      "file": "Adaptive Robot Gripper EBG-20 - 6460227\\files\\007.stl",
+      "faces": 1992,
+      "vertices_after_in_memory_merge": 994,
+      "watertight": true,
+      "winding_consistent": true,
+      "is_volume": true,
+      "volume_mm3": 3882.562907189998,
+      "center_mass_mm": [
+        99.76751100101714,
+        100.47513596695066,
+        4.826812684620056
+      ],
+      "bounds_mm": [
+        [
+          92.5,
+          85.25,
+          0.0
+        ],
+        [
+          107.5,
+          114.75,
+          10.0
+        ]
+      ],
+      "inertia_unit_density_mm5": [
+        [
+          303994.2808544338,
+          711.0747060626745,
+          987.396362807136
+        ],
+        [
+          711.0747060626745,
+          105551.81258214265,
+          -2103.6146133181173
+        ],
+        [
+          987.396362807136,
+          -2103.6146133181173,
+          345535.59359930456
+        ]
+      ],
+      "finite": true
+    },
+    {
+      "file": "Adaptive Robot Gripper EBG-20 - 6460227\\files\\013.stl",
+      "faces": 8872,
+      "vertices_after_in_memory_merge": 4502,
+      "watertight": false,
+      "winding_consistent": false,
+      "is_volume": false,
+      "volume_mm3": 6689.1196954032275,
+      "center_mass_mm": [
+        102.7474592787731,
+        99.98374488684185,
+        17.223795266749416
+      ],
+      "bounds_mm": [
+        [
+          92.5,
+          89.5,
+          0.0
+        ],
+        [
+          107.5,
+          110.5,
+          40.0
+        ]
+      ],
+      "inertia_unit_density_mm5": [
+        [
+          1247362.8507601023,
+          -8912.897117570043,
+          -109412.72051052935
+        ],
+        [
+          -8912.897117570043,
+          1065945.9496826977,
+          -933.9669875688851
+        ],
+        [
+          -109412.72051052935,
+          -933.9669875688851,
+          339112.8362970054
+        ]
+      ],
+      "finite": true
+    },
+    {
+      "file": "Adaptive Robot Gripper EBG-20 - 6460227\\files\\014.stl",
+      "faces": 4484,
+      "vertices_after_in_memory_merge": 2272,
+      "watertight": false,
+      "winding_consistent": false,
+      "is_volume": false,
+      "volume_mm3": 2215.30386537012,
+      "center_mass_mm": [
+        100.0124496355345,
+        100.00000924178993,
+        1.6913143677769544
+      ],
+      "bounds_mm": [
+        [
+          90.5,
+          81.0,
+          0.0
+        ],
+        [
+          109.5,
+          119.0,
+          3.5
+        ]
+      ],
+      "inertia_unit_density_mm5": [
+        [
+          269076.8581558727,
+          0.018137164413928986,
+          -11.074738963681739
+        ],
+        [
+          0.018137164413928986,
+          74705.77501201257,
+          -0.008837074157781899
+        ],
+        [
+          -11.074738963681739,
+          -0.008837074157781899,
+          339243.92183478177
+        ]
+      ],
+      "finite": true
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "workflow": "MuJoCo4.0.1 MjSpec.from_string(URDF) -> compile -> maintained to_xml serializer; standard relative mesh paths/group3 set in saved XML -> MjModel.from_xml_path without VFS",
+  "path": "RoboHand.Simulator\\robohand_ws\\src\\robohand_description\\urdf\\eb300_cad2.validation.xml",
+  "nq": 6,
+  "nv": 6,
+  "ngeom": 52,
+  "ncam": 1,
+  "gravity": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "scope": "Zero-gravity geometry inspection scene. Floor visual only, camera FOV60deg nominal, no actuator/controller/task. Collision approximations hidden in group3 but remain active. Native URDF is canonical.",
+  "matched_geoms": 51,
+  "reference_geom_translation_delta_m": 4.7294119709384574e-07,
+  "reference_geom_rotation_delta": 8.781879485830757e-07,
+  "urdf_sha256": "f72471ebfc04be5dc3dc6d7461775a30be16ddc1c877083f8909f0d2d07013c1",
+  "scene_sha256": "7aba7c9d4387b47686f6c91906976b36a228152f124d8be5503247a81ce28541"
+}

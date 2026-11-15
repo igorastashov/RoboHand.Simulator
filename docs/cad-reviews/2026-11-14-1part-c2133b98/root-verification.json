@@ -1,0 +1,43 @@
+{
+  "scope": "Independent root review of captured CAD responses and post-audit byte integrity; no repeated CAD invocation.",
+  "manifest_sha256": "cd18ea5cd5ae337c22812a4cd4f9c5285ed12e52ec8bab5e83aab10577992658",
+  "files_in_manifest": 255,
+  "source_and_snapshot_mismatches": [],
+  "source_assembly_sha256": "c2133b98a331749d9bc693e12e561800be17ae545d0c379defbd53a1004f203d",
+  "top_level_components": 10,
+  "occurrences_including_root": 19,
+  "root_mates": 18,
+  "root_invalid_mates": 0,
+  "gripper_standalone_mates": 25,
+  "gripper_standalone_invalid_mates": 0,
+  "stage2_nested_gripper_readback": "rejected: document-context contamination; superseded by standalone stage3",
+  "gripper_unchanged_readonly_before_close": true,
+  "root_unchanged_readonly_before_close": true,
+  "remaining_documents": 0,
+  "codex_config_enabled_tools": 27,
+  "preview": {
+    "snapshot-saved-view.png": {
+      "size": [
+        1381,
+        2400
+      ],
+      "bytes": 492213,
+      "sha256": "9ca37baa43a539e8f7894ead19849105fc7b156d28af37c850c299b14effa116"
+    },
+    "gripper-saved-view.png": {
+      "size": [
+        1136,
+        2076
+      ],
+      "bytes": 132403,
+      "sha256": "d4c26e9c3efb7a6e8559743ac054ede2321fe423b7f60fbaaed8975b1130fc04"
+    }
+  },
+  "evidence_sha256": {
+    "stage1-open-inventory.json": "067206afe3c2099feb1f3808543de20ebd9e2fb6dd8cf9d63ab63119006cd0c7",
+    "stage2-tree-mates-geometry.json": "7c6bd2087e6b5d2a133788ebe72355a2705d69ff206b4e51e6ab6d83e87f726c",
+    "stage3-gripper-own-context.json": "67744c56581c7524fcd9465bb46e74b8b07665ee0dab4196dc4af55a7274f612",
+    "stage4-polygon-counts-close.json": "1e7b60f7274df9d282d092df312110db3321330af93479fbd37259dfffff73ba",
+    "root-matrix-check.json": "47f5593af3e290987c39edb4f390b4df1e577dd9f4de3341aeebddc8121868d5"
+  }
+}

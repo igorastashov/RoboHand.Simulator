@@ -1,0 +1,156 @@
+{
+  "source": "source-drawing.png",
+  "upstream": "adef44fdc41401af3b239a5c9b1a4e108e1a237a",
+  "cad_tools_called": false,
+  "crops": [
+    {
+      "name": "source-crop-quadrant-tl.png",
+      "crop": [
+        0,
+        0,
+        0.55,
+        0.55
+      ],
+      "bytes": 58242
+    },
+    {
+      "name": "source-crop-quadrant-tr.png",
+      "crop": [
+        0.45,
+        0,
+        1,
+        0.55
+      ],
+      "bytes": 52083
+    },
+    {
+      "name": "source-crop-quadrant-bl.png",
+      "crop": [
+        0,
+        0.45,
+        0.55,
+        1
+      ],
+      "bytes": 49984
+    },
+    {
+      "name": "source-crop-quadrant-br.png",
+      "crop": [
+        0.45,
+        0.45,
+        1,
+        1
+      ],
+      "bytes": 65981
+    },
+    {
+      "name": "source-crop-front-upper.png",
+      "crop": [
+        0.14,
+        0.07,
+        0.43,
+        0.38
+      ],
+      "bytes": 17104
+    },
+    {
+      "name": "source-crop-front-lower.png",
+      "crop": [
+        0.105,
+        0.325,
+        0.385,
+        0.735
+      ],
+      "bytes": 29378
+    },
+    {
+      "name": "source-crop-bore-thread.png",
+      "crop": [
+        0.32,
+        0.085,
+        0.69,
+        0.49
+      ],
+      "bytes": 31219
+    },
+    {
+      "name": "source-crop-end-slots.png",
+      "crop": [
+        0.67,
+        0.055,
+        0.97,
+        0.55
+      ],
+      "bytes": 26229
+    },
+    {
+      "name": "source-crop-section-aa.png",
+      "crop": [
+        0.25,
+        0.64,
+        0.44,
+        0.97
+      ],
+      "bytes": 16771
+    },
+    {
+      "name": "source-crop-notes-title.png",
+      "crop": [
+        0.48,
+        0.61,
+        0.985,
+        0.99
+      ],
+      "bytes": 56699
+    }
+  ],
+  "sdk_searches": [
+    {
+      "query": "ksthreaddefinition",
+      "result": {
+        "total": 16,
+        "topics": [
+          "ksthreaddefinition.html",
+          "ksthreaddefinition_alllength.html",
+          "ksthreaddefinition_autodefindr.html",
+          "ksthreaddefinition_dr.html",
+          "ksthreaddefinition_facevalue.html",
+          "ksthreaddefinition_getbaseobject.html",
+          "ksthreaddefinition_getfacebegin.html",
+          "ksthreaddefinition_getfaceend.html",
+          "ksthreaddefinition_length.html",
+          "ksthreaddefinition_methods.html",
+          "ksthreaddefinition_outside.html",
+          "ksthreaddefinition_p.html"
+        ]
+      }
+    },
+    {
+      "query": "ithread",
+      "result": {
+        "total": 128,
+        "topics": [
+          "ithread.html",
+          "ithread_autodiameter.html",
+          "ithread_autolenght.html",
+          "ithread_baseobject.html",
+          "ithread_baseobjectadjustment.html",
+          "ithread_baseobjectadjustmentoffset1.html",
+          "ithread_baseobjectadjustmentoffset2.html",
+          "ithread_direction.html",
+          "ithread_finalborder.html",
+          "ithread_getlimitpoints.html",
+          "ithread_initialborder.html",
+          "ithread_leftthread.html"
+        ]
+      }
+    },
+    {
+      "query": "ksplacement3d",
+      "result": {
+        "total": 0,
+        "topics": []
+      }
+    }
+  ]
+}

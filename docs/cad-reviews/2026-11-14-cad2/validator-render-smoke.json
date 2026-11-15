@@ -1,0 +1,11 @@
+{
+  "scope": "Standard sphere native render, not EB300/Isaac/Redmi validation.",
+  "shape": [
+    240,
+    320,
+    3
+  ],
+  "stddev": 17.034331675974503,
+  "path": "E:\\RoboHand\\tools\\cad-validation-2026-11-14\\standard-sphere-render.png",
+  "passed": true
+}

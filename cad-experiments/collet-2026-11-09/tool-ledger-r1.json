@@ -1,0 +1,17 @@
+{
+  "upstream_commit": "adef44fdc41401af3b239a5c9b1a4e108e1a237a",
+  "source_sha256": "01f8288424ceedbb228f0259e6538d777c20b0a3aabb234becd7495b2288e905",
+  "document_scope": "new own collet only; no attach/list/open/close of other documents",
+  "verification": {
+    "revolved_volume_error_mm3": 2.1827872842550278e-11
+  },
+  "own_document_id": "4db4823fdeb0443aa5fd61d1f6b08c50",
+  "status": "stopped-on-error",
+  "error": "extrude: ['Error executing tool extrude: Feature 9be9c71ade2142e89aafea3513188e15 was created but did not change volume as expected. It remains in the document; inspect direction/intersection.']",
+  "_public_summary": {
+    "omitted": "calls: full SDK/tool response logs retained in local pre-publication archive",
+    "original_sha256": "435a530d17166fe87f8f9f93d472496c9cd5e42ad3c410fb6e93d813d5b1a493",
+    "archive": "RoboHand-Simulator-prepublish-2026-11-15.zip",
+    "archive_member": "RoboHand.Simulator/cad-experiments/collet-2026-11-09/tool-ledger-r1.json"
+  }
+}

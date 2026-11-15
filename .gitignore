@@ -5,3 +5,21 @@ robohand_ws/log/
 __pycache__/
 .vscode/
 .idea/
+
+# Machine-specific Codex MCP paths; documented setup is versioned instead.
+.codex/config.toml
+
+# Local CAD/mesh/preview bundle. Third-party license terms are recorded in
+# meshes/eb300_cad2/licenses; public Git contains descriptions and measurements.
+# Restore the owner's accepted local bundle as documented in publication-scope.
+*.a3d
+*.m3d
+*.stl
+*.step
+*.stp
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.zip
+*.log

@@ -1,0 +1,1396 @@
+{
+  "scope": "READ-ONLY R8 body/mesh visibility inventory root and own new-subassembly contexts; no save/update/rebuild",
+  "updated": "2026-11-15",
+  "frozen_before": [
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\002.m3d",
+      "bytes": 368034,
+      "sha256": "28e87ef3caa028fa2a53d4c193d6854b8aecdf7a7f51d2950683cf8270e7a501"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\003.m3d",
+      "bytes": 132394,
+      "sha256": "9667f180d44c347506024f0da51be181be5154e10220eb281e259f7e6334f216"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\007.m3d",
+      "bytes": 59740,
+      "sha256": "85ede53dc9428e2221f613ad16032fae4e5f9bcbff06e672a4b8e4ab3f5382d8"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\013.m3d",
+      "bytes": 215150,
+      "sha256": "23922a0a5cbdd84df86a4b89a3871f1e9310384985a5ca522a45429859509cb8"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\014.m3d",
+      "bytes": 113967,
+      "sha256": "f578b668e52066133d02760873836738307dba1bb3e3fbab5af536d0d1b159e8"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\gripper20.a3d",
+      "bytes": 47888,
+      "sha256": "c6bf120aff2f1f87da3bdbed2245e2ddf6825112ad7411c93d2d068b9e21e9ec"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\14_update.m3d",
+      "bytes": 184526,
+      "sha256": "29318fe8515d5967f7767418473675ba39902dbdf600f132b2c0af5e06f7895b"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\18_update.m3d",
+      "bytes": 288908,
+      "sha256": "009abb22380fc3a52db34a0a038455ebbf8f6965f6aa639e0c0ed9809d77fe5d"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\1_update.m3d",
+      "bytes": 196139,
+      "sha256": "e55c80e519943e938a772b8bcf524be5ec96d3497bbd327e6d44d4b3914d11bc"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\23_update.m3d",
+      "bytes": 167127,
+      "sha256": "2d7addbca323938e91e1528fbdec11d32e2a5ad633f3e939cd111ed365506c65"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\27_update.m3d",
+      "bytes": 167585,
+      "sha256": "387f03a9c137700cc2cffd54838e12a90affabf1899ae47a0cf97f1e8e9aa57a"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\3_update.m3d",
+      "bytes": 206181,
+      "sha256": "fffceb6857e187dfb47e6510354f90ae3427e59aa4cc83f197ffb4671d75ffb2"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\7_update.m3d",
+      "bytes": 209311,
+      "sha256": "47320b0e314b861db3034a153a0b88d7f5f080eb684b317be155eb14f82d0285"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\tube1.m3d",
+      "bytes": 62364,
+      "sha256": "1396c91f30fe77d4628d1f2cac666aaefdb4be438a65eed36a656944a3f9bed8"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\tube2.m3d",
+      "bytes": 59151,
+      "sha256": "ebb7a0036f468326f30c23a21dfa4b6aab9862fa47451f1a21711b3ab6f8f259"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\EB300-R7-prepared.a3d",
+      "bytes": 70387,
+      "sha256": "5d23a54572186d7eba37a44ecb15b9edc62c220ddd9bcc09c1e4718ccbdd9a1c"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Phone-backing-post-NOMINAL-R2.m3d",
+      "bytes": 37039,
+      "sha256": "ee2d6b03a2f88e83c2443b20ffd2229fb97ea537866b60e629d187194374a947"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Phone-low-arm-NOMINAL-R2.m3d",
+      "bytes": 34760,
+      "sha256": "c9d66f14d5a03bdaa0f8a91e8f201531061ab9acd2c36845703159cc53d47f48"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Redmi8A-envelope-R1.m3d",
+      "bytes": 30453,
+      "sha256": "0380ab0f361e6a21ae31e5ff95435ac5aa02316684df4609f25ae892979d444c"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Typing-holder-NOMINAL-R2.m3d",
+      "bytes": 60084,
+      "sha256": "6235030286c4405ed96438c05bac34d02217ef6c509a8e6351c1c88a2f8cd5ca"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Typing-stylus-NOMINAL-R1.m3d",
+      "bytes": 48044,
+      "sha256": "971217c8f4bca3cacca6b9a37246d89998740cb995734c00c3d243b163a06064"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Wrist2-31-R1-frames.m3d",
+      "bytes": 159864,
+      "sha256": "29b88c645399f74f86bb80aae37e396cb00ae5eb0fd33b0afa32d5c643322c39"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Wrist3-output-NOMINAL-D57-L12-R1.m3d",
+      "bytes": 52075,
+      "sha256": "3d4b6f7a90938fc43b704fe4e6f2eb3bd9a9273ac58161feae661c4a61b78fe1"
+    }
+  ],
+  "contexts": [
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\EB300-R8-jaw-typing.a3d",
+      "occurrences": [
+        {
+          "path": "root/0",
+          "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\1_update.m3d",
+          "bodies": [
+            {
+              "body_id": 2,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 3,
+              "solid": false,
+              "hidden": true
+            }
+          ],
+          "meshes": [
+            {
+              "hidden": false,
+              "valid": true
+            }
+          ]
+        },
+        {
+          "path": "root/1",
+          "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\3_update.m3d",
+          "bodies": [
+            {
+              "body_id": 2,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 3,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 4,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 5,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 6,
+              "solid": false,
+              "hidden": true
+            }
+          ],
+          "meshes": [
+            {
+              "hidden": false,
+              "valid": true
+            }
+          ]
+        },
+        {
+          "path": "root/2",
+          "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\27_update.m3d",
+          "bodies": [
+            {
+              "body_id": 2,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 3,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 4,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 5,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 6,
+              "solid": false,
+              "hidden": true
+            }
+          ],
+          "meshes": [
+            {
+              "hidden": false,
+              "valid": true
+            }
+          ]
+        },
+        {
+          "path": "root/3",
+          "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Wrist2-31-R1-frames.m3d",
+          "bodies": [],
+          "meshes": [
+            {
+              "hidden": false,
+              "valid": true
+            }
+          ]
+        },
+        {
+          "path": "root/4/0",
+          "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\14_update.m3d",
+          "bodies": [
+            {
+              "body_id": 2,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 3,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 4,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 5,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 6,
+              "solid": false,
+              "hidden": true
+            }
+          ],
+          "meshes": [
+            {
+              "hidden": false,
+              "valid": true
+            }
+          ]
+        },
+        {
+          "path": "root/4/1",
+          "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\7_update.m3d",
+          "bodies": [
+            {
+              "body_id": 2,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 3,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 5,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 6,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 7,
+              "solid": false,
+              "hidden": true
+            }
+          ],
+          "meshes": [
+            {
+              "hidden": false,
+              "valid": true
+            }
+          ]
+        },
+        {
+          "path": "root/4/2",
+          "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\tube1.m3d",
+          "bodies": [
+            {
+              "body_id": 1,
+              "solid": true,
+              "hidden": false
+            }
+          ],
+          "meshes": []
+        },
+        {
+          "path": "root/5/0",
+          "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\18_update.m3d",
+          "bodies": [
+            {
+              "body_id": 2,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 3,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 4,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 5,
+              "solid": false,
+              "hidden": true
+            }
+          ],
+          "meshes": [
+            {
+              "hidden": false,
+              "valid": true
+            }
+          ]
+        },
+        {
+          "path": "root/5/1",
+          "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\23_update.m3d",
+          "bodies": [
+            {
+              "body_id": 2,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 3,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 4,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 5,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 6,
+              "solid": false,
+              "hidden": true
+            }
+          ],
+          "meshes": [
+            {
+              "hidden": false,
+              "valid": true
+            }
+          ]
+        },
+        {
+          "path": "root/5/2",
+          "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\tube2.m3d",
+          "bodies": [
+            {
+              "body_id": 1,
+              "solid": true,
+              "hidden": false
+            }
+          ],
+          "meshes": []
+        },
+        {
+          "path": "root/6/0/0",
+          "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\002.m3d",
+          "bodies": [
+            {
+              "body_id": 2,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 3,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 4,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 5,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 6,
+              "solid": false,
+              "hidden": true
+            }
+          ],
+          "meshes": [
+            {
+              "hidden": false,
+              "valid": true
+            }
+          ]
+        },
+        {
+          "path": "root/6/0/1",
+          "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\003.m3d",
+          "bodies": [
+            {
+              "body_id": 2,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 3,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 4,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 5,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 6,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 7,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 8,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 9,
+              "solid": false,
+              "hidden": true
+            }
+          ],
+          "meshes": [
+            {
+              "hidden": false,
+              "valid": true
+            }
+          ]
+        },
+        {
+          "path": "root/6/0/2",
+          "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\007.m3d",
+          "bodies": [
+            {
+              "body_id": 2,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 3,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 4,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 5,
+              "solid": false,
+              "hidden": true
+            }
+          ],
+          "meshes": [
+            {
+              "hidden": false,
+              "valid": true
+            }
+          ]
+        },
+        {
+          "path": "root/6/0/3",
+          "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\013.m3d",
+          "bodies": [
+            {
+              "body_id": 2,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 3,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 4,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 5,
+              "solid": false,
+              "hidden": true
+            }
+          ],
+          "meshes": [
+            {
+              "hidden": false,
+              "valid": true
+            }
+          ]
+        },
+        {
+          "path": "root/6/0/4",
+          "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\014.m3d",
+          "bodies": [
+            {
+              "body_id": 2,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 3,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 4,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 5,
+              "solid": false,
+              "hidden": true
+            }
+          ],
+          "meshes": [
+            {
+              "hidden": false,
+              "valid": true
+            }
+          ]
+        },
+        {
+          "path": "root/6/0/5",
+          "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\013.m3d",
+          "bodies": [
+            {
+              "body_id": 2,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 3,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 4,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 5,
+              "solid": false,
+              "hidden": true
+            }
+          ],
+          "meshes": [
+            {
+              "hidden": false,
+              "valid": true
+            }
+          ]
+        },
+        {
+          "path": "root/6/0/6",
+          "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\007.m3d",
+          "bodies": [
+            {
+              "body_id": 2,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 3,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 4,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 5,
+              "solid": false,
+              "hidden": true
+            }
+          ],
+          "meshes": [
+            {
+              "hidden": false,
+              "valid": true
+            }
+          ]
+        },
+        {
+          "path": "root/6/0/7",
+          "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\014.m3d",
+          "bodies": [
+            {
+              "body_id": 2,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 3,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 4,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 5,
+              "solid": false,
+              "hidden": true
+            }
+          ],
+          "meshes": [
+            {
+              "hidden": false,
+              "valid": true
+            }
+          ]
+        },
+        {
+          "path": "root/6/1",
+          "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Wrist3-output-NOMINAL-D57-L12-R1.m3d",
+          "bodies": [
+            {
+              "body_id": 1,
+              "solid": true,
+              "hidden": false
+            }
+          ],
+          "meshes": []
+        },
+        {
+          "path": "root/6/2",
+          "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Redmi8A-envelope-R1.m3d",
+          "bodies": [
+            {
+              "body_id": 1,
+              "solid": true,
+              "hidden": false
+            }
+          ],
+          "meshes": []
+        },
+        {
+          "path": "root/6/3",
+          "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Phone-low-arm-NOMINAL-R2.m3d",
+          "bodies": [
+            {
+              "body_id": 1,
+              "solid": true,
+              "hidden": false
+            }
+          ],
+          "meshes": []
+        },
+        {
+          "path": "root/6/4",
+          "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Phone-backing-post-NOMINAL-R2.m3d",
+          "bodies": [
+            {
+              "body_id": 2,
+              "solid": true,
+              "hidden": false
+            }
+          ],
+          "meshes": []
+        }
+      ],
+      "open_bodies": 68,
+      "hidden_open_bodies": 68,
+      "solid_bodies": 6,
+      "visible_solids": 6,
+      "meshes": 16,
+      "visible_meshes": 16
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\EB300-R8-upper-rigid-smoke.a3d",
+      "changed": false,
+      "occurrences": [
+        {
+          "path": "root/0",
+          "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\14_update.m3d",
+          "bodies": [
+            {
+              "body_id": 2,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 3,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 4,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 5,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 6,
+              "solid": false,
+              "hidden": true
+            }
+          ],
+          "meshes": [
+            {
+              "hidden": false,
+              "valid": true
+            }
+          ]
+        },
+        {
+          "path": "root/1",
+          "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\7_update.m3d",
+          "bodies": [
+            {
+              "body_id": 2,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 3,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 5,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 6,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 7,
+              "solid": false,
+              "hidden": true
+            }
+          ],
+          "meshes": [
+            {
+              "hidden": false,
+              "valid": true
+            }
+          ]
+        },
+        {
+          "path": "root/2",
+          "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\tube1.m3d",
+          "bodies": [
+            {
+              "body_id": 1,
+              "solid": true,
+              "hidden": false
+            }
+          ],
+          "meshes": []
+        }
+      ],
+      "open_bodies": 10,
+      "hidden_open_bodies": 10,
+      "solid_bodies": 1,
+      "visible_solids": 1,
+      "meshes": 2,
+      "visible_meshes": 2
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\EB300-R8-forearm.a3d",
+      "changed": false,
+      "occurrences": [
+        {
+          "path": "root/0",
+          "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\18_update.m3d",
+          "bodies": [
+            {
+              "body_id": 2,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 3,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 4,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 5,
+              "solid": false,
+              "hidden": true
+            }
+          ],
+          "meshes": [
+            {
+              "hidden": false,
+              "valid": true
+            }
+          ]
+        },
+        {
+          "path": "root/1",
+          "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\23_update.m3d",
+          "bodies": [
+            {
+              "body_id": 2,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 3,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 4,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 5,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 6,
+              "solid": false,
+              "hidden": true
+            }
+          ],
+          "meshes": [
+            {
+              "hidden": false,
+              "valid": true
+            }
+          ]
+        },
+        {
+          "path": "root/2",
+          "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\tube2.m3d",
+          "bodies": [
+            {
+              "body_id": 1,
+              "solid": true,
+              "hidden": false
+            }
+          ],
+          "meshes": []
+        }
+      ],
+      "open_bodies": 9,
+      "hidden_open_bodies": 9,
+      "solid_bodies": 1,
+      "visible_solids": 1,
+      "meshes": 2,
+      "visible_meshes": 2
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\EB300-R8-end-effector.a3d",
+      "changed": false,
+      "occurrences": [
+        {
+          "path": "root/0/0",
+          "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\002.m3d",
+          "bodies": [
+            {
+              "body_id": 2,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 3,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 4,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 5,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 6,
+              "solid": false,
+              "hidden": true
+            }
+          ],
+          "meshes": [
+            {
+              "hidden": false,
+              "valid": true
+            }
+          ]
+        },
+        {
+          "path": "root/0/1",
+          "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\003.m3d",
+          "bodies": [
+            {
+              "body_id": 2,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 3,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 4,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 5,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 6,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 7,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 8,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 9,
+              "solid": false,
+              "hidden": true
+            }
+          ],
+          "meshes": [
+            {
+              "hidden": false,
+              "valid": true
+            }
+          ]
+        },
+        {
+          "path": "root/0/2",
+          "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\007.m3d",
+          "bodies": [
+            {
+              "body_id": 2,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 3,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 4,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 5,
+              "solid": false,
+              "hidden": true
+            }
+          ],
+          "meshes": [
+            {
+              "hidden": false,
+              "valid": true
+            }
+          ]
+        },
+        {
+          "path": "root/0/3",
+          "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\013.m3d",
+          "bodies": [
+            {
+              "body_id": 2,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 3,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 4,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 5,
+              "solid": false,
+              "hidden": true
+            }
+          ],
+          "meshes": [
+            {
+              "hidden": false,
+              "valid": true
+            }
+          ]
+        },
+        {
+          "path": "root/0/4",
+          "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\014.m3d",
+          "bodies": [
+            {
+              "body_id": 2,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 3,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 4,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 5,
+              "solid": false,
+              "hidden": true
+            }
+          ],
+          "meshes": [
+            {
+              "hidden": false,
+              "valid": true
+            }
+          ]
+        },
+        {
+          "path": "root/0/5",
+          "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\013.m3d",
+          "bodies": [
+            {
+              "body_id": 2,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 3,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 4,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 5,
+              "solid": false,
+              "hidden": true
+            }
+          ],
+          "meshes": [
+            {
+              "hidden": false,
+              "valid": true
+            }
+          ]
+        },
+        {
+          "path": "root/0/6",
+          "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\007.m3d",
+          "bodies": [
+            {
+              "body_id": 2,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 3,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 4,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 5,
+              "solid": false,
+              "hidden": true
+            }
+          ],
+          "meshes": [
+            {
+              "hidden": false,
+              "valid": true
+            }
+          ]
+        },
+        {
+          "path": "root/0/7",
+          "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\014.m3d",
+          "bodies": [
+            {
+              "body_id": 2,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 3,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 4,
+              "solid": false,
+              "hidden": true
+            },
+            {
+              "body_id": 5,
+              "solid": false,
+              "hidden": true
+            }
+          ],
+          "meshes": [
+            {
+              "hidden": false,
+              "valid": true
+            }
+          ]
+        },
+        {
+          "path": "root/1",
+          "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Wrist3-output-NOMINAL-D57-L12-R1.m3d",
+          "bodies": [
+            {
+              "body_id": 1,
+              "solid": true,
+              "hidden": false
+            }
+          ],
+          "meshes": []
+        },
+        {
+          "path": "root/2",
+          "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Redmi8A-envelope-R1.m3d",
+          "bodies": [
+            {
+              "body_id": 1,
+              "solid": true,
+              "hidden": false
+            }
+          ],
+          "meshes": []
+        },
+        {
+          "path": "root/3",
+          "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Phone-low-arm-NOMINAL-R2.m3d",
+          "bodies": [
+            {
+              "body_id": 1,
+              "solid": true,
+              "hidden": false
+            }
+          ],
+          "meshes": []
+        },
+        {
+          "path": "root/4",
+          "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Phone-backing-post-NOMINAL-R2.m3d",
+          "bodies": [
+            {
+              "body_id": 2,
+              "solid": true,
+              "hidden": false
+            }
+          ],
+          "meshes": []
+        }
+      ],
+      "open_bodies": 37,
+      "hidden_open_bodies": 37,
+      "solid_bodies": 4,
+      "visible_solids": 4,
+      "meshes": 8,
+      "visible_meshes": 8
+    }
+  ],
+  "root_changed_after": false,
+  "root_sha256_before": "c6b0003ee6e4a8774d6d51577289e323eeb2001b7d75c71a586b48703deba774",
+  "root_sha256_after": "c6b0003ee6e4a8774d6d51577289e323eeb2001b7d75c71a586b48703deba774",
+  "frozen_after": [
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\002.m3d",
+      "bytes": 368034,
+      "sha256": "28e87ef3caa028fa2a53d4c193d6854b8aecdf7a7f51d2950683cf8270e7a501"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\003.m3d",
+      "bytes": 132394,
+      "sha256": "9667f180d44c347506024f0da51be181be5154e10220eb281e259f7e6334f216"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\007.m3d",
+      "bytes": 59740,
+      "sha256": "85ede53dc9428e2221f613ad16032fae4e5f9bcbff06e672a4b8e4ab3f5382d8"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\013.m3d",
+      "bytes": 215150,
+      "sha256": "23922a0a5cbdd84df86a4b89a3871f1e9310384985a5ca522a45429859509cb8"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\014.m3d",
+      "bytes": 113967,
+      "sha256": "f578b668e52066133d02760873836738307dba1bb3e3fbab5af536d0d1b159e8"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\gripper20.a3d",
+      "bytes": 47888,
+      "sha256": "c6bf120aff2f1f87da3bdbed2245e2ddf6825112ad7411c93d2d068b9e21e9ec"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\14_update.m3d",
+      "bytes": 184526,
+      "sha256": "29318fe8515d5967f7767418473675ba39902dbdf600f132b2c0af5e06f7895b"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\18_update.m3d",
+      "bytes": 288908,
+      "sha256": "009abb22380fc3a52db34a0a038455ebbf8f6965f6aa639e0c0ed9809d77fe5d"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\1_update.m3d",
+      "bytes": 196139,
+      "sha256": "e55c80e519943e938a772b8bcf524be5ec96d3497bbd327e6d44d4b3914d11bc"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\23_update.m3d",
+      "bytes": 167127,
+      "sha256": "2d7addbca323938e91e1528fbdec11d32e2a5ad633f3e939cd111ed365506c65"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\27_update.m3d",
+      "bytes": 167585,
+      "sha256": "387f03a9c137700cc2cffd54838e12a90affabf1899ae47a0cf97f1e8e9aa57a"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\3_update.m3d",
+      "bytes": 206181,
+      "sha256": "fffceb6857e187dfb47e6510354f90ae3427e59aa4cc83f197ffb4671d75ffb2"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\7_update.m3d",
+      "bytes": 209311,
+      "sha256": "47320b0e314b861db3034a153a0b88d7f5f080eb684b317be155eb14f82d0285"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\tube1.m3d",
+      "bytes": 62364,
+      "sha256": "1396c91f30fe77d4628d1f2cac666aaefdb4be438a65eed36a656944a3f9bed8"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\tube2.m3d",
+      "bytes": 59151,
+      "sha256": "ebb7a0036f468326f30c23a21dfa4b6aab9862fa47451f1a21711b3ab6f8f259"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\EB300-R7-prepared.a3d",
+      "bytes": 70387,
+      "sha256": "5d23a54572186d7eba37a44ecb15b9edc62c220ddd9bcc09c1e4718ccbdd9a1c"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Phone-backing-post-NOMINAL-R2.m3d",
+      "bytes": 37039,
+      "sha256": "ee2d6b03a2f88e83c2443b20ffd2229fb97ea537866b60e629d187194374a947"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Phone-low-arm-NOMINAL-R2.m3d",
+      "bytes": 34760,
+      "sha256": "c9d66f14d5a03bdaa0f8a91e8f201531061ab9acd2c36845703159cc53d47f48"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Redmi8A-envelope-R1.m3d",
+      "bytes": 30453,
+      "sha256": "0380ab0f361e6a21ae31e5ff95435ac5aa02316684df4609f25ae892979d444c"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Typing-holder-NOMINAL-R2.m3d",
+      "bytes": 60084,
+      "sha256": "6235030286c4405ed96438c05bac34d02217ef6c509a8e6351c1c88a2f8cd5ca"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Typing-stylus-NOMINAL-R1.m3d",
+      "bytes": 48044,
+      "sha256": "971217c8f4bca3cacca6b9a37246d89998740cb995734c00c3d243b163a06064"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Wrist2-31-R1-frames.m3d",
+      "bytes": 159864,
+      "sha256": "29b88c645399f74f86bb80aae37e396cb00ae5eb0fd33b0afa32d5c643322c39"
+    },
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Wrist3-output-NOMINAL-D57-L12-R1.m3d",
+      "bytes": 52075,
+      "sha256": "3d4b6f7a90938fc43b704fe4e6f2eb3bd9a9273ac58161feae661c4a61b78fe1"
+    }
+  ],
+  "status": "readonly_inventory_completed",
+  "_public_summary": {
+    "omitted": "calls: full SDK/tool response logs retained in local pre-publication archive",
+    "original_sha256": "9800277ea0787ac85b59f27034a82e1c57a8b569676bd4035fc148a560e75f71",
+    "archive": "RoboHand-Simulator-prepublish-2026-11-15.zip",
+    "archive_member": "RoboHand.Simulator/docs/cad-reviews/2026-11-15-logical-r8/r8-visibility-readonly.json"
+  }
+}

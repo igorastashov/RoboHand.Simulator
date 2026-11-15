@@ -1,0 +1,39 @@
+{
+  "source": "collet-r7.stl",
+  "binary_facets": 1728,
+  "bounds_mm": [
+    [
+      -8.326672684688674e-17,
+      90.0
+    ],
+    [
+      -26.236234664916992,
+      26.25
+    ],
+    [
+      -26.246559143066406,
+      26.246559143066406
+    ]
+  ],
+  "lengths_mm": [
+    90.0,
+    52.48623466491699,
+    52.49311828613281
+  ],
+  "signed_volume_mm3": 48174.649539211394,
+  "volume_mm3": 48174.649539211394,
+  "cad_volume_mm3": 48247.789214051445,
+  "mesh_volume_error_percent": -0.15159176416470466,
+  "edge_vertex_rounding_mm": 1e-05,
+  "boundary_edges": 0,
+  "nonmanifold_edges": 0,
+  "degenerate_after_rounding": 0,
+  "same_triangle_payload_as_r5": true,
+  "stl_sha256": "f9229d0542fd04064739570133b2142fb880b4c145a4cc24fd4851df307b2bab",
+  "step_solid_brep_count": 1,
+  "step_unit_records": [
+    "#9=(LENGTH_UNIT()NAMED_UNIT(*)SI_UNIT(.MILLI.,.METRE.));",
+    "#11=(NAMED_UNIT(*)PLANE_ANGLE_UNIT()SI_UNIT($,.RADIAN.));",
+    "#12=(NAMED_UNIT(*)SI_UNIT($,.STERADIAN.)SOLID_ANGLE_UNIT());"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "scope": "Diagnostic in-memory copy only, no STL/CAD file mutation. Large open boundaries are not blindly filled.",
+  "after_stock_fix_normals": {
+    "watertight": false,
+    "winding_consistent": true
+  },
+  "boundary_loops": [
+    {
+      "vertices": 4,
+      "bbox_max_mm": 11.9261
+    },
+    {
+      "vertices": 72,
+      "bbox_max_mm": 3.5
+    },
+    {
+      "vertices": 72,
+      "bbox_max_mm": 3.5
+    },
+    {
+      "vertices": 72,
+      "bbox_max_mm": 3.5
+    },
+    {
+      "vertices": 72,
+      "bbox_max_mm": 3.5
+    },
+    {
+      "vertices": 72,
+      "bbox_max_mm": 3.5
+    },
+    {
+      "vertices": 72,
+      "bbox_max_mm": 3.5
+    },
+    {
+      "vertices": 72,
+      "bbox_max_mm": 3.5
+    },
+    {
+      "vertices": 72,
+      "bbox_max_mm": 3.5
+    },
+    {
+      "vertices": 4,
+      "bbox_max_mm": 2.289200000000001
+    },
+    {
+      "vertices": 4,
+      "bbox_max_mm": 2.187000000000012
+    }
+  ],
+  "loop_count": 11
+}

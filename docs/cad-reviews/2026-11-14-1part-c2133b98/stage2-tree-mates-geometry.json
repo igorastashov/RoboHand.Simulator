@@ -1,0 +1,4259 @@
+{
+  "scope": "already-open exact read-only snapshot; getter calls only; no open/save/rebuild/solve/activation",
+  "tree": [
+    {
+      "occurrence_path": "root",
+      "parent_path": null,
+      "handle": "4d746801b1ad4d55b178a4f9fbb09db4",
+      "Name": "Сборка",
+      "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\1part.a3d",
+      "Detail": false,
+      "Fixed": false,
+      "ReadOnly": -1,
+      "LoadState": 0,
+      "Valid": true,
+      "Hidden": false,
+      "UniqueNum": {
+        "unavailable": [
+          "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+        ]
+      },
+      "IsLocal": false,
+      "dependency_exists": true,
+      "dependency_in_snapshot": true,
+      "placement_matrix_raw": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "placement_origin_raw": [
+        true,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "top_GetSummMatrix_component_raw": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "full_bounds_ignoring_visibility_raw": [
+        true,
+        -201.86045104099776,
+        -46.0,
+        -434.8010762686339,
+        111.15942640137798,
+        832.7060253367673,
+        119.09809875488281
+      ],
+      "solid_bounds_raw": [
+        true,
+        -201.86045104099776,
+        -46.0,
+        -434.8010762686339,
+        111.15942640137798,
+        832.7060253367673,
+        119.09809875488281
+      ],
+      "child_count": 10
+    },
+    {
+      "occurrence_path": "root/0",
+      "parent_path": "root",
+      "handle": "759e086d5b1741deb390f63f9ebfc34c",
+      "Name": "1_update",
+      "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\1_update.m3d",
+      "Detail": true,
+      "Fixed": true,
+      "ReadOnly": 0,
+      "LoadState": 0,
+      "Valid": true,
+      "Hidden": false,
+      "UniqueNum": {
+        "unavailable": [
+          "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+        ]
+      },
+      "IsLocal": false,
+      "dependency_exists": true,
+      "dependency_in_snapshot": true,
+      "placement_matrix_raw": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "placement_origin_raw": [
+        true,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "top_GetSummMatrix_component_raw": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "full_bounds_ignoring_visibility_raw": [
+        true,
+        -75.0,
+        -46.0,
+        -30.901899337768555,
+        75.0,
+        -8.499999999999995,
+        119.09809875488281
+      ],
+      "solid_bounds_raw": [
+        true,
+        -75.0,
+        -46.0,
+        -30.901899337768555,
+        75.0,
+        -8.499999999999995,
+        119.09809875488281
+      ]
+    },
+    {
+      "occurrence_path": "root/1",
+      "parent_path": "root",
+      "handle": "c801276f766a429687ea33e991d09b44",
+      "Name": "3_update",
+      "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\3_update.m3d",
+      "Detail": true,
+      "Fixed": false,
+      "ReadOnly": 0,
+      "LoadState": 0,
+      "Valid": true,
+      "Hidden": false,
+      "UniqueNum": {
+        "unavailable": [
+          "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+        ]
+      },
+      "IsLocal": false,
+      "dependency_exists": true,
+      "dependency_in_snapshot": true,
+      "placement_matrix_raw": [
+        0.9985450966922236,
+        -6.444535397534595e-17,
+        0.05392299947070618,
+        0.0,
+        6.125306557155438e-17,
+        1.0,
+        6.08533417074764e-17,
+        0.0,
+        -0.05392299947070625,
+        -5.746184825644978e-17,
+        0.9985450966922236,
+        0.0,
+        2.3779061547132785,
+        1.412203687323199e-13,
+        0.06416257489306787,
+        1.0
+      ],
+      "placement_origin_raw": [
+        true,
+        2.3779061547132785,
+        1.412203687323199e-13,
+        0.06416257489306787
+      ],
+      "top_GetSummMatrix_component_raw": [
+        0.9985450966922236,
+        -6.444535397534595e-17,
+        0.05392299947070618,
+        0.0,
+        6.125306557155438e-17,
+        1.0,
+        6.08533417074764e-17,
+        0.0,
+        -0.05392299947070625,
+        -5.746184825644978e-17,
+        0.9985450966922236,
+        0.0,
+        2.3779061547132785,
+        1.412203687323199e-13,
+        0.06416257489306787,
+        1.0
+      ],
+      "full_bounds_ignoring_visibility_raw": [
+        true,
+        -67.61047207985423,
+        -18.275857486393072,
+        -18.717425731751064,
+        62.517900833088085,
+        108.40000000000015,
+        106.6386251067986
+      ],
+      "solid_bounds_raw": [
+        true,
+        -67.61047207985423,
+        -18.275857486393072,
+        -18.717425731751064,
+        62.517900833088085,
+        108.40000000000015,
+        106.6386251067986
+      ]
+    },
+    {
+      "occurrence_path": "root/2",
+      "parent_path": "root",
+      "handle": "ba04b1d63baa43a5a67e8d529a31701c",
+      "Name": "14_update",
+      "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\14_update.m3d",
+      "Detail": true,
+      "Fixed": false,
+      "ReadOnly": 0,
+      "LoadState": 0,
+      "Valid": true,
+      "Hidden": false,
+      "UniqueNum": {
+        "unavailable": [
+          "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+        ]
+      },
+      "IsLocal": false,
+      "dependency_exists": true,
+      "dependency_in_snapshot": true,
+      "placement_matrix_raw": [
+        0.49094969316405457,
+        -0.29048102723582486,
+        -0.8213337759998348,
+        0.0,
+        0.017500073833850133,
+        0.9458725860032041,
+        -0.32406604028103775,
+        0.0,
+        0.871012138949815,
+        0.14472672131863368,
+        0.4694592952945219,
+        0.0,
+        -101.19409961493791,
+        -39.168612540156516,
+        -67.50627093077466,
+        1.0
+      ],
+      "placement_origin_raw": [
+        true,
+        -101.19409961493791,
+        -39.168612540156516,
+        -67.50627093077466
+      ],
+      "top_GetSummMatrix_component_raw": [
+        0.49094969316405457,
+        -0.29048102723582486,
+        -0.8213337759998348,
+        0.0,
+        0.017500073833850133,
+        0.9458725860032041,
+        -0.32406604028103775,
+        0.0,
+        0.871012138949815,
+        0.14472672131863368,
+        0.4694592952945219,
+        0.0,
+        -101.19409961493791,
+        -39.168612540156516,
+        -67.50627093077466,
+        1.0
+      ],
+      "full_bounds_ignoring_visibility_raw": [
+        true,
+        -201.86045104099776,
+        288.6995530778515,
+        -178.54512321860472,
+        -29.34743527395422,
+        462.5989438765019,
+        29.10755611761303
+      ],
+      "solid_bounds_raw": [
+        true,
+        -201.86045104099776,
+        288.6995530778515,
+        -178.54512321860472,
+        -29.34743527395422,
+        462.5989438765019,
+        29.10755611761303
+      ]
+    },
+    {
+      "occurrence_path": "root/3",
+      "parent_path": "root",
+      "handle": "22579e25b2d84738a41705a95df2b4d4",
+      "Name": "18_update",
+      "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\18_update.m3d",
+      "Detail": true,
+      "Fixed": false,
+      "ReadOnly": 0,
+      "LoadState": 0,
+      "Valid": true,
+      "Hidden": false,
+      "UniqueNum": {
+        "unavailable": [
+          "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+        ]
+      },
+      "IsLocal": false,
+      "dependency_exists": true,
+      "dependency_in_snapshot": true,
+      "placement_matrix_raw": [
+        0.49094969316405923,
+        -0.29048102723582764,
+        -0.8213337759998427,
+        0.0,
+        0.04483671746288785,
+        0.9499499981203953,
+        -0.30916770503766083,
+        0.0,
+        0.870033371514744,
+        0.11495987946723259,
+        0.4794018758448897,
+        0.0,
+        -112.00358421504585,
+        -39.474688556447916,
+        -73.85935663665416,
+        1.0
+      ],
+      "placement_origin_raw": [
+        true,
+        -112.00358421504585,
+        -39.474688556447916,
+        -73.85935663665416
+      ],
+      "top_GetSummMatrix_component_raw": [
+        0.49094969316405923,
+        -0.29048102723582764,
+        -0.8213337759998427,
+        0.0,
+        0.04483671746288785,
+        0.9499499981203953,
+        -0.30916770503766083,
+        0.0,
+        0.870033371514744,
+        0.11495987946723259,
+        0.4794018758448897,
+        0.0,
+        -112.00358421504585,
+        -39.474688556447916,
+        -73.85935663665416,
+        1.0
+      ],
+      "full_bounds_ignoring_visibility_raw": [
+        true,
+        -142.0474172070627,
+        274.04023568325607,
+        -237.6499855141356,
+        7.682543397293571,
+        424.83574321267383,
+        -75.3044152272816
+      ],
+      "solid_bounds_raw": [
+        true,
+        -142.0474172070627,
+        274.04023568325607,
+        -237.6499855141356,
+        7.682543397293571,
+        424.83574321267383,
+        -75.3044152272816
+      ]
+    },
+    {
+      "occurrence_path": "root/4",
+      "parent_path": "root",
+      "handle": "5545c274661b4a4aa8f22eaa4d92174b",
+      "Name": "23_update",
+      "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\23_update.m3d",
+      "Detail": true,
+      "Fixed": false,
+      "ReadOnly": 0,
+      "LoadState": 0,
+      "Valid": true,
+      "Hidden": false,
+      "UniqueNum": {
+        "unavailable": [
+          "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+        ]
+      },
+      "IsLocal": false,
+      "dependency_exists": true,
+      "dependency_in_snapshot": true,
+      "placement_matrix_raw": [
+        -0.9781138371321781,
+        0.10468827061188335,
+        0.17981570456130685,
+        0.0,
+        0.04483671746288483,
+        0.9499499981203866,
+        -0.30916770503765756,
+        0.0,
+        -0.20318216057946226,
+        -0.29433886435092865,
+        -0.9338531161563279,
+        0.0,
+        -98.33996129908584,
+        -8.50475610143053,
+        10.342579249435264,
+        1.0
+      ],
+      "placement_origin_raw": [
+        true,
+        -98.33996129908584,
+        -8.50475610143053,
+        10.342579249435264
+      ],
+      "top_GetSummMatrix_component_raw": [
+        -0.9781138371321781,
+        0.10468827061188335,
+        0.17981570456130685,
+        0.0,
+        0.04483671746288483,
+        0.9499499981203866,
+        -0.30916770503765756,
+        0.0,
+        -0.20318216057946226,
+        -0.29433886435092865,
+        -0.9338531161563279,
+        0.0,
+        -98.33996129908584,
+        -8.50475610143053,
+        10.342579249435264,
+        1.0
+      ],
+      "full_bounds_ignoring_visibility_raw": [
+        true,
+        -113.08231645702372,
+        593.4346131463253,
+        -319.25989840717773,
+        18.71198789698026,
+        712.6773664247112,
+        -193.7895871915407
+      ],
+      "solid_bounds_raw": [
+        true,
+        -113.08231645702372,
+        593.4346131463253,
+        -319.25989840717773,
+        18.71198789698026,
+        712.6773664247112,
+        -193.7895871915407
+      ]
+    },
+    {
+      "occurrence_path": "root/5",
+      "parent_path": "root",
+      "handle": "9a37b8f80a3544da895e482ba22f6469",
+      "Name": "27_update",
+      "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\27_update.m3d",
+      "Detail": true,
+      "Fixed": false,
+      "ReadOnly": 0,
+      "LoadState": 0,
+      "Valid": true,
+      "Hidden": false,
+      "UniqueNum": {
+        "unavailable": [
+          "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+        ]
+      },
+      "IsLocal": false,
+      "dependency_exists": true,
+      "dependency_in_snapshot": true,
+      "placement_matrix_raw": [
+        -0.9781138371321781,
+        0.10468827061188332,
+        0.1798157045613068,
+        0.0,
+        -0.028979191875957325,
+        0.7872415301267073,
+        -0.6159634564501318,
+        0.0,
+        -0.2060425394155335,
+        -0.6076932937264292,
+        -0.766978052300812,
+        0.0,
+        -45.43545142128239,
+        121.6501186948957,
+        222.34266287419445,
+        1.0
+      ],
+      "placement_origin_raw": [
+        true,
+        -45.43545142128239,
+        121.6501186948957,
+        222.34266287419445
+      ],
+      "top_GetSummMatrix_component_raw": [
+        -0.9781138371321781,
+        0.10468827061188332,
+        0.1798157045613068,
+        0.0,
+        -0.028979191875957325,
+        0.7872415301267073,
+        -0.6159634564501318,
+        0.0,
+        -0.2060425394155335,
+        -0.6076932937264292,
+        -0.766978052300812,
+        0.0,
+        -45.43545142128239,
+        121.6501186948957,
+        222.34266287419445,
+        1.0
+      ],
+      "full_bounds_ignoring_visibility_raw": [
+        true,
+        -10.65339874758319,
+        575.0633886995229,
+        -351.91241582835033,
+        95.07235969298799,
+        724.2945701451747,
+        -202.22166456795713
+      ],
+      "solid_bounds_raw": [
+        true,
+        -10.65339874758319,
+        575.0633886995229,
+        -351.91241582835033,
+        95.07235969298799,
+        724.2945701451747,
+        -202.22166456795713
+      ]
+    },
+    {
+      "occurrence_path": "root/6",
+      "parent_path": "root",
+      "handle": "bf61ff8b10364c19aaaf4b3ebc1593d9",
+      "Name": "7_update",
+      "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\7_update.m3d",
+      "Detail": true,
+      "Fixed": false,
+      "ReadOnly": 0,
+      "LoadState": 0,
+      "Valid": true,
+      "Hidden": false,
+      "UniqueNum": {
+        "unavailable": [
+          "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+        ]
+      },
+      "IsLocal": false,
+      "dependency_exists": true,
+      "dependency_in_snapshot": true,
+      "placement_matrix_raw": [
+        -0.017500073833853415,
+        -0.9458725860032091,
+        0.3240660402810541,
+        0.0,
+        -0.998545096692231,
+        1.0711887685654732e-16,
+        -0.05392299947070662,
+        0.0,
+        0.05100428695439974,
+        -0.324538211999188,
+        -0.9444964328491067,
+        0.0,
+        -75.14297709565437,
+        63.311511484941256,
+        81.8121718506006,
+        1.0
+      ],
+      "placement_origin_raw": [
+        true,
+        -75.14297709565437,
+        63.311511484941256,
+        81.8121718506006
+      ],
+      "top_GetSummMatrix_component_raw": [
+        -0.017500073833853415,
+        -0.9458725860032091,
+        0.3240660402810541,
+        0.0,
+        -0.998545096692231,
+        1.0711887685654732e-16,
+        -0.05392299947070662,
+        0.0,
+        0.05100428695439974,
+        -0.324538211999188,
+        -0.9444964328491067,
+        0.0,
+        -75.14297709565437,
+        63.311511484941256,
+        81.8121718506006,
+        1.0
+      ],
+      "full_bounds_ignoring_visibility_raw": [
+        true,
+        -193.4210208319593,
+        -26.48515902298292,
+        -43.19861001732227,
+        -49.43044451103262,
+        129.3090956270419,
+        116.62280001026107
+      ],
+      "solid_bounds_raw": [
+        true,
+        -193.4210208319593,
+        -26.48515902298292,
+        -43.19861001732227,
+        -49.43044451103262,
+        129.3090956270419,
+        116.62280001026107
+      ]
+    },
+    {
+      "occurrence_path": "root/7",
+      "parent_path": "root",
+      "handle": "12cc48d76a5b404b9e7aef0e5ad07b98",
+      "Name": "Сборка",
+      "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\gripper20.a3d",
+      "Detail": false,
+      "Fixed": false,
+      "ReadOnly": 0,
+      "LoadState": 0,
+      "Valid": true,
+      "Hidden": false,
+      "UniqueNum": {
+        "unavailable": [
+          "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+        ]
+      },
+      "IsLocal": false,
+      "dependency_exists": true,
+      "dependency_in_snapshot": true,
+      "placement_matrix_raw": [
+        0.08493641286522463,
+        -0.8856490187272211,
+        0.45652121680937735,
+        0.0,
+        -0.9375379177755846,
+        -0.22616657936228665,
+        -0.2643318579221726,
+        0.0,
+        0.3373550925991915,
+        -0.405554551209928,
+        -0.849539314858537,
+        0.0,
+        199.74879843258077,
+        1101.8631732796935,
+        -510.2111541171565,
+        1.0
+      ],
+      "placement_origin_raw": [
+        true,
+        199.74879843258077,
+        1101.8631732796935,
+        -510.2111541171565
+      ],
+      "top_GetSummMatrix_component_raw": [
+        0.08493641286522463,
+        -0.8856490187272211,
+        0.45652121680937735,
+        0.0,
+        -0.9375379177755846,
+        -0.22616657936228665,
+        -0.2643318579221726,
+        0.0,
+        0.3373550925991915,
+        -0.405554551209928,
+        -0.849539314858537,
+        0.0,
+        199.74879843258077,
+        1101.8631732796935,
+        -510.2111541171565,
+        1.0
+      ],
+      "full_bounds_ignoring_visibility_raw": [
+        true,
+        -32.84823650964091,
+        638.6801690213913,
+        -434.8010762686339,
+        111.15942640137798,
+        832.7060253367673,
+        -242.74992659973833
+      ],
+      "solid_bounds_raw": [
+        true,
+        -32.84823650964091,
+        638.6801690213913,
+        -434.8010762686339,
+        111.15942640137798,
+        832.7060253367673,
+        -242.74992659973833
+      ],
+      "child_count": 8
+    },
+    {
+      "occurrence_path": "root/7/0",
+      "parent_path": "root/7",
+      "handle": "d5df264d3751423aaafad151a184f598",
+      "Name": "002",
+      "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\002.m3d",
+      "Detail": true,
+      "Fixed": true,
+      "ReadOnly": 0,
+      "LoadState": 0,
+      "Valid": true,
+      "Hidden": false,
+      "UniqueNum": {
+        "unavailable": [
+          "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+        ]
+      },
+      "IsLocal": false,
+      "dependency_exists": true,
+      "dependency_in_snapshot": true,
+      "placement_matrix_raw": [
+        -0.18030386398334766,
+        0.31981050308685816,
+        -0.9301675971286063,
+        0.0,
+        0.07322615916256595,
+        0.9474062884325806,
+        0.31154334249458915,
+        0.0,
+        0.9808814639124206,
+        -0.011940132065138942,
+        -0.19423950936741483,
+        0.0,
+        406.08350761241263,
+        61.33557989667284,
+        14.424798706913133,
+        1.0
+      ],
+      "placement_origin_raw": [
+        true,
+        406.08350761241263,
+        61.33557989667284,
+        14.424798706913133
+      ],
+      "top_GetSummMatrix_component_raw": [
+        -0.6289456124413877,
+        0.46458919508579993,
+        0.6233652993231628,
+        0.0,
+        -0.7769090185014873,
+        -0.40547213597643555,
+        -0.48166868687694736,
+        0.0,
+        0.02897919187595774,
+        -0.7872415301267048,
+        0.6159634564501217,
+        0.0,
+        181.60192233451795,
+        722.4936121771439,
+        -353.2927984969825,
+        1.0
+      ],
+      "full_bounds_ignoring_visibility_raw": [
+        true,
+        381.5973493014705,
+        139.3535112618281,
+        -111.92944799378853,
+        458.2663976895826,
+        236.76998192728746,
+        7.263206818830919
+      ],
+      "solid_bounds_raw": [
+        true,
+        381.5973493014705,
+        139.3535112618281,
+        -111.92944799378853,
+        458.2663976895826,
+        236.76998192728746,
+        7.263206818830919
+      ]
+    },
+    {
+      "occurrence_path": "root/7/1",
+      "parent_path": "root/7",
+      "handle": "63965b6b9cd04271acf25cac58a77cf7",
+      "Name": "003",
+      "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\003.m3d",
+      "Detail": true,
+      "Fixed": false,
+      "ReadOnly": 0,
+      "LoadState": 0,
+      "Valid": true,
+      "Hidden": false,
+      "UniqueNum": {
+        "unavailable": [
+          "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+        ]
+      },
+      "IsLocal": false,
+      "dependency_exists": true,
+      "dependency_in_snapshot": true,
+      "placement_matrix_raw": [
+        -0.18030386398334772,
+        0.3198105030868579,
+        -0.9301675971286064,
+        0.0,
+        -0.07322615916256589,
+        -0.9474062884325807,
+        -0.31154334249458887,
+        0.0,
+        -0.9808814639124206,
+        0.011940132065138942,
+        0.19423950936741483,
+        0.0,
+        420.73606217257634,
+        250.9115796576595,
+        76.7646220154578,
+        1.0
+      ],
+      "placement_origin_raw": [
+        true,
+        420.73606217257634,
+        250.9115796576595,
+        76.7646220154578
+      ],
+      "top_GetSummMatrix_component_raw": [
+        -0.6289456124413875,
+        0.4645891950858001,
+        0.6233652993231629,
+        0.0,
+        0.7769090185014875,
+        0.40547213597643544,
+        0.4816686868769472,
+        0.0,
+        -0.028979191875957683,
+        0.787241530126705,
+        -0.6159634564501217,
+        0.0,
+        26.14242654690139,
+        641.3586371495567,
+        -449.67470347602904,
+        1.0
+      ],
+      "full_bounds_ignoring_visibility_raw": [
+        true,
+        364.6749170852265,
+        145.08981749393286,
+        -100.52117479957289,
+        407.96941758496143,
+        231.43477869214504,
+        9.29680584141245
+      ],
+      "solid_bounds_raw": [
+        true,
+        364.6749170852265,
+        145.08981749393286,
+        -100.52117479957289,
+        407.96941758496143,
+        231.43477869214504,
+        9.29680584141245
+      ]
+    },
+    {
+      "occurrence_path": "root/7/2",
+      "parent_path": "root/7",
+      "handle": "f66b8ca92a524b5299395674da821f0a",
+      "Name": "007",
+      "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\007.m3d",
+      "Detail": true,
+      "Fixed": false,
+      "ReadOnly": 0,
+      "LoadState": 0,
+      "Valid": true,
+      "Hidden": false,
+      "UniqueNum": {
+        "unavailable": [
+          "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+        ]
+      },
+      "IsLocal": false,
+      "dependency_exists": true,
+      "dependency_in_snapshot": true,
+      "placement_matrix_raw": [
+        0.1803038639833492,
+        -0.31981050308685627,
+        0.9301675971286066,
+        0.0,
+        0.07322615916256744,
+        0.9474062884325811,
+        0.3115433424945869,
+        0.0,
+        -0.9808814639124203,
+        0.011940132065140299,
+        0.19423950936741669,
+        0.0,
+        352.2731423780071,
+        115.91673109921007,
+        -152.55099362307044,
+        1.0
+      ],
+      "placement_origin_raw": [
+        true,
+        352.2731423780071,
+        115.91673109921007,
+        -152.55099362307044
+      ],
+      "top_GetSummMatrix_component_raw": [
+        0.6289456124413861,
+        -0.4645891950858018,
+        -0.6233652993231629,
+        0.0,
+        -0.7769090185014884,
+        -0.40547213597643617,
+        -0.481668686876945,
+        0.0,
+        -0.02897919187595832,
+        0.7872415301267034,
+        -0.6159634564501235,
+        0.0,
+        69.52943020501388,
+        825.5240696005234,
+        -250.4334088016725,
+        1.0
+      ],
+      "full_bounds_ignoring_visibility_raw": [
+        true,
+        363.83284892275736,
+        160.43543080634083,
+        -41.656764435944794,
+        381.6738942224873,
+        196.924368678448,
+        -12.834245151573043
+      ],
+      "solid_bounds_raw": [
+        true,
+        363.83284892275736,
+        160.43543080634083,
+        -41.656764435944794,
+        381.6738942224873,
+        196.924368678448,
+        -12.834245151573043
+      ]
+    },
+    {
+      "occurrence_path": "root/7/3",
+      "parent_path": "root/7",
+      "handle": "cce28e4fab5c4dcaa4699a412e8794c6",
+      "Name": "013",
+      "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\013.m3d",
+      "Detail": true,
+      "Fixed": false,
+      "ReadOnly": 0,
+      "LoadState": 0,
+      "Valid": true,
+      "Hidden": false,
+      "UniqueNum": {
+        "unavailable": [
+          "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+        ]
+      },
+      "IsLocal": false,
+      "dependency_exists": true,
+      "dependency_in_snapshot": true,
+      "placement_matrix_raw": [
+        -0.18030386398334902,
+        0.3198105030868562,
+        -0.9301675971286067,
+        0.0,
+        -0.07322615916256747,
+        -0.9474062884325812,
+        -0.3115433424945868,
+        0.0,
+        -0.9808814639124203,
+        0.011940132065140384,
+        0.19423950936741655,
+        0.0,
+        393.48154354450713,
+        245.58176621484495,
+        99.05764860084449,
+        1.0
+      ],
+      "placement_origin_raw": [
+        true,
+        393.48154354450713,
+        245.58176621484495,
+        99.05764860084449
+      ],
+      "top_GetSummMatrix_component_raw": [
+        -0.6289456124413861,
+        0.4645891950858017,
+        0.623365299323163,
+        0.0,
+        0.7769090185014883,
+        0.4054721359764361,
+        0.481668686876945,
+        0.0,
+        -0.028979191875958377,
+        0.7872415301267035,
+        -0.6159634564501233,
+        0.0,
+        36.34509374560281,
+        657.6609621114419,
+        -479.6469325254239,
+        1.0
+      ],
+      "full_bounds_ignoring_visibility_raw": [
+        true,
+        325.61014588011324,
+        169.2118798947396,
+        -36.85743744657768,
+        372.37793731037095,
+        196.9240964205115,
+        -5.86954659599796
+      ],
+      "solid_bounds_raw": [
+        true,
+        325.61014588011324,
+        169.2118798947396,
+        -36.85743744657768,
+        372.37793731037095,
+        196.9240964205115,
+        -5.86954659599796
+      ]
+    },
+    {
+      "occurrence_path": "root/7/4",
+      "parent_path": "root/7",
+      "handle": "eac6375ea21840959e960f4310c31036",
+      "Name": "014",
+      "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\014.m3d",
+      "Detail": true,
+      "Fixed": false,
+      "ReadOnly": 0,
+      "LoadState": 0,
+      "Valid": true,
+      "Hidden": false,
+      "UniqueNum": {
+        "unavailable": [
+          "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+        ]
+      },
+      "IsLocal": false,
+      "dependency_exists": true,
+      "dependency_in_snapshot": true,
+      "placement_matrix_raw": [
+        0.07322615916256801,
+        0.9474062884325812,
+        0.3115433424945865,
+        0.0,
+        -0.9808814639124203,
+        0.011940132065140975,
+        0.19423950936741669,
+        0.0,
+        0.180303863983349,
+        -0.319810503086856,
+        0.9301675971286067,
+        0.0,
+        433.6006156329927,
+        95.46585717971183,
+        -95.8334020580302,
+        1.0
+      ],
+      "placement_origin_raw": [
+        true,
+        433.6006156329927,
+        95.46585717971183,
+        -95.8334020580302
+      ],
+      "top_GetSummMatrix_component_raw": [
+        -0.7769090185014843,
+        -0.4054721359764396,
+        -0.48166868687694864,
+        0.0,
+        -0.028979191875959678,
+        0.7872415301267038,
+        -0.6159634564501228,
+        0.0,
+        0.6289456124413912,
+        -0.46458919508579805,
+        -0.6233652993231605,
+        0.0,
+        114.74453215628951,
+        735.1196995231555,
+        -256.08369813059187,
+        1.0
+      ],
+      "full_bounds_ignoring_visibility_raw": [
+        true,
+        321.3324974814218,
+        180.8073866162483,
+        -53.85566928642609,
+        364.7884324945515,
+        201.19408558500265,
+        -34.32914546441216
+      ],
+      "solid_bounds_raw": [
+        true,
+        321.3324974814218,
+        180.8073866162483,
+        -53.85566928642609,
+        364.7884324945515,
+        201.19408558500265,
+        -34.32914546441216
+      ]
+    },
+    {
+      "occurrence_path": "root/7/5",
+      "parent_path": "root/7",
+      "handle": "231a057951b74da68ad30b2ab50af79c",
+      "Name": "013",
+      "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\013.m3d",
+      "Detail": true,
+      "Fixed": false,
+      "ReadOnly": 0,
+      "LoadState": 0,
+      "Valid": true,
+      "Hidden": false,
+      "UniqueNum": {
+        "unavailable": [
+          "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+        ]
+      },
+      "IsLocal": false,
+      "dependency_exists": true,
+      "dependency_in_snapshot": true,
+      "placement_matrix_raw": [
+        0.18030386398334894,
+        -0.319810503086856,
+        0.9301675971286067,
+        0.0,
+        0.07322615916256801,
+        0.9474062884325812,
+        0.3115433424945865,
+        0.0,
+        -0.9808814639124203,
+        0.011940132065140984,
+        0.19423950936741666,
+        0.0,
+        336.7283146057015,
+        130.788756694695,
+        -180.48149750932953,
+        1.0
+      ],
+      "placement_origin_raw": [
+        true,
+        336.7283146057015,
+        130.788756694695,
+        -180.48149750932953
+      ],
+      "top_GetSummMatrix_component_raw": [
+        0.6289456124413859,
+        -0.4645891950858017,
+        -0.6233652993231632,
+        0.0,
+        -0.7769090185014886,
+        -0.40547213597643644,
+        -0.48166868687694436,
+        0.0,
+        -0.028979191875959015,
+        0.7872415301267033,
+        -0.6159634564501235,
+        0.0,
+        44.843522660639366,
+        847.2551188748893,
+        -237.733041512912,
+        1.0
+      ],
+      "full_bounds_ignoring_visibility_raw": [
+        true,
+        319.57754374725334,
+        179.91209163956893,
+        -67.97896144715787,
+        366.345335177511,
+        207.62430816534086,
+        -36.99107059657817
+      ],
+      "solid_bounds_raw": [
+        true,
+        319.57754374725334,
+        179.91209163956893,
+        -67.97896144715787,
+        366.345335177511,
+        207.62430816534086,
+        -36.99107059657817
+      ]
+    },
+    {
+      "occurrence_path": "root/7/6",
+      "parent_path": "root/7",
+      "handle": "bda187512ea145bd85d38e674e611738",
+      "Name": "007",
+      "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\007.m3d",
+      "Detail": true,
+      "Fixed": false,
+      "ReadOnly": 0,
+      "LoadState": 0,
+      "Valid": true,
+      "Hidden": false,
+      "UniqueNum": {
+        "unavailable": [
+          "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+        ]
+      },
+      "IsLocal": false,
+      "dependency_exists": true,
+      "dependency_in_snapshot": true,
+      "placement_matrix_raw": [
+        -0.1803038639833488,
+        0.31981050308685627,
+        -0.9301675971286067,
+        0.0,
+        -0.07322615916256821,
+        -0.9474062884325811,
+        -0.3115433424945867,
+        0.0,
+        -0.9808814639124201,
+        0.011940132065141173,
+        0.19423950936741655,
+        0.0,
+        397.55434505045,
+        260.21498916902715,
+        67.24235452723708,
+        1.0
+      ],
+      "placement_origin_raw": [
+        true,
+        397.55434505045,
+        260.21498916902715,
+        67.24235452723708
+      ],
+      "top_GetSummMatrix_component_raw": [
+        -0.6289456124413861,
+        0.46458919508580154,
+        0.6233652993231632,
+        0.0,
+        0.7769090185014884,
+        0.4054721359764367,
+        0.4816686868769444,
+        0.0,
+        -0.028979191875959237,
+        0.7872415301267033,
+        -0.6159634564501236,
+        0.0,
+        12.238770038747504,
+        663.6471807832735,
+        -454.6272961076608,
+        1.0
+      ],
+      "full_bounds_ignoring_visibility_raw": [
+        true,
+        358.34477856684555,
+        179.32675291044063,
+        -70.53199885058616,
+        376.18582386657556,
+        215.81569078254782,
+        -41.709479566214384
+      ],
+      "solid_bounds_raw": [
+        true,
+        358.34477856684555,
+        179.32675291044063,
+        -70.53199885058616,
+        376.18582386657556,
+        215.81569078254782,
+        -41.709479566214384
+      ]
+    },
+    {
+      "occurrence_path": "root/7/7",
+      "parent_path": "root/7",
+      "handle": "9715c4ceaebc461dafbd1dfad72ba94d",
+      "Name": "014",
+      "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\014.m3d",
+      "Detail": true,
+      "Fixed": false,
+      "ReadOnly": 0,
+      "LoadState": 0,
+      "Valid": true,
+      "Hidden": false,
+      "UniqueNum": {
+        "unavailable": [
+          "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+        ]
+      },
+      "IsLocal": false,
+      "dependency_exists": true,
+      "dependency_in_snapshot": true,
+      "placement_matrix_raw": [
+        0.07322615916256801,
+        0.9474062884325812,
+        0.3115433424945865,
+        0.0,
+        0.9808814639124204,
+        -0.011940132065140954,
+        -0.19423950936741674,
+        0.0,
+        -0.18030386398334905,
+        0.319810503086856,
+        -0.9301675971286069,
+        0.0,
+        240.76698920038064,
+        91.92489359004774,
+        -39.74105595594066,
+        1.0
+      ],
+      "placement_origin_raw": [
+        true,
+        240.76698920038064,
+        91.92489359004774,
+        -39.74105595594066
+      ],
+      "top_GetSummMatrix_component_raw": [
+        -0.7769090185014843,
+        -0.4054721359764396,
+        -0.48166868687694864,
+        0.0,
+        0.028979191875959563,
+        -0.7872415301267038,
+        0.615963456450123,
+        0.0,
+        -0.6289456124413912,
+        0.4645891950857982,
+        0.6233652993231605,
+        0.0,
+        120.60876189145984,
+        883.9549529237858,
+        -390.8330037032593,
+        1.0
+      ],
+      "full_bounds_ignoring_visibility_raw": [
+        true,
+        324.22440417133544,
+        175.67792287127315,
+        -38.93664405064142,
+        367.68033918446514,
+        196.06462184002754,
+        -19.41012022862747
+      ],
+      "solid_bounds_raw": [
+        true,
+        324.22440417133544,
+        175.67792287127315,
+        -38.93664405064142,
+        367.68033918446514,
+        196.06462184002754,
+        -19.41012022862747
+      ]
+    },
+    {
+      "occurrence_path": "root/8",
+      "parent_path": "root",
+      "handle": "57910cfea9d24329a43b222db0c51d2a",
+      "Name": "Деталь",
+      "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\tube1.m3d",
+      "Detail": true,
+      "Fixed": false,
+      "ReadOnly": 0,
+      "LoadState": 0,
+      "Valid": true,
+      "Hidden": false,
+      "UniqueNum": {
+        "unavailable": [
+          "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+        ]
+      },
+      "IsLocal": false,
+      "dependency_exists": true,
+      "dependency_in_snapshot": true,
+      "placement_matrix_raw": [
+        0.017500073833855885,
+        0.9458725860032025,
+        -0.32406604028105046,
+        0.0,
+        0.16743182374063176,
+        -0.3223112561175243,
+        -0.9317092027981894,
+        0.0,
+        -0.985728325561715,
+        -0.03795398829600984,
+        -0.16400964288032302,
+        0.0,
+        -120.70249134928908,
+        109.53584524205611,
+        16.779239865872487,
+        1.0
+      ],
+      "placement_origin_raw": [
+        true,
+        -120.70249134928908,
+        109.53584524205611,
+        16.779239865872487
+      ],
+      "top_GetSummMatrix_component_raw": [
+        0.017500073833855885,
+        0.9458725860032025,
+        -0.32406604028105046,
+        0.0,
+        0.16743182374063176,
+        -0.3223112561175243,
+        -0.9317092027981894,
+        0.0,
+        -0.985728325561715,
+        -0.03795398829600984,
+        -0.16400964288032302,
+        0.0,
+        -120.70249134928908,
+        109.53584524205611,
+        16.779239865872487,
+        1.0
+      ],
+      "full_bounds_ignoring_visibility_raw": [
+        true,
+        -171.9604599857784,
+        93.52205512787451,
+        -103.21999168636849,
+        -65.59450646935142,
+        333.64160427694225,
+        65.48394255628239
+      ],
+      "solid_bounds_raw": [
+        true,
+        -171.9604599857784,
+        93.52205512787451,
+        -103.21999168636849,
+        -65.59450646935142,
+        333.64160427694225,
+        65.48394255628239
+      ]
+    },
+    {
+      "occurrence_path": "root/9",
+      "parent_path": "root",
+      "handle": "2551d772f3be4b00b8fe81076063a603",
+      "Name": "Деталь",
+      "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\tube2.m3d",
+      "Detail": true,
+      "Fixed": false,
+      "ReadOnly": 0,
+      "LoadState": 0,
+      "Valid": true,
+      "Hidden": false,
+      "UniqueNum": {
+        "unavailable": [
+          "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+        ]
+      },
+      "IsLocal": false,
+      "dependency_exists": true,
+      "dependency_in_snapshot": true,
+      "placement_matrix_raw": [
+        0.044836717462887074,
+        0.9499499981203763,
+        -0.30916770503765456,
+        0.0,
+        -0.7577800546388315,
+        0.23400449561116368,
+        0.6091069568026081,
+        0.0,
+        0.6509677853463431,
+        0.20697076388915853,
+        0.7303451549345799,
+        0.0,
+        -64.62676004335994,
+        403.5851371651794,
+        -174.09976856805432,
+        1.0
+      ],
+      "placement_origin_raw": [
+        true,
+        -64.62676004335994,
+        403.5851371651794,
+        -174.09976856805432
+      ],
+      "top_GetSummMatrix_component_raw": [
+        0.044836717462887074,
+        0.9499499981203763,
+        -0.30916770503765456,
+        0.0,
+        -0.7577800546388315,
+        0.23400449561116368,
+        0.6091069568026081,
+        0.0,
+        0.6509677853463431,
+        0.20697076388915853,
+        0.7303451549345799,
+        0.0,
+        -64.62676004335994,
+        403.5851371651794,
+        -174.09976856805432,
+        1.0
+      ],
+      "full_bounds_ignoring_visibility_raw": [
+        true,
+        -107.10050741891298,
+        390.28973309124467,
+        -282.5011448452146,
+        -12.288934825971765,
+        625.8695408255969,
+        -133.7152873991781
+      ],
+      "solid_bounds_raw": [
+        true,
+        -107.10050741891298,
+        390.28973309124467,
+        -282.5011448452146,
+        -12.288934825971765,
+        625.8695408255969,
+        -133.7152873991781
+      ]
+    }
+  ],
+  "mate_scopes": [
+    {
+      "path": "root",
+      "count": 18,
+      "mates": [
+        {
+          "index": 0,
+          "handle": "d1f050dc71934530852baffb0b607c09",
+          "Name": "Соосность (3_update  -  1_update)",
+          "Reference": 1073743146,
+          "Valid": true,
+          "Hidden": false,
+          "ConstraintType": 4,
+          "Alignment": 1,
+          "Fixed": 0,
+          "ParamValue": 0.0,
+          "BaseObject1": {
+            "object": {
+              "handle": "321a0b490e954fd1a39d2b5973b873e1",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "3_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\3_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          },
+          "BaseObject2": {
+            "object": {
+              "handle": "4d4378066ab84c37ac23466bbcea206f",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "1_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\1_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "index": 1,
+          "handle": "ed9b7112c53b44669cdcfb9dbdd095ac",
+          "Name": "На расстоянии (3_update  -  1_update)",
+          "Reference": 1073743147,
+          "Valid": true,
+          "Hidden": false,
+          "ConstraintType": 5,
+          "Alignment": 1,
+          "Fixed": 0,
+          "ParamValue": -1.0,
+          "BaseObject1": {
+            "object": {
+              "handle": "f43da7485b2d4985bc62fb917f23e465",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "3_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\3_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          },
+          "BaseObject2": {
+            "object": {
+              "handle": "f3dada291bbf486fb44d08ca97787d3c",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "1_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\1_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "index": 2,
+          "handle": "d88d44606e194f55916716ad77b7ee81",
+          "Name": "Соосность (3_update  -  7_update)",
+          "Reference": 1073743148,
+          "Valid": true,
+          "Hidden": false,
+          "ConstraintType": 4,
+          "Alignment": -1,
+          "Fixed": 0,
+          "ParamValue": 0.0,
+          "BaseObject1": {
+            "object": {
+              "handle": "9569a5bf03f8420a91870803b98bfd8b",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "3_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\3_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          },
+          "BaseObject2": {
+            "object": {
+              "handle": "d412555baaf74d73948bbdc3931fbf7d",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 7,
+            "Valid": true,
+            "part": {
+              "Name": "7_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\7_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "index": 3,
+          "handle": "889ea911151d4bb0b1941aacbaece783",
+          "Name": "На расстоянии (3_update  -  7_update)",
+          "Reference": 1073743149,
+          "Valid": true,
+          "Hidden": false,
+          "ConstraintType": 5,
+          "Alignment": -1,
+          "Fixed": 0,
+          "ParamValue": -1.0,
+          "BaseObject1": {
+            "object": {
+              "handle": "32e888028bd541829ad3a166f4d45c6d",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "3_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\3_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          },
+          "BaseObject2": {
+            "object": {
+              "handle": "33c5e81a3e5e42458d5644ec6c05ee58",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "7_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\7_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "index": 4,
+          "handle": "d2750c7e5f3844caaf0bd28f76ede4df",
+          "Name": "Соосность (14_update  -  7_update)",
+          "Reference": 1073743150,
+          "Valid": true,
+          "Hidden": false,
+          "ConstraintType": 4,
+          "Alignment": 1,
+          "Fixed": 0,
+          "ParamValue": 0.0,
+          "BaseObject1": {
+            "object": {
+              "handle": "39ef18be46514a16894649a5b550059a",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "14_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\14_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          },
+          "BaseObject2": {
+            "object": {
+              "handle": "1c852a3e89a44dfcaf9ffe0fe8be4bb6",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "7_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\7_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "index": 5,
+          "handle": "7aa1a721f6a7450ab3baccaa9a59b751",
+          "Name": "Соосность (14_update  -  18_update)",
+          "Reference": 1073743151,
+          "Valid": true,
+          "Hidden": false,
+          "ConstraintType": 4,
+          "Alignment": 1,
+          "Fixed": 0,
+          "ParamValue": 0.0,
+          "BaseObject1": {
+            "object": {
+              "handle": "bd28cd1ad1b04212a301a068722d9ede",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "14_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\14_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          },
+          "BaseObject2": {
+            "object": {
+              "handle": "823ec36fd67b4ff28e5b32ed9f1568c0",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "18_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\18_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "index": 6,
+          "handle": "623b5e79462a4f97a342c6bcdca63331",
+          "Name": "На расстоянии (18_update  -  14_update)",
+          "Reference": 1073743152,
+          "Valid": true,
+          "Hidden": false,
+          "ConstraintType": 5,
+          "Alignment": 1,
+          "Fixed": 0,
+          "ParamValue": -1.0,
+          "BaseObject1": {
+            "object": {
+              "handle": "a99f363715aa4587b825b5791ed24256",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "18_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\18_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          },
+          "BaseObject2": {
+            "object": {
+              "handle": "d95a398fcef54c6fb117bd190f98a77e",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "14_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\14_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "index": 7,
+          "handle": "accde13fe4924f46a13af55acc881495",
+          "Name": "На расстоянии (14_update  -  7_update)",
+          "Reference": 1073743153,
+          "Valid": true,
+          "Hidden": false,
+          "ConstraintType": 5,
+          "Alignment": -1,
+          "Fixed": 0,
+          "ParamValue": -220.0,
+          "BaseObject1": {
+            "object": {
+              "handle": "74d4cefe86fb4944b0c46c7d713c780b",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "14_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\14_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          },
+          "BaseObject2": {
+            "object": {
+              "handle": "55d5c493565d4d6d8b349b4c451c2dfd",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "7_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\7_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "index": 8,
+          "handle": "86b9a1c6439a4992bc44d15825c7dbc5",
+          "Name": "Соосность (23_update  -  18_update)",
+          "Reference": 1073743154,
+          "Valid": true,
+          "Hidden": false,
+          "ConstraintType": 4,
+          "Alignment": 1,
+          "Fixed": 0,
+          "ParamValue": 0.0,
+          "BaseObject1": {
+            "object": {
+              "handle": "ee1395fd94014fc5bab0ff34258a8d96",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "23_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\23_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          },
+          "BaseObject2": {
+            "object": {
+              "handle": "5957c51ce8f8405ea9f6f7d4334c953a",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "18_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\18_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "index": 9,
+          "handle": "70c466f35500417782ba6e82bf1367e6",
+          "Name": "На расстоянии (23_update  -  18_update)",
+          "Reference": 1073743155,
+          "Valid": true,
+          "Hidden": false,
+          "ConstraintType": 5,
+          "Alignment": 1,
+          "Fixed": 0,
+          "ParamValue": -220.0,
+          "BaseObject1": {
+            "object": {
+              "handle": "5a829bff04644501b0a77d2852536fc1",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "23_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\23_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          },
+          "BaseObject2": {
+            "object": {
+              "handle": "15aedbb614dd467899531a5149297772",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "18_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\18_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "index": 10,
+          "handle": "14886ca8d696480daa67a8ff656df8b3",
+          "Name": "Соосность (23_update  -  27_update)",
+          "Reference": 1073743156,
+          "Valid": true,
+          "Hidden": false,
+          "ConstraintType": 4,
+          "Alignment": 1,
+          "Fixed": 0,
+          "ParamValue": 0.0,
+          "BaseObject1": {
+            "object": {
+              "handle": "8d4f3c23845849aa95597344178f18de",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "23_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\23_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          },
+          "BaseObject2": {
+            "object": {
+              "handle": "cdc60fddf7274071bc41b181bfe95545",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "27_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\27_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "index": 11,
+          "handle": "d6d5c973035b4f7db12d0fe57b0ebb61",
+          "Name": "На расстоянии (23_update  -  27_update)",
+          "Reference": 1073743157,
+          "Valid": true,
+          "Hidden": false,
+          "ConstraintType": 5,
+          "Alignment": 1,
+          "Fixed": 0,
+          "ParamValue": -1.0,
+          "BaseObject1": {
+            "object": {
+              "handle": "1d774419738649ee85516fd19a857a43",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "23_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\23_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          },
+          "BaseObject2": {
+            "object": {
+              "handle": "d92f1e3cd25b4be3aa318fe0fa61290a",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "27_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\27_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "index": 12,
+          "handle": "17b0d09266f4422cbe2ad1d00d96310d",
+          "Name": "Соосность (Сборка  -  27_update)",
+          "Reference": 1073743158,
+          "Valid": true,
+          "Hidden": false,
+          "ConstraintType": 4,
+          "Alignment": -1,
+          "Fixed": 0,
+          "ParamValue": 0.0,
+          "BaseObject1": {
+            "object": {
+              "handle": "6c077750ee8d415da9a21568f1a221e9",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "002",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\002.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          },
+          "BaseObject2": {
+            "object": {
+              "handle": "efbea8e78fcc4f7998e9aa7123ca78de",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "27_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\27_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "index": 13,
+          "handle": "026238c4a5224feab49c44b8206f8196",
+          "Name": "На расстоянии (Сборка  -  27_update)",
+          "Reference": 1073743159,
+          "Valid": true,
+          "Hidden": false,
+          "ConstraintType": 5,
+          "Alignment": -1,
+          "Fixed": 0,
+          "ParamValue": 1.0,
+          "BaseObject1": {
+            "object": {
+              "handle": "04b03f46ed9d469e832b80495aad370b",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "002",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\002.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          },
+          "BaseObject2": {
+            "object": {
+              "handle": "3b51ef04e5314a10b1d6791e5e6205d4",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "27_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\27_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "index": 14,
+          "handle": "0b25b36dccf844249e9f59613dd4dc43",
+          "Name": "Соосность (Деталь  -  7_update)",
+          "Reference": 1073743160,
+          "Valid": true,
+          "Hidden": false,
+          "ConstraintType": 4,
+          "Alignment": -1,
+          "Fixed": 0,
+          "ParamValue": 0.0,
+          "BaseObject1": {
+            "object": {
+              "handle": "a380cb9019714e9e90b37aa90a1c8a36",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "Деталь",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\tube1.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          },
+          "BaseObject2": {
+            "object": {
+              "handle": "4567b9724e5d49b9939843bdda2a4db4",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "7_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\7_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "index": 15,
+          "handle": "3b42cec1c34a432a8c89c52665e2d566",
+          "Name": "Совпадение (7_update  -  Деталь)",
+          "Reference": 1073743161,
+          "Valid": true,
+          "Hidden": false,
+          "ConstraintType": 0,
+          "Alignment": 1,
+          "Fixed": 0,
+          "ParamValue": 0.0,
+          "BaseObject1": {
+            "object": {
+              "handle": "31cb1487b0724cae9b1d915ff551b131",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "7_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\7_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          },
+          "BaseObject2": {
+            "object": {
+              "handle": "675b66ca63a3425285620ffeb851c4a0",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "Деталь",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\tube1.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "index": 16,
+          "handle": "b5e5d6dd4bd44cb59e4b4da8fd3f552d",
+          "Name": "Соосность (Деталь  -  18_update)",
+          "Reference": 1073743162,
+          "Valid": true,
+          "Hidden": false,
+          "ConstraintType": 4,
+          "Alignment": 1,
+          "Fixed": 0,
+          "ParamValue": 0.0,
+          "BaseObject1": {
+            "object": {
+              "handle": "59555b2609a644eca26fd045ed7860f2",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "Деталь",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\tube2.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          },
+          "BaseObject2": {
+            "object": {
+              "handle": "da7690c6a76b40dd863190839694e01e",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "18_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\18_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "index": 17,
+          "handle": "75226cd0e7704cf89a64798a4bbc66d5",
+          "Name": "Совпадение (18_update  -  Деталь)",
+          "Reference": 1073743163,
+          "Valid": true,
+          "Hidden": false,
+          "ConstraintType": 0,
+          "Alignment": 0,
+          "Fixed": 0,
+          "ParamValue": 0.0,
+          "BaseObject1": {
+            "object": {
+              "handle": "4ad6833a96ed4073aaf35fbc0893fccc",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "18_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\18_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          },
+          "BaseObject2": {
+            "object": {
+              "handle": "fdd249cf55534ca98453a40b00ebe73c",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "Деталь",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\tube2.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "mate_readable_fields": [
+        "Alignment",
+        "Application",
+        "BaseObject1",
+        "BaseObject2",
+        "ConstraintType",
+        "Fixed",
+        "Hidden",
+        "ModelObjectType",
+        "Name",
+        "Owner",
+        "ParamValue",
+        "Parent",
+        "Part",
+        "Reference",
+        "Type",
+        "Valid"
+      ]
+    },
+    {
+      "path": "root/7",
+      "count": 25,
+      "mates": [
+        {
+          "index": 0,
+          "handle": "ca49c95b924b45b094f9a5ed735af517",
+          "Name": "Соосность (003  -  002)",
+          "Reference": 1073743198,
+          "Valid": false,
+          "Hidden": false,
+          "ConstraintType": -1,
+          "Alignment": 2,
+          "Fixed": 0,
+          "ParamValue": 0.0,
+          "BaseObject1": {
+            "object": null
+          },
+          "BaseObject2": {
+            "object": null
+          }
+        },
+        {
+          "index": 1,
+          "handle": "69732e489440425d88c266c861194034",
+          "Name": "Параллельность (002  -  003)",
+          "Reference": 1073743199,
+          "Valid": false,
+          "Hidden": false,
+          "ConstraintType": -1,
+          "Alignment": 2,
+          "Fixed": 0,
+          "ParamValue": 0.0,
+          "BaseObject1": {
+            "object": null
+          },
+          "BaseObject2": {
+            "object": null
+          }
+        },
+        {
+          "index": 2,
+          "handle": "a21fa9fa08a44b52a3c784d588ec3f11",
+          "Name": "Совпадение (003  -  002)",
+          "Reference": 1073743200,
+          "Valid": false,
+          "Hidden": false,
+          "ConstraintType": -1,
+          "Alignment": 2,
+          "Fixed": 0,
+          "ParamValue": 0.0,
+          "BaseObject1": {
+            "object": null
+          },
+          "BaseObject2": {
+            "object": null
+          }
+        },
+        {
+          "index": 3,
+          "handle": "4ff28b5628b24eb58050b129ef277c5e",
+          "Name": "На расстоянии (003  -  002)",
+          "Reference": 1073743201,
+          "Valid": false,
+          "Hidden": false,
+          "ConstraintType": -1,
+          "Alignment": 2,
+          "Fixed": 0,
+          "ParamValue": 0.0,
+          "BaseObject1": {
+            "object": null
+          },
+          "BaseObject2": {
+            "object": null
+          }
+        },
+        {
+          "index": 4,
+          "handle": "9a50562d0a554aa4a6abb957e91f722b",
+          "Name": "На расстоянии (003  -  002)",
+          "Reference": 1073743202,
+          "Valid": false,
+          "Hidden": false,
+          "ConstraintType": -1,
+          "Alignment": 2,
+          "Fixed": 0,
+          "ParamValue": 0.0,
+          "BaseObject1": {
+            "object": null
+          },
+          "BaseObject2": {
+            "object": null
+          }
+        },
+        {
+          "index": 5,
+          "handle": "e71be67104394e9dba158d02d7c2983b",
+          "Name": "Совпадение (013 (1)  -  007 (1))",
+          "Reference": 1073743203,
+          "Valid": false,
+          "Hidden": false,
+          "ConstraintType": -1,
+          "Alignment": 2,
+          "Fixed": 0,
+          "ParamValue": 0.0,
+          "BaseObject1": {
+            "object": null
+          },
+          "BaseObject2": {
+            "object": null
+          }
+        },
+        {
+          "index": 6,
+          "handle": "f25d88e06ecf4909b84c9f0dfee8bc8d",
+          "Name": "На расстоянии (013 (1)  -  007 (1))",
+          "Reference": 1073743204,
+          "Valid": true,
+          "Hidden": false,
+          "ConstraintType": 4,
+          "Alignment": -1,
+          "Fixed": 0,
+          "ParamValue": 0.0,
+          "BaseObject1": {
+            "object": {
+              "handle": "485c7470f6d44e659a4f72a4503d742f",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "3_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\3_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          },
+          "BaseObject2": {
+            "object": {
+              "handle": "68dbc282019749588a7dad85cd806769",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 7,
+            "Valid": true,
+            "part": {
+              "Name": "7_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\7_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "index": 7,
+          "handle": "8867760e46424defb1cad04c10d4f62c",
+          "Name": "На расстоянии (013 (1)  -  007 (1))",
+          "Reference": 1073743205,
+          "Valid": false,
+          "Hidden": false,
+          "ConstraintType": -1,
+          "Alignment": 2,
+          "Fixed": 0,
+          "ParamValue": 0.0,
+          "BaseObject1": {
+            "object": null
+          },
+          "BaseObject2": {
+            "object": null
+          }
+        },
+        {
+          "index": 8,
+          "handle": "ff09920843774e2399cd086535475056",
+          "Name": "Параллельность (013 (1)  -  003)",
+          "Reference": 1073743206,
+          "Valid": true,
+          "Hidden": false,
+          "ConstraintType": 5,
+          "Alignment": -1,
+          "Fixed": 0,
+          "ParamValue": -1.0,
+          "BaseObject1": {
+            "object": {
+              "handle": "f9d7bb0172b5407e8fe3328b415b887f",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "3_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\3_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          },
+          "BaseObject2": {
+            "object": {
+              "handle": "c1769ea26ccb42f3ac8c28d7cf46acc3",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "7_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\7_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "index": 9,
+          "handle": "2760ded5762945ee99b40b09c9cf463b",
+          "Name": "Параллельность (007 (1)  -  003)",
+          "Reference": 1073743207,
+          "Valid": true,
+          "Hidden": false,
+          "ConstraintType": 4,
+          "Alignment": 1,
+          "Fixed": 0,
+          "ParamValue": 0.0,
+          "BaseObject1": {
+            "object": {
+              "handle": "03a4e7c3a88f40c08d1aa4d07d1fbdcc",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "14_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\14_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          },
+          "BaseObject2": {
+            "object": {
+              "handle": "41f9ad3b451b4cad8353b534010cb35a",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "18_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\18_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "index": 10,
+          "handle": "0472f90fa5ed44c28a24b89e9a635193",
+          "Name": "На расстоянии (013 (1)  -  003)",
+          "Reference": 1073743208,
+          "Valid": true,
+          "Hidden": false,
+          "ConstraintType": 5,
+          "Alignment": 1,
+          "Fixed": 0,
+          "ParamValue": -1.0,
+          "BaseObject1": {
+            "object": {
+              "handle": "a8e2f775ef6140b4a66c66b8fb619c11",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "18_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\18_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          },
+          "BaseObject2": {
+            "object": {
+              "handle": "1b5cb95bbaaa4b398a94abf8f37bb9af",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "14_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\14_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "index": 11,
+          "handle": "be881310e4e743e58adf2192d3e42552",
+          "Name": "На расстоянии (003  -  007 (1))",
+          "Reference": 1073743209,
+          "Valid": true,
+          "Hidden": false,
+          "ConstraintType": 4,
+          "Alignment": 1,
+          "Fixed": 0,
+          "ParamValue": 0.0,
+          "BaseObject1": {
+            "object": {
+              "handle": "d71bb3010d7c467a8bbec4a0d1f6e979",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "23_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\23_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          },
+          "BaseObject2": {
+            "object": {
+              "handle": "8fea4bb7cff944339aca2a84ee2e2492",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "18_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\18_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "index": 12,
+          "handle": "ce3dbcb32d34406dbced6880724c0107",
+          "Name": "Совпадение (013 (2)  -  007 (2))",
+          "Reference": 1073743210,
+          "Valid": true,
+          "Hidden": false,
+          "ConstraintType": 5,
+          "Alignment": 1,
+          "Fixed": 0,
+          "ParamValue": -220.0,
+          "BaseObject1": {
+            "object": {
+              "handle": "bfa5e8993b58417da0e60d28f0b2437a",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "23_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\23_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          },
+          "BaseObject2": {
+            "object": {
+              "handle": "800aabe623414c0b875ec38bd503b28c",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "18_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\18_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "index": 13,
+          "handle": "59bcf55d3d0349d7aabbeb4b5f992fed",
+          "Name": "На расстоянии (013 (2)  -  007 (2))",
+          "Reference": 1073743211,
+          "Valid": true,
+          "Hidden": false,
+          "ConstraintType": 4,
+          "Alignment": 1,
+          "Fixed": 0,
+          "ParamValue": 0.0,
+          "BaseObject1": {
+            "object": {
+              "handle": "ef8686d42eb94c01a3a16ab351205481",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "23_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\23_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          },
+          "BaseObject2": {
+            "object": {
+              "handle": "94d0718dc51944258db48f686d5e0106",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "27_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\27_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "index": 14,
+          "handle": "abb7b9735e864e77871d07312fdb044a",
+          "Name": "На расстоянии (013 (2)  -  007 (2))",
+          "Reference": 1073743212,
+          "Valid": false,
+          "Hidden": false,
+          "ConstraintType": -1,
+          "Alignment": 2,
+          "Fixed": 0,
+          "ParamValue": 0.0,
+          "BaseObject1": {
+            "object": null
+          },
+          "BaseObject2": {
+            "object": null
+          }
+        },
+        {
+          "index": 15,
+          "handle": "7501f47c10c24513b9653d87990aeb93",
+          "Name": "Параллельность (013 (2)  -  013 (1))",
+          "Reference": 1073743213,
+          "Valid": false,
+          "Hidden": false,
+          "ConstraintType": -1,
+          "Alignment": 2,
+          "Fixed": 0,
+          "ParamValue": 0.0,
+          "BaseObject1": {
+            "object": null
+          },
+          "BaseObject2": {
+            "object": null
+          }
+        },
+        {
+          "index": 16,
+          "handle": "40c36292f3c347138f2e2b80e8818b83",
+          "Name": "Параллельность (013 (2)  -  013 (1))",
+          "Reference": 1073743214,
+          "Valid": true,
+          "Hidden": false,
+          "ConstraintType": 5,
+          "Alignment": 1,
+          "Fixed": 0,
+          "ParamValue": -1.0,
+          "BaseObject1": {
+            "object": {
+              "handle": "a0f3136dc3314632af724241577678c9",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "23_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\23_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          },
+          "BaseObject2": {
+            "object": {
+              "handle": "67857ded6b454e2280454d4d652c7360",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "27_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\27_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "index": 17,
+          "handle": "93d3cb4c98364ca3ad52d6d69f230d66",
+          "Name": "Совпадение (007 (2)  -  007 (1))",
+          "Reference": 1073743215,
+          "Valid": true,
+          "Hidden": false,
+          "ConstraintType": 4,
+          "Alignment": -1,
+          "Fixed": 0,
+          "ParamValue": 0.0,
+          "BaseObject1": {
+            "object": {
+              "handle": "fd261b1fc9714c82808133aa94a21f84",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "002",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\002.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          },
+          "BaseObject2": {
+            "object": {
+              "handle": "895bcd2f7062462397d9a45a24d5207c",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "27_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\27_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "index": 18,
+          "handle": "d47c4de7e6e1481993bb06cb0707aec7",
+          "Name": "На расстоянии (013 (2)  -  013 (1))",
+          "Reference": 1073743216,
+          "Valid": true,
+          "Hidden": false,
+          "ConstraintType": 5,
+          "Alignment": -1,
+          "Fixed": 0,
+          "ParamValue": 1.0,
+          "BaseObject1": {
+            "object": {
+              "handle": "b69c57365ddd4558b44db247c802b533",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "002",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\files\\002.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          },
+          "BaseObject2": {
+            "object": {
+              "handle": "2cc2975d7aff45c0a0a8bdb66c0ed9f9",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "27_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\27_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "index": 19,
+          "handle": "0779cf1fe84243e6b51ada9167cd37f9",
+          "Name": "Совпадение (014 (1)  -  013 (2))",
+          "Reference": 1073743217,
+          "Valid": true,
+          "Hidden": false,
+          "ConstraintType": 0,
+          "Alignment": 1,
+          "Fixed": 0,
+          "ParamValue": 0.0,
+          "BaseObject1": {
+            "object": {
+              "handle": "40fc110f1e22479d87b5448b51d6c2da",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "7_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\7_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          },
+          "BaseObject2": {
+            "object": {
+              "handle": "cf8d3bcb50e74299ad2ecd6a93975125",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "Деталь",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\tube1.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "index": 20,
+          "handle": "c8434aa045384251859e3af53a877a66",
+          "Name": "Совпадение (014 (1)  -  013 (2))",
+          "Reference": 1073743218,
+          "Valid": true,
+          "Hidden": false,
+          "ConstraintType": 4,
+          "Alignment": 1,
+          "Fixed": 0,
+          "ParamValue": 0.0,
+          "BaseObject1": {
+            "object": {
+              "handle": "b3845359559f40fda49a8de44966e6a5",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "Деталь",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\tube2.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          },
+          "BaseObject2": {
+            "object": {
+              "handle": "b80ea6a8e7bb43e1a850c505b8d88c86",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "18_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\18_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "index": 21,
+          "handle": "8ff5cba3ec464166b24306b134dda133",
+          "Name": "На расстоянии (014 (1)  -  013 (2))",
+          "Reference": 1073743219,
+          "Valid": true,
+          "Hidden": false,
+          "ConstraintType": 0,
+          "Alignment": 0,
+          "Fixed": 0,
+          "ParamValue": 0.0,
+          "BaseObject1": {
+            "object": {
+              "handle": "8143bb53ec6147b09dcdaed4a7a8faa3",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "18_update",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\18_update.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          },
+          "BaseObject2": {
+            "object": {
+              "handle": "8e1987eca421405b9dafd3648e0a7bbc",
+              "interface": "IModelObject"
+            },
+            "Name": "",
+            "ModelObjectType": 6,
+            "Valid": true,
+            "part": {
+              "Name": "Деталь",
+              "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\tube2.m3d",
+              "UniqueNum": {
+                "unavailable": [
+                  "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "index": 22,
+          "handle": "ccf9d7b3bd0e43e6870f36ece5e84f9a",
+          "Name": "Совпадение (014 (2)  -  013 (1))",
+          "Reference": 1073743220,
+          "Valid": false,
+          "Hidden": false,
+          "ConstraintType": -1,
+          "Alignment": 2,
+          "Fixed": 0,
+          "ParamValue": 0.0,
+          "BaseObject1": {
+            "object": null
+          },
+          "BaseObject2": {
+            "object": null
+          }
+        },
+        {
+          "index": 23,
+          "handle": "41aef045896f4365862abdd4efa3dedc",
+          "Name": "Совпадение (014 (2)  -  014 (1))",
+          "Reference": 1073743221,
+          "Valid": false,
+          "Hidden": false,
+          "ConstraintType": -1,
+          "Alignment": 2,
+          "Fixed": 0,
+          "ParamValue": 0.0,
+          "BaseObject1": {
+            "object": null
+          },
+          "BaseObject2": {
+            "object": null
+          }
+        },
+        {
+          "index": 24,
+          "handle": "c8d10608adfb49dd93e63076de80dd28",
+          "Name": "Совпадение (014 (2)  -  014 (1))",
+          "Reference": 1073743222,
+          "Valid": false,
+          "Hidden": false,
+          "ConstraintType": -1,
+          "Alignment": 2,
+          "Fixed": 0,
+          "ParamValue": 0.0,
+          "BaseObject1": {
+            "object": null
+          },
+          "BaseObject2": {
+            "object": null
+          }
+        }
+      ],
+      "mate_readable_fields": [
+        "Alignment",
+        "Application",
+        "BaseObject1",
+        "BaseObject2",
+        "ConstraintType",
+        "Fixed",
+        "Hidden",
+        "ModelObjectType",
+        "Name",
+        "Owner",
+        "ParamValue",
+        "Parent",
+        "Part",
+        "Reference",
+        "Type",
+        "Valid"
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "4d746801b1ad4d55b178a4f9fbb09db4",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "be9310939a344f368fad2fb6e1d36fcc",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "e5a9f008e8b74f6a9e23403a687c8a55",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "eaaf7e2141c64b1b86e7bcf0d117149e",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "a63ac9f82bc44aa38c6f3c1ad68b744d",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "5fc96b73b10b4d94a3f79e84e95625b7",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "cd12740fad7a4712ba7071c312071207",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "0fcbcdc8f4794babb131f9fc64adcfa2",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "4b8efb8f8c3d43d499f5fe4683224124",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "393de70f756c453f955b019475208f2d",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "d3e58d86b1904bb5ba28c8a5abdac0c0",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "4d02b3bce8fd457d8bf7ae916b3c7298",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "3c83a520260d41489692d5d12363ba23",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "a3221b55ae084810937c9300a1896ad0",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "d526ef3250004c3e833849acf3ebc3d3",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "aaf0b3e03d98474fa40a35959d1c978e",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "2a7cea92249748e6a88ab147f16a295c",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "2e8f5ba3b25e47799cd114ba3cc489f4",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "92617ba47ad84670a4861c85e04f07af",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "6712004792d440a2a3a9ed78b5039c9a",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "ab8de3fc8c4349dead2a13af392480f8",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "4748ca29d60b43339d8635352e9ba9e1",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "2d25f0ca6d27489e9a0386e5e83dabef",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "282b4e0d37cc43aaa9b3fe0c2086b6ef",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "8cd934fde12d4d92b4486df990463ab9",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "7f5b812cd93f44ba8b0e63a5e4b709c3",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "179c83c82bf3440384ec822ad966f17f",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "a13bdddc051749b38f62fa8951f3b30e",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "916f69002f9c4d83afd84e1476f637b0",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "1b02bc6381dc463e8d036c6b714e84a9",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "e18fabb1962d44ae8972fd95d516d33f",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "82522954c537426caedbb8fc1675312a",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "80e018516e004eb6899c3162727facee",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "285335cf87364e04ad068de3b03b6da4",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "c5d2d22ab74a480784810e8aa4d359c0",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "f61c2ba4d4d04e0aadb46197f829659a",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "d644376a7af84a3cb22ab3227e895bbc",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "759e086d5b1741deb390f63f9ebfc34c",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "c801276f766a429687ea33e991d09b44",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "ba04b1d63baa43a5a67e8d529a31701c",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "22579e25b2d84738a41705a95df2b4d4",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "5545c274661b4a4aa8f22eaa4d92174b",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "9a37b8f80a3544da895e482ba22f6469",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "bf61ff8b10364c19aaaf4b3ebc1593d9",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "12cc48d76a5b404b9e7aef0e5ad07b98",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "c22f476eb14d43e3a6282cce9c8032da",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "099db872d38148c98352ec48ff1ed3ad",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "4702701c08bf41a0b11f81f9a81532b4",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "4540f6c4dbbf49a08c6bb0cd1571049f",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "9c3f9f5f523c4a5c8751f1afe301cb75",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "d3f2c4a9906d485cab3ec360fe1e10d0",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "2cda40797eee426392501b854d32ba82",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "234a157b78a0465e8b51ed0e6c5978d0",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "540b209a79f047958fd2d77ce99810d1",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "d176cb86c79a44eca7d888de4591e13c",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "6f98641c3ff84cbc8b71b89247153e22",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "f8a76fe6666041329d3b58ad6f024358",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "6c47ff6505b347f9ac918e222c56c993",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "e761d5d19f584aa3a01856873371e1df",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "245cd69c52e74665b527d17675a26ec7",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "c29be54430f4497488959d2a27e2c558",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "bae8ca451c634250b29056b2620c9269",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "75e48aa015234feeb599e609876621b4",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "032b3ebf7a9f4e748037ef9255e6c352",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "8a77c9ca3bc64a95bd35ea6de246824c",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "88e727e251d54498b5c3d51fae4b1b4a",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "3df41e02e9ce4ba7971aa6419f9a2322",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "0f53fbb89dc348b2bd10bb96732d7dfc",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "3bba05ea1c2847539476e4f93ac9e691",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "9990c88da6bf466f96daa3095507505b",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "988982ac935744f2bdc2f98393203e10",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "d5df264d3751423aaafad151a184f598",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "63965b6b9cd04271acf25cac58a77cf7",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "f66b8ca92a524b5299395674da821f0a",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "cce28e4fab5c4dcaa4699a412e8794c6",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "eac6375ea21840959e960f4310c31036",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "231a057951b74da68ad30b2ab50af79c",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "bda187512ea145bd85d38e674e611738",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "9715c4ceaebc461dafbd1dfad72ba94d",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "57910cfea9d24329a43b222db0c51d2a",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    },
+    {
+      "tool": "api_invoke",
+      "arguments": {
+        "handle": "2551d772f3be4b00b8fe81076063a603",
+        "member": "UniqueNum",
+        "action": "get"
+      },
+      "error": [
+        "Error executing tool api_invoke: IPart7.UniqueNum does not support get; describe it first"
+      ]
+    }
+  ],
+  "document_before": {
+    "path": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\1part.a3d",
+    "changed": false,
+    "read_only": true,
+    "active": true
+  },
+  "document_id": "6401c2ad823a46d4a45dd5d2ee3bcc56",
+  "mass_units_metadata": {
+    "LengthUnits": 0,
+    "MassUnits": 0,
+    "Mass": 3882.232925955918,
+    "Volume": 494.17425228563116,
+    "Density": 7.856
+  },
+  "aggregate_inspect_model": {
+    "document_id": "6401c2ad823a46d4a45dd5d2ee3bcc56",
+    "name": "Сборка",
+    "bounds_raw": [
+      true,
+      -201.86045104099776,
+      -46.0,
+      -434.8010762686339,
+      111.15942640137798,
+      832.7060253367673,
+      119.09809875488281
+    ],
+    "bounds_units": "mm",
+    "measurements": {
+      "volume_mm3": 494174.2522856311,
+      "area_mm2": 196977.87508804252,
+      "mass_kg": 3.882232925955918,
+      "center_mm": [
+        -99.5221478509183,
+        309.5599770393955,
+        -80.54224603577426
+      ],
+      "body_count": 0
+    },
+    "document": {
+      "handle": "43ab087026984608b522dd9a261348f3",
+      "interface": "ksDocument3D"
+    },
+    "part": {
+      "handle": "aaa374e67abf4545acdcb89f3427f1a8",
+      "interface": "ksPart"
+    },
+    "session_entities": []
+  },
+  "preview": {
+    "path": "snapshot-saved-view.png",
+    "bytes": 492213
+  },
+  "document_after": {
+    "path": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\1part.a3d",
+    "changed": false,
+    "read_only": true,
+    "active": true
+  },
+  "status": "tree/mates/placements/bounds/units and saved-view raster attempted read-only",
+  "stdio_shutdown": "completed",
+  "_public_summary": {
+    "omitted": "calls: full SDK/tool response logs retained in local pre-publication archive",
+    "original_sha256": "7c6bd2087e6b5d2a133788ebe72355a2705d69ff206b4e51e6ab6d83e87f726c",
+    "archive": "RoboHand-Simulator-prepublish-2026-11-15.zip",
+    "archive_member": "RoboHand.Simulator/docs/cad-reviews/2026-11-14-1part-c2133b98/stage2-tree-mates-geometry.json"
+  }
+}

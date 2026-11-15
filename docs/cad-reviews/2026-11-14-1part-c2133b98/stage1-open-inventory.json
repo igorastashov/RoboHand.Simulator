@@ -1,0 +1,144 @@
+{
+  "scope": "read-only invisible exact snapshot open and first-level inventory; no save/rebuild/solve/activate",
+  "baseline_active": [],
+  "open_action": "opened exact snapshot read_only=True visible=False",
+  "opened_metadata": {
+    "kind": "assembly",
+    "name": "1part.a3d",
+    "path": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\1part.a3d",
+    "changed": false,
+    "read_only": true,
+    "active": true,
+    "document_id": "fadf47e5fdc948d8b2cae09a75b9208e"
+  },
+  "first_level_count": 10,
+  "components": [
+    {
+      "index": 0,
+      "handle": "46a44f3a74e54120963af69093865cc8",
+      "Name": "1_update",
+      "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\1_update.m3d",
+      "Detail": true,
+      "Fixed": true,
+      "ReadOnly": 0,
+      "LoadState": 0,
+      "file_exists": true
+    },
+    {
+      "index": 1,
+      "handle": "afbc77a67c974b478e5bcacc03787f33",
+      "Name": "3_update",
+      "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\3_update.m3d",
+      "Detail": true,
+      "Fixed": false,
+      "ReadOnly": 0,
+      "LoadState": 0,
+      "file_exists": true
+    },
+    {
+      "index": 2,
+      "handle": "c73082d9b0a447bbaa57113d3d596d06",
+      "Name": "14_update",
+      "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\14_update.m3d",
+      "Detail": true,
+      "Fixed": false,
+      "ReadOnly": 0,
+      "LoadState": 0,
+      "file_exists": true
+    },
+    {
+      "index": 3,
+      "handle": "cc135b0fb44e49c9925ebe0a6d721e88",
+      "Name": "18_update",
+      "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\18_update.m3d",
+      "Detail": true,
+      "Fixed": false,
+      "ReadOnly": 0,
+      "LoadState": 0,
+      "file_exists": true
+    },
+    {
+      "index": 4,
+      "handle": "db86ae161ed245f195fa545c170d5093",
+      "Name": "23_update",
+      "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\23_update.m3d",
+      "Detail": true,
+      "Fixed": false,
+      "ReadOnly": 0,
+      "LoadState": 0,
+      "file_exists": true
+    },
+    {
+      "index": 5,
+      "handle": "c2932af3f12a4fb7b6f3403fb1b34ddc",
+      "Name": "27_update",
+      "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\27_update.m3d",
+      "Detail": true,
+      "Fixed": false,
+      "ReadOnly": 0,
+      "LoadState": 0,
+      "file_exists": true
+    },
+    {
+      "index": 6,
+      "handle": "1aa03081d25b45dd882676f950effb85",
+      "Name": "7_update",
+      "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\7_update.m3d",
+      "Detail": true,
+      "Fixed": false,
+      "ReadOnly": 0,
+      "LoadState": 0,
+      "file_exists": true
+    },
+    {
+      "index": 7,
+      "handle": "a9a6c63462c542188e6d62c445664586",
+      "Name": "Сборка",
+      "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\gripper20.a3d",
+      "Detail": false,
+      "Fixed": false,
+      "ReadOnly": 0,
+      "LoadState": 0,
+      "file_exists": true
+    },
+    {
+      "index": 8,
+      "handle": "dd6a93c9670b48849d3d2e470a2cc72d",
+      "Name": "Деталь",
+      "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\tube1.m3d",
+      "Detail": true,
+      "Fixed": false,
+      "ReadOnly": 0,
+      "LoadState": 0,
+      "file_exists": true
+    },
+    {
+      "index": 9,
+      "handle": "049ad724548a44e9855d8fede998e803",
+      "Name": "Деталь",
+      "FileName": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\tube2.m3d",
+      "Detail": true,
+      "Fixed": false,
+      "ReadOnly": 0,
+      "LoadState": 0,
+      "file_exists": true
+    }
+  ],
+  "after_active": [
+    {
+      "path": "E:\\RoboHand\\data\\cad-reviews\\2026-11-14-1part-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\1part.a3d",
+      "name": "1part.a3d",
+      "changed": false,
+      "read_only": true
+    }
+  ],
+  "active_metadata_unchanged": false,
+  "status": "read-only snapshot opened and first-level inventoried",
+  "stdio_shutdown": "completed",
+  "_public_summary": {
+    "omitted": "calls: full SDK/tool response logs retained in local pre-publication archive",
+    "original_sha256": "067206afe3c2099feb1f3808543de20ebd9e2fb6dd8cf9d63ab63119006cd0c7",
+    "archive": "RoboHand-Simulator-prepublish-2026-11-15.zip",
+    "archive_member": "RoboHand.Simulator/docs/cad-reviews/2026-11-14-1part-c2133b98/stage1-open-inventory.json"
+  }
+}

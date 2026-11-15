@@ -1,0 +1,510 @@
+{
+  "status": "reference-pose data; motor sign and native sweeps pending",
+  "revision": "EB300-R2-full-wrist.a3d",
+  "units": "mm/radians",
+  "matrix_convention": "native 16 row vectors: world point = m[12:15]+sum(local[i]*m[4*i:4*i+3]); validated by native TransformPoint four basis points in r2-full-wrist-final.json",
+  "robot_from_cad": "[X,-Z,Y] proper rotation, CAD Y-up to robot Z-up",
+  "zero": "all q=0 defined as this saved reference pose, NOT manufacturer mechanical zero",
+  "limits": "demo +/-5 degrees initially; mechanical limits unknown",
+  "joints": [
+    {
+      "name": "J1",
+      "parent_component": "1_update.m3d",
+      "child_component": "3_update.m3d",
+      "axis_cad_world": [
+        6.123233995736766e-17,
+        1.0,
+        0.0
+      ],
+      "axis_point_cad_world": [
+        6.261060173021694e-16,
+        -11.5,
+        44.09807911040864
+      ],
+      "origin_cad_world_on_parent_axial_plane": [
+        7.791868671955886e-16,
+        -9.0,
+        44.09807911040864
+      ],
+      "native_coax_reference": 1073743409,
+      "native_stop_reference": 1073743410,
+      "native_stop_parameter": -1.0,
+      "reference_q_rad": 0,
+      "positive_direction": "right hand about recorded axis; motor/electrical sign not calibrated",
+      "demo_range_rad": [
+        -0.08726646259971647,
+        0.08726646259971647
+      ],
+      "mechanical_limits": "unknown"
+    },
+    {
+      "name": "J2",
+      "parent_component": "3_update.m3d",
+      "child_component": "7_update.m3d",
+      "axis_cad_world": [
+        0.9985450966922237,
+        -6.444535397534596e-17,
+        0.05392299947070619
+      ],
+      "axis_point_cad_world": [
+        -61.41051798838819,
+        49.000000322636616,
+        40.78181877668884
+      ],
+      "origin_cad_world_on_parent_axial_plane": [
+        -63.90688073011874,
+        49.000000322636616,
+        40.64701127801207
+      ],
+      "native_coax_reference": 1073743411,
+      "native_stop_reference": 1073743412,
+      "native_stop_parameter": -1.0,
+      "reference_q_rad": 0,
+      "positive_direction": "right hand about recorded axis; motor/electrical sign not calibrated",
+      "demo_range_rad": [
+        -0.08726646259971647,
+        0.08726646259971647
+      ],
+      "mechanical_limits": "unknown"
+    },
+    {
+      "name": "J3",
+      "parent_component": "14_update.m3d",
+      "child_component": "18_update.m3d",
+      "axis_cad_world": [
+        0.4909496847230893,
+        -0.29048101337207083,
+        -0.8213337859485839
+      ],
+      "axis_point_cad_world": [
+        -117.32072976459783,
+        379.10338119027085,
+        -72.59844480773084
+      ],
+      "origin_cad_world_on_parent_axial_plane": [
+        -87.74834205781956,
+        361.6062375598765,
+        -122.07154136027714
+      ],
+      "native_coax_reference": 1073743414,
+      "native_stop_reference": 1073743415,
+      "native_stop_parameter": -1.0,
+      "reference_q_rad": 0,
+      "positive_direction": "right hand about recorded axis; motor/electrical sign not calibrated",
+      "demo_range_rad": [
+        -0.08726646259971647,
+        0.08726646259971647
+      ],
+      "mechanical_limits": "unknown"
+    },
+    {
+      "name": "J4",
+      "parent_component": "23_update.m3d",
+      "child_component": "27_update.m3d",
+      "axis_cad_world": [
+        -0.9781138294790824,
+        0.10468809672171826,
+        0.17981584742883105
+      ],
+      "axis_point_cad_world": [
+        -66.78311337194356,
+        656.8243887490025,
+        -253.4484700209271
+      ],
+      "origin_cad_world_on_parent_axial_plane": [
+        -0.9050004204422208,
+        649.773415689779,
+        -265.55946196313823
+      ],
+      "native_coax_reference": 1073743419,
+      "native_stop_reference": 1073743420,
+      "native_stop_parameter": -1.0,
+      "reference_q_rad": 0,
+      "positive_direction": "right hand about recorded axis; motor/electrical sign not calibrated",
+      "demo_range_rad": [
+        -0.08726646259971647,
+        0.08726646259971647
+      ],
+      "mechanical_limits": "unknown"
+    },
+    {
+      "name": "J5",
+      "parent_component": "27_update.m3d",
+      "child_component": "Wrist2-31-R1-frames.m3d",
+      "axis_cad_world": [
+        -0.028979148064464,
+        0.7872415302170732,
+        -0.6159634583958199
+      ],
+      "axis_point_cad_world": [
+        43.95201467648716,
+        648.6582841930448,
+        -276.72640644686504
+      ],
+      "origin_cad_world_on_parent_axial_plane": [
+        42.55234057480161,
+        686.6815407485864,
+        -306.4770429522395
+      ],
+      "native_coax_reference": 1073743489,
+      "native_stop_reference": 1073743490,
+      "native_stop_parameter": -1.0,
+      "reference_q_rad": 0,
+      "positive_direction": "right hand about recorded axis; motor/electrical sign not calibrated",
+      "demo_range_rad": [
+        -0.08726646259971647,
+        0.08726646259971647
+      ],
+      "mechanical_limits": "unknown"
+    },
+    {
+      "name": "J6",
+      "parent_component": "Wrist2-31-R1-frames.m3d",
+      "child_component": "Wrist3-output-NOMINAL-D57-L12-R1.m3d",
+      "axis_cad_world": [
+        0.9781138371321695,
+        -0.10468827061188055,
+        -0.17981570456130283
+      ],
+      "axis_point_cad_world": [
+        93.05933116032335,
+        717.3461727920698,
+        -344.3415942926364
+      ],
+      "origin_cad_world_on_parent_axial_plane": [
+        93.05933116032338,
+        717.3461727920698,
+        -344.3415942926364
+      ],
+      "native_coax_reference": 1073743497,
+      "native_stop_reference": 1073743498,
+      "native_stop_parameter": -1.0,
+      "reference_q_rad": 0,
+      "positive_direction": "right hand about recorded axis; motor/electrical sign not calibrated",
+      "demo_range_rad": [
+        -0.08726646259971647,
+        0.08726646259971647
+      ],
+      "mechanical_limits": "unknown"
+    }
+  ],
+  "components": [
+    {
+      "index": 0,
+      "name": "1_update",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\1_update.m3d",
+      "fixed": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "index": 1,
+      "name": "3_update",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\3_update.m3d",
+      "fixed": false,
+      "matrix": [
+        0.9985450966922236,
+        -6.444535397534595e-17,
+        0.05392299947070618,
+        0.0,
+        6.125306557155438e-17,
+        1.0,
+        6.08533417074764e-17,
+        0.0,
+        -0.05392299947070625,
+        -5.746184825644978e-17,
+        0.9985450966922236,
+        0.0,
+        2.3779061547132785,
+        1.412203687323199e-13,
+        0.06416257489306787,
+        1.0
+      ]
+    },
+    {
+      "index": 2,
+      "name": "14_update",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\14_update.m3d",
+      "fixed": false,
+      "matrix": [
+        0.49094969316405457,
+        -0.29048102723582486,
+        -0.8213337759998348,
+        0.0,
+        0.017500073833850133,
+        0.9458725860032041,
+        -0.32406604028103775,
+        0.0,
+        0.871012138949815,
+        0.14472672131863368,
+        0.4694592952945219,
+        0.0,
+        -101.19409961493791,
+        -39.168612540156516,
+        -67.50627093077466,
+        1.0
+      ]
+    },
+    {
+      "index": 3,
+      "name": "18_update",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\18_update.m3d",
+      "fixed": false,
+      "matrix": [
+        0.49094969316405923,
+        -0.29048102723582764,
+        -0.8213337759998427,
+        0.0,
+        0.04483671746288785,
+        0.9499499981203953,
+        -0.30916770503766083,
+        0.0,
+        0.870033371514744,
+        0.11495987946723259,
+        0.4794018758448897,
+        0.0,
+        -112.00358421504585,
+        -39.474688556447916,
+        -73.85935663665416,
+        1.0
+      ]
+    },
+    {
+      "index": 4,
+      "name": "23_update",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\23_update.m3d",
+      "fixed": false,
+      "matrix": [
+        -0.9781138371321781,
+        0.10468827061188335,
+        0.17981570456130685,
+        0.0,
+        0.04483671746288483,
+        0.9499499981203866,
+        -0.30916770503765756,
+        0.0,
+        -0.20318216057946226,
+        -0.29433886435092865,
+        -0.9338531161563279,
+        0.0,
+        -98.33996129908584,
+        -8.50475610143053,
+        10.342579249435264,
+        1.0
+      ]
+    },
+    {
+      "index": 5,
+      "name": "27_update",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\27_update.m3d",
+      "fixed": false,
+      "matrix": [
+        -0.9781138371321781,
+        0.10468827061188332,
+        0.1798157045613068,
+        0.0,
+        -0.028979191875957325,
+        0.7872415301267073,
+        -0.6159634564501318,
+        0.0,
+        -0.2060425394155335,
+        -0.6076932937264292,
+        -0.766978052300812,
+        0.0,
+        -45.43545142128239,
+        121.6501186948957,
+        222.34266287419445,
+        1.0
+      ]
+    },
+    {
+      "index": 6,
+      "name": "7_update",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\7_update.m3d",
+      "fixed": false,
+      "matrix": [
+        -0.017500073833853415,
+        -0.9458725860032091,
+        0.3240660402810541,
+        0.0,
+        -0.998545096692231,
+        1.0711887685654732e-16,
+        -0.05392299947070662,
+        0.0,
+        0.05100428695439974,
+        -0.324538211999188,
+        -0.9444964328491067,
+        0.0,
+        -75.14297709565437,
+        63.311511484941256,
+        81.8121718506006,
+        1.0
+      ]
+    },
+    {
+      "index": 7,
+      "name": "Сборка",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Adaptive Robot Gripper EBG-20 - 6460227\\gripper20.a3d",
+      "fixed": false,
+      "matrix": [
+        -0.991841005545625,
+        -0.07473015469245861,
+        0.10328031612027155,
+        0.0,
+        -0.12272473012524443,
+        0.34049474339034436,
+        -0.9322027517333601,
+        0.0,
+        0.034497251107119334,
+        -0.9372719635747186,
+        -0.3468878867341272,
+        0.0,
+        574.4804560806308,
+        631.4887452581198,
+        -238.19199653184015,
+        1.0
+      ]
+    },
+    {
+      "index": 8,
+      "name": "Деталь",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\tube1.m3d",
+      "fixed": false,
+      "matrix": [
+        0.017500073833855885,
+        0.9458725860032025,
+        -0.32406604028105046,
+        0.0,
+        0.16743182374063176,
+        -0.3223112561175243,
+        -0.9317092027981894,
+        0.0,
+        -0.985728325561715,
+        -0.03795398829600984,
+        -0.16400964288032302,
+        0.0,
+        -120.70249134928908,
+        109.53584524205611,
+        16.779239865872487,
+        1.0
+      ]
+    },
+    {
+      "index": 9,
+      "name": "Деталь",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\tube2.m3d",
+      "fixed": false,
+      "matrix": [
+        0.044836717462887074,
+        0.9499499981203763,
+        -0.30916770503765456,
+        0.0,
+        -0.7577800546388315,
+        0.23400449561116368,
+        0.6091069568026081,
+        0.0,
+        0.6509677853463431,
+        0.20697076388915853,
+        0.7303451549345799,
+        0.0,
+        -64.62676004335994,
+        403.5851371651794,
+        -174.09976856805432,
+        1.0
+      ]
+    },
+    {
+      "index": 10,
+      "name": "31_update",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Wrist2-31-R1-frames.m3d",
+      "fixed": false,
+      "matrix": [
+        -0.9781138371321695,
+        0.10468827061188055,
+        0.17981570456130283,
+        0.0,
+        -0.028979191875955795,
+        0.7872415301266993,
+        -0.615963456450129,
+        0.0,
+        -0.2060425394155309,
+        -0.6076932937264217,
+        -0.7669780523008024,
+        0.0,
+        -45.44916176059301,
+        121.58410416939341,
+        222.30650478513883,
+        1.0
+      ]
+    },
+    {
+      "index": 11,
+      "name": "Деталь",
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\parts\\Wrist3-output-NOMINAL-D57-L12-R1.m3d",
+      "fixed": false,
+      "matrix": [
+        -0.028979191875955795,
+        0.7872415301266993,
+        -0.615963456450129,
+        0.0,
+        0.2060425394155309,
+        0.6076932937264217,
+        0.7669780523008024,
+        0.0,
+        0.9781138371321695,
+        -0.10468827061188055,
+        -0.17981570456130283,
+        0.0,
+        94.03744499745552,
+        717.2414845214578,
+        -344.5214099971978,
+        1.0
+      ]
+    }
+  ],
+  "rigid_links": [
+    [
+      "1_update.m3d"
+    ],
+    [
+      "3_update.m3d"
+    ],
+    [
+      "7_update.m3d",
+      "tube1.m3d",
+      "14_update.m3d"
+    ],
+    [
+      "18_update.m3d",
+      "tube2.m3d",
+      "23_update.m3d"
+    ],
+    [
+      "27_update.m3d"
+    ],
+    [
+      "Wrist2-31-R1-frames.m3d"
+    ],
+    [
+      "Wrist3-output-NOMINAL-D57-L12-R1.m3d",
+      "gripper20.a3d"
+    ]
+  ],
+  "R1_existing_arm_matrix_max_delta": 0.0
+}

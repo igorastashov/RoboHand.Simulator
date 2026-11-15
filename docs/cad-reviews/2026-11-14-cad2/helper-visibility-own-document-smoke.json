@@ -1,0 +1,44 @@
+{
+  "scope": "bounded own writable1_update workfile helper visibility persistence smoke",
+  "updated": "2026-11-15",
+  "path": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\input\\Robot Arm EB300 - 6283770 - part 1 of 3\\files\\1_update.m3d",
+  "backup": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\helper-visibility-backups\\before-visibility-1_update.m3d",
+  "sha_before": "442e30c6f2b15ace5caced05bf05604aedf30ce1f67a5888d0c49e48d3505eca",
+  "bounds_before": [
+    true,
+    -75.0,
+    -46.0,
+    -30.901899337768555,
+    75.0,
+    25.0,
+    119.09809875488281
+  ],
+  "body_count": 2,
+  "sha_after": "e55c80e519943e938a772b8bcf524be5ec96d3497bbd327e6d44d4b3914d11bc",
+  "reopened_hidden": [
+    true,
+    true
+  ],
+  "bounds_after": [
+    true,
+    -75.0,
+    -46.0,
+    -30.901899337768555,
+    75.0,
+    25.0,
+    119.09809875488281
+  ],
+  "meshes": [
+    {
+      "hidden": false,
+      "valid": true
+    }
+  ],
+  "passed": true,
+  "_public_summary": {
+    "omitted": "calls: full SDK/tool response logs retained in local pre-publication archive",
+    "original_sha256": "7886294f20b4e3b892f37a7d32b701966e448ae46452b626946db9b5e97f7f49",
+    "archive": "RoboHand-Simulator-prepublish-2026-11-15.zip",
+    "archive_member": "RoboHand.Simulator/docs/cad-reviews/2026-11-14-cad2/helper-visibility-own-document-smoke.json"
+  }
+}

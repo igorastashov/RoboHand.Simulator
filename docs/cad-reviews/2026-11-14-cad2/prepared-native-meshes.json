@@ -1,0 +1,152 @@
+{
+  "workflow": "Existing native KOMPAS stock STL exports; stock Trimesh normal repair/export and convex_hull. No new converter implementation. Input and output coordinates remain part-local mm. Convex bracket hulls are NOT selected as final collision proxies if they bridge empty space.",
+  "files": [
+    {
+      "source": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\tube1-R3.stl",
+      "sha256": "9cd72b97f28afbdacc196afaef3e6e201a7585ac388a60b1cbbb7119db7cbd8e",
+      "visual": "RoboHand.Simulator\\robohand_ws\\src\\robohand_description\\meshes\\eb300_cad2\\visual\\tube1-R3_visual.stl",
+      "collision": "RoboHand.Simulator\\robohand_ws\\src\\robohand_description\\meshes\\eb300_cad2\\collision\\tube1-R3_convex.stl",
+      "bounds_mm": [
+        [
+          -8.165332389994517e-15,
+          -44.42517852783203,
+          -44.45000076293945
+        ],
+        [
+          220.0,
+          44.42517852783203,
+          44.350738525390625
+        ]
+      ],
+      "visual_volume_valid": true,
+      "hull_volume_valid": true,
+      "faces": 364
+    },
+    {
+      "source": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\tube2-R3.stl",
+      "sha256": "bfbabc622fdbc6dcd78cc974832c58e7c52595a1dafa81d3d3733b3de5cf0e79",
+      "visual": "RoboHand.Simulator\\robohand_ws\\src\\robohand_description\\meshes\\eb300_cad2\\visual\\tube2-R3_visual.stl",
+      "collision": "RoboHand.Simulator\\robohand_ws\\src\\robohand_description\\meshes\\eb300_cad2\\collision\\tube2-R3_convex.stl",
+      "bounds_mm": [
+        [
+          -5.538465109575013e-15,
+          -30.125547409057617,
+          -30.149999618530273
+        ],
+        [
+          220.0,
+          30.125547409057617,
+          30.05223274230957
+        ]
+      ],
+      "visual_volume_valid": true,
+      "hull_volume_valid": true,
+      "faces": 300
+    },
+    {
+      "source": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\Redmi8A-envelope-R1.stl",
+      "sha256": "40a1a24444881e47abdcf888f056a6967e9b83614523fab48e0e64afa7a5bd62",
+      "visual": "RoboHand.Simulator\\robohand_ws\\src\\robohand_description\\meshes\\eb300_cad2\\visual\\Redmi8A-envelope-R1_visual.stl",
+      "collision": "RoboHand.Simulator\\robohand_ws\\src\\robohand_description\\meshes\\eb300_cad2\\collision\\Redmi8A-envelope-R1_convex.stl",
+      "bounds_mm": [
+        [
+          -37.70500183105469,
+          -78.23999786376953,
+          0.0
+        ],
+        [
+          37.70500183105469,
+          78.23999786376953,
+          9.399999618530273
+        ]
+      ],
+      "visual_volume_valid": true,
+      "hull_volume_valid": true,
+      "faces": 12
+    },
+    {
+      "source": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\Phone-low-arm-NOMINAL-R2.stl",
+      "sha256": "6fb0732eb6c872ac2041a46e36537e45db850b6398b154e090aaa02cf4abab44",
+      "visual": "RoboHand.Simulator\\robohand_ws\\src\\robohand_description\\meshes\\eb300_cad2\\visual\\Phone-low-arm-NOMINAL-R2_visual.stl",
+      "collision": "RoboHand.Simulator\\robohand_ws\\src\\robohand_description\\meshes\\eb300_cad2\\collision\\Phone-low-arm-NOMINAL-R2_convex.stl",
+      "bounds_mm": [
+        [
+          20.0,
+          -10.0,
+          8.0
+        ],
+        [
+          124.0,
+          10.0,
+          12.0
+        ]
+      ],
+      "visual_volume_valid": true,
+      "hull_volume_valid": true,
+      "faces": 12
+    },
+    {
+      "source": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\Phone-backing-post-NOMINAL-R2.stl",
+      "sha256": "f16fa44dcb4be63efc56c62281cb57147208ba6810f940b4715ce808f1260b16",
+      "visual": "RoboHand.Simulator\\robohand_ws\\src\\robohand_description\\meshes\\eb300_cad2\\visual\\Phone-backing-post-NOMINAL-R2_visual.stl",
+      "collision": "RoboHand.Simulator\\robohand_ws\\src\\robohand_description\\meshes\\eb300_cad2\\collision\\Phone-backing-post-NOMINAL-R2_convex.stl",
+      "bounds_mm": [
+        [
+          -42.0,
+          -80.0,
+          -30.0
+        ],
+        [
+          42.0,
+          80.0,
+          0.0
+        ]
+      ],
+      "visual_volume_valid": true,
+      "hull_volume_valid": true,
+      "faces": 28
+    },
+    {
+      "source": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\Typing-holder-NOMINAL-R2.stl",
+      "sha256": "ffa623eedbda42509b06adf928fd96086ee2aabc0071963b5b3b4ef4c6650949",
+      "visual": "RoboHand.Simulator\\robohand_ws\\src\\robohand_description\\meshes\\eb300_cad2\\visual\\Typing-holder-NOMINAL-R2_visual.stl",
+      "collision": "RoboHand.Simulator\\robohand_ws\\src\\robohand_description\\meshes\\eb300_cad2\\collision\\Typing-holder-NOMINAL-R2_convex.stl",
+      "bounds_mm": [
+        [
+          -10.0,
+          -63.0,
+          8.0
+        ],
+        [
+          10.0,
+          -15.0,
+          120.0
+        ]
+      ],
+      "visual_volume_valid": true,
+      "hull_volume_valid": true,
+      "faces": 180
+    },
+    {
+      "source": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\Typing-stylus-NOMINAL-R1.stl",
+      "sha256": "d8a9a018270e9290151d98d315cbc3431540c6b1f7c09389ff6485e4036c300f",
+      "visual": "RoboHand.Simulator\\robohand_ws\\src\\robohand_description\\meshes\\eb300_cad2\\visual\\Typing-stylus-NOMINAL-R1_visual.stl",
+      "collision": "RoboHand.Simulator\\robohand_ws\\src\\robohand_description\\meshes\\eb300_cad2\\collision\\Typing-stylus-NOMINAL-R1_convex.stl",
+      "bounds_mm": [
+        [
+          0.0,
+          -4.0,
+          -3.8997116088867188
+        ],
+        [
+          60.0,
+          4.0,
+          3.8997116088867188
+        ]
+      ],
+      "visual_volume_valid": true,
+      "hull_volume_valid": true,
+      "faces": 98
+    }
+  ]
+}

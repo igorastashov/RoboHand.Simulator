@@ -1,0 +1,26 @@
+{
+  "source": "Saved standalone MJCF from disk, no VFS",
+  "full_image": "full-eb300-reference.png",
+  "wrist_image": "wrist-close-up.png",
+  "camera_image": "redmi8a-nominal-view.png",
+  "camera_position_m": [
+    0.13589018684478768,
+    -0.08739996298445224,
+    0.9590003916762643
+  ],
+  "optical_forward_world": [
+    -0.03003673152819286,
+    -0.8206077849789764,
+    -0.570701899410718
+  ],
+  "tcp_m": [
+    0.13089016438595,
+    -0.22399999706165,
+    0.8639999713175
+  ],
+  "lens_tcp_distance_m": 0.16646215606804568,
+  "optical_axis_to_tcp_deg": 6.564070318124965e-05,
+  "nominal_fovy_deg": 60.0,
+  "calibrated": false,
+  "scope": "Rendering/optical-frame check; no real phone stream, no depth/IMU measurements, no keyboard task"
+}
