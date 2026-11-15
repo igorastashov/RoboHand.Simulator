@@ -7,6 +7,8 @@ status: source-audited-runtime-not-run
 
 # Ручное управление и перенос typing recipe: проверка до Docker
 
+**Позднейшее уточнение15.11:** Docker уже перенесён наE:, локальные CUDA/Newton/reference teacher проверки выполнены; RTX-камера вWSL2 не прошла. Актуальные runtime-факты — в [отчёте запуска](2026-11-15-runtime-gpu-smoke.md), очерёдность — в [рабочем плане15.11](<../../../../../../_ПЛАНЫ_/embedded-robotics-market-research/research/projects/robohand/plans/2026-11-15-execution-plan.md>). Исходная проверка ниже сохраняется как source audit, не текущее ожидание переноса Docker.
+
 Поручение владельца: понять пользу джойстика и продолжать независимые работы, пока он сам переносит Docker на E:. Docker settings, containers и WSL storage этим проходом не изменялись.
 
 ## Принятая очерёдность
@@ -43,7 +45,19 @@ Pin: [NVIDIA/so101-typing-task@7aec2ed26dce8c88ae007a2714680cce572e1466](https:/
 
 **Статус:** найдены подходящие готовые блоки, но законченный шестисуставной EB300 recipe не подтверждён. Нужны штатная конфигурация и GPU smoke; если выявится необходимость нового исполняемого adapter/model adaptation, сначала отдельное решение владельца по [политике](<../../../../../../_ПЛАНЫ_/embedded-robotics-market-research/research/projects/robohand/reuse-first-policy.md>). Новый такой код этим исследованием не создавался.
 
-## Что проверять после переноса Docker владельцем
+## Дополнительная проверка vision teacher loader, 15.11
+
+В actual [scripts/vision/agent.py:29 @7aec2ed](https://github.com/NVIDIA/so101-typing-task/blob/7aec2ed26dce8c88ae007a2714680cce572e1466/scripts/vision/agent.py#L29) `load_teacher` создаёт `MLPModel` с числом outputs **5**, переданным литералом. Это не размер, взятый из J1–J6 или конфигурации нашей руки. Такой loader вызывается выбранным teacher/vision маршрутом.
+
+Повторная проверка официального upstream15.11 через GitHub metadata и `git ls-remote ... HEAD` показала тот же `7aec2ed26dce8c88ae007a2714680cce572e1466`: найденный gap присутствует и в текущем HEAD, не только в отложенном snapshot. В `scripts/vision/runtime.py:make_config` выбранный tutorial создаёт SO-101-specific `VisionIsaacLabPhraseEnvCfg`/`VisionTypingEnvCfg`; готового CLI-переключателя на наш robot asset в этом маршруте не найдено. Generic Isaac Lab configuration остаётся кандидатом для минимального переноса, но законченный EB300 путь этим чтением не доказан.
+
+Поэтому generic `JointRateActions.action_dim = len(joints)` ещё не доказывает полный6-axis путь. Даже после стандартного подключения EB300/config остаётся конкретная несовместимость загрузчика с6-output teacher. Изменение loader/model behavior считается исполняемой adaptation и не выполнено под видом данных. Проверка остальных hardcoded SO-101 asset/body/reset/controller предположений остаётся необходимой; одна найденная строка не объявляется полным объёмом переноса.
+
+Штатный reference smoke уже прошёл на native Linux: [камера, teacher/vision PPO и оценки](2026-11-15-native-linux-runtime.md), без изменения исходного recipe. До обучения EB300 подготовить минимальный список необходимой adaptation и готовых альтернатив, затем отдельное решение владельца по reuse-first. Отключать одну ось EB300 или выдавать5-action checkpoint за6-axis policy нельзя.
+
+Дополнительно прочитан [готовый exporter actor](https://github.com/NVIDIA/so101-typing-task/blob/7aec2ed26dce8c88ae007a2714680cce572e1466/scripts/vision/export_actor.py): CNN создаётся с 5 выходами, metadata содержит `action_dim=5`, proprio order включает группы по 5 суставов; допустимые proprio dimensions ограничены 45/57. Это ещё одна точка проверки для EB300, а не разрешение править exporter. Legacy `scripts/vision/train.py` также использует найденный `load_teacher`, поэтому его наличие само по себе не обходит 5-output gap.
+
+## Исторический checklist после переноса Docker владельцем
 
 - Docker Desktop показывает новый путь data image на E:, а VHDX и свободное место соответствуют настройке; проверить сохранность нужных существующих images/containers.
 - Docker daemon работает, GPU доступна **в контейнере**, драйвер/объём памяти соответствуют RTX 3090. Видимость `nvidia-smi` в WSL отдельно недостаточна.

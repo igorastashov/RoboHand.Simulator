@@ -8,7 +8,9 @@ updated: 2026-11-15
 
 | Документ | Назначение |
 |---|---|
-| [Локальная разработка и дополнительный GPU-сервер](<../../../../../_ПЛАНЫ_/embedded-robotics-market-research/research/projects/robohand/remote-gpu-workspace-2026-11-15.md>) | Частный план ресурсов/переключения стенда; работа остаётся на этом ПК, сервер осмотрен, требуется решение по NVML mismatch |
+| [Native Linux: камера и обучение](research/2026-11-15-native-linux-runtime.md) | Дополнительный GPU-host, pinned runtime/source, камера, teacher/vision PPO, оценки и MP4 проверены; SO-101 только reference |
+| [Рабочий план EB300 от15.11](<../../../../../_ПЛАНЫ_/embedded-robotics-market-research/research/projects/robohand/plans/2026-11-15-execution-plan.md>) | Последовательность сервер/reference → шесть осей EB300 → нажатие → PPO/vision, спринты и участие владельца |
+| [Локальная разработка и дополнительный GPU-сервер](<../../../../../_ПЛАНЫ_/embedded-robotics-market-research/research/projects/robohand/remote-gpu-workspace-2026-11-15.md>) | Частный план ресурсов/переключения стенда; работа остаётся на этом ПК; обслуживание завершено, GPU-проверки пройдены, возврат стенда описан |
 | [Docker на E: и CUDA smoke](research/2026-11-15-runtime-gpu-smoke.md) | Docker/CUDA/Newton и два PPO teacher updates прошли; RTX vision получил Vulkan error в WSL2, нужен совместимый host |
 | [URDF и MuJoCo простыми словами](urdf-mujoco-explained.md) | Как из CAD получены звенья/суставы, что содержит текущая сцена и как начать ручной осмотр |
 | [Отдельная рабочая сборка LATEST](cad-reviews/2026-11-15-latest-package/cad-agent-report.md) | Один корневой A3D, 23 внутренние зависимости, повторное открытие и сохранность исходников |

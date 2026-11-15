@@ -1,0 +1,211 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-15",
+  "scope": "unchanged NVIDIA SO-101 reference runtime; EB300 task not integrated",
+  "upstream": {
+    "repository": "https://github.com/NVIDIA/so101-typing-task",
+    "commit": "7aec2ed26dce8c88ae007a2714680cce572e1466",
+    "source_fingerprint": "7b20cbb929b2161b0e713364773bca0eb79da7bac9fb3161a55861809f9a1f1f"
+  },
+  "host": {
+    "os": "Ubuntu 24.04.3 x86_64",
+    "kernel": "6.8.0-149-generic",
+    "driver": "580.178.04",
+    "gpu": "2 x RTX 3090, 24576 MiB each"
+  },
+  "accepted_units": {
+    "debug": {
+      "Result": "success",
+      "ExecMainStatus": "0",
+      "SubState": "exited"
+    },
+    "camera": {
+      "Result": "success",
+      "ExecMainStatus": "0",
+      "SubState": "exited"
+    },
+    "teacher": {
+      "Result": "success",
+      "ExecMainStatus": "0",
+      "SubState": "exited"
+    },
+    "teacher_evaluation": {
+      "Result": "success",
+      "ExecMainStatus": "0",
+      "SubState": "exited"
+    },
+    "vision": {
+      "Result": "success",
+      "ExecMainStatus": "0",
+      "SubState": "exited"
+    },
+    "vision_evaluation": {
+      "Result": "success",
+      "ExecMainStatus": "0",
+      "SubState": "exited"
+    },
+    "replay_export": {
+      "Result": "success",
+      "ExecMainStatus": "0",
+      "SubState": "exited"
+    },
+    "replay_video": {
+      "Result": "success",
+      "ExecMainStatus": "0",
+      "SubState": "exited"
+    }
+  },
+  "camera": {
+    "shapes": {
+      "policy": [
+        2,
+        22
+      ],
+      "proprio": [
+        2,
+        57
+      ],
+      "rgb": [
+        2,
+        6,
+        120,
+        160
+      ]
+    },
+    "pixel_std": [
+      73.42580888282521,
+      74.33971727369268
+    ]
+  },
+  "ppo_smoke": {
+    "num_envs": 2,
+    "teacher_updates": 2,
+    "vision_updates": 2,
+    "warmup": [
+      {
+        "update": 0,
+        "mse": 0.00035539124650085796,
+        "image_gradient_norm": 0.02670967765527621
+      }
+    ]
+  },
+  "evaluation_teacher": {
+    "target": "random13",
+    "suite": "random",
+    "episodes": 2,
+    "seed": 900001,
+    "domain_strength": 0.0,
+    "num_envs": 2,
+    "success_rate": 0.0,
+    "max_steps": 2,
+    "elapsed_s": 0.40917229652404785,
+    "results": [
+      {
+        "success": false,
+        "failures": [
+          "step_limit"
+        ],
+        "characters": 0
+      },
+      {
+        "success": false,
+        "failures": [
+          "step_limit"
+        ],
+        "characters": 0
+      }
+    ]
+  },
+  "evaluation_vision": {
+    "target": "ISAAC LAB 3.0",
+    "suite": "phrase",
+    "episodes": 2,
+    "seed": 900001,
+    "domain_strength": 0.0,
+    "num_envs": 2,
+    "success_rate": 0.0,
+    "max_steps": 2,
+    "elapsed_s": 0.7276749610900879,
+    "results": [
+      {
+        "success": false,
+        "failures": [
+          "step_limit"
+        ],
+        "characters": 0
+      },
+      {
+        "success": false,
+        "failures": [
+          "step_limit"
+        ],
+        "characters": 0
+      }
+    ]
+  },
+  "replay": {
+    "scene": "replay.usdc",
+    "frames": 3,
+    "fps": 25.0,
+    "duration_seconds": 0.12,
+    "body_count": 116,
+    "wrist_camera": "/World/envs/env_0/Robot/gripper/wowrobo_2MP_camera",
+    "wrist_resolution": [
+      640,
+      480
+    ],
+    "source": "same evaluation rollout, initial state followed by every control step",
+    "wrist_optics": "unchanged Workshop asset camera with authored lens distortion"
+  },
+  "video": {
+    "decoded_frames": 3,
+    "width": 1920,
+    "height": 1080,
+    "fps": 25,
+    "duration_seconds": 0.12,
+    "codec": "h264",
+    "first_frame_reviewed": true
+  },
+  "files": {
+    "native-smoke-teacher-clean/model_1.pt": {
+      "bytes": 2549067,
+      "sha256": "a7b0c614f474ed6ebcfae0f134deea0af20c409becb8180eb0318fddab2c5dd5"
+    },
+    "native-smoke-vision/model_1.pt": {
+      "bytes": 25862915,
+      "sha256": "cb017d517c8edcccefcced0ad109b863bb1c5f15d66e984587629bbb5469536d"
+    },
+    "native-replay-vision/episode_001/replay.usdc": {
+      "bytes": 28415651,
+      "sha256": "d67c58a50ec58402f215457040b4a5dd7318c84509bf32e8a6b11c2d919545df"
+    },
+    "native-replay-vision/episode_001/overview.mp4": {
+      "bytes": 53660,
+      "sha256": "aa4cbdc417d352a74a4f082e776d8880a9deb39b29a73e5a06650aab22f25b31"
+    },
+    "native-replay-vision/episode_001/overview-first-frame.png": {
+      "bytes": 552927,
+      "sha256": "027d7d22e0d0393c686c1a88445b33b36b8f44f548447dcf4a8bf80927a67d8d"
+    }
+  },
+  "local_copy": {
+    "training_archive_sha256": "936512ead48c465d57fcc9177cd9398b117947dcdf95721313911b875e20bdff",
+    "replay_logs_archive_sha256": "47545455caaded59d80b5112c0c3fc79149cc63cea69b66070bc3392fd47f2f5",
+    "remote_and_local_archive_hashes_match": true
+  },
+  "final_compute_state": {
+    "own_running_containers": 0,
+    "cuda_processes": 0,
+    "gpu_used_mib": [
+      0,
+      0
+    ]
+  },
+  "limitations": [
+    "two updates do not establish learned typing",
+    "evaluation max_steps=2, all episodes step_limit, success 0%",
+    "six-axis EB300 asset/config/model compatibility remains unresolved",
+    "overview renderer required read-only nvoptix.bin host bind mount",
+    "full replay shell wrapper not tested; existing export/render Python entrypoints used"
+  ]
+}
