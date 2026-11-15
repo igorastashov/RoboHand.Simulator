@@ -17,11 +17,121 @@
     "same_kernel_as_isaac_proven": false
   },
   "upstream_pin": "7aec2ed26dce8c88ae007a2714680cce572e1466",
-  "upstream_source": "E:\\RoboHand\\upstream\\so101-typing-task-7aec2ed-linux",
+  "upstream_source": "E:\\RoboHand\\upstream\\so101-typing-task-7aec2ed-posix",
   "source_archive_sha256": "03c59934226b6ea8f89d9e6da1e29aa3c15397ca620f959655cca93e35392a62",
   "setup_started": true,
-  "setup_complete": false,
-  "reference_physics_smoke_passed": false,
+  "setup_complete": true,
+  "reference_physics_smoke_passed": true,
   "reference_rtx_camera_smoke_passed": false,
-  "eb300_task_passed": false
+  "eb300_task_passed": false,
+  "wsl2_ovrtx_documented_limitation": {
+    "source_pin": "0709377ed35fb066361a0d6735d21984b885fe36",
+    "source_url": "https://github.com/NVIDIA-Omniverse/usd-content-agents/blob/0709377ed35fb066361a0d6735d21984b885fe36/README.md#wsl2-rendering",
+    "local_ovrtx_supported_per_source": false,
+    "current_typing_pin_renderer_experiment_completed": true
+  },
+  "initial_image_build_complete": true,
+  "initial_debug_first_docker_info_timeout": true,
+  "initial_debug_retry_passed": true,
+  "initial_teacher_attempt": {
+    "passed": false,
+    "physics_started": false,
+    "failure": "ModuleNotFoundError: isaaclab_tasks.core.dexsuite.config.so101.agents",
+    "cause_verified": "Windows extraction converted upstream symlink to incomplete copied directory"
+  },
+  "posix_source_validation": {
+    "files": 289,
+    "symlinks": 2,
+    "mismatches": []
+  },
+  "corrected_image_rebuild_in_progress": false,
+  "corrected_debug_passed": true,
+  "corrected_base_namespace_verified": true,
+  "teacher_smoke": {
+    "updates": 2,
+    "total_steps": 128,
+    "num_envs": 2,
+    "device": "cuda:0",
+    "actions": 5,
+    "policy_observations": 22,
+    "simulation_start_s": 154.185534,
+    "cuda_graph_s": 98.435125,
+    "iteration_s": [
+      2.58,
+      0.9
+    ],
+    "typing_skill_claimed": false,
+    "checkpoints": [
+      {
+        "file": "model_0.pt",
+        "bytes": 2549067,
+        "sha256": "75c8dc2097cb5c60bef0e934083e11d905c6d92620d71a3d972c1cbb336e4195"
+      },
+      {
+        "file": "model_1.pt",
+        "bytes": 2549067,
+        "sha256": "a7b0c614f474ed6ebcfae0f134deea0af20c409becb8180eb0318fddab2c5dd5"
+      }
+    ]
+  },
+  "teacher_runtime": {
+    "image": "so101-tutorial:dev",
+    "image_id": "sha256:57e449f1f1d5b54a82f9f12527f78343fe1f92a730cb251d46ec80aef3d7347a"
+  },
+  "images": [
+    {
+      "id": "sha256:a84f9b1700349d6bf1582feb8e7726aee8b756cc301e248ceb91d454e3657ceb",
+      "tags": [
+        "so101-typing-public:dev"
+      ],
+      "reported_size_bytes": 16322500295,
+      "source_label": "7b20cbb929b2161b0e713364773bca0eb79da7bac9fb3161a55861809f9a1f1f"
+    },
+    {
+      "id": "sha256:57e449f1f1d5b54a82f9f12527f78343fe1f92a730cb251d46ec80aef3d7347a",
+      "tags": [
+        "so101-tutorial:dev"
+      ],
+      "reported_size_bytes": 17785587269,
+      "source_label": "7b20cbb929b2161b0e713364773bca0eb79da7bac9fb3161a55861809f9a1f1f"
+    }
+  ],
+  "teacher_evaluation": {
+    "target": "random13",
+    "suite": "random",
+    "episodes": 2,
+    "seed": 900001,
+    "domain_strength": 0.0,
+    "num_envs": 2,
+    "success_rate": 0.0,
+    "max_steps": 2,
+    "elapsed_s": 0.5939774513244629,
+    "results": [
+      {
+        "success": false,
+        "failures": [
+          "step_limit"
+        ],
+        "characters": 0
+      },
+      {
+        "success": false,
+        "failures": [
+          "step_limit"
+        ],
+        "characters": 0
+      }
+    ]
+  },
+  "teacher_evaluation_path": "E:\\RoboHand\\upstream\\so101-typing-task-7aec2ed-posix\\output\\tutorial\\20261115T114813.639842Z-evaluate\\evaluation.json",
+  "vision_attempt": {
+    "exit_code": 1,
+    "renderer_init_failed": true,
+    "error": "VkResult: ERROR_INCOMPATIBLE_DRIVER; vkCreateInstance failed; createDevices failed",
+    "frames_generated": false,
+    "vision_checkpoints_generated": false
+  },
+  "next_required_capability": "compatible native Linux RTX/Vulkan host for the selected Linux typing recipe",
+  "initial_teacher_evaluation_host_cwd_error_recovered_by_fresh_absolute_cd": true,
+  "reference_teacher_evaluation_runtime_passed": true
 }
