@@ -1,0 +1,63 @@
+{
+  "scope": "stock native FileName+Update relink bottom-up; latest-only saves; accepted sources/dirtyuser untouched",
+  "status": "passed",
+  "error": null,
+  "native_root": "E:\\RoboHand\\LATEST\\CAD\\EB300.a3d",
+  "max_pose_delta_vs_accepted": 0.0,
+  "user_original_unsaved_document_preserved": true,
+  "user_matrix_delta": 0.0,
+  "source_27_hashes_unchanged": true,
+  "final_changed": false,
+  "raw_evidence": "E:\\RoboHand\\data\\cad-reviews\\2026-11-15-latest-package\\complete-relink-raw.json",
+  "assembly_checks": [
+    {
+      "file": "E:\\RoboHand\\LATEST\\CAD\\components\\gripper20.a3d",
+      "max_pose_delta_before_save": 0.0,
+      "max_pose_delta_reopened": 0.0,
+      "changed_reopened": false,
+      "mates_count": 25,
+      "mates_all_valid": true,
+      "relinked_occurrences": 8
+    },
+    {
+      "file": "E:\\RoboHand\\LATEST\\CAD\\components\\EB300-R8-upper-rigid-smoke.a3d",
+      "max_pose_delta_before_save": 0.0,
+      "max_pose_delta_reopened": 0.0,
+      "changed_reopened": false,
+      "mates_count": 2,
+      "mates_all_valid": true,
+      "relinked_occurrences": 2
+    },
+    {
+      "file": "E:\\RoboHand\\LATEST\\CAD\\components\\EB300-R8-forearm.a3d",
+      "max_pose_delta_before_save": 0.0,
+      "max_pose_delta_reopened": 0.0,
+      "changed_reopened": false,
+      "mates_count": 2,
+      "mates_all_valid": true,
+      "relinked_occurrences": 3
+    },
+    {
+      "file": "E:\\RoboHand\\LATEST\\CAD\\components\\EB300-R8-end-effector.a3d",
+      "max_pose_delta_before_save": 0.0,
+      "max_pose_delta_reopened": 0.0,
+      "changed_reopened": false,
+      "mates_count": 4,
+      "mates_all_valid": true,
+      "relinked_occurrences": 5
+    },
+    {
+      "file": "E:\\RoboHand\\LATEST\\CAD\\EB300.a3d",
+      "max_pose_delta_before_save": 0.0,
+      "max_pose_delta_reopened": 0.0,
+      "changed_reopened": false,
+      "mates_count": 18,
+      "mates_all_valid": true,
+      "relinked_occurrences": 7
+    }
+  ],
+  "leaf_documents_checked": 19,
+  "leaf_external_dependencies_count": 0,
+  "SDK_recursive_external_dependencies_count": 23,
+  "SDK_recursive_external_dependencies_all_inside_LATEST": true
+}

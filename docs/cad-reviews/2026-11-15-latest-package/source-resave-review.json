@@ -1,0 +1,32 @@
+{
+  "updated": "2026-11-15",
+  "scope": "READ-ONLY source root resave comparison; no Save/Rebuild/Promote; LATEST unchanged",
+  "source_root": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\EB300-R8-jaw-typing.a3d",
+  "current_source_sha256": "3b1be8f09119924556fa88ddb60c67745fa2e0517e7da67ede1d8c6ffe35c033",
+  "accepted_source_sha256": "c6b0003ee6e4a8774d6d51577289e323eeb2001b7d75c71a586b48703deba774",
+  "current_source_bytes": 52213,
+  "source_mtime_utc": "2026-11-15T08:50:47.297966+00:00",
+  "status": "no_detected_geometry_pose_or_mate_change",
+  "error": null,
+  "tree_records": 26,
+  "tree_file_reference_changes": [],
+  "max_matrix_delta_vs_accepted": 0.0,
+  "max_matrix_delta_vs_LATEST": 0.0,
+  "root_mate_count": 18,
+  "root_mates_all_valid": true,
+  "root_mate_types_values_names_match_LATEST": true,
+  "geometry_dependency_files_changed": 0,
+  "source_and_LATEST_bytes_unchanged_by_review": true,
+  "document_changed_after_read": false,
+  "own_readonly_document_closed": true,
+  "remaining_documents": [
+    {
+      "path": "E:\\RoboHand\\LATEST\\CAD\\EB300.a3d",
+      "changed": false,
+      "read_only": false,
+      "active": true
+    }
+  ],
+  "raw_evidence": "E:\\RoboHand\\data\\cad-reviews\\2026-11-15-latest-package\\source-resave-review-raw.json",
+  "interpretation": "Only root saved bytes changed before this review. Compared assembly references, transforms and root mates unchanged; dependency geometry hashes unchanged. View/metadata byte differences were not decoded. Authorship is unknown; no promotion or overwrite performed."
+}

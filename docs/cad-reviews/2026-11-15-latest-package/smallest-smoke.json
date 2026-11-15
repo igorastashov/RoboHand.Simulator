@@ -1,0 +1,22 @@
+{
+  "scope": "LATEST isolated stock IPart7.FileName+Update smallest smoke from accepted disk bytes; no Save/Close of dirty user R8",
+  "status": "passed",
+  "upstream": "hymaxo/kompas3d-mcp@adef44fdc41401af3b239a5c9b1a4e108e1a237a",
+  "copied_native_files": 24,
+  "stock_operations": [
+    "IPart7.FileName SET",
+    "IModelObject.Update",
+    "IKompasDocument.SaveAs",
+    "Close/Open",
+    "GetSummMatrix"
+  ],
+  "update_returned_true": true,
+  "component_path_persisted": "E:\\RoboHand\\LATEST\\CAD\\components\\7_update.m3d",
+  "mates_valid_after_reopen": true,
+  "mates_count_after_reopen": 2,
+  "max_pose_delta_after_reopen": 0.0,
+  "user_document_still_open_unsaved": true,
+  "user_7_top_matrix_delta": 0.0,
+  "source_27_hashes_unchanged": true,
+  "raw_evidence": "E:\\RoboHand\\data\\cad-reviews\\2026-11-15-latest-package\\smallest-smoke-raw.json"
+}

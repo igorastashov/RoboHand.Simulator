@@ -1,0 +1,11 @@
+{
+  "updated": "2026-11-15",
+  "archive": "E:\\RoboHand\\releases\\EB300-LATEST-R8-2026-11-15\\EB300-LATEST-R8-2026-11-15.zip",
+  "mirror": "D:\\RoboHand-Backups\\EB300-LATEST-R8-2026-11-15.zip",
+  "sha256": "6f88147021f3bbcf818b1878b62da3b84a766833affd1eff6d5443686735fc5a",
+  "files": 26,
+  "native_files": 24,
+  "CRC_and_all_member_SHA256": "passed",
+  "mirror_sha256": "passed",
+  "scope": "LATEST/CAD and owner README/viewer shortcut. Original R8 archive retains simulation assets. Restore LATEST at original E path; other-path portability not tested."
+}

@@ -1,0 +1,45 @@
+{
+  "updated": "2026-11-15",
+  "scope": "Independent root fresh MCP SDK reference readback and offline member SHA256 audit",
+  "native_root": "E:\\RoboHand\\LATEST\\CAD\\EB300.a3d",
+  "SDK_recursive_external_references": [
+    "E:\\RoboHand\\LATEST\\CAD\\components\\tube1.m3d",
+    "E:\\RoboHand\\LATEST\\CAD\\components\\18_update.m3d",
+    "E:\\RoboHand\\LATEST\\CAD\\components\\14_update.m3d",
+    "E:\\RoboHand\\LATEST\\CAD\\components\\Wrist3-output-NOMINAL-D57-L12-R1.m3d",
+    "E:\\RoboHand\\LATEST\\CAD\\components\\014.m3d",
+    "E:\\RoboHand\\LATEST\\CAD\\components\\1_update.m3d",
+    "E:\\RoboHand\\LATEST\\CAD\\components\\Phone-low-arm-NOMINAL-R2.m3d",
+    "E:\\RoboHand\\LATEST\\CAD\\components\\Redmi8A-envelope-R1.m3d",
+    "E:\\RoboHand\\LATEST\\CAD\\components\\3_update.m3d",
+    "E:\\RoboHand\\LATEST\\CAD\\components\\tube2.m3d",
+    "E:\\RoboHand\\LATEST\\CAD\\components\\002.m3d",
+    "E:\\RoboHand\\LATEST\\CAD\\components\\7_update.m3d",
+    "E:\\RoboHand\\LATEST\\CAD\\components\\013.m3d",
+    "E:\\RoboHand\\LATEST\\CAD\\components\\003.m3d",
+    "E:\\RoboHand\\LATEST\\CAD\\components\\Phone-backing-post-NOMINAL-R2.m3d",
+    "E:\\RoboHand\\LATEST\\CAD\\components\\Wrist2-31-R1-frames.m3d",
+    "E:\\RoboHand\\LATEST\\CAD\\components\\27_update.m3d",
+    "E:\\RoboHand\\LATEST\\CAD\\components\\23_update.m3d",
+    "E:\\RoboHand\\LATEST\\CAD\\components\\007.m3d",
+    "E:\\RoboHand\\LATEST\\CAD\\components\\EB300-R8-end-effector.a3d",
+    "E:\\RoboHand\\LATEST\\CAD\\components\\EB300-R8-upper-rigid-smoke.a3d",
+    "E:\\RoboHand\\LATEST\\CAD\\components\\EB300-R8-forearm.a3d",
+    "E:\\RoboHand\\LATEST\\CAD\\components\\gripper20.a3d"
+  ],
+  "external_references_count": 23,
+  "external_references_all_inside_latest": true,
+  "latest_24_hashes_match_manifest": true,
+  "source_23_dependencies_match_accepted_R8": true,
+  "later_source_root_resave": [
+    {
+      "file": "E:\\RoboHand\\data\\cad-work\\2026-11-14-eb300-c2133b98\\outputs\\EB300-R8-jaw-typing.a3d",
+      "accepted_sha256": "c6b0003ee6e4a8774d6d51577289e323eeb2001b7d75c71a586b48703deba774",
+      "current_sha256": "3b1be8f09119924556fa88ddb60c67745fa2e0517e7da67ede1d8c6ffe35c033"
+    }
+  ],
+  "resave_geometry_review": "source-resave-review.json: 26 matrices unchanged, 18 root mates unchanged; byte-level view/metadata differences not decoded",
+  "readback_after_open_changed": false,
+  "MCP_parsing": "structuredContent.result = [success, paths, types]; text content is flattened and first block alone is not the references",
+  "pose_and_mates": "Agent complete-relink.json: 26 native matrices delta0, all five assemblies mates Valid; no new motion/physics/training claim"
+}
