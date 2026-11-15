@@ -1,0 +1,27 @@
+{
+  "checked": "2026-11-15",
+  "docker_data_dir": "E:\\DockerDesktopWSL",
+  "vhdx_on_E_verified": true,
+  "old_localappdata_vhdx_absent_verified": true,
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "gpu_memory_MiB": 24576,
+  "driver": "580.97",
+  "nvml_container_discovery_passed": true,
+  "cuda_compute": {
+    "official_command": "docker run --rm --gpus all nvcr.io/nvidia/k8s/cuda-sample:nbody nbody -gpu -benchmark",
+    "exit_code": 0,
+    "compute_capability": "8.6",
+    "bodies": 83968,
+    "iterations": 10,
+    "time_ms": 72.119,
+    "same_kernel_as_isaac_proven": false
+  },
+  "upstream_pin": "7aec2ed26dce8c88ae007a2714680cce572e1466",
+  "upstream_source": "E:\\RoboHand\\upstream\\so101-typing-task-7aec2ed-linux",
+  "source_archive_sha256": "03c59934226b6ea8f89d9e6da1e29aa3c15397ca620f959655cca93e35392a62",
+  "setup_started": true,
+  "setup_complete": false,
+  "reference_physics_smoke_passed": false,
+  "reference_rtx_camera_smoke_passed": false,
+  "eb300_task_passed": false
+}
