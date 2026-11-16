@@ -1,0 +1,67 @@
+{
+  "status": "reference-from-owner-confirmed-standard-kit; not per-axis measured calibration",
+  "sources": {
+    "assembly_pdf_sha256": "2f320c567aa6e7bdaddcb094646440a845cce0134557fe75ae1af94f394658ba",
+    "assembly_motor_page": 4,
+    "electrical_pdf_sha256": "c87585ad453577f1e476abc8aec38b3fdabd45462c509bb0ae4f8513ebd840ba",
+    "electrical_motor_page": 6,
+    "vendor_url": "https://toolboxrobotics.com/robotic-arm-eb300",
+    "OneMotor_commit": "8a58feda91d090fe64a48669fec1bc002479549d",
+    "Firmware_commit": "c0fb5f49179f4bff7c9e4c2125de9078fbf02b3e",
+    "Control_commit": "22b1eeb69f0d850c8397db72f6934428de6c849a"
+  },
+  "manufacturer_motor_classes": [
+    {
+      "name": "NEMA17 60 mm",
+      "count": 3,
+      "full_step_deg": 1.8,
+      "holding_torque_Nm": 0.65,
+      "phase_current_A": 2.1
+    },
+    {
+      "name": "NEMA23 76 mm",
+      "count": 1,
+      "full_step_deg": 1.8,
+      "holding_torque_Nm": 1.85,
+      "phase_current_A": 2.8
+    },
+    {
+      "name": "NEMA23 82 mm",
+      "count": 2,
+      "full_step_deg": 1.8,
+      "holding_torque_Nm": 2.4,
+      "phase_current_A": 4.0
+    }
+  ],
+  "owned_base_kit": [
+    "six motors and reducers",
+    "six TB6600 drivers",
+    "Arduino Mega",
+    "24 V 15 A power supply",
+    "home switches",
+    "Redmi 8A"
+  ],
+  "existing_code": {
+    "J1_pins": {
+      "step": 2,
+      "dir": 3,
+      "enable": 4
+    },
+    "J1_serial_baud": 115200,
+    "J1_steps_per_motor_rev": 800,
+    "onemotor_example_gear_ratio": 1.0,
+    "gear_ratio_status": "placeholder, not calibration",
+    "multi_axis_firmware": "J1 implemented; J2–J6 NOT_WIRED",
+    "position_source": "issued-step counter, not measured joint angle"
+  },
+  "unresolved_real_calibration": [
+    "axis-to-motor and reducer revision verification",
+    "actual reducer ratios",
+    "current and microstep DIP per driver",
+    "mechanical zeros and full travel limits",
+    "mass and inertia measurements",
+    "torque-speed behavior and backlash",
+    "J2–J6 pin map and homing wiring"
+  ],
+  "simulation_servos": "separate nominal MJCF data; holding torque is not used as continuous joint torque"
+}

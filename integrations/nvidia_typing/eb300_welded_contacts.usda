@@ -1,0 +1,139 @@
+#usda 1.0
+(
+    defaultPrim = "eb300_r8_native_contact_r2"
+    metersPerUnit = 1
+    subLayers = [
+        @eb300_r8_native_contact_r2.usda@
+    ]
+    upAxis = "Z"
+)
+
+over "eb300_r8_native_contact_r2"
+{
+    over "Geometry"
+    {
+        over "base_footprint"
+        {
+            over "base_link"
+            {
+                over "shoulder_link"
+                {
+                    over "upper_arm_link"
+                    {
+                        over "forearm_link"
+                        {
+                            over "wrist1_link"
+                            {
+                                over "wrist2_link"
+                                {
+                                    over "wrist3_link"
+                                    {
+                                        over "phone_link"
+                                        {
+                                            over "phone_link_phone_link_collision" (
+                                                prepend apiSchemas = ["PhysicsFilteredPairsAPI"]
+                                            )
+                                            {
+                                                prepend rel physics:filteredPairs = [
+                                                    </eb300_r8_native_contact_r2/Geometry/base_footprint/base_link/shoulder_link/upper_arm_link/forearm_link/wrist1_link/wrist2_link/wrist3_link/phone_arm_link/phone_arm_link_phone_arm_link_collision>,
+                                                    </eb300_r8_native_contact_r2/Geometry/base_footprint/base_link/shoulder_link/upper_arm_link/forearm_link/wrist1_link/wrist2_link/wrist3_link/phone_backing_link/phone_backing_link_plate_collision>,
+                                                    </eb300_r8_native_contact_r2/Geometry/base_footprint/base_link/shoulder_link/upper_arm_link/forearm_link/wrist1_link/wrist2_link/wrist3_link/phone_backing_link/phone_backing_link_post_collision>,
+                                                ]
+                                            }
+                                        }
+
+                                        over "phone_arm_link"
+                                        {
+                                            over "phone_arm_link_phone_arm_link_collision" (
+                                                prepend apiSchemas = ["PhysicsFilteredPairsAPI"]
+                                            )
+                                            {
+                                                prepend rel physics:filteredPairs = [
+                                                    </eb300_r8_native_contact_r2/Geometry/base_footprint/base_link/shoulder_link/upper_arm_link/forearm_link/wrist1_link/wrist2_link/wrist3_link/phone_backing_link/phone_backing_link_plate_collision>,
+                                                    </eb300_r8_native_contact_r2/Geometry/base_footprint/base_link/shoulder_link/upper_arm_link/forearm_link/wrist1_link/wrist2_link/wrist3_link/phone_backing_link/phone_backing_link_post_collision>,
+                                                ]
+                                            }
+                                        }
+
+                                        over "J6" (
+                                            prepend apiSchemas = ["PhysicsDriveAPI:angular"]
+                                        )
+                                        {
+                                            float drive:angular:physics:damping = 8
+                                            float drive:angular:physics:maxForce = 8
+                                            float drive:angular:physics:stiffness = 130
+                                            float drive:angular:physics:targetPosition = 57.29578
+                                            float drive:angular:physics:targetVelocity = 0
+                                            uniform token drive:angular:physics:type = "force"
+                                        }
+                                    }
+
+                                    over "J5" (
+                                        prepend apiSchemas = ["PhysicsDriveAPI:angular"]
+                                    )
+                                    {
+                                        float drive:angular:physics:damping = 10
+                                        float drive:angular:physics:maxForce = 10
+                                        float drive:angular:physics:stiffness = 180
+                                        float drive:angular:physics:targetPosition = -40.107044
+                                        float drive:angular:physics:targetVelocity = 0
+                                        uniform token drive:angular:physics:type = "force"
+                                    }
+                                }
+
+                                over "J4" (
+                                    prepend apiSchemas = ["PhysicsDriveAPI:angular"]
+                                )
+                                {
+                                    float drive:angular:physics:damping = 12
+                                    float drive:angular:physics:maxForce = 12
+                                    float drive:angular:physics:stiffness = 220
+                                    float drive:angular:physics:targetPosition = 0
+                                    float drive:angular:physics:targetVelocity = 0
+                                    uniform token drive:angular:physics:type = "force"
+                                }
+                            }
+
+                            over "J3" (
+                                prepend apiSchemas = ["PhysicsDriveAPI:angular"]
+                            )
+                            {
+                                float drive:angular:physics:damping = 40
+                                float drive:angular:physics:maxForce = 25
+                                float drive:angular:physics:stiffness = 650
+                                float drive:angular:physics:targetPosition = 48.701412
+                                float drive:angular:physics:targetVelocity = 0
+                                uniform token drive:angular:physics:type = "force"
+                            }
+                        }
+
+                        over "J2" (
+                            prepend apiSchemas = ["PhysicsDriveAPI:angular"]
+                        )
+                        {
+                            float drive:angular:physics:damping = 55
+                            float drive:angular:physics:maxForce = 35
+                            float drive:angular:physics:stiffness = 900
+                            float drive:angular:physics:targetPosition = 51.5662
+                            float drive:angular:physics:targetVelocity = 0
+                            uniform token drive:angular:physics:type = "force"
+                        }
+                    }
+
+                    over "J1" (
+                        prepend apiSchemas = ["PhysicsDriveAPI:angular"]
+                    )
+                    {
+                        float drive:angular:physics:damping = 30
+                        float drive:angular:physics:maxForce = 40
+                        float drive:angular:physics:stiffness = 500
+                        float drive:angular:physics:targetPosition = -45
+                        float drive:angular:physics:targetVelocity = 0
+                        uniform token drive:angular:physics:type = "force"
+                    }
+                }
+            }
+        }
+    }
+}
+

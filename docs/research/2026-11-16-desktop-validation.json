@@ -1,0 +1,381 @@
+{
+  "mujoco": "4.0.1",
+  "scene_sha256": "419f01ade1b446024d56d7b19e40d58491c520f200b892941bf1b8bd9383eb7b",
+  "robot_sha256": "df8f460031dc8b1ecd5b7c17e3ebfc7da54c0ccd5a846d755503791c0cabc438",
+  "nq": 7,
+  "nu": 6,
+  "na": 6,
+  "gravity": [
+    0.0,
+    0.0,
+    -9.81
+  ],
+  "trial_scope": "fixed scene, fixed built-in filtered position-servo targets; no learned policy, no physical hardware",
+  "contact_threshold_m": -0.0015,
+  "trials": [
+    {
+      "trial": 1,
+      "before_m": -0.00021800000000000012,
+      "pressed_m": -0.0018819839580995913,
+      "minimum_m": -0.0018819839580995913,
+      "released_m": -0.00021799999999999996,
+      "downward_threshold_crossings": 1,
+      "all_press_phase_contacts": [
+        [
+          "key_A_cap",
+          "eb300/wrist3_link_gripper_013_3_collision"
+        ]
+      ],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite": true,
+      "passed": true
+    },
+    {
+      "trial": 2,
+      "before_m": -0.00021800000000000012,
+      "pressed_m": -0.0018819839580995913,
+      "minimum_m": -0.0018819839580995913,
+      "released_m": -0.00021799999999999996,
+      "downward_threshold_crossings": 1,
+      "all_press_phase_contacts": [
+        [
+          "key_A_cap",
+          "eb300/wrist3_link_gripper_013_3_collision"
+        ]
+      ],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite": true,
+      "passed": true
+    },
+    {
+      "trial": 3,
+      "before_m": -0.00021800000000000012,
+      "pressed_m": -0.0018819839580995913,
+      "minimum_m": -0.0018819839580995913,
+      "released_m": -0.00021799999999999996,
+      "downward_threshold_crossings": 1,
+      "all_press_phase_contacts": [
+        [
+          "key_A_cap",
+          "eb300/wrist3_link_gripper_013_3_collision"
+        ]
+      ],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite": true,
+      "passed": true
+    },
+    {
+      "trial": 4,
+      "before_m": -0.00021800000000000012,
+      "pressed_m": -0.0018819839580995913,
+      "minimum_m": -0.0018819839580995913,
+      "released_m": -0.00021799999999999996,
+      "downward_threshold_crossings": 1,
+      "all_press_phase_contacts": [
+        [
+          "key_A_cap",
+          "eb300/wrist3_link_gripper_013_3_collision"
+        ]
+      ],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite": true,
+      "passed": true
+    },
+    {
+      "trial": 5,
+      "before_m": -0.00021800000000000012,
+      "pressed_m": -0.0018819839580995913,
+      "minimum_m": -0.0018819839580995913,
+      "released_m": -0.00021799999999999996,
+      "downward_threshold_crossings": 1,
+      "all_press_phase_contacts": [
+        [
+          "key_A_cap",
+          "eb300/wrist3_link_gripper_013_3_collision"
+        ]
+      ],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite": true,
+      "passed": true
+    },
+    {
+      "trial": 6,
+      "before_m": -0.00021800000000000012,
+      "pressed_m": -0.0018819839580995913,
+      "minimum_m": -0.0018819839580995913,
+      "released_m": -0.00021799999999999996,
+      "downward_threshold_crossings": 1,
+      "all_press_phase_contacts": [
+        [
+          "key_A_cap",
+          "eb300/wrist3_link_gripper_013_3_collision"
+        ]
+      ],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite": true,
+      "passed": true
+    },
+    {
+      "trial": 7,
+      "before_m": -0.00021800000000000012,
+      "pressed_m": -0.0018819839580995913,
+      "minimum_m": -0.0018819839580995913,
+      "released_m": -0.00021799999999999996,
+      "downward_threshold_crossings": 1,
+      "all_press_phase_contacts": [
+        [
+          "key_A_cap",
+          "eb300/wrist3_link_gripper_013_3_collision"
+        ]
+      ],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite": true,
+      "passed": true
+    },
+    {
+      "trial": 8,
+      "before_m": -0.00021800000000000012,
+      "pressed_m": -0.0018819839580995913,
+      "minimum_m": -0.0018819839580995913,
+      "released_m": -0.00021799999999999996,
+      "downward_threshold_crossings": 1,
+      "all_press_phase_contacts": [
+        [
+          "key_A_cap",
+          "eb300/wrist3_link_gripper_013_3_collision"
+        ]
+      ],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite": true,
+      "passed": true
+    },
+    {
+      "trial": 9,
+      "before_m": -0.00021800000000000012,
+      "pressed_m": -0.0018819839580995913,
+      "minimum_m": -0.0018819839580995913,
+      "released_m": -0.00021799999999999996,
+      "downward_threshold_crossings": 1,
+      "all_press_phase_contacts": [
+        [
+          "key_A_cap",
+          "eb300/wrist3_link_gripper_013_3_collision"
+        ]
+      ],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite": true,
+      "passed": true
+    },
+    {
+      "trial": 10,
+      "before_m": -0.00021800000000000012,
+      "pressed_m": -0.0018819839580995913,
+      "minimum_m": -0.0018819839580995913,
+      "released_m": -0.00021799999999999996,
+      "downward_threshold_crossings": 1,
+      "all_press_phase_contacts": [
+        [
+          "key_A_cap",
+          "eb300/wrist3_link_gripper_013_3_collision"
+        ]
+      ],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite": true,
+      "passed": true
+    }
+  ],
+  "positive_direction_probes": [
+    {
+      "joint": "J1",
+      "command_delta_rad": 0.00872664626,
+      "measured_sim_delta_rad": 0.00872664474045115,
+      "passed": true
+    },
+    {
+      "joint": "J2",
+      "command_delta_rad": 0.00872664626,
+      "measured_sim_delta_rad": 0.008797855860858461,
+      "passed": true
+    },
+    {
+      "joint": "J3",
+      "command_delta_rad": 0.00872664626,
+      "measured_sim_delta_rad": 0.008679391063760367,
+      "passed": true
+    },
+    {
+      "joint": "J4",
+      "command_delta_rad": 0.00872664626,
+      "measured_sim_delta_rad": 0.008689848657400774,
+      "passed": true
+    },
+    {
+      "joint": "J5",
+      "command_delta_rad": 0.00872664626,
+      "measured_sim_delta_rad": 0.008702361047614904,
+      "passed": true
+    },
+    {
+      "joint": "J6",
+      "command_delta_rad": 0.00872664626,
+      "measured_sim_delta_rad": 0.008734654775733541,
+      "passed": true
+    }
+  ],
+  "images": {
+    "overview": {
+      "size": [
+        1280,
+        800
+      ],
+      "pixel_std": 41.5829393325436
+    },
+    "eb300/redmi8a_nominal": {
+      "size": [
+        640,
+        480
+      ],
+      "pixel_std": 61.77670316942294
+    }
+  },
+  "native_newton_import": {
+    "unit_result": {
+      "Result": "success",
+      "ExecMainStatus": "0",
+      "SubState": "exited"
+    },
+    "scope": "GPU model construction and forward kinematics only, solver dynamics/camera/training not validated",
+    "results": [
+      {
+        "label": "robot_mjcf",
+        "body_count": 13,
+        "shape_count": 46,
+        "joint_dof_count": 6,
+        "joint_coord_count": 6,
+        "finite_gpu_fk": true
+      },
+      {
+        "label": "robot_usd",
+        "body_count": 13,
+        "shape_count": 46,
+        "joint_dof_count": 6,
+        "joint_coord_count": 6,
+        "finite_gpu_fk": true
+      },
+      {
+        "label": "desktop_usd",
+        "body_count": 25,
+        "shape_count": 124,
+        "joint_dof_count": 7,
+        "joint_coord_count": 7,
+        "finite_gpu_fk": true
+      }
+    ]
+  },
+  "converter": {
+    "package": "mujoco-usd-converter==0.9.0",
+    "upstream": "https://github.com/newton-physics/mujoco-usd-converter",
+    "commit": "64e3695dddc30b4ef9658d6609ff4cbef86927c4",
+    "cli_exit_robot": 0,
+    "cli_exit_desktop": 0,
+    "warnings": [
+      "cameras unsupported",
+      "lights unsupported",
+      "keys (keyframes) unsupported",
+      "sensors unsupported",
+      "checker texture unsupported",
+      "ellipsoid mouse geometry unsupported"
+    ],
+    "ascii_input_copy_required": true
+  },
+  "owner_review": {
+    "cad_viewed": true,
+    "date": "2026-11-16",
+    "mount": "left front, nearest person",
+    "pc_tower": "right rear",
+    "training_adaptation_scope": "explicitly approved by owner, 2026-11-16"
+  },
+  "hash_basis": "Original SHA256 fields describe the as-validated Windows working-copy bytes preserved in local archives; *_lf fields additionally identify Git-normalized LF text.",
+  "scene_sha256_lf": "46aa56747958b8c344bf0d53492ddd5a0ad516ae73e92eb83cf1af1cfbce223d",
+  "robot_sha256_lf": "36bc7987af569a380752035fa30019f13b6efc10828fe4c11dcc846a4a690e0e"
+}

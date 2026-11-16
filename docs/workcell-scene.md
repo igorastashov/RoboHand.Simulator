@@ -1,13 +1,15 @@
 ---
 tags: [robohand, simulator, workcell, redmi8a, scene, jaw-typing]
 type: design
-updated: 2026-11-15
-status: cad-asset-ready-keyboard-scene-pending
+updated: 2026-11-16
+status: nominal-desktop-contact-and-native-learning-smoke-validated
 ---
 
 # Сцена рабочего стола EB300
 
-**Курс15.11:** [R8](cad-reviews/2026-11-15-logical-r8/task.md) использует универсальный EBG20 и реальную кромку губки; стержень/держатель удаляются из активного CAD/URDF/MJCF profile. CAD/inspection asset уже есть, но keyboard task scene/actuators/training ещё не приняты. Сначала штатный runtime/GPU smoke pinned NVIDIA typing recipe, затем EB300 robot/contact/6-action configuration.
+**Реализовано16.11:** [desktop R1](desktop-workcell-r1.md): рука слева спереди, PC справа сзади, монитор/мышь/условная клавиатура, шесть position actuators, camera и10/10 фиксированных contact trials. Нативная CAD R8 сохранена. Отдельно пройдена [минимальная native цепочка обучения EB300](research/2026-11-16-eb300-native-training.md); совмещение мировой layout и native contact task остаётся следующим шагом. Ниже — исходный дизайн и его границы.
+
+**История15.11:** [R8](cad-reviews/2026-11-15-logical-r8/task.md) использует универсальный EBG20 и реальную кромку губки; стержень/держатель удалены. Тогда были приняты CAD/inspection asset, а приводы/keyboard task/training ещё предстояли. Результаты следующего прохода16.11 приведены выше.
 
 [Индекс](index.md) · [Первый sim backend](simulation-first.md) · [Полный pipeline](<../../../../../_ПЛАНЫ_/embedded-robotics-market-research/research/projects/robohand/virtual-workcell-pipeline.md>).
 

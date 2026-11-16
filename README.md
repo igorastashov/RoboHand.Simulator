@@ -1,8 +1,10 @@
 # RoboHand.Simulator
 
-**Рабочая CAD отдельно:** `E:\RoboHand\LATEST\CAD\EB300.a3d`; [файлы/проверка/ярлык MuJoCo](docs/latest-artifacts.md). [URDF, суставы и сцена — понятное объяснение](docs/urdf-mujoco-explained.md). Docker переносит владелец, затем проверяем GPU; до обучения — ручная проверка движения.
+**16.11: [рабочий стол EB300 R1](docs/desktop-workcell-r1.md)** — рука слева спереди, PC справа сзади, шесть штатных приводов и10/10 заданных нажатий тестовой A обычной губкой. [Native NVIDIA recipe для шести осей](docs/research/2026-11-16-eb300-native-training.md): проверены исправленный drive/contact profile, камера и минимальные teacher/vision PPO updates; полноценный навык печати ещё не обучен. [Зрение Redmi: обзор и crop](docs/research/2026-11-16-camera-coverage.md).
 
-**[Начать здесь: что готово, как открыть R8 и что делаем на этом ПК](docs/start-here-r8.md).** Для просмотра уже установлен MuJoCo. До NVIDIA GPU smoke настроить место под Docker на E:. [Состав публичного Git и локальные assets](docs/publication-scope.md).
+**Рабочая CAD отдельно:** `E:\RoboHand\LATEST\CAD\EB300.a3d`; [файлы/проверка/ярлыки MuJoCo](docs/latest-artifacts.md). [URDF, суставы и сцена — понятное объяснение](docs/urdf-mujoco-explained.md). CAD владельцем просмотрена; Docker на E: и дополнительный native GPU runtime проверены.
+
+**[Начать здесь: что готово, как открыть R8 и что делаем на этом ПК](docs/start-here-r8.md).** Для просмотра установлен MuJoCo, рабочий стол открывается отдельным ярлыком в LATEST. [Состав публичного Git и локальные assets](docs/publication-scope.md).
 
 **Актуальная версия15.11 — [R8:7логических узлов и контакт обычной губкой](docs/cad-reviews/2026-11-15-logical-r8/root-review.md).** Стержень и его держатель удалены. Три штатные native подсборки, шесть подвижных интерфейсов,49состояний независимой сверки. [Открывать R8 / файлы / backup наE иD](docs/latest-artifacts.md). R7 ниже — предыдущая принятая версия со стержнем, сохранённая для истории.
 
@@ -18,7 +20,7 @@
 
 > **Audit 2026-11-07:** the implemented package is `robohand_description`; a fresh Humble build and URDF generation passed. Gazebo/bringup/controllers are planned. The YAML configuration is not loaded by the current xacro. See the [documentation index](docs/index.md) and [audit](docs/research/2026-11-07-state.md).
 
-ROS2 description and reviewed CAD-based EB300 asset, with a stock MuJoCo inspection scene. NVIDIA typing runtime/task integration is the next gate.
+ROS2 description, reviewed CAD-based EB300 asset, a nominal MuJoCo desktop/contact scene, and an owner-approved six-axis adaptation of the pinned NVIDIA typing recipe. Learning checks are documented separately from learned task success and real hardware execution.
 
 ## Workspace layout
 

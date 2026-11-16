@@ -1,0 +1,5 @@
+# Preserve the validated patch/layer bytes on Windows checkouts.
+# Unified diff context lines legitimately contain a single trailing space.
+integrations/nvidia_typing/eb300.patch text eol=lf whitespace=-blank-at-eol
+# USD tooling emits a terminating blank line; keep the validated layer hash.
+integrations/nvidia_typing/eb300_welded_contacts.usda text eol=lf whitespace=-blank-at-eof

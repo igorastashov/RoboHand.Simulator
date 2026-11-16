@@ -1,0 +1,16 @@
+absl-py==2.5.1
+etils==1.15.0
+fsspec==2026.9.0
+glfw==2.11.0
+mujoco==3.17.0
+mujoco-usd-converter==0.9.0
+newton-usd-schemas==0.7.0
+numpy==2.5.5
+numpy-stl==4.1.4
+pyopengl==4.0.0b1
+python-utils==4.2.2
+tinyobjloader==2.0.0rc13
+typing-extensions==4.16.0
+usd-exchange==3.0.1
+websockets==17.4
+zipp==4.1.2

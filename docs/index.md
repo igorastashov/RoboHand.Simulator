@@ -1,13 +1,18 @@
 ---
 tags: [robohand, simulator, index]
 type: index
-updated: 2026-11-15
+updated: 2026-11-16
 ---
 
 # Документация Simulator
 
 | Документ | Назначение |
 |---|---|
+| [Рабочий стол EB300 R1](desktop-workcell-r1.md) | Рука слева спереди, PC справа сзади; шесть номинальных приводов, камера и 10/10 заданных нажатий A |
+| [Разрешённая адаптация обучения EB300](research/2026-11-16-eb300-training-adaptation.md) | Решение владельца16.11, точные ограничения upstream и приёмка six-axis teacher/vision |
+| [Native обучение EB300: результаты](research/2026-11-16-eb300-native-training.md) | Исправленный drive/contact asset,6actions,100stable steps, teacher/vision PPO, evaluation и replay; навык ещё не обучен |
+| [Интеграция с NVIDIA typing](../integrations/nvidia_typing/README.md) | Патч к7aec2ed, штатный Docker overlay и конфигурация EB300 без нового framework |
+| [Обзор и точное зрение Redmi 8A](research/2026-11-16-camera-coverage.md) | Телефон подтверждён владельцем; отдельного ширика нет, полный кадр/crop и готовая практика обзорная+wrist |
 | [Native Linux: камера и обучение](research/2026-11-15-native-linux-runtime.md) | Дополнительный GPU-host, pinned runtime/source, камера, teacher/vision PPO, оценки и MP4 проверены; SO-101 только reference |
 | [Рабочий план EB300 от15.11](<../../../../../_ПЛАНЫ_/embedded-robotics-market-research/research/projects/robohand/plans/2026-11-15-execution-plan.md>) | Последовательность сервер/reference → шесть осей EB300 → нажатие → PPO/vision, спринты и участие владельца |
 | [Локальная разработка и дополнительный GPU-сервер](<../../../../../_ПЛАНЫ_/embedded-robotics-market-research/research/projects/robohand/remote-gpu-workspace-2026-11-15.md>) | Частный план ресурсов/переключения стенда; работа остаётся на этом ПК; обслуживание завершено, GPU-проверки пройдены, возврат стенда описан |

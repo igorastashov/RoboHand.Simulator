@@ -1,0 +1,482 @@
+diff --git a/configs/scenes/eb300-tabletop.json b/configs/scenes/eb300-tabletop.json
+new file mode 100644
+index 0000000..2e2a9e5
+--- /dev/null
++++ b/configs/scenes/eb300-tabletop.json
+@@ -0,0 +1,44 @@
++{
++  "schema_version": 1,
++  "table": {
++    "center_xy_mm": [
++      -200.0,
++      -150.0
++    ],
++    "size_mm": [
++      1600.0,
++      900.0,
++      40.0
++    ]
++  },
++  "panels": {
++    "front_x_mm": -1000.0,
++    "back_x_mm": 600.0,
++    "left_y_mm": 300.0,
++    "right_y_mm": -600.0,
++    "height_mm": 1.0,
++    "thickness_mm": 1.0
++  },
++  "color_rgb": [
++    0.6,
++    0.43,
++    0.27
++  ],
++  "robot_color_rgb": [
++    0.68,
++    0.7,
++    0.73
++  ],
++  "camera": {
++    "eye_mm": [
++      900.0,
++      900.0,
++      1200.0
++    ],
++    "lookat_mm": [
++      -350.0,
++      -300.0,
++      300.0
++    ]
++  }
++}
+diff --git a/configs/tasks/eb300-r8.json b/configs/tasks/eb300-r8.json
+new file mode 100644
+index 0000000..acf4799
+--- /dev/null
++++ b/configs/tasks/eb300-r8.json
+@@ -0,0 +1,17 @@
++{
++  "schema_version": 1,
++  "robot": "eb300",
++  "keyboard": {
++    "position_m": [
++      -0.49,
++      -0.42,
++      0.029120267782466944
++    ],
++    "rotation_xyzw": [
++      0.0,
++      0.0,
++      0.0,
++      1.0
++    ]
++  }
++}
+diff --git a/configs/tutorial/eb300-smoke.json b/configs/tutorial/eb300-smoke.json
+new file mode 100644
+index 0000000..7509f84
+--- /dev/null
++++ b/configs/tutorial/eb300-smoke.json
+@@ -0,0 +1,22 @@
++{
++  "schema_version": 1,
++  "training": {
++    "sequence_length": 13,
++    "vocabulary": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .",
++    "random_sequences": true,
++    "num_envs": 2,
++    "teacher_iterations": 2,
++    "vision_iterations": 2,
++    "warmup": 1,
++    "learning_rate": 0.0001,
++    "save_interval": 1,
++    "domain_strength": 0.0,
++    "seed": 4811
++  },
++  "evaluation": {
++    "target": "ISAAC LAB 3.0",
++    "episodes": 2,
++    "seed": 900001
++  },
++  "task_config": "configs/tasks/eb300-r8.json"
++}
+diff --git a/configs/vision/eb300_replay_camera.json b/configs/vision/eb300_replay_camera.json
+new file mode 100644
+index 0000000..575bcfd
+--- /dev/null
++++ b/configs/vision/eb300_replay_camera.json
+@@ -0,0 +1,15 @@
++{
++  "description": "EB300 training scaffold overview in robot-base coordinates",
++  "coordinate_frame": "simulation world, robot base at origin",
++  "units": "metres",
++  "eye_m": [
++    1.2,
++    -1.6,
++    1.2
++  ],
++  "lookat_m": [
++    -0.25,
++    -0.25,
++    0.28
++  ]
++}
+diff --git a/docker/eb300-overlay.Dockerfile b/docker/eb300-overlay.Dockerfile
+new file mode 100644
+index 0000000..86a2147
+--- /dev/null
++++ b/docker/eb300-overlay.Dockerfile
+@@ -0,0 +1,11 @@
++# Runtime overlay: existing pinned NVIDIA runtime and existing upstream entrypoint.
++ARG BASE_IMAGE=robohand/so101-tutorial:7aec2ed-20261115
++FROM ${BASE_IMAGE}
++ARG SOURCE_SHA256
++ARG ADAPTATION_SHA256
++LABEL org.so101.source-sha256=${SOURCE_SHA256}
++LABEL org.robohand.base-commit=7aec2ed26dce8c88ae007a2714680cce572e1466
++LABEL org.robohand.adaptation-sha256=${ADAPTATION_SHA256}
++COPY source/so101_typing /workspace/isaaclab/source/so101_typing
++COPY scripts /workspace/isaaclab/scripts
++COPY configs /workspace/isaaclab/configs
+diff --git a/scripts/reinforcement_learning/rsl_rl/public_task.py b/scripts/reinforcement_learning/rsl_rl/public_task.py
+index f91c30e..ea16783 100644
+--- a/scripts/reinforcement_learning/rsl_rl/public_task.py
++++ b/scripts/reinforcement_learning/rsl_rl/public_task.py
+@@ -14,10 +14,12 @@ def finite(value):
+ 
+ def load_config(path):
+     data = json.loads(Path(path).read_text())
+-    if not isinstance(data, dict) or set(data) - {'schema_version', 'keyboard', 'domain_randomization'}:
++    if not isinstance(data, dict) or set(data) - {'schema_version', 'keyboard', 'domain_randomization', 'robot'}:
+         raise ValueError('unknown task configuration fields')
+     if type(data.get('schema_version')) is not int or data['schema_version'] != 1:
+         raise ValueError('task configuration requires schema_version=1')
++    if data.get('robot', 'so101') not in ('so101', 'eb300'):
++        raise ValueError('robot must be so101 or eb300')
+     keyboard = data.get('keyboard', {})
+     if not isinstance(keyboard, dict) or set(keyboard) - {'position_m', 'yaw_offset_deg', 'rotation_xyzw'}:
+         raise ValueError('keyboard accepts position_m and either yaw_offset_deg or rotation_xyzw')
+diff --git a/scripts/reinforcement_learning/rsl_rl/record_replay_usd.py b/scripts/reinforcement_learning/rsl_rl/record_replay_usd.py
+index e9726e6..e6441d4 100644
+--- a/scripts/reinforcement_learning/rsl_rl/record_replay_usd.py
++++ b/scripts/reinforcement_learning/rsl_rl/record_replay_usd.py
+@@ -60,13 +60,16 @@ class ReplayUsdRecorder:
+             final_camera = {'eye_m': list(eye), 'lookat_m': list(eye - backward * distance),
+                             'source': 'actual final interactive Kit perspective camera'}
+             self.output.with_name('overview-camera-final.json').write_text(json.dumps(final_camera, indent=2) + '\n')
++        camera_cfg = self.env.cfg.scene.camera_wrist
++        camera_name = camera_cfg.prim_path.rsplit('/', 1)[-1] if camera_cfg is not None else 'wowrobo_2MP_camera'
++        resolution = [camera_cfg.width, camera_cfg.height] if camera_name == 'RedmiCamera' else [640, 480]
+         cameras = [p for p in stage.Traverse() if p.IsA(UsdGeom.Camera)
+-                   and p.GetName() == 'wowrobo_2MP_camera']
++                   and p.GetName() == camera_name]
+         if len(cameras) != 1:
+             raise RuntimeError(f'Expected one wrist camera, found {len(cameras)}')
+         product = UsdRender.Product.Define(stage, '/Render/Wrist')
+         product.CreateCameraRel().SetTargets([cameras[0].GetPath()])
+-        product.CreateResolutionAttr(Gf.Vec2i(640, 480))
++        product.CreateResolutionAttr(Gf.Vec2i(*resolution))
+         product.CreateOrderedVarsRel().SetTargets(['/Render/Vars/LdrColor'])
+         prim = product.GetPrim()
+         prim.AddAppliedSchema('OmniRtxSettingsCommonAdvancedAPI_1')
+@@ -76,9 +79,11 @@ class ReplayUsdRecorder:
+         stage.Export(str(self.output))
+         report = {'scene': self.output.name, 'frames': len(self.frames), 'fps': fps,
+                   'duration_seconds': len(self.frames) / fps, 'body_count': len(self.paths),
+-                  'wrist_camera': str(cameras[0].GetPath()), 'wrist_resolution': [640, 480],
++                  'wrist_camera': str(cameras[0].GetPath()), 'wrist_resolution': resolution,
+                   'source': 'same evaluation rollout, initial state followed by every control step',
+-                  'wrist_optics': 'unchanged Workshop asset camera with authored lens distortion'}
++                  'wrist_optics': ('nominal uncalibrated Redmi 8A USD pinhole, vertical FOV 60 degrees'
++                                   if camera_name == 'RedmiCamera' else
++                                   'unchanged Workshop asset camera with authored lens distortion')}
+         self.output.with_suffix('.replay.json').write_text(json.dumps(report, indent=2) + '\n')
+         print(f'ANIMATED USD EXPORTED: {self.output} ({len(self.frames)} frames)', flush=True)
+         return report
+diff --git a/scripts/tutorial/runtime.py b/scripts/tutorial/runtime.py
+index ba62832..40f9961 100644
+--- a/scripts/tutorial/runtime.py
++++ b/scripts/tutorial/runtime.py
+@@ -102,7 +102,7 @@ def main():
+                 return
+             raw._vision_eval_word = args.target if args.suite == 'phrase' else None
+             if args.kind == 'teacher':
+-                policy, _ = load_teacher(env.get_observations(), args.checkpoint, 'cuda:0')
++                policy, _ = load_teacher(env.get_observations(), args.checkpoint, 'cuda:0', num_actions=env.num_actions)
+             else:
+                 config = merge_config(runner_config(), json.loads((args.checkpoint.parent / 'agent.json').read_text()))
+                 runner = OnPolicyRunner(env, config, log_dir=None, device='cuda:0')
+diff --git a/scripts/vision/agent.py b/scripts/vision/agent.py
+index 848de16..3ab0c90 100644
+--- a/scripts/vision/agent.py
++++ b/scripts/vision/agent.py
+@@ -22,11 +22,13 @@ def runner_config(seed=4811, learning_rate=1e-4):
+     return cfg
+ 
+ 
+-def load_teacher(obs, path, device):
++def load_teacher(obs, path, device, num_actions=5):
+     config = copy.deepcopy(runner_config()['critic'])
+     config.pop('class_name')
+     config['distribution_cfg']={'class_name':'BetaDistribution','action_range':[-1.,1.]}
+-    teacher=MLPModel(obs, {'teacher':['policy']}, 'teacher',5,**config).to(device)
++    if type(num_actions) is not int or num_actions < 1:
++        raise ValueError('num_actions must be a positive environment action count')
++    teacher=MLPModel(obs, {'teacher':['policy']}, 'teacher',num_actions,**config).to(device)
+     checkpoint=torch.load(path,map_location=device,weights_only=True)
+     teacher.load_state_dict(checkpoint['actor_state_dict'])
+     teacher.eval().requires_grad_(False)
+diff --git a/scripts/vision/eb300_profile.py b/scripts/vision/eb300_profile.py
+new file mode 100644
+index 0000000..f253982
+--- /dev/null
++++ b/scripts/vision/eb300_profile.py
+@@ -0,0 +1,103 @@
++"""EB300 configuration for the existing pinned NVIDIA teacher/vision environment.
++
++Owner-approved 2026-11-16. Uses Isaac Lab's existing articulation, implicit
++actuator, rate action, camera, command, reset and PPO components. Dynamics and
++optics are nominal simulation settings, not measured hardware calibration.
++The first training scene uses robot-base coordinates; desktop placement is a
++separate world transform and is not inferred by this configuration.
++"""
++
++import math
++import os
++from pathlib import Path
++
++
++JOINTS = tuple(f"J{i}" for i in range(1, 7))
++REST = (-0.785398163, 0.90, 0.85, 0.0, -0.7, 1.0)
++
++
++def configure_eb300(cfg):
++    """Apply standard framework configuration before environment construction."""
++    import isaaclab.sim as sim_utils
++    from isaaclab.actuators import ImplicitActuatorCfg
++    from isaaclab.assets import ArticulationCfg
++    from isaaclab.managers import SceneEntityCfg
++    from isaaclab.sensors import CameraCfg
++    from isaaclab_ov.renderers import OVRTXRendererCfg
++
++    usd = Path(os.environ.get(
++        "EB300_USD", "/eb300/usd-robot-ascii/eb300_welded_contacts.usda"
++    ))
++    if not usd.is_file():
++        raise FileNotFoundError(f"Mount the owner's EB300 USD asset: {usd}")
++    cfg.scene.robot = ArticulationCfg(
++        prim_path="{ENV_REGEX_NS}/Robot",
++        articulation_root_prim_path="/Geometry/base_footprint",
++        spawn=sim_utils.UsdFileCfg(
++            usd_path=str(usd), copy_from_source=False,
++            activate_contact_sensors=True,
++            articulation_props=sim_utils.ArticulationRootPropertiesCfg(
++                enabled_self_collisions=True
++            ),
++        ),
++        init_state=ArticulationCfg.InitialStateCfg(
++            pos=(0.0, 0.0, 0.0), rot=(0.0, 0.0, 0.0, 1.0),
++            joint_pos=dict(zip(JOINTS, REST)), joint_vel={".*": 0.0},
++        ),
++        soft_joint_pos_limit_factor=1.0,
++        actuators={"arm": ImplicitActuatorCfg(
++            joint_names_expr=list(JOINTS),
++            stiffness=dict(zip(JOINTS, (500., 900., 650., 220., 180., 130.))),
++            damping=dict(zip(JOINTS, (30., 55., 40., 12., 10., 8.))),
++            armature={".*": 0.02},
++            effort_limit_sim=dict(zip(JOINTS, (40., 35., 25., 12., 10., 8.))),
++            velocity_limit_sim={".*": 0.3},
++        )},
++    )
++    action = cfg.actions.action
++    action.joint_names = JOINTS
++    action.q_reset_ref = REST
++    action.velocity_limits_rad_s = (0.15, 0.15, 0.15, 0.20, 0.20, 0.20)
++    command = cfg.commands.typing
++    command.controlled_joint_names = JOINTS
++    command.q_reset_ref = REST
++    command.tip_body = "wrist3_link"
++    command.tip_offset_m = (0.0159297, -0.137, -0.00770394)
++    command.reset.enabled = False
++    # Existing scrape reward/termination must use the same physical jaw TCP.
++    for group in (cfg.rewards, cfg.terminations):
++        for term in vars(group).values():
++            params = getattr(term, "params", None)
++            if isinstance(params, dict) and "tip_body" in params:
++                params["tip_body"] = command.tip_body
++                params["tip_offset"] = command.tip_offset_m
++    cfg.events.reset_robot_rest.params["asset_cfg"] = SceneEntityCfg(
++        "robot", joint_names=list(JOINTS)
++    )
++    # The accepted R8 gripper opening is rigid, not a seventh actuated joint.
++    cfg.events.reset_gripper_closed = None
++    cfg.scene.robot_contact.prim_path = "{ENV_REGEX_NS}/Robot/Geometry/.*"
++
++    optical_frame = (
++        "/Geometry/base_footprint/base_link/shoulder_link/upper_arm_link/"
++        "forearm_link/wrist1_link/wrist2_link/wrist3_link/phone_link/"
++        "camera_optical_frame/RedmiCamera"
++    )
++    # CAD optical +Z-forward becomes OpenGL -Z-forward by a 180-degree X turn.
++    # This runtime's quaternions are xyzw, as verified from CameraCfg source.
++    aperture = 20.955
++    focal = (aperture * 120 / 160) / (2 * math.tan(math.radians(60) / 2))
++    cfg.scene.camera_wrist = CameraCfg(
++        prim_path="{ENV_REGEX_NS}/Robot" + optical_frame,
++        offset=CameraCfg.OffsetCfg(rot=(1., 0., 0., 0.), convention="opengl"),
++        update_period=.04, height=120, width=160, data_types=["rgb"],
++        update_latest_camera_pose=True,
++        spawn=sim_utils.PinholeCameraCfg(
++            focal_length=focal, horizontal_aperture=aperture,
++            clipping_range=(.01, 10.),
++        ),
++        renderer_cfg=OVRTXRendererCfg(log_level="warn"),
++    )
++    cfg.task_contract = "EB300_R8_6DOF_nominal_PPO_teacher_vision_v1"
++    print("EB300 PROFILE: six arm actions, nominal dynamics, wrist Redmi camera", flush=True)
++    return cfg
+diff --git a/scripts/vision/evaluate.py b/scripts/vision/evaluate.py
+index ec71e21..bd84690 100644
+--- a/scripts/vision/evaluate.py
++++ b/scripts/vision/evaluate.py
+@@ -33,7 +33,7 @@ with launch_simulation(cfg,args):
+     from PIL import Image
+     Image.fromarray(raw.scene['camera_wrist'].data.output['rgb'].torch[0].cpu().numpy()).save(args.output/'wrist_initial.png')
+     if args.teacher_eval:
+-        policy,_=load_teacher(env.get_observations(),args.teacher,'cuda:0')
++        policy,_=load_teacher(env.get_observations(), args.teacher, 'cuda:0', num_actions=env.num_actions)
+         path=args.teacher
+     else:
+         runner=OnPolicyRunner(env,runner_config(),log_dir=None,device='cuda:0')
+diff --git a/scripts/vision/evaluate_policy.py b/scripts/vision/evaluate_policy.py
+index 2e19c99..1ba6b8c 100644
+--- a/scripts/vision/evaluate_policy.py
++++ b/scripts/vision/evaluate_policy.py
+@@ -60,8 +60,9 @@ def evaluate(args):
+     # The full environment archive below restores dynamics, targets and rewards.
+     pose = saved_env['scene']['keyboard']['init_state']
+     args.task_config = args.output / 'task.json'
+-    args.task_config.write_text(json.dumps({'schema_version': 1, 'keyboard': {
+-        'position_m': pose['pos'], 'rotation_xyzw': pose['rot']}}, indent=2) + '\n')
++    args.task_config.write_text(json.dumps({'schema_version': 1,
++        'robot': 'eb300' if saved_env.get('task_contract', '').startswith('EB300_') else 'so101',
++        'keyboard': {'position_m': pose['pos'], 'rotation_xyzw': pose['rot']}}, indent=2) + '\n')
+     state_policy = saved_run.get('kind') == 'state'
+     if state_policy:
+         from isaaclab_tasks.core.dexsuite.config.so101.phrase_typing_env_cfg import SO101KeyboardMXGTCBerlinIsaacLabPhraseEnvCfg
+diff --git a/scripts/vision/runtime.py b/scripts/vision/runtime.py
+index 5a91107..5c2d476 100644
+--- a/scripts/vision/runtime.py
++++ b/scripts/vision/runtime.py
+@@ -37,8 +37,13 @@ def make_config(args):
+     cfg.scene.num_envs = args.num_envs
+     cfg.seed = args.seed
+     cfg.sim.device = 'cuda:0'
+-    apply_config(cfg, load_config(args.task_config))
+-    apply_table(cfg, json.loads((ROOT/'configs/scenes/recorded-white-tabletop.json').read_text()))
++    task = load_config(args.task_config)
++    if task.get('robot') == 'eb300':
++        from eb300_profile import configure_eb300
++        configure_eb300(cfg)
++    apply_config(cfg, task)
++    scene_file = 'eb300-tabletop.json' if task.get('robot') == 'eb300' else 'recorded-white-tabletop.json'
++    apply_table(cfg, json.loads((ROOT/'configs/scenes'/scene_file).read_text()))
+     points = cfg.events.reset_keyboard.params['letter_xyz_keyboard_m']
+     cfg.events.reset_keyboard = EventTermCfg(func=reset_vision_domain, mode='reset',
+                                            params={'letter_xyz_keyboard_m': points})
+diff --git a/scripts/vision/smoke.py b/scripts/vision/smoke.py
+index 6d88940..a5981a3 100644
+--- a/scripts/vision/smoke.py
++++ b/scripts/vision/smoke.py
+@@ -18,8 +18,10 @@ with launch_simulation(cfg, args):
+     obs = env.get_observations()
+     print('VISION_OBS', {k: list(v.shape) for k, v in obs.items()}, flush=True)
+     frames=[]
++    actions = torch.zeros((args.num_envs, env.num_actions), device='cuda:0')
++    actions[:, 0] = .2
+     for step in range(args.steps):
+-        obs, reward, done, info = env.step(torch.tensor([.2,0,0,0,0],device='cuda:0').expand(args.num_envs,-1))
++        obs, reward, done, info = env.step(actions)
+         if step in (0,args.steps-1):
+             raw=env.unwrapped.scene['camera_wrist'].data.output['rgb']
+             if hasattr(raw,'torch'): raw=raw.torch
+@@ -30,6 +32,6 @@ with launch_simulation(cfg, args):
+     (args.output/'smoke.json').write_text(json.dumps({'shapes':{k:list(v.shape) for k,v in obs.items()},'pixel_std':frames}))
+     env.unwrapped._vision_curriculum=1.
+     env.unwrapped.reset()
+-    for _ in range(5): env.step(torch.zeros((args.num_envs,5),device='cuda:0'))
++    for _ in range(5): env.step(torch.zeros((args.num_envs,env.num_actions),device='cuda:0'))
+     print('FULL_DOMAIN_RESET_OK', flush=True)
+     env.close()
+diff --git a/scripts/vision/train.py b/scripts/vision/train.py
+index 0ad9f27..da830e9 100644
+--- a/scripts/vision/train.py
++++ b/scripts/vision/train.py
+@@ -44,7 +44,7 @@ with launch_simulation(cfg,args):
+     train_cfg=runner_config(args.seed,args.learning_rate)
+     runner=OnPolicyRunner(env,train_cfg,log_dir=str(args.output),device='cuda:0')
+     raw=env.unwrapped
+-    teacher, teacher_ckpt=load_teacher(env.get_observations(),args.teacher,'cuda:0')
++    teacher, teacher_ckpt=load_teacher(env.get_observations(), args.teacher, 'cuda:0', num_actions=env.num_actions)
+     if args.checkpoint:
+         source=torch.load(args.checkpoint,map_location='cpu',weights_only=True)
+         source_actor=source['actor_state_dict']
+diff --git a/scripts/vision/train_simple.py b/scripts/vision/train_simple.py
+index d88a448..a3b11cf 100644
+--- a/scripts/vision/train_simple.py
++++ b/scripts/vision/train_simple.py
+@@ -65,7 +65,7 @@ def main():
+             env.unwrapped._vision_height_curriculum = args.domain_strength
+             env.unwrapped.reset()
+             runner = OnPolicyRunner(env, config, log_dir=str(args.output), device='cuda:0')
+-            teacher, teacher_checkpoint = load_teacher(env.get_observations(), args.teacher, 'cuda:0')
++            teacher, teacher_checkpoint = load_teacher(env.get_observations(), args.teacher, 'cuda:0', num_actions=env.num_actions)
+             runner.alg._raw_critic.load_state_dict(teacher_checkpoint['critic_state_dict'])
+             for filename, data in (
+                 ('agent.json', config), ('environment.json', cfg.to_dict()),
+diff --git a/source/so101_typing/tasks/mdp/commands/fixed_cartesian_typing_commands.py b/source/so101_typing/tasks/mdp/commands/fixed_cartesian_typing_commands.py
+index 5218f11..cfdee00 100644
+--- a/source/so101_typing/tasks/mdp/commands/fixed_cartesian_typing_commands.py
++++ b/source/so101_typing/tasks/mdp/commands/fixed_cartesian_typing_commands.py
+@@ -44,11 +44,11 @@ class FixedCartesianTypingCommand(LetterTypingCommand):
+         super().__init__(cfg, env)
+         self.robot: Articulation = env.scene[cfg.asset_name]
+         self._arm_joint_ids, _ = self.robot.find_joints(
+-            ["shoulder_pan", "shoulder_lift", "elbow_flex", "wrist_flex", "wrist_roll"],
++            list(cfg.controlled_joint_names),
+             preserve_order=True,
+         )
+-        if len(cfg.q_reset_ref) != 5:
+-            raise ValueError("q_reset_ref must contain the five controlled arm joints")
++        if len(cfg.q_reset_ref) != len(cfg.controlled_joint_names):
++            raise ValueError("q_reset_ref must match the controlled joint names")
+         if not cfg.letter_slots or len(cfg.letter_slots) != len(cfg.letter_xyz_b_m):
+             raise ValueError("fixed Cartesian command requires one XYZ row per mapped key slot")
+         if len(set(cfg.letter_slots)) != len(cfg.letter_slots):
+diff --git a/source/so101_typing/tasks/mdp/commands/fixed_cartesian_typing_commands_cfg.py b/source/so101_typing/tasks/mdp/commands/fixed_cartesian_typing_commands_cfg.py
+index ae5c9f8..6177d2e 100644
+--- a/source/so101_typing/tasks/mdp/commands/fixed_cartesian_typing_commands_cfg.py
++++ b/source/so101_typing/tasks/mdp/commands/fixed_cartesian_typing_commands_cfg.py
+@@ -22,7 +22,8 @@ class FixedCartesianTypingCommandCfg(LetterTypingCommandCfg):
+ 
+     class_type: type = FixedCartesianTypingCommand
+ 
+-    q_reset_ref: tuple[float, float, float, float, float] = MISSING
++    controlled_joint_names: tuple[str, ...] = ("shoulder_pan", "shoulder_lift", "elbow_flex", "wrist_flex", "wrist_roll")
++    q_reset_ref: tuple[float, ...] = MISSING
+     letter_slots: tuple[int, ...] = MISSING
+     fixed_target_slots: tuple[int, ...] | None = None
+     letter_xyz_b_m: tuple[tuple[float, float, float], ...] = MISSING
+diff --git a/source/so101_typing/tasks/vision_renderer.py b/source/so101_typing/tasks/vision_renderer.py
+index 2203941..1fc831b 100644
+--- a/source/so101_typing/tasks/vision_renderer.py
++++ b/source/so101_typing/tasks/vision_renderer.py
+@@ -25,6 +25,9 @@ class TypingOVRTXRenderer(OVRTXRenderer):
+             prim = stage.GetPrimAtPath(path)
+             native = prim.GetAttribute('omni:lensdistortion:opencvPinhole:imageSize').Get()
+             if native is None:
++                # EB300 authors a nominal standard USD pinhole camera, not the Workshop lens.
++                if prim.GetName() == 'RedmiCamera':
++                    continue
+                 raise RuntimeError('Workshop OpenCV wrist camera intrinsics are missing')
+             width, height = spec.cfg.width, spec.cfg.height
+             for name, ratio in (('fx', width/native[0]), ('cx', width/native[0]),

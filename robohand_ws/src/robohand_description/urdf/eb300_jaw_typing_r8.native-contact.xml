@@ -1,0 +1,140 @@
+<mujoco model="eb300_r8_native_contact_r2">
+  <compiler angle="radian" />
+  <option gravity="0 0 -9.81" timestep="0.002" integrator="implicitfast" />
+  <asset>
+    <mesh name="1_update_visual" content_type="model/stl" file="../meshes/eb300_cad2/visual/1_update_visual.stl" scale="0.001 0.001 0.001" />
+    <mesh name="1_update_convex" content_type="model/stl" file="../meshes/eb300_cad2/collision/1_update_convex.stl" scale="0.001 0.001 0.001" />
+    <mesh name="3_update_visual" content_type="model/stl" file="../meshes/eb300_cad2/visual/3_update_visual.stl" scale="0.001 0.001 0.001" />
+    <mesh name="3_update_convex" content_type="model/stl" file="../meshes/eb300_cad2/collision/3_update_convex.stl" scale="0.001 0.001 0.001" />
+    <mesh name="7_update_visual" content_type="model/stl" file="../meshes/eb300_cad2/visual/7_update_visual.stl" scale="0.001 0.001 0.001" />
+    <mesh name="tube1-R3_visual" content_type="model/stl" file="../meshes/eb300_cad2/visual/tube1-R3_visual.stl" scale="0.001 0.001 0.001" />
+    <mesh name="14_update_visual" content_type="model/stl" file="../meshes/eb300_cad2/visual/14_update_visual.stl" scale="0.001 0.001 0.001" />
+    <mesh name="7_update_convex" content_type="model/stl" file="../meshes/eb300_cad2/collision/7_update_convex.stl" scale="0.001 0.001 0.001" />
+    <mesh name="14_update_convex" content_type="model/stl" file="../meshes/eb300_cad2/collision/14_update_convex.stl" scale="0.001 0.001 0.001" />
+    <mesh name="18_update_visual" content_type="model/stl" file="../meshes/eb300_cad2/visual/18_update_visual.stl" scale="0.001 0.001 0.001" />
+    <mesh name="tube2-R3_visual" content_type="model/stl" file="../meshes/eb300_cad2/visual/tube2-R3_visual.stl" scale="0.001 0.001 0.001" />
+    <mesh name="23_update_visual" content_type="model/stl" file="../meshes/eb300_cad2/visual/23_update_visual.stl" scale="0.001 0.001 0.001" />
+    <mesh name="18_update_convex" content_type="model/stl" file="../meshes/eb300_cad2/collision/18_update_convex.stl" scale="0.001 0.001 0.001" />
+    <mesh name="23_update_convex" content_type="model/stl" file="../meshes/eb300_cad2/collision/23_update_convex.stl" scale="0.001 0.001 0.001" />
+    <mesh name="27_update_visual" content_type="model/stl" file="../meshes/eb300_cad2/visual/27_update_visual.stl" scale="0.001 0.001 0.001" />
+    <mesh name="27_update_convex" content_type="model/stl" file="../meshes/eb300_cad2/collision/27_update_convex.stl" scale="0.001 0.001 0.001" />
+    <mesh name="31_update_visual" content_type="model/stl" file="../meshes/eb300_cad2/visual/31_update_visual.stl" scale="0.001 0.001 0.001" />
+    <mesh name="31_update_convex" content_type="model/stl" file="../meshes/eb300_cad2/collision/31_update_convex.stl" scale="0.001 0.001 0.001" />
+    <mesh name="gripper_002_visual" content_type="model/stl" file="../meshes/eb300_cad2/visual/gripper_002_visual.stl" scale="0.001 0.001 0.001" />
+    <mesh name="gripper_003_visual" content_type="model/stl" file="../meshes/eb300_cad2/visual/gripper_003_visual.stl" scale="0.001 0.001 0.001" />
+    <mesh name="gripper_007_visual" content_type="model/stl" file="../meshes/eb300_cad2/visual/gripper_007_visual.stl" scale="0.001 0.001 0.001" />
+    <mesh name="gripper_013_visual" content_type="model/stl" file="../meshes/eb300_cad2/visual/gripper_013_visual.stl" scale="0.001 0.001 0.001" />
+    <mesh name="gripper_014_visual" content_type="model/stl" file="../meshes/eb300_cad2/visual/gripper_014_visual.stl" scale="0.001 0.001 0.001" />
+    <mesh name="gripper_002_convex" content_type="model/stl" file="../meshes/eb300_cad2/collision/gripper_002_convex.stl" scale="0.001 0.001 0.001" />
+    <mesh name="gripper_003_convex" content_type="model/stl" file="../meshes/eb300_cad2/collision/gripper_003_convex.stl" scale="0.001 0.001 0.001" />
+    <mesh name="gripper_007_convex" content_type="model/stl" file="../meshes/eb300_cad2/collision/gripper_007_convex.stl" scale="0.001 0.001 0.001" />
+    <mesh name="gripper_013_convex" content_type="model/stl" file="../meshes/eb300_cad2/collision/gripper_013_convex.stl" scale="0.001 0.001 0.001" />
+    <mesh name="gripper_014_convex" content_type="model/stl" file="../meshes/eb300_cad2/collision/gripper_014_convex.stl" scale="0.001 0.001 0.001" />
+    <mesh name="Redmi8A-envelope-R1_visual" content_type="model/stl" file="../meshes/eb300_cad2/visual/Redmi8A-envelope-R1_visual.stl" scale="0.001 0.001 0.001" />
+    <mesh name="Redmi8A-envelope-R1_convex" content_type="model/stl" file="../meshes/eb300_cad2/collision/Redmi8A-envelope-R1_convex.stl" scale="0.001 0.001 0.001" />
+    <mesh name="Phone-low-arm-NOMINAL-R2_visual" content_type="model/stl" file="../meshes/eb300_cad2/visual/Phone-low-arm-NOMINAL-R2_visual.stl" scale="0.001 0.001 0.001" />
+    <mesh name="Phone-low-arm-NOMINAL-R2_convex" content_type="model/stl" file="../meshes/eb300_cad2/collision/Phone-low-arm-NOMINAL-R2_convex.stl" scale="0.001 0.001 0.001" />
+    <mesh name="Phone-backing-post-NOMINAL-R2_visual" content_type="model/stl" file="../meshes/eb300_cad2/visual/Phone-backing-post-NOMINAL-R2_visual.stl" scale="0.001 0.001 0.001" />
+  </asset>
+  <worldbody>
+    <body name="base_footprint">
+      <body name="base_link">
+        <inertial pos="0 -2.05981e-08 0.0185" quat="0 0.707107 0 0.707107" mass="1" diaginertia="0.00375 0.00198908 0.00198908" />
+        <geom name="base_link_1_update_visual" pos="0 0.0440981 0.046" quat="0.707107 0.707107 0 0" type="mesh" contype="0" conaffinity="0" group="1" rgba="0.68 0.7 0.73 1" density="0" mesh="1_update_visual" />
+        <geom name="base_link_1_update_collision" pos="0 0.0440981 0.046" quat="0.707107 0.707107 0 0" type="mesh" rgba="0.68 0.7 0.73 1" mesh="1_update_convex" group="3" contype="1" conaffinity="3" />
+        <body name="shoulder_link" pos="0 0 0.037">
+          <inertial pos="-0.00499999 -2.31013e-08 0.058" quat="0.5 0.5 0.5 0.5" mass="1.2" diaginertia="0.002692 0.0025588 0.002466" />
+          <joint name="J1" range="-2.967059728 2.967059728" actuatorfrcrange="-40 40" damping="0.4" frictionloss="0.01" armature="0.02" />
+          <geom name="shoulder_link_3_update_visual" pos="1.86151e-09 0.0440981 0.009" quat="0.707107 0.707107 5.68689e-08 -5.68689e-08" type="mesh" contype="0" conaffinity="0" group="1" rgba="0.68 0.7 0.73 1" density="0" mesh="3_update_visual" />
+          <geom name="shoulder_link_3_update_collision" pos="1.86151e-09 0.0440981 0.009" quat="0.707107 0.707107 5.68689e-08 -5.68689e-08" type="mesh" rgba="0.68 0.7 0.73 1" mesh="3_update_convex" group="3" contype="1" conaffinity="3" />
+          <body name="upper_arm_link" pos="-0.064 -2.78216e-09 0.058">
+            <inertial pos="-0.058 8.25965e-09 0.174" quat="0.707107 0 0 0.707107" mass="3" diaginertia="0.055233 0.0549 0.00616501" />
+            <joint name="J2" range="-2.967059728 2.967059728" actuatorfrcrange="-35 35" damping="0.4" frictionloss="0.01" axis="1 0 -1.60849e-07" armature="0.02" />
+            <geom name="upper_arm_link_7_update_visual" pos="-0.009 -0.0440981 3.86113e-09" quat="0.5 -0.5 0.5 0.5" type="mesh" contype="0" conaffinity="0" group="1" rgba="0.68 0.7 0.73 1" density="0" mesh="7_update_visual" />
+            <geom name="upper_arm_link_tube1_visual" pos="-0.058 9.65387e-09 0.064" quat="0.705893 -0.0414184 -0.705893 -0.0414184" type="mesh" contype="0" conaffinity="0" group="1" rgba="0.2 0.23 0.25 1" density="0" mesh="tube1-R3_visual" />
+            <geom name="upper_arm_link_14_update_visual" pos="0.064 0.0440981 -0.049" quat="0.707107 0.707107 5.68689e-08 -5.68689e-08" type="mesh" contype="0" conaffinity="0" group="1" rgba="0.68 0.7 0.73 1" density="0" mesh="14_update_visual" />
+            <geom name="upper_arm_link_7_update_collision" pos="-0.009 -0.0440981 3.86113e-09" quat="0.5 -0.5 0.5 0.5" type="mesh" rgba="0.68 0.7 0.73 1" mesh="7_update_convex" group="3" contype="1" conaffinity="3" />
+            <geom name="upper_arm_link_tube1_collision" size="0.04445 0.11" pos="-0.058 8.25966e-09 0.174" quat="0.998283 1.61561e-09 8.06579e-08 -0.0585744" type="cylinder" rgba="0.68 0.7 0.73 1" group="3" contype="1" conaffinity="3" />
+            <geom name="upper_arm_link_14_update_collision" pos="0.064 0.0440981 -0.049" quat="0.707107 0.707107 5.68689e-08 -5.68689e-08" type="mesh" rgba="0.68 0.7 0.73 1" mesh="14_update_convex" group="3" contype="1" conaffinity="3" />
+            <body name="forearm_link" pos="-0.000999945 6.51171e-09 0.348">
+              <inertial pos="0.0473901 -2.16245e-08 0.153" mass="2" diaginertia="0.03051 0.0300702 0.00344817" />
+              <joint name="J3" range="-2.967059728 2.967059728" actuatorfrcrange="-25 25" damping="0.4" frictionloss="0.01" axis="1 1.00163e-08 -1.4466e-07" armature="0.02" />
+              <geom name="forearm_link_18_update_visual" pos="0.0649999 0.0440981 -0.397" quat="0.707107 0.707107 5.68689e-08 -5.68689e-08" type="mesh" contype="0" conaffinity="0" group="1" rgba="0.68 0.7 0.73 1" density="0" mesh="18_update_visual" />
+              <geom name="forearm_link_tube2_visual" pos="0.04189 -3.76623e-09 0.057" quat="0.578875 0.406083 -0.578875 0.406083" type="mesh" contype="0" conaffinity="0" group="1" rgba="0.2 0.23 0.25 1" density="0" mesh="tube2-R3_visual" />
+              <geom name="forearm_link_23_update_visual" pos="0.0188899 -0.0440981 -0.393" quat="-5.68689e-08 5.68689e-08 0.707107 0.707107" type="mesh" contype="0" conaffinity="0" group="1" rgba="0.68 0.7 0.73 1" density="0" mesh="23_update_visual" />
+              <geom name="forearm_link_18_update_collision" pos="0.0649999 0.0440981 -0.397" quat="0.707107 0.707107 5.68689e-08 -5.68689e-08" type="mesh" rgba="0.68 0.7 0.73 1" mesh="18_update_convex" group="3" contype="1" conaffinity="3" />
+              <geom name="forearm_link_tube2_collision" size="0.03015 0.11" pos="0.04189 -5.04253e-09 0.167" quat="0.818653 5.09363e-08 6.25083e-08 0.574288" type="cylinder" rgba="0.68 0.7 0.73 1" group="3" contype="1" conaffinity="3" />
+              <geom name="forearm_link_23_update_collision" pos="0.0188899 -0.0440981 -0.393" quat="-5.68689e-08 5.68689e-08 0.707107 0.707107" type="mesh" rgba="0.68 0.7 0.73 1" mesh="23_update_convex" group="3" contype="1" conaffinity="3" />
+              <body name="wrist1_link" pos="0.0948901 9.7252e-09 0.322">
+                <inertial pos="0.0425 2.47117e-08 0.00549999" quat="0.707107 0 0 0.707107" mass="0.65" diaginertia="0.000862008 0.000801721 0.000686021" />
+                <joint name="J4" range="-2.967059728 2.967059728" actuatorfrcrange="-12 12" damping="0.4" frictionloss="0.01" axis="-1 -8.37896e-08 -4.81644e-08" armature="0.02" />
+                <geom name="wrist1_link_27_update_visual" pos="-0.0760001 -0.044098 -0.715" quat="-5.68689e-08 5.68689e-08 0.707107 0.707107" type="mesh" contype="0" conaffinity="0" group="1" rgba="0.68 0.7 0.73 1" density="0" mesh="27_update_visual" />
+                <geom name="wrist1_link_27_update_collision" pos="-0.0760001 -0.044098 -0.715" quat="-5.68689e-08 5.68689e-08 0.707107 0.707107" type="mesh" rgba="0.68 0.7 0.73 1" mesh="27_update_convex" group="3" contype="1" conaffinity="3" />
+                <body name="wrist2_link" pos="0.046 -1.05164e-08 0.053">
+                  <inertial pos="3.38127e-09 -0.0055 0.0425" quat="0.707107 0.707107 0 0" mass="0.65" diaginertia="0.000862009 0.000801721 0.000686021" />
+                  <joint name="J5" range="-2.967059728 2.967059728" actuatorfrcrange="-10 10" damping="0.4" frictionloss="0.01" axis="2.04042e-07 -2.12058e-07 1" armature="0.02" />
+                  <geom name="wrist2_link_31_update_visual" pos="-0.0440276 0.122 -0.768029" quat="0.5 0.5 0.5 0.5" type="mesh" contype="0" conaffinity="0" group="1" rgba="0.68 0.7 0.73 1" density="0" mesh="31_update_visual" />
+                  <geom name="wrist2_link_31_update_collision" pos="-0.0440276 0.122 -0.768029" quat="0.5 0.5 0.5 0.5" type="mesh" rgba="0.68 0.7 0.73 1" mesh="31_update_convex" group="3" contype="1" conaffinity="3" />
+                  <body name="wrist3_link" pos="9.38595e-09 -0.053 0.046">
+                    <inertial pos="3.87196e-05 -0.069 3.16619e-05" quat="0.707107 0.707107 0 0" mass="0.52" diaginertia="0.00113102 0.0010949 0.00062293" />
+                    <joint name="J6" range="-2.967059728 2.967059728" actuatorfrcrange="-8 8" damping="0.4" frictionloss="0.01" axis="0 -1 -1.33349e-07" armature="0.02" />
+                    <geom name="wrist3_link_output_nominal_D57_L12_visual" size="0.0285 0.006" pos="0 -0.00700002 -9.33413e-10" quat="0.5 0.5 -0.5 0.5" type="cylinder" contype="0" conaffinity="0" group="1" rgba="0.35 0.4 0.45 1" density="0" />
+                    <geom name="wrist3_link_gripper_002_0_visual" pos="-0.0145063 -0.066 -0.140675" quat="0.30379 -0.30379 -0.638523 -0.638523" type="mesh" contype="0" conaffinity="0" group="1" rgba="0.25 0.29 0.34 1" density="0" mesh="gripper_002_visual" />
+                    <geom name="wrist3_link_gripper_003_1_visual" pos="0.140753 -0.066 -0.0144432" quat="-0.30379 -0.30379 0.638523 -0.638523" type="mesh" contype="0" conaffinity="0" group="1" rgba="0.25 0.29 0.34 1" density="0" mesh="gripper_003_visual" />
+                    <geom name="wrist3_link_gripper_007_2_visual" pos="-0.132916 -0.087 -0.00177396" quat="0.638523 0.638523 0.30379 -0.30379" type="mesh" contype="0" conaffinity="0" group="1" rgba="0.25 0.29 0.34 1" density="0" mesh="gripper_007_visual" />
+                    <geom name="wrist3_link_gripper_013_3_visual" pos="0.151732 -0.097 -0.0281054" quat="-0.30379 -0.30379 0.638523 -0.638523" type="mesh" contype="0" conaffinity="0" group="1" rgba="0.25 0.29 0.34 1" density="0" mesh="gripper_013_visual" />
+                    <geom name="wrist3_link_gripper_014_4_visual" pos="-0.0829608 -0.018 -0.0564798" quat="6.28281e-08 -0.942313 2.23181e-08 -0.334732" type="mesh" contype="0" conaffinity="0" group="1" rgba="0.25 0.29 0.34 1" density="0" mesh="gripper_014_visual" />
+                    <geom name="wrist3_link_gripper_013_5_visual" pos="-0.150777 -0.097 0.0269304" quat="0.638523 0.638523 0.30379 -0.30379" type="mesh" contype="0" conaffinity="0" group="1" rgba="0.25 0.29 0.34 1" density="0" mesh="gripper_013_visual" />
+                    <geom name="wrist3_link_gripper_007_6_visual" pos="0.133872 -0.087 0.000598935" quat="-0.30379 -0.30379 0.638523 -0.638523" type="mesh" contype="0" conaffinity="0" group="1" rgba="0.25 0.29 0.34 1" density="0" mesh="gripper_007_visual" />
+                    <geom name="wrist3_link_gripper_014_7_visual" pos="-0.0712655 -0.218 -0.0708644" quat="0.942313 6.28281e-08 -0.334732 -2.23181e-08" type="mesh" contype="0" conaffinity="0" group="1" rgba="0.25 0.29 0.34 1" density="0" mesh="gripper_014_visual" />
+                    <geom name="wrist3_link_output_nominal_D57_L12_collision" size="0.0285 0.006" pos="0 -0.00700002 -9.33413e-10" quat="0.5 0.5 -0.5 0.5" type="cylinder" rgba="0.25 0.29 0.34 1" group="3" contype="1" conaffinity="3" />
+                    <geom name="wrist3_link_gripper_002_0_collision" pos="-0.0145063 -0.066 -0.140675" quat="0.30379 -0.30379 -0.638523 -0.638523" type="mesh" rgba="0.25 0.29 0.34 1" mesh="gripper_002_convex" group="3" contype="1" conaffinity="3" />
+                    <geom name="wrist3_link_gripper_003_1_collision" pos="0.140753 -0.066 -0.0144432" quat="-0.30379 -0.30379 0.638523 -0.638523" type="mesh" rgba="0.25 0.29 0.34 1" mesh="gripper_003_convex" group="3" contype="1" conaffinity="3" />
+                    <geom name="wrist3_link_gripper_007_2_collision" pos="-0.132916 -0.087 -0.00177396" quat="0.638523 0.638523 0.30379 -0.30379" type="mesh" rgba="0.25 0.29 0.34 1" mesh="gripper_007_convex" group="3" contype="1" conaffinity="3" />
+                    <geom name="wrist3_link_gripper_013_3_collision" pos="0.151732 -0.097 -0.0281054" quat="-0.30379 -0.30379 0.638523 -0.638523" type="mesh" rgba="0.25 0.29 0.34 1" mesh="gripper_013_convex" group="3" contype="1" conaffinity="3" />
+                    <geom name="wrist3_link_gripper_014_4_collision" pos="-0.0829608 -0.018 -0.0564798" quat="6.28281e-08 -0.942313 2.23181e-08 -0.334732" type="mesh" rgba="0.25 0.29 0.34 1" mesh="gripper_014_convex" group="3" contype="1" conaffinity="3" />
+                    <geom name="wrist3_link_gripper_013_5_collision" pos="-0.150777 -0.097 0.0269304" quat="0.638523 0.638523 0.30379 -0.30379" type="mesh" rgba="0.25 0.29 0.34 1" mesh="gripper_013_convex" group="3" contype="1" conaffinity="3" />
+                    <geom name="wrist3_link_gripper_007_6_collision" pos="0.133872 -0.087 0.000598935" quat="-0.30379 -0.30379 0.638523 -0.638523" type="mesh" rgba="0.25 0.29 0.34 1" mesh="gripper_007_convex" group="3" contype="1" conaffinity="3" />
+                    <geom name="wrist3_link_gripper_014_7_collision" pos="-0.0712655 -0.218 -0.0708644" quat="0.942313 6.28281e-08 -0.334732 -2.23181e-08" type="mesh" rgba="0.25 0.29 0.34 1" mesh="gripper_014_convex" group="3" contype="1" conaffinity="3" />
+                    <body name="phone_link" pos="0.00030944 -0.0252067 0.101394" quat="0.336882 0.6217 -0.631538 0.318056">
+                      <inertial pos="0 0 0.0047" quat="0.5 0.5 -0.5 0.5" mass="0.188" diaginertia="0.000472705 0.000384998 9.04754e-05" />
+                      <geom name="phone_link_phone_link_visual" quat="1 0 0 0" type="mesh" contype="0" conaffinity="0" group="1" rgba="0.08 0.1 0.16 1" density="0" mesh="Redmi8A-envelope-R1_visual" />
+                      <geom name="phone_link_phone_link_collision" quat="1 0 0 0" type="mesh" rgba="0.08 0.1 0.16 1" mesh="Redmi8A-envelope-R1_convex" group="3" contype="1" conaffinity="3" />
+                      <body name="camera_optical_frame" pos="0 -0.06 0.0094">
+                        <camera name="redmi8a_nominal" quat="0 1 0 0" fovy="60" />
+                      </body>
+                    </body>
+                    <body name="phone_arm_link" pos="0 -0.00100002 -1.3332e-10" quat="0.5 0.5 -0.5 0.5">
+                      <inertial pos="0.072 0 0.01" quat="0 0.707107 0 0.707107" mass="0.04" diaginertia="3.73867e-05 3.61067e-05 1.38667e-06" />
+                      <geom name="phone_arm_link_phone_arm_link_visual" pos="-4.57967e-16 0 -7.97973e-17" quat="1 0 0 0" type="mesh" contype="0" conaffinity="0" group="1" rgba="0.9 0.53 0.12 1" density="0" mesh="Phone-low-arm-NOMINAL-R2_visual" />
+                      <geom name="phone_arm_link_phone_arm_link_collision" pos="-4.57967e-16 0 -7.97973e-17" quat="1 0 0 0" type="mesh" rgba="0.9 0.53 0.12 1" mesh="Phone-low-arm-NOMINAL-R2_convex" group="3" contype="1" conaffinity="3" />
+                    </body>
+                    <body name="phone_backing_link" pos="0.00030944 -0.0252067 0.101394" quat="0.336882 0.6217 -0.631538 0.318056">
+                      <inertial pos="0 0 -0.015" quat="0.5 0.5 -0.5 0.5" mass="0.1" diaginertia="0.000272133 0.000220833 6.63e-05" />
+                      <geom name="phone_backing_link_phone_backing_link_visual" quat="1 0 0 0" type="mesh" contype="0" conaffinity="0" group="1" rgba="0.9 0.53 0.12 1" density="0" mesh="Phone-backing-post-NOMINAL-R2_visual" />
+                      <geom name="phone_backing_link_plate_collision" size="0.042 0.08 0.002" pos="0 0 -0.002" type="box" rgba="0.9 0.53 0.12 1" group="3" contype="1" conaffinity="3" />
+                      <geom name="phone_backing_link_post_collision" size="0.004 0.01 0.013" pos="0 0 -0.017" type="box" rgba="0.9 0.53 0.12 1" group="3" contype="1" conaffinity="3" />
+                    </body>
+                    <body name="jaw_contact_frame" pos="0.0159297 -0.137 -0.00770394" quat="0.5 0.5 -0.5 0.5">
+                      <site name="jaw_contact_site" size="0.003" rgba="0.2 1 0.2 1" group="4" />
+                    </body>
+                  </body>
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+    </body>
+  </worldbody>
+  <visual>
+    <global offwidth="1024" offheight="1024" />
+  </visual>
+  <!-- Isaac Lab supplies the six actuators. Importing the local viewer's
+       position servos as well would create duplicate competing drives. -->
+  <contact>
+    <exclude body1="phone_link" body2="phone_arm_link" />
+    <exclude body1="phone_link" body2="phone_backing_link" />
+    <exclude body1="phone_arm_link" body2="phone_backing_link" />
+  </contact>
+</mujoco>

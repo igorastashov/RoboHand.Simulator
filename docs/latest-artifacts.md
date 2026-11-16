@@ -1,7 +1,7 @@
 ---
 tags: [robohand, eb300, latest, release, recovery]
 type: artifact-index
-updated: 2026-11-15
+updated: 2026-11-16
 status: accepted-r8
 ---
 
@@ -44,3 +44,19 @@ R8 — одна корневая сборка с7логическими физи
 Архивы наE/D проверены побайтно и поSHA256, установлены read-only flags. Рабочая CAD-версия остаётся редактируемой; для следующей геометрической ревизии использовать новую копию и заново зафиксировать зависимости. Backup не подменяет versioned inputs и не удаляет старую принятую версию.
 
 Позднее старый root был пересохранён с другим byte hash; [read-only сравнение](cad-reviews/2026-11-15-latest-package/source-resave-review.json) подтвердило прежние позы/геометрию/сопряжения. Рабочий указатель остаётся LATEST.
+
+## Рабочее место от16.11 — отдельно от принятой CAD
+
+[Рабочий стол EB300 R1](desktop-workcell-r1.md) открывается ярлыком `E:\RoboHand\LATEST\РАБОЧИЙ-СТОЛ-EB300.lnk`. Исходная CAD и старый ярлык осмотра не заменены.
+
+Полный локальный комплект сцены/meshes/USD/evidence сохранён в `E:\RoboHand\releases\EB300-DESKTOP-R1-2026-11-16\EB300-DESKTOP-R1-2026-11-16.zip`, зеркало — `D:\RoboHand-Backups\EB300-DESKTOP-R1-2026-11-16.zip`. SHA256 `ba26cff2160c2e0ed573279fa41fee777f0062bbc6b03c1a4b8449902e3eebe9`, 9 365 720 байт, 63 файла; CRC/все file SHA и зеркало проверены. Восстанавливать отдельно с сохранением относительных `urdf/scenes/meshes`; не заменять более новые рабочие файлы. USD содержит задокументированные потери camera/sensor/keyframe данных конвертера.
+
+## Native PPO smoke от16.11
+
+[Результаты EB300 teacher/vision/eval/replay](research/2026-11-16-eb300-native-training.md), [численные данные](research/2026-11-16-eb300-native-validation.json), [patch и стандартный USD drive/filter layer](../integrations/nvidia_typing/README.md). Это минимальные nominal checkpoints, не выученный навык и не физический deployment.
+
+Рабочие результаты: `E:\RoboHand\runs\2026-11-16-hardware-workcell\training-r6` и `evaluation-r6`. В `E:\RoboHand\LATEST\SIMULATION` находятся6-секундный `ЗАДАННОЕ-НАЖАТИЕ-A.gif` из локальной сцены и `EB300-PPO-smoke-episode-1.mp4` из отдельного native rollout. Последний26кадров/1,04с и0набранных символов; эти два вида движения не смешиваются.
+
+Frozen комплект native assets/config/patch/checkpoints/evidence сохранён в `E:\RoboHand\releases\EB300-NATIVE-PPO-R1-2026-11-16\EB300-NATIVE-PPO-R1-2026-11-16.zip`; зеркало — `D:\RoboHand-Backups\EB300-NATIVE-PPO-R1-2026-11-16.zip`. SHA256 `b39936015da4308f8d7a4f1b78460d22b55beb7ec204a27375dd77ddee142aab`, 63 537 051 байт,108payload files плюс manifest/README. CRC, каждый file SHA и зеркало проверены, ZIP read-only. Геометрия/веса/полные SDK logs остаются локальными. Base Docker runtime не входит в этот архив: восстановление использует pinned upstream setup и отдельные лицензированные assets; сначала извлекать в отдельную папку.
+
+`CURRENT.json` дополнен путями desktop/native smoke; CAD path/hash и прежние recovery archives сохранены. Свои GPU jobs завершены, ресурсы освобождены; переключение соседнего стенда — по существующему частному операционному плану.
