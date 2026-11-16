@@ -37,7 +37,7 @@ Native image ID: `sha256:653ebeac7606b05068d06f88472144b2c3ccb8ca2da0e90ade2f2d0
 1. Stock `./so101 debug --image TAG --gpu 0`: Docker/GPU/runtime/assets. Import не считается полученным изображением.
 2. Готовый `scripts/vision/smoke.py` через существующий tutorial Docker launcher: две reference-среды, два шага, PNG wrist-camera. Сам upstream проверяет `pixel_std > 2` и full-domain reset.
 3. Stock tutorial: teacher, его короткая evaluation, затем vision warmup/PPO и evaluation; preset `configs/tutorial/smoke.json` с двумя updates.
-4. Готовый `scripts/vision/evaluate_policy.py` экспортирует USD replay; готовый `scripts/tutorial/render_video.py` отдельно строит overview MP4. Оба вызываются через существующий tutorial Docker launcher. Это отдельная обзорная камера, не замена wrist PNG из шага 2. Полный `./so101 replay --video` не заявляется пройденным: его shell wrapper требует base tag даже при указанном собственном final image; повторная сборка base ради проверки не запускалась.
+4. Готовый `scripts/vision/evaluate_policy.py` экспортирует USD replay; готовый `scripts/tutorial/render_video.py` отдельно строит overview MP4. Оба вызываются через существующий tutorial Docker launcher. Это служебный виртуальный ракурс для просмотра записи человеком, не второй сенсор робота и не замена wrist PNG из шага2. Полный `./so101 replay --video` не заявляется пройденным: его shell wrapper требует base tag даже при указанном собственном final image; повторная сборка base ради проверки не запускалась.
 
 Все generated outputs — в отдельных новых каталогах, входы монтируются штатно. Один прогон выбирает одну GPU; автоматического объединения памяти двух карт не предполагается. Checkpoint/sidecars/метрики сохраняются штатными средствами.
 

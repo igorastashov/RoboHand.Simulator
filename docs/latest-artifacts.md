@@ -60,3 +60,10 @@ R8 — одна корневая сборка с7логическими физи
 Frozen комплект native assets/config/patch/checkpoints/evidence сохранён в `E:\RoboHand\releases\EB300-NATIVE-PPO-R1-2026-11-16\EB300-NATIVE-PPO-R1-2026-11-16.zip`; зеркало — `D:\RoboHand-Backups\EB300-NATIVE-PPO-R1-2026-11-16.zip`. SHA256 `b39936015da4308f8d7a4f1b78460d22b55beb7ec204a27375dd77ddee142aab`, 63 537 051 байт,108payload files плюс manifest/README. CRC, каждый file SHA и зеркало проверены, ZIP read-only. Геометрия/веса/полные SDK logs остаются локальными. Base Docker runtime не входит в этот архив: восстановление использует pinned upstream setup и отдельные лицензированные assets; сначала извлекать в отдельную папку.
 
 `CURRENT.json` дополнен путями desktop/native smoke; CAD path/hash и прежние recovery archives сохранены. Свои GPU jobs завершены, ресурсы освобождены; переключение соседнего стенда — по существующему частному операционному плану.
+
+
+## Исследование камеры16.11 — отдельный кандидат
+
+[Результаты и параметры](research/2026-11-16-redmi-wrist-mount-study.md), [датчики телефона](research/2026-11-16-redmi-phone-sensors.md). Материалы на E: `E:\RoboHand\runs\2026-11-16-redmi-wrist-camera-study`; сравнение для просмотра — `E:\RoboHand\LATEST\SIMULATION\CAMERA-STUDY\camera-mount-comparison.png`. Кандидат не заменяет `LATEST\CAD\EB300.a3d`, default URDF/MJCF или старую training camera.
+
+Архив исследования: `E:\RoboHand\releases\EB300-CAMERA-STUDY-2026-11-16\EB300-CAMERA-STUDY-2026-11-16.zip`; зеркало `D:\RoboHand-Backups\EB300-CAMERA-STUDY-2026-11-16.zip`.35 268 853байт,575payload файлов + manifest; CRC/SHA256 каждого payload и зеркала проверены. SHA256: `18cbf37e687bb8d4d838432650c9592f221d0c100e3d5afeef9cfaadb61159cc`. Внутри — снимок отчётов, результаты/полные кадры и сохранённые исходные metadata SensorServer; это архив исследования, не release робота.

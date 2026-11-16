@@ -62,7 +62,7 @@ SO-specific reset отсутствующего gripper joint для нашей �
 
 Свести native training scaffold в координатах основания с мировой desktop layout, проверить доступность целей и реальные контакты губки с отдельной клавишей. Затем проверить остановку/штатный resume, подобрать размер parallel batch и проводить полноценное teacher → vision обучение с отдельными seed/позами оценки. Несколько updates и эпизоды с `max_steps=2` этого не заменяют.
 
-Крепление/оптика Redmi и перспектива обзорной камеры исследованы [отдельно](2026-11-16-camera-coverage.md); новая multi-camera policy не подключена. Массы, ±170°, gains, effort/rate limits и pinhole остаются номинальными. Реальная калибровка и firmware шести осей относятся к последующему этапу.
+Крепление/оптика единственной Redmi исследованы [отдельно](2026-11-16-camera-coverage.md). Последующее решение владельца исключило zoom/crop и внешние камеры; новый ракурс пока не заменяет оптику этих smoke checkpoints. Массы, ±170°, gains, effort/rate limits и pinhole остаются номинальными. Реальная калибровка и firmware шести осей относятся к последующему этапу.
 
 Полные SDK logs, PNG/MP4, USD/meshes, checkpoints и source/asset receipts — локально в `E:\RoboHand\runs\2026-11-16-hardware-workcell`. В публичный Git идут patch, стандартные configs и численные доказательства; [геометрия/веса остаются локальными](../publication-scope.md).
 

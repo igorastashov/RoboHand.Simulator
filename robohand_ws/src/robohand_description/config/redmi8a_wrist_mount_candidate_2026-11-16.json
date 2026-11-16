@@ -1,0 +1,371 @@
+{
+  "schema_version": 1,
+  "status": "provisional-camera-placement-not-active-CAD-or-policy",
+  "date": "2026-11-16",
+  "platform": "EB300 R8",
+  "camera": "Redmi 8A main rear, wrist-mounted",
+  "owner_constraints": {
+    "full_frame_only": true,
+    "zoom": false,
+    "roi_crop": false,
+    "external_cameras": false
+  },
+  "reference_pose": {
+    "name": "ready",
+    "qpos": [
+      -0.7853982067589266,
+      0.9697635290247116,
+      0.8667456336261912,
+      -0.006550481567877436,
+      -0.6958216414811792,
+      0.9986238286110761,
+      -0.00021799999998445475
+    ]
+  },
+  "parameters": {
+    "phone_and_backing_parent": "wrist3_link",
+    "phone_and_backing_pos_m": [
+      -0.017754261839641086,
+      -0.03276305660548281,
+      0.1807968868473618
+    ],
+    "phone_and_backing_quat_wxyz": [
+      -0.24716998036926927,
+      -0.6429386859141559,
+      0.7053024529848038,
+      -0.16758668435425308
+    ],
+    "lens_pos_wrist_m": [
+      0.04038063907363509,
+      -0.04499815403978534,
+      0.16818753767396333
+    ],
+    "camera_gl_quat_wrist_wxyz": [
+      0.6429386859141558,
+      -0.24716998036926924,
+      -0.16758668435425306,
+      -0.705302452984804
+    ],
+    "camera_optical_plusZ_quat_wrist_wxyz": [
+      -0.24716998036926918,
+      -0.6429386859141559,
+      0.7053024529848039,
+      -0.16758668435425308
+    ],
+    "lens_from_tcp_reference_world_m": [
+      0.15988962632008827,
+      -0.005942002627275594,
+      0.12
+    ],
+    "lens_tcp_distance_m": 0.20000000000000007,
+    "optical_axis_below_reference_table_deg": 39.93723052601321
+  },
+  "optics_for_study": {
+    "reported_horizontal_fov_deg": 63.7,
+    "assumed_full_video_aspect": "16:9",
+    "derived_vertical_fov_deg": 38.52339692866896,
+    "horizontal_fov_sensitivity_deg": [
+      58.0,
+      69.0
+    ],
+    "reported_nearest_focus_m": 0.1,
+    "source": "https://www.camerafv5.com/devices/manufacturers/xiaomi/redmi_8a_olivelite_0/",
+    "our_unit_calibrated": false
+  },
+  "evaluation": {
+    "grid_mount_configurations": 456,
+    "reference_included_rows": 459,
+    "poses_per_configuration": 10,
+    "fixed_wrist_transform": true,
+    "ray_query": "mujoco.mj_ray on visual meshes",
+    "clearance_query": "mujoco.mj_geomDistance on phone/backing collision proxies",
+    "image_markers_disabled": true,
+    "baseline": {
+      "name": "current_R8",
+      "pos": [
+        0.00030944,
+        -0.0252067,
+        0.101394
+      ],
+      "quat": [
+        0.3368819601630368,
+        0.6216999264827446,
+        -0.6315379253193817,
+        0.31805596238924855
+      ],
+      "height": null,
+      "back": null,
+      "side": null,
+      "measurements": [
+        {
+          "pose": "ready",
+          "key_visible_fraction_h58": 1.0,
+          "finger_surface_visible_fraction_h58": 0.325,
+          "keyboard_centers_in_frame_h58": 0.45,
+          "tcp_in_frame_h58": true,
+          "lens_to_A_m": 0.1657714763988209,
+          "lens_to_tcp_m": 0.15171400745921973
+        },
+        {
+          "pose": "approach",
+          "key_visible_fraction_h58": 1.0,
+          "finger_surface_visible_fraction_h58": 0.325,
+          "keyboard_centers_in_frame_h58": 0.43333333333333335,
+          "tcp_in_frame_h58": true,
+          "lens_to_A_m": 0.15999304734516015,
+          "lens_to_tcp_m": 0.15171400745921976
+        },
+        {
+          "pose": "press",
+          "key_visible_fraction_h58": 0.5555555555555556,
+          "finger_surface_visible_fraction_h58": 0.325,
+          "keyboard_centers_in_frame_h58": 0.38333333333333336,
+          "tcp_in_frame_h58": true,
+          "lens_to_A_m": 0.15280326379223713,
+          "lens_to_tcp_m": 0.15171400745921976
+        },
+        {
+          "pose": "contact_hold",
+          "key_visible_fraction_h58": 0.5555555555555556,
+          "finger_surface_visible_fraction_h58": 0.325,
+          "keyboard_centers_in_frame_h58": 0.36666666666666664,
+          "tcp_in_frame_h58": true,
+          "lens_to_A_m": 0.15255892300315055,
+          "lens_to_tcp_m": 0.15171400745921976
+        },
+        {
+          "pose": "release",
+          "key_visible_fraction_h58": 0.8888888888888888,
+          "finger_surface_visible_fraction_h58": 0.325,
+          "keyboard_centers_in_frame_h58": 0.4166666666666667,
+          "tcp_in_frame_h58": true,
+          "lens_to_A_m": 0.15679244659222424,
+          "lens_to_tcp_m": 0.15171400745921984
+        },
+        {
+          "pose": "released",
+          "key_visible_fraction_h58": 1.0,
+          "finger_surface_visible_fraction_h58": 0.325,
+          "keyboard_centers_in_frame_h58": 0.45,
+          "tcp_in_frame_h58": true,
+          "lens_to_A_m": 0.16576608903982296,
+          "lens_to_tcp_m": 0.15171400745921973
+        },
+        {
+          "pose": "base_minus8",
+          "key_visible_fraction_h58": 0.0,
+          "finger_surface_visible_fraction_h58": 0.325,
+          "keyboard_centers_in_frame_h58": 0.03333333333333333,
+          "tcp_in_frame_h58": true,
+          "lens_to_A_m": 0.18225580332733357,
+          "lens_to_tcp_m": 0.1517140074592198
+        },
+        {
+          "pose": "base_plus8",
+          "key_visible_fraction_h58": 0.0,
+          "finger_surface_visible_fraction_h58": 0.325,
+          "keyboard_centers_in_frame_h58": 0.06666666666666667,
+          "tcp_in_frame_h58": true,
+          "lens_to_A_m": 0.2042728549629684,
+          "lens_to_tcp_m": 0.15171400745921987
+        },
+        {
+          "pose": "wrist_minus12",
+          "key_visible_fraction_h58": 1.0,
+          "finger_surface_visible_fraction_h58": 0.325,
+          "keyboard_centers_in_frame_h58": 0.4666666666666667,
+          "tcp_in_frame_h58": true,
+          "lens_to_A_m": 0.16153985744698227,
+          "lens_to_tcp_m": 0.15171400745921979
+        },
+        {
+          "pose": "wrist_plus12",
+          "key_visible_fraction_h58": 1.0,
+          "finger_surface_visible_fraction_h58": 0.325,
+          "keyboard_centers_in_frame_h58": 0.4166666666666667,
+          "tcp_in_frame_h58": true,
+          "lens_to_A_m": 0.16983483152769693,
+          "lens_to_tcp_m": 0.15171400745921979
+        }
+      ],
+      "phone_backing_min_clearance_capped20mm_m": 0.012419125507246751,
+      "min_key_visibility_motion": 0.5555555555555556,
+      "min_finger_visibility": 0.325,
+      "min_keyboard_fraction_motion": 0.36666666666666664,
+      "min_focus_distance_m": 0.15255892300315055,
+      "min_key_visibility_extra_poses": 0.0,
+      "all_tcp_in_frame": true,
+      "score": 2.6483333333333334
+    },
+    "recommended": {
+      "name": "h120_b0_s-160_a20",
+      "pos": [
+        -0.017754261839641086,
+        -0.03276305660548281,
+        0.1807968868473618
+      ],
+      "quat": [
+        -0.24716998036926927,
+        -0.6429386859141559,
+        0.7053024529848038,
+        -0.16758668435425308
+      ],
+      "height": 0.12,
+      "back": 0,
+      "side": -0.16,
+      "aim_forward_m": 0.02,
+      "lens_reference_world_m": [
+        0.1587793072822315,
+        -0.17988555971224923,
+        0.9383512032593865
+      ],
+      "lens_reference_wrist_m": [
+        0.04038063907363507,
+        -0.04499815403978534,
+        0.16818753767396333
+      ],
+      "measurements": [
+        {
+          "pose": "ready",
+          "key_visible_fraction_h58": 1.0,
+          "finger_surface_visible_fraction_h58": 0.7,
+          "keyboard_centers_in_frame_h58": 0.38333333333333336,
+          "tcp_in_frame_h58": true,
+          "lens_to_A_m": 0.21429280481540106,
+          "lens_to_tcp_m": 0.20000000000000004
+        },
+        {
+          "pose": "approach",
+          "key_visible_fraction_h58": 1.0,
+          "finger_surface_visible_fraction_h58": 0.7,
+          "keyboard_centers_in_frame_h58": 0.4,
+          "tcp_in_frame_h58": true,
+          "lens_to_A_m": 0.2085662733875564,
+          "lens_to_tcp_m": 0.20000000000000007
+        },
+        {
+          "pose": "press",
+          "key_visible_fraction_h58": 0.5555555555555556,
+          "finger_surface_visible_fraction_h58": 0.7,
+          "keyboard_centers_in_frame_h58": 0.43333333333333335,
+          "tcp_in_frame_h58": true,
+          "lens_to_A_m": 0.2013262084706525,
+          "lens_to_tcp_m": 0.2
+        },
+        {
+          "pose": "contact_hold",
+          "key_visible_fraction_h58": 0.5555555555555556,
+          "finger_surface_visible_fraction_h58": 0.7,
+          "keyboard_centers_in_frame_h58": 0.43333333333333335,
+          "tcp_in_frame_h58": true,
+          "lens_to_A_m": 0.20109531851634588,
+          "lens_to_tcp_m": 0.2000000000000001
+        },
+        {
+          "pose": "release",
+          "key_visible_fraction_h58": 0.8888888888888888,
+          "finger_surface_visible_fraction_h58": 0.7,
+          "keyboard_centers_in_frame_h58": 0.4166666666666667,
+          "tcp_in_frame_h58": true,
+          "lens_to_A_m": 0.2053355538328603,
+          "lens_to_tcp_m": 0.2000000000000001
+        },
+        {
+          "pose": "released",
+          "key_visible_fraction_h58": 1.0,
+          "finger_surface_visible_fraction_h58": 0.7,
+          "keyboard_centers_in_frame_h58": 0.38333333333333336,
+          "tcp_in_frame_h58": true,
+          "lens_to_A_m": 0.21428753609852086,
+          "lens_to_tcp_m": 0.20000000000000007
+        },
+        {
+          "pose": "base_minus8",
+          "key_visible_fraction_h58": 1.0,
+          "finger_surface_visible_fraction_h58": 0.7,
+          "keyboard_centers_in_frame_h58": 0.18333333333333332,
+          "tcp_in_frame_h58": true,
+          "lens_to_A_m": 0.2513368465655859,
+          "lens_to_tcp_m": 0.20000000000000004
+        },
+        {
+          "pose": "base_plus8",
+          "key_visible_fraction_h58": 1.0,
+          "finger_surface_visible_fraction_h58": 0.7,
+          "keyboard_centers_in_frame_h58": 0.38333333333333336,
+          "tcp_in_frame_h58": true,
+          "lens_to_A_m": 0.2226407213285597,
+          "lens_to_tcp_m": 0.20000000000000015
+        },
+        {
+          "pose": "wrist_minus12",
+          "key_visible_fraction_h58": 1.0,
+          "finger_surface_visible_fraction_h58": 0.7,
+          "keyboard_centers_in_frame_h58": 0.43333333333333335,
+          "tcp_in_frame_h58": true,
+          "lens_to_A_m": 0.20947916163253982,
+          "lens_to_tcp_m": 0.20000000000000007
+        },
+        {
+          "pose": "wrist_plus12",
+          "key_visible_fraction_h58": 1.0,
+          "finger_surface_visible_fraction_h58": 0.7,
+          "keyboard_centers_in_frame_h58": 0.38333333333333336,
+          "tcp_in_frame_h58": true,
+          "lens_to_A_m": 0.21860240313751148,
+          "lens_to_tcp_m": 0.2000000000000001
+        }
+      ],
+      "phone_backing_min_clearance_capped20mm_m": 0.02,
+      "min_key_visibility_motion": 0.5555555555555556,
+      "min_finger_visibility": 0.7,
+      "min_keyboard_fraction_motion": 0.38333333333333336,
+      "min_focus_distance_m": 0.20109531851634588,
+      "min_key_visibility_extra_poses": 1.0,
+      "all_tcp_in_frame": true,
+      "score": 3.7199999999999998
+    },
+    "higher_behind_rejected": {
+      "name": "h260_b120_s-50_a20",
+      "pos": [
+        -0.09001495076722055,
+        0.1390235756213625,
+        0.0757800240993865
+      ],
+      "quat": [
+        0.3784648350874924,
+        0.5775674994508503,
+        -0.546577347943374,
+        0.47374397610468566
+      ],
+      "min_key_visibility": 0.0,
+      "min_keyboard_fraction": 0.26666666666666666
+    },
+    "physical_roll_alternative": {
+      "name": "h120_b0_s-160_a20",
+      "pos": [
+        0.0037646726870761774,
+        -0.07529543429396734,
+        0.205998988515976
+      ],
+      "quat": [
+        0.2961145791372788,
+        0.8912897841691532,
+        -0.3412099422160898,
+        0.03865814262156514
+      ],
+      "min_key_visibility_motion": 0.5555555555555556,
+      "min_key_visibility_extra_poses": 0.0,
+      "min_keyboard_fraction_motion": 0.45
+    }
+  },
+  "limitations": [
+    "ideal pinhole/rendering: real AF, blur, distortion and video FOV not validated",
+    "phone/optical offset is the nominal R8 envelope, not measured lens extrinsics",
+    "new bracket support/strength/cable routing and relocated-mass dynamics not validated",
+    "original bracket retained in visibility model; no new extension geometry designed",
+    "six poses from nominal key-A motion plus four kinematic framing variants, not all-pose reachability",
+    "single fixed-opening gripper and reduced nominal303x114mm keyboard, not all tasks or full native training keyboard",
+    "current CAD/URDF/MJCF and training checkpoints preserved unchanged"
+  ]
+}
