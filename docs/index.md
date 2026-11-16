@@ -15,6 +15,7 @@ updated: 2026-11-16
 | [Зрение Redmi 8A: полный кадр](research/2026-11-16-camera-coverage.md) | Только Redmi на запястье, полный кадр; зум/crop/внешние камеры исключены; оптика и подбор крепления |
 | [Сравнение креплений Redmi](research/2026-11-16-redmi-wrist-mount-study.md) |456вариантов, предварительный боковой mount, полные кадры и границы приёмки |
 | [Готовая практика креплений wrist camera](research/2026-11-16-wrist-camera-practice.md) | DROID/Franka/ALOHA2/OpenArm/NVIDIA; выбран боковой вариант, два режима инструмента |
+| [Найти инструмент → взять → набрать](research/2026-11-16-typing-tool-acquisition-plan.md) | Новый целевой эпизод, предпочтительный осевой хват, gripper/perception gates G1–G6; пока specification |
 | [Заранее зажатая палочка](research/2026-11-16-pregrasped-tool-preview.md) | Прежняя боковая камера, полный кадр,3заданных press/release; не обучение хвата |
 | [Датчики Redmi и готовый сбор телеметрии](research/2026-11-16-redmi-phone-sensors.md) | Доступность gyro не подтверждена; pinned SensorServer, inventory/time/frame contract |
 | [Native Linux: камера и обучение](research/2026-11-15-native-linux-runtime.md) | Дополнительный GPU-host, pinned runtime/source, камера, teacher/vision PPO, оценки и MP4 проверены; SO-101 только reference |
