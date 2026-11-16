@@ -367,5 +367,7 @@
     "six poses from nominal key-A motion plus four kinematic framing variants, not all-pose reachability",
     "single fixed-opening gripper and reduced nominal303x114mm keyboard, not all tasks or full native training keyboard",
     "current CAD/URDF/MJCF and training checkpoints preserved unchanged"
-  ]
+  ],
+  "owner_selected_mount_direction": true,
+  "selection_note": "Owner retains the proposed side camera for jaw and held-tool operation; physical bracket/camera calibration and active CAD change still pending."
 }

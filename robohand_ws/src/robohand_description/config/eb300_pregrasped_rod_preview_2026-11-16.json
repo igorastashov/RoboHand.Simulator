@@ -1,0 +1,220 @@
+{
+  "scope": "nominal pregrasp + existing built-in filtered position servos, fixed MJCF keyframe targets; no runtime controller/grasp/policy/native/hardware acceptance",
+  "camera_mount": "same chosen h120_b0_s-160_a20, full16:9, no zoom/crop",
+  "tool": {
+    "grip_center_wrist_m": [
+      0.000470801360753027,
+      -0.11800000841149678,
+      -0.0005932278102064346
+    ],
+    "quat_wxyz": [
+      0.7053271402610272,
+      0.7088763121348687,
+      0.002828304309901789,
+      0.0
+    ],
+    "tip_center_from_grip_m": 0.06483245377464178,
+    "back_length_m": 0.07,
+    "shaft_radius_m": 0.004,
+    "tip_radius_m": 0.003,
+    "mass_kg": 0.008,
+    "fixed_pregrasp": true,
+    "slip_and_gripping_not_simulated": true
+  },
+  "keyboard_pos_m": [
+    0.0890991927955,
+    -0.216452697719,
+    0.78
+  ],
+  "stock_ctrl_ready": [
+    -0.785398,
+    0.9,
+    0.85,
+    0.0,
+    -0.7,
+    1.0
+  ],
+  "stock_ctrl_press": [
+    -0.785398,
+    0.9315,
+    0.85,
+    0.0,
+    -0.7,
+    1.0
+  ],
+  "states": [
+    {
+      "phase": "ready",
+      "qpos": [
+        -0.7853980567587511,
+        0.9295827575068947,
+        0.8671550275814526,
+        -0.007217418374712984,
+        -0.6947556594869302,
+        0.9979237394674554,
+        -0.00021799999998445475
+      ],
+      "key_depth_m": -0.00021799999998445475,
+      "tip_center_world": [
+        -0.004133497467877291,
+        -0.21579078595758233,
+        0.8211330939229339
+      ],
+      "lens_to_key_m": 0.24009628693017662
+    },
+    {
+      "phase": "contact",
+      "qpos": [
+        -0.7853955127125121,
+        0.961102500029722,
+        0.8668671310922986,
+        -0.007065198096080298,
+        -0.6949855317117692,
+        0.9978213997478782,
+        -0.0017397080284642509
+      ],
+      "key_depth_m": -0.0017397080284642509,
+      "tip_center_world": [
+        -0.006271208726413572,
+        -0.2163638696527288,
+        0.8009164887945043
+      ],
+      "lens_to_key_m": 0.22519744767336491
+    },
+    {
+      "phase": "released",
+      "qpos": [
+        -0.7853981539141031,
+        0.9295950232636823,
+        0.8671544418275705,
+        -0.0072153483930028905,
+        -0.6947568959957369,
+        0.997924329397209,
+        -0.00021800000010987038
+      ],
+      "key_depth_m": -0.00021800000010987038,
+      "tip_center_world": [
+        -0.004133593807218118,
+        -0.21579110948337038,
+        0.8211256344065602
+      ],
+      "lens_to_key_m": 0.24009063699566396
+    }
+  ],
+  "minimum_key_depth_m": -0.001760356954720663,
+  "downward_threshold_crossings": 1,
+  "observed_contacts": [
+    [
+      "held_rod_tip",
+      "key_A_cap"
+    ]
+  ],
+  "warnings": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "finite": true,
+  "accepted_cad_changed": false,
+  "bracket_geometry_and_device_optics_not_validated": true,
+  "trials": [
+    {
+      "trial": 1,
+      "minimum_key_depth_m": -0.001760356954720663,
+      "threshold_crossings": 1,
+      "released_m": -0.00021800000010987038,
+      "contacts": [
+        [
+          "held_rod_tip",
+          "key_A_cap"
+        ]
+      ],
+      "finite": true,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "trial": 2,
+      "minimum_key_depth_m": -0.001760356954720663,
+      "threshold_crossings": 1,
+      "released_m": -0.00021800000010987038,
+      "contacts": [
+        [
+          "held_rod_tip",
+          "key_A_cap"
+        ]
+      ],
+      "finite": true,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "trial": 3,
+      "minimum_key_depth_m": -0.001760356954720663,
+      "threshold_crossings": 1,
+      "released_m": -0.00021800000010987038,
+      "contacts": [
+        [
+          "held_rod_tip",
+          "key_A_cap"
+        ]
+      ],
+      "finite": true,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    }
+  ],
+  "scene_sha256": "31da950989a9e9fbebee1217816cef7cf001e093cdb27e25a2b3f1dfc3e9c0c9",
+  "portable_scene_sha256": "3a9ba4c95dcd6de78637e3fca25f2057d3bd442c8e91a478a317f4c2936be4f0",
+  "portable_scene_reload": "pass;6actuators/7qpos",
+  "portable_final_review": {
+    "source": "reloaded portable final XML with saved pose keyframes",
+    "all_tool_gripper_phone_contacts_press_phase": [
+      [
+        "held_rod_tip",
+        "key_A_cap"
+      ]
+    ],
+    "threshold_crossings": 1,
+    "min_key_depth_m": -0.0017603569547122628,
+    "released_m": -0.00021800000010987035,
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "finite": true
+  }
+}

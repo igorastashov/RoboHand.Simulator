@@ -67,3 +67,10 @@ Frozen комплект native assets/config/patch/checkpoints/evidence сохр
 [Результаты и параметры](research/2026-11-16-redmi-wrist-mount-study.md), [датчики телефона](research/2026-11-16-redmi-phone-sensors.md). Материалы на E: `E:\RoboHand\runs\2026-11-16-redmi-wrist-camera-study`; сравнение для просмотра — `E:\RoboHand\LATEST\SIMULATION\CAMERA-STUDY\camera-mount-comparison.png`. Кандидат не заменяет `LATEST\CAD\EB300.a3d`, default URDF/MJCF или старую training camera.
 
 Архив исследования: `E:\RoboHand\releases\EB300-CAMERA-STUDY-2026-11-16\EB300-CAMERA-STUDY-2026-11-16.zip`; зеркало `D:\RoboHand-Backups\EB300-CAMERA-STUDY-2026-11-16.zip`.35 268 853байт,575payload файлов + manifest; CRC/SHA256 каждого payload и зеркала проверены. SHA256: `18cbf37e687bb8d4d838432650c9592f221d0c100e3d5afeef9cfaadb61159cc`. Внутри — снимок отчётов, результаты/полные кадры и сохранённые исходные metadata SensorServer; это архив исследования, не release робота.
+
+
+## Заранее зажатая палочка и практика креплений
+
+[Обзор готовых конструкций](research/2026-11-16-wrist-camera-practice.md), [результат preview](research/2026-11-16-pregrasped-tool-preview.md). Отдельная рабочая папка: `E:\RoboHand\LATEST\SIMULATION\HELD-TOOL-CANDIDATE`; есть XML+meshes, полные PNG и GIF. Это кандидат с fixed pregrasp, а не новая активная CAD/обученный захват. Основная EB300.a3d сохранена.
+
+Архив практики креплений и held-tool candidate: `E:\RoboHand\releases\EB300-WRIST-TOOL-RESEARCH-2026-11-16\EB300-WRIST-TOOL-RESEARCH-2026-11-16.zip`, зеркало `D:\RoboHand-Backups\EB300-WRIST-TOOL-RESEARCH-2026-11-16.zip`.19 204 253байт,64payload файла + manifest; CRC, каждый payload SHA256 и зеркало проверены. SHA256: `dd99b7ca65a18742b67586fbb827b1227601b02c9ebd17622a198ae946bdbcc9`.
