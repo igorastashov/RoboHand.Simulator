@@ -1,0 +1,122 @@
+{
+  "as_of": "2026-11-17",
+  "status": "raw-pretrained-gpu-forward-passed",
+  "source": {
+    "repo": "huggingface/lerobot",
+    "commit": "7910c20a75834ad3fa6a9792df4d44a614d1bba6",
+    "source_archive_sha256": "16a87c2f815da673aeb065fcaddccd7d6f38f2cb2afd4c9eededfcef59c6c7cb",
+    "requested_model": "lerobot/pi05_base",
+    "model_revision": "22c30e5b34f9e7ab738b1b34fc2fc5ecfe2d28f0"
+  },
+  "downloaded_model": {
+    "model": "lerobot/pi05_base",
+    "revision": "22c30e5b34f9e7ab738b1b34fc2fc5ecfe2d28f0",
+    "bytes": 14467165872,
+    "sha256": "0eb11ca9587678c1d2ef8cf32807c29f8ce53a2bfdfc1aa4a4c96f16fca59b0f",
+    "hub_etag": "0eb11ca9587678c1d2ef8cf32807c29f8ce53a2bfdfc1aa4a4c96f16fca59b0f",
+    "sha256_matches_hub_etag": true,
+    "hash_seconds": 153.07221739995293
+  },
+  "gpu_diagnostic": {
+    "scope": "pretrained PI05 raw GPU forward on diagnostic tensors only; no tokenizer, dataset, EB300 action mapping or task evaluation",
+    "versions": {
+      "lerobot": "0.7.1",
+      "torch": "2.11.0+cu128",
+      "torchvision": "0.26.0+cu128",
+      "transformers": "5.22.2",
+      "huggingface_hub": "2.4.0",
+      "peft": "0.21.3"
+    },
+    "python": "3.12.13",
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "cuda_runtime": "12.8",
+    "model_path": "/mnt/e/RoboHand/models/pi05-base-22c30e5",
+    "model_revision": "22c30e5b34f9e7ab738b1b34fc2fc5ecfe2d28f0",
+    "dtype": "bfloat16",
+    "eb300_rollout": false,
+    "trained": false,
+    "raw_forward_completed": true,
+    "model_load_seconds": 433.63353501001257,
+    "parameter_count": 4143404816,
+    "input_shapes": {
+      "observation.images.base_0_rgb": [
+        1,
+        3,
+        224,
+        224
+      ],
+      "observation.state": [
+        1,
+        32
+      ],
+      "observation.language.tokens": [
+        1,
+        16
+      ],
+      "observation.language.attention_mask": [
+        1,
+        16
+      ]
+    },
+    "configured_image_keys": [
+      "observation.images.base_0_rgb",
+      "observation.images.left_wrist_0_rgb",
+      "observation.images.right_wrist_0_rgb"
+    ],
+    "provided_image_keys": [
+      "observation.images.base_0_rgb"
+    ],
+    "missing_views_handling": "stock PI05 masked empty views; no duplicated camera frames",
+    "chunk_calls_seconds": [
+      8.836315613996703,
+      0.4464654850016814,
+      0.4686076419893652
+    ],
+    "output_shape": [
+      1,
+      50,
+      32
+    ],
+    "peak_allocated_bytes": 9490002432,
+    "peak_reserved_bytes": 9810477056
+  },
+  "gripper_readiness": {
+    "urdf": "D:\\ПРОЕКТЫ\\_ЛИЧНОЕ_\\ВОПЛОЩЕННЫЙ_ЭЙАЙ\\РОБОРУКА\\RoboHand\\RoboHand.Simulator\\robohand_ws\\src\\robohand_description\\urdf\\eb300_jaw_typing_r8.urdf",
+    "urdf_sha256": "4926874daeeaa4edfdf061e11c23977aebddf2a098976f45f12e2c948a136743",
+    "movable_joints": [
+      "J1",
+      "J2",
+      "J3",
+      "J4",
+      "J5",
+      "J6"
+    ],
+    "gripper_visual_parent_links": [
+      "wrist3_link"
+    ],
+    "actuated_gripper_present": false,
+    "manufacturer_gripper_drive": "one MG995 servo motor or higher per supplied manufacturer README",
+    "manufacturer_readme_sha256": "f12e01da1add31658297d59d9397ba6f21369495bd4100a1c76820f211a1d52d",
+    "existing_native_mate_records": 25,
+    "free_pencil_pickup_ready": false,
+    "next_physics_deliverable": "separate moving EBG20 bodies/joints, linkage/drive limits and real contact grasp; retain accepted R8 CAD",
+    "execution_scope": "read-only saved URDF/mate/source inventory; no CAD or robot motion"
+  },
+  "real_batch_text_preprocessor_passed": false,
+  "tokenizer": {
+    "anonymous_hub_status": 401,
+    "owner_has_account": true,
+    "owner_downloads_small_assets_to_windows_downloads": true,
+    "owner_completion_received": false
+  },
+  "training_or_lora_update_executed": false,
+  "eb300_rollout": false,
+  "remote_shared_host_touched": false,
+  "local_run_directory": "E:\\RoboHand\\runs\\2026-11-17-pi05-local-readiness",
+  "cold_start_io_observation": {
+    "model_load_seconds": 433.63353501001257,
+    "process_wait_channel_observed": "p9_client_rpc",
+    "filesystem": "WSL /mnt/e Windows drive",
+    "native_filesystem_migration_done": false
+  }
+}
