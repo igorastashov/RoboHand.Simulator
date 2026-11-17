@@ -8,9 +8,12 @@ updated: 2026-11-17
 
 | Документ | Назначение |
 |---|---|
-| [Текущий план17.11: GR00T + Codex](<../../../../../_ПЛАНЫ_/embedded-robotics-market-research/research/projects/robohand/plans/2026-11-17-groot-first.md>) | Управляемый захват и данные сначала; предыдущая версия плана17.11, уточнена foundation/LoRA маршрутом ниже |
-| [Подвижный EBG20: независимое ревью](cad-reviews/2026-11-17-ebg20-motion/root-review.md) | Standalone осевой grip/lift/hold/release при2ms; full-arm/data integration ещё предстоит, floor-impact gate открыт |
-| [LeRobot EnvHub: готовый путь и отдельный scope](research/2026-11-17-eb300-envhub-adaptation.md) | Stock reset/step/render проверен; семимерный EB300 bridge требует отдельного решения до нового executable code |
+| [Действующий foundation/LoRA план](<../../../../../_ПЛАНЫ_/embedded-robotics-market-research/research/projects/robohand/plans/2026-11-17-foundation-lora.md>) | EB300 EnvHub, запись/replay и base-policy interface приняты; дальше успешные grasp demonstrations |
+| [EB300 EnvHub: выполнено, GIF и следующий этап](research/2026-11-17-eb300-envhub-execution.md) | Полная7action scene,6tests Windows/Linux,50frames/replay, π0.5 на wrist+state7; learned grasp ещё нет |
+| [Готовый adapter и команды](../integrations/lerobot_envhub/README.md) | Stock SimRobot/dataset/CLI/server, limits/units, полный кадр, local geometry и recovery |
+| [Предыдущий план17.11: GR00T + Codex](<../../../../../_ПЛАНЫ_/embedded-robotics-market-research/research/projects/robohand/plans/2026-11-17-groot-first.md>) | Историческая версия, уточнённая foundation/LoRA маршрутом |
+| [Подвижный EBG20: независимое ревью](cad-reviews/2026-11-17-ebg20-motion/root-review.md) | Standalone осевой grip/lift/hold/release при2ms; затем интегрирован в EnvHub, floor-impact gate открыт |
+| [LeRobot EnvHub: готовый путь и отдельный scope](research/2026-11-17-eb300-envhub-adaptation.md) | Владелец разрешил bounded7action adaptation17.11; реализация и evidence в execution report |
 | [π0.5: токенизатор, LoRA update и cold reload](research/2026-11-17-pi05-tokenizer-lora.md) | Полный reference text/images/state→action, один optimizer step на3090 и проверенный adapter; EB300 grasp policy ещё не обучена |
 | [π0.5: первый локальный запуск и захват](research/2026-11-17-pi05-first-run.md) | Реальное выполнение17.11: отдельное окружение/weights наE, tokenizer access и следующая короткая итерация |
 | [Foundation models и LoRA: актуальный маршрут](research/2026-11-17-foundation-models-lora.md) | GR00T2 release gap, π0.5/MolmoAct2/LingBot2, VRAM/licenses/pins; PPO руки выведен из будущего обучения/исполнения |

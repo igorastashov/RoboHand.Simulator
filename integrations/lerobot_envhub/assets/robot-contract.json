@@ -1,0 +1,258 @@
+{
+  "schema_version": 1,
+  "robot": "EB300+EBG20 nominal candidate",
+  "scene_file": "eb300_envhub_scene.xml",
+  "scene_sha256": "501e0cbeffc54c161131eedce9a37d5845c7cb8dd7ab80153955eeb80fad735c",
+  "mesh_directory": "meshes",
+  "reset_keyframe": "envhub_ready",
+  "controlled_joints": [
+    "eb300/J1",
+    "eb300/J2",
+    "eb300/J3",
+    "eb300/J4",
+    "eb300/J5",
+    "eb300/J6",
+    "ebg20/servo_angle"
+  ],
+  "actuators": [
+    "eb300/J1_position",
+    "eb300/J2_position",
+    "eb300/J3_position",
+    "eb300/J4_position",
+    "eb300/J5_position",
+    "eb300/J6_position",
+    "ebg20/MG995_position"
+  ],
+  "state_names": [
+    "J1.pos",
+    "J2.pos",
+    "J3.pos",
+    "J4.pos",
+    "J5.pos",
+    "J6.pos",
+    "MG995.pos"
+  ],
+  "action_names": [
+    "J1.pos",
+    "J2.pos",
+    "J3.pos",
+    "J4.pos",
+    "J5.pos",
+    "J6.pos",
+    "MG995.pos"
+  ],
+  "units": "rad",
+  "action_limits_rad": [
+    [
+      -2.96706,
+      2.96706
+    ],
+    [
+      -2.96706,
+      2.96706
+    ],
+    [
+      -2.96706,
+      2.96706
+    ],
+    [
+      -2.96706,
+      2.96706
+    ],
+    [
+      -2.96706,
+      2.96706
+    ],
+    [
+      -2.96706,
+      2.96706
+    ],
+    [
+      -0.75,
+      2.0
+    ]
+  ],
+  "reset_qpos": [
+    -0.785398056759,
+    0.929582757507,
+    0.867155027581,
+    -0.00721741837471,
+    -0.694755659487,
+    0.997923739467,
+    1.0,
+    0.00683998877090765,
+    0.00683998877090765,
+    -0.000217999999984,
+    -0.08,
+    -0.3,
+    0.7835,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "reset_ctrl": [
+    -0.785398,
+    0.9,
+    0.85,
+    0.0,
+    -0.7,
+    1.0,
+    1.0
+  ],
+  "reset_act": [
+    -0.785398,
+    0.9,
+    0.85,
+    0.0,
+    -0.7,
+    1.0,
+    1.0
+  ],
+  "home_action": [
+    -0.785398,
+    0.9,
+    0.85,
+    0.0,
+    -0.7,
+    1.0,
+    1.0
+  ],
+  "controlled_qpos_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "internal_rack_joints": [
+    "ebg20/jaw_A_slide",
+    "ebg20/jaw_B_slide"
+  ],
+  "internal_rack_qpos_indices": [
+    7,
+    8
+  ],
+  "internal_rack_units": "m",
+  "passive_keyboard_joint": "key_A_travel",
+  "passive_keyboard_qpos_index": 9,
+  "pencil_free_joint": "pencil_free",
+  "pencil_qpos_address": 10,
+  "pencil_body": "pencil",
+  "pencil_geom": "pencil_contact",
+  "pad_geoms": [
+    "ebg20/jawA_014_7",
+    "ebg20/jawB_014_4"
+  ],
+  "table_support_geom": "desktop",
+  "wrist_camera": "eb300/redmi8a_nominal",
+  "policy_cameras": [
+    "eb300/redmi8a_nominal"
+  ],
+  "spectator_camera": "overview",
+  "camera_mount_variant": "h120_b0_s-160_a20",
+  "camera_vertical_fov_deg": 38.52339692866896,
+  "image_width": 640,
+  "image_height": 360,
+  "image_shape_HWC": [
+    360,
+    640,
+    3
+  ],
+  "image_channels": "RGB",
+  "image_dtype": "uint8",
+  "full_frame_no_crop_zoom": true,
+  "fps": 25,
+  "physics_timestep_s": 0.002,
+  "physics_steps_per_action": 20,
+  "nq": 17,
+  "nv": 16,
+  "nu": 7,
+  "na": 7,
+  "neq": 2,
+  "reset_object_pose_scope": "free pencil lying flat on table, nominal chosen visible placement; not a scripted grasp",
+  "success_contract": {
+    "requires_both_pad_contacts": true,
+    "lift_from_reset_m": 0.02,
+    "hold_s": 0.5,
+    "forbid_table_support": true,
+    "object_pose_evaluator_only": true
+  },
+  "limits_scope": "Nominal simulation targets, not calibrated hardware limits",
+  "candidate_limits": [
+    "No full-arm grasp/lift policy or IK demonstrated",
+    "R2 internal gear transmission idealized; missing rack attachment geometry not restored",
+    "Standalone R2 release-impact penetration remains a known limit",
+    "All masses/inertias/friction/servo gains nominal"
+  ],
+  "joints_all": [
+    {
+      "name": "eb300/J1",
+      "qposadr": 0,
+      "dofadr": 0,
+      "type": 3
+    },
+    {
+      "name": "eb300/J2",
+      "qposadr": 1,
+      "dofadr": 1,
+      "type": 3
+    },
+    {
+      "name": "eb300/J3",
+      "qposadr": 2,
+      "dofadr": 2,
+      "type": 3
+    },
+    {
+      "name": "eb300/J4",
+      "qposadr": 3,
+      "dofadr": 3,
+      "type": 3
+    },
+    {
+      "name": "eb300/J5",
+      "qposadr": 4,
+      "dofadr": 4,
+      "type": 3
+    },
+    {
+      "name": "eb300/J6",
+      "qposadr": 5,
+      "dofadr": 5,
+      "type": 3
+    },
+    {
+      "name": "ebg20/servo_angle",
+      "qposadr": 6,
+      "dofadr": 6,
+      "type": 3
+    },
+    {
+      "name": "ebg20/jaw_A_slide",
+      "qposadr": 7,
+      "dofadr": 7,
+      "type": 2
+    },
+    {
+      "name": "ebg20/jaw_B_slide",
+      "qposadr": 8,
+      "dofadr": 8,
+      "type": 2
+    },
+    {
+      "name": "key_A_travel",
+      "qposadr": 9,
+      "dofadr": 9,
+      "type": 2
+    },
+    {
+      "name": "pencil_free",
+      "qposadr": 10,
+      "dofadr": 10,
+      "type": 0
+    }
+  ]
+}

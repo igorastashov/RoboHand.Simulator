@@ -1,0 +1,4 @@
+# Simulator side only; LeRobot policy/data dependencies are installed separately.
+mujoco==4.0.1
+gymnasium==1.4.0
+numpy==2.2.6

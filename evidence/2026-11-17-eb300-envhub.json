@@ -1,0 +1,319 @@
+{
+  "as_of": "2026-11-17",
+  "status": "owner-approved-eb300-envhub-record-replay-base-policy-interface-passed-no-grasp-skill",
+  "lerobot_commit": "7910c20a75834ad3fa6a9792df4d44a614d1bba6",
+  "reference_envhub_revision": "e68145d8bd793c27fa2c13e31369a616895c5acb",
+  "code_sha256": "8184ddbdfa1362208b8b3cdb7abd1403924e10c2b8fd43662464825d93c87094",
+  "scene_sha256": "501e0cbeffc54c161131eedce9a37d5845c7cb8dd7ab80153955eeb80fad735c",
+  "contract_sha256": "30f7114ebaf141e530cb34062abde82cf47dcaa44c7efcbd32f713e2ec15356b",
+  "tests": {
+    "linux": {
+      "passed": 6,
+      "seconds": 9.05
+    },
+    "windows": {
+      "passed": 6,
+      "seconds": 2.83
+    }
+  },
+  "record_api": {
+    "status": "eb300-simrobot-api-record-read-replay-passed",
+    "robot_type": "eb300",
+    "fps": 25,
+    "physics_timestep_s": 0.002,
+    "actions": [
+      "J1.pos",
+      "J2.pos",
+      "J3.pos",
+      "J4.pos",
+      "J5.pos",
+      "J6.pos",
+      "MG995.pos"
+    ],
+    "camera_shape": [
+      360,
+      640,
+      3
+    ],
+    "frames": 50,
+    "episodes": 1,
+    "timestamp_max_error_s": 5.7220459037665705e-08,
+    "replay_max_joint_error_rad": 0.0,
+    "camera_changed_frames": 50,
+    "dataset_root": "/var/tmp/robohand-pi05-7910c20-2026-11-17/eb300-interface-dataset",
+    "wall_seconds": 24.31857427099021,
+    "learned_policy": false,
+    "grasp_demonstrations": false,
+    "task_success": null
+  },
+  "local_policy_smoke": {
+    "scope": "three bounded simulator steps with base PI05 on EB300 image/state; not a learned grasp",
+    "normalization": "statistics of the diagnostic 50-frame interface dataset, not representative task demonstrations",
+    "trained_on_eb300": false,
+    "base_checkpoint_modified": false,
+    "stage": "Completed interface smoke; no task-quality or real-robot claim",
+    "model_load_seconds": 94.20193924198975,
+    "input_features": {
+      "observation.state": [
+        7
+      ],
+      "observation.images.wrist": [
+        3,
+        360,
+        640
+      ]
+    },
+    "output_features": {
+      "action": [
+        7
+      ]
+    },
+    "status": "eb300-full-wrist-text-state-inference-and-three-sim-steps-passed",
+    "steps": [
+      {
+        "step": 0,
+        "inference_seconds": 0.6420596169773489,
+        "action_rad": [
+          -0.785398006439209,
+          0.8999999761581421,
+          0.8500000238418579,
+          1.8967193741721393e-14,
+          -0.699999988079071,
+          0.9905924201011658,
+          1.1459259986877441
+        ],
+        "post_state_rad": [
+          -0.7853990793228149,
+          0.9295666813850403,
+          0.8671456575393677,
+          -0.007223682478070259,
+          -0.6947551369667053,
+          0.9974580407142639,
+          1.0129518508911133
+        ],
+        "task_success": false
+      },
+      {
+        "step": 1,
+        "inference_seconds": 0.39879328600363806,
+        "action_rad": [
+          -0.785398006439209,
+          0.8999999761581421,
+          0.8500000238418579,
+          1.9714032855710877e-14,
+          -0.699999988079071,
+          1.001247763633728,
+          1.1403472423553467
+        ],
+        "post_state_rad": [
+          -0.785399317741394,
+          0.9295498728752136,
+          0.8671339154243469,
+          -0.007219243794679642,
+          -0.6947556734085083,
+          0.9968405365943909,
+          1.055177092552185
+        ],
+        "task_success": false
+      },
+      {
+        "step": 2,
+        "inference_seconds": 0.46803551199263893,
+        "action_rad": [
+          -0.785398006439209,
+          0.8999999761581421,
+          0.8500000238418579,
+          2.3229461838239138e-14,
+          -0.699999988079071,
+          0.992845356464386,
+          1.1522622108459473
+        ],
+        "post_state_rad": [
+          -0.7853986620903015,
+          0.9295386672019958,
+          0.867127001285553,
+          -0.007220142055302858,
+          -0.6947551965713501,
+          0.9964165687561035,
+          1.0989692211151123
+        ],
+        "task_success": false
+      }
+    ],
+    "peak_allocated_bytes": 9437343232,
+    "peak_reserved_bytes": 9701425152,
+    "task_success": false,
+    "image_count": 1,
+    "external_cameras": 0
+  },
+  "windows_served_policy_smoke": {
+    "scope": "three bounded simulator steps with base PI05 on EB300 image/state; not a learned grasp",
+    "normalization": "statistics of the diagnostic 50-frame interface dataset, not representative task demonstrations",
+    "trained_on_eb300": false,
+    "base_checkpoint_modified": false,
+    "stage": "Completed interface smoke; no task-quality or real-robot claim",
+    "model_load_seconds": 105.00101251798333,
+    "input_features": {
+      "observation.state": [
+        7
+      ],
+      "observation.images.wrist": [
+        3,
+        360,
+        640
+      ]
+    },
+    "output_features": {
+      "action": [
+        7
+      ]
+    },
+    "runtime_path": "Windows standard EnvHub server → WSL standard SimRobot → CUDA PI05",
+    "status": "eb300-full-wrist-text-state-inference-and-three-sim-steps-passed",
+    "steps": [
+      {
+        "step": 0,
+        "inference_seconds": 0.9132559149875306,
+        "action_rad": [
+          -0.785398006439209,
+          0.8999999761581421,
+          0.8500000238418579,
+          1.9048309004882254e-14,
+          -0.699999988079071,
+          0.990725040435791,
+          1.1373560428619385
+        ],
+        "post_state_rad": [
+          -0.7853989601135254,
+          0.9295668005943298,
+          0.8671456575393677,
+          -0.007223703898489475,
+          -0.6947551965713501,
+          0.9974650740623474,
+          1.0121852159500122
+        ],
+        "task_success": false
+      },
+      {
+        "step": 1,
+        "inference_seconds": 0.40693774999817833,
+        "action_rad": [
+          -0.785398006439209,
+          0.8999999761581421,
+          0.8500000238418579,
+          2.0504678819666458e-14,
+          -0.699999988079071,
+          1.000341534614563,
+          1.1356301307678223
+        ],
+        "post_state_rad": [
+          -0.7853996157646179,
+          0.9295494556427002,
+          0.8671337366104126,
+          -0.00722030783072114,
+          -0.6947556138038635,
+          0.9968094825744629,
+          1.0522369146347046
+        ],
+        "task_success": false
+      },
+      {
+        "step": 2,
+        "inference_seconds": 0.45733742899028584,
+        "action_rad": [
+          -0.785398006439209,
+          0.8999999761581421,
+          0.8500000238418579,
+          2.292595468664487e-14,
+          -0.699999988079071,
+          0.9957560300827026,
+          1.1543657779693604
+        ],
+        "post_state_rad": [
+          -0.7853996157646179,
+          0.9295397996902466,
+          0.867127537727356,
+          -0.00721826683729887,
+          -0.6947554349899292,
+          0.9964737296104431,
+          1.0951615571975708
+        ],
+        "task_success": false
+      }
+    ],
+    "peak_allocated_bytes": 9437343232,
+    "peak_reserved_bytes": 9701425152,
+    "task_success": false,
+    "image_count": 1,
+    "external_cameras": 0
+  },
+  "windows_server_probe": {
+    "status": "stock-windows-env-server-wsl-client-passed",
+    "image_shape": [
+      360,
+      640,
+      3
+    ],
+    "encoding": "raw",
+    "control_fps": 25,
+    "physics_dt_s": 0.002,
+    "steps": 30,
+    "step_mean_seconds": 0.026861840848276322,
+    "step_p95_seconds": 0.034353087798808704,
+    "step_max_seconds": 0.03460481599904597,
+    "task_success": false,
+    "no_torch_on_server": true,
+    "network_scope": "Windows WSL virtual adapter only; no firewall changes",
+    "render_shadows": false
+  },
+  "cli_replay": {
+    "local_wsl": {
+      "ticks": 50,
+      "target_hz": 25,
+      "measured_hz": 5.4,
+      "over_budget_ticks": 49,
+      "judged_ticks": 49
+    },
+    "windows_served": {
+      "ticks": 50,
+      "target_hz": 25,
+      "measured_hz": 24.86,
+      "over_budget_ticks": 1,
+      "judged_ticks": 49,
+      "mean_work_ms": 25.1,
+      "worst_work_ms": 43.8,
+      "raw_full_frame": true,
+      "render_shadows": false
+    }
+  },
+  "gif": {
+    "gif": "E:\\RoboHand\\runs\\2026-11-17-eb300-envhub\\presentation\\EB300-workcell.gif",
+    "sha256": "208e7212f4d209f775ee9f321f7d37a1146f057ff907a19ad74593868393eea9",
+    "bytes": 8408783,
+    "frames": 100,
+    "size": [
+      1280,
+      720
+    ],
+    "duration_ms": 8000,
+    "simulation_seconds": 7.999999999999341,
+    "physics_timestep_s": 0.002,
+    "control_fps": 25,
+    "gif_fps": 12.5,
+    "warnings": [],
+    "max_all_contact_penetration_m": 5.4824720005730576e-05,
+    "no_learned_policy": true,
+    "no_object_pickup_claim": true,
+    "camera_policy_input": "One full wrist frame; overview is spectator only",
+    "wall_seconds": 13.693072599940933
+  },
+  "limits": [
+    "No learned EB300 grasp or successful pickup",
+    "Diagnostic dataset statistics are not representative task demonstrations; several actions are constant",
+    "No 25Hz guarantee for fresh PI05 inference: measured calls regenerate an action chunk in about0.4seconds",
+    "No hard realtime claim; one Windows-served CLI tick missed40ms",
+    "Video encoding not tested; image-backed dataset only",
+    "R2 servo/friction/inertia nominal; release-impact and gear residual gates remain open",
+    "Phone calibration and real actuator feedback not validated"
+  ]
+}

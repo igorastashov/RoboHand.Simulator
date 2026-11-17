@@ -2,12 +2,16 @@
 tags: [eb300, lerobot, envhub, simrobot, reuse-first, decision]
 type: bounded-adaptation-proposal
 updated: 2026-11-17
-status: stock-reference-smoke-passed-eb300-adapter-awaits-owner-decision
+status: owner-approved-implemented-and-interface-verified
 ---
 
 # EB300: готовый LeRobot runtime и точный integration gap
 
-После [проверенного π0.5 LoRA update/reload](2026-11-17-pi05-tokenizer-lora.md) нужен путь от нашей физической scene к штатным record/replay/rollout. Готовые транспорт, recorder и policy runner есть в LeRobot. Готовая конфигурация EB300 для этого пути не найдена; новый исполняемый adapter пока не написан.
+После [проверенного π0.5 LoRA update/reload](2026-11-17-pi05-tokenizer-lora.md) нужен путь от нашей физической scene к штатным record/replay/rollout. Готовые транспорт, recorder и policy runner есть в LeRobot. Готовая конфигурация EB300 для этого пути не найдена; gap и границы адаптации зафиксированы ниже.
+
+**Решение владельца17.11:** «да разрешаю, работай в цикле сколько считаешь нужным». Описанный ниже bounded scope разрешён; дополнительно запрошен GIF для показа заинтересованным людям. Реализация начата в `integrations/lerobot_envhub/`. Дальнейших разрешений на этот же scope не требуется. Результаты integration/record/replay и симуляция/обученная policy оцениваются раздельно.
+
+**Выполнено17.11:** [adapter/full scene, запись/replay и base-policy smoke на EB300 проверены, GIF подготовлен](2026-11-17-eb300-envhub-execution.md). Формулировки ниже сохраняют исходный proposal/scope. Настоящие grasp demonstrations и обучение навыка пока следующие этапы.
 
 ## Проверенный готовый путь
 
@@ -53,6 +57,6 @@ Reference `env.py` жёстко задаёт пять arm joints плюс grippe
 
 В [reuse-first-policy.md, §7](<../../../../../../_ПЛАНЫ_/embedded-robotics-market-research/research/projects/robohand/reuse-first-policy.md>) прямо сказано: «Не начинать собственный exporter, MCP-server, orchestration framework, UI или robot adapter без отдельного решения владельца». Root AGENTS.md§3 также запрещает новый исполняемый код при таком gap без отдельного решения. Ранее разрешённая шестимерная NVIDIA/PPO adaptation относится к другому scoped изменению и этот adapter не разрешает.
 
-До решения разрешённые CAD/MJCF data, диагностика, LoRA reference, documentation и backup продолжаются. Этот документ не является согласием и не утверждает, что adapter уже реализован.
+Первоначальный proposal не являлся согласием; отдельное решение владельца зафиксировано выше. Новый controller, собственный UI/framework, firmware и изменения shared host в него не включены.
 
 [Индекс](../index.md), [план](<../../../../../../_ПЛАНЫ_/embedded-robotics-market-research/research/projects/robohand/plans/2026-11-17-foundation-lora.md>).

@@ -1,0 +1,303 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="EB300_EnvHub_dynamic_EBG20_nominal_R1">
+  <compiler angle="radian" meshdir="meshes" />
+  <option integrator="implicitfast" timestep=".002" solver="Newton" iterations="100" tolerance="1e-10" noslip_iterations="10" />
+  <size nkey="1" />
+  <statistic extent="2.3" center="0 0 1" />
+  <visual>
+    <global azimuth="135" elevation="-25" offwidth="1280" offheight="720" />
+    <headlight ambient="0.4 0.4 0.4" diffuse="0.7 0.7 0.7" />
+  </visual>
+  <default>
+    <geom friction="0.8 0.01 0.001" solref="0.01" />
+    <default class="fixture">
+      <geom contype="2" />
+    </default>
+    <default class="keycap">
+      <geom size="0.008 0.008 0.003" type="box" contype="2" rgba="0.16 0.18 0.2 1" />
+    </default>
+    <default class="eb300/main">
+      <geom friction="1 0.005 0.0001" solref="0.02" />
+    </default>
+    <default class="ebg20">
+      <geom friction=".6 .005 .0001" condim="4" solref=".004 1" solimp=".99 .999 .001" contype="1" conaffinity="3" group="0" density="0" />
+    </default>
+  </default>
+  <asset>
+    <texture type="2d" colorspace="auto" name="ground" builtin="checker" rgb1="0.19 0.22 0.25" rgb2="0.23 0.26 0.29" width="256" height="256" />
+    <material name="ground" texture="ground" texrepeat="4 4" />
+    <material name="oak" rgba="0.6 0.43 0.27 1" />
+    <material name="metal" rgba="0.12 0.14 0.17 1" />
+    <material name="screen" emission="0.3" rgba="0.04 0.22 0.34 1" />
+    <mesh name="eb300/1_update_visual" content_type="model/stl" file="eb300_cad2/visual/1_update_visual.stl" scale="0.001 0.001 0.001" />
+    <mesh name="eb300/1_update_convex" content_type="model/stl" file="eb300_cad2/collision/1_update_convex.stl" scale="0.001 0.001 0.001" />
+    <mesh name="eb300/3_update_visual" content_type="model/stl" file="eb300_cad2/visual/3_update_visual.stl" scale="0.001 0.001 0.001" />
+    <mesh name="eb300/3_update_convex" content_type="model/stl" file="eb300_cad2/collision/3_update_convex.stl" scale="0.001 0.001 0.001" />
+    <mesh name="eb300/7_update_visual" content_type="model/stl" file="eb300_cad2/visual/7_update_visual.stl" scale="0.001 0.001 0.001" />
+    <mesh name="eb300/tube1-R3_visual" content_type="model/stl" file="eb300_cad2/visual/tube1-R3_visual.stl" scale="0.001 0.001 0.001" />
+    <mesh name="eb300/14_update_visual" content_type="model/stl" file="eb300_cad2/visual/14_update_visual.stl" scale="0.001 0.001 0.001" />
+    <mesh name="eb300/7_update_convex" content_type="model/stl" file="eb300_cad2/collision/7_update_convex.stl" scale="0.001 0.001 0.001" />
+    <mesh name="eb300/14_update_convex" content_type="model/stl" file="eb300_cad2/collision/14_update_convex.stl" scale="0.001 0.001 0.001" />
+    <mesh name="eb300/18_update_visual" content_type="model/stl" file="eb300_cad2/visual/18_update_visual.stl" scale="0.001 0.001 0.001" />
+    <mesh name="eb300/tube2-R3_visual" content_type="model/stl" file="eb300_cad2/visual/tube2-R3_visual.stl" scale="0.001 0.001 0.001" />
+    <mesh name="eb300/23_update_visual" content_type="model/stl" file="eb300_cad2/visual/23_update_visual.stl" scale="0.001 0.001 0.001" />
+    <mesh name="eb300/18_update_convex" content_type="model/stl" file="eb300_cad2/collision/18_update_convex.stl" scale="0.001 0.001 0.001" />
+    <mesh name="eb300/23_update_convex" content_type="model/stl" file="eb300_cad2/collision/23_update_convex.stl" scale="0.001 0.001 0.001" />
+    <mesh name="eb300/27_update_visual" content_type="model/stl" file="eb300_cad2/visual/27_update_visual.stl" scale="0.001 0.001 0.001" />
+    <mesh name="eb300/27_update_convex" content_type="model/stl" file="eb300_cad2/collision/27_update_convex.stl" scale="0.001 0.001 0.001" />
+    <mesh name="eb300/31_update_visual" content_type="model/stl" file="eb300_cad2/visual/31_update_visual.stl" scale="0.001 0.001 0.001" />
+    <mesh name="eb300/31_update_convex" content_type="model/stl" file="eb300_cad2/collision/31_update_convex.stl" scale="0.001 0.001 0.001" />
+    <mesh name="eb300/gripper_002_visual" content_type="model/stl" file="eb300_cad2/visual/gripper_002_visual.stl" scale="0.001 0.001 0.001" />
+    <mesh name="eb300/gripper_003_visual" content_type="model/stl" file="eb300_cad2/visual/gripper_003_visual.stl" scale="0.001 0.001 0.001" />
+    <mesh name="eb300/gripper_007_visual" content_type="model/stl" file="eb300_cad2/visual/gripper_007_visual.stl" scale="0.001 0.001 0.001" />
+    <mesh name="eb300/gripper_013_visual" content_type="model/stl" file="eb300_cad2/visual/gripper_013_visual.stl" scale="0.001 0.001 0.001" />
+    <mesh name="eb300/gripper_014_visual" content_type="model/stl" file="eb300_cad2/visual/gripper_014_visual.stl" scale="0.001 0.001 0.001" />
+    <mesh name="eb300/gripper_002_convex" content_type="model/stl" file="eb300_cad2/collision/gripper_002_convex.stl" scale="0.001 0.001 0.001" />
+    <mesh name="eb300/gripper_003_convex" content_type="model/stl" file="eb300_cad2/collision/gripper_003_convex.stl" scale="0.001 0.001 0.001" />
+    <mesh name="eb300/gripper_007_convex" content_type="model/stl" file="eb300_cad2/collision/gripper_007_convex.stl" scale="0.001 0.001 0.001" />
+    <mesh name="eb300/gripper_013_convex" content_type="model/stl" file="eb300_cad2/collision/gripper_013_convex.stl" scale="0.001 0.001 0.001" />
+    <mesh name="eb300/gripper_014_convex" content_type="model/stl" file="eb300_cad2/collision/gripper_014_convex.stl" scale="0.001 0.001 0.001" />
+    <mesh name="eb300/Redmi8A-envelope-R1_visual" content_type="model/stl" file="eb300_cad2/visual/Redmi8A-envelope-R1_visual.stl" scale="0.001 0.001 0.001" />
+    <mesh name="eb300/Redmi8A-envelope-R1_convex" content_type="model/stl" file="eb300_cad2/collision/Redmi8A-envelope-R1_convex.stl" scale="0.001 0.001 0.001" />
+    <mesh name="eb300/Phone-low-arm-NOMINAL-R2_visual" content_type="model/stl" file="eb300_cad2/visual/Phone-low-arm-NOMINAL-R2_visual.stl" scale="0.001 0.001 0.001" />
+    <mesh name="eb300/Phone-low-arm-NOMINAL-R2_convex" content_type="model/stl" file="eb300_cad2/collision/Phone-low-arm-NOMINAL-R2_convex.stl" scale="0.001 0.001 0.001" />
+    <mesh name="eb300/Phone-backing-post-NOMINAL-R2_visual" content_type="model/stl" file="eb300_cad2/visual/Phone-backing-post-NOMINAL-R2_visual.stl" scale="0.001 0.001 0.001" />
+    <mesh name="ebg20/015" file="ebg20/015.stl" scale=".001 .001 .001" />
+  </asset>
+  <worldbody>
+    <geom name="floor" class="fixture" size="3 3 0.05" type="plane" material="ground" />
+    <camera name="overview" quat="0.801175 0.486286 0.180969 0.298153" pos="1.9 -2.2 2.1" fovy="46" />
+    <light pos="0 -1 3" diffuse="0.8 0.8 0.8" />
+    <light pos="-2 1 2.5" dir="0.666667 -0.333333 -0.666667" diffuse="0.5 0.5 0.5" />
+    <body name="desk">
+      <geom name="desktop" class="fixture" size="0.8 0.45 0.02" pos="0 0 0.76" type="box" material="oak" />
+      <geom name="desk_geom_1" class="fixture" size="0.035 0.035 0.37" pos="-0.71 -0.36 0.37" type="box" material="metal" />
+      <geom name="desk_geom_2" class="fixture" size="0.035 0.035 0.37" pos="0.71 -0.36 0.37" type="box" material="metal" />
+      <geom name="desk_geom_3" class="fixture" size="0.035 0.035 0.37" pos="-0.71 0.36 0.37" type="box" material="metal" />
+      <geom name="desk_geom_4" class="fixture" size="0.035 0.035 0.37" pos="0.71 0.36 0.37" type="box" material="metal" />
+    </body>
+    <body name="monitor" pos="0 0.29 0.78">
+      <geom name="monitor_geom_0" class="fixture" size="0.15 0.1 0.012" pos="0 0 0.012" type="box" material="metal" />
+      <geom name="monitor_geom_1" class="fixture" size="0.025 0.025 0.1" pos="0 0.025 0.12" type="box" material="metal" />
+      <geom name="monitor_geom_2" class="fixture" size="0.3 0.016 0.18" pos="0 0.025 0.3" type="box" material="metal" />
+      <geom name="monitor_geom_3" size="0.283 0.002 0.16" pos="0 0.007 0.3" type="box" contype="0" conaffinity="0" material="screen" />
+    </body>
+    <body name="pc_tower" pos="0.65 0.23 0.78">
+      <geom name="pc_tower_geom_0" class="fixture" size="0.09 0.19 0.21" pos="0 0 0.21" type="box" material="metal" />
+      <geom name="pc_tower_geom_1" size="0.075 0.002 0.18" pos="0 -0.191 0.21" type="box" contype="0" conaffinity="0" rgba="0.07 0.08 0.1 1" />
+      <geom name="pc_tower_geom_2" size="0.005 0.002" pos="0 -0.195 0.35" quat="0.707107 0.707107 0 0" type="cylinder" contype="0" conaffinity="0" rgba="0.1 0.7 1 1" />
+    </body>
+    <body name="mouse" pos="0.4 -0.2 0.799">
+      <geom name="mouse_geom_0" class="fixture" size="0.032 0.056 0.019" type="ellipsoid" material="metal" />
+      <geom name="mouse_geom_1" size="0.002 0.013 0.002" pos="0 0.015 0.019" type="box" contype="0" conaffinity="0" rgba="0.6 0.6 0.6 1" />
+    </body>
+    <body name="arm_mount" pos="-0.65 -0.3 0.79" quat="0.267499 0 0 0.963558">
+      <geom name="mount_plate" class="fixture" size="0.1 0.1 0.005" pos="0 0 -0.005" type="box" material="metal" />
+      <body name="eb300/base_footprint">
+        <body name="eb300/base_link">
+          <inertial pos="0 -2.05981e-08 0.0185" quat="0 0.707107 0 0.707107" mass="1" diaginertia="0.00375 0.00198908 0.00198908" />
+          <geom name="eb300/base_link_1_update_visual" pos="0 0.0440981 0.046" quat="0.707107 0.707107 0 0" type="mesh" contype="0" conaffinity="0" group="1" friction="1 0.005 0.0001" solref="0.02" rgba="0.68 0.7 0.73 1" density="0" mesh="eb300/1_update_visual" />
+          <geom name="eb300/base_link_1_update_collision" pos="0 0.0440981 0.046" quat="0.707107 0.707107 0 0" type="mesh" conaffinity="3" group="3" friction="1 0.005 0.0001" solref="0.02" rgba="0.68 0.7 0.73 1" mesh="eb300/1_update_convex" />
+          <body name="eb300/shoulder_link" pos="0 0 0.037">
+            <inertial pos="-0.00499999 -2.31013e-08 0.058" quat="0.5 0.5 0.5 0.5" mass="1.2" diaginertia="0.002692 0.0025588 0.002466" />
+            <joint name="eb300/J1" range="-2.96706 2.96706" actuatorfrcrange="-40 40" armature="0.02" damping="0.4" frictionloss="0.01" />
+            <geom name="eb300/shoulder_link_3_update_visual" pos="1.86151e-09 0.0440981 0.009" quat="0.707107 0.707107 5.68689e-08 -5.68689e-08" type="mesh" contype="0" conaffinity="0" group="1" friction="1 0.005 0.0001" solref="0.02" rgba="0.68 0.7 0.73 1" density="0" mesh="eb300/3_update_visual" />
+            <geom name="eb300/shoulder_link_3_update_collision" pos="1.86151e-09 0.0440981 0.009" quat="0.707107 0.707107 5.68689e-08 -5.68689e-08" type="mesh" conaffinity="3" group="3" friction="1 0.005 0.0001" solref="0.02" rgba="0.68 0.7 0.73 1" mesh="eb300/3_update_convex" />
+            <body name="eb300/upper_arm_link" pos="-0.064 -2.78216e-09 0.058">
+              <inertial pos="-0.058 8.25965e-09 0.174" quat="0.707107 0 0 0.707107" mass="3" diaginertia="0.055233 0.0549 0.00616501" />
+              <joint name="eb300/J2" range="-2.96706 2.96706" actuatorfrcrange="-35 35" armature="0.02" damping="0.4" frictionloss="0.01" axis="1 0 -1.60849e-07" />
+              <geom name="eb300/upper_arm_link_7_update_visual" pos="-0.009 -0.0440981 3.86113e-09" quat="0.5 -0.5 0.5 0.5" type="mesh" contype="0" conaffinity="0" group="1" friction="1 0.005 0.0001" solref="0.02" rgba="0.68 0.7 0.73 1" density="0" mesh="eb300/7_update_visual" />
+              <geom name="eb300/upper_arm_link_tube1_visual" pos="-0.058 9.65387e-09 0.064" quat="0.705893 -0.0414184 -0.705893 -0.0414184" type="mesh" contype="0" conaffinity="0" group="1" friction="1 0.005 0.0001" solref="0.02" rgba="0.2 0.23 0.25 1" density="0" mesh="eb300/tube1-R3_visual" />
+              <geom name="eb300/upper_arm_link_14_update_visual" pos="0.064 0.0440981 -0.049" quat="0.707107 0.707107 5.68689e-08 -5.68689e-08" type="mesh" contype="0" conaffinity="0" group="1" friction="1 0.005 0.0001" solref="0.02" rgba="0.68 0.7 0.73 1" density="0" mesh="eb300/14_update_visual" />
+              <geom name="eb300/upper_arm_link_7_update_collision" pos="-0.009 -0.0440981 3.86113e-09" quat="0.5 -0.5 0.5 0.5" type="mesh" conaffinity="3" group="3" friction="1 0.005 0.0001" solref="0.02" rgba="0.68 0.7 0.73 1" mesh="eb300/7_update_convex" />
+              <geom name="eb300/upper_arm_link_tube1_collision" size="0.04445 0.11" pos="-0.058 8.25966e-09 0.174" quat="0.998283 1.61561e-09 8.06579e-08 -0.0585744" type="cylinder" conaffinity="3" group="3" friction="1 0.005 0.0001" solref="0.02" rgba="0.68 0.7 0.73 1" />
+              <geom name="eb300/upper_arm_link_14_update_collision" pos="0.064 0.0440981 -0.049" quat="0.707107 0.707107 5.68689e-08 -5.68689e-08" type="mesh" conaffinity="3" group="3" friction="1 0.005 0.0001" solref="0.02" rgba="0.68 0.7 0.73 1" mesh="eb300/14_update_convex" />
+              <body name="eb300/forearm_link" pos="-0.000999945 6.51171e-09 0.348">
+                <inertial pos="0.0473901 -2.16245e-08 0.153" mass="2" diaginertia="0.03051 0.0300702 0.00344817" />
+                <joint name="eb300/J3" range="-2.96706 2.96706" actuatorfrcrange="-25 25" armature="0.02" damping="0.4" frictionloss="0.01" axis="1 1.00163e-08 -1.4466e-07" />
+                <geom name="eb300/forearm_link_18_update_visual" pos="0.0649999 0.0440981 -0.397" quat="0.707107 0.707107 5.68689e-08 -5.68689e-08" type="mesh" contype="0" conaffinity="0" group="1" friction="1 0.005 0.0001" solref="0.02" rgba="0.68 0.7 0.73 1" density="0" mesh="eb300/18_update_visual" />
+                <geom name="eb300/forearm_link_tube2_visual" pos="0.04189 -3.76623e-09 0.057" quat="0.578875 0.406083 -0.578875 0.406083" type="mesh" contype="0" conaffinity="0" group="1" friction="1 0.005 0.0001" solref="0.02" rgba="0.2 0.23 0.25 1" density="0" mesh="eb300/tube2-R3_visual" />
+                <geom name="eb300/forearm_link_23_update_visual" pos="0.0188899 -0.0440981 -0.393" quat="-5.68689e-08 5.68689e-08 0.707107 0.707107" type="mesh" contype="0" conaffinity="0" group="1" friction="1 0.005 0.0001" solref="0.02" rgba="0.68 0.7 0.73 1" density="0" mesh="eb300/23_update_visual" />
+                <geom name="eb300/forearm_link_18_update_collision" pos="0.0649999 0.0440981 -0.397" quat="0.707107 0.707107 5.68689e-08 -5.68689e-08" type="mesh" conaffinity="3" group="3" friction="1 0.005 0.0001" solref="0.02" rgba="0.68 0.7 0.73 1" mesh="eb300/18_update_convex" />
+                <geom name="eb300/forearm_link_tube2_collision" size="0.03015 0.11" pos="0.04189 -5.04253e-09 0.167" quat="0.818653 5.09363e-08 6.25083e-08 0.574288" type="cylinder" conaffinity="3" group="3" friction="1 0.005 0.0001" solref="0.02" rgba="0.68 0.7 0.73 1" />
+                <geom name="eb300/forearm_link_23_update_collision" pos="0.0188899 -0.0440981 -0.393" quat="-5.68689e-08 5.68689e-08 0.707107 0.707107" type="mesh" conaffinity="3" group="3" friction="1 0.005 0.0001" solref="0.02" rgba="0.68 0.7 0.73 1" mesh="eb300/23_update_convex" />
+                <body name="eb300/wrist1_link" pos="0.0948901 9.7252e-09 0.322">
+                  <inertial pos="0.0425 2.47117e-08 0.00549999" quat="0.707107 0 0 0.707107" mass="0.65" diaginertia="0.000862008 0.000801721 0.000686021" />
+                  <joint name="eb300/J4" range="-2.96706 2.96706" actuatorfrcrange="-12 12" armature="0.02" damping="0.4" frictionloss="0.01" axis="-1 -8.37896e-08 -4.81644e-08" />
+                  <geom name="eb300/wrist1_link_27_update_visual" pos="-0.0760001 -0.044098 -0.715" quat="-5.68689e-08 5.68689e-08 0.707107 0.707107" type="mesh" contype="0" conaffinity="0" group="1" friction="1 0.005 0.0001" solref="0.02" rgba="0.68 0.7 0.73 1" density="0" mesh="eb300/27_update_visual" />
+                  <geom name="eb300/wrist1_link_27_update_collision" pos="-0.0760001 -0.044098 -0.715" quat="-5.68689e-08 5.68689e-08 0.707107 0.707107" type="mesh" conaffinity="3" group="3" friction="1 0.005 0.0001" solref="0.02" rgba="0.68 0.7 0.73 1" mesh="eb300/27_update_convex" />
+                  <body name="eb300/wrist2_link" pos="0.046 -1.05164e-08 0.053">
+                    <inertial pos="3.38127e-09 -0.0055 0.0425" quat="0.707107 0.707107 0 0" mass="0.65" diaginertia="0.000862009 0.000801721 0.000686021" />
+                    <joint name="eb300/J5" range="-2.96706 2.96706" actuatorfrcrange="-10 10" armature="0.02" damping="0.4" frictionloss="0.01" axis="2.04042e-07 -2.12058e-07 1" />
+                    <geom name="eb300/wrist2_link_31_update_visual" pos="-0.0440276 0.122 -0.768029" quat="0.5 0.5 0.5 0.5" type="mesh" contype="0" conaffinity="0" group="1" friction="1 0.005 0.0001" solref="0.02" rgba="0.68 0.7 0.73 1" density="0" mesh="eb300/31_update_visual" />
+                    <geom name="eb300/wrist2_link_31_update_collision" pos="-0.0440276 0.122 -0.768029" quat="0.5 0.5 0.5 0.5" type="mesh" conaffinity="3" group="3" friction="1 0.005 0.0001" solref="0.02" rgba="0.68 0.7 0.73 1" mesh="eb300/31_update_convex" />
+                    <body name="eb300/wrist3_link" pos="9.38595e-09 -0.053 0.046">
+                      <inertial pos="-5.0589712773869e-05 -0.0707371639757617 0.000114103963903314" mass="0.31200000000000006" fullinertia="0.000872636363964944 0.000507068607805096 0.000838898226114888 -7.61162118768024e-07 -5.70714938458838e-06 1.32688171230547e-06" />
+                      <joint name="eb300/J6" range="-2.96706 2.96706" actuatorfrcrange="-8 8" armature="0.02" damping="0.4" frictionloss="0.01" axis="0 -1 -1.33349e-07" />
+                      <geom name="eb300/wrist3_link_output_nominal_D57_L12_visual" size="0.0285 0.006" pos="0 -0.00700002 -9.33413e-10" quat="0.5 0.5 -0.5 0.5" type="cylinder" contype="0" conaffinity="0" group="1" friction="1 0.005 0.0001" solref="0.02" rgba="0.35 0.4 0.45 1" density="0" />
+                      <geom name="eb300/wrist3_link_output_nominal_D57_L12_collision" size="0.0285 0.006" pos="0 -0.00700002 -9.33413e-10" quat="0.5 0.5 -0.5 0.5" type="cylinder" conaffinity="3" group="3" friction="1 0.005 0.0001" solref="0.02" rgba="0.25 0.29 0.34 1" />
+                      <body name="eb300/phone_link" pos="-0.0177542618396 -0.0327630566055 0.180796886847" quat="-0.247169980369 -0.642938685914 0.705302452985 -0.167586684354">
+                        <inertial pos="0 0 0.0047" quat="0.5 0.5 -0.5 0.5" mass="0.188" diaginertia="0.000472705 0.000384998 9.04754e-05" />
+                        <geom name="eb300/phone_link_phone_link_visual" quat="1 0 0 0" type="mesh" contype="0" conaffinity="0" group="1" friction="1 0.005 0.0001" solref="0.02" rgba="0.08 0.1 0.16 1" density="0" mesh="eb300/Redmi8A-envelope-R1_visual" />
+                        <geom name="eb300/phone_link_phone_link_collision" quat="1 0 0 0" type="mesh" conaffinity="3" group="3" friction="1 0.005 0.0001" solref="0.02" rgba="0.08 0.1 0.16 1" mesh="eb300/Redmi8A-envelope-R1_convex" />
+                        <body name="eb300/camera_optical_frame" pos="0 -0.06 0.0094">
+                          <camera name="eb300/redmi8a_nominal" quat="0 1 0 0" fovy="38.52339692866896" />
+                        </body>
+                      </body>
+                      <body name="eb300/phone_arm_link" pos="0 -0.00100002 -1.3332e-10" quat="0.5 0.5 -0.5 0.5">
+                        <inertial pos="0.072 0 0.01" quat="0 0.707107 0 0.707107" mass="0.04" diaginertia="3.73867e-05 3.61067e-05 1.38667e-06" />
+                        <geom name="eb300/phone_arm_link_phone_arm_link_visual" pos="-1.02696e-15 0 -1.59595e-16" quat="1 0 0 0" type="mesh" contype="0" conaffinity="0" group="1" friction="1 0.005 0.0001" solref="0.02" rgba="0.9 0.53 0.12 1" density="0" mesh="eb300/Phone-low-arm-NOMINAL-R2_visual" />
+                        <geom name="eb300/phone_arm_link_phone_arm_link_collision" pos="-1.02696e-15 0 -1.59595e-16" quat="1 0 0 0" type="mesh" conaffinity="3" group="3" friction="1 0.005 0.0001" solref="0.02" rgba="0.9 0.53 0.12 1" mesh="eb300/Phone-low-arm-NOMINAL-R2_convex" />
+                      </body>
+                      <body name="eb300/phone_backing_link" pos="-0.0177542618396 -0.0327630566055 0.180796886847" quat="-0.247169980369 -0.642938685914 0.705302452985 -0.167586684354">
+                        <inertial pos="0 0 -0.015" quat="0.5 0.5 -0.5 0.5" mass="0.1" diaginertia="0.000272133 0.000220833 6.63e-05" />
+                        <geom name="eb300/phone_backing_link_phone_backing_link_visual" quat="1 0 0 0" type="mesh" contype="0" conaffinity="0" group="1" friction="1 0.005 0.0001" solref="0.02" rgba="0.9 0.53 0.12 1" density="0" mesh="eb300/Phone-backing-post-NOMINAL-R2_visual" />
+                        <geom name="eb300/phone_backing_link_plate_collision" size="0.042 0.08 0.002" pos="0 0 -0.002" type="box" conaffinity="3" group="3" friction="1 0.005 0.0001" solref="0.02" rgba="0.9 0.53 0.12 1" />
+                        <geom name="eb300/phone_backing_link_post_collision" size="0.004 0.01 0.013" pos="0 0 -0.017" type="box" conaffinity="3" group="3" friction="1 0.005 0.0001" solref="0.02" rgba="0.9 0.53 0.12 1" />
+                      </body>
+                      <body name="ebg20/base" pos="7.76010171755215e-05 -0.0660000232878026 6.30507361137032e-05" quat="-0.303790340677741 -0.303790381187761 0.638522882105402 -0.638522796959127" childclass="ebg20">
+                        <inertial pos="0 0 -.015" mass=".15" diaginertia=".0001 .0001 .0001" />
+                        <body name="ebg20/pinion" pos="0 0 .00625">
+                          <joint name="ebg20/servo_angle" type="hinge" axis="0 0 1" range="-.75 2" damping=".01" armature="0.001" actuatorfrclimited="false" />
+                          <inertial pos="0 0 .004" mass=".008" diaginertia=".0000002 .0000002 .0000002" />
+                          <geom name="ebg20/pinion015_visual_axial_nominal" type="mesh" mesh="ebg20/015" pos="-.1 -.1 0" contype="0" conaffinity="0" rgba=".3 .6 .8 .4" group="1" />
+                        </body>
+                        <body name="ebg20/jaw_A">
+                          <joint name="ebg20/jaw_A_slide" type="slide" axis="-1 0 0" range="-0.00512999157818 0.0136799775418" damping=".2" frictionloss=".02" actuatorfrclimited="false" />
+                          <inertial pos="-.016 .0001 .045" mass=".025" diaginertia=".0000065 .0000065 .000002" />
+                          <geom name="ebg20/jawA_007_2" type="mesh" mesh="eb300/gripper_007_visual" pos="0.0824733137295 0.104349998474 0.021" quat="-8.28905770218e-16 -7.0243788153e-16 -9.74884736686e-16 1" rgba=".65 .68 .72 1" />
+                          <geom name="ebg20/jawA_013_3" type="mesh" mesh="eb300/gripper_013_visual" pos="-0.117526686271 -0.0999000015259 0.031" quat="1 9.46727936238e-16 -6.03677344288e-16 8.54073250306e-16" rgba=".65 .68 .72 1" />
+                          <geom name="ebg20/jawA_014_7" type="mesh" mesh="eb300/gripper_014_visual" pos="-0.0100266862705 0.100099998474 0.152" quat="0.5 -0.5 0.5 -0.5" rgba=".65 .68 .72 1" />
+                          <body name="eb300/jaw_contact_frame" pos="-0.0160266862705121 -0.00740000152587903 0.071" quat="0.942313200465016 2.23181274743203e-08 6.28281475627965e-08 -0.334732478599514">
+                            <site name="eb300/jaw_contact_site" size="0.003" group="4" rgba="0.2 1 0.2 1" />
+                          </body>
+                        </body>
+                        <body name="ebg20/jaw_B">
+                          <joint name="ebg20/jaw_B_slide" type="slide" axis="1 0 0" range="-0.00512999157818 0.0136799775418" damping=".2" frictionloss=".02" actuatorfrclimited="false" />
+                          <inertial pos=".0145 .0001 .045" mass=".025" diaginertia=".0000065 .0000065 .000002" />
+                          <geom name="ebg20/jawB_014_4" type="mesh" mesh="eb300/gripper_014_visual" pos="0.00851238591588 0.100099998474 -0.048" quat="-0.5 -0.5 0.5 0.5" rgba=".65 .68 .72 1" />
+                          <geom name="ebg20/jawB_013_5" type="mesh" mesh="eb300/gripper_013_visual" pos="0.116012385916 0.100099998474 0.031" quat="-1.03955438738e-15 -5.21544154133e-16 -1.2683931399e-15 1" rgba=".65 .68 .72 1" />
+                          <geom name="ebg20/jawB_007_6" type="mesh" mesh="eb300/gripper_007_visual" pos="-0.0839876140841 -0.104150001526 0.021" quat="1 1.37927689325e-15 -4.81750188577e-16 8.89486817019e-16" rgba=".65 .68 .72 1" />
+                        </body>
+                        <geom name="ebg20/base_002_0" type="mesh" mesh="eb300/gripper_002_visual" pos="-0.1 0.100100001526 1.56319401867e-16" quat="-1.56252292246e-17 1 -1.43264095524e-16 9.34057440357e-18" rgba=".35 .4 .45 1" />
+                        <geom name="ebg20/base_003_1" type="mesh" mesh="eb300/gripper_003_visual" pos="-0.1 -0.1 0" quat="1 1.12229795305e-31 1.03931242063e-31 1.80931671137e-17" rgba=".35 .4 .45 1" />
+                      </body>
+                    </body>
+                  </body>
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+    </body>
+    <body name="keyboard" pos="0.0890991927955 -0.216452697719 0.78">
+      <geom name="keyboard_case" class="fixture" size="0.151 0.057 0.006" pos="0 0 0.006" type="box" rgba="0.3 0.32 0.35 1" />
+      <body name="number_row" childclass="keycap" pos="0 0.038 0.017">
+        <geom name="number_row_geom_0" pos="-0.133 0 0" />
+        <geom name="number_row_geom_1" pos="-0.114 0 0" />
+        <geom name="number_row_geom_2" pos="-0.095 0 0" />
+        <geom name="number_row_geom_3" pos="-0.076 0 0" />
+        <geom name="number_row_geom_4" pos="-0.057 0 0" />
+        <geom name="number_row_geom_5" pos="-0.038 0 0" />
+        <geom name="number_row_geom_6" pos="-0.019 0 0" />
+        <geom name="number_row_geom_7" />
+        <geom name="number_row_geom_8" pos="0.019 0 0" />
+        <geom name="number_row_geom_9" pos="0.038 0 0" />
+        <geom name="number_row_geom_10" pos="0.057 0 0" />
+        <geom name="number_row_geom_11" pos="0.076 0 0" />
+        <geom name="number_row_geom_12" pos="0.095 0 0" />
+        <geom name="number_row_geom_13" size="0.0175 0.008 0.003" pos="0.1235 0 0" />
+      </body>
+      <body name="qwerty_row" childclass="keycap" pos="0 0.019 0.017">
+        <geom name="qwerty_row_geom_0" size="0.013 0.008 0.003" pos="-0.128 0 0" />
+        <geom name="qwerty_row_geom_1" pos="-0.1045 0 0" />
+        <geom name="qwerty_row_geom_2" pos="-0.0855 0 0" />
+        <geom name="qwerty_row_geom_3" pos="-0.0665 0 0" />
+        <geom name="qwerty_row_geom_4" pos="-0.0475 0 0" />
+        <geom name="qwerty_row_geom_5" pos="-0.0285 0 0" />
+        <geom name="qwerty_row_geom_6" pos="-0.0095 0 0" />
+        <geom name="qwerty_row_geom_7" pos="0.0095 0 0" />
+        <geom name="qwerty_row_geom_8" pos="0.0285 0 0" />
+        <geom name="qwerty_row_geom_9" pos="0.0475 0 0" />
+        <geom name="qwerty_row_geom_10" pos="0.0665 0 0" />
+        <geom name="qwerty_row_geom_11" pos="0.0855 0 0" />
+        <geom name="qwerty_row_geom_12" pos="0.1045 0 0" />
+        <geom name="qwerty_row_geom_13" size="0.013 0.008 0.003" pos="0.128 0 0" />
+      </body>
+      <body name="home_row" childclass="keycap" pos="0 0 0.017">
+        <geom name="home_row_geom_0" size="0.016 0.008 0.003" pos="-0.125 0 0" />
+        <geom name="home_row_geom_1" pos="-0.076 0 0" />
+        <geom name="home_row_geom_2" pos="-0.057 0 0" />
+        <geom name="home_row_geom_3" pos="-0.038 0 0" />
+        <geom name="home_row_geom_4" pos="-0.019 0 0" />
+        <geom name="home_row_geom_5" />
+        <geom name="home_row_geom_6" pos="0.019 0 0" />
+        <geom name="home_row_geom_7" pos="0.038 0 0" />
+        <geom name="home_row_geom_8" pos="0.057 0 0" />
+        <geom name="home_row_geom_9" pos="0.076 0 0" />
+        <geom name="home_row_geom_10" pos="0.095 0 0" />
+        <geom name="home_row_geom_11" size="0.0175 0.008 0.003" pos="0.1235 0 0" />
+      </body>
+      <body name="key_A" pos="-0.095 0 0.017">
+        <joint name="key_A_travel" type="slide" stiffness="180" range="-0.003 0" armature="0.001" damping="0.15" />
+        <geom name="key_A_cap" class="keycap" rgba="0.95 0.65 0.1 1" mass="0.004" />
+        <site name="key_A_surface" size="0.002" pos="0 0 0.003" rgba="1 0.8 0.1 1" />
+      </body>
+      <body name="zxcv_row" childclass="keycap" pos="0 -0.019 0.017">
+        <geom name="zxcv_row_geom_0" size="0.021 0.008 0.003" pos="-0.12 0 0" />
+        <geom name="zxcv_row_geom_1" pos="-0.0855 0 0" />
+        <geom name="zxcv_row_geom_2" pos="-0.0665 0 0" />
+        <geom name="zxcv_row_geom_3" pos="-0.0475 0 0" />
+        <geom name="zxcv_row_geom_4" pos="-0.0285 0 0" />
+        <geom name="zxcv_row_geom_5" pos="-0.0095 0 0" />
+        <geom name="zxcv_row_geom_6" pos="0.0095 0 0" />
+        <geom name="zxcv_row_geom_7" pos="0.0285 0 0" />
+        <geom name="zxcv_row_geom_8" pos="0.0475 0 0" />
+        <geom name="zxcv_row_geom_9" pos="0.0665 0 0" />
+        <geom name="zxcv_row_geom_10" pos="0.0855 0 0" />
+        <geom name="zxcv_row_geom_11" size="0.021 0.008 0.003" pos="0.12 0 0" />
+      </body>
+      <body name="bottom_row" childclass="keycap" pos="0 -0.038 0.017">
+        <geom name="bottom_row_geom_0" size="0.013 0.008 0.003" pos="-0.128 0 0" />
+        <geom name="bottom_row_geom_1" pos="-0.1045 0 0" />
+        <geom name="bottom_row_geom_2" pos="-0.0855 0 0" />
+        <geom name="space" size="0.064 0.008 0.003" pos="-0.0095 0 0" />
+        <geom name="bottom_row_geom_4" pos="0.0665 0 0" />
+        <geom name="bottom_row_geom_5" pos="0.0855 0 0" />
+        <geom name="bottom_row_geom_6" pos="0.1045 0 0" />
+        <geom name="bottom_row_geom_7" size="0.013 0.008 0.003" pos="0.128 0 0" />
+      </body>
+    </body>
+    <body name="pencil" pos="-.08 -.30 .7835">
+      <freejoint name="pencil_free" />
+      <geom name="pencil_contact" type="cylinder" size=".0035 .055" mass=".008" rgba=".9 .32 .05 1" quat=".707106781186548 0 .707106781186548 0" contype="1" conaffinity="3" friction=".6 .005 .0001" condim="4" solref=".004 1" solimp=".99 .999 .001" />
+    </body>
+  </worldbody>
+  <actuator>
+    <general name="eb300/J1_position" joint="eb300/J1" ctrlrange="-2.96706 2.96706" forcerange="-40 40" dyntype="filterexact" dynprm="0.15" input="pos" biastype="affine" gainprm="500" biasprm="0 -500 -30" />
+    <general name="eb300/J2_position" joint="eb300/J2" ctrlrange="-2.96706 2.96706" forcerange="-35 35" dyntype="filterexact" dynprm="0.15" input="pos" biastype="affine" gainprm="900" biasprm="0 -900 -55" />
+    <general name="eb300/J3_position" joint="eb300/J3" ctrlrange="-2.96706 2.96706" forcerange="-25 25" dyntype="filterexact" dynprm="0.15" input="pos" biastype="affine" gainprm="650" biasprm="0 -650 -40" />
+    <general name="eb300/J4_position" joint="eb300/J4" ctrlrange="-2.96706 2.96706" forcerange="-12 12" dyntype="filterexact" dynprm="0.15" input="pos" biastype="affine" gainprm="220" biasprm="0 -220 -12" />
+    <general name="eb300/J5_position" joint="eb300/J5" ctrlrange="-2.96706 2.96706" forcerange="-10 10" dyntype="filterexact" dynprm="0.15" input="pos" biastype="affine" gainprm="180" biasprm="0 -180 -10" />
+    <general name="eb300/J6_position" joint="eb300/J6" ctrlrange="-2.96706 2.96706" forcerange="-8 8" dyntype="filterexact" dynprm="0.15" input="pos" biastype="affine" gainprm="130" biasprm="0 -130 -8" />
+    <position name="ebg20/MG995_position" joint="ebg20/servo_angle" kp=".8" kv=".03" ctrlrange="-.75 2" forcerange="-.25 .25" timeconst=".05" />
+  </actuator>
+  <sensor>
+    <jointpos joint="key_A_travel" name="key_A_depth" />
+    <jointpos joint="eb300/J1" name="J1_angle" />
+    <jointpos joint="eb300/J2" name="J2_angle" />
+    <jointpos joint="eb300/J3" name="J3_angle" />
+    <jointpos joint="eb300/J4" name="J4_angle" />
+    <jointpos joint="eb300/J5" name="J5_angle" />
+    <jointpos joint="eb300/J6" name="J6_angle" />
+    <framepos objtype="site" objname="eb300/jaw_contact_site" name="jaw_world" />
+  </sensor>
+  <equality>
+    <joint name="ebg20/jaw_A_slide_rack_pinion" joint1="ebg20/jaw_A_slide" joint2="ebg20/servo_angle" polycoef="0 0.00683998877091 0 0 0" solref=".004 1" solimp=".9999 .9999 .001" />
+    <joint name="ebg20/jaw_B_slide_rack_pinion" joint1="ebg20/jaw_B_slide" joint2="ebg20/servo_angle" polycoef="0 0.00683998877091 0 0 0" solref=".004 1" solimp=".9999 .9999 .001" />
+  </equality>
+  <keyframe>
+    <key name="envhub_ready" qpos="-0.785398056759 0.929582757507 0.867155027581 -0.00721741837471 -0.694755659487 0.997923739467 1 0.00683998877090765 0.00683998877090765 -0.000217999999984 -0.08 -0.3 0.7835 1 0 0 0" act="-0.785398 0.9 0.85 0 -0.7 1 1" ctrl="-0.785398 0.9 0.85 0 -0.7 1 1" />
+  </keyframe>
+</mujoco>

@@ -1,0 +1,22 @@
+{
+  "updated": "2026-11-17",
+  "source_scene_sha256": "3a9ba4c95dcd6de78637e3fca25f2057d3bd442c8e91a478a317f4c2936be4f0",
+  "R2_gripper_sha256": "8a4d26badc72796e247059d9182d59970261e9d0f62688f78e5b9ae6ba45f698",
+  "new_scene_sha256": "501e0cbeffc54c161131eedce9a37d5845c7cb8dd7ab80153955eeb80fad735c",
+  "contract_sha256": "30f7114ebaf141e530cb34062abde82cf47dcaa44c7efcbd32f713e2ec15356b",
+  "source_scene_R2_CAD_unchanged": true,
+  "portable_bundle_path": "E:\\RoboHand\\runs\\2026-11-17-eb300-envhub\\assets",
+  "private_mesh_count": 34,
+  "only_XML_and_JSON_in_project_assets": true,
+  "no_adapter_controller_or_IK_written_by_CAD_agent": true,
+  "gif_path": "E:\\RoboHand\\runs\\2026-11-17-eb300-envhub\\EB300-EnvHub-joint-gripper-demo.gif",
+  "raw_hold_data": "E:\\RoboHand\\runs\\2026-11-17-eb300-envhub\\scene-audit.json",
+  "physics_version": "4.0.1",
+  "policy_camera_only": "eb300/redmi8a_nominal",
+  "full_frame": [
+    640,
+    360
+  ],
+  "API_implementation_owner": "root",
+  "scope": "standard full-scene model data, bounded no-action/joint-target diagnostic; no physical fullarm pickup result"
+}

@@ -1,0 +1,296 @@
+{
+  "status": "passed_data_and_hold",
+  "scene_file": "eb300_envhub_scene.xml",
+  "scene_sha256": "501e0cbeffc54c161131eedce9a37d5845c7cb8dd7ab80153955eeb80fad735c",
+  "portable_data_bundle": "E:\\RoboHand\\runs\\2026-11-17-eb300-envhub\\assets",
+  "private_meshes_count": 34,
+  "all_mesh_refs_relative_and_exist": true,
+  "frame_proof": [
+    {
+      "source_geom": "eb300/wrist3_link_gripper_002_0_visual",
+      "new_geom": "ebg20/base_002_0",
+      "max_AABB_error_m": 3.1039253779729936e-07
+    },
+    {
+      "source_geom": "eb300/wrist3_link_gripper_003_1_visual",
+      "new_geom": "ebg20/base_003_1",
+      "max_AABB_error_m": 1.5040981388159125e-07
+    },
+    {
+      "source_geom": "eb300/wrist3_link_gripper_007_2_visual",
+      "new_geom": "ebg20/jawA_007_2",
+      "max_AABB_error_m": 3.6568897249927845e-07
+    },
+    {
+      "source_geom": "eb300/wrist3_link_gripper_013_3_visual",
+      "new_geom": "ebg20/jawA_013_3",
+      "max_AABB_error_m": 1.6158090103326334e-07
+    },
+    {
+      "source_geom": "eb300/wrist3_link_gripper_014_4_visual",
+      "new_geom": "ebg20/jawB_014_4",
+      "max_AABB_error_m": 1.0243685896749177e-07
+    },
+    {
+      "source_geom": "eb300/wrist3_link_gripper_013_5_visual",
+      "new_geom": "ebg20/jawB_013_5",
+      "max_AABB_error_m": 2.3161967754870005e-07
+    },
+    {
+      "source_geom": "eb300/wrist3_link_gripper_007_6_visual",
+      "new_geom": "ebg20/jawB_007_6",
+      "max_AABB_error_m": 2.766984930069327e-07
+    },
+    {
+      "source_geom": "eb300/wrist3_link_gripper_014_7_visual",
+      "new_geom": "ebg20/jawA_014_7",
+      "max_AABB_error_m": 8.331189324528587e-08
+    }
+  ],
+  "camera_reference_pos_delta_m": 0.0,
+  "camera_reference_R_delta": 0.0,
+  "camera_fovy_preserved": true,
+  "inertia_checks": {
+    "all_robot_body_masses_positive": false,
+    "all_robot_body_principal_inertias_positive": false,
+    "whole_scene_mass_old_kg": 121.05789408815794,
+    "whole_scene_mass_new_kg": 121.05789408815794,
+    "joint_armatures": [
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.001,
+      0.0,
+      0.0,
+      0.001,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "massless_fixed_semantic_frames": [
+      "eb300/base_footprint",
+      "eb300/camera_optical_frame",
+      "eb300/jaw_contact_frame"
+    ],
+    "all_moving_body_masses_inertias_positive": true,
+    "zero_mass_fixed_frames_are_valid": true
+  },
+  "wrist_spatial_inertia_budget": {
+    "old_mass": 0.52,
+    "old_com": [
+      3.87196e-05,
+      -0.069,
+      3.16619e-05
+    ],
+    "old_I": [
+      [
+        0.0011310199999999995,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0006229299999999997,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0010948999999999996
+      ]
+    ],
+    "gripper_allocated_mass": 0.208,
+    "remaining_mass": 0.31200000000000006,
+    "remaining_com": [
+      -5.0589712773868966e-05,
+      -0.07073716397576174,
+      0.0001141039639033144
+    ],
+    "remaining_I": [
+      [
+        0.0008726363639649443,
+        -7.611621187680245e-07,
+        -5.707149384588377e-06
+      ],
+      [
+        -7.611621187680245e-07,
+        0.0005070686078050957,
+        1.326881712305475e-06
+      ],
+      [
+        -5.707149384588371e-06,
+        1.326881712305475e-06,
+        0.0008388982261148879
+      ]
+    ],
+    "remaining_I_eigenvalues": [
+      0.0005070618105236129,
+      0.0008379632012810298,
+      0.0008735781860802848
+    ],
+    "reference_spatial_inertia_preserved": true
+  },
+  "hold10s": {
+    "time_s": 10.000000000000009,
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "controlled_max_drift_rad": 6.0769935524396246e-05,
+    "max_gear_eq_error_m": 4.608145522718571e-07,
+    "max_contact_penetration_m": 5.4824720005730576e-05,
+    "max_actuator_force": [
+      0.0022222294206812876,
+      26.624481756300042,
+      11.150767927650008,
+      1.592780244626194,
+      0.9445861605092745,
+      0.26992353355984733,
+      2.5295759095711468e-05
+    ],
+    "actuator_force_limits": [
+      [
+        -40.0,
+        40.0
+      ],
+      [
+        -35.0,
+        35.0
+      ],
+      [
+        -25.0,
+        25.0
+      ],
+      [
+        -12.0,
+        12.0
+      ],
+      [
+        -10.0,
+        10.0
+      ],
+      [
+        -8.0,
+        8.0
+      ],
+      [
+        -0.25,
+        0.25
+      ]
+    ],
+    "unexpected_contacts": [],
+    "final_pencil_pose": [
+      -0.07999999999956629,
+      -0.3,
+      0.783495082007766,
+      1.0,
+      -9.662259347856303e-16,
+      3.325876202892595e-13,
+      -1.1417239309888036e-17
+    ]
+  },
+  "demo_gif": {
+    "path": "E:\\RoboHand\\runs\\2026-11-17-eb300-envhub\\EB300-EnvHub-joint-gripper-demo.gif",
+    "full_frame_size": [
+      640,
+      360
+    ],
+    "policy_camera": "eb300/redmi8a_nominal",
+    "frame_count": 57,
+    "content": "target motion/open-close only; free lying pencil remains on desk; no grasp success",
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "unexpected_contacts": []
+  },
+  "fixed_rod_removed": true,
+  "standalone_fixture_removed": true,
+  "fullarm_grasp_success_claimed": false,
+  "reset": "free lying pencil; prepositioned nominal visible location",
+  "known_limits": [
+    "R2 nominal servo/inertia/gear/contact parameters remain uncalibrated",
+    "Strict standalone release floor-impact gate failed; not global collision/physics acceptance",
+    "No fullarm IK/planner/pickup policy implemented",
+    "Missing drivetrain component attachment transforms remain a CAD gap"
+  ],
+  "raw_evidence": "E:\\RoboHand\\runs\\2026-11-17-eb300-envhub\\scene-audit.json",
+  "gripper_C_to_wrist3_matrix_column_m": [
+    [
+      -0.6308456664173931,
+      -0.7759083355412515,
+      -8.915090887740007e-14,
+      7.760101717552148e-05
+    ],
+    [
+      -1.0346638135150243e-07,
+      8.412257536394296e-08,
+      -0.9999999999999913,
+      -0.0660000232878026
+    ],
+    [
+      0.7759083355412446,
+      -0.6308456664173876,
+      -1.333487898852459e-07,
+      6.305073611370324e-05
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "frame_convention": {
+    "matrix_layout": "4x4 column-vector",
+    "equation": "p_wrist3 = T_wrist3_C @ p_C",
+    "origin_C": "source003local(100,100,0)mm",
+    "linear_units": "m",
+    "axes_C": "source003XYZ; +X rail, +Z gripper longitudinal"
+  },
+  "static_gripper_parent_filter_disabled": {
+    "method": "static mj_forward with parent collision filter disabled, gripper demo range endpoints and reference; not an action rollout",
+    "rows": [
+      {
+        "servo_angle_rad": -0.75,
+        "new_gripper_contacts": []
+      },
+      {
+        "servo_angle_rad": 0,
+        "new_gripper_contacts": []
+      },
+      {
+        "servo_angle_rad": 1,
+        "new_gripper_contacts": []
+      },
+      {
+        "servo_angle_rad": 2,
+        "new_gripper_contacts": []
+      }
+    ],
+    "new_gripper_collision_pairs_count": 0,
+    "scope": "Tests represented moving jaws against parent/phone/arm surfaces. Same-rigid-body filters remain; omitted drivetrain geometry not checked."
+  },
+  "physics_gravity_m_s2": [
+    0.0,
+    0.0,
+    -9.81
+  ],
+  "nominal_robot_mass_kg": 9.347999999999999
+}
