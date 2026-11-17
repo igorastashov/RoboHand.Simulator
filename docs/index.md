@@ -8,7 +8,8 @@ updated: 2026-11-17
 
 | Документ | Назначение |
 |---|---|
-| [Текущий план17.11: GR00T + Codex](<../../../../../_ПЛАНЫ_/embedded-robotics-market-research/research/projects/robohand/plans/2026-11-17-groot-first.md>) | Управляемый захват и данные сначала; release/zero-shot/fine-tune gates, PPO optional specialist |
+| [Текущий план17.11: GR00T + Codex](<../../../../../_ПЛАНЫ_/embedded-robotics-market-research/research/projects/robohand/plans/2026-11-17-groot-first.md>) | Управляемый захват и данные сначала; предыдущая версия плана17.11, уточнена foundation/LoRA маршрутом ниже |
+| [Foundation models и LoRA: актуальный маршрут](research/2026-11-17-foundation-models-lora.md) | GR00T2 release gap, π0.5/MolmoAct2/LingBot2, VRAM/licenses/pins; PPO руки выведен из будущего обучения/исполнения |
 | [Какая модель обучается PPO](research/2026-11-17-policy-models.md) | Actual MLP teacher/CNN+MLP vision actor,6actions, отличие LoRA от rollout/reward |
 | [Рабочий стол EB300 R1](desktop-workcell-r1.md) | Рука слева спереди, PC справа сзади; шесть номинальных приводов, камера и 10/10 заданных нажатий A |
 | [Разрешённая адаптация обучения EB300](research/2026-11-16-eb300-training-adaptation.md) | Решение владельца16.11, точные ограничения upstream и приёмка six-axis teacher/vision |

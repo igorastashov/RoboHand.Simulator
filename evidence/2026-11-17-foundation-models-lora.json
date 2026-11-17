@@ -1,0 +1,118 @@
+{
+  "as_of": "2026-11-17",
+  "status": "source-audited-no-model-execution",
+  "owner_decision": {
+    "arm_ppo_future_training": false,
+    "arm_ppo_runtime": false,
+    "preserve_existing_artifacts": true,
+    "prefer_supported_lora": true,
+    "external_gpu_vm_allowed": true,
+    "quality_over_24gb_fit": true
+  },
+  "sources": [
+    {
+      "repository": "NVIDIA/Isaac-GR00T",
+      "commit": "3b49067943eb1ab2eb2203b93d461c4390c78da3"
+    },
+    {
+      "repository": "Physical-Intelligence/openpi",
+      "commit": "215abfb217dbac7d5f1273282331b9b1866c0479"
+    },
+    {
+      "repository": "allenai/molmoact2",
+      "commit": "6070080a20321b4f498ab30f28e1d09ac465edb7"
+    },
+    {
+      "repository": "huggingface/lerobot",
+      "commit": "7910c20a75834ad3fa6a9792df4d44a614d1bba6"
+    },
+    {
+      "repository": "unitreerobotics/unitree_rl_lab",
+      "commit": "4960b84732b0c2ec593dccbfe963fda1bcd7b1e3"
+    },
+    {
+      "repository": "mirrormerobotics/mirrorme_rl_train",
+      "commit": "916cbfc99bedac8b97ee34bc7fd17e9257e661c0"
+    },
+    {
+      "repository": "Robbyant/lingbot-vla-v2",
+      "commit": "be969b8fd117fb70550c5d4bf4bc328211b5b1b6"
+    }
+  ],
+  "model_availability": [
+    {
+      "repo": "nvidia/GR00T-N1.7-3B",
+      "revision": "373d34e2723d928870157d07dc216a19a624b5bb",
+      "gated": false,
+      "license": "other",
+      "weight_files": [
+        "model-00001-of-00002.safetensors",
+        "model-00002-of-00002.safetensors",
+        "training_args.bin"
+      ]
+    },
+    {
+      "repo": "allenai/MolmoAct2",
+      "revision": "e432d85f6e039edca44afb93c262f3084ab72a9c",
+      "gated": false,
+      "license": null,
+      "weight_files": [
+        "model-00001-of-00005.safetensors",
+        "model-00002-of-00005.safetensors",
+        "model-00003-of-00005.safetensors",
+        "model-00004-of-00005.safetensors",
+        "model-00005-of-00005.safetensors"
+      ]
+    },
+    {
+      "repo": "allenai/MolmoAct2-BimanualYAM",
+      "revision": "8dcbed66f2380e4393189c303ea72488eb9e63c2",
+      "gated": false,
+      "license": null,
+      "weight_files": [
+        "model-00001-of-00005.safetensors",
+        "model-00002-of-00005.safetensors",
+        "model-00003-of-00005.safetensors",
+        "model-00004-of-00005.safetensors",
+        "model-00005-of-00005.safetensors"
+      ]
+    },
+    {
+      "repo": "lerobot/pi05_base",
+      "revision": "22c30e5b34f9e7ab738b1b34fc2fc5ecfe2d28f0",
+      "gated": false,
+      "license": "gemma",
+      "weight_files": [
+        "model.safetensors"
+      ]
+    },
+    {
+      "repo": "robbyant/lingbot-vla-v2-6b",
+      "revision": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+      "gated": false,
+      "license": null,
+      "weight_files": [
+        "model-00001-of-00006.safetensors",
+        "model-00002-of-00006.safetensors",
+        "model-00003-of-00006.safetensors",
+        "model-00004-of-00006.safetensors",
+        "model-00005-of-00006.safetensors",
+        "model-00006-of-00006.safetensors"
+      ]
+    }
+  ],
+  "groot2": {
+    "code_release_page": "December",
+    "released_weights_verified": false,
+    "rtx3090_peak_vram_verified": false
+  },
+  "executed": {
+    "source_download": true,
+    "weights_download": false,
+    "runtime_install": false,
+    "gpu_smoke": false,
+    "training": false,
+    "robot_movement": false
+  },
+  "local_packet": "E:\\RoboHand\\research\\2026-11-17-frontier-models-lora"
+}

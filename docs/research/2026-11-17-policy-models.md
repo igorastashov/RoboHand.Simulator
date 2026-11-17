@@ -41,7 +41,7 @@ Beta head имеет12выходных параметров: по два пар�
 
 Общая внешняя дисциплина похожа: среда/данные → обучение → отдельная оценка → сохранённый checkpoint. Loss, модель, объём исходных знаний и способ сбора опыта отличаются. Подставить GR00T в RSL-RL typing config вместо CNN без явной адаптации метода нельзя.
 
-По приоритету владельца17.11 основной целевой исполнитель — GR00T с Codex supervisor. Существующий PPO сохраняем как reference/checkpoint истории и возможный отдельный specialist после обучения/приёмки; обязательной параллельной PPO training campaign нет. Если GR00T принимает весь сценарий достаточно хорошо, дополнительная PPO-policy для deployment не требуется. [Новый план](<../../../../../../_ПЛАНЫ_/embedded-robotics-market-research/research/projects/robohand/plans/2026-11-17-groot-first.md>).
+Последнее решение владельца17.11: отдельную PPO-policy руки больше не обучаем и не планируем исполнять. Исторические reference/checkpoints сохраняем; будущий optional specialist из предыдущего плана отменён. [Текущий foundation/LoRA маршрут](2026-11-17-foundation-models-lora.md), [план](<../../../../../../_ПЛАНЫ_/embedded-robotics-market-research/research/projects/robohand/plans/2026-11-17-foundation-lora.md>); этот документ объясняет уже выполненный PPO smoke.
 
 Сохранённый source audit: `E:\RoboHand\research\2026-11-17-groot-first-plan\typing-7aec2ed`. Предыдущая r6 checkpoint inspection: `E:\RoboHand\runs\2026-11-16-hardware-workcell\checkpoint-inspection-r6.json`; head shape12×128 подтверждена у teacher/vision. Новых GPU runs и изменений модели/контроллера не было.
 
