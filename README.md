@@ -1,5 +1,7 @@
 # RoboHand.Simulator
 
+**17.11: [целевой план с GR00T и Codex](<../../../../_ПЛАНЫ_/embedded-robotics-market-research/research/projects/robohand/plans/2026-11-17-groot-first.md>)** — gripper/свободный инструмент/данные EB300, затем проверенный релиз и адаптация общей модели. [Что обучает текущий PPO](docs/research/2026-11-17-policy-models.md); прежние результаты сохраняются как reference, отдельная PPO campaign не обязательна.
+
 **16.11: [рабочий стол EB300 R1](docs/desktop-workcell-r1.md)** — рука слева спереди, PC справа сзади, шесть штатных приводов и10/10 заданных нажатий тестовой A обычной губкой. [Native NVIDIA recipe для шести осей](docs/research/2026-11-16-eb300-native-training.md): проверены исправленный drive/contact profile, камера и минимальные teacher/vision PPO updates; полноценный навык печати ещё не обучен. [Единственная wrist camera: крепление и полный кадр](docs/research/2026-11-16-camera-coverage.md). [Готовая практика креплений](docs/research/2026-11-16-wrist-camera-practice.md), [пробное нажатие зажатой палочкой](docs/research/2026-11-16-pregrasped-tool-preview.md).
 
 **Рабочая CAD отдельно:** `E:\RoboHand\LATEST\CAD\EB300.a3d`; [файлы/проверка/ярлыки MuJoCo](docs/latest-artifacts.md). [URDF, суставы и сцена — понятное объяснение](docs/urdf-mujoco-explained.md). CAD владельцем просмотрена; Docker на E: и дополнительный native GPU runtime проверены.

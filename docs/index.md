@@ -1,13 +1,15 @@
 ---
 tags: [robohand, simulator, index]
 type: index
-updated: 2026-11-16
+updated: 2026-11-17
 ---
 
 # Документация Simulator
 
 | Документ | Назначение |
 |---|---|
+| [Текущий план17.11: GR00T + Codex](<../../../../../_ПЛАНЫ_/embedded-robotics-market-research/research/projects/robohand/plans/2026-11-17-groot-first.md>) | Управляемый захват и данные сначала; release/zero-shot/fine-tune gates, PPO optional specialist |
+| [Какая модель обучается PPO](research/2026-11-17-policy-models.md) | Actual MLP teacher/CNN+MLP vision actor,6actions, отличие LoRA от rollout/reward |
 | [Рабочий стол EB300 R1](desktop-workcell-r1.md) | Рука слева спереди, PC справа сзади; шесть номинальных приводов, камера и 10/10 заданных нажатий A |
 | [Разрешённая адаптация обучения EB300](research/2026-11-16-eb300-training-adaptation.md) | Решение владельца16.11, точные ограничения upstream и приёмка six-axis teacher/vision |
 | [Native обучение EB300: результаты](research/2026-11-16-eb300-native-training.md) | Исправленный drive/contact asset,6actions,100stable steps, teacher/vision PPO, evaluation и replay; навык ещё не обучен |
