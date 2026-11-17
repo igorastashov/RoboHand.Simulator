@@ -1,0 +1,512 @@
+{
+  "source_a3d": "gripper20.a3d snapshot from51file source",
+  "parts": [
+    {
+      "occurrence": 0,
+      "native_part": "002.m3d",
+      "fixed": true,
+      "rigid_group": "base"
+    },
+    {
+      "occurrence": 1,
+      "native_part": "003.m3d",
+      "fixed": false,
+      "rigid_group": "base"
+    },
+    {
+      "occurrence": 2,
+      "native_part": "007.m3d",
+      "fixed": false,
+      "rigid_group": "A"
+    },
+    {
+      "occurrence": 3,
+      "native_part": "013.m3d",
+      "fixed": false,
+      "rigid_group": "A"
+    },
+    {
+      "occurrence": 4,
+      "native_part": "014.m3d",
+      "fixed": false,
+      "rigid_group": "B"
+    },
+    {
+      "occurrence": 5,
+      "native_part": "013.m3d",
+      "fixed": false,
+      "rigid_group": "B"
+    },
+    {
+      "occurrence": 6,
+      "native_part": "007.m3d",
+      "fixed": false,
+      "rigid_group": "B"
+    },
+    {
+      "occurrence": 7,
+      "native_part": "014.m3d",
+      "fixed": false,
+      "rigid_group": "A"
+    }
+  ],
+  "mate_count": 25,
+  "all_mates_valid": true,
+  "type_counts": {
+    "4": 1,
+    "1": 5,
+    "0": 9,
+    "5": 10
+  },
+  "mates": [
+    {
+      "index": 0,
+      "name": "Соосность (003  -  002)",
+      "type": 4,
+      "value": 0.0,
+      "end_occurrences": [
+        1,
+        0
+      ]
+    },
+    {
+      "index": 1,
+      "name": "Параллельность (002  -  003)",
+      "type": 1,
+      "value": 0.0,
+      "end_occurrences": [
+        0,
+        1
+      ]
+    },
+    {
+      "index": 2,
+      "name": "Совпадение (003  -  002)",
+      "type": 0,
+      "value": 0.0,
+      "end_occurrences": [
+        1,
+        0
+      ]
+    },
+    {
+      "index": 3,
+      "name": "На расстоянии (003  -  002)",
+      "type": 5,
+      "value": 12.0,
+      "end_occurrences": [
+        1,
+        0
+      ]
+    },
+    {
+      "index": 4,
+      "name": "На расстоянии (003  -  002)",
+      "type": 5,
+      "value": 11.2,
+      "end_occurrences": [
+        1,
+        0
+      ]
+    },
+    {
+      "index": 5,
+      "name": "Совпадение (013 (1)  -  007 (1))",
+      "type": 0,
+      "value": 0.0,
+      "end_occurrences": [
+        3,
+        2
+      ]
+    },
+    {
+      "index": 6,
+      "name": "На расстоянии (013 (1)  -  007 (1))",
+      "type": 5,
+      "value": 0.0,
+      "end_occurrences": [
+        3,
+        2
+      ]
+    },
+    {
+      "index": 7,
+      "name": "На расстоянии (013 (1)  -  007 (1))",
+      "type": 5,
+      "value": -21.0,
+      "end_occurrences": [
+        3,
+        2
+      ]
+    },
+    {
+      "index": 8,
+      "name": "Параллельность (013 (1)  -  003)",
+      "type": 1,
+      "value": 0.0,
+      "end_occurrences": [
+        3,
+        1
+      ]
+    },
+    {
+      "index": 9,
+      "name": "Параллельность (007 (1)  -  003)",
+      "type": 1,
+      "value": 0.0,
+      "end_occurrences": [
+        2,
+        1
+      ]
+    },
+    {
+      "index": 10,
+      "name": "На расстоянии (013 (1)  -  003)",
+      "type": 5,
+      "value": 10.5,
+      "end_occurrences": [
+        3,
+        1
+      ]
+    },
+    {
+      "index": 11,
+      "name": "На расстоянии (003  -  007 (1))",
+      "type": 5,
+      "value": 5.0,
+      "end_occurrences": [
+        1,
+        2
+      ]
+    },
+    {
+      "index": 12,
+      "name": "Совпадение (013 (2)  -  007 (2))",
+      "type": 0,
+      "value": 0.0,
+      "end_occurrences": [
+        5,
+        6
+      ]
+    },
+    {
+      "index": 13,
+      "name": "На расстоянии (013 (2)  -  007 (2))",
+      "type": 5,
+      "value": 0.0,
+      "end_occurrences": [
+        5,
+        6
+      ]
+    },
+    {
+      "index": 14,
+      "name": "На расстоянии (013 (2)  -  007 (2))",
+      "type": 5,
+      "value": -21.0,
+      "end_occurrences": [
+        5,
+        6
+      ]
+    },
+    {
+      "index": 15,
+      "name": "Параллельность (013 (2)  -  013 (1))",
+      "type": 1,
+      "value": 0.0,
+      "end_occurrences": [
+        5,
+        3
+      ]
+    },
+    {
+      "index": 16,
+      "name": "Параллельность (013 (2)  -  013 (1))",
+      "type": 1,
+      "value": 0.0,
+      "end_occurrences": [
+        5,
+        3
+      ]
+    },
+    {
+      "index": 17,
+      "name": "Совпадение (007 (2)  -  007 (1))",
+      "type": 0,
+      "value": 0.0,
+      "end_occurrences": [
+        6,
+        2
+      ]
+    },
+    {
+      "index": 18,
+      "name": "На расстоянии (013 (2)  -  013 (1))",
+      "type": 5,
+      "value": -21.0,
+      "end_occurrences": [
+        5,
+        3
+      ]
+    },
+    {
+      "index": 19,
+      "name": "Совпадение (014 (1)  -  013 (2))",
+      "type": 0,
+      "value": 0.0,
+      "end_occurrences": [
+        4,
+        5
+      ]
+    },
+    {
+      "index": 20,
+      "name": "Совпадение (014 (1)  -  013 (2))",
+      "type": 0,
+      "value": 0.0,
+      "end_occurrences": [
+        4,
+        5
+      ]
+    },
+    {
+      "index": 21,
+      "name": "На расстоянии (014 (1)  -  013 (2))",
+      "type": 5,
+      "value": 1.0,
+      "end_occurrences": [
+        4,
+        5
+      ]
+    },
+    {
+      "index": 22,
+      "name": "Совпадение (014 (2)  -  013 (1))",
+      "type": 0,
+      "value": 0.0,
+      "end_occurrences": [
+        7,
+        3
+      ]
+    },
+    {
+      "index": 23,
+      "name": "Совпадение (014 (2)  -  014 (1))",
+      "type": 0,
+      "value": 0.0,
+      "end_occurrences": [
+        7,
+        4
+      ]
+    },
+    {
+      "index": 24,
+      "name": "Совпадение (014 (2)  -  014 (1))",
+      "type": 0,
+      "value": 0.0,
+      "end_occurrences": [
+        7,
+        4
+      ]
+    }
+  ],
+  "slide_evidence": {
+    "guide_axis_in_native_G": [
+      -0.18030386398334772,
+      0.3198105030868579,
+      -0.9301675971286064
+    ],
+    "cross_group_constraints": [
+      {
+        "mate_index": 8,
+        "type": 1,
+        "groups": [
+          "A",
+          "base"
+        ],
+        "occurrences": [
+          3,
+          1
+        ],
+        "value": 0.0,
+        "plane_normal_dot_guide_X": -1.7478295528776363e-15,
+        "translation_constraint": false
+      },
+      {
+        "mate_index": 9,
+        "type": 1,
+        "groups": [
+          "A",
+          "base"
+        ],
+        "occurrences": [
+          2,
+          1
+        ],
+        "value": 0.0,
+        "plane_normal_dot_guide_X": -1.3719537311064881e-15,
+        "translation_constraint": false
+      },
+      {
+        "mate_index": 10,
+        "type": 5,
+        "groups": [
+          "A",
+          "base"
+        ],
+        "occurrences": [
+          3,
+          1
+        ],
+        "value": 10.5,
+        "plane_normal_dot_guide_X": -1.7478295528776363e-15,
+        "translation_constraint": true
+      },
+      {
+        "mate_index": 11,
+        "type": 5,
+        "groups": [
+          "base",
+          "A"
+        ],
+        "occurrences": [
+          1,
+          2
+        ],
+        "value": 5.0,
+        "plane_normal_dot_guide_X": -3.0146299298345265e-18,
+        "translation_constraint": true
+      },
+      {
+        "mate_index": 15,
+        "type": 1,
+        "groups": [
+          "B",
+          "A"
+        ],
+        "occurrences": [
+          5,
+          3
+        ],
+        "value": 0.0,
+        "plane_normal_dot_guide_X": -1.0,
+        "translation_constraint": false
+      },
+      {
+        "mate_index": 16,
+        "type": 1,
+        "groups": [
+          "B",
+          "A"
+        ],
+        "occurrences": [
+          5,
+          3
+        ],
+        "value": 0.0,
+        "plane_normal_dot_guide_X": 2.002126446574109e-15,
+        "translation_constraint": false
+      },
+      {
+        "mate_index": 17,
+        "type": 0,
+        "groups": [
+          "B",
+          "A"
+        ],
+        "occurrences": [
+          6,
+          2
+        ],
+        "value": 0.0,
+        "plane_normal_dot_guide_X": -9.653112895636446e-16,
+        "translation_constraint": true
+      },
+      {
+        "mate_index": 18,
+        "type": 5,
+        "groups": [
+          "B",
+          "A"
+        ],
+        "occurrences": [
+          5,
+          3
+        ],
+        "value": -21.0,
+        "plane_normal_dot_guide_X": 2.002126446574109e-15,
+        "translation_constraint": true
+      },
+      {
+        "mate_index": 23,
+        "type": 0,
+        "groups": [
+          "A",
+          "B"
+        ],
+        "occurrences": [
+          7,
+          4
+        ],
+        "value": 0.0,
+        "plane_normal_dot_guide_X": 2.002126446574109e-15,
+        "translation_constraint": true
+      },
+      {
+        "mate_index": 24,
+        "type": 0,
+        "groups": [
+          "A",
+          "B"
+        ],
+        "occurrences": [
+          7,
+          4
+        ],
+        "value": 0.0,
+        "plane_normal_dot_guide_X": 1.1737882247204496e-15,
+        "translation_constraint": true
+      }
+    ],
+    "max_translation_normal_dot_slide_axis": 2.002126446574109e-15,
+    "interpretation": "Cross-group plane distance/coincidence constraints do not constrain guide-X. Angular parallel constraints maintain captured orientation. Native has independent jaw translations, with no source gear/servo coupling."
+  },
+  "canonical_to_output_mm": [
+    [
+      0.7759082068219203,
+      -0.6308458247356588,
+      2.0522060564563418e-16,
+      0.06305955294190646
+    ],
+    [
+      0.6308458247356593,
+      0.7759082068219144,
+      -3.607512372091147e-17,
+      -0.07760100431426054
+    ],
+    [
+      1.4611819756227594e-15,
+      4.327274296484578e-15,
+      1.0000000000000004,
+      64.99999999999945
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "source_drive_parts_missing_from_native": [
+    "005 rack",
+    "010 rack",
+    "015 pinion"
+  ],
+  "other_manufacturer_parts_not_in_native": [
+    "001 rear cover",
+    "004 front cover",
+    "006/011 rack covers",
+    "fasteners/servo internals"
+  ],
+  "gap": "Exact omitted rack/carriage mounting transforms not validated. Only ideal source-derived transmission is restored in candidates; no native drivetrain acceptance claimed."
+}

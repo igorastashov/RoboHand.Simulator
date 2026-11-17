@@ -1,0 +1,110 @@
+{
+  "scope": "native8pose reproduction, two independent source-derived slide groups; no-object full demonstration range and mesh collision/clearance diagnostic",
+  "checks": [
+    {
+      "target_servo_rad": 0,
+      "actual_servo_rad": 0.0,
+      "max_tracking_error_rad": 0.0,
+      "slide_A_m": 0.0,
+      "slide_B_m": 0.0,
+      "gear_residual_m": 0.0,
+      "interjaw_AABB_separation_m": 0.01153907206998522,
+      "block_to_003_Z_clearance_m": 0.0004999993381290951,
+      "block_to_case_X_extent_margin_m": 0.017473315240805646,
+      "non_pencil_internal_contacts": []
+    },
+    {
+      "target_servo_rad": 2,
+      "actual_servo_rad": 1.999658000561354,
+      "max_tracking_error_rad": 0.00034199943864599014,
+      "slide_A_m": 0.013677620802113336,
+      "slide_B_m": 0.013677620802113336,
+      "gear_residual_m": 1.746738196965747e-08,
+      "interjaw_AABB_separation_m": 0.03889431367421189,
+      "block_to_003_Z_clearance_m": 0.0004999993381290951,
+      "block_to_case_X_extent_margin_m": 0.003795694438692314,
+      "non_pencil_internal_contacts": []
+    },
+    {
+      "target_servo_rad": -0.75,
+      "actual_servo_rad": -0.7496580005614094,
+      "max_tracking_error_rad": 0.00034199943859059,
+      "slide_A_m": -0.005127634838476216,
+      "slide_B_m": -0.005127634838476216,
+      "gear_residual_m": 1.746738490480959e-08,
+      "interjaw_AABB_separation_m": 0.0012838023930327876,
+      "block_to_003_Z_clearance_m": 0.0004999993381290951,
+      "block_to_case_X_extent_margin_m": 0.022600950079281864,
+      "non_pencil_internal_contacts": []
+    },
+    {
+      "target_servo_rad": 0,
+      "actual_servo_rad": -0.0003419994385455102,
+      "max_tracking_error_rad": 0.0003419994385455102,
+      "slide_A_m": -2.3567397059754785e-06,
+      "slide_B_m": -2.3567397059754785e-06,
+      "gear_residual_m": 1.746738666746779e-08,
+      "interjaw_AABB_separation_m": 0.011534358590573269,
+      "block_to_003_Z_clearance_m": 0.0004999993381290951,
+      "block_to_case_X_extent_margin_m": 0.01747567198051162,
+      "non_pencil_internal_contacts": []
+    }
+  ],
+  "reference_bounds_checks": [
+    {
+      "source_occurrence": 0,
+      "geom": "base_002_0",
+      "max_AABB_error_m": 1.831961096709911e-09
+    },
+    {
+      "source_occurrence": 1,
+      "geom": "base_003_1",
+      "max_AABB_error_m": 1.6687729115227867e-09
+    },
+    {
+      "source_occurrence": 2,
+      "geom": "jawA_007_2",
+      "max_AABB_error_m": 3.743411865209101e-10
+    },
+    {
+      "source_occurrence": 3,
+      "geom": "jawA_013_3",
+      "max_AABB_error_m": 9.378458634690112e-10
+    },
+    {
+      "source_occurrence": 4,
+      "geom": "jawB_014_4",
+      "max_AABB_error_m": 7.2063385814225e-10
+    },
+    {
+      "source_occurrence": 5,
+      "geom": "jawB_013_5",
+      "max_AABB_error_m": 9.37846598991765e-10
+    },
+    {
+      "source_occurrence": 6,
+      "geom": "jawB_007_6",
+      "max_AABB_error_m": 3.7458425597436396e-10
+    },
+    {
+      "source_occurrence": 7,
+      "geom": "jawA_014_7",
+      "max_AABB_error_m": 7.206341426369001e-10
+    }
+  ],
+  "max_no_object_tracking_error_rad": 0.00034199943864599014,
+  "internal_collision_pairs_observed": [],
+  "reference_max_AABB_error_m": 1.831961096709911e-09,
+  "status": "passed",
+  "static_geometry_sweep": {
+    "poses": 65,
+    "range_rad": [
+      -0.75,
+      2
+    ],
+    "method": "static mj_forward; not a contact rollout or pencil teleport success",
+    "parent_filter_disabled": true,
+    "unexpected_internal_contacts": []
+  },
+  "limitations": "AABB separation proves disjoint represented outer jaw/base solids along those axes. Omitted rack/guide tooth contacts, full tooth engagement and missing004cover are not validated by this check."
+}

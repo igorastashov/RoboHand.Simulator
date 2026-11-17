@@ -1,0 +1,615 @@
+{
+  "status": "bounded_standalone_prepositioned_candidate_reviewed_not_full_EB300_physical_acceptance",
+  "source_native_occurrences": 8,
+  "source_native_mates": 25,
+  "fixed_group": [
+    0,
+    1
+  ],
+  "jaw_A_rigid_group": [
+    2,
+    3,
+    7
+  ],
+  "jaw_B_rigid_group": [
+    6,
+    5,
+    4
+  ],
+  "canonical_frame": {
+    "canonical_to_output_mm": [
+      [
+        0.7759082068219203,
+        -0.6308458247356588,
+        2.0522060564563418e-16,
+        0.06305955294190646
+      ],
+      [
+        0.6308458247356593,
+        0.7759082068219144,
+        -3.607512372091147e-17,
+        -0.07760100431426054
+      ],
+      [
+        1.4611819756227594e-15,
+        4.327274296484578e-15,
+        1.0000000000000004,
+        64.99999999999945
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "parts": [
+      {
+        "index": 0,
+        "source": "002.stl",
+        "mesh_to_canonical_mm": [
+          [
+            1.0,
+            -2.04329560200859e-16,
+            6.511787322989777e-17,
+            -99.9999999999986
+          ],
+          [
+            -3.68726821895966e-16,
+            -1.0,
+            7.787517640102782e-17,
+            100.10000152587976
+          ],
+          [
+            -2.7755575615627776e-17,
+            1.53742595026907e-17,
+            -1.0,
+            1.5631940186722204e-13
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds_canonical_mm": [
+          [
+            -42.49999999999862,
+            -32.399998474120295,
+            -51.999999999999844
+          ],
+          [
+            42.50000000000141,
+            32.60000152587975,
+            1.5676054565342997e-13
+          ]
+        ]
+      },
+      {
+        "index": 1,
+        "source": "003.stl",
+        "mesh_to_canonical_mm": [
+          [
+            1.0,
+            -4.676865418368914e-17,
+            -3.5954954445745695e-32,
+            -99.99999999999999
+          ],
+          [
+            2.56040142709251e-17,
+            0.9999999999999999,
+            -4.032288687542499e-33,
+            -100.0
+          ],
+          [
+            -4.516799226962117e-31,
+            4.448868925327137e-31,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds_canonical_mm": [
+          [
+            -42.49999999999999,
+            -25.5,
+            -3.1220315490523e-29
+          ],
+          [
+            42.500000000000014,
+            25.499999999999986,
+            20.5
+          ]
+        ]
+      },
+      {
+        "index": 2,
+        "source": "007.stl",
+        "mesh_to_canonical_mm": [
+          [
+            -0.9999999999999999,
+            1.6207998287642185e-15,
+            -1.4928581560724297e-15,
+            82.47331372948939
+          ],
+          [
+            -1.694823252107506e-15,
+            -0.9999999999999999,
+            -1.999439795473585e-15,
+            104.34999847412219
+          ],
+          [
+            -1.3168933700474896e-15,
+            -1.9000991512692133e-15,
+            1.0,
+            21.000000000000142
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds_canonical_mm": [
+          [
+            -25.026686270510467,
+            -10.400001525877997,
+            20.999999999999783
+          ],
+          [
+            -10.02668627051041,
+            19.099998474122046,
+            30.999999999999858
+          ]
+        ]
+      },
+      {
+        "index": 3,
+        "source": "013.stl",
+        "mesh_to_canonical_mm": [
+          [
+            1.0,
+            -1.6908377847252347e-15,
+            -1.2304032271272416e-15,
+            -117.5266862705119
+          ],
+          [
+            1.725455216497178e-15,
+            0.9999999999999998,
+            -1.886812593681633e-15,
+            -99.90000152587912
+          ],
+          [
+            1.184306150025814e-15,
+            1.900099151269214e-15,
+            0.9999999999999998,
+            30.999999999999673
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds_canonical_mm": [
+          [
+            -25.02668627051213,
+            -10.400001525879048,
+            30.999999999999954
+          ],
+          [
+            -10.026686270512059,
+            10.599998474121037,
+            71.0
+          ]
+        ]
+      },
+      {
+        "index": 4,
+        "source": "014.stl",
+        "mesh_to_canonical_mm": [
+          [
+            -4.786347172020414e-15,
+            1.0592467191576447e-17,
+            -1.0,
+            8.512385915877175
+          ],
+          [
+            -0.9999999999999999,
+            -2.5320053139635716e-15,
+            4.901663361165974e-15,
+            100.09999847412247
+          ],
+          [
+            -2.5057597844183633e-15,
+            0.9999999999999998,
+            8.047855473407949e-17,
+            -48.00000000000044
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds_canonical_mm": [
+          [
+            5.012385915876652,
+            -9.400001525877812,
+            32.99999999999926
+          ],
+          [
+            8.512385915876743,
+            9.599998474122302,
+            70.9999999999993
+          ]
+        ]
+      },
+      {
+        "index": 5,
+        "source": "013.stl",
+        "mesh_to_canonical_mm": [
+          [
+            -1.0,
+            2.2049649505363135e-15,
+            -1.0899688377602362e-15,
+            116.01238591587726
+          ],
+          [
+            -1.9532525989702958e-15,
+            -1.0,
+            -2.5907087060458135e-15,
+            100.09999847412222
+          ],
+          [
+            -9.962077787728796e-16,
+            -2.482863853558937e-15,
+            0.9999999999999998,
+            31.000000000000455
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds_canonical_mm": [
+          [
+            8.512385915877417,
+            -10.400001525878096,
+            31.000000000000075
+          ],
+          [
+            23.512385915877502,
+            10.599998474122032,
+            71.00000000000014
+          ]
+        ]
+      },
+      {
+        "index": 6,
+        "source": "007.stl",
+        "mesh_to_canonical_mm": [
+          [
+            1.0,
+            -1.7463489359564927e-15,
+            -1.0418152779995753e-15,
+            -83.98761408412406
+          ],
+          [
+            1.811598332118108e-15,
+            0.9999999999999999,
+            -2.838355832799036e-15,
+            -104.15000152587909
+          ],
+          [
+            8.851854763103648e-16,
+            2.678751740201699e-15,
+            0.9999999999999998,
+            20.999999999999588
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds_canonical_mm": [
+          [
+            8.512385915875726,
+            -18.900001525878963,
+            20.999999999999897
+          ],
+          [
+            23.512385915875797,
+            10.599998474121094,
+            30.999999999999986
+          ]
+        ]
+      },
+      {
+        "index": 7,
+        "source": "014.stl",
+        "mesh_to_canonical_mm": [
+          [
+            -4.786347172020414e-15,
+            1.6987362409250016e-16,
+            0.9999999999999999,
+            -10.026686270510808
+          ],
+          [
+            -0.9999999999999999,
+            2.5273329458787574e-15,
+            -4.846152209934716e-15,
+            100.09999847412125
+          ],
+          [
+            -2.5057597844183633e-15,
+            -1.0,
+            3.054374772843592e-17,
+            152.00000000000125
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds_canonical_mm": [
+          [
+            -10.026686270511318,
+            -9.400001525878551,
+            33.00000000000098
+          ],
+          [
+            -6.526686270511222,
+            9.599998474121563,
+            71.00000000000102
+          ]
+        ]
+      }
+    ]
+  },
+  "source_tooth_fit": {
+    "005": {
+      "tooth_count": 23,
+      "interval_count": 22,
+      "pitch_mm": 2.387602371541501,
+      "fit_rms_mm": 0.00020698616388532666,
+      "fit_max_abs_mm": 0.00042984189721551047,
+      "centers_source_x_mm": [
+        73.74260000000001,
+        76.1302,
+        78.5178,
+        80.9054,
+        83.293,
+        85.68065,
+        88.0683,
+        90.4559,
+        92.8435,
+        95.2311,
+        97.61869999999999,
+        100.0064,
+        102.39349999999999,
+        104.7815,
+        107.1695,
+        109.5565,
+        111.9445,
+        114.3315,
+        116.71950000000001,
+        119.10749999999999,
+        121.49449999999999,
+        123.8825,
+        126.2695
+      ]
+    },
+    "010": {
+      "tooth_count": 23,
+      "interval_count": 22,
+      "pitch_mm": 2.387610622529644,
+      "fit_rms_mm": 0.0001669167725859341,
+      "fit_max_abs_mm": 0.0004212450593001904,
+      "centers_source_x_mm": [
+        73.72999999999999,
+        76.11760000000001,
+        78.5052,
+        80.8928,
+        83.2804,
+        85.66805,
+        88.05565,
+        90.4433,
+        92.8309,
+        95.2185,
+        97.6061,
+        99.9936,
+        102.38149999999999,
+        104.76849999999999,
+        107.1565,
+        109.5445,
+        111.9315,
+        114.3195,
+        116.707,
+        119.09450000000001,
+        121.48249999999999,
+        123.86949999999999,
+        126.2575
+      ]
+    },
+    "gear": {
+      "outer_radius_mm": 8.08030130378812,
+      "root_radius_mm": 6.262900271439747,
+      "teeth_peaks": 18,
+      "peak_angles_deg": [
+        10.72265625,
+        29.267578125,
+        49.2626953125,
+        70.751953125,
+        90.7470703125,
+        109.248046875,
+        129.2431640625,
+        150.732421875,
+        170.7275390625,
+        189.2724609375,
+        210.76171875,
+        230.75683593750003,
+        249.2578125,
+        269.2529296875,
+        289.248046875,
+        310.7373046875,
+        329.23828125,
+        349.27734375
+      ],
+      "section_points": 1357,
+      "rotational_repeat_confidence_check": [
+        {
+          "order": 17,
+          "radial_period_RMS_mm": 0.27660635639797354,
+          "max_error_mm": 0.7810082218575927
+        },
+        {
+          "order": 18,
+          "radial_period_RMS_mm": 0.03860360814194313,
+          "max_error_mm": 0.2656452460647607
+        },
+        {
+          "order": 19,
+          "radial_period_RMS_mm": 0.2502992310254089,
+          "max_error_mm": 0.7426483383888574
+        },
+        {
+          "order": 20,
+          "radial_period_RMS_mm": 0.44570097347330245,
+          "max_error_mm": 1.008996516640143
+        }
+      ]
+    },
+    "ideal_pitch_radius_mm": 6.839988770907651,
+    "source_notes": "Tooth pitch is fit to printed STL tip-centre repeats; ideal kinematic radius N*p/(2*pi), not servo calibration or gear backlash measurement.",
+    "confidence_scope": "High confidence in STL repeat count/pitch. Numeric-fit error excludes printing tolerances, tooth backlash, servo mapping and omitted rack attachment/axial pose."
+  },
+  "kinematics": {
+    "rotary_joint": "servo_angle",
+    "nominal_reference": "captured native pose =0 radians; hardware absolute zero unknown",
+    "pinion_axis_C": [
+      0,
+      0,
+      1
+    ],
+    "slide_A_axis_C": [
+      -1,
+      0,
+      0
+    ],
+    "slide_B_axis_C": [
+      1,
+      0,
+      0
+    ],
+    "slide_m_per_servo_rad": 0.00683998877090765,
+    "demonstration_servo_range_rad": [
+      -0.75,
+      2
+    ],
+    "hard_limits": "unconfirmed",
+    "coupling": "stock MJCF joint equality: slide_A=slide_B=radius*servo_angle",
+    "actual_hardware_actuator_count": 1,
+    "standalone_fixture_actuator_count": 1
+  },
+  "nominal_physics": {
+    "base_mass_kg": 0.15,
+    "jaw_mass_kg_each": 0.025,
+    "pinion_mass_kg": 0.008,
+    "position_kp_Nm_per_rad": 0.8,
+    "position_kv_Nms_per_rad": 0.03,
+    "servo_torque_limit_Nm": 0.25,
+    "contact_friction": [
+      0.6,
+      0.005,
+      0.0001
+    ],
+    "pencil_mass_kg": 0.008,
+    "pencil_radius_m": 0.0035,
+    "pencil_half_length_m": 0.055,
+    "standalone_fixture": {
+      "joint": "standalone_base_lift",
+      "scope": "diagnostic external translation stage, not EB300 arm/gripper additional actuator",
+      "kp_N_per_m": 20000,
+      "kv_Ns_per_m": 130,
+      "force_limit_N": 100
+    },
+    "ideal_gear_solver": {
+      "solref": [
+        -100000000,
+        -20000
+      ],
+      "solimp": [
+        0.9999,
+        0.9999,
+        0.001
+      ],
+      "timestep_s": 5e-05,
+      "noslip_iterations": 10,
+      "contact_solref": [
+        0.002,
+        1
+      ],
+      "contact_solimp": [
+        0.99,
+        0.999,
+        0.001
+      ]
+    }
+  },
+  "limitations": [
+    "Original native assembly omits005/010racks and015pinion; ratio derived from manufacturer source meshes",
+    "Internal gear/rack tooth contacts idealized as equality; rack meshes omitted rather than inventing unverified attachment transforms",
+    "Pinion axial visual placement6.25mm is nominal inside003; shaft-axis XY is source bore geometry",
+    "No independent adaptive finger pivots/compliance modeled; captured rigid fingers retained",
+    "Standalone base motion is diagnostic position-actuated fixture, not EB300 arm or grasp policy",
+    "Service renderer viewpoint is not an added policy camera; wrist Redmi full-frame contract remains unchanged",
+    "Native25mates support two independent slides but have no explicit rack/pinion coupling; candidate adds ideal single-servo transmission. Exact omitted rack-to-carriage native assembly placement remains unvalidated."
+  ],
+  "scenarios": {
+    "R1_horizontal": {
+      "xml": "ebg20_standalone_candidate.xml",
+      "timestep_s": 5e-05,
+      "initial_pencil": "horizontal, perpendicular to gripper long axis",
+      "standalone_base_world_Z_m": 0.0725
+    },
+    "R1_axial": {
+      "xml": "ebg20_axial_prepositioned_candidate.xml",
+      "timestep_s": 5e-05,
+      "initial_pencil": "upright axially prepositioned, free; not pickup from lying",
+      "standalone_base_world_Z_m": 0.16
+    },
+    "R2_axial": {
+      "xml": "ebg20_axial_prepositioned_candidate_r2.xml",
+      "timestep_s": 0.002,
+      "also_checked_timestep_s": 0.0005,
+      "actuator_timeconst_s": 0.05,
+      "effective_output_armature_kg_m2": 0.001,
+      "equality_solref": [
+        0.004,
+        1
+      ],
+      "contact_solref": [
+        0.004,
+        1
+      ],
+      "scope": "numerically stable contact candidate; strict all-contact penetration gate failed on released-pencil floor impact",
+      "true_peak_integration_limits": "Own gear101.566/112.102um at0.5/2ms; floor1179.185/1262.794um. Independent altered profile lower gear/pad but floor>250um. No full physics acceptance."
+    }
+  }
+}

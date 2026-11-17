@@ -1,0 +1,209 @@
+{
+  "as_of": "2026-11-17",
+  "status": "reference-text-inference-lora-update-cold-reload-passed",
+  "source_commit": "7910c20a75834ad3fa6a9792df4d44a614d1bba6",
+  "model_revision": "22c30e5b34f9e7ab738b1b34fc2fc5ecfe2d28f0",
+  "tokenizer_repository": "google/paligemma-3b-pt-224",
+  "tokenizer_revision": "35e4f46485b4d07967e7e9935bc3786aad50687c",
+  "tokenizer_files": [
+    {
+      "file": "added_tokens.json",
+      "bytes": 24,
+      "sha256": "7d0bad90030d638a4bf89a82e91206e25f1fbe0012f14bca21666a64b643bc49",
+      "hub_blob_id": "ff9246e420971b10c510b39a0de289132c2bf23f",
+      "hub_lfs_sha256": null,
+      "matches_hub": true
+    },
+    {
+      "file": "config.json",
+      "bytes": 1027,
+      "sha256": "e00c72cdff16296bf1229c3267b99f5247d8c740cae84336866338d64fa7918f",
+      "hub_blob_id": "b89393ba09b432265173f688b8a41a2c3c9e3e4c",
+      "hub_lfs_sha256": null,
+      "matches_hub": true
+    },
+    {
+      "file": "preprocessor_config.json",
+      "bytes": 699,
+      "sha256": "ae5e5f748a642ae71344facf4012b1607852db13f080e42cd12b5db4e75ca7e8",
+      "hub_blob_id": "28cf2b54fa2e3de2f07c11fb13a29c6541ca913b",
+      "hub_lfs_sha256": null,
+      "matches_hub": true
+    },
+    {
+      "file": "special_tokens_map.json",
+      "bytes": 607,
+      "sha256": "5ef37093ae4236587b6e8266acb815b46e2db8ce656c66552bfa574d32880405",
+      "hub_blob_id": "0c18fdd94629ea652e2ef36ed9a422474ad0a8e8",
+      "hub_lfs_sha256": null,
+      "matches_hub": true
+    },
+    {
+      "file": "tokenizer.json",
+      "bytes": 17549604,
+      "sha256": "ef6773c135b77b834de1d13c75a4c98ab7a3684ffd602d1831e1f1bf5467c563",
+      "hub_blob_id": "419d3c8c8da378e1f551d4348a5c2ca7616153d6",
+      "hub_lfs_sha256": "ef6773c135b77b834de1d13c75a4c98ab7a3684ffd602d1831e1f1bf5467c563",
+      "matches_hub": true
+    },
+    {
+      "file": "tokenizer.model",
+      "bytes": 4264023,
+      "sha256": "8986bb4f423f07f8c7f70d0dbe3526fb2316056c17bae71b1ea975e77a168fc6",
+      "hub_blob_id": "22ad048d392b4f5191be7cec47d03eb3cdb360f4",
+      "hub_lfs_sha256": "8986bb4f423f07f8c7f70d0dbe3526fb2316056c17bae71b1ea975e77a168fc6",
+      "matches_hub": true
+    },
+    {
+      "file": "tokenizer_config.json",
+      "bytes": 39968,
+      "sha256": "3259402b1d1802e02417d7bff75a889ec61d359d15be6050a957b307c48edbbe",
+      "hub_blob_id": "960dcec0bccc6e594d865eceb63c8078e164cfb2",
+      "hub_lfs_sha256": null,
+      "matches_hub": true
+    }
+  ],
+  "reference_dataset": {
+    "repository": "lerobot/libero",
+    "revision": "a1aaacb7f6cd6ee5fb43120f673cebb0cfea7dd4",
+    "episodes": [
+      0
+    ],
+    "robot": "panda",
+    "cameras": 2,
+    "used_for_eb300": false
+  },
+  "checks": {
+    "tokenizer_local_roundtrip": true,
+    "real_batch_inference": true,
+    "lora_gradient_and_optimizer_update": true,
+    "adapter_saved": true,
+    "cold_reload": true,
+    "adapter_tensors_identical": true
+  },
+  "versions": {
+    "torch": "2.11.0+cu128",
+    "transformers": "5.22.2",
+    "lerobot": "0.7.1",
+    "peft": "0.21.3"
+  },
+  "shapes": {
+    "batch": {
+      "action": [
+        1,
+        50,
+        7
+      ],
+      "action_is_pad": [
+        1,
+        50
+      ],
+      "index": [
+        1
+      ],
+      "task_index": [
+        1
+      ],
+      "episode_index": [
+        1
+      ],
+      "frame_index": [
+        1
+      ],
+      "timestamp": [
+        1
+      ],
+      "observation.state": [
+        1,
+        8
+      ],
+      "observation.images.image": [
+        1,
+        3,
+        256,
+        256
+      ],
+      "observation.images.image2": [
+        1,
+        3,
+        256,
+        256
+      ],
+      "observation.language.tokens": [
+        1,
+        200
+      ],
+      "observation.language.attention_mask": [
+        1,
+        200
+      ]
+    },
+    "output": [
+      1,
+      7
+    ]
+  },
+  "inference": {
+    "inference_seconds": [
+      0.9411404249840416,
+      0.30353268899489194,
+      0.3586733280098997
+    ],
+    "inference_peak_allocated_bytes": 9478051328,
+    "inference_peak_reserved_bytes": 9799991296,
+    "model_load_seconds": 91.1991449490015
+  },
+  "lora": {
+    "trainable_parameters": 5410816,
+    "total_parameters": 4148815632,
+    "lora_step_seconds": 0.5157368340005632,
+    "lora_loss": 0.3938887119293213,
+    "lora_grad_norm": 0.3194899260997772,
+    "lora_probe_delta_max": 2.499855327187106e-05,
+    "lora_peak_allocated_bytes": 9648877056,
+    "lora_peak_reserved_bytes": 9963569152,
+    "adapter_files": [
+      {
+        "path": "adapter_config.json",
+        "bytes": 1300,
+        "sha256": "74b2f2f90e07436266e2e0af65d6dc3acb515b334eae8c303b39044f5a82dece"
+      },
+      {
+        "path": "adapter_model.safetensors",
+        "bytes": 21656800,
+        "sha256": "8d1e2876268c60c7914c3b9ac2768c832f433d48a89800497d87d384ef26d5fc"
+      },
+      {
+        "path": "README.md",
+        "bytes": 5143,
+        "sha256": "14a3e1a1ea3cbfa562c24ecddfd3da10be860d799c34179adf9859a47e55b262"
+      }
+    ]
+  },
+  "reload": {
+    "model_load_seconds": 93.6046319080051,
+    "inference_seconds": [
+      0.7081253080104943,
+      0.41599055199185386,
+      0.40901501299231313
+    ],
+    "adapter_tensor_count": 80
+  },
+  "eb300_task_training": false,
+  "eb300_rollout": false,
+  "quality_evaluation": false,
+  "shared_remote_host_touched": false,
+  "new_project_executable_code": false,
+  "native_cache": {
+    "native_cache": "/var/tmp/robohand-pi05-7910c20-2026-11-17",
+    "canonical_assets_remain_on_E": true,
+    "temporary_cache_in_existing_Ubuntu_VHD_on_C": true,
+    "model_sha256": "0eb11ca9587678c1d2ef8cf32807c29f8ce53a2bfdfc1aa4a4c96f16fca59b0f"
+  },
+  "local_run_directory": "E:\\RoboHand\\runs\\2026-11-17-pi05-text-and-gripper",
+  "first_training_diagnostic_failure": {
+    "cause": "unbatched action [50,7] passed to training API",
+    "fix": "stock DataLoader batch_size=1 produces [1,50,7]",
+    "model_code_changed": false
+  }
+}

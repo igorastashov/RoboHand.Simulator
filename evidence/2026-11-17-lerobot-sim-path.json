@@ -1,0 +1,58 @@
+{
+  "as_of": "2026-11-17",
+  "source_audit_before_execution": {
+    "reference_repo": "lerobot/so101-tabletop-mujoco",
+    "revision": "e68145d8bd793c27fa2c13e31369a616895c5acb",
+    "files": [
+      {
+        "file": "README.md",
+        "sha256": "b5087006e1e4837a761185045ef60e6f0aab3e4dfa2348370041a93bb39f33f3"
+      },
+      {
+        "file": "env.py",
+        "sha256": "0261fbd9a4bb57109f58fe5b9fc9c46930d1f6f8f450ff5cb4fd65c4cc3cc367"
+      },
+      {
+        "file": "requirements.txt",
+        "sha256": "9f49bf55dc48a386226798f2dbfbd5fd7daa66310832676cd10749574df133fc"
+      }
+    ],
+    "status": "source read only; not installed or run; no EB300 transition",
+    "lerobot_commit": "7910c20a75834ad3fa6a9792df4d44a614d1bba6"
+  },
+  "stock_reference_smoke": {
+    "status": "stock-reference-load-step-render-passed",
+    "reference_repository": "lerobot/so101-tabletop-mujoco",
+    "revision": "e68145d8bd793c27fa2c13e31369a616895c5acb",
+    "mujoco_version": "3.3.7",
+    "control_steps": 16,
+    "control_fps": 30,
+    "image_shapes": {
+      "wrist": [
+        480,
+        640,
+        3
+      ]
+    },
+    "state_shape": [
+      6
+    ],
+    "action_shape": [
+      6
+    ],
+    "final_truncated": true,
+    "final_reward": 0.0,
+    "task_success": false,
+    "warnings": {},
+    "model_nq": 34,
+    "model_nu": 6,
+    "eb300_run": false,
+    "new_project_executable_code": false
+  },
+  "limits": [
+    "Stock environment API only; EnvHub transport not run",
+    "Not EB300; no policy, training or task success",
+    "EB300 seven-action bridge not written; separate owner decision pending"
+  ],
+  "proposal": "docs/research/2026-11-17-eb300-envhub-adaptation.md"
+}

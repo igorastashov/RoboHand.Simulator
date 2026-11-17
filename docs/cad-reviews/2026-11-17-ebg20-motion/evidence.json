@@ -1,0 +1,91 @@
+{
+  "updated": "2026-11-17",
+  "upstream_MCP": "hymaxo/kompas3d-mcp@adef44fdc41401af3b239a5c9b1a4e108e1a237a",
+  "upstream_requirements": [
+    "Python>=3.12",
+    "mcp>=1.29.1,<2",
+    "pydantic>=2.12,<3",
+    "pywin32>=311",
+    "Pillow>=11",
+    "PyMuPDF>=1.26"
+  ],
+  "KOMPAS": "v25Study25.0.0.2735; installedSDK25; native audit read-only",
+  "manufacturer_source": "https://www.thingiverse.com/thing:6460227",
+  "manufacturer_current_support": "https://toolboxrobotics.com/faq",
+  "source_snapshot": "E:\\RoboHand\\runs\\2026-11-17-ebg20-motion\\source",
+  "source_manifest_sha256": "9224d0d4bf5bd5d4dd939eedc032d26f1c2feac8f46e227cf76dc8ea2581d202",
+  "source_drawings": [
+    {
+      "relative_path": "images\\94d357c9-f2ec-4ab4-a9dc-5b6640df3671.jpg",
+      "bytes": 442027,
+      "sha256": "f95bce56a0fe9853a23f016645e2918c07775170da20e9680baed9a1c21028bc"
+    },
+    {
+      "relative_path": "images\\9df9eddf-a825-4d55-ba5d-d695bf7114ae.jpg",
+      "bytes": 421559,
+      "sha256": "ec1f5adfe3e03a6e4f6fcde3e2602ff82f615cde9d9923e0edfe6b7dc3868358"
+    }
+  ],
+  "source_license": "LocalvendorLICENSE retained: CC Attribution Non-Commercial No Derivatives; geometry/image binaries kept outsideGit",
+  "preservation": {
+    "source_file_count": 51,
+    "source_files_changed": [],
+    "latest_root_sha256": "3b919e9642686f2194ca007484ad860229b4fccadf0ea7517d40e6c2383254db",
+    "packages": {
+      "mujoco-core": "4.0.1",
+      "trimesh": "5.2.1",
+      "scipy": "1.18.1",
+      "numpy": "2.5.4",
+      "pillow": "13.0.0"
+    },
+    "source_manifest_sha256": "9224d0d4bf5bd5d4dd939eedc032d26f1c2feac8f46e227cf76dc8ea2581d202",
+    "LATEST24native_hash_changes": []
+  },
+  "candidate_sha256": {
+    "ebg20_axial_prepositioned_candidate.xml": "217d44837732a0f327639a863a8a9573b4ac0f39a07ee8645cf96a980805a0c5",
+    "ebg20_axial_prepositioned_candidate_r2.xml": "8a4d26badc72796e247059d9182d59970261e9d0f62688f78e5b9ae6ba45f698",
+    "ebg20_standalone_candidate.xml": "bc7a7c8d10a6df5d18aa183711d7e4dade2a7059f754cc033d16043f7bf3219f"
+  },
+  "review_commands": {
+    "cwd": "D:\\ПРОЕКТЫ\\_ЛИЧНОЕ_\\ВОПЛОЩЕННЫЙ_ЭЙАЙ\\РОБОРУКА\\RoboHand",
+    "python": "E:\\RoboHand\\tools\\cad-validation-2026-11-14\\.venv\\Scripts\\python.exe",
+    "horizontal": "E:\\RoboHand\\runs\\2026-11-17-ebg20-motion\\validate-contact-once.py",
+    "axial": "E:\\RoboHand\\runs\\2026-11-17-ebg20-motion\\validate-axial-once.py",
+    "R1_range": "E:\\RoboHand\\runs\\2026-11-17-ebg20-motion\\validate-range-once.py",
+    "R2_bounded": "E:\\RoboHand\\runs\\2026-11-17-ebg20-motion\\R2-bounded-numerics-once.py",
+    "R2_selected_result": "E:\\RoboHand\\runs\\2026-11-17-ebg20-motion\\R2-numerics\\selected-R2-review.json",
+    "R2_selected": "E:\\RoboHand\\runs\\2026-11-17-ebg20-motion\\validate-R2-axial-once.py",
+    "R2_half_ms": "E:\\RoboHand\\runs\\2026-11-17-ebg20-motion\\validate-R2-halfms-once.py"
+  },
+  "no_new_project_controller_adapter_exporter_framework": true,
+  "current_scope": "Standard MJCF/config data and one-off diagnostics only; source/native/LATEST unchanged.",
+  "peak_metric_scope": "Every physics step; prior sampled maxima retained in raw result for audit and superseded.",
+  "root_independent_R2": {
+    "source": "parent independent review; full trace outsideGit",
+    "evidence": "E:\\RoboHand\\runs\\2026-11-17-ebg20-motion\\root-independent-r2-review.json",
+    "friction": 0.35,
+    "close_command_rad": -0.6,
+    "lift_target_m": 0.03,
+    "lift_duration_s": 1.2,
+    "hold_duration_s": 2,
+    "timestep_s": [
+      0.002,
+      0.0005
+    ],
+    "gear_max_um": [
+      83.235,
+      76.267
+    ],
+    "pad_max_um": [
+      39.704,
+      73.4
+    ],
+    "floor_max_um": [
+      1194.41,
+      939.928
+    ],
+    "monotonic_time_no_warnings_no_internal_contacts": true,
+    "standalone_contact_lift_passed": true,
+    "strict_all_contact_250um_gate": "FAIL"
+  }
+}

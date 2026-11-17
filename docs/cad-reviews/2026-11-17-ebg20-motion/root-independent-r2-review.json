@@ -1,0 +1,423 @@
+{
+  "mujoco_version": "4.0.1",
+  "xml_sha256": "8a4d26badc72796e247059d9182d59970261e9d0f62688f78e5b9ae6ba45f698",
+  "scope": "isolated prepositioned upright pencil; changed friction, closure, lift profile, height and hold; not EB300 rollout",
+  "runs": [
+    {
+      "timestep_s": 0.002,
+      "friction": 0.35,
+      "lift_target_m": 0.03,
+      "lift_m": 0.029995994917161463,
+      "release_drop_m": 0.029996081862934017,
+      "maxima_every_step": {
+        "gear_residual_m": 8.323509710234404e-05,
+        "pad_penetration_m": 3.9703557571163715e-05,
+        "floor_penetration_m": 0.0011944096188623609,
+        "internal_penetration_m": 0.0
+      },
+      "warnings": {},
+      "time_monotonic": true,
+      "finite": true,
+      "both_pads_contact": true,
+      "nmocap": 0,
+      "only_internal_joint_equalities": true,
+      "pencil_free": true,
+      "max_servo_torque_Nm": 0.25,
+      "wall_seconds": 0.21003830002155155,
+      "bounded_contact_check_passed": true,
+      "strict_all_contacts_250um_gate_passed": false,
+      "phases": [
+        {
+          "phase": "settle",
+          "pencil_z": 0.0549999130542274,
+          "contacts": [
+            {
+              "geoms": [
+                "floor",
+                "pencil_contact"
+              ],
+              "normal_N": 0.026160000000010022
+            },
+            {
+              "geoms": [
+                "floor",
+                "pencil_contact"
+              ],
+              "normal_N": 0.0261600000000105
+            },
+            {
+              "geoms": [
+                "floor",
+                "pencil_contact"
+              ],
+              "normal_N": 0.02616000000000976
+            }
+          ],
+          "axial_angle_deg": 0.0
+        },
+        {
+          "phase": "close",
+          "pencil_z": 0.05499991304429564,
+          "contacts": [
+            {
+              "geoms": [
+                "floor",
+                "pencil_contact"
+              ],
+              "normal_N": 0.026163080128432763
+            },
+            {
+              "geoms": [
+                "floor",
+                "pencil_contact"
+              ],
+              "normal_N": 0.026159144961435538
+            },
+            {
+              "geoms": [
+                "floor",
+                "pencil_contact"
+              ],
+              "normal_N": 0.026159144959195794
+            },
+            {
+              "geoms": [
+                "pencil_contact",
+                "jawA_014_7"
+              ],
+              "normal_N": 7.688335117442037
+            },
+            {
+              "geoms": [
+                "pencil_contact",
+                "jawA_014_7"
+              ],
+              "normal_N": 7.68804385370035
+            },
+            {
+              "geoms": [
+                "pencil_contact",
+                "jawB_014_4"
+              ],
+              "normal_N": 7.688364429791092
+            },
+            {
+              "geoms": [
+                "pencil_contact",
+                "jawB_014_4"
+              ],
+              "normal_N": 7.688073166041943
+            }
+          ],
+          "axial_angle_deg": 8.537736462515939e-07
+        },
+        {
+          "phase": "lift",
+          "pencil_z": 0.08469157351045262,
+          "contacts": [
+            {
+              "geoms": [
+                "pencil_contact",
+                "jawA_014_7"
+              ],
+              "normal_N": 7.6881067953563065
+            },
+            {
+              "geoms": [
+                "pencil_contact",
+                "jawA_014_7"
+              ],
+              "normal_N": 7.688308854106296
+            },
+            {
+              "geoms": [
+                "pencil_contact",
+                "jawB_014_4"
+              ],
+              "normal_N": 7.688106723909409
+            },
+            {
+              "geoms": [
+                "pencil_contact",
+                "jawB_014_4"
+              ],
+              "normal_N": 7.688308925553424
+            }
+          ],
+          "axial_angle_deg": 9.497632235480915e-05
+        },
+        {
+          "phase": "hold",
+          "pencil_z": 0.08499599491716146,
+          "contacts": [
+            {
+              "geoms": [
+                "pencil_contact",
+                "jawA_014_7"
+              ],
+              "normal_N": 7.688105544782179
+            },
+            {
+              "geoms": [
+                "pencil_contact",
+                "jawA_014_7"
+              ],
+              "normal_N": 7.688310104728217
+            },
+            {
+              "geoms": [
+                "pencil_contact",
+                "jawB_014_4"
+              ],
+              "normal_N": 7.688105471731307
+            },
+            {
+              "geoms": [
+                "pencil_contact",
+                "jawB_014_4"
+              ],
+              "normal_N": 7.688310177779097
+            }
+          ],
+          "axial_angle_deg": 9.60182250663952e-05
+        },
+        {
+          "phase": "release",
+          "pencil_z": 0.054999913054227446,
+          "contacts": [
+            {
+              "geoms": [
+                "floor",
+                "pencil_contact"
+              ],
+              "normal_N": 0.02616003665640552
+            },
+            {
+              "geoms": [
+                "floor",
+                "pencil_contact"
+              ],
+              "normal_N": 0.026159981671818773
+            },
+            {
+              "geoms": [
+                "floor",
+                "pencil_contact"
+              ],
+              "normal_N": 0.026159981671820265
+            }
+          ],
+          "axial_angle_deg": 0.0
+        }
+      ]
+    },
+    {
+      "timestep_s": 0.0005,
+      "friction": 0.35,
+      "lift_target_m": 0.03,
+      "lift_m": 0.029995994918606654,
+      "release_drop_m": 0.029996081864379194,
+      "maxima_every_step": {
+        "gear_residual_m": 7.626739392260556e-05,
+        "pad_penetration_m": 7.339980714240916e-05,
+        "floor_penetration_m": 0.0009399279263192265,
+        "internal_penetration_m": 0.0
+      },
+      "warnings": {},
+      "time_monotonic": true,
+      "finite": true,
+      "both_pads_contact": true,
+      "nmocap": 0,
+      "only_internal_joint_equalities": true,
+      "pencil_free": true,
+      "max_servo_torque_Nm": 0.25,
+      "wall_seconds": 0.7161213000072166,
+      "bounded_contact_check_passed": true,
+      "strict_all_contacts_250um_gate_passed": false,
+      "phases": [
+        {
+          "phase": "settle",
+          "pencil_z": 0.05499991305422712,
+          "contacts": [
+            {
+              "geoms": [
+                "floor",
+                "pencil_contact"
+              ],
+              "normal_N": 0.026160000291224166
+            },
+            {
+              "geoms": [
+                "floor",
+                "pencil_contact"
+              ],
+              "normal_N": 0.026159999854469585
+            },
+            {
+              "geoms": [
+                "floor",
+                "pencil_contact"
+              ],
+              "normal_N": 0.026159999854469554
+            }
+          ],
+          "axial_angle_deg": 0.0
+        },
+        {
+          "phase": "close",
+          "pencil_z": 0.054999913044473395,
+          "contacts": [
+            {
+              "geoms": [
+                "floor",
+                "pencil_contact"
+              ],
+              "normal_N": 0.026163061775060358
+            },
+            {
+              "geoms": [
+                "floor",
+                "pencil_contact"
+              ],
+              "normal_N": 0.02615914045732368
+            },
+            {
+              "geoms": [
+                "floor",
+                "pencil_contact"
+              ],
+              "normal_N": 0.026159143296853912
+            },
+            {
+              "geoms": [
+                "pencil_contact",
+                "jawA_014_7"
+              ],
+              "normal_N": 7.688335193749857
+            },
+            {
+              "geoms": [
+                "pencil_contact",
+                "jawA_014_7"
+              ],
+              "normal_N": 7.688043761508089
+            },
+            {
+              "geoms": [
+                "pencil_contact",
+                "jawB_014_4"
+              ],
+              "normal_N": 7.688364522734148
+            },
+            {
+              "geoms": [
+                "pencil_contact",
+                "jawB_014_4"
+              ],
+              "normal_N": 7.688073090486168
+            }
+          ],
+          "axial_angle_deg": 8.537736462515939e-07
+        },
+        {
+          "phase": "lift",
+          "pencil_z": 0.08467401450501662,
+          "contacts": [
+            {
+              "geoms": [
+                "pencil_contact",
+                "jawA_014_7"
+              ],
+              "normal_N": 7.688103609687758
+            },
+            {
+              "geoms": [
+                "pencil_contact",
+                "jawA_014_7"
+              ],
+              "normal_N": 7.688305801652382
+            },
+            {
+              "geoms": [
+                "pencil_contact",
+                "jawB_014_4"
+              ],
+              "normal_N": 7.688103538645756
+            },
+            {
+              "geoms": [
+                "pencil_contact",
+                "jawB_014_4"
+              ],
+              "normal_N": 7.688305872694437
+            }
+          ],
+          "axial_angle_deg": 9.503770135619424e-05
+        },
+        {
+          "phase": "hold",
+          "pencil_z": 0.08499599491860665,
+          "contacts": [
+            {
+              "geoms": [
+                "pencil_contact",
+                "jawA_014_7"
+              ],
+              "normal_N": 7.68810242583838
+            },
+            {
+              "geoms": [
+                "pencil_contact",
+                "jawA_014_7"
+              ],
+              "normal_N": 7.68830698555277
+            },
+            {
+              "geoms": [
+                "pencil_contact",
+                "jawB_014_4"
+              ],
+              "normal_N": 7.688102353166231
+            },
+            {
+              "geoms": [
+                "pencil_contact",
+                "jawB_014_4"
+              ],
+              "normal_N": 7.688307058224915
+            }
+          ],
+          "axial_angle_deg": 9.60182250663952e-05
+        },
+        {
+          "phase": "release",
+          "pencil_z": 0.05499991305422746,
+          "contacts": [
+            {
+              "geoms": [
+                "floor",
+                "pencil_contact"
+              ],
+              "normal_N": 0.026586831403077126
+            },
+            {
+              "geoms": [
+                "floor",
+                "pencil_contact"
+              ],
+              "normal_N": 0.02594658429846024
+            },
+            {
+              "geoms": [
+                "floor",
+                "pencil_contact"
+              ],
+              "normal_N": 0.02594658429846055
+            }
+          ],
+          "axial_angle_deg": 2.4148365394514667e-06
+        }
+      ]
+    }
+  ]
+}

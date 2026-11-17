@@ -1,0 +1,256 @@
+{
+  "xml": "D:\\ПРОЕКТЫ\\_ЛИЧНОЕ_\\ВОПЛОЩЕННЫЙ_ЭЙАЙ\\РОБОРУКА\\RoboHand\\RoboHand.Simulator\\docs\\cad-reviews\\2026-11-17-ebg20-motion\\ebg20_axial_prepositioned_candidate_r2.xml",
+  "xml_sha256": "8a4d26badc72796e247059d9182d59970261e9d0f62688f78e5b9ae6ba45f698",
+  "selected_armature_kg_m2": 0.001,
+  "reason": "Minimum of tested effective output/solver armatures meeting gear residual<0.1mm at both requested timesteps. Not measured hardware inertia.",
+  "strict_all_contact_penetration_gate_m": 0.00025,
+  "strict_gate_status": "FAIL: all-contact penetration>250um on release floor impact. Own per-step gear100um gate also exceeded slightly; pad250um gate passes.",
+  "range_checks": [
+    {
+      "timestep_s": 0.0005,
+      "servo_angle_observed_minmax": [
+        -0.7635529637837631,
+        2.0040468538834357
+      ],
+      "min_dynamic_pad_aperture_m": 0.0010938373617227336,
+      "max_gear_residual_m": 1.3131456012803466e-06,
+      "internal_contact_pairs": [],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "timestep_s": 0.002,
+      "servo_angle_observed_minmax": [
+        -0.7655924018506473,
+        2.005612235147205
+      ],
+      "min_dynamic_pad_aperture_m": 0.001066963245716408,
+      "max_gear_residual_m": 1.5018622066447287e-06,
+      "internal_contact_pairs": [],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    }
+  ],
+  "R1_XMLs_unchanged": {
+    "ebg20_standalone_candidate.xml": "bc7a7c8d10a6df5d18aa183711d7e4dade2a7059f754cc033d16043f7bf3219f",
+    "ebg20_axial_prepositioned_candidate.xml": "217d44837732a0f327639a863a8a9573b4ac0f39a07ee8645cf96a980805a0c5"
+  },
+  "contact_checks": [
+    {
+      "armature_kg_m2": 0.001,
+      "timestep_s": 0.0005,
+      "eq_timeconst_s": 0.004,
+      "actuator_timeconst_s": 0.05,
+      "max_gear_residual_m": 9.849907000934527e-05,
+      "max_penetration_m": 0.001174570243791658,
+      "finite_without_warning": true,
+      "lift_m": 0.03999599614485993,
+      "release_drop_m": 0.03999608309063266,
+      "both_pads_at_hold": true,
+      "passed": false,
+      "max_pad_penetration_m": 0.0001535866969803778,
+      "max_floor_impact_penetration_m": 0.001174570243791658,
+      "nominal_contact_lift_checks_passed_with_reported_floor_impact": true
+    },
+    {
+      "armature_kg_m2": 0.001,
+      "timestep_s": 0.002,
+      "eq_timeconst_s": 0.004,
+      "actuator_timeconst_s": 0.05,
+      "max_gear_residual_m": 7.612975992744636e-05,
+      "max_penetration_m": 0.0004274765932266646,
+      "finite_without_warning": true,
+      "lift_m": 0.039995996143611746,
+      "release_drop_m": 0.03999608308938433,
+      "both_pads_at_hold": true,
+      "passed": false,
+      "max_pad_penetration_m": 8.986840878147716e-05,
+      "max_floor_impact_penetration_m": 0.0004274765932266646,
+      "nominal_contact_lift_checks_passed_with_reported_floor_impact": true
+    }
+  ],
+  "R1_integration_limit": {
+    "R1_standalone_timestep_s": 5e-05,
+    "parent_independent_R1_stress_timestep_s": 0.0005,
+    "parent_observed_warning": "BADQACC at servo DOF1 aroundt=.3035s",
+    "desktop_timestep_s": 0.002,
+    "R1_must_not_be_inserted_unmodified": true
+  },
+  "bounded_sweep_metrics_are_sampled_lower_bounds": true,
+  "superseding_every_step_selected_metrics": [
+    {
+      "mujoco_version": "4.0.1",
+      "candidate": "D:\\ПРОЕКТЫ\\_ЛИЧНОЕ_\\ВОПЛОЩЕННЫЙ_ЭЙАЙ\\РОБОРУКА\\RoboHand\\RoboHand.Simulator\\docs\\cad-reviews\\2026-11-17-ebg20-motion\\ebg20_axial_prepositioned_candidate_r2.xml",
+      "candidate_sha256": "8a4d26badc72796e247059d9182d59970261e9d0f62688f78e5b9ae6ba45f698",
+      "scope": "R2 numerically stable axial contact candidate; separate floor-impact strict gate may fail, not full physics acceptance",
+      "stock_minimal_100steps_finite": true,
+      "runtime_timestep_s": 0.0005,
+      "model": {
+        "nq": 11,
+        "nv": 10,
+        "nu": 2,
+        "neq": 2,
+        "nmocap": 0,
+        "pencil_joint_type": 0,
+        "pencil_is_free": true,
+        "equalities_only_internal_joints": true
+      },
+      "initial_pencil_xyz": [
+        -0.000757148,
+        -0.0001,
+        0.055
+      ],
+      "initial_pencil_quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "initial_pose_scope": "upright axially prepositioned free pencil, not perception or pickup from lying pose",
+      "free_pencil_lift_m": 0.03999599614485987,
+      "pencil_base_relative_z_change_m": 0.00010194414486025538,
+      "both_jaw_contacts_at_hold": true,
+      "axial_alignment_error_deg_at_hold": 0.00011657684358975314,
+      "release_drop_m": 0.03999608309063231,
+      "max_eq_residual_m": 0.00010156594408927341,
+      "max_pencil_contact_penetration_m": 0.0011791845967483287,
+      "status": "contact_lift_hold_release_passed_nominal",
+      "warning_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_contacts_penetration_under_250um": false,
+      "sampled_trace_eq_max_m": 3.19397433158025e-05,
+      "sampled_trace_penetration_max_m": 3.516567171293341e-05,
+      "max_pad_contact_penetration_m": 0.00015671901430051703,
+      "max_floor_contact_penetration_m": 0.0011791845967483287,
+      "peak_measurement": "every physics step, not trace samples",
+      "scenario": "R2_axial_0.5ms",
+      "hold_duration_s": 1.5,
+      "hold_pencil_xyz": [
+        -0.0007571519369843542,
+        -9.999999973409182e-05,
+        0.09499599614485987
+      ],
+      "hold_servo_torque_Nm": -0.25,
+      "hold_pad_forces_N": {
+        "jawA_014_7": 18.291956898192694,
+        "jawB_014_4": 18.291956898192694
+      }
+    },
+    {
+      "mujoco_version": "4.0.1",
+      "candidate": "D:\\ПРОЕКТЫ\\_ЛИЧНОЕ_\\ВОПЛОЩЕННЫЙ_ЭЙАЙ\\РОБОРУКА\\RoboHand\\RoboHand.Simulator\\docs\\cad-reviews\\2026-11-17-ebg20-motion\\ebg20_axial_prepositioned_candidate_r2.xml",
+      "candidate_sha256": "8a4d26badc72796e247059d9182d59970261e9d0f62688f78e5b9ae6ba45f698",
+      "scope": "R2 numerically stable axial contact candidate; separate floor-impact strict gate may fail, not full physics acceptance",
+      "stock_minimal_100steps_finite": true,
+      "model": {
+        "nq": 11,
+        "nv": 10,
+        "nu": 2,
+        "neq": 2,
+        "nmocap": 0,
+        "pencil_joint_type": 0,
+        "pencil_is_free": true,
+        "equalities_only_internal_joints": true
+      },
+      "initial_pencil_xyz": [
+        -0.000757148,
+        -0.0001,
+        0.055
+      ],
+      "initial_pencil_quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "initial_pose_scope": "upright axially prepositioned free pencil, not perception or pickup from lying pose",
+      "free_pencil_lift_m": 0.03999599614362664,
+      "pencil_base_relative_z_change_m": 0.00010194414362674209,
+      "both_jaw_contacts_at_hold": true,
+      "axial_alignment_error_deg_at_hold": 0.00011657684358975314,
+      "release_drop_m": 0.03999608308939932,
+      "max_eq_residual_m": 0.00011210243428384,
+      "max_pencil_contact_penetration_m": 0.001262793654446124,
+      "status": "contact_lift_hold_release_passed_nominal",
+      "warning_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_contacts_penetration_under_250um": false,
+      "sampled_trace_eq_max_m": 2.9299500059881082e-05,
+      "sampled_trace_penetration_max_m": 3.5177262198041116e-05,
+      "max_pad_contact_penetration_m": 0.00014958120716250525,
+      "max_floor_contact_penetration_m": 0.001262793654446124,
+      "peak_measurement": "every physics step, not trace samples",
+      "scenario": "R2_axial_2ms",
+      "hold_duration_s": 1.5,
+      "hold_pencil_xyz": [
+        -0.0007571519369666454,
+        -0.00010000000000036588,
+        0.09499599614362664
+      ],
+      "hold_servo_torque_Nm": -0.25,
+      "hold_pad_forces_N": {
+        "jawA_014_7": 18.292136749554317,
+        "jawB_014_4": 18.292136749554324
+      }
+    }
+  ],
+  "root_independent_R2": {
+    "source": "parent independent review; full trace outsideGit",
+    "evidence": "E:\\RoboHand\\runs\\2026-11-17-ebg20-motion\\root-independent-r2-review.json",
+    "friction": 0.35,
+    "close_command_rad": -0.6,
+    "lift_target_m": 0.03,
+    "lift_duration_s": 1.2,
+    "hold_duration_s": 2,
+    "timestep_s": [
+      0.002,
+      0.0005
+    ],
+    "gear_max_um": [
+      83.235,
+      76.267
+    ],
+    "pad_max_um": [
+      39.704,
+      73.4
+    ],
+    "floor_max_um": [
+      1194.41,
+      939.928
+    ],
+    "monotonic_time_no_warnings_no_internal_contacts": true,
+    "standalone_contact_lift_passed": true,
+    "strict_all_contact_250um_gate": "FAIL"
+  },
+  "selected_reason": "Bounded numerical tradeoff: smallest tested armature with stable no-warning hold at both timesteps. Original sampled gear<100um gate did not establish true peak compliance; own every-step peaks101.566/112.102um exceed100um. Full physics not accepted."
+}

@@ -1,0 +1,265 @@
+{
+  "per_step_peak_results": [
+    {
+      "mujoco_version": "4.0.1",
+      "candidate": "D:\\ПРОЕКТЫ\\_ЛИЧНОЕ_\\ВОПЛОЩЕННЫЙ_ЭЙАЙ\\РОБОРУКА\\RoboHand\\RoboHand.Simulator\\docs\\cad-reviews\\2026-11-17-ebg20-motion\\ebg20_standalone_candidate.xml",
+      "candidate_sha256": "bc7a7c8d10a6df5d18aa183711d7e4dade2a7059f754cc033d16043f7bf3219f",
+      "scope": "stock load/step, open/close, free pencil contact and smooth position-actuated fixture lift; no pencil weld/teleport",
+      "stock_minimal_100steps_finite": true,
+      "model": {
+        "nq": 11,
+        "nv": 10,
+        "nu": 2,
+        "neq": 2,
+        "nmocap": 0,
+        "pencil_joint_type": 0,
+        "pencil_is_free": true,
+        "equalities_only_internal_joints": true
+      },
+      "initial_pencil_xyz": [
+        -0.000757148,
+        -0.0001,
+        0.0035
+      ],
+      "free_pencil_lift_m": 0.05999564780332656,
+      "pencil_base_relative_z_change_m": 0.00010159580332673446,
+      "both_jaw_contacts_at_hold": true,
+      "release_drop_m": 0.05999568040799166,
+      "max_eq_residual_m": 1.577293369645549e-05,
+      "max_pencil_contact_penetration_m": 0.0007847425513570427,
+      "status": "contact_lift_hold_release_passed_nominal",
+      "sampled_trace_eq_max_m": 1.5744974744338457e-05,
+      "sampled_trace_penetration_max_m": 3.142800470258122e-05,
+      "max_pad_contact_penetration_m": 4.204880413450286e-05,
+      "max_floor_contact_penetration_m": 0.0007847425513570427,
+      "peak_measurement": "every physics step, not trace samples",
+      "strict_all_contacts_penetration_under_250um": false,
+      "scenario": "R1_horizontal",
+      "hold_duration_s": 3,
+      "hold_pencil_xyz": [
+        -0.0007571474085996382,
+        -9.999999999996364e-05,
+        0.06349564780332656
+      ],
+      "hold_servo_torque_Nm": -0.25,
+      "hold_pad_forces_N": {
+        "jawA_014_7": 18.255065335867933,
+        "jawB_014_4": 18.255065335867936
+      }
+    },
+    {
+      "mujoco_version": "4.0.1",
+      "candidate": "D:\\ПРОЕКТЫ\\_ЛИЧНОЕ_\\ВОПЛОЩЕННЫЙ_ЭЙАЙ\\РОБОРУКА\\RoboHand\\RoboHand.Simulator\\docs\\cad-reviews\\2026-11-17-ebg20-motion\\ebg20_axial_prepositioned_candidate.xml",
+      "candidate_sha256": "217d44837732a0f327639a863a8a9573b4ac0f39a07ee8645cf96a980805a0c5",
+      "scope": "stock load/step, open/close, free pencil contact and smooth position-actuated fixture lift; no pencil weld/teleport",
+      "stock_minimal_100steps_finite": true,
+      "model": {
+        "nq": 11,
+        "nv": 10,
+        "nu": 2,
+        "neq": 2,
+        "nmocap": 0,
+        "pencil_joint_type": 0,
+        "pencil_is_free": true,
+        "equalities_only_internal_joints": true
+      },
+      "initial_pencil_xyz": [
+        -0.000757148,
+        -0.0001,
+        0.055
+      ],
+      "initial_pencil_quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "initial_pose_scope": "upright axially prepositioned free pencil, not perception or pickup from lying pose",
+      "free_pencil_lift_m": 0.05999605606040157,
+      "pencil_base_relative_z_change_m": 0.00010200406040174193,
+      "both_jaw_contacts_at_hold": true,
+      "axial_alignment_error_deg_at_hold": 2.951390654666611e-05,
+      "release_drop_m": 0.05999607779684513,
+      "max_eq_residual_m": 1.577287396267767e-05,
+      "max_pencil_contact_penetration_m": 0.0007843175582782228,
+      "status": "contact_lift_hold_release_passed_nominal",
+      "sampled_trace_eq_max_m": 1.5744920248466233e-05,
+      "sampled_trace_penetration_max_m": 3.3008486265687865e-05,
+      "max_pad_contact_penetration_m": 4.20486737575445e-05,
+      "max_floor_contact_penetration_m": 0.0007843175582782228,
+      "peak_measurement": "every physics step, not trace samples",
+      "strict_all_contacts_penetration_under_250um": false,
+      "scenario": "R1_axial",
+      "hold_duration_s": 3,
+      "hold_pencil_xyz": [
+        -0.0007571496868654643,
+        -0.00010000000004829698,
+        0.11499605606040157
+      ],
+      "hold_servo_torque_Nm": -0.25,
+      "hold_pad_forces_N": {
+        "jawA_014_7": 18.25494500127055,
+        "jawB_014_4": 18.254945001270546
+      }
+    },
+    {
+      "mujoco_version": "4.0.1",
+      "candidate": "D:\\ПРОЕКТЫ\\_ЛИЧНОЕ_\\ВОПЛОЩЕННЫЙ_ЭЙАЙ\\РОБОРУКА\\RoboHand\\RoboHand.Simulator\\docs\\cad-reviews\\2026-11-17-ebg20-motion\\ebg20_axial_prepositioned_candidate_r2.xml",
+      "candidate_sha256": "8a4d26badc72796e247059d9182d59970261e9d0f62688f78e5b9ae6ba45f698",
+      "scope": "R2 numerically stable axial contact candidate; separate floor-impact strict gate may fail, not full physics acceptance",
+      "stock_minimal_100steps_finite": true,
+      "runtime_timestep_s": 0.0005,
+      "model": {
+        "nq": 11,
+        "nv": 10,
+        "nu": 2,
+        "neq": 2,
+        "nmocap": 0,
+        "pencil_joint_type": 0,
+        "pencil_is_free": true,
+        "equalities_only_internal_joints": true
+      },
+      "initial_pencil_xyz": [
+        -0.000757148,
+        -0.0001,
+        0.055
+      ],
+      "initial_pencil_quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "initial_pose_scope": "upright axially prepositioned free pencil, not perception or pickup from lying pose",
+      "free_pencil_lift_m": 0.03999599614485987,
+      "pencil_base_relative_z_change_m": 0.00010194414486025538,
+      "both_jaw_contacts_at_hold": true,
+      "axial_alignment_error_deg_at_hold": 0.00011657684358975314,
+      "release_drop_m": 0.03999608309063231,
+      "max_eq_residual_m": 0.00010156594408927341,
+      "max_pencil_contact_penetration_m": 0.0011791845967483287,
+      "status": "contact_lift_hold_release_passed_nominal",
+      "warning_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_contacts_penetration_under_250um": false,
+      "sampled_trace_eq_max_m": 3.19397433158025e-05,
+      "sampled_trace_penetration_max_m": 3.516567171293341e-05,
+      "max_pad_contact_penetration_m": 0.00015671901430051703,
+      "max_floor_contact_penetration_m": 0.0011791845967483287,
+      "peak_measurement": "every physics step, not trace samples",
+      "scenario": "R2_axial_0.5ms",
+      "hold_duration_s": 1.5,
+      "hold_pencil_xyz": [
+        -0.0007571519369843542,
+        -9.999999973409182e-05,
+        0.09499599614485987
+      ],
+      "hold_servo_torque_Nm": -0.25,
+      "hold_pad_forces_N": {
+        "jawA_014_7": 18.291956898192694,
+        "jawB_014_4": 18.291956898192694
+      }
+    },
+    {
+      "mujoco_version": "4.0.1",
+      "candidate": "D:\\ПРОЕКТЫ\\_ЛИЧНОЕ_\\ВОПЛОЩЕННЫЙ_ЭЙАЙ\\РОБОРУКА\\RoboHand\\RoboHand.Simulator\\docs\\cad-reviews\\2026-11-17-ebg20-motion\\ebg20_axial_prepositioned_candidate_r2.xml",
+      "candidate_sha256": "8a4d26badc72796e247059d9182d59970261e9d0f62688f78e5b9ae6ba45f698",
+      "scope": "R2 numerically stable axial contact candidate; separate floor-impact strict gate may fail, not full physics acceptance",
+      "stock_minimal_100steps_finite": true,
+      "model": {
+        "nq": 11,
+        "nv": 10,
+        "nu": 2,
+        "neq": 2,
+        "nmocap": 0,
+        "pencil_joint_type": 0,
+        "pencil_is_free": true,
+        "equalities_only_internal_joints": true
+      },
+      "initial_pencil_xyz": [
+        -0.000757148,
+        -0.0001,
+        0.055
+      ],
+      "initial_pencil_quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "initial_pose_scope": "upright axially prepositioned free pencil, not perception or pickup from lying pose",
+      "free_pencil_lift_m": 0.03999599614362664,
+      "pencil_base_relative_z_change_m": 0.00010194414362674209,
+      "both_jaw_contacts_at_hold": true,
+      "axial_alignment_error_deg_at_hold": 0.00011657684358975314,
+      "release_drop_m": 0.03999608308939932,
+      "max_eq_residual_m": 0.00011210243428384,
+      "max_pencil_contact_penetration_m": 0.001262793654446124,
+      "status": "contact_lift_hold_release_passed_nominal",
+      "warning_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_contacts_penetration_under_250um": false,
+      "sampled_trace_eq_max_m": 2.9299500059881082e-05,
+      "sampled_trace_penetration_max_m": 3.5177262198041116e-05,
+      "max_pad_contact_penetration_m": 0.00014958120716250525,
+      "max_floor_contact_penetration_m": 0.001262793654446124,
+      "peak_measurement": "every physics step, not trace samples",
+      "scenario": "R2_axial_2ms",
+      "hold_duration_s": 1.5,
+      "hold_pencil_xyz": [
+        -0.0007571519369666454,
+        -0.00010000000000036588,
+        0.09499599614362664
+      ],
+      "hold_servo_torque_Nm": -0.25,
+      "hold_pad_forces_N": {
+        "jawA_014_7": 18.292136749554317,
+        "jawB_014_4": 18.292136749554324
+      }
+    }
+  ],
+  "root_independent_R2": {
+    "source": "parent independent review; full trace outsideGit",
+    "evidence": "E:\\RoboHand\\runs\\2026-11-17-ebg20-motion\\root-independent-r2-review.json",
+    "friction": 0.35,
+    "close_command_rad": -0.6,
+    "lift_target_m": 0.03,
+    "lift_duration_s": 1.2,
+    "hold_duration_s": 2,
+    "timestep_s": [
+      0.002,
+      0.0005
+    ],
+    "gear_max_um": [
+      83.235,
+      76.267
+    ],
+    "pad_max_um": [
+      39.704,
+      73.4
+    ],
+    "floor_max_um": [
+      1194.41,
+      939.928
+    ],
+    "monotonic_time_no_warnings_no_internal_contacts": true,
+    "standalone_contact_lift_passed": true,
+    "strict_all_contact_250um_gate": "FAIL"
+  },
+  "scope": "Bounded standalone prepositioned object contact proof only. Strict global penetration gate FAIL due to floor-release impact; no full EB300 physical acceptance.",
+  "raw_runs_root": "E:\\RoboHand\\runs\\2026-11-17-ebg20-motion"
+}
