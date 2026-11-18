@@ -1,0 +1,44 @@
+{
+  "new_repo_id": "local/eb300-pencil-pilot",
+  "new_root": "E:\\RoboHand\\runs\\2026-11-18-eb300-pilot\\datasets\\pilot-merged",
+  "push_to_hub": false,
+  "operation": {
+    "type": "merge",
+    "repo_ids": [
+      "local/eb300-mink-teleop",
+      "local/eb300-mink-teleop",
+      "local/eb300-mink-teleop",
+      "local/eb300-mink-teleop",
+      "local/eb300-mink-teleop",
+      "local/eb300-mink-teleop",
+      "local/eb300-mink-teleop",
+      "local/eb300-mink-teleop",
+      "local/eb300-mink-teleop",
+      "local/eb300-mink-teleop",
+      "local/eb300-mink-teleop",
+      "local/eb300-mink-teleop",
+      "local/eb300-mink-teleop",
+      "local/eb300-mink-teleop",
+      "local/eb300-mink-teleop"
+    ],
+    "roots": [
+      "E:\\RoboHand\\runs\\2026-11-18-eb300-pilot\\episodes\\train-00\\dataset",
+      "E:\\RoboHand\\runs\\2026-11-18-eb300-pilot\\episodes\\train-01\\dataset",
+      "E:\\RoboHand\\runs\\2026-11-18-eb300-pilot\\episodes\\train-02-r2\\dataset",
+      "E:\\RoboHand\\runs\\2026-11-18-eb300-pilot\\episodes\\train-03\\dataset",
+      "E:\\RoboHand\\runs\\2026-11-18-eb300-pilot\\episodes\\train-04-r2\\dataset",
+      "E:\\RoboHand\\runs\\2026-11-18-eb300-pilot\\episodes\\train-05\\dataset",
+      "E:\\RoboHand\\runs\\2026-11-18-eb300-pilot\\episodes\\train-06\\dataset",
+      "E:\\RoboHand\\runs\\2026-11-18-eb300-pilot\\episodes\\train-07\\dataset",
+      "E:\\RoboHand\\runs\\2026-11-18-eb300-pilot\\episodes\\train-08\\dataset",
+      "E:\\RoboHand\\runs\\2026-11-18-eb300-pilot\\episodes\\train-09\\dataset",
+      "E:\\RoboHand\\runs\\2026-11-18-eb300-pilot\\episodes\\train-10\\dataset",
+      "E:\\RoboHand\\runs\\2026-11-18-eb300-pilot\\episodes\\validation-00\\dataset",
+      "E:\\RoboHand\\runs\\2026-11-18-eb300-pilot\\episodes\\validation-01\\dataset",
+      "E:\\RoboHand\\runs\\2026-11-18-eb300-pilot\\episodes\\validation-02\\dataset",
+      "E:\\RoboHand\\runs\\2026-11-18-eb300-pilot\\episodes\\validation-03\\dataset"
+    ],
+    "concatenate_data": true,
+    "concatenate_videos": false
+  }
+}

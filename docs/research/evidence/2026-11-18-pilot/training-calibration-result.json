@@ -1,0 +1,25 @@
+{
+  "case_id": "train-00",
+  "seen_training_pose": true,
+  "raw_success": false,
+  "quality_success": false,
+  "metrics": {
+    "held_s": 0.0,
+    "lift_m": -0.7800049185752869,
+    "max_equality_residual": 4.2383730033179745e-05,
+    "max_force_cap_fraction": 0.9329338073730469,
+    "max_non_tool_penetration_m": 0.00017031881725415587,
+    "max_other_penetration_m": 0.007136511616408825,
+    "max_pad_penetration_m": 4.338654252933338e-05
+  },
+  "heldout_scores_unchanged": true,
+  "failure": null,
+  "cold_reload": {
+    "adapter_tensors": 80,
+    "all_tensors_exact": true,
+    "finite": true,
+    "train_normalization_exact": true,
+    "sha256": "70f55eab7522e2a3b1b844d64cdff2e51d13b6c3b3bd54af694f2526e8c12331"
+  },
+  "bootstrap_history": "Initial diagnostic stopped before control at an overly strict stats dtype comparison. R2 uses the same dtype-cast comparison as successful paired eval; initial logs/source kept."
+}

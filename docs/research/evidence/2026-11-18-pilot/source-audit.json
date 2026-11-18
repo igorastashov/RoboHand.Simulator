@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-18",
+  "pins": [
+    {
+      "repo": "NVlabs/mimicgen",
+      "commit": "c0fbff22ba40060f05a917a80817f3f5c20731e7",
+      "date": "2026-10-21T17:53:50Z",
+      "tree": "b3fe6a9b4481049fc2fddd7e4e9c4b09faa88668"
+    },
+    {
+      "repo": "isaac-sim/IsaacLab",
+      "commit": "9d9eff519d1bcb7e62dc5d129d37eea4be51342d",
+      "date": "2026-11-18T05:08:09Z",
+      "tree": "cb89716be57b7128229b201026a158f07632ff21"
+    }
+  ],
+  "snapshots": [
+    {
+      "file": "mimicgen-README.md",
+      "stored_tool_result": "pilot-mimicgen-2"
+    },
+    {
+      "file": "mimicgen-setup.py",
+      "stored_tool_result": "pilot-mimicgen-3"
+    },
+    {
+      "file": "mimicgen-custom-environment.md",
+      "stored_tool_result": "pilot-datagen-source-1"
+    },
+    {
+      "file": "mimicgen-getting-started.md",
+      "stored_tool_result": "pilot-datagen-source-2"
+    },
+    {
+      "file": "isaaclab-franka-mimic-reference.py",
+      "stored_tool_result": "pilot-datagen-source-3"
+    }
+  ],
+  "lerobot": {
+    "commit": "7910c20a75834ad3fa6a9792df4d44a614d1bba6",
+    "local_source": "E:/RoboHand/runs/2026-11-17-pi05-local-readiness/lerobot-7910c20a75834ad3fa6a9792df4d44a614d1bba6",
+    "inspected": [
+      "pyproject.toml",
+      "docs/source/peft_training.mdx",
+      "docs/source/pi05.mdx",
+      "src/lerobot/scripts/lerobot_edit_dataset.py",
+      "src/lerobot/datasets/dataset_tools.py",
+      "src/lerobot/scripts/lerobot_train.py",
+      "src/lerobot/scripts/lerobot_eval.py",
+      "src/lerobot/policies/pi05/configuration_pi05.py",
+      "src/lerobot/envs/factory.py"
+    ]
+  },
+  "decision": "Use existing approved Mink binding with fixed scene/pose data, stock LeRobot writer/edit_dataset/train/eval_policy; MimicGen and IsaacLab custom adapters are research only, not implemented or installed.",
+  "additional_local_source_snapshots": [
+    {
+      "file": "lerobot-pi05.mdx",
+      "source_path": "docs/source/pi05.mdx",
+      "sha256": "7389ffca7dd9256d393c76325941cbb85f1fa1ee0e4c979cf9c7ebda9833221c"
+    },
+    {
+      "file": "lerobot-peft-training.mdx",
+      "source_path": "docs/source/peft_training.mdx",
+      "sha256": "ef851305d70bd8e5e0db3a762178e22efd6326ecce85c79d568c61c19ca05877"
+    },
+    {
+      "file": "lerobot-pi05-config.py",
+      "source_path": "src/lerobot/policies/pi05/configuration_pi05.py",
+      "sha256": "364470800b5f22d46ffebf05eb218506c65ee574cf382cf4a52fb12f67fa4792"
+    },
+    {
+      "file": "lerobot-pi05-processor.py",
+      "source_path": "src/lerobot/policies/pi05/processor_pi05.py",
+      "sha256": "d773e183c6ed765d6254ade00c61a344710d3b3dbc5d4d6c4c20ae823f05fe2f"
+    }
+  ],
+  "normalization_clarification": "PI05 default is QUANTILES; pinned pi05.mdx also explicitly supports MEAN_STD, including LIBERO/frozen-expert examples. Changed main pilot to default QUANTILES; superiority/causality not established."
+}

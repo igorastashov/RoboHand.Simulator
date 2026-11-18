@@ -1,0 +1,30 @@
+{
+  "repo_id": "local/eb300-pencil-pilot",
+  "root": "E:\\RoboHand\\runs\\2026-11-18-eb300-pilot\\datasets\\pilot-merged",
+  "new_root": "E:\\RoboHand\\runs\\2026-11-18-eb300-pilot\\datasets\\splits",
+  "push_to_hub": false,
+  "operation": {
+    "type": "split",
+    "splits": {
+      "train": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "validation": [
+        11,
+        12,
+        13,
+        14
+      ]
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "repo_id": "local/eb300-pencil-pilot_train",
+  "root": "E:\\RoboHand\\runs\\2026-11-18-eb300-pilot\\datasets\\splits\\train",
+  "new_repo_id": "local/eb300-pencil-pilot_train",
+  "new_root": "E:\\RoboHand\\runs\\2026-11-18-eb300-pilot\\datasets\\splits\\train",
+  "push_to_hub": false,
+  "operation": {
+    "type": "recompute_stats",
+    "skip_image_video": false,
+    "relative_action": false,
+    "num_workers": 0,
+    "overwrite": true
+  }
+}

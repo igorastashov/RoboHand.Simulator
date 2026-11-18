@@ -85,6 +85,23 @@ class EB300ContractTests(unittest.TestCase):
         finally:
             fresh.close()
 
+    def test_observer_reports_real_non_tool_collision_without_editing_state(self):
+        # A known invalid posture puts the finger carriage through the desktop.
+        # This is counterfactual test initialization, never a demonstration.
+        self.env.data.qpos[:6] = [-1.1293525748912514, 1.1901028429464728, .5487379620184519,
+                                 -2.96706, -2.96706, .7874395164497952]
+        ENV.mujoco.mj_forward(self.env.model, self.env.data)
+        q, ctrl, time = self.env.data.qpos.copy(), self.env.data.ctrl.copy(), self.env.data.time
+        limits = self.env.model.actuator_forcerange.copy()
+        success, metrics = self.env._evaluate_physics_step()
+        self.assertFalse(success)
+        self.assertGreater(metrics["max_non_tool_penetration_m"], .004)
+        self.assertLessEqual(metrics["max_force_cap_fraction"], 1.000001)
+        np.testing.assert_array_equal(q, self.env.data.qpos)
+        np.testing.assert_array_equal(ctrl, self.env.data.ctrl)
+        np.testing.assert_array_equal(limits, self.env.model.actuator_forcerange)
+        self.assertEqual(time, self.env.data.time)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -1,0 +1,320 @@
+{
+  "stage": "completed",
+  "label": "pi05-lora-quantiles-v2",
+  "teacher_in_inference": false,
+  "target_files_read_for_inference": false,
+  "normalization": "train-only QUANTILES statistics; same saved processors for base and LoRA, not pure zero-shot",
+  "model_load_seconds": 98.56141600199044,
+  "cold_reload": {
+    "adapter_tensors": 80,
+    "all_tensors_exact": true,
+    "finite": true,
+    "train_normalization_exact": true,
+    "sha256": "70f55eab7522e2a3b1b844d64cdff2e51d13b6c3b3bd54af694f2526e8c12331"
+  },
+  "cases": [
+    {
+      "case_id": "validation-00",
+      "split": "validation",
+      "quality_success": false,
+      "stock_eval": {
+        "per_episode": [
+          {
+            "episode_ix": 0,
+            "sum_reward": 0.0,
+            "max_reward": 0.0,
+            "success": false,
+            "seed": 1000,
+            "metrics": {
+              "held_s": 0.0,
+              "lift_m": -4.9179921006725635e-06,
+              "max_equality_residual": 4.786804311152082e-06,
+              "max_force_cap_fraction": 0.9341350197792053,
+              "max_non_tool_penetration_m": 0.0,
+              "max_other_penetration_m": 5.482471897266805e-05,
+              "max_pad_penetration_m": 0.0
+            }
+          }
+        ],
+        "aggregated": {
+          "avg_sum_reward": 0.0,
+          "avg_max_reward": 0.0,
+          "pc_success": 0.0,
+          "n_episodes": 1,
+          "n_success": 0,
+          "pc_success_ci95": [
+            0.0,
+            79.34506856227625
+          ],
+          "eval_s": 63.8047981262207,
+          "eval_ep_s": 63.80479860305786
+        },
+        "video_paths": [
+          "/mnt/e/RoboHand/runs/2026-11-18-eb300-pilot/evaluation/pi05-lora-quantiles-v2/videos/validation-00/eval_episode_0.mp4"
+        ]
+      }
+    },
+    {
+      "case_id": "validation-01",
+      "split": "validation",
+      "quality_success": false,
+      "stock_eval": {
+        "per_episode": [
+          {
+            "episode_ix": 0,
+            "sum_reward": 0.0,
+            "max_reward": 0.0,
+            "success": false,
+            "seed": 1001,
+            "metrics": {
+              "held_s": 0.0,
+              "lift_m": -4.9179921006725635e-06,
+              "max_equality_residual": 5.711753146897536e-06,
+              "max_force_cap_fraction": 0.8680031895637512,
+              "max_non_tool_penetration_m": 0.0,
+              "max_other_penetration_m": 5.482471897266805e-05,
+              "max_pad_penetration_m": 0.0
+            }
+          }
+        ],
+        "aggregated": {
+          "avg_sum_reward": 0.0,
+          "avg_max_reward": 0.0,
+          "pc_success": 0.0,
+          "n_episodes": 1,
+          "n_success": 0,
+          "pc_success_ci95": [
+            0.0,
+            79.34506856227625
+          ],
+          "eval_s": 64.16510677337646,
+          "eval_ep_s": 64.16510701179504
+        },
+        "video_paths": [
+          "/mnt/e/RoboHand/runs/2026-11-18-eb300-pilot/evaluation/pi05-lora-quantiles-v2/videos/validation-01/eval_episode_0.mp4"
+        ]
+      }
+    },
+    {
+      "case_id": "validation-02",
+      "split": "validation",
+      "quality_success": false,
+      "stock_eval": {
+        "per_episode": [
+          {
+            "episode_ix": 0,
+            "sum_reward": 0.0,
+            "max_reward": 0.0,
+            "success": false,
+            "seed": 1002,
+            "metrics": {
+              "held_s": 0.0,
+              "lift_m": -4.9179921006725635e-06,
+              "max_equality_residual": 7.855785042920616e-06,
+              "max_force_cap_fraction": 0.9274836182594299,
+              "max_non_tool_penetration_m": 0.0,
+              "max_other_penetration_m": 5.482471897266805e-05,
+              "max_pad_penetration_m": 0.0
+            }
+          }
+        ],
+        "aggregated": {
+          "avg_sum_reward": 0.0,
+          "avg_max_reward": 0.0,
+          "pc_success": 0.0,
+          "n_episodes": 1,
+          "n_success": 0,
+          "pc_success_ci95": [
+            0.0,
+            79.34506856227625
+          ],
+          "eval_s": 66.69590401649475,
+          "eval_ep_s": 66.69590425491333
+        },
+        "video_paths": [
+          "/mnt/e/RoboHand/runs/2026-11-18-eb300-pilot/evaluation/pi05-lora-quantiles-v2/videos/validation-02/eval_episode_0.mp4"
+        ]
+      }
+    },
+    {
+      "case_id": "validation-03",
+      "split": "validation",
+      "quality_success": false,
+      "stock_eval": {
+        "per_episode": [
+          {
+            "episode_ix": 0,
+            "sum_reward": 0.0,
+            "max_reward": 0.0,
+            "success": false,
+            "seed": 1003,
+            "metrics": {
+              "held_s": 0.0,
+              "lift_m": -4.9179921006725635e-06,
+              "max_equality_residual": 1.0038535947387572e-05,
+              "max_force_cap_fraction": 0.9459934234619141,
+              "max_non_tool_penetration_m": 0.0,
+              "max_other_penetration_m": 5.482471897266805e-05,
+              "max_pad_penetration_m": 0.0
+            }
+          }
+        ],
+        "aggregated": {
+          "avg_sum_reward": 0.0,
+          "avg_max_reward": 0.0,
+          "pc_success": 0.0,
+          "n_episodes": 1,
+          "n_success": 0,
+          "pc_success_ci95": [
+            0.0,
+            79.34506856227625
+          ],
+          "eval_s": 69.97505354881287,
+          "eval_ep_s": 69.97505402565002
+        },
+        "video_paths": [
+          "/mnt/e/RoboHand/runs/2026-11-18-eb300-pilot/evaluation/pi05-lora-quantiles-v2/videos/validation-03/eval_episode_0.mp4"
+        ]
+      }
+    },
+    {
+      "case_id": "stress-00",
+      "split": "stress",
+      "quality_success": false,
+      "stock_eval": {
+        "per_episode": [
+          {
+            "episode_ix": 0,
+            "sum_reward": 0.0,
+            "max_reward": 0.0,
+            "success": false,
+            "seed": 1004,
+            "metrics": {
+              "held_s": 0.0,
+              "lift_m": -4.9179921006725635e-06,
+              "max_equality_residual": 6.22725383436773e-06,
+              "max_force_cap_fraction": 0.8818635940551758,
+              "max_non_tool_penetration_m": 0.0,
+              "max_other_penetration_m": 5.482471897266805e-05,
+              "max_pad_penetration_m": 0.0
+            }
+          }
+        ],
+        "aggregated": {
+          "avg_sum_reward": 0.0,
+          "avg_max_reward": 0.0,
+          "pc_success": 0.0,
+          "n_episodes": 1,
+          "n_success": 0,
+          "pc_success_ci95": [
+            0.0,
+            79.34506856227625
+          ],
+          "eval_s": 69.67092633247375,
+          "eval_ep_s": 69.67092680931091
+        },
+        "video_paths": [
+          "/mnt/e/RoboHand/runs/2026-11-18-eb300-pilot/evaluation/pi05-lora-quantiles-v2/videos/stress-00/eval_episode_0.mp4"
+        ]
+      }
+    },
+    {
+      "case_id": "stress-01",
+      "split": "stress",
+      "quality_success": false,
+      "stock_eval": {
+        "per_episode": [
+          {
+            "episode_ix": 0,
+            "sum_reward": 0.0,
+            "max_reward": 0.0,
+            "success": false,
+            "seed": 1005,
+            "metrics": {
+              "held_s": 0.0,
+              "lift_m": -4.9179921006725635e-06,
+              "max_equality_residual": 7.253961030073697e-06,
+              "max_force_cap_fraction": 0.9725466370582581,
+              "max_non_tool_penetration_m": 0.0,
+              "max_other_penetration_m": 5.482471897266805e-05,
+              "max_pad_penetration_m": 0.0
+            }
+          }
+        ],
+        "aggregated": {
+          "avg_sum_reward": 0.0,
+          "avg_max_reward": 0.0,
+          "pc_success": 0.0,
+          "n_episodes": 1,
+          "n_success": 0,
+          "pc_success_ci95": [
+            0.0,
+            79.34506856227625
+          ],
+          "eval_s": 66.26033735275269,
+          "eval_ep_s": 66.26033782958984
+        },
+        "video_paths": [
+          "/mnt/e/RoboHand/runs/2026-11-18-eb300-pilot/evaluation/pi05-lora-quantiles-v2/videos/stress-01/eval_episode_0.mp4"
+        ]
+      }
+    },
+    {
+      "case_id": "stress-02",
+      "split": "stress",
+      "quality_success": false,
+      "stock_eval": {
+        "per_episode": [
+          {
+            "episode_ix": 0,
+            "sum_reward": 0.0,
+            "max_reward": 0.0,
+            "success": false,
+            "seed": 1006,
+            "metrics": {
+              "held_s": 0.0,
+              "lift_m": -4.9179921006725635e-06,
+              "max_equality_residual": 1.2377468920021784e-05,
+              "max_force_cap_fraction": 0.9030614495277405,
+              "max_non_tool_penetration_m": 0.00010972830932587385,
+              "max_other_penetration_m": 5.482471897266805e-05,
+              "max_pad_penetration_m": 0.0
+            }
+          }
+        ],
+        "aggregated": {
+          "avg_sum_reward": 0.0,
+          "avg_max_reward": 0.0,
+          "pc_success": 0.0,
+          "n_episodes": 1,
+          "n_success": 0,
+          "pc_success_ci95": [
+            0.0,
+            79.34506856227625
+          ],
+          "eval_s": 65.02717566490173,
+          "eval_ep_s": 65.02717614173889
+        },
+        "video_paths": [
+          "/mnt/e/RoboHand/runs/2026-11-18-eb300-pilot/evaluation/pi05-lora-quantiles-v2/videos/stress-02/eval_episode_0.mp4"
+        ]
+      }
+    }
+  ],
+  "adapter_disabled_via_official_peft_context": false,
+  "peak_allocated_bytes": 9458912256,
+  "peak_reserved_bytes": 9722396672,
+  "summary": {
+    "validation": {
+      "cases": 4,
+      "quality_successes": 0
+    },
+    "stress": {
+      "cases": 3,
+      "quality_successes": 0
+    }
+  },
+  "excluded_invalid_initial_scene": [
+    "stress-03"
+  ]
+}

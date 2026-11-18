@@ -1,0 +1,54 @@
+{
+  "dataset": {
+    "repo_id": "local/eb300-pencil-pilot_train",
+    "root": "/var/tmp/robohand-pi05-7910c20-2026-11-17/eb300-pilot-data/train",
+    "image_transforms": {
+      "enable": false
+    },
+    "eval_split": 0.0,
+    "video_backend": "pyav"
+  },
+  "policy": {
+    "type": "pi05",
+    "pretrained_path": "/var/tmp/robohand-pi05-7910c20-2026-11-17/model",
+    "repo_id": "local/eb300-pencil-pi05-pilot",
+    "push_to_hub": false,
+    "input_features": null,
+    "output_features": null,
+    "normalization_mapping": {
+      "ACTION": "QUANTILES",
+      "STATE": "QUANTILES",
+      "VISUAL": "IDENTITY"
+    },
+    "n_action_steps": 10,
+    "chunk_size": 50,
+    "empty_cameras": 0,
+    "freeze_vision_encoder": true,
+    "train_expert_only": true,
+    "gradient_checkpointing": true,
+    "dtype": "bfloat16",
+    "device": "cuda",
+    "optimizer_lr": 0.00025,
+    "scheduler_warmup_steps": 50,
+    "scheduler_decay_steps": 1000,
+    "scheduler_decay_lr": 2.5e-05
+  },
+  "peft": {
+    "method_type": "LORA",
+    "r": 64,
+    "lora_alpha": 64
+  },
+  "output_dir": "/mnt/e/RoboHand/runs/2026-11-18-eb300-pilot/training/pi05-lora-quantiles-v2",
+  "job_name": "eb300-pencil-pilot-lora-quantiles-v2",
+  "batch_size": 4,
+  "num_workers": 0,
+  "steps": 1000,
+  "save_freq": 250,
+  "log_freq": 25,
+  "env_eval_freq": 0,
+  "eval_steps": 0,
+  "seed": 1000,
+  "trackio": {
+    "enable": false
+  }
+}

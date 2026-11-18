@@ -1,5 +1,7 @@
 # RoboHand.Simulator
 
+**18.11, новая итерация: [пилот и штатная π0.5 LoRA выполнены](docs/research/2026-11-18-pilot-and-lora.md).**11качественных scripted-expert train episodes/3403frames и4отдельных validation episodes/1238frames; stock merge/split/stats и точное сохранение действий/кадров проверены.1000official LoRA updates на локальной3090,80tensors/cold reload exact. **Захват ещё не освоен: base и LoRA обе0/4validation и0/3stress.** [GIF фактических neural attempts](<E:/RoboHand/LATEST/SIMULATION/EB300-PILOT-LORA/EB300-pi05-base-vs-lora.gif>); успешные expert показы ниже — отдельный результат.
+
 **18.11: [Mink binding и полный физический цикл карандаша проверены](docs/research/2026-11-18-mink-execution.md).** Подъём69,3мм, hold, опускание/release;12tests Windows/Linux.990кадров LeRobot записаны и повторены с0rad ошибки. [Новый GIF](<E:/RoboHand/LATEST/SIMULATION/EB300-ENVHUB/SHOWCASE/EB300-pencil-cycle.gif>) показывает fixed IK inputs; learned policy и зрительный поиск ещё не обучены. [Запуск viewer/записи](integrations/lerobot_envhub/README.md).
 
 **17.11: [полная EB300 подключена к LeRobot EnvHub](docs/research/2026-11-17-eb300-envhub-execution.md).** Подвижный EBG20, один полный wrist frame,7actions; проверены запись50кадров/replay,6tests на Windows/Linux и π0.5 inference на нашей scene. Windows-served replay24,86Hz при цели25Hz; hard realtime не заявляется. [GIF для просмотра](<E:/RoboHand/LATEST/SIMULATION/EB300-ENVHUB/SHOWCASE/EB300-workcell.gif>) показывает заданные движения, навык хвата ещё не обучен. [Adapter/готовые команды](integrations/lerobot_envhub/README.md).
@@ -65,5 +67,5 @@ The older `robohand.urdf.xacro` is an approximate historical model. Its `config_
 ## Phases
 
 1. **Verified:** CAD-based six-joint asset, frame checks, ROS description and nominal MuJoCo import/inspection.
-2. **Next:** Pinned NVIDIA typing runtime/GPU smoke and supported EB300 action/actuator/task configuration path.
-3. **Then:** Physical keyboard scene, PPO teacher and wrist vision student; hardware calibration/transfer remains a separate stage.
+2. **Current:** Seven-action EB300 EnvHub, approved Mink demonstrations, stock LeRobot dataset tools and official π0.5 LoRA pilot. Evaluate the learned policy on held-out scenes.
+3. **Next:** Tool acquisition and keyboard use through evaluated foundation-policy skills; hardware calibration/transfer remains a separate stage. Separate hand PPO training/runtime was retired by the owner on17.11; older artifacts remain historical evidence.

@@ -7,6 +7,10 @@ status: accepted-r8
 
 # Актуальная EB300: открывать R8
 
+**18.11, LoRA pilot:** отдельный human index — [LATEST/SIMULATION/EB300-PILOT-LORA/README.md](<E:/RoboHand/LATEST/SIMULATION/EB300-PILOT-LORA/README.md>), [GIF base/LoRA](<E:/RoboHand/LATEST/SIMULATION/EB300-PILOT-LORA/EB300-pi05-base-vs-lora.gif>), [полный отчёт](research/2026-11-18-pilot-and-lora.md).11train/4validation episodes,1000official updates и exact80tensor cold reload выполнены. **Обе neural policies получили0/4validation и0/3stress; learned grasp ещё нет.** Dataset/runtime/checkpoints — `E:\RoboHand\runs\2026-11-18-eb300-pilot`; это отдельный исследовательский кандидат, native CAD ниже не заменена.
+
+Private recovery packet: `E:\RoboHand\releases\EB300-PILOT-LORA-2026-11-18\EB300-PILOT-LORA-2026-11-18.zip`, зеркало `D:\RoboHand-Backups\EB300-PILOT-LORA-2026-11-18.zip`. Фактические SHA256/CRC/file hashes и Git commits — в [receipt.json](<E:/RoboHand/releases/EB300-PILOT-LORA-2026-11-18/receipt.json>). Не смешивать этот GIF неудавшихся neural attempts с последующим успешным fixed-target показом.
+
 **18.11:** в `LATEST/SIMULATION/EB300-ENVHUB` добавлены [проверенный Mink binding и команды](research/2026-11-18-mink-execution.md), [GIF полного контактного цикла](<E:/RoboHand/LATEST/SIMULATION/EB300-ENVHUB/SHOWCASE/EB300-pencil-cycle.gif>). Baseline scene и native CAD сохранены. Recovery packet `EB300-MINK-2026-11-18.zip` наE иD содержит snapshot run, dataset/trace и runtime; hashes/manifest в execution evidence. Это fixed-target simulation, не learned policy.
 
 **Runtime17.11:** [полная7action EB300/EBG20 + LeRobot EnvHub](research/2026-11-17-eb300-envhub-execution.md) отдельно в `E:\RoboHand\LATEST\SIMULATION\EB300-ENVHUB`. Запись/replay/base-policy interface проверены, [GIF](<E:/RoboHand/LATEST/SIMULATION/EB300-ENVHUB/SHOWCASE/EB300-workcell.gif>) показывает заданное движение. Native CAD R8 ниже сохранена; grasp skill ещё не обучен. Новый runtime имеет7position targets,1wrist image и собственный standard JSON contract; прежняя inspection scene остаётся историческим6axis asset.

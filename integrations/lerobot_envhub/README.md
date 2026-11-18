@@ -5,6 +5,8 @@ updated: 2026-11-18
 
 # EB300 EnvHub
 
+**Последняя итерация18.11:** [dataset/официальный LoRA pilot/evaluation](../../docs/research/2026-11-18-pilot-and-lora.md) выполнены:11train/4validation episodes,1000updates, exact80tensor reload. Base и LoRA обе0/4validation и0/3valid stress; trained grasp не принят. Успешные fixed-input движения ниже — экспертные показы. Контроллер/геометрия не менялись; добавлены только read-only physics quality peaks и13-я contract test.
+
 **18.11:** отдельно разрешён и проверен [Mink teleop binding](../../docs/research/2026-11-18-mink-execution.md). Он лежит в `teleop_mink.py`; исходный EnvHub ниже по-прежнему не содержит IK внутри environment. Полный990frame pickup/hold/place/release повторён с0rad ошибки. Это fixed operator inputs, не learned policy.
 
 ## Mink: готовое окно и запись
@@ -23,7 +25,7 @@ $eb300Session = Get-Date -Format 'yyyyMMdd-HHmmss'
 
 `9` включает готовый Mink keyboard teleop; стрелки — localX/Y цели, `6/7` — localZ, `.` переключает rotation, `-/+` меняют шаг. Upstream manual step по умолчанию10мм/10°: для точного подвода уменьшать шаг; `n` переключает continuous mode. `[` закрывает, `]` открывает MG995. Native viewer camera/target — помощь оператору; model input только полный wrist frame. Физические body perturbations/редактирование gravity и states запрещены guard; неудачный run не принимается в обучение. Закрытие окна завершает сеанс и report. Это не autonomous visual grasp.
 
-Native venv не содержит LeRobot writer. Для записи использовать уже проверенное Linux окружение/WSLg на том же ПК (не remote server), из runtime directory:
+Исходный `mink-1.4.0` native venv не содержит LeRobot writer. В новой итерации18.11 отдельно установлен `E:\RoboHand\tools\lerobot-record-win-2026-11-18\.venv` с официальным `lerobot[dataset]`: native Windows headless запись всего11train/4validation pilot проверена. Совместный ручной GUI+writer сеанс в этом новом Windows venv ещё не оценён. Ранее проверенная комбинация viewer+writer использует Linux окружение/WSLg на том же ПК (не remote server), из runtime directory:
 
 ```bash
 MUJOCO_GL=glfw /var/tmp/robohand-pi05-7910c20-2026-11-17/.venv/bin/python \
@@ -45,7 +47,7 @@ python teleop_mink.py --headless --continue-after-success --no-shadows --steps 1
 
 Семь абсолютных углов вrad, прежние torque caps,25Hz simulation clock/2ms. Fixed targets рассчитаны для исходной pencil pose и одного nominal actuator profile, включая фиксированное уточнение по hover. Это не universal grasp planner или real calibration. Collision limit учитывает robot↔obstacles; глобальная self-collision-free траектория не гарантируется. Deep runtime contacts прекращают запись, а всеquality metrics проверяются отдельно. Для benchmark success/rate нужны новые starts/test set.
 
-Разрешённая владельцем минимальная адаптация готового EnvHub к EB300. Штатные LeRobot SimRobot, dataset writer, replay, model factory и transport используются без fork. Здесь нет IK, teleoperator, motor policy, нового UI или собственного training framework.
+Разрешённая владельцем минимальная адаптация готового EnvHub к EB300. Штатные LeRobot SimRobot, dataset writer, replay, model factory и transport используются без fork. Сам environment не содержит IK/teleoperator/motor policy; отдельно разрешённый Mink binding описан выше. Собственный UI/training framework не создавался.
 
 Source pins: `huggingface/lerobot@7910c20a75834ad3fa6a9792df4d44a614d1bba6` и [исходный EnvHub](https://huggingface.co/lerobot/so101-tabletop-mujoco/tree/e68145d8bd793c27fa2c13e31369a616895c5acb) `e68145d8bd793c27fa2c13e31369a616895c5acb`. Сохранён Apache-2.0 header/[LICENSE](LICENSE). Simulator requirements находятся в [requirements.txt](requirements.txt); LeRobot policy/data dependencies устанавливаются отдельно. Механика взята из CAD нашей EB300/EBG20.
 
@@ -121,6 +123,8 @@ Client и server должны указывать одинаковые hub_path �
 На этом ПК WSL с тенями дал5.40Hz, native Windows server без теней —24.86Hz в50-tick CLI run при целевых25Hz;1/49judged ticks превысил40ms. Это короткая измеренная cadence, **не hard-real-time гарантия**. Native Windows OpenGL в этом запуске выбрал Intel UHD750; RTX3090 использовалась для PI05. WSL-render также отдельно проверен на RTX3090 через штатный Mesa adapter setting, но оказался медленнее.
 
 ## Запись и границы следующего этапа
+
+**Обновление18.11:** нижеследующий50frame smoke — история интерфейса. После отдельно разрешённого [Mink binding](../../docs/research/2026-11-18-eb300-teleop-adaptation.md) выполнен [полный fixed-target цикл](../../docs/research/2026-11-18-mink-execution.md), затем собран [новый пилот11train/4validation episodes и запущен официальный LoRA workflow](../../docs/research/2026-11-18-pilot-and-lora.md). В train используются только новые качественные pickup/hold записи;50/990diagnostics исключены. Новые read-only substep peaks `max_non_tool_penetration_m` и `max_force_cap_fraction` нужны для контроля качества; reward/termination/controller не меняют.
 
 Штатными `LeRobotDataset.create/add_frame/save_episode/finalize` и `build_dataset_frame` записан1episode/50frames, затем он прочитан и повторён через SimRobot: max joint replay error0, timestamp error≈5.72e−8s. Изображения сохранялись как image-backed dataset; streaming video не проверялось. Повторён и штатный `lerobot-replay` CLI. Это diagnostic joint motion, не human/grasp demonstrations и не training campaign.
 

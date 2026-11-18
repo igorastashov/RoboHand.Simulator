@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "episodes": 11,
+  "unique_initial_image_hashes": 11,
+  "first_and_last_images_preserved_exactly_through_merge_split": true,
+  "full_frame": true,
+  "cropped": false
+}

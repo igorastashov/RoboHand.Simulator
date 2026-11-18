@@ -1,0 +1,312 @@
+{
+  "stage": "completed",
+  "label": "baseline-pi05",
+  "teacher_in_inference": false,
+  "target_files_read_for_inference": false,
+  "normalization": "train-only statistics; baseline includes EB300 normalization, not pure zero-shot",
+  "cases": [
+    {
+      "case_id": "validation-00",
+      "split": "validation",
+      "quality_success": false,
+      "stock_eval": {
+        "per_episode": [
+          {
+            "episode_ix": 0,
+            "sum_reward": 0.0,
+            "max_reward": 0.0,
+            "success": false,
+            "seed": 1000,
+            "metrics": {
+              "held_s": 0.0,
+              "lift_m": -4.9179921006725635e-06,
+              "max_equality_residual": 0.00023300743487197906,
+              "max_force_cap_fraction": 1.0,
+              "max_non_tool_penetration_m": 0.0012539783492684364,
+              "max_other_penetration_m": 0.007442547474056482,
+              "max_pad_penetration_m": 0.0005280422046780586
+            }
+          }
+        ],
+        "aggregated": {
+          "avg_sum_reward": 0.0,
+          "avg_max_reward": 0.0,
+          "pc_success": 0.0,
+          "n_episodes": 1,
+          "n_success": 0,
+          "pc_success_ci95": [
+            0.0,
+            79.34506856227625
+          ],
+          "eval_s": 60.61851668357849,
+          "eval_ep_s": 60.61851716041565
+        },
+        "video_paths": [
+          "/mnt/e/RoboHand/runs/2026-11-18-eb300-pilot/evaluation/baseline-pi05/videos/validation-00/eval_episode_0.mp4"
+        ]
+      }
+    },
+    {
+      "case_id": "validation-01",
+      "split": "validation",
+      "quality_success": false,
+      "stock_eval": {
+        "per_episode": [
+          {
+            "episode_ix": 0,
+            "sum_reward": 0.0,
+            "max_reward": 0.0,
+            "success": false,
+            "seed": 1001,
+            "metrics": {
+              "held_s": 0.0,
+              "lift_m": -4.9179921006725635e-06,
+              "max_equality_residual": 0.00018206921231467277,
+              "max_force_cap_fraction": 1.0,
+              "max_non_tool_penetration_m": 0.0008602552697993815,
+              "max_other_penetration_m": 0.008125614374876022,
+              "max_pad_penetration_m": 0.0009706581477075815
+            }
+          }
+        ],
+        "aggregated": {
+          "avg_sum_reward": 0.0,
+          "avg_max_reward": 0.0,
+          "pc_success": 0.0,
+          "n_episodes": 1,
+          "n_success": 0,
+          "pc_success_ci95": [
+            0.0,
+            79.34506856227625
+          ],
+          "eval_s": 57.189077854156494,
+          "eval_ep_s": 57.18907809257507
+        },
+        "video_paths": [
+          "/mnt/e/RoboHand/runs/2026-11-18-eb300-pilot/evaluation/baseline-pi05/videos/validation-01/eval_episode_0.mp4"
+        ]
+      }
+    },
+    {
+      "case_id": "validation-02",
+      "split": "validation",
+      "quality_success": false,
+      "stock_eval": {
+        "per_episode": [
+          {
+            "episode_ix": 0,
+            "sum_reward": 0.0,
+            "max_reward": 0.0,
+            "success": false,
+            "seed": 1002,
+            "metrics": {
+              "held_s": 0.0,
+              "lift_m": -4.9179921006725635e-06,
+              "max_equality_residual": 0.0002256745210615918,
+              "max_force_cap_fraction": 1.0,
+              "max_non_tool_penetration_m": 0.001245051738806069,
+              "max_other_penetration_m": 0.0038691884838044643,
+              "max_pad_penetration_m": 0.0009169213590212166
+            }
+          }
+        ],
+        "aggregated": {
+          "avg_sum_reward": 0.0,
+          "avg_max_reward": 0.0,
+          "pc_success": 0.0,
+          "n_episodes": 1,
+          "n_success": 0,
+          "pc_success_ci95": [
+            0.0,
+            79.34506856227625
+          ],
+          "eval_s": 58.098559856414795,
+          "eval_ep_s": 58.098560094833374
+        },
+        "video_paths": [
+          "/mnt/e/RoboHand/runs/2026-11-18-eb300-pilot/evaluation/baseline-pi05/videos/validation-02/eval_episode_0.mp4"
+        ]
+      }
+    },
+    {
+      "case_id": "validation-03",
+      "split": "validation",
+      "quality_success": false,
+      "stock_eval": {
+        "per_episode": [
+          {
+            "episode_ix": 0,
+            "sum_reward": 0.0,
+            "max_reward": 0.0,
+            "success": false,
+            "seed": 1003,
+            "metrics": {
+              "held_s": 0.0,
+              "lift_m": -0.7800049185752869,
+              "max_equality_residual": 0.00011006631393684074,
+              "max_force_cap_fraction": 1.0,
+              "max_non_tool_penetration_m": 0.000881090119946748,
+              "max_other_penetration_m": 0.009444930590689182,
+              "max_pad_penetration_m": 0.00022053412976674736
+            }
+          }
+        ],
+        "aggregated": {
+          "avg_sum_reward": 0.0,
+          "avg_max_reward": 0.0,
+          "pc_success": 0.0,
+          "n_episodes": 1,
+          "n_success": 0,
+          "pc_success_ci95": [
+            0.0,
+            79.34506856227625
+          ],
+          "eval_s": 57.680078744888306,
+          "eval_ep_s": 57.680078983306885
+        },
+        "video_paths": [
+          "/mnt/e/RoboHand/runs/2026-11-18-eb300-pilot/evaluation/baseline-pi05/videos/validation-03/eval_episode_0.mp4"
+        ]
+      }
+    },
+    {
+      "case_id": "stress-00",
+      "split": "stress",
+      "quality_success": false,
+      "stock_eval": {
+        "per_episode": [
+          {
+            "episode_ix": 0,
+            "sum_reward": 0.0,
+            "max_reward": 0.0,
+            "success": false,
+            "seed": 1004,
+            "metrics": {
+              "held_s": 0.0,
+              "lift_m": -0.7800049185752869,
+              "max_equality_residual": 0.00015144780627451837,
+              "max_force_cap_fraction": 1.0,
+              "max_non_tool_penetration_m": 0.0008214649278670549,
+              "max_other_penetration_m": 0.008382037281990051,
+              "max_pad_penetration_m": 0.0
+            }
+          }
+        ],
+        "aggregated": {
+          "avg_sum_reward": 0.0,
+          "avg_max_reward": 0.0,
+          "pc_success": 0.0,
+          "n_episodes": 1,
+          "n_success": 0,
+          "pc_success_ci95": [
+            0.0,
+            79.34506856227625
+          ],
+          "eval_s": 56.89542841911316,
+          "eval_ep_s": 56.89542865753174
+        },
+        "video_paths": [
+          "/mnt/e/RoboHand/runs/2026-11-18-eb300-pilot/evaluation/baseline-pi05/videos/stress-00/eval_episode_0.mp4"
+        ]
+      }
+    },
+    {
+      "case_id": "stress-01",
+      "split": "stress",
+      "quality_success": false,
+      "stock_eval": {
+        "per_episode": [
+          {
+            "episode_ix": 0,
+            "sum_reward": 0.0,
+            "max_reward": 0.0,
+            "success": false,
+            "seed": 1005,
+            "metrics": {
+              "held_s": 0.0,
+              "lift_m": -4.9179921006725635e-06,
+              "max_equality_residual": 0.00019439810421317816,
+              "max_force_cap_fraction": 1.0,
+              "max_non_tool_penetration_m": 0.001449389848858118,
+              "max_other_penetration_m": 5.482471897266805e-05,
+              "max_pad_penetration_m": 0.0
+            }
+          }
+        ],
+        "aggregated": {
+          "avg_sum_reward": 0.0,
+          "avg_max_reward": 0.0,
+          "pc_success": 0.0,
+          "n_episodes": 1,
+          "n_success": 0,
+          "pc_success_ci95": [
+            0.0,
+            79.34506856227625
+          ],
+          "eval_s": 58.58665871620178,
+          "eval_ep_s": 58.58665895462036
+        },
+        "video_paths": [
+          "/mnt/e/RoboHand/runs/2026-11-18-eb300-pilot/evaluation/baseline-pi05/videos/stress-01/eval_episode_0.mp4"
+        ]
+      }
+    },
+    {
+      "case_id": "stress-02",
+      "split": "stress",
+      "quality_success": false,
+      "stock_eval": {
+        "per_episode": [
+          {
+            "episode_ix": 0,
+            "sum_reward": 0.0,
+            "max_reward": 0.0,
+            "success": false,
+            "seed": 1006,
+            "metrics": {
+              "held_s": 0.0,
+              "lift_m": -4.9179921006725635e-06,
+              "max_equality_residual": 8.205444464692846e-05,
+              "max_force_cap_fraction": 0.9954956769943237,
+              "max_non_tool_penetration_m": 0.0002315335295861587,
+              "max_other_penetration_m": 5.482471897266805e-05,
+              "max_pad_penetration_m": 0.0
+            }
+          }
+        ],
+        "aggregated": {
+          "avg_sum_reward": 0.0,
+          "avg_max_reward": 0.0,
+          "pc_success": 0.0,
+          "n_episodes": 1,
+          "n_success": 0,
+          "pc_success_ci95": [
+            0.0,
+            79.34506856227625
+          ],
+          "eval_s": 60.718045473098755,
+          "eval_ep_s": 60.71804618835449
+        },
+        "video_paths": [
+          "/mnt/e/RoboHand/runs/2026-11-18-eb300-pilot/evaluation/baseline-pi05/videos/stress-02/eval_episode_0.mp4"
+        ]
+      }
+    }
+  ],
+  "model_load_seconds": 89.69301877700491,
+  "peak_allocated_bytes": 9437268992,
+  "peak_reserved_bytes": 9701425152,
+  "summary": {
+    "validation": {
+      "cases": 4,
+      "quality_successes": 0
+    },
+    "stress": {
+      "cases": 3,
+      "quality_successes": 0
+    }
+  },
+  "excluded_invalid_initial_scene": [
+    "stress-03"
+  ]
+}

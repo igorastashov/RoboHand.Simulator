@@ -8,6 +8,7 @@ updated: 2026-11-18
 
 | Документ | Назначение |
 |---|---|
+| [Пилот EB300 и штатная π0.5 LoRA](research/2026-11-18-pilot-and-lora.md) |11train/4held-out episodes, stock merge/split/stats,1000updates/cold reload; base и LoRA обе0/4+0/3, навык пока не освоен |
 | [Mink: полный контактный цикл, запись и replay](research/2026-11-18-mink-execution.md) |69,3мм подъём→hold→place/release;12tests,990frames/0rad replay; fixed inputs, не learned grasp |
 | [Геометрия лежащего карандаша](cad-reviews/2026-11-18-pencil-clearance/agent-report.md) | Осевой хват ограничен корпусом; две точные поперечные poses и nominal1,5мм clearance |
 | [Разрешённый18.11 teleop scope](research/2026-11-18-eb300-teleop-adaptation.md) | Проверенные upstream варианты, точный gap и отдельное решение владельца на Mink/LeRobot binding |

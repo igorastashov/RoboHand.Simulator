@@ -1,0 +1,37 @@
+{
+  "train": {
+    "episodes": 11,
+    "frames": 3403,
+    "original_actions_preserved_exactly": true,
+    "action_sha256": "274bcc6b1061c8d903413415b308c37603802ae27acb4446f617dfa521fdd22c",
+    "case_ids": [
+      "train-00",
+      "train-01",
+      "train-02",
+      "train-03",
+      "train-04",
+      "train-05",
+      "train-06",
+      "train-07",
+      "train-08",
+      "train-09",
+      "train-10"
+    ]
+  },
+  "validation": {
+    "episodes": 4,
+    "frames": 1238,
+    "original_actions_preserved_exactly": true,
+    "action_sha256": "baf53a22d9eba303410f65e1832b04506ebab5659f3e3cfa3dacb2a806860ca9",
+    "case_ids": [
+      "validation-00",
+      "validation-01",
+      "validation-02",
+      "validation-03"
+    ]
+  },
+  "status": "stock-merge-split-stats-and-data-contract-verified",
+  "one_full_wrist_frame": true,
+  "normalization_from_train_only": true,
+  "old_diagnostics_excluded": true
+}

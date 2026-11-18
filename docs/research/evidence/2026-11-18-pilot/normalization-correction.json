@@ -1,0 +1,10 @@
+{
+  "status": "stopped-non-default-normalization-candidate",
+  "last_progress_step": 625,
+  "last_saved_step": 500,
+  "reason": "Agent switched the main pilot to the PI05 QUANTILES default after inspecting state tokenization. Full pinned pi05.mdx also explicitly supports MEAN_STD (LIBERO example and fallback); MEAN_STD is not inherently invalid.",
+  "no_claim_of_mastery": true,
+  "old_baseline_is_mean_std_only_not_main_comparator": true,
+  "correction": "Main candidate uses default QUANTILES with nondegenerate train-only q01/q99. The MEAN_STD candidate was stopped before completion/evaluation; normalization superiority and causality are not established.",
+  "source_clarification": "pi05.mdx lines102 and128 explicitly support MEAN_STD; configuration_pi05.py lines92-96 default to QUANTILES. Values outside tokenizer bins are a measured representation difference, not proof of incompatibility."
+}

@@ -156,6 +156,7 @@ class EB300Env(gym.Env):
         self._initial_tool_z = float(self.data.xpos[self._tool_body, 2])
         self._steps, self._held_s, self._done = 0, 0.0, False
         self._max_pad_penetration = self._max_other_penetration = self._max_equality_residual = 0.0
+        self._max_non_tool_penetration = self._max_force_cap_fraction = 0.0
         return self._observation(), {"is_success": False, "sim_time_s": float(self.data.time)}
 
     def _evaluate_physics_step(self) -> tuple[bool, dict[str, float]]:
@@ -163,6 +164,7 @@ class EB300Env(gym.Env):
         contact_pads, other_contact = set(), False
         for i, contact in enumerate(data.contact[:data.ncon]):
             if self._tool_geom not in contact.geom:
+                self._max_non_tool_penetration = max(self._max_non_tool_penetration, max(0.0, -float(contact.dist)))
                 continue
             other = int(contact.geom[0] if contact.geom[1] == self._tool_geom else contact.geom[1])
             force = np.zeros(6)
@@ -177,12 +179,17 @@ class EB300Env(gym.Env):
                 other_contact |= force[0] > 0.005
         eq = data.efc_pos[data.efc_type == mujoco.mjtConstraint.mjCNSTR_EQUALITY]
         self._max_equality_residual = max(self._max_equality_residual, float(np.max(np.abs(eq), initial=0)))
+        force_caps = np.max(np.abs(model.actuator_forcerange[self._actuators]), axis=1)
+        self._max_force_cap_fraction = max(self._max_force_cap_fraction,
+                                          float(np.max(np.abs(data.actuator_force[self._actuators]) / force_caps)))
         lift = float(data.xpos[self._tool_body, 2]) - self._initial_tool_z
         holding = contact_pads == self._pads and not other_contact and lift >= self.lift_height_m
         self._held_s = self._held_s + model.opt.timestep if holding else 0.0
         metrics = {"lift_m": lift, "held_s": self._held_s,
                    "max_pad_penetration_m": self._max_pad_penetration,
                    "max_other_penetration_m": self._max_other_penetration,
+                   "max_non_tool_penetration_m": self._max_non_tool_penetration,
+                   "max_force_cap_fraction": self._max_force_cap_fraction,
                    "max_equality_residual": self._max_equality_residual}
         return self._held_s >= self.hold_seconds, metrics
 

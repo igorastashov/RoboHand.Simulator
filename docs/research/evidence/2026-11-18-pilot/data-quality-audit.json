@@ -1,0 +1,716 @@
+{
+  "status": "qualified-scripted-expert-pilot",
+  "quality_threshold_m": 0.0001,
+  "attempts": [
+    {
+      "run_id": "train-00",
+      "qualified": true,
+      "raw_success": true,
+      "failure": null,
+      "frames": 309,
+      "metrics": {
+        "lift_m": 0.06547814862980572,
+        "held_s": 0.5040000000000003,
+        "max_pad_penetration_m": 2.9319459996007263e-05,
+        "max_other_penetration_m": 5.4824720005730576e-05,
+        "max_non_tool_penetration_m": 0.0,
+        "max_force_cap_fraction": 0.8729055193363885,
+        "max_equality_residual": 2.6640473319107082e-05
+      },
+      "report_sha256": "a017160c31adba50165b7a9d58045e54126a7e4b6c9fb6f94ede11f3121a4723",
+      "case_id": "train-00",
+      "split": "train"
+    },
+    {
+      "run_id": "train-01",
+      "qualified": true,
+      "raw_success": true,
+      "failure": null,
+      "frames": 310,
+      "metrics": {
+        "lift_m": 0.06578984400741517,
+        "held_s": 0.5340000000000004,
+        "max_pad_penetration_m": 6.42308856829329e-05,
+        "max_other_penetration_m": 5.4824720005730576e-05,
+        "max_non_tool_penetration_m": 0.0,
+        "max_force_cap_fraction": 0.8729055193363885,
+        "max_equality_residual": 2.600588627402851e-05
+      },
+      "report_sha256": "7a0917af5865e2260f5f719b5bb3dfd51e7372c2c4c3002186c36b8e26783a49",
+      "case_id": "train-01",
+      "split": "train"
+    },
+    {
+      "run_id": "train-02",
+      "qualified": false,
+      "raw_success": false,
+      "failure": null,
+      "frames": 370,
+      "metrics": {
+        "lift_m": -4.917992234121371e-06,
+        "held_s": 0.0,
+        "max_pad_penetration_m": 0.00034556677042948876,
+        "max_other_penetration_m": 0.00035803298305780995,
+        "max_non_tool_penetration_m": 0.0,
+        "max_force_cap_fraction": 0.8710928645799478,
+        "max_equality_residual": 2.5923149394972266e-05
+      },
+      "report_sha256": "7502128c018b001fe9589546ad8402060f88ef04909c82bd3bc8b65aab641a0b",
+      "case_id": "train-02",
+      "split": "train"
+    },
+    {
+      "run_id": "train-02-r2",
+      "qualified": true,
+      "raw_success": true,
+      "failure": null,
+      "frames": 310,
+      "metrics": {
+        "lift_m": 0.06579211617900016,
+        "held_s": 0.5340000000000004,
+        "max_pad_penetration_m": 2.9220592113510344e-05,
+        "max_other_penetration_m": 5.4824720005730576e-05,
+        "max_non_tool_penetration_m": 0.0,
+        "max_force_cap_fraction": 0.8710928645799478,
+        "max_equality_residual": 2.671537884029341e-05
+      },
+      "report_sha256": "6661097f2fb4b02898cbda6db7ab13ceb57b3b0390f33f2d40b592212f7ffc9a",
+      "case_id": "train-02",
+      "split": "train"
+    },
+    {
+      "run_id": "train-03",
+      "qualified": true,
+      "raw_success": true,
+      "failure": null,
+      "frames": 310,
+      "metrics": {
+        "lift_m": 0.06576046207906439,
+        "held_s": 0.5340000000000004,
+        "max_pad_penetration_m": 6.589867914318909e-05,
+        "max_other_penetration_m": 7.799817574050127e-05,
+        "max_non_tool_penetration_m": 0.0,
+        "max_force_cap_fraction": 0.8729055193363885,
+        "max_equality_residual": 2.6262574388097402e-05
+      },
+      "report_sha256": "273b0a981ecb1d18efc281ffd47c307fdad0ba753564498612c23f3f2b926620",
+      "case_id": "train-03",
+      "split": "train"
+    },
+    {
+      "run_id": "train-04",
+      "qualified": false,
+      "raw_success": true,
+      "failure": null,
+      "frames": 310,
+      "metrics": {
+        "lift_m": 0.06555457563074962,
+        "held_s": 0.5320000000000004,
+        "max_pad_penetration_m": 0.0001227138124641599,
+        "max_other_penetration_m": 0.0004461374311686964,
+        "max_non_tool_penetration_m": 0.0,
+        "max_force_cap_fraction": 0.8710928645799478,
+        "max_equality_residual": 2.8494466645291854e-05
+      },
+      "report_sha256": "953e784fb099cfbc65e40816cb37529d69c20aa6c3a78e92b328b325b7adcbb5",
+      "case_id": "train-04",
+      "split": "train"
+    },
+    {
+      "run_id": "train-04-r2",
+      "qualified": true,
+      "raw_success": true,
+      "failure": null,
+      "frames": 310,
+      "metrics": {
+        "lift_m": 0.06579286544949181,
+        "held_s": 0.5340000000000004,
+        "max_pad_penetration_m": 2.9239486713978124e-05,
+        "max_other_penetration_m": 5.4824720005730576e-05,
+        "max_non_tool_penetration_m": 0.0,
+        "max_force_cap_fraction": 0.8710928645799478,
+        "max_equality_residual": 2.6661316348352768e-05
+      },
+      "report_sha256": "22924ac6249a10e77b6b30ba5b13825b0b27a9ccc95e3ded19156f06081bea99",
+      "case_id": "train-04",
+      "split": "train"
+    },
+    {
+      "run_id": "train-05",
+      "qualified": true,
+      "raw_success": true,
+      "failure": null,
+      "frames": 309,
+      "metrics": {
+        "lift_m": 0.06548443418042649,
+        "held_s": 0.5040000000000003,
+        "max_pad_penetration_m": 2.9194609518173413e-05,
+        "max_other_penetration_m": 5.4824720005730576e-05,
+        "max_non_tool_penetration_m": 0.0,
+        "max_force_cap_fraction": 0.8729055193363885,
+        "max_equality_residual": 2.6642301000223776e-05
+      },
+      "report_sha256": "18544638e32c52f3d32af3d0b513e2cd4471721edbc47b230c1529baf217bc5d",
+      "case_id": "train-05",
+      "split": "train"
+    },
+    {
+      "run_id": "train-06",
+      "qualified": true,
+      "raw_success": true,
+      "failure": null,
+      "frames": 309,
+      "metrics": {
+        "lift_m": 0.06548638770156245,
+        "held_s": 0.5040000000000003,
+        "max_pad_penetration_m": 2.9256737376440976e-05,
+        "max_other_penetration_m": 5.4824720005730576e-05,
+        "max_non_tool_penetration_m": 0.0,
+        "max_force_cap_fraction": 0.8710928645799478,
+        "max_equality_residual": 2.6733254937145318e-05
+      },
+      "report_sha256": "8673f471394786eba5bc507a022e423e2161f591fef7cefa71d3ccf12e618793",
+      "case_id": "train-06",
+      "split": "train"
+    },
+    {
+      "run_id": "train-07",
+      "qualified": true,
+      "raw_success": true,
+      "failure": null,
+      "frames": 309,
+      "metrics": {
+        "lift_m": 0.06547920463512369,
+        "held_s": 0.5040000000000003,
+        "max_pad_penetration_m": 2.9217176914215243e-05,
+        "max_other_penetration_m": 5.4824720005730576e-05,
+        "max_non_tool_penetration_m": 0.0,
+        "max_force_cap_fraction": 0.8729055193363885,
+        "max_equality_residual": 2.6647285546525963e-05
+      },
+      "report_sha256": "8399cd1568a9d96b9ff3e77fcc41828bbb60d81f4bed279fd9084ad0a447ba24",
+      "case_id": "train-07",
+      "split": "train"
+    },
+    {
+      "run_id": "train-08",
+      "qualified": true,
+      "raw_success": true,
+      "failure": null,
+      "frames": 309,
+      "metrics": {
+        "lift_m": 0.06542221857397146,
+        "held_s": 0.5020000000000003,
+        "max_pad_penetration_m": 4.388538016321594e-05,
+        "max_other_penetration_m": 7.415044182585131e-05,
+        "max_non_tool_penetration_m": 0.0,
+        "max_force_cap_fraction": 0.8710928645799478,
+        "max_equality_residual": 2.695157001869359e-05
+      },
+      "report_sha256": "9573466859ccf7990c147102524beba8a4f8ffb4349db5a66060c53fa961bb0c",
+      "case_id": "train-08",
+      "split": "train"
+    },
+    {
+      "run_id": "train-09",
+      "qualified": true,
+      "raw_success": true,
+      "failure": null,
+      "frames": 309,
+      "metrics": {
+        "lift_m": 0.06539832526670397,
+        "held_s": 0.5060000000000003,
+        "max_pad_penetration_m": 2.920762211515267e-05,
+        "max_other_penetration_m": 5.4824720005730576e-05,
+        "max_non_tool_penetration_m": 1.8698785674504754e-05,
+        "max_force_cap_fraction": 0.8729055193363885,
+        "max_equality_residual": 3.457388771702791e-05
+      },
+      "report_sha256": "cffa9ea30f5c3a5a8f950b1059cb731abcc7dbd2933644533db6f3a340991cb1",
+      "case_id": "train-09",
+      "split": "train"
+    },
+    {
+      "run_id": "train-10",
+      "qualified": true,
+      "raw_success": true,
+      "failure": null,
+      "frames": 309,
+      "metrics": {
+        "lift_m": 0.06516552651899088,
+        "held_s": 0.5040000000000003,
+        "max_pad_penetration_m": 3.2909818742005995e-05,
+        "max_other_penetration_m": 7.784636897667507e-05,
+        "max_non_tool_penetration_m": 2.767220020103514e-05,
+        "max_force_cap_fraction": 0.8710928645799478,
+        "max_equality_residual": 3.047969115025544e-05
+      },
+      "report_sha256": "06a630dade4811ffcf09db2091f4383724d470840a939cc47873ae76e459580c",
+      "case_id": "train-10",
+      "split": "train"
+    },
+    {
+      "run_id": "train-11",
+      "qualified": false,
+      "raw_success": false,
+      "failure": null,
+      "frames": 370,
+      "metrics": {
+        "lift_m": -4.9179922338993265e-06,
+        "held_s": 0.0,
+        "max_pad_penetration_m": 0.0,
+        "max_other_penetration_m": 5.4824720005730576e-05,
+        "max_non_tool_penetration_m": 0.0001451696432262175,
+        "max_force_cap_fraction": 0.8729055193363885,
+        "max_equality_residual": 5.2531077109126134e-05
+      },
+      "report_sha256": "54bcfb44aa48c9800e6f1f5418a3348578a81ddff189569f954c4d5be164f15f",
+      "case_id": "train-11",
+      "split": "train"
+    },
+    {
+      "run_id": "train-11-r2",
+      "qualified": false,
+      "raw_success": false,
+      "failure": null,
+      "frames": 370,
+      "metrics": {
+        "lift_m": -4.917992234010349e-06,
+        "held_s": 0.0,
+        "max_pad_penetration_m": 0.0,
+        "max_other_penetration_m": 5.4824720005730576e-05,
+        "max_non_tool_penetration_m": 0.000532782775097042,
+        "max_force_cap_fraction": 0.8729055193363885,
+        "max_equality_residual": 5.105410762919172e-05
+      },
+      "report_sha256": "e1795bdcd2921b2f51826bc4f09df4af45a156b00fa6fe9224fa688b8d60f65a",
+      "case_id": "train-11",
+      "split": "train"
+    },
+    {
+      "run_id": "train-12",
+      "qualified": false,
+      "raw_success": false,
+      "failure": null,
+      "frames": 370,
+      "metrics": {
+        "lift_m": -4.917992234010349e-06,
+        "held_s": 0.0,
+        "max_pad_penetration_m": 0.0,
+        "max_other_penetration_m": 5.4824720005730576e-05,
+        "max_non_tool_penetration_m": 0.00037682629165976077,
+        "max_force_cap_fraction": 0.8710928645799478,
+        "max_equality_residual": 0.00015293994660703619
+      },
+      "report_sha256": "467ce91fa0c33be5ade4caf9070d6abf72faccc8c955ab9dfdf6d2fcd11d9347",
+      "case_id": "train-12",
+      "split": "train"
+    },
+    {
+      "run_id": "train-12-r2",
+      "qualified": false,
+      "raw_success": false,
+      "failure": null,
+      "frames": 370,
+      "metrics": {
+        "lift_m": -4.917992234121371e-06,
+        "held_s": 0.0,
+        "max_pad_penetration_m": 0.0,
+        "max_other_penetration_m": 5.4824720005730576e-05,
+        "max_non_tool_penetration_m": 0.00043773393716773365,
+        "max_force_cap_fraction": 0.8710928645799478,
+        "max_equality_residual": 0.00014896478716627196
+      },
+      "report_sha256": "e60189d50745fb4ec2c1a0524eaa159340c67fa5f5768d5cbbe2b97cd920f050",
+      "case_id": "train-12",
+      "split": "train"
+    },
+    {
+      "run_id": "validation-00",
+      "qualified": true,
+      "raw_success": true,
+      "failure": null,
+      "frames": 310,
+      "metrics": {
+        "lift_m": 0.06608958856519254,
+        "held_s": 0.5380000000000004,
+        "max_pad_penetration_m": 2.9337407824787654e-05,
+        "max_other_penetration_m": 5.482472000739591e-05,
+        "max_non_tool_penetration_m": 0.0,
+        "max_force_cap_fraction": 0.8729055193363885,
+        "max_equality_residual": 2.668336642258108e-05
+      },
+      "report_sha256": "a79b7bd7d5fd4207dc46dc08720464d56b36e76f5498fa687294bb830984b6d5",
+      "case_id": "validation-00",
+      "split": "validation"
+    },
+    {
+      "run_id": "validation-01",
+      "qualified": true,
+      "raw_success": true,
+      "failure": null,
+      "frames": 310,
+      "metrics": {
+        "lift_m": 0.06609208843028991,
+        "held_s": 0.5380000000000004,
+        "max_pad_penetration_m": 2.9363468741279688e-05,
+        "max_other_penetration_m": 5.4824720005730576e-05,
+        "max_non_tool_penetration_m": 0.0,
+        "max_force_cap_fraction": 0.8725579257164262,
+        "max_equality_residual": 2.6675445323233894e-05
+      },
+      "report_sha256": "7c6df2ee4238ce796bc5663a0297483fb23ff1d52db13daefb1c100b714132dc",
+      "case_id": "validation-01",
+      "split": "validation"
+    },
+    {
+      "run_id": "validation-02",
+      "qualified": true,
+      "raw_success": true,
+      "failure": null,
+      "frames": 309,
+      "metrics": {
+        "lift_m": 0.06578601181687183,
+        "held_s": 0.5060000000000003,
+        "max_pad_penetration_m": 2.9243648976094504e-05,
+        "max_other_penetration_m": 5.482472000739591e-05,
+        "max_non_tool_penetration_m": 0.0,
+        "max_force_cap_fraction": 0.8729055193363885,
+        "max_equality_residual": 2.6667421390814353e-05
+      },
+      "report_sha256": "255126269f9ec9dd0782dcec93f539772792fde5252d4a770c0aa54849fd57bb",
+      "case_id": "validation-02",
+      "split": "validation"
+    },
+    {
+      "run_id": "validation-03",
+      "qualified": true,
+      "raw_success": true,
+      "failure": null,
+      "frames": 309,
+      "metrics": {
+        "lift_m": 0.06579683707241224,
+        "held_s": 0.5080000000000003,
+        "max_pad_penetration_m": 2.9361623775068953e-05,
+        "max_other_penetration_m": 5.4824720005730576e-05,
+        "max_non_tool_penetration_m": 6.172494967466756e-06,
+        "max_force_cap_fraction": 0.8725496877948152,
+        "max_equality_residual": 2.6676449406423317e-05
+      },
+      "report_sha256": "fac41318867da9e913a5f2bf8231f4382c6072f4b3d6eeb72635b1d95a677fe5",
+      "case_id": "validation-03",
+      "split": "validation"
+    },
+    {
+      "run_id": "stress-00",
+      "qualified": false,
+      "raw_success": false,
+      "failure": null,
+      "frames": 370,
+      "metrics": {
+        "lift_m": -4.917992234010349e-06,
+        "held_s": 0.0,
+        "max_pad_penetration_m": 2.002286960388955e-05,
+        "max_other_penetration_m": 0.0002838398081737026,
+        "max_non_tool_penetration_m": 0.0,
+        "max_force_cap_fraction": 0.8729055193363885,
+        "max_equality_residual": 6.799185652521609e-06
+      },
+      "report_sha256": "670cdf95af4ff87bc5ba2e4e3dd05dd55c271c8abc6d25273c7ba49791c6ffd7",
+      "case_id": "stress-00",
+      "split": "stress"
+    },
+    {
+      "run_id": "stress-01",
+      "qualified": false,
+      "raw_success": false,
+      "failure": null,
+      "frames": 370,
+      "metrics": {
+        "lift_m": -4.917992233788304e-06,
+        "held_s": 0.0,
+        "max_pad_penetration_m": 3.261326140348015e-05,
+        "max_other_penetration_m": 0.000348610532427851,
+        "max_non_tool_penetration_m": 0.0,
+        "max_force_cap_fraction": 0.8583641788462208,
+        "max_equality_residual": 8.089329835720121e-06
+      },
+      "report_sha256": "b2d892afcf40fce10c0a0f98134e7fc4fb63dd3c1115985d122b96c9f8711c83",
+      "case_id": "stress-01",
+      "split": "stress"
+    },
+    {
+      "run_id": "stress-02",
+      "qualified": false,
+      "raw_success": true,
+      "failure": null,
+      "frames": 310,
+      "metrics": {
+        "lift_m": 0.0646891071156327,
+        "held_s": 0.5380000000000004,
+        "max_pad_penetration_m": 3.304515715452162e-05,
+        "max_other_penetration_m": 0.00010179188851278109,
+        "max_non_tool_penetration_m": 7.214021445179895e-05,
+        "max_force_cap_fraction": 0.8609512886954788,
+        "max_equality_residual": 5.1038695278722394e-05
+      },
+      "report_sha256": "bfc05a59396344810198c23d09556021515891d005d43e23b855364ae3699989",
+      "case_id": "stress-02",
+      "split": "stress"
+    },
+    {
+      "run_id": "stress-03",
+      "qualified": false,
+      "raw_success": false,
+      "failure": "RuntimeError: Deep physical contact; diagnostic stopped",
+      "frames": 1,
+      "metrics": {
+        "lift_m": -0.0033517170197117085,
+        "held_s": 0.0,
+        "max_pad_penetration_m": 0.0,
+        "max_other_penetration_m": 0.006999999999999895,
+        "max_non_tool_penetration_m": 0.0,
+        "max_force_cap_fraction": 0.8120542314407917,
+        "max_equality_residual": 2.147720114966875e-06
+      },
+      "report_sha256": "b2c3e8b2da6b299ec50241295e267e6adb818244591d785ca2cf3105a2d02fd4",
+      "case_id": "stress-03",
+      "split": "stress"
+    }
+  ],
+  "selected": [
+    {
+      "case_id": "train-00",
+      "split": "train",
+      "run_id": "train-00",
+      "dataset_root": "E:\\RoboHand\\runs\\2026-11-18-eb300-pilot\\episodes\\train-00\\dataset",
+      "frames": 309
+    },
+    {
+      "case_id": "train-01",
+      "split": "train",
+      "run_id": "train-01",
+      "dataset_root": "E:\\RoboHand\\runs\\2026-11-18-eb300-pilot\\episodes\\train-01\\dataset",
+      "frames": 310
+    },
+    {
+      "case_id": "train-02",
+      "split": "train",
+      "run_id": "train-02-r2",
+      "dataset_root": "E:\\RoboHand\\runs\\2026-11-18-eb300-pilot\\episodes\\train-02-r2\\dataset",
+      "frames": 310
+    },
+    {
+      "case_id": "train-03",
+      "split": "train",
+      "run_id": "train-03",
+      "dataset_root": "E:\\RoboHand\\runs\\2026-11-18-eb300-pilot\\episodes\\train-03\\dataset",
+      "frames": 310
+    },
+    {
+      "case_id": "train-04",
+      "split": "train",
+      "run_id": "train-04-r2",
+      "dataset_root": "E:\\RoboHand\\runs\\2026-11-18-eb300-pilot\\episodes\\train-04-r2\\dataset",
+      "frames": 310
+    },
+    {
+      "case_id": "train-05",
+      "split": "train",
+      "run_id": "train-05",
+      "dataset_root": "E:\\RoboHand\\runs\\2026-11-18-eb300-pilot\\episodes\\train-05\\dataset",
+      "frames": 309
+    },
+    {
+      "case_id": "train-06",
+      "split": "train",
+      "run_id": "train-06",
+      "dataset_root": "E:\\RoboHand\\runs\\2026-11-18-eb300-pilot\\episodes\\train-06\\dataset",
+      "frames": 309
+    },
+    {
+      "case_id": "train-07",
+      "split": "train",
+      "run_id": "train-07",
+      "dataset_root": "E:\\RoboHand\\runs\\2026-11-18-eb300-pilot\\episodes\\train-07\\dataset",
+      "frames": 309
+    },
+    {
+      "case_id": "train-08",
+      "split": "train",
+      "run_id": "train-08",
+      "dataset_root": "E:\\RoboHand\\runs\\2026-11-18-eb300-pilot\\episodes\\train-08\\dataset",
+      "frames": 309
+    },
+    {
+      "case_id": "train-09",
+      "split": "train",
+      "run_id": "train-09",
+      "dataset_root": "E:\\RoboHand\\runs\\2026-11-18-eb300-pilot\\episodes\\train-09\\dataset",
+      "frames": 309
+    },
+    {
+      "case_id": "train-10",
+      "split": "train",
+      "run_id": "train-10",
+      "dataset_root": "E:\\RoboHand\\runs\\2026-11-18-eb300-pilot\\episodes\\train-10\\dataset",
+      "frames": 309
+    },
+    {
+      "case_id": "validation-00",
+      "split": "validation",
+      "run_id": "validation-00",
+      "dataset_root": "E:\\RoboHand\\runs\\2026-11-18-eb300-pilot\\episodes\\validation-00\\dataset",
+      "frames": 310
+    },
+    {
+      "case_id": "validation-01",
+      "split": "validation",
+      "run_id": "validation-01",
+      "dataset_root": "E:\\RoboHand\\runs\\2026-11-18-eb300-pilot\\episodes\\validation-01\\dataset",
+      "frames": 310
+    },
+    {
+      "case_id": "validation-02",
+      "split": "validation",
+      "run_id": "validation-02",
+      "dataset_root": "E:\\RoboHand\\runs\\2026-11-18-eb300-pilot\\episodes\\validation-02\\dataset",
+      "frames": 309
+    },
+    {
+      "case_id": "validation-03",
+      "split": "validation",
+      "run_id": "validation-03",
+      "dataset_root": "E:\\RoboHand\\runs\\2026-11-18-eb300-pilot\\episodes\\validation-03\\dataset",
+      "frames": 309
+    }
+  ],
+  "initial_scene_checks": [
+    {
+      "case_id": "train-00",
+      "initial_pencil_collision_free_within_0_1mm": true,
+      "bad_contacts": []
+    },
+    {
+      "case_id": "train-01",
+      "initial_pencil_collision_free_within_0_1mm": true,
+      "bad_contacts": []
+    },
+    {
+      "case_id": "train-02",
+      "initial_pencil_collision_free_within_0_1mm": true,
+      "bad_contacts": []
+    },
+    {
+      "case_id": "train-03",
+      "initial_pencil_collision_free_within_0_1mm": true,
+      "bad_contacts": []
+    },
+    {
+      "case_id": "train-04",
+      "initial_pencil_collision_free_within_0_1mm": true,
+      "bad_contacts": []
+    },
+    {
+      "case_id": "train-05",
+      "initial_pencil_collision_free_within_0_1mm": true,
+      "bad_contacts": []
+    },
+    {
+      "case_id": "train-06",
+      "initial_pencil_collision_free_within_0_1mm": true,
+      "bad_contacts": []
+    },
+    {
+      "case_id": "train-07",
+      "initial_pencil_collision_free_within_0_1mm": true,
+      "bad_contacts": []
+    },
+    {
+      "case_id": "train-08",
+      "initial_pencil_collision_free_within_0_1mm": true,
+      "bad_contacts": []
+    },
+    {
+      "case_id": "train-09",
+      "initial_pencil_collision_free_within_0_1mm": true,
+      "bad_contacts": []
+    },
+    {
+      "case_id": "train-10",
+      "initial_pencil_collision_free_within_0_1mm": true,
+      "bad_contacts": []
+    },
+    {
+      "case_id": "train-11",
+      "initial_pencil_collision_free_within_0_1mm": true,
+      "bad_contacts": []
+    },
+    {
+      "case_id": "train-12",
+      "initial_pencil_collision_free_within_0_1mm": true,
+      "bad_contacts": []
+    },
+    {
+      "case_id": "validation-00",
+      "initial_pencil_collision_free_within_0_1mm": true,
+      "bad_contacts": []
+    },
+    {
+      "case_id": "validation-01",
+      "initial_pencil_collision_free_within_0_1mm": true,
+      "bad_contacts": []
+    },
+    {
+      "case_id": "validation-02",
+      "initial_pencil_collision_free_within_0_1mm": true,
+      "bad_contacts": []
+    },
+    {
+      "case_id": "validation-03",
+      "initial_pencil_collision_free_within_0_1mm": true,
+      "bad_contacts": []
+    },
+    {
+      "case_id": "stress-00",
+      "initial_pencil_collision_free_within_0_1mm": true,
+      "bad_contacts": []
+    },
+    {
+      "case_id": "stress-01",
+      "initial_pencil_collision_free_within_0_1mm": true,
+      "bad_contacts": []
+    },
+    {
+      "case_id": "stress-02",
+      "initial_pencil_collision_free_within_0_1mm": true,
+      "bad_contacts": []
+    },
+    {
+      "case_id": "stress-03",
+      "initial_pencil_collision_free_within_0_1mm": false,
+      "bad_contacts": [
+        {
+          "geoms": [
+            "pencil_contact",
+            "keyboard_case"
+          ],
+          "depth_m": 0.006999999999999895
+        },
+        {
+          "geoms": [
+            "pencil_contact",
+            "keyboard_case"
+          ],
+          "depth_m": 0.006999999999999895
+        }
+      ]
+    }
+  ],
+  "held_out_targets_modified": false,
+  "old_diagnostic_50_or_990_included": false,
+  "train_episodes": 11,
+  "train_frames": 3403,
+  "validation_episodes": 4,
+  "validation_frames": 1238
+}

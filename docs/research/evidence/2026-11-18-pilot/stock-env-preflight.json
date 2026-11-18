@@ -1,0 +1,14 @@
+{
+  "status": "stock-native-batch-env-preprocess-task-step-passed",
+  "one_full_wrist_shape": [
+    1,
+    3,
+    360,
+    640
+  ],
+  "state_shape": [
+    1,
+    7
+  ],
+  "teacher_in_inference": false
+}

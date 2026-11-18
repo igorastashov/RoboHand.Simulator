@@ -1,0 +1,7 @@
+{
+  "adapter_tensors": 80,
+  "all_tensors_exact": true,
+  "finite": true,
+  "train_normalization_exact": true,
+  "sha256": "70f55eab7522e2a3b1b844d64cdff2e51d13b6c3b3bd54af694f2526e8c12331"
+}
