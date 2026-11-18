@@ -1,0 +1,11 @@
+<mujoco model="EB300_Mink_teleop">
+  <include file="eb300_envhub_scene.xml" />
+  <worldbody>
+    <!-- Viewer-only goal: no collision, joint, weld or mechanical connection.
+         Group5 is excluded from the environment's default sensor rendering. -->
+    <body name="eb300/teleop_target" mocap="true" pos="0 0 1">
+      <geom name="eb300/teleop_target_marker" type="sphere" size=".008" rgba="0 1 0 .5"
+            group="5" contype="0" conaffinity="0" density="0" />
+    </body>
+  </worldbody>
+</mujoco>

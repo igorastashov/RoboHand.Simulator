@@ -1,0 +1,6 @@
+# Optional binding approved18.11; no model/training dependencies required for IK.
+-r requirements.txt
+mink @ git+https://github.com/kevinzakka/mink.git@5f800f0a369d05bab88b5e5582cf95122d3b82a5
+qpsolvers[daqp]==4.13.0
+daqp==0.11.2
+# Recording additionally uses the already pinned LeRobot7910c20 environment.

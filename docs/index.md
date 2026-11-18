@@ -1,13 +1,16 @@
 ---
 tags: [robohand, simulator, index]
 type: index
-updated: 2026-11-17
+updated: 2026-11-18
 ---
 
 # Документация Simulator
 
 | Документ | Назначение |
 |---|---|
+| [Mink: полный контактный цикл, запись и replay](research/2026-11-18-mink-execution.md) |69,3мм подъём→hold→place/release;12tests,990frames/0rad replay; fixed inputs, не learned grasp |
+| [Геометрия лежащего карандаша](cad-reviews/2026-11-18-pencil-clearance/agent-report.md) | Осевой хват ограничен корпусом; две точные поперечные poses и nominal1,5мм clearance |
+| [Разрешённый18.11 teleop scope](research/2026-11-18-eb300-teleop-adaptation.md) | Проверенные upstream варианты, точный gap и отдельное решение владельца на Mink/LeRobot binding |
 | [Действующий foundation/LoRA план](<../../../../../_ПЛАНЫ_/embedded-robotics-market-research/research/projects/robohand/plans/2026-11-17-foundation-lora.md>) | EB300 EnvHub, запись/replay и base-policy interface приняты; дальше успешные grasp demonstrations |
 | [EB300 EnvHub: выполнено, GIF и следующий этап](research/2026-11-17-eb300-envhub-execution.md) | Полная7action scene,6tests Windows/Linux,50frames/replay, π0.5 на wrist+state7; learned grasp ещё нет |
 | [Готовый adapter и команды](../integrations/lerobot_envhub/README.md) | Stock SimRobot/dataset/CLI/server, limits/units, полный кадр, local geometry и recovery |

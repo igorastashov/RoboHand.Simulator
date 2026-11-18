@@ -1,0 +1,17 @@
+{
+  "mink_commit": "5f800f0a369d05bab88b5e5582cf95122d3b82a5",
+  "frame_body": "ebg20/base",
+  "moving_root_body": "eb300/shoulder_link",
+  "target_body": "eb300/teleop_target",
+  "arm_velocity_limit_rad_s": 0.35,
+  "gripper_velocity_limit_rad_s": 0.6,
+  "open_angle_rad": 1.0,
+  "close_angle_rad": -0.6,
+  "workspace_world_min_m": [-1.5, -1.5, 0.75],
+  "workspace_world_max_m": [1.5, 1.5, 2.0],
+  "collision_min_distance_m": 0.0005,
+  "collision_detection_distance_m": 0.03,
+  "preview_iterations": 400,
+  "preview_position_tolerance_m": 0.0001,
+  "preview_orientation_tolerance_rad": 0.001
+}

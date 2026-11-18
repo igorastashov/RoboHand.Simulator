@@ -1,5 +1,7 @@
 # RoboHand.Simulator
 
+**18.11: [Mink binding и полный физический цикл карандаша проверены](docs/research/2026-11-18-mink-execution.md).** Подъём69,3мм, hold, опускание/release;12tests Windows/Linux.990кадров LeRobot записаны и повторены с0rad ошибки. [Новый GIF](<E:/RoboHand/LATEST/SIMULATION/EB300-ENVHUB/SHOWCASE/EB300-pencil-cycle.gif>) показывает fixed IK inputs; learned policy и зрительный поиск ещё не обучены. [Запуск viewer/записи](integrations/lerobot_envhub/README.md).
+
 **17.11: [полная EB300 подключена к LeRobot EnvHub](docs/research/2026-11-17-eb300-envhub-execution.md).** Подвижный EBG20, один полный wrist frame,7actions; проверены запись50кадров/replay,6tests на Windows/Linux и π0.5 inference на нашей scene. Windows-served replay24,86Hz при цели25Hz; hard realtime не заявляется. [GIF для просмотра](<E:/RoboHand/LATEST/SIMULATION/EB300-ENVHUB/SHOWCASE/EB300-workcell.gif>) показывает заданные движения, навык хвата ещё не обучен. [Adapter/готовые команды](integrations/lerobot_envhub/README.md).
 
 **17.11, выполнение:** [полный текстовый вход π0.5, один LoRA optimizer step и восстановление adapter прошли на локальной3090](docs/research/2026-11-17-pi05-tokenizer-lora.md). Файлы токенизатора проверены; около9,65GBVRAM в reference training smoke. Модель EB300 для хвата ещё не обучена.

@@ -1,11 +1,13 @@
 ---
 tags: [robohand, eb300, latest, release, recovery]
 type: artifact-index
-updated: 2026-11-17
+updated: 2026-11-18
 status: accepted-r8
 ---
 
 # Актуальная EB300: открывать R8
+
+**18.11:** в `LATEST/SIMULATION/EB300-ENVHUB` добавлены [проверенный Mink binding и команды](research/2026-11-18-mink-execution.md), [GIF полного контактного цикла](<E:/RoboHand/LATEST/SIMULATION/EB300-ENVHUB/SHOWCASE/EB300-pencil-cycle.gif>). Baseline scene и native CAD сохранены. Recovery packet `EB300-MINK-2026-11-18.zip` наE иD содержит snapshot run, dataset/trace и runtime; hashes/manifest в execution evidence. Это fixed-target simulation, не learned policy.
 
 **Runtime17.11:** [полная7action EB300/EBG20 + LeRobot EnvHub](research/2026-11-17-eb300-envhub-execution.md) отдельно в `E:\RoboHand\LATEST\SIMULATION\EB300-ENVHUB`. Запись/replay/base-policy interface проверены, [GIF](<E:/RoboHand/LATEST/SIMULATION/EB300-ENVHUB/SHOWCASE/EB300-workcell.gif>) показывает заданное движение. Native CAD R8 ниже сохранена; grasp skill ещё не обучен. Новый runtime имеет7position targets,1wrist image и собственный standard JSON contract; прежняя inspection scene остаётся историческим6axis asset.
 

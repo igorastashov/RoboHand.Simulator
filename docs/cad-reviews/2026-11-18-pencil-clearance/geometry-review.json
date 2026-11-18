@@ -1,0 +1,388 @@
+{
+  "updated": "2026-11-18",
+  "status": "static-geometric-assessment-completed-with-dynamic-gates-open",
+  "protected_inputs": [
+    {
+      "path": "E:\\RoboHand\\runs\\2026-11-17-eb300-envhub\\assets\\eb300_envhub_scene.xml",
+      "sha256": "501e0cbeffc54c161131eedce9a37d5845c7cb8dd7ab80153955eeb80fad735c",
+      "after_analysis_unchanged": true
+    },
+    {
+      "path": "E:\\RoboHand\\LATEST\\CAD\\EB300.a3d",
+      "sha256": "3b919e9642686f2194ca007484ad860229b4fccadf0ea7517d40e6c2383254db",
+      "after_analysis_matches_accepted": true
+    }
+  ],
+  "reuse": {
+    "kompas_mcp_upstream": "hymaxo/kompas3d-mcp",
+    "kompas_mcp_commit": "adef44fdc41401af3b239a5c9b1a4e108e1a237a",
+    "CAD_calls_this_task": 0,
+    "prior_CAD_geometry_reviews": [
+      "../2026-11-15-logical-r8/root-review.md",
+      "../2026-11-17-ebg20-motion/agent-report.md",
+      "../2026-11-17-eb300-envhub/agent-report.md"
+    ],
+    "versions": {
+      "mujoco": "4.0.1",
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "trimesh": "5.2.1"
+    },
+    "upstream_API": "https://mujoco.readthedocs.io/en/stable/APIreference/APIfunctions.html#mj-geomdistance",
+    "one_off_python": "E:\\RoboHand\\tools\\cad-validation-2026-11-14\\.venv\\Scripts\\python.exe"
+  },
+  "method": {
+    "model_load_and_forward": "Stock MjModel.from_xml_path, mj_resetDataKeyframe(envhub_ready), mj_forward",
+    "physics_steps": 0,
+    "pencil_moved": false,
+    "fullarm_IK_written": false,
+    "all_distal_geoms_count": 18,
+    "isolated_query": "Transform compiled distal geom_xpos/geom_xmat arrays for stock mj_geomDistance; no mj_step and no qpos trajectory. All source scene bytes unchanged.",
+    "convex_distance_scope": "mj_geomDistance uses convex mesh support; positive distance is conservative for source shapes. Actual face coverage tested separately.",
+    "native_ccd_enabled": true,
+    "ccd_tolerance_m": 1e-06,
+    "flat_face_test": "226 actual facing triangles per014; barycentric union coverage for41 samples of a10mm line on each face; convex hull LP used only to propose diagonal centers.",
+    "support_query": "All compiled distal mesh vertices; cylinder supports sampled at1440 angles (plane support error <0.1um for these radii).",
+    "bounded_diagonal_scan": "One fixed roll family, beta=0..90deg by.25deg;10mm contact line, margins0/.5/1mm. Not a global angle optimum."
+  },
+  "pencil": {
+    "radius_m": 0.0035,
+    "length_m": 0.11,
+    "center_world_m": [
+      -0.08,
+      -0.3,
+      0.7835
+    ],
+    "axis_world": [
+      1,
+      0,
+      0
+    ],
+    "table_top_m": 0.78
+  },
+  "pad_geometry": {
+    "zero_servo_gap_m": 0.011539072069985116,
+    "center_x_C_m": -0.0007571501773100085,
+    "flat_face_common_yz_bounds_C_m": [
+      [
+        -0.008400001415232557,
+        0.03400000024379582
+      ],
+      [
+        0.00859999857756753,
+        0.069999999756204
+      ]
+    ],
+    "whole_pad_yz_bounds_C_m": [
+      [
+        -0.009400002,
+        0.033
+      ],
+      [
+        0.009599999,
+        0.071
+      ]
+    ],
+    "actual_facing_triangle_counts": [
+      226,
+      226
+    ]
+  },
+  "axial_planar_pad_optimized": [
+    {
+      "margin_m": 0,
+      "roll_support_phi_rad": 1.6689426488128696,
+      "required_axis_height_m": 0.023949327994701584,
+      "actual_axis_height_m": 0.0034999999999999476,
+      "minimum_table_clearance_m": -0.020449327994701637,
+      "pencil_center_C_m": [
+        -0.0007571501773100085,
+        0.00859999857756753,
+        0.1
+      ],
+      "T_world_C": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.18
+        ],
+        [
+          -0.9951875147009616,
+          -0.09798882887004716,
+          0.0,
+          -0.29991080261431263
+        ],
+        [
+          0.09798882887004716,
+          -0.9951875147009616,
+          0.0,
+          0.7921328034699946
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "contact_line_10mm_on_both_actual_faces": true
+    },
+    {
+      "margin_m": 0.001,
+      "roll_support_phi_rad": 1.668942653611571,
+      "required_axis_height_m": 0.02494451550421499,
+      "actual_axis_height_m": 0.0034999999999999476,
+      "minimum_table_clearance_m": -0.021444515504215042,
+      "pencil_center_C_m": [
+        -0.0007571501773100085,
+        0.0075999985775675296,
+        0.1
+      ],
+      "T_world_C": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.18
+        ],
+        [
+          -0.9951875142307425,
+          -0.09798883364565492,
+          0.0,
+          -0.300008791406532
+        ],
+        [
+          0.09798883364565492,
+          -0.9951875142307425,
+          0.0,
+          0.7911376159553358
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "contact_line_10mm_on_both_actual_faces": true
+    }
+  ],
+  "axial_relaxed_edge_contact_necessary_bound": {
+    "scope": "Deliberately relaxed necessary bound: any bilateral contact with either actual pad surface, any allowed servo q >= -0.75 rad; housing002 only, arbitrary roll about pencil/gripper longitudinal axes. Uses enlarged axis-center rectangle; not a feasible contact construction.",
+    "pad_whole_y_bounds_C_m": [
+      -0.0094000017342799,
+      0.009599998586375686
+    ],
+    "min_allowed_gap_m": 0.0012790889136236397,
+    "relaxed_axis_center_xy_bounds_C_m": [
+      [
+        -0.0036176057204981888,
+        -0.0129000017342799
+      ],
+      [
+        0.0021033053658781717,
+        0.013099998586375686
+      ]
+    ],
+    "sample_count": 36000,
+    "grid_min_required_axis_height_m": 0.019000779943296287,
+    "refined_min_required_axis_height_m": 0.01900072899087464,
+    "refined_phi_rad": 1.7998544034134973,
+    "support_function_lipschitz_m": 0.05458727357620424,
+    "grid_certified_lower_required_height_m": 0.01899601630502833,
+    "actual_pencil_axis_height_m": 0.0035,
+    "certified_min_housing_penetration_m": 0.01549601630502833,
+    "finite_table_scope": "Current pencil at (-0.08,-0.30); housing remains over tabletop for permitted contact insertions. No tabletop-edge overhang evaluated.",
+    "finite_table_verified_conservative_housing_xy_bounds_world_m": [
+      [
+        -0.258,
+        -0.354588
+      ],
+      [
+        0.098,
+        -0.245412
+      ]
+    ]
+  },
+  "selected_diagonal_family": [
+    {
+      "name": "diagonal_77.25_margin_0",
+      "angle_pencil_vs_gripper_axis_deg": 77.25,
+      "patch_margin_m": 0,
+      "table_min_signed_distance_m": 0.0005189630450186389,
+      "contact_line_10mm_on_both_actual_faces": true,
+      "T_world_C": [
+        [
+          0.0,
+          -0.9753423205085127,
+          0.22069743502150108,
+          -0.10150518882640214
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          -0.30075715017731
+        ],
+        [
+          0.0,
+          -0.22069743502150108,
+          -0.9753423205085127,
+          0.8515194043410276
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pencil_center_C_m": [
+        -0.0007571501773100085,
+        -0.005963212703161655,
+        0.07108834368322461
+      ]
+    },
+    {
+      "name": "diagonal_80_margin_0",
+      "angle_pencil_vs_gripper_axis_deg": 80.0,
+      "patch_margin_m": 0,
+      "table_min_signed_distance_m": 0.0009331761776834036,
+      "contact_line_10mm_on_both_actual_faces": true,
+      "T_world_C": [
+        [
+          0.0,
+          -0.984807753012208,
+          0.17364817766693041,
+          -0.09619865821820933
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          -0.30075715017731
+        ],
+        [
+          0.0,
+          -0.17364817766693041,
+          -0.984807753012208,
+          0.8522198158350668
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pencil_center_C_m": [
+        -0.0007571501773100085,
+        -0.004019493412321042,
+        0.0704886749001864
+      ]
+    },
+    {
+      "name": "diagonal_81_margin_0.0005",
+      "angle_pencil_vs_gripper_axis_deg": 81.0,
+      "patch_margin_m": 0.0005,
+      "table_min_signed_distance_m": 0.0005151359775469322,
+      "contact_line_10mm_on_both_actual_faces": true,
+      "T_world_C": [
+        [
+          0.0,
+          -0.9876883405951378,
+          0.15643446504023092,
+          -0.09466675463654345
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          -0.30075715017731
+        ],
+        [
+          0.0,
+          -0.15643446504023092,
+          -0.9876883405951378,
+          0.8518663734030012
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pencil_center_C_m": [
+        -0.0007571501773100085,
+        -0.003791325498844461,
+        0.06981905581436189
+      ]
+    },
+    {
+      "name": "diagonal_84.5_margin_0.001",
+      "angle_pencil_vs_gripper_axis_deg": 84.5,
+      "patch_margin_m": 0.001,
+      "table_min_signed_distance_m": 0.000541444267788127,
+      "contact_line_10mm_on_both_actual_faces": true,
+      "T_world_C": [
+        [
+          0.0,
+          -0.9953961983671787,
+          0.09584575252022406,
+          -0.08826954198947035
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          -0.30075715017731
+        ],
+        [
+          0.0,
+          -0.09584575252022406,
+          -0.9953961983671787,
+          0.8519567200505985
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pencil_center_C_m": [
+        -0.0007571501773100085,
+        -0.001670184810240608,
+        0.06893415936603044
+      ]
+    }
+  ],
+  "transverse_poses_file": "pose-candidates.json",
+  "parent_IK_scope": "Stock Mink review is performed independently by root. Early flip=true result used an uncorrected translation; no joint solution copied into this report.",
+  "limits": [
+    "1.5mm nominal table clearance is not a tracking or hardware safety margin.",
+    "Mass/inertia/servo friction and dimensions remain subject to prior nominal/calibration caveats.",
+    "Pad finger pivots/compliance are fixed in current R2 model.",
+    "Projection inside wrist full image does not establish unoccluded visibility.",
+    "No wholearm trajectory, physical pickup or retention episode performed."
+  ],
+  "local_evidence": [
+    {
+      "path": "E:\\RoboHand\\runs\\2026-11-18-teleop-grasp\\assess-clearance-once.py",
+      "sha256": "35e2d412eb7f136a086b36db63b9260d965216543f6b5a49ae8ae958b4fa3c70",
+      "bytes": 10772
+    },
+    {
+      "path": "E:\\RoboHand\\runs\\2026-11-18-teleop-grasp\\pencil-clearance-raw.json",
+      "sha256": "27f9ee2141e85abe551d18cda60e148a1208e9567090cdc872635bb318151bb4",
+      "bytes": 267593
+    },
+    {
+      "path": "E:\\RoboHand\\runs\\2026-11-18-teleop-grasp\\axial-relaxed-bound.json",
+      "sha256": "fe2219d863567ab34542ee801378d268e99eca06117ed66ef045023a882df5d3",
+      "bytes": 1198
+    }
+  ]
+}

@@ -61,6 +61,7 @@ class EB300Env(gym.Env):
         lift_height_m: float = 0.02,
         hold_seconds: float = 0.5,
         render_shadows: bool = True,
+        terminate_on_success: bool = True,
     ):
         super().__init__()
         if fps != FPS:
@@ -88,6 +89,7 @@ class EB300Env(gym.Env):
         self.height, self.width = int(observation_height), int(observation_width)
         self.lift_height_m, self.hold_seconds = float(lift_height_m), float(hold_seconds)
         self.render_shadows = bool(render_shadows)
+        self.terminate_on_success = bool(terminate_on_success)
         limits = np.asarray(self.contract["action_limits_rad"], dtype=np.float32)
         if limits.shape != (7, 2) or not np.isfinite(limits).all() or np.any(limits[:, 0] >= limits[:, 1]):
             raise ValueError("action_limits_rad must contain seven finite ordered ranges")
@@ -206,10 +208,11 @@ class EB300Env(gym.Env):
             success |= current_success
         self._steps += 1
         truncated = self._steps >= self._max_episode_steps
-        self._done = bool(success or truncated)
+        terminated = bool(success and self.terminate_on_success)
+        self._done = bool(terminated or truncated)
         info = {"is_success": bool(success), "metrics": metrics, "sim_time_s": float(self.data.time),
                 "action_clipped": bool(np.any(action != clipped))}
-        return self._observation(), float(success), bool(success), bool(truncated), info
+        return self._observation(), float(success), terminated, bool(truncated), info
 
     def render(self, camera: str | None = None) -> np.ndarray:
         if not self._has_reset:

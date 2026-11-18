@@ -1,9 +1,49 @@
 ---
 tags: [eb300, envhub, simulation, interface, reuse-first]
-updated: 2026-11-17
+updated: 2026-11-18
 ---
 
 # EB300 EnvHub
+
+**18.11:** отдельно разрешён и проверен [Mink teleop binding](../../docs/research/2026-11-18-mink-execution.md). Он лежит в `teleop_mink.py`; исходный EnvHub ниже по-прежнему не содержит IK внутри environment. Полный990frame pickup/hold/place/release повторён с0rad ошибки. Это fixed operator inputs, не learned policy.
+
+## Mink: готовое окно и запись
+
+Дополнительные [requirements](requirements-teleop.txt) фиксируют Mink5f800f0/DAQP/qpsolvers. Baseline `assets/eb300_envhub_scene.xml` сохранена; `assets/eb300_mink_teleop.xml` включает её и добавляет только viewer target group5. Восстановить локальные meshes необходимо, как описано ниже.
+
+На этом ПК native viewer уже проверен. PowerShell:
+
+```powershell
+$eb300Session = Get-Date -Format 'yyyyMMdd-HHmmss'
+& 'E:\RoboHand\tools\mink-1.4.0-2026-11-18\.venv\Scripts\python.exe' `
+  'E:\RoboHand\LATEST\SIMULATION\EB300-ENVHUB\envhub\teleop_mink.py' `
+  --continue-after-success --no-shadows --steps 10000 `
+  --output "E:\RoboHand\runs\manual-eb300-$eb300Session"
+```
+
+`9` включает готовый Mink keyboard teleop; стрелки — localX/Y цели, `6/7` — localZ, `.` переключает rotation, `-/+` меняют шаг. Upstream manual step по умолчанию10мм/10°: для точного подвода уменьшать шаг; `n` переключает continuous mode. `[` закрывает, `]` открывает MG995. Native viewer camera/target — помощь оператору; model input только полный wrist frame. Физические body perturbations/редактирование gravity и states запрещены guard; неудачный run не принимается в обучение. Закрытие окна завершает сеанс и report. Это не autonomous visual grasp.
+
+Native venv не содержит LeRobot writer. Для записи использовать уже проверенное Linux окружение/WSLg на том же ПК (не remote server), из runtime directory:
+
+```bash
+MUJOCO_GL=glfw /var/tmp/robohand-pi05-7910c20-2026-11-17/.venv/bin/python \
+  teleop_mink.py --record --continue-after-success --no-shadows --steps 10000 \
+  --instruction "Pick up the pencil, hold it above the table, then put it back down and release it." \
+  --output /mnt/e/RoboHand/runs/manual-eb300-UNIQUE-NAME
+```
+
+Выбрать новый output path: существующие папки не перезаписываются. Writer не загружает данные в Hub. Проверены viewer+writer5frame smoke,50frame diagnostic и полный990frame headless record/API replay; ручная операторская демонстрация сложного хвата ещё не оценена. `--instruction` должна соответствовать всему записанному действию. Reports имеют `learned_policy=false`; при `--continue-after-success` `task_success` означает, что evaluator достигал цели раньше, а последнее `info.is_success` после releaseFalse.
+
+Воспроизводимый physics diagnostic, **не сбор varied training demonstrations**:
+
+```bash
+python teleop_mink.py --headless --continue-after-success --no-shadows --steps 1200 \
+  --targets assets/mink-pencil-diagnostic-targets.json \
+  --instruction "Pick up the pencil, hold it above the table, then put it back down and release it." \
+  --output /path/to/a/NEW-run
+```
+
+Семь абсолютных углов вrad, прежние torque caps,25Hz simulation clock/2ms. Fixed targets рассчитаны для исходной pencil pose и одного nominal actuator profile, включая фиксированное уточнение по hover. Это не universal grasp planner или real calibration. Collision limit учитывает robot↔obstacles; глобальная self-collision-free траектория не гарантируется. Deep runtime contacts прекращают запись, а всеquality metrics проверяются отдельно. Для benchmark success/rate нужны новые starts/test set.
 
 Разрешённая владельцем минимальная адаптация готового EnvHub к EB300. Штатные LeRobot SimRobot, dataset writer, replay, model factory и transport используются без fork. Здесь нет IK, teleoperator, motor policy, нового UI или собственного training framework.
 

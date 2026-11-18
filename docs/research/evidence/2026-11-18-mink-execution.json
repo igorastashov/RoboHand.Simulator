@@ -1,0 +1,163 @@
+{
+  "as_of": "2026-11-18",
+  "kind": "fixed-operator-inputs-simulation-not-learned-policy",
+  "owner_scope": "2026-11-18-eb300-teleop-adaptation.md; separately approved",
+  "source_pins": [
+    {
+      "repo": "kevinzakka/mink",
+      "sha": "5f800f0a369d05bab88b5e5582cf95122d3b82a5",
+      "tree": "68ec2daa08e7dab149ee312a9645a07391e9cb9c",
+      "date": "2026-11-02T03:09:41Z"
+    },
+    {
+      "repo": "sento2310/Teleop_Gamepad_Mujoco",
+      "sha": "fee0b7ddd220357bbc054cbe5c72c1b7772cda93",
+      "tree": "4e79c90ac3df11f43fa305170ca193448ef1598d",
+      "date": "2025-12-11T09:09:41Z"
+    },
+    {
+      "repo": "XR-Robotics/XRoboToolkit-Teleop-Sample-Python",
+      "sha": "79e5cb8a56e3455515ce1b476e993c764ec58739",
+      "tree": "7bdcddecb0b4f1d4e5016958062de0ccab81f2d1",
+      "date": "2026-01-01T06:20:58Z"
+    },
+    {
+      "repo": "robosimstudio/robosimstudio",
+      "sha": "ba3650c4669fffabb7bd52802f4fdf6cdc66cb19",
+      "tree": "7d84f5968aef5bdc4cbe84eecffd7213651ad76a",
+      "date": "2026-11-13T20:05:01Z"
+    }
+  ],
+  "baseline_scene_sha256": "501e0cbeffc54c161131eedce9a37d5845c7cb8dd7ab80153955eeb80fad735c",
+  "native_cad_sha256": "3b919e9642686f2194ca007484ad860229b4fccadf0ea7517d40e6c2383254db",
+  "tests": {
+    "windows": {
+      "passed": 12,
+      "wall_seconds": 4.658
+    },
+    "linux": {
+      "passed": 12,
+      "wall_seconds": 17.391
+    }
+  },
+  "cycle": {
+    "frames": 990,
+    "simulated_seconds": 39.60000000000243,
+    "maximum_lift_m": 0.06930603402317881,
+    "maximum_continuous_hold_s": 10.30400000000011,
+    "final_metrics": {
+      "lift_m": -4.917992234010349e-06,
+      "held_s": 0.0,
+      "max_pad_penetration_m": 2.9958887953870802e-05,
+      "max_other_penetration_m": 5.4824720005730576e-05,
+      "max_equality_residual": 2.6700818970667485e-05
+    },
+    "final_contacts": [
+      {
+        "geoms": [
+          "pencil_contact",
+          "desktop"
+        ],
+        "signed_distance_m": -4.917992185604625e-06,
+        "normal_force_N": 0.03924000000003004
+      },
+      {
+        "geoms": [
+          "pencil_contact",
+          "desktop"
+        ],
+        "signed_distance_m": -4.917992282416073e-06,
+        "normal_force_N": 0.03923999999997023
+      }
+    ],
+    "success_event_occurred": true,
+    "final_success_event": false,
+    "baseline_torque_caps_preserved": true
+  },
+  "physics_audit": {
+    "max_any_penetration_m": 5.4824720005730576e-05,
+    "max_non_tool_penetration_m": 0.0,
+    "max_force_cap_fraction": 0.8729055193363885,
+    "physics_steps": 19800,
+    "replay_max_joint_error_rad": 0.0,
+    "replay_max_pencil_error_m": 0.0,
+    "status": "replay-physics-audit-and-render-passed",
+    "source_report_sha256": "74fd0bb810c30c183807d02845e1670f3a2e1b23fd2aae6ed0de50aeef24f974",
+    "gif_sha256": "0320ee921f0ca60a73167d32be9f0cdb9fedbbadaeeacd3dd49210e7568b967e",
+    "gif_bytes": 16600276,
+    "gif_frames": 127,
+    "wall_seconds": 36.345842299982905,
+    "learned_policy": false,
+    "real_hardware": false
+  },
+  "full_dataset_replay": {
+    "status": "stock-dataset-read-and-simrobot-replay-passed",
+    "frames": 990,
+    "before_state_max_error_rad": 0.0,
+    "post_state_max_error_rad": 0.0,
+    "timestamp_max_error_s": 1.8310546892053026e-06,
+    "final_success_event": false,
+    "ever_success_event": true,
+    "timestamp_half_ulp_tolerance_s": 1.9173485270584933e-06,
+    "camera_shape": [
+      360,
+      640,
+      3
+    ],
+    "learned_policy": false,
+    "wall_seconds": 62.46675653202692
+  },
+  "short_dataset_replay": {
+    "status": "stock-dataset-read-and-simrobot-replay-passed",
+    "frames": 50,
+    "before_state_max_error_rad": 0.0,
+    "post_state_max_error_rad": 0.0,
+    "timestamp_max_error_s": 5.7220459037665705e-08,
+    "final_success_event": false,
+    "ever_success_event": false,
+    "camera_shape": [
+      360,
+      640,
+      3
+    ],
+    "learned_policy": false,
+    "wall_seconds": 4.086297572997864
+  },
+  "stock_cli_replay": {
+    "frames": 50,
+    "exit_code": 0,
+    "log": "E:/RoboHand/runs/2026-11-18-teleop-grasp/cli-replay-smoke.log"
+  },
+  "viewer_smokes": {
+    "native_windows_frames": 5,
+    "linux_with_writer_frames": 5,
+    "operator_performed_complex_grasp": false
+  },
+  "training_data_status": "diagnostic only; one fixed setup; original990frame annotation does not include release; no LoRA on it",
+  "policy_observation": {
+    "cameras": [
+      "Redmi8A wrist"
+    ],
+    "shape": [
+      360,
+      640,
+      3
+    ],
+    "full_frame": true,
+    "external_cameras": false,
+    "marker_visible": false
+  },
+  "recovery": {
+    "archive": "E:/RoboHand/releases/EB300-MINK-2026-11-18/EB300-MINK-2026-11-18.zip",
+    "mirror": "D:/RoboHand-Backups/EB300-MINK-2026-11-18.zip",
+    "receipt_with_sha256": "E:/RoboHand/releases/EB300-MINK-2026-11-18/receipt.json"
+  },
+  "trained_grasp_policy": false,
+  "real_hardware_used": false,
+  "remote_gpu_host_used": false,
+  "instruction_annotation_smoke": {
+    "status": "passed",
+    "frames": 5,
+    "task": "Pick up the pencil, hold it, then place and release it."
+  }
+}

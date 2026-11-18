@@ -1,0 +1,384 @@
+{
+  "schema": "eb300.static-geometry-targets.v1",
+  "updated": "2026-11-18",
+  "status": "review-candidate-data-only",
+  "source_scene_sha256": "501e0cbeffc54c161131eedce9a37d5845c7cb8dd7ab80153955eeb80fad735c",
+  "units": {
+    "length": "m",
+    "joint_angle": "rad"
+  },
+  "matrix_convention": "T_world_C maps column homogeneous coordinates C to world; T_world_wrist3=T_world_C @ inverse(T_wrist3_C). All quaternions wxyz.",
+  "C_definition": "Source003 local(100,100,0) mm; XYZ axes source003. Cx is rail direction, Cz longitudinal fingers.",
+  "T_wrist3_C": [
+    [
+      -0.6308456664173931,
+      -0.7759083355412515,
+      -8.915090887740007e-14,
+      7.760101717552148e-05
+    ],
+    [
+      -1.0346638135150243e-07,
+      8.412257536394296e-08,
+      -0.9999999999999913,
+      -0.0660000232878026
+    ],
+    [
+      0.7759083355412446,
+      -0.6308456664173876,
+      -1.333487898852459e-07,
+      6.305073611370324e-05
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "unchanged_pencil_world_center_m": [
+    -0.08,
+    -0.3,
+    0.7835
+  ],
+  "pencil_axis_world": [
+    1,
+    0,
+    0
+  ],
+  "pencil_center_C_m": [
+    -0.0007571501773100085,
+    0.0001,
+    0.069
+  ],
+  "servo_and_rack": {
+    "joint": "ebg20/servo_angle",
+    "source_pitch_radius_m_per_rad": 0.00683998877090765,
+    "zero_angle_pad_gap_m": 0.011539072069985116,
+    "touch_angle_rad": -0.3318040586039436,
+    "touch_rack_slide_qpos_m": -0.002269536034992558,
+    "open_diagnostic_angle_rad": 1.0,
+    "nominal_close_command_rad": -0.6,
+    "close_command_scope": "Nominal previous standalone control value, not a pose of undeformed geometry. Contact forces/stall and fullarm pickup not verified here."
+  },
+  "poses": [
+    {
+      "name": "transverse_top_down",
+      "T_world_C": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.0801
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.29924284982269
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.8525
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T_world_wrist3": [
+        [
+          -0.7759083355412513,
+          8.412257539404416e-08,
+          -0.6308456664173874,
+          -0.08000000788819335
+        ],
+        [
+          -0.630845666417393,
+          -1.0346638136583665e-07,
+          0.7759083355412445,
+          -0.29924282397779145
+        ],
+        [
+          8.913659576889962e-14,
+          0.9999999999999909,
+          1.3334878985513457e-07,
+          0.9185000232793943
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_C_quaternion_wxyz": [
+        0.0,
+        0.7071067811865475,
+        0.7071067811865475,
+        0.0
+      ],
+      "pencil_center_C_m": [
+        -0.0007571501773100085,
+        0.0001,
+        0.069
+      ],
+      "table_min_signed_distance_m": 0.0014999992392815689,
+      "table_limiting_geom": "ebg20/jawA_013_3",
+      "pencil_pad_signed_distances_m": {
+        "ebg20/jawA_014_7": -5.840831252854113e-11,
+        "ebg20/jawB_014_4": -5.935848226051727e-11
+      },
+      "pencil_nonpad_overlaps": [],
+      "minimum_pencil_nonpad_distance_m": 0.0035000000332286287,
+      "group_table_min_m": {
+        "housing": 0.051999999662949103,
+        "phone_and_mount": 0.060293963228573395,
+        "fingers_and_pads": 0.0014999992392815689
+      },
+      "group_pencil_min_m": {
+        "housing": 0.04499999996672725,
+        "phone_and_mount": 0.11890645512642123,
+        "finger_bodies_without_pads": 0.0035000000332286287
+      },
+      "envelope_plane_clearance_m": 0.0014999992392815686,
+      "lowest_world_point": [
+        -0.08750000136558192,
+        -0.3079999999165925,
+        0.7814999992392816
+      ],
+      "camera_object_center_projection_uv": [
+        0.4210882920424814,
+        0.6122807568683397
+      ],
+      "projection_does_not_prove_visibility": true,
+      "contact_line_10mm_on_both_actual_faces": true,
+      "angle_pencil_vs_gripper_axis_deg": 90,
+      "J1_origin_to_target_wrist3_m": 0.5772978594998581,
+      "chain_origin_segment_upper_bound_m": 0.9104199453520279,
+      "joint_solution_verified": false,
+      "outer_tip_axial_offset_from_pencil_center_m": 0.002,
+      "actual_flat_face_end_margin_m": 0.001,
+      "pregrasp_T_world_C": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.0801
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.29924284982269
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.8825000000000001
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pregrasp_T_world_wrist3": [
+        [
+          -0.7759083355412513,
+          8.412257539404416e-08,
+          -0.6308456664173874,
+          -0.08000000788819335
+        ],
+        [
+          -0.630845666417393,
+          -1.0346638136583665e-07,
+          0.7759083355412445,
+          -0.29924282397779145
+        ],
+        [
+          8.913659576889962e-14,
+          0.9999999999999909,
+          1.3334878985513457e-07,
+          0.9485000232793943
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pregrasp_scope": "Static target 30mm above touch. No IK, transit, collision-free path or dynamic tracking proof."
+    },
+    {
+      "name": "transverse_top_down_flipped180",
+      "T_world_C": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -0.0799
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          -0.30075715017731
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.8525
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T_world_wrist3": [
+        [
+          0.7759083355412513,
+          -8.412257539404416e-08,
+          0.6308456664173874,
+          -0.07999999211180665
+        ],
+        [
+          0.630845666417393,
+          1.0346638136583665e-07,
+          -0.7759083355412445,
+          -0.3007571760222085
+        ],
+        [
+          8.913659576889962e-14,
+          0.9999999999999909,
+          1.3334878985513457e-07,
+          0.9185000232793943
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_C_quaternion_wxyz": [
+        0.0,
+        0.7071067811865475,
+        -0.7071067811865475,
+        0.0
+      ],
+      "pencil_center_C_m": [
+        -0.0007571501773100085,
+        0.0001,
+        0.069
+      ],
+      "table_min_signed_distance_m": 0.0014999992392815689,
+      "table_limiting_geom": "ebg20/jawA_013_3",
+      "pencil_pad_signed_distances_m": {
+        "ebg20/jawA_014_7": -5.840831252854113e-11,
+        "ebg20/jawB_014_4": -5.935848226051727e-11
+      },
+      "pencil_nonpad_overlaps": [],
+      "minimum_pencil_nonpad_distance_m": 0.0035000000332286287,
+      "group_table_min_m": {
+        "housing": 0.0519999996629491,
+        "phone_and_mount": 0.06029396322857339,
+        "fingers_and_pads": 0.0014999992392815689
+      },
+      "group_pencil_min_m": {
+        "housing": 0.04499999996672725,
+        "phone_and_mount": 0.11890645512642123,
+        "finger_bodies_without_pads": 0.0035000000332286287
+      },
+      "envelope_plane_clearance_m": 0.0014999992392815686,
+      "lowest_world_point": [
+        -0.07249999863441808,
+        -0.2920000000834075,
+        0.7814999992392816
+      ],
+      "camera_object_center_projection_uv": [
+        0.4210882920424814,
+        0.6122807568683397
+      ],
+      "projection_does_not_prove_visibility": true,
+      "contact_line_10mm_on_both_actual_faces": true,
+      "angle_pencil_vs_gripper_axis_deg": 90,
+      "J1_origin_to_target_wrist3_m": 0.5772978750768089,
+      "chain_origin_segment_upper_bound_m": 0.9104199453520279,
+      "joint_solution_verified": false,
+      "outer_tip_axial_offset_from_pencil_center_m": 0.002,
+      "actual_flat_face_end_margin_m": 0.001,
+      "pregrasp_T_world_C": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -0.0799
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          -0.30075715017731
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.8825000000000001
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pregrasp_T_world_wrist3": [
+        [
+          0.7759083355412513,
+          -8.412257539404416e-08,
+          0.6308456664173874,
+          -0.07999999211180665
+        ],
+        [
+          0.630845666417393,
+          1.0346638136583665e-07,
+          -0.7759083355412445,
+          -0.3007571760222085
+        ],
+        [
+          8.913659576889962e-14,
+          0.9999999999999909,
+          1.3334878985513457e-07,
+          0.9485000232793943
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pregrasp_scope": "Static target 30mm above touch. No IK, transit, collision-free path or dynamic tracking proof."
+    }
+  ],
+  "ik_scope": "Parent separately evaluates these targets with stock Mink. This data set contains no joint-space solution.",
+  "excluded_claims": [
+    "collision-free approach path",
+    "physical pickup",
+    "stable grasp",
+    "learned perception",
+    "hardware calibration",
+    "whole proximal arm collision clearance"
+  ]
+}
