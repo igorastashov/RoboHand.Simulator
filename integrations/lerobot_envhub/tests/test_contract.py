@@ -102,6 +102,20 @@ class EB300ContractTests(unittest.TestCase):
         np.testing.assert_array_equal(limits, self.env.model.actuator_forcerange)
         self.assertEqual(time, self.env.data.time)
 
+    def test_observer_identifies_pencil_support_and_resets_contact_provenance(self):
+        initial = self.env.data.ctrl[self.env._actuators].copy()
+        _, _, _, _, info = self.env.step(initial)
+        metrics = info["metrics"]
+        self.assertGreater(metrics["max_other_penetration_m"], 0)
+        counterpart = self.env.model.geom(int(metrics["other_peak_geom_id"])).name
+        self.assertEqual(counterpart, "desktop")
+        self.assertGreater(metrics["other_peak_normal_force_n"], .01)
+        self.assertGreater(metrics["other_peak_time_s"], 0)
+        self.assertLessEqual(metrics["other_peak_time_s"], self.env.data.time)
+        self.env.reset(seed=17)
+        self.assertEqual(self.env._other_peak_geom, -1)
+        self.assertEqual(self.env._other_peak_time, 0)
+
 
 if __name__ == "__main__":
     unittest.main()

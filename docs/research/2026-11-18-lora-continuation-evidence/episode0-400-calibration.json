@@ -1,0 +1,134 @@
+{
+  "stage": "completed",
+  "label": "episode0-400-calibration",
+  "teacher_in_inference": false,
+  "target_files_read_for_inference": false,
+  "normalization": "saved train-only QUANTILES statistics; same fixed data/physics contract",
+  "cases": [
+    {
+      "case_id": "train-00",
+      "split": "train",
+      "quality_success": false,
+      "quality_episode_results": [
+        false,
+        false,
+        false
+      ],
+      "stock_eval": {
+        "per_episode": [
+          {
+            "episode_ix": 0,
+            "sum_reward": 1.0,
+            "max_reward": 1.0,
+            "success": true,
+            "seed": 1000,
+            "metrics": {
+              "held_s": 0.5220000147819519,
+              "lift_m": 0.06605214625597,
+              "max_equality_residual": 2.874321216950193e-05,
+              "max_force_cap_fraction": 0.9589571356773376,
+              "max_non_tool_penetration_m": 6.331013719318435e-05,
+              "max_other_penetration_m": 0.0003240251971874386,
+              "max_pad_penetration_m": 5.5278491345234215e-05,
+              "non_tool_peak_geom1_id": 1.0,
+              "non_tool_peak_geom2_id": 52.0,
+              "non_tool_peak_time_s": 8.498000144958496,
+              "other_peak_geom_id": 1.0,
+              "other_peak_normal_force_n": 0.7251451015472412,
+              "other_peak_time_s": 10.692000389099121
+            }
+          },
+          {
+            "episode_ix": 1,
+            "sum_reward": 1.0,
+            "max_reward": 1.0,
+            "success": true,
+            "seed": 1001,
+            "metrics": {
+              "held_s": 0.5239999890327454,
+              "lift_m": 0.06586015969514847,
+              "max_equality_residual": 2.7366855647414923e-05,
+              "max_force_cap_fraction": 0.9839954972267151,
+              "max_non_tool_penetration_m": 5.022444383939728e-05,
+              "max_other_penetration_m": 0.00016049330588430166,
+              "max_pad_penetration_m": 3.1088282412383705e-05,
+              "non_tool_peak_geom1_id": 1.0,
+              "non_tool_peak_geom2_id": 52.0,
+              "non_tool_peak_time_s": 6.449999809265137,
+              "other_peak_geom_id": 1.0,
+              "other_peak_normal_force_n": 0.30122214555740356,
+              "other_peak_time_s": 9.253999710083008
+            }
+          },
+          {
+            "episode_ix": 2,
+            "sum_reward": 1.0,
+            "max_reward": 1.0,
+            "success": true,
+            "seed": 1002,
+            "metrics": {
+              "held_s": 0.5180000066757202,
+              "lift_m": 0.06320733577013016,
+              "max_equality_residual": 2.9157976314309053e-05,
+              "max_force_cap_fraction": 0.969627857208252,
+              "max_non_tool_penetration_m": 9.24309715628624e-05,
+              "max_other_penetration_m": 0.0002788323618005961,
+              "max_pad_penetration_m": 0.000106471823528409,
+              "non_tool_peak_geom1_id": 1.0,
+              "non_tool_peak_geom2_id": 52.0,
+              "non_tool_peak_time_s": 8.944000244140625,
+              "other_peak_geom_id": 1.0,
+              "other_peak_normal_force_n": 0.21426904201507568,
+              "other_peak_time_s": 9.991999626159668
+            }
+          }
+        ],
+        "aggregated": {
+          "avg_sum_reward": 1.0,
+          "avg_max_reward": 1.0,
+          "pc_success": 100.0,
+          "n_episodes": 3,
+          "n_success": 3,
+          "pc_success_ci95": [
+            43.85029682449546,
+            100.0
+          ],
+          "eval_s": 106.23705267906189,
+          "eval_ep_s": 35.41235097249349
+        },
+        "video_paths": [
+          "/mnt/e/RoboHand/runs/2026-11-18-eb300-continuation/evaluation/episode0-400-calibration/videos/train-00/eval_episode_0.mp4"
+        ]
+      }
+    }
+  ],
+  "model_load_seconds": 99.37482563895173,
+  "cold_reload": {
+    "adapter_tensors": 80,
+    "all_tensors_exact": true,
+    "finite": true,
+    "train_normalization_exact": true,
+    "sha256": "2197ce7cd2a732cdd7d5dc7f6130136c17126ec98fb19ea976c088a57101244a"
+  },
+  "peak_allocated_bytes": 9458912256,
+  "peak_reserved_bytes": 9722396672,
+  "summary": {
+    "train": {
+      "cases": 1,
+      "quality_successes": 0
+    },
+    "validation": {
+      "cases": 0,
+      "quality_successes": 0
+    },
+    "stress": {
+      "cases": 0,
+      "quality_successes": 0
+    }
+  },
+  "excluded_invalid_initial_scene": [
+    "stress-03"
+  ],
+  "calibration_only": true,
+  "episodes_per_case": 3
+}

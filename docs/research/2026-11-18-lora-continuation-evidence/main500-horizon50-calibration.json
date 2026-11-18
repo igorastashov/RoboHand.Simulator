@@ -1,0 +1,117 @@
+{
+  "stage": "completed",
+  "label": "main500-calibration-horizon50",
+  "teacher_in_inference": false,
+  "target_files_read_for_inference": false,
+  "normalization": "saved train-only QUANTILES statistics; same fixed data/physics contract",
+  "execution_horizon": 50,
+  "cases": [
+    {
+      "case_id": "train-00",
+      "split": "train",
+      "quality_success": false,
+      "quality_episode_results": [
+        false,
+        false,
+        false
+      ],
+      "stock_eval": {
+        "per_episode": [
+          {
+            "episode_ix": 0,
+            "sum_reward": 1.0,
+            "max_reward": 1.0,
+            "success": true,
+            "seed": 1000,
+            "metrics": {
+              "held_s": 0.5220000147819519,
+              "lift_m": 0.05687286704778671,
+              "max_equality_residual": 2.639061858644709e-05,
+              "max_force_cap_fraction": 0.9531005024909973,
+              "max_non_tool_penetration_m": 8.496606460539624e-05,
+              "max_other_penetration_m": 0.00042748835403472185,
+              "max_pad_penetration_m": 3.3321390219498426e-05
+            }
+          },
+          {
+            "episode_ix": 1,
+            "sum_reward": 1.0,
+            "max_reward": 1.0,
+            "success": true,
+            "seed": 1001,
+            "metrics": {
+              "held_s": 0.5139999985694885,
+              "lift_m": 0.0639302060008049,
+              "max_equality_residual": 4.312895180191845e-05,
+              "max_force_cap_fraction": 0.9109055399894714,
+              "max_non_tool_penetration_m": 5.737612445955165e-05,
+              "max_other_penetration_m": 0.00030359465745277703,
+              "max_pad_penetration_m": 5.404460898716934e-05
+            }
+          },
+          {
+            "episode_ix": 2,
+            "sum_reward": 0.0,
+            "max_reward": 0.0,
+            "success": false,
+            "seed": 1002,
+            "metrics": {
+              "held_s": 0.0,
+              "lift_m": -4.9179921006725635e-06,
+              "max_equality_residual": 3.3428968890802935e-06,
+              "max_force_cap_fraction": 0.9426696300506592,
+              "max_non_tool_penetration_m": 0.0,
+              "max_other_penetration_m": 5.482471897266805e-05,
+              "max_pad_penetration_m": 0.0
+            }
+          }
+        ],
+        "aggregated": {
+          "avg_sum_reward": 0.6666666666666666,
+          "avg_max_reward": 0.6666666666666666,
+          "pc_success": 66.66666666666666,
+          "n_episodes": 3,
+          "n_success": 2,
+          "pc_success_ci95": [
+            20.76596008020478,
+            93.85080552796038
+          ],
+          "eval_s": 109.2094337940216,
+          "eval_ep_s": 36.40314475695292
+        },
+        "video_paths": [
+          "/mnt/e/RoboHand/runs/2026-11-18-eb300-continuation/evaluation/main500-calibration-horizon50/videos/train-00/eval_episode_0.mp4"
+        ]
+      }
+    }
+  ],
+  "model_load_seconds": 130.36357887397753,
+  "cold_reload": {
+    "adapter_tensors": 80,
+    "all_tensors_exact": true,
+    "finite": true,
+    "train_normalization_exact": true,
+    "sha256": "9920f87526689f60ab5dd9314c9980984856ee6d69034573eb83f78e5b602508"
+  },
+  "peak_allocated_bytes": 9458912256,
+  "peak_reserved_bytes": 9722396672,
+  "summary": {
+    "train": {
+      "cases": 1,
+      "quality_successes": 0
+    },
+    "validation": {
+      "cases": 0,
+      "quality_successes": 0
+    },
+    "stress": {
+      "cases": 0,
+      "quality_successes": 0
+    }
+  },
+  "excluded_invalid_initial_scene": [
+    "stress-03"
+  ],
+  "calibration_only": true,
+  "episodes_per_case": 3
+}

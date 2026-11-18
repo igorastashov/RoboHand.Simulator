@@ -1,0 +1,27 @@
+{
+  "raw_success": true,
+  "quality_success": false,
+  "contact_geometries": {
+    "other_peak_geom_id": "desktop",
+    "non_tool_peak_geom1_id": "desktop",
+    "non_tool_peak_geom2_id": "ebg20/jawB_013_5"
+  },
+  "metrics": {
+    "held_s": 0.5220000147819519,
+    "lift_m": 0.05687286704778671,
+    "max_equality_residual": 2.639061858644709e-05,
+    "max_force_cap_fraction": 0.9531005024909973,
+    "max_non_tool_penetration_m": 8.496606460539624e-05,
+    "max_other_penetration_m": 0.00042748835403472185,
+    "max_pad_penetration_m": 3.3321390219498426e-05,
+    "non_tool_peak_geom1_id": 1.0,
+    "non_tool_peak_geom2_id": 52.0,
+    "non_tool_peak_time_s": 8.291999816894531,
+    "other_peak_geom_id": 1.0,
+    "other_peak_normal_force_n": 1.0541504621505737,
+    "other_peak_time_s": 8.968000411987305
+  },
+  "previous_physics_metrics_exact": true,
+  "same_checkpoint_and_rng": true,
+  "observer_did_not_change_controller": true
+}

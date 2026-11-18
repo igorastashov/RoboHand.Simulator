@@ -1,5 +1,7 @@
 # RoboHand.Simulator
 
+**18.11, продолжение: [первый чистый neural grasp EB300](docs/research/2026-11-18-lora-continuation.md).** Штатная π0.5 LoRA и один полный wrist frame; известный train-00, gentle checkpoint200/horizon50: raw2/3, все прежние quality gates1/3. Это отдельный успешный захват, устойчивый навык и обобщение ещё не приняты. Десять новых expert episodes/3094frames, read-only contact provenance и14tests Windows/Linux; прежний пилот ниже сохранён. [Актуальный указатель и GIF](docs/latest-artifacts.md).
+
 **18.11, новая итерация: [пилот и штатная π0.5 LoRA выполнены](docs/research/2026-11-18-pilot-and-lora.md).**11качественных scripted-expert train episodes/3403frames и4отдельных validation episodes/1238frames; stock merge/split/stats и точное сохранение действий/кадров проверены.1000official LoRA updates на локальной3090,80tensors/cold reload exact. **Захват ещё не освоен: base и LoRA обе0/4validation и0/3stress.** [GIF фактических neural attempts](<E:/RoboHand/LATEST/SIMULATION/EB300-PILOT-LORA/EB300-pi05-base-vs-lora.gif>); успешные expert показы ниже — отдельный результат.
 
 **18.11: [Mink binding и полный физический цикл карандаша проверены](docs/research/2026-11-18-mink-execution.md).** Подъём69,3мм, hold, опускание/release;12tests Windows/Linux.990кадров LeRobot записаны и повторены с0rad ошибки. [Новый GIF](<E:/RoboHand/LATEST/SIMULATION/EB300-ENVHUB/SHOWCASE/EB300-pencil-cycle.gif>) показывает fixed IK inputs; learned policy и зрительный поиск ещё не обучены. [Запуск viewer/записи](integrations/lerobot_envhub/README.md).

@@ -1,0 +1,82 @@
+{
+  "threshold_units": "max absolute joint difference in radians between consecutive frames at25Hz; descriptive, not proof of a cause",
+  "episodes": [
+    {
+      "episode": 0,
+      "frames": 309,
+      "state_delta_below_1e_4_fraction": 0.2694805194805195,
+      "state_delta_below_1e_3_fraction": 0.42207792207792205,
+      "command_delta_below_1e_4_fraction": 0.5194805194805194
+    },
+    {
+      "episode": 1,
+      "frames": 310,
+      "state_delta_below_1e_4_fraction": 0.22330097087378642,
+      "state_delta_below_1e_3_fraction": 0.36245954692556637,
+      "command_delta_below_1e_4_fraction": 0.4886731391585761
+    },
+    {
+      "episode": 2,
+      "frames": 310,
+      "state_delta_below_1e_4_fraction": 0.23300970873786409,
+      "state_delta_below_1e_3_fraction": 0.39158576051779936,
+      "command_delta_below_1e_4_fraction": 0.49514563106796117
+    },
+    {
+      "episode": 3,
+      "frames": 310,
+      "state_delta_below_1e_4_fraction": 0.22330097087378642,
+      "state_delta_below_1e_3_fraction": 0.3656957928802589,
+      "command_delta_below_1e_4_fraction": 0.4886731391585761
+    },
+    {
+      "episode": 4,
+      "frames": 310,
+      "state_delta_below_1e_4_fraction": 0.23300970873786409,
+      "state_delta_below_1e_3_fraction": 0.39158576051779936,
+      "command_delta_below_1e_4_fraction": 0.49514563106796117
+    },
+    {
+      "episode": 5,
+      "frames": 309,
+      "state_delta_below_1e_4_fraction": 0.2597402597402597,
+      "state_delta_below_1e_3_fraction": 0.41883116883116883,
+      "command_delta_below_1e_4_fraction": 0.512987012987013
+    },
+    {
+      "episode": 6,
+      "frames": 309,
+      "state_delta_below_1e_4_fraction": 0.2694805194805195,
+      "state_delta_below_1e_3_fraction": 0.4253246753246753,
+      "command_delta_below_1e_4_fraction": 0.5194805194805194
+    },
+    {
+      "episode": 7,
+      "frames": 309,
+      "state_delta_below_1e_4_fraction": 0.262987012987013,
+      "state_delta_below_1e_3_fraction": 0.41883116883116883,
+      "command_delta_below_1e_4_fraction": 0.5162337662337663
+    },
+    {
+      "episode": 8,
+      "frames": 309,
+      "state_delta_below_1e_4_fraction": 0.2662337662337662,
+      "state_delta_below_1e_3_fraction": 0.41883116883116883,
+      "command_delta_below_1e_4_fraction": 0.5194805194805194
+    },
+    {
+      "episode": 9,
+      "frames": 309,
+      "state_delta_below_1e_4_fraction": 0.2727272727272727,
+      "state_delta_below_1e_3_fraction": 0.4318181818181818,
+      "command_delta_below_1e_4_fraction": 0.5357142857142857
+    },
+    {
+      "episode": 10,
+      "frames": 309,
+      "state_delta_below_1e_4_fraction": 0.275974025974026,
+      "state_delta_below_1e_3_fraction": 0.4318181818181818,
+      "command_delta_below_1e_4_fraction": 0.5324675324675324
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "stage": "completed",
+  "label": "gentle500-horizon50-calibration",
+  "teacher_in_inference": false,
+  "target_files_read_for_inference": false,
+  "normalization": "saved train-only QUANTILES statistics; same fixed data/physics contract",
+  "cases": [
+    {
+      "case_id": "train-00",
+      "split": "train",
+      "quality_success": false,
+      "quality_episode_results": [
+        false,
+        false,
+        false
+      ],
+      "stock_eval": {
+        "per_episode": [
+          {
+            "episode_ix": 0,
+            "sum_reward": 1.0,
+            "max_reward": 1.0,
+            "success": true,
+            "seed": 1000,
+            "metrics": {
+              "held_s": 0.515999972820282,
+              "lift_m": 0.06302796304225922,
+              "max_equality_residual": 2.873937046388164e-05,
+              "max_force_cap_fraction": 0.9448822736740112,
+              "max_non_tool_penetration_m": 8.954451914178208e-05,
+              "max_other_penetration_m": 0.00021428344189189374,
+              "max_pad_penetration_m": 2.4745206246734597e-05,
+              "non_tool_peak_geom1_id": 1.0,
+              "non_tool_peak_geom2_id": 52.0,
+              "non_tool_peak_time_s": 7.776000022888184,
+              "other_peak_geom_id": 1.0,
+              "other_peak_normal_force_n": 0.31814002990722656,
+              "other_peak_time_s": 11.984000205993652
+            }
+          },
+          {
+            "episode_ix": 1,
+            "sum_reward": 1.0,
+            "max_reward": 1.0,
+            "success": true,
+            "seed": 1001,
+            "metrics": {
+              "held_s": 0.5360000133514404,
+              "lift_m": 0.06689237058162689,
+              "max_equality_residual": 1.4100550288276281e-05,
+              "max_force_cap_fraction": 0.9294479489326477,
+              "max_non_tool_penetration_m": 4.980006633559242e-05,
+              "max_other_penetration_m": 0.0001539991208119318,
+              "max_pad_penetration_m": 0.00014335301239043474,
+              "non_tool_peak_geom1_id": 1.0,
+              "non_tool_peak_geom2_id": 52.0,
+              "non_tool_peak_time_s": 7.992000102996826,
+              "other_peak_geom_id": 1.0,
+              "other_peak_normal_force_n": 0.7273695468902588,
+              "other_peak_time_s": 11.387999534606934
+            }
+          },
+          {
+            "episode_ix": 2,
+            "sum_reward": 1.0,
+            "max_reward": 1.0,
+            "success": true,
+            "seed": 1002,
+            "metrics": {
+              "held_s": 0.5260000228881836,
+              "lift_m": 0.0726037323474884,
+              "max_equality_residual": 9.728090844873805e-06,
+              "max_force_cap_fraction": 0.9613663554191589,
+              "max_non_tool_penetration_m": 0.0,
+              "max_other_penetration_m": 0.00011332725989632308,
+              "max_pad_penetration_m": 3.5013759770663455e-05,
+              "non_tool_peak_geom1_id": -1.0,
+              "non_tool_peak_geom2_id": -1.0,
+              "non_tool_peak_time_s": 0.0,
+              "other_peak_geom_id": 1.0,
+              "other_peak_normal_force_n": 0.09874691069126129,
+              "other_peak_time_s": 11.430000305175781
+            }
+          }
+        ],
+        "aggregated": {
+          "avg_sum_reward": 1.0,
+          "avg_max_reward": 1.0,
+          "pc_success": 100.0,
+          "n_episodes": 3,
+          "n_success": 3,
+          "pc_success_ci95": [
+            43.85029682449546,
+            100.0
+          ],
+          "eval_s": 84.262868642807,
+          "eval_ep_s": 28.08762303988139
+        },
+        "video_paths": [
+          "/mnt/e/RoboHand/runs/2026-11-18-eb300-continuation/evaluation/gentle500-horizon50-calibration/videos/train-00/eval_episode_0.mp4"
+        ]
+      }
+    }
+  ],
+  "model_load_seconds": 104.12010877905414,
+  "cold_reload": {
+    "adapter_tensors": 80,
+    "all_tensors_exact": true,
+    "finite": true,
+    "train_normalization_exact": true,
+    "sha256": "841e8f661c34b8de590f9592b9c0f4de1436c2567015a3693b95bf04cf6f7a85"
+  },
+  "peak_allocated_bytes": 9458912256,
+  "peak_reserved_bytes": 9722396672,
+  "summary": {
+    "train": {
+      "cases": 1,
+      "quality_successes": 0
+    },
+    "validation": {
+      "cases": 0,
+      "quality_successes": 0
+    },
+    "stress": {
+      "cases": 0,
+      "quality_successes": 0
+    }
+  },
+  "excluded_invalid_initial_scene": [
+    "stress-03"
+  ],
+  "calibration_only": true,
+  "episodes_per_case": 3
+}

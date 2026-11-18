@@ -1,0 +1,27 @@
+{
+  "status": "stock-recorded-live-input-and-action-roundtrip-verified",
+  "scene": "train-00",
+  "state_max_error_rad": 0.0,
+  "action_roundtrip_max_error_rad": 1.30385160446167e-08,
+  "state_task_tokens_exact": true,
+  "one_full_frame_shape": [
+    1,
+    3,
+    360,
+    640
+  ],
+  "recorded_image_range": [
+    0.027450980618596077,
+    1.0
+  ],
+  "live_image_range": [
+    0.027450980618596077,
+    1.0
+  ],
+  "cross_renderer_image_mean_absolute_delta": 1.3049204028448003e-07,
+  "cross_renderer_image_max_absolute_delta": 0.003921598196029663,
+  "task": "Pick up the pencil and hold it above the table.",
+  "policy_weights_not_loaded": true,
+  "not_a_grasp_success_test": true,
+  "source_loss_is_truncated_to_actual_seven_dimensions": true
+}

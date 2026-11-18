@@ -1,0 +1,557 @@
+{
+  "date": "2026-11-18",
+  "status": "first-clean-learned-grasp-repeatability-open",
+  "accepted_general_grasp_skill": false,
+  "real_hardware_tested": false,
+  "source_commit": "7910c20a75834ad3fa6a9792df4d44a614d1bba6",
+  "platform": "EB300",
+  "camera": "one full640x360wrist frame, no zoom/crop/external camera",
+  "action_state_dimensions": 7,
+  "selected_research_candidate": {
+    "checkpoint": "E:\\RoboHand\\runs\\2026-11-18-eb300-continuation\\training\\gentle-episode0-b16\\checkpoints\\000200\\pretrained_model",
+    "adapter_sha256": "c76b3325b4acd4217a46f2fbca830b011601b01bb14c71984b4715c82d6edccc",
+    "execution_horizon": 50,
+    "denoising_steps": 10,
+    "selection": "first strict passing known-start profile; highest observed strict count among the two predeclared gentle horizon50 endpoints",
+    "raw_successes": 2,
+    "quality_successes": 1,
+    "episodes": 3
+  },
+  "final_budget_checkpoint": {
+    "checkpoint": "E:\\RoboHand\\runs\\2026-11-18-eb300-continuation\\training\\gentle-episode0-b16\\checkpoints\\000500\\pretrained_model",
+    "adapter_sha256": "841e8f661c34b8de590f9592b9c0f4de1436c2567015a3693b95bf04cf6f7a85",
+    "execution_horizon": 50,
+    "denoising_steps": 10,
+    "raw_successes": 3,
+    "quality_successes": 0,
+    "episodes": 3
+  },
+  "new_training": {
+    "completed_updates": 500,
+    "batch_size": 16,
+    "sampling": "gentle episode0 only",
+    "normalization_dataset_episodes": 10,
+    "normalization_dataset_frames": 3094,
+    "normalization_from_heldout": false
+  },
+  "new_validation_or_stress_evaluation": false,
+  "reason_no_new_heldout_score": "Known-start quality repeatability gate not passed; original held-out scenes preserved",
+  "physics_gates_unchanged": true,
+  "teacher_in_inference": false,
+  "next_step": "Qualified approach and recovery demonstrations through the existing approved Mink binding; stock multi-episode fine-tune; repeat strict known-start before independent validation. No new controller/model architecture.",
+  "calibration_matrix": [
+    {
+      "label": "main500-calibration",
+      "episodes": 3,
+      "raw_successes": 1,
+      "quality_successes": 0,
+      "cold_reload": {
+        "adapter_tensors": 80,
+        "all_tensors_exact": true,
+        "finite": true,
+        "train_normalization_exact": true,
+        "sha256": "9920f87526689f60ab5dd9314c9980984856ee6d69034573eb83f78e5b602508"
+      },
+      "per_episode": [
+        {
+          "episode_ix": 0,
+          "sum_reward": 1.0,
+          "max_reward": 1.0,
+          "success": true,
+          "seed": 1000,
+          "metrics": {
+            "held_s": 0.5339999794960022,
+            "lift_m": 0.06177258491516113,
+            "max_equality_residual": 3.0226079616113566e-05,
+            "max_force_cap_fraction": 0.9531005024909973,
+            "max_non_tool_penetration_m": 0.00011007206194335595,
+            "max_other_penetration_m": 0.00031701422994956374,
+            "max_pad_penetration_m": 5.70450683881063e-05
+          }
+        },
+        {
+          "episode_ix": 1,
+          "sum_reward": 0.0,
+          "max_reward": 0.0,
+          "success": false,
+          "seed": 1001,
+          "metrics": {
+            "held_s": 0.0,
+            "lift_m": -4.9179921006725635e-06,
+            "max_equality_residual": 7.610811280756025e-06,
+            "max_force_cap_fraction": 0.9212541580200195,
+            "max_non_tool_penetration_m": 0.0,
+            "max_other_penetration_m": 5.482471897266805e-05,
+            "max_pad_penetration_m": 0.0
+          }
+        },
+        {
+          "episode_ix": 2,
+          "sum_reward": 0.0,
+          "max_reward": 0.0,
+          "success": false,
+          "seed": 1002,
+          "metrics": {
+            "held_s": 0.0,
+            "lift_m": -4.9179921006725635e-06,
+            "max_equality_residual": 9.031809895532206e-06,
+            "max_force_cap_fraction": 0.9395033717155457,
+            "max_non_tool_penetration_m": 0.0,
+            "max_other_penetration_m": 0.0002789211575873196,
+            "max_pad_penetration_m": 2.302251050423365e-05
+          }
+        }
+      ]
+    },
+    {
+      "label": "main500-calibration-euler50",
+      "episodes": 3,
+      "raw_successes": 0,
+      "quality_successes": 0,
+      "cold_reload": {
+        "adapter_tensors": 80,
+        "all_tensors_exact": true,
+        "finite": true,
+        "train_normalization_exact": true,
+        "sha256": "9920f87526689f60ab5dd9314c9980984856ee6d69034573eb83f78e5b602508"
+      },
+      "per_episode": [
+        {
+          "episode_ix": 0,
+          "sum_reward": 0.0,
+          "max_reward": 0.0,
+          "success": false,
+          "seed": 1000,
+          "metrics": {
+            "held_s": 0.0,
+            "lift_m": -4.9179921006725635e-06,
+            "max_equality_residual": 2.43855502048973e-05,
+            "max_force_cap_fraction": 0.9622946381568909,
+            "max_non_tool_penetration_m": 0.00013169372687116265,
+            "max_other_penetration_m": 0.0002126196341123432,
+            "max_pad_penetration_m": 0.0001024721932481043
+          }
+        },
+        {
+          "episode_ix": 1,
+          "sum_reward": 0.0,
+          "max_reward": 0.0,
+          "success": false,
+          "seed": 1001,
+          "metrics": {
+            "held_s": 0.0,
+            "lift_m": -4.9179921006725635e-06,
+            "max_equality_residual": 6.428785582102137e-06,
+            "max_force_cap_fraction": 0.993445873260498,
+            "max_non_tool_penetration_m": 0.0,
+            "max_other_penetration_m": 5.482471897266805e-05,
+            "max_pad_penetration_m": 0.0
+          }
+        },
+        {
+          "episode_ix": 2,
+          "sum_reward": 0.0,
+          "max_reward": 0.0,
+          "success": false,
+          "seed": 1002,
+          "metrics": {
+            "held_s": 0.0,
+            "lift_m": -4.9179921006725635e-06,
+            "max_equality_residual": 1.0201235454587732e-05,
+            "max_force_cap_fraction": 0.9891965389251709,
+            "max_non_tool_penetration_m": 0.0,
+            "max_other_penetration_m": 0.0005677244625985622,
+            "max_pad_penetration_m": 0.0001910320424940437
+          }
+        }
+      ]
+    },
+    {
+      "label": "main500-calibration-horizon50",
+      "episodes": 3,
+      "raw_successes": 2,
+      "quality_successes": 0,
+      "cold_reload": {
+        "adapter_tensors": 80,
+        "all_tensors_exact": true,
+        "finite": true,
+        "train_normalization_exact": true,
+        "sha256": "9920f87526689f60ab5dd9314c9980984856ee6d69034573eb83f78e5b602508"
+      },
+      "per_episode": [
+        {
+          "episode_ix": 0,
+          "sum_reward": 1.0,
+          "max_reward": 1.0,
+          "success": true,
+          "seed": 1000,
+          "metrics": {
+            "held_s": 0.5220000147819519,
+            "lift_m": 0.05687286704778671,
+            "max_equality_residual": 2.639061858644709e-05,
+            "max_force_cap_fraction": 0.9531005024909973,
+            "max_non_tool_penetration_m": 8.496606460539624e-05,
+            "max_other_penetration_m": 0.00042748835403472185,
+            "max_pad_penetration_m": 3.3321390219498426e-05
+          }
+        },
+        {
+          "episode_ix": 1,
+          "sum_reward": 1.0,
+          "max_reward": 1.0,
+          "success": true,
+          "seed": 1001,
+          "metrics": {
+            "held_s": 0.5139999985694885,
+            "lift_m": 0.0639302060008049,
+            "max_equality_residual": 4.312895180191845e-05,
+            "max_force_cap_fraction": 0.9109055399894714,
+            "max_non_tool_penetration_m": 5.737612445955165e-05,
+            "max_other_penetration_m": 0.00030359465745277703,
+            "max_pad_penetration_m": 5.404460898716934e-05
+          }
+        },
+        {
+          "episode_ix": 2,
+          "sum_reward": 0.0,
+          "max_reward": 0.0,
+          "success": false,
+          "seed": 1002,
+          "metrics": {
+            "held_s": 0.0,
+            "lift_m": -4.9179921006725635e-06,
+            "max_equality_residual": 3.3428968890802935e-06,
+            "max_force_cap_fraction": 0.9426696300506592,
+            "max_non_tool_penetration_m": 0.0,
+            "max_other_penetration_m": 5.482471897266805e-05,
+            "max_pad_penetration_m": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "label": "episode0-400-calibration",
+      "episodes": 3,
+      "raw_successes": 3,
+      "quality_successes": 0,
+      "cold_reload": {
+        "adapter_tensors": 80,
+        "all_tensors_exact": true,
+        "finite": true,
+        "train_normalization_exact": true,
+        "sha256": "2197ce7cd2a732cdd7d5dc7f6130136c17126ec98fb19ea976c088a57101244a"
+      },
+      "per_episode": [
+        {
+          "episode_ix": 0,
+          "sum_reward": 1.0,
+          "max_reward": 1.0,
+          "success": true,
+          "seed": 1000,
+          "metrics": {
+            "held_s": 0.5220000147819519,
+            "lift_m": 0.06605214625597,
+            "max_equality_residual": 2.874321216950193e-05,
+            "max_force_cap_fraction": 0.9589571356773376,
+            "max_non_tool_penetration_m": 6.331013719318435e-05,
+            "max_other_penetration_m": 0.0003240251971874386,
+            "max_pad_penetration_m": 5.5278491345234215e-05,
+            "non_tool_peak_geom1_id": 1.0,
+            "non_tool_peak_geom2_id": 52.0,
+            "non_tool_peak_time_s": 8.498000144958496,
+            "other_peak_geom_id": 1.0,
+            "other_peak_normal_force_n": 0.7251451015472412,
+            "other_peak_time_s": 10.692000389099121
+          }
+        },
+        {
+          "episode_ix": 1,
+          "sum_reward": 1.0,
+          "max_reward": 1.0,
+          "success": true,
+          "seed": 1001,
+          "metrics": {
+            "held_s": 0.5239999890327454,
+            "lift_m": 0.06586015969514847,
+            "max_equality_residual": 2.7366855647414923e-05,
+            "max_force_cap_fraction": 0.9839954972267151,
+            "max_non_tool_penetration_m": 5.022444383939728e-05,
+            "max_other_penetration_m": 0.00016049330588430166,
+            "max_pad_penetration_m": 3.1088282412383705e-05,
+            "non_tool_peak_geom1_id": 1.0,
+            "non_tool_peak_geom2_id": 52.0,
+            "non_tool_peak_time_s": 6.449999809265137,
+            "other_peak_geom_id": 1.0,
+            "other_peak_normal_force_n": 0.30122214555740356,
+            "other_peak_time_s": 9.253999710083008
+          }
+        },
+        {
+          "episode_ix": 2,
+          "sum_reward": 1.0,
+          "max_reward": 1.0,
+          "success": true,
+          "seed": 1002,
+          "metrics": {
+            "held_s": 0.5180000066757202,
+            "lift_m": 0.06320733577013016,
+            "max_equality_residual": 2.9157976314309053e-05,
+            "max_force_cap_fraction": 0.969627857208252,
+            "max_non_tool_penetration_m": 9.24309715628624e-05,
+            "max_other_penetration_m": 0.0002788323618005961,
+            "max_pad_penetration_m": 0.000106471823528409,
+            "non_tool_peak_geom1_id": 1.0,
+            "non_tool_peak_geom2_id": 52.0,
+            "non_tool_peak_time_s": 8.944000244140625,
+            "other_peak_geom_id": 1.0,
+            "other_peak_normal_force_n": 0.21426904201507568,
+            "other_peak_time_s": 9.991999626159668
+          }
+        }
+      ]
+    },
+    {
+      "label": "gentle200-calibration",
+      "episodes": 3,
+      "raw_successes": 0,
+      "quality_successes": 0,
+      "cold_reload": {
+        "adapter_tensors": 80,
+        "all_tensors_exact": true,
+        "finite": true,
+        "train_normalization_exact": true,
+        "sha256": "c76b3325b4acd4217a46f2fbca830b011601b01bb14c71984b4715c82d6edccc"
+      },
+      "per_episode": [
+        {
+          "episode_ix": 0,
+          "sum_reward": 0.0,
+          "max_reward": 0.0,
+          "success": false,
+          "seed": 1000,
+          "metrics": {
+            "held_s": 0.0,
+            "lift_m": -4.9179921006725635e-06,
+            "max_equality_residual": 3.5814013244817033e-05,
+            "max_force_cap_fraction": 0.9559963345527649,
+            "max_non_tool_penetration_m": 9.54934221226722e-05,
+            "max_other_penetration_m": 5.482471897266805e-05,
+            "max_pad_penetration_m": 1.166987931355834e-05,
+            "non_tool_peak_geom1_id": 1.0,
+            "non_tool_peak_geom2_id": 52.0,
+            "non_tool_peak_time_s": 5.533999919891357,
+            "other_peak_geom_id": 1.0,
+            "other_peak_normal_force_n": 0.044349055737257004,
+            "other_peak_time_s": 0.00800000037997961
+          }
+        },
+        {
+          "episode_ix": 1,
+          "sum_reward": 0.0,
+          "max_reward": 0.0,
+          "success": false,
+          "seed": 1001,
+          "metrics": {
+            "held_s": 0.0,
+            "lift_m": -4.9179921006725635e-06,
+            "max_equality_residual": 2.697783929761499e-05,
+            "max_force_cap_fraction": 0.975393533706665,
+            "max_non_tool_penetration_m": 8.515418448951095e-05,
+            "max_other_penetration_m": 5.482471897266805e-05,
+            "max_pad_penetration_m": 0.0,
+            "non_tool_peak_geom1_id": 1.0,
+            "non_tool_peak_geom2_id": 52.0,
+            "non_tool_peak_time_s": 6.473999977111816,
+            "other_peak_geom_id": 1.0,
+            "other_peak_normal_force_n": 0.044349055737257004,
+            "other_peak_time_s": 0.00800000037997961
+          }
+        },
+        {
+          "episode_ix": 2,
+          "sum_reward": 0.0,
+          "max_reward": 0.0,
+          "success": false,
+          "seed": 1002,
+          "metrics": {
+            "held_s": 0.0,
+            "lift_m": -4.9179921006725635e-06,
+            "max_equality_residual": 1.4202229976945091e-05,
+            "max_force_cap_fraction": 0.9884071350097656,
+            "max_non_tool_penetration_m": 0.00011178482964169234,
+            "max_other_penetration_m": 5.482471897266805e-05,
+            "max_pad_penetration_m": 0.0,
+            "non_tool_peak_geom1_id": 1.0,
+            "non_tool_peak_geom2_id": 52.0,
+            "non_tool_peak_time_s": 5.320000171661377,
+            "other_peak_geom_id": 1.0,
+            "other_peak_normal_force_n": 0.044349055737257004,
+            "other_peak_time_s": 0.00800000037997961
+          }
+        }
+      ]
+    },
+    {
+      "label": "gentle200-horizon50-calibration",
+      "episodes": 3,
+      "raw_successes": 2,
+      "quality_successes": 1,
+      "cold_reload": {
+        "adapter_tensors": 80,
+        "all_tensors_exact": true,
+        "finite": true,
+        "train_normalization_exact": true,
+        "sha256": "c76b3325b4acd4217a46f2fbca830b011601b01bb14c71984b4715c82d6edccc"
+      },
+      "per_episode": [
+        {
+          "episode_ix": 0,
+          "sum_reward": 1.0,
+          "max_reward": 1.0,
+          "success": true,
+          "seed": 1000,
+          "metrics": {
+            "held_s": 0.5379999876022339,
+            "lift_m": 0.058925967663526535,
+            "max_equality_residual": 2.1914847820880823e-05,
+            "max_force_cap_fraction": 0.9559963345527649,
+            "max_non_tool_penetration_m": 4.6822413423797116e-05,
+            "max_other_penetration_m": 9.911698725773022e-05,
+            "max_pad_penetration_m": 2.82115852314746e-05,
+            "non_tool_peak_geom1_id": 1.0,
+            "non_tool_peak_geom2_id": 52.0,
+            "non_tool_peak_time_s": 8.01200008392334,
+            "other_peak_geom_id": 1.0,
+            "other_peak_normal_force_n": 0.09775400161743164,
+            "other_peak_time_s": 9.6899995803833
+          }
+        },
+        {
+          "episode_ix": 1,
+          "sum_reward": 1.0,
+          "max_reward": 1.0,
+          "success": true,
+          "seed": 1001,
+          "metrics": {
+            "held_s": 0.527999997138977,
+            "lift_m": 0.06598592549562454,
+            "max_equality_residual": 1.7194222891703248e-05,
+            "max_force_cap_fraction": 0.9467953443527222,
+            "max_non_tool_penetration_m": 4.957167766406201e-05,
+            "max_other_penetration_m": 0.00011302677012281492,
+            "max_pad_penetration_m": 1.875825910246931e-05,
+            "non_tool_peak_geom1_id": 1.0,
+            "non_tool_peak_geom2_id": 52.0,
+            "non_tool_peak_time_s": 7.604000091552734,
+            "other_peak_geom_id": 1.0,
+            "other_peak_normal_force_n": 0.5302090048789978,
+            "other_peak_time_s": 9.907999992370605
+          }
+        },
+        {
+          "episode_ix": 2,
+          "sum_reward": 0.0,
+          "max_reward": 0.0,
+          "success": false,
+          "seed": 1002,
+          "metrics": {
+            "held_s": 0.0,
+            "lift_m": -4.9179921006725635e-06,
+            "max_equality_residual": 1.4029784324520733e-05,
+            "max_force_cap_fraction": 0.9583685994148254,
+            "max_non_tool_penetration_m": 4.352152245701291e-05,
+            "max_other_penetration_m": 5.482471897266805e-05,
+            "max_pad_penetration_m": 2.709851116833306e-07,
+            "non_tool_peak_geom1_id": 1.0,
+            "non_tool_peak_geom2_id": 52.0,
+            "non_tool_peak_time_s": 8.005999565124512,
+            "other_peak_geom_id": 1.0,
+            "other_peak_normal_force_n": 0.044349055737257004,
+            "other_peak_time_s": 0.00800000037997961
+          }
+        }
+      ]
+    },
+    {
+      "label": "gentle500-horizon50-calibration",
+      "episodes": 3,
+      "raw_successes": 3,
+      "quality_successes": 0,
+      "cold_reload": {
+        "adapter_tensors": 80,
+        "all_tensors_exact": true,
+        "finite": true,
+        "train_normalization_exact": true,
+        "sha256": "841e8f661c34b8de590f9592b9c0f4de1436c2567015a3693b95bf04cf6f7a85"
+      },
+      "per_episode": [
+        {
+          "episode_ix": 0,
+          "sum_reward": 1.0,
+          "max_reward": 1.0,
+          "success": true,
+          "seed": 1000,
+          "metrics": {
+            "held_s": 0.515999972820282,
+            "lift_m": 0.06302796304225922,
+            "max_equality_residual": 2.873937046388164e-05,
+            "max_force_cap_fraction": 0.9448822736740112,
+            "max_non_tool_penetration_m": 8.954451914178208e-05,
+            "max_other_penetration_m": 0.00021428344189189374,
+            "max_pad_penetration_m": 2.4745206246734597e-05,
+            "non_tool_peak_geom1_id": 1.0,
+            "non_tool_peak_geom2_id": 52.0,
+            "non_tool_peak_time_s": 7.776000022888184,
+            "other_peak_geom_id": 1.0,
+            "other_peak_normal_force_n": 0.31814002990722656,
+            "other_peak_time_s": 11.984000205993652
+          }
+        },
+        {
+          "episode_ix": 1,
+          "sum_reward": 1.0,
+          "max_reward": 1.0,
+          "success": true,
+          "seed": 1001,
+          "metrics": {
+            "held_s": 0.5360000133514404,
+            "lift_m": 0.06689237058162689,
+            "max_equality_residual": 1.4100550288276281e-05,
+            "max_force_cap_fraction": 0.9294479489326477,
+            "max_non_tool_penetration_m": 4.980006633559242e-05,
+            "max_other_penetration_m": 0.0001539991208119318,
+            "max_pad_penetration_m": 0.00014335301239043474,
+            "non_tool_peak_geom1_id": 1.0,
+            "non_tool_peak_geom2_id": 52.0,
+            "non_tool_peak_time_s": 7.992000102996826,
+            "other_peak_geom_id": 1.0,
+            "other_peak_normal_force_n": 0.7273695468902588,
+            "other_peak_time_s": 11.387999534606934
+          }
+        },
+        {
+          "episode_ix": 2,
+          "sum_reward": 1.0,
+          "max_reward": 1.0,
+          "success": true,
+          "seed": 1002,
+          "metrics": {
+            "held_s": 0.5260000228881836,
+            "lift_m": 0.0726037323474884,
+            "max_equality_residual": 9.728090844873805e-06,
+            "max_force_cap_fraction": 0.9613663554191589,
+            "max_non_tool_penetration_m": 0.0,
+            "max_other_penetration_m": 0.00011332725989632308,
+            "max_pad_penetration_m": 3.5013759770663455e-05,
+            "non_tool_peak_geom1_id": -1.0,
+            "non_tool_peak_geom2_id": -1.0,
+            "non_tool_peak_time_s": 0.0,
+            "other_peak_geom_id": 1.0,
+            "other_peak_normal_force_n": 0.09874691069126129,
+            "other_peak_time_s": 11.430000305175781
+          }
+        }
+      ]
+    }
+  ]
+}

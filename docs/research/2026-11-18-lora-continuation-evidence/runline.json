@@ -1,0 +1,58 @@
+{
+  "source_commit": "7910c20a75834ad3fa6a9792df4d44a614d1bba6",
+  "stages": [
+    {
+      "stage": "pilot1000",
+      "additional_steps": 1000,
+      "batch_size": 4,
+      "dataset": "11 train episodes",
+      "accepted_skill": false
+    },
+    {
+      "stage": "main-b16",
+      "additional_saved_steps": 500,
+      "reported_stop_step": 565,
+      "batch_size": 16,
+      "parent": "pilot1000",
+      "calibration_raw": "1/3",
+      "calibration_quality": "0/3",
+      "dataset": "same11"
+    },
+    {
+      "stage": "calibration-episode0-b16",
+      "completed_steps": 500,
+      "selected_checkpoint": 400,
+      "batch_size": 16,
+      "parent": "main-b16/500",
+      "sampling": "episode0",
+      "normalization": "all11 old train episodes",
+      "calibration_raw": "3/3",
+      "calibration_quality": "0/3"
+    },
+    {
+      "stage": "gentle-episode0-b16",
+      "planned_steps": 500,
+      "batch_size": 16,
+      "parent": "calibration-episode0-b16/400",
+      "sampling": "gentle episode0",
+      "normalization": "10 quality-passed gentle train episodes",
+      "state": "completed",
+      "completed_steps": 500,
+      "first_strict_passing_checkpoint": 200,
+      "first_strict_passing_profile": "50execution/10denoising",
+      "final_checkpoint_quality": "0/3",
+      "first_strict_passing_checkpoint_quality": "1/3"
+    }
+  ],
+  "primary_gates_unchanged": {
+    "penetration_m": 0.0001,
+    "equality_m": 0.0001,
+    "force_cap_fraction": 1.000001,
+    "lift_m": 0.02,
+    "hold_s": 0.5
+  },
+  "camera": "one complete640x360Redmi8Awrist image; no crop/zoom/external view",
+  "native_cad_sha256": "3b919e9642686f2194ca007484ad860229b4fccadf0ea7517d40e6c2383254db",
+  "old_runtime_unchanged": true,
+  "remote_host_used": false
+}

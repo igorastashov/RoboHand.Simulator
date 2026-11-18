@@ -157,6 +157,8 @@ class EB300Env(gym.Env):
         self._steps, self._held_s, self._done = 0, 0.0, False
         self._max_pad_penetration = self._max_other_penetration = self._max_equality_residual = 0.0
         self._max_non_tool_penetration = self._max_force_cap_fraction = 0.0
+        self._other_peak_geom, self._other_peak_time, self._other_peak_force = -1, 0.0, 0.0
+        self._non_tool_peak_geoms, self._non_tool_peak_time = (-1, -1), 0.0
         return self._observation(), {"is_success": False, "sim_time_s": float(self.data.time)}
 
     def _evaluate_physics_step(self) -> tuple[bool, dict[str, float]]:
@@ -164,7 +166,11 @@ class EB300Env(gym.Env):
         contact_pads, other_contact = set(), False
         for i, contact in enumerate(data.contact[:data.ncon]):
             if self._tool_geom not in contact.geom:
-                self._max_non_tool_penetration = max(self._max_non_tool_penetration, max(0.0, -float(contact.dist)))
+                depth = max(0.0, -float(contact.dist))
+                if depth > self._max_non_tool_penetration:
+                    self._max_non_tool_penetration = depth
+                    self._non_tool_peak_geoms = tuple(int(g) for g in contact.geom)
+                    self._non_tool_peak_time = float(data.time)
                 continue
             other = int(contact.geom[0] if contact.geom[1] == self._tool_geom else contact.geom[1])
             force = np.zeros(6)
@@ -175,7 +181,10 @@ class EB300Env(gym.Env):
                 if force[0] > 0.005:
                     contact_pads.add(other)
             else:
-                self._max_other_penetration = max(self._max_other_penetration, penetration)
+                if penetration > self._max_other_penetration:
+                    self._max_other_penetration = penetration
+                    self._other_peak_geom = other
+                    self._other_peak_time, self._other_peak_force = float(data.time), float(force[0])
                 other_contact |= force[0] > 0.005
         eq = data.efc_pos[data.efc_type == mujoco.mjtConstraint.mjCNSTR_EQUALITY]
         self._max_equality_residual = max(self._max_equality_residual, float(np.max(np.abs(eq), initial=0)))
@@ -190,6 +199,12 @@ class EB300Env(gym.Env):
                    "max_other_penetration_m": self._max_other_penetration,
                    "max_non_tool_penetration_m": self._max_non_tool_penetration,
                    "max_force_cap_fraction": self._max_force_cap_fraction,
+                   "other_peak_geom_id": self._other_peak_geom,
+                   "other_peak_time_s": self._other_peak_time,
+                   "other_peak_normal_force_n": self._other_peak_force,
+                   "non_tool_peak_geom1_id": self._non_tool_peak_geoms[0],
+                   "non_tool_peak_geom2_id": self._non_tool_peak_geoms[1],
+                   "non_tool_peak_time_s": self._non_tool_peak_time,
                    "max_equality_residual": self._max_equality_residual}
         return self._held_s >= self.hold_seconds, metrics
 

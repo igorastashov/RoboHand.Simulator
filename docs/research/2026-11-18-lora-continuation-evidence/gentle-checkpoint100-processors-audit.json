@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "processors": [
+    "policy_preprocessor",
+    "policy_postprocessor"
+  ],
+  "measured_gentle_train_statistics_exact": true,
+  "action_q01_MG995": -0.4000000060604645
+}

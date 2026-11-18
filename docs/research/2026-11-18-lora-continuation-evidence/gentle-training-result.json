@@ -1,0 +1,57 @@
+{
+  "last_progress_step": 500,
+  "latest_training_log": {
+    "step": 500,
+    "loss": 0.006,
+    "update_s": 2.252,
+    "peak_allocated_gib_rounded": 11.05
+  },
+  "calibration_screenings": [
+    {
+      "additional_step": 100,
+      "raw_successes": 0,
+      "episodes": 1,
+      "quality_not_checked_by_this_stock_aggregator": true,
+      "video_paths": [
+        "/mnt/e/RoboHand/runs/2026-11-18-eb300-continuation/training/gentle-episode0-b16/eval/videos_step_000100/eb300_tool_lift_0/eval_episode_0.mp4"
+      ]
+    },
+    {
+      "additional_step": 200,
+      "raw_successes": 1,
+      "episodes": 1,
+      "quality_not_checked_by_this_stock_aggregator": true,
+      "video_paths": [
+        "/mnt/e/RoboHand/runs/2026-11-18-eb300-continuation/training/gentle-episode0-b16/eval/videos_step_000200/eb300_tool_lift_0/eval_episode_0.mp4"
+      ]
+    },
+    {
+      "additional_step": 300,
+      "raw_successes": 0,
+      "episodes": 1,
+      "quality_not_checked_by_this_stock_aggregator": true,
+      "video_paths": [
+        "/mnt/e/RoboHand/runs/2026-11-18-eb300-continuation/training/gentle-episode0-b16/eval/videos_step_000300/eb300_tool_lift_0/eval_episode_0.mp4"
+      ]
+    },
+    {
+      "additional_step": 400,
+      "raw_successes": 1,
+      "episodes": 1,
+      "quality_not_checked_by_this_stock_aggregator": true,
+      "video_paths": [
+        "/mnt/e/RoboHand/runs/2026-11-18-eb300-continuation/training/gentle-episode0-b16/eval/videos_step_000400/eb300_tool_lift_0/eval_episode_0.mp4"
+      ]
+    },
+    {
+      "additional_step": 500,
+      "raw_successes": 0,
+      "episodes": 1,
+      "quality_not_checked_by_this_stock_aggregator": true,
+      "video_paths": [
+        "/mnt/e/RoboHand/runs/2026-11-18-eb300-continuation/training/gentle-episode0-b16/eval/videos_step_000500/eb300_tool_lift_0/eval_episode_0.mp4"
+      ]
+    }
+  ],
+  "training_complete": true
+}

@@ -5,6 +5,8 @@ updated: 2026-11-18
 
 # EB300 EnvHub
 
+**Продолжение18.11:** [известный старт и первый чистый neural grasp](../../docs/research/2026-11-18-lora-continuation.md): gentle200/horizon50 raw2/3, quality1/3, устойчивый навык не принят.14tests Windows/Linux; observer теперь сохраняет geom IDs/time/normal force в точке максимального контакта. Эти поля не входят в policy input и не меняют control/physics/termination. Для эксперимента используется отдельный `diagnostic-envhub`; исходный pilot runtime и native CAD сохранены. Обычный `LATEST/EB300-ENVHUB` остаётся прежней reviewed teleop версией, не заменяется исследовательским checkpoint.
+
 **Последняя итерация18.11:** [dataset/официальный LoRA pilot/evaluation](../../docs/research/2026-11-18-pilot-and-lora.md) выполнены:11train/4validation episodes,1000updates, exact80tensor reload. Base и LoRA обе0/4validation и0/3valid stress; trained grasp не принят. Успешные fixed-input движения ниже — экспертные показы. Контроллер/геометрия не менялись; добавлены только read-only physics quality peaks и13-я contract test.
 
 **18.11:** отдельно разрешён и проверен [Mink teleop binding](../../docs/research/2026-11-18-mink-execution.md). Он лежит в `teleop_mink.py`; исходный EnvHub ниже по-прежнему не содержит IK внутри environment. Полный990frame pickup/hold/place/release повторён с0rad ошибки. Это fixed operator inputs, не learned policy.
